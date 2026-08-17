@@ -1,0 +1,1264 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-10T06:58:44.585Z",
+  "project": {
+    "title": "【选择】裕昌当铺",
+    "workflowMode": "canvas",
+    "notes": "程靖霖走到炕边，一低头，便和王小活泼灵动的眼神对上了。他心里便有了定数，王小没有吭声，只是从被窝里伸出胳膊和焐热的手。王吉来一见小程子有模有样，便远远站在门口观看。\n程靖霖把手指头搭在脉门上，感觉到有力的脉搏不像病体。",
+    "variables": {},
+    "script": {
+      "nodeTypes": {},
+      "actions": [],
+      "playRules": {
+        "startNode": {
+          "enabled": true,
+          "value": "Start"
+        },
+        "endCondition": {
+          "enabled": false,
+          "value": ""
+        },
+        "visitTracking": {
+          "enabled": false,
+          "value": true
+        },
+        "debugMode": {
+          "enabled": false,
+          "value": false
+        }
+      }
+    },
+    "eventSheet": {
+      "columns": [
+        {
+          "key": "act",
+          "label": "ACT",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "chapter",
+          "label": "Chap.",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventType",
+          "label": "Event Type",
+          "width": "170px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "beatList",
+          "label": "Beat",
+          "width": "180px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventDescription",
+          "label": "Description",
+          "width": "360px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "characterEncountered",
+          "label": "Characters",
+          "width": "320px",
+          "readonly": false,
+          "custom": false
+        }
+      ],
+      "hiddenColumns": []
+    },
+    "eventRowOrder": {},
+    "nodeTypes": [
+      {
+        "type": "Entry",
+        "label": "Entry",
+        "badge": "E",
+        "color": "#cdd6f4",
+        "width": 160,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Content",
+        "label": "Content",
+        "badge": "C",
+        "color": "#61afef",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Dialog",
+        "label": "Dialog",
+        "badge": "D",
+        "color": "#56b6c2",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "dialog",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Choice",
+        "label": "Choice",
+        "badge": "C",
+        "color": "#d19a66",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "choice",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Marker",
+        "label": "Marker",
+        "badge": "M",
+        "color": "#7fdbca",
+        "width": 170,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Event",
+        "label": "Frame",
+        "badge": "F",
+        "color": "#b48cff",
+        "width": 420,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "StorySequence",
+        "label": "Story Sequence",
+        "badge": "N",
+        "color": "#b48cff",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "location",
+            "label": "Location"
+          },
+          {
+            "key": "timeWeather",
+            "label": "Time / Weather"
+          },
+          {
+            "key": "questEpisode",
+            "label": "Quest Ep."
+          },
+          {
+            "key": "status",
+            "label": "Status"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Clue",
+        "label": "Clue",
+        "badge": "N",
+        "color": "#d99a3d",
+        "width": 230,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "evidence",
+            "label": "Evidence"
+          },
+          {
+            "key": "owner",
+            "label": "Owner"
+          },
+          {
+            "key": "outcome",
+            "label": "Outcome"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InterviewNote",
+        "label": "Interview Note",
+        "badge": "N",
+        "color": "#56b6c2",
+        "width": 240,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "recorder",
+            "label": "Recorder"
+          },
+          {
+            "key": "reliability",
+            "label": "Reliability"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "LocationFrame",
+        "label": "Location Frame",
+        "badge": "N",
+        "color": "#6f8fcf",
+        "width": 560,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "mood",
+            "label": "Mood"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ConversationFrame",
+        "label": "Conversation Frame",
+        "badge": "N",
+        "color": "#3aa99f",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "participants",
+            "label": "Participants"
+          },
+          {
+            "key": "summary",
+            "label": "Summary"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InvestigationEvent",
+        "label": "Investigation Event",
+        "badge": "N",
+        "color": "#c678dd",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "clueStatus",
+            "label": "Clue Status"
+          },
+          {
+            "key": "risk",
+            "label": "Risk"
+          },
+          {
+            "key": "evidenceOwner",
+            "label": "Evidence Owner"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ArchiveNote",
+        "label": "Archive Note",
+        "badge": "N",
+        "color": "#8a8f98",
+        "width": 220,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "DraftFrame",
+        "label": "Draft Frame",
+        "badge": "N",
+        "color": "#7f848e",
+        "width": 520,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      }
+    ],
+    "customNodeTypes": [],
+    "characters": [],
+    "deletedNodes": [
+      {
+        "deletedAt": "2026-08-10T06:56:24.236Z",
+        "node": {
+          "id": "n14",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "程靖霖: “王小，为啥装病？”",
+          "x": 6221,
+          "y": 150,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "程靖霖",
+              "line": "“王小，为啥装病？”"
+            }
+          ],
+          "cast": [
+            {
+              "characterId": "gc-程靖霖",
+              "role": "Speaker"
+            }
+          ]
+        },
+        "links": [
+          {
+            "id": "l13",
+            "from": "n13",
+            "to": "n14"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-10T06:56:10.798Z",
+        "node": {
+          "id": "n14",
+          "type": "Content",
+          "title": "Content",
+          "body": "Write narration here.",
+          "x": 6186,
+          "y": 170,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          }
+        },
+        "links": []
+      },
+      {
+        "deletedAt": "2026-08-10T06:52:39.150Z",
+        "node": {
+          "id": "n6",
+          "type": "Content",
+          "title": "Content",
+          "body": "Write narration here.",
+          "x": 2814,
+          "y": 147,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          }
+        },
+        "links": []
+      }
+    ],
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 120,
+        "y": 120,
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "frameId": ""
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "从药房的正门出去，拐上南大街，程靖霖回到了昨天的老路上。他将手揣在怀里，想起夜色降临前见到的王裕昌。穷人的活路越走越窄，富人似乎也并没有好多少。这康德九年的艰难日子，莫非跟穷富没什么关系？\n小广场上的绞架依旧在寒风中矗立，那具尸体在寒风中轻轻摇晃着。街道上依旧没什么人，偶尔有一两个行人经过，看到那具尸体，便不由自主地加快脚步。\n程靖霖慢慢地穿过小广场，目光在那具尸体上稍微停留了一下。死人不需要保暖，枯瘦的尸体上除了一条破裤子外便一无所有，冻结住的眼白漫无目的地望着脚下。寒风吹过，木架发出干涩的声响，绳索慢慢转动着，尸体的眼睛便这样轮流扫过四条大道。\n程靖霖把手揣得更深了一些，从小广场旁走过，面前就是裕昌当铺。这间当铺在县城里开了快二十年——民国初年就有，等到九一八之后，一批铺子倒掉，一批铺子转手，这裕昌当铺却是没有任何变化，前几年还红火过一阵子。\n当铺的两扇黑漆大门已经显得有些陈旧，但仍颇为气派。里面是青砖底脚、木梁、厚门板和高柜台的老式铺面，牌匾旧，边角起皮，门槛高，冬天门鼻和锁鼻都冻得粘手。\n程靖霖走到侧门前，握住门环，叩打了三下门面。",
+        "x": 396,
+        "y": 3,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 579,
+        "height": 387
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "屋里的人: “来了！”",
+        "x": 1138,
+        "y": 140,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "屋里的人",
+            "line": "“来了！”"
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "一阵急促的脚步声，一个面相白净的男子打开了门，他头戴瓜皮帽，身穿长棉袍，是这裕昌当铺的二柜王吉来。他是王裕昌的堂弟，也是整个当铺里有门面的人。平时王裕昌不在，他便料理这当铺上下的买卖，盘点营生，代押小押，与人来往。有时候，富家也有过桥的时候，他便上门去给人家处理事情。\n王吉来看到门口站着的程靖霖，脸上立刻挂起了笑容。",
+        "x": 1423,
+        "y": 105,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 444,
+        "height": 257
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王吉来: “哎哟，程子，快进来暖和一下。大冷天跑一趟，辛苦啦！要不是公子病了，也不能劳烦程先生。”",
+        "x": 1933,
+        "y": 113,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "王吉来",
+            "line": "“哎哟，程子，快进来暖和一下。大冷天跑一趟，辛苦啦！要不是公子病了，也不能劳烦程先生。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          }
+        ],
+        "width": 388,
+        "height": 237
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖向王吉来施礼，钻进了当铺正房。他环顾四周，看到锃亮的柜台与前屋的洋铁皮炉子，以及弥漫在空气里若有若无的一丝萧条气味。他对王吉来寒暄道。",
+        "x": 2388,
+        "y": 121,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 349,
+        "height": 222
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “先生，最近生意怎样？”\n王吉来: “大掌柜这两天跑上跑下的，我们也不知道在办什么事，但今年呐，多半是不如往年。”\n王吉来: “若是以往，王小得了病，大掌柜哪会把宝贝儿子扔在家里，出门去应酬！你看看，今天这上上下下，就只能我来料理。”",
+        "x": 2794,
+        "y": 101,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“先生，最近生意怎样？”"
+          },
+          {
+            "speaker": "王吉来",
+            "line": "“大掌柜这两天跑上跑下的，我们也不知道在办什么事，但今年呐，多半是不如往年。”"
+          },
+          {
+            "speaker": "王吉来",
+            "line": "“若是以往，王小得了病，大掌柜哪会把宝贝儿子扔在家里，出门去应酬！你看看，今天这上上下下，就只能我来料理。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          }
+        ],
+        "width": 497,
+        "height": 316
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖从怀里取出药包，双手交给王吉来。",
+        "x": 3370,
+        "y": 182,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “先生，这是给公子的风寒药。药包里有煎药的法子，老样子，您给灶下就得。”\n程靖霖: “公子怎么就偶染风寒了？这几天也没见他出来溜达。”\n王吉来: “那谁知道呢？”",
+        "x": 3737,
+        "y": 110,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“先生，这是给公子的风寒药。药包里有煎药的法子，老样子，您给灶下就得。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“公子怎么就偶染风寒了？这几天也没见他出来溜达。”"
+          },
+          {
+            "speaker": "王吉来",
+            "line": "“那谁知道呢？”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          }
+        ],
+        "width": 395,
+        "height": 264
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "王吉来打着哈哈，接过药包，拿出老头票纸钞，递给程靖霖。他掂量着药包，却并未立即送客。半晌，他才对程靖霖说。",
+        "x": 4202,
+        "y": 133,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 318,
+        "height": 175
+      },
+      {
+        "id": "n10",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王吉来: “老先生不能出诊，小先生帮忙看看也行啊。小程先生，您要是不急的话，看看公子的病情你，如何？大掌柜爱子如命，我也怕他心神不宁呐。”",
+        "x": 4595,
+        "y": 115,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "王吉来",
+            "line": "“老先生不能出诊，小先生帮忙看看也行啊。小程先生，您要是不急的话，看看公子的病情你，如何？大掌柜爱子如命，我也怕他心神不宁呐。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          }
+        ],
+        "width": 380,
+        "height": 231
+      },
+      {
+        "id": "n11",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖尚在犹豫，王吉来已经走在前面，引他进入内室。王小的房间在后院里，屋子里烧着个炭火盆，少年蒙着大被躺在炕上。",
+        "x": 5011,
+        "y": 172,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王吉来: “少爷！我请小程先生来给您瞧瞧。”\n程靖霖: “公子，我来给你把把脉。”",
+        "x": 5390,
+        "y": 108,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "王吉来",
+            "line": "“少爷！我请小程先生来给您瞧瞧。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“公子，我来给你把把脉。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ],
+        "width": 377,
+        "height": 226
+      },
+      {
+        "id": "n13",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖走到炕边，一低头，便和王小活泼灵动的眼神对上了。他心里便有了定数，",
+        "x": 5812,
+        "y": 139,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 365,
+        "height": 171
+      },
+      {
+        "id": "n14",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "Offer player choices.",
+        "x": 6229,
+        "y": 148,
+        "choices": [
+          "（低声问）“王小，为啥装病？”"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "（低声问）“王小，为啥装病？”",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ]
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王小: “程哥，我……不想上学。日本督学天天骂人，打人。日语我也学不懂……上学就跟进监狱差不多……”\n王小: “程哥，我……”",
+        "x": 6562,
+        "y": 97,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "王小",
+            "line": "“程哥，我……不想上学。日本督学天天骂人，打人。日语我也学不懂……上学就跟进监狱差不多……”"
+          },
+          {
+            "speaker": "王小",
+            "line": "“程哥，我……”"
+          }
+        ],
+        "width": 391,
+        "height": 265
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "Content",
+        "body": "王小没能把话说完。程靖霖的手指离开了他的脉门，把他的胳膊塞回到大被底下。十九岁的药房伙计站起身来，对站在门边的王吉来说道。",
+        "x": 7016,
+        "y": 127,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 318,
+        "height": 181
+      },
+      {
+        "id": "n17",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “先生，公子偶染风寒，问题不大，按照药方服药，几天就能痊愈。冬天冷得利害，孩子体弱，让他在家多养养，这几天就别去上学了。”\n王吉来: “不愧是小先生，这本事也跟老程先生差不多了！”",
+        "x": 7396,
+        "y": 61,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“先生，公子偶染风寒，问题不大，按照药方服药，几天就能痊愈。冬天冷得利害，孩子体弱，让他在家多养养，这几天就别去上学了。”"
+          },
+          {
+            "speaker": "王吉来",
+            "line": "“不愧是小先生，这本事也跟老程先生差不多了！”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          }
+        ],
+        "width": 477,
+        "height": 287
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "title": "Content",
+        "body": "他笑嘻嘻地走上前，手里又多了几张老头票，塞在程靖霖手里。",
+        "x": 7936,
+        "y": 129,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王吉来: “这一趟也不白来，改天公子病好了，我再跟大掌柜说说，登门拜谢。”",
+        "x": 8313,
+        "y": 87,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "王吉来",
+            "line": "“这一趟也不白来，改天公子病好了，我再跟大掌柜说说，登门拜谢。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-王吉来",
+            "role": "Speaker"
+          }
+        ],
+        "width": 340,
+        "height": 200
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖回头看了一眼安静的王小，谢了王吉来，跨出门去。当铺的侧门在他背后关上，王吉来那句“替我向老程先生带好”还回荡在空气中。\n天色已近黑。程靖霖吸入冰冷的空气，当铺里带出来的热气很快被黑夜吞噬。他顺着大道走回到药房前脸，没有迟疑便推开了屋门。黑色的棉门帘子撩起又放下，这一天便也如同这沉重的门帘一样，落到了地上。",
+        "x": 8739,
+        "y": 87,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l1",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l2",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l3",
+        "from": "n3",
+        "to": "n4"
+      },
+      {
+        "id": "l4",
+        "from": "n4",
+        "to": "n5"
+      },
+      {
+        "id": "l5",
+        "from": "n5",
+        "to": "n6"
+      },
+      {
+        "id": "l6",
+        "from": "n6",
+        "to": "n7"
+      },
+      {
+        "id": "l7",
+        "from": "n7",
+        "to": "n8"
+      },
+      {
+        "id": "l8",
+        "from": "n8",
+        "to": "n9"
+      },
+      {
+        "id": "l9",
+        "from": "n9",
+        "to": "n10"
+      },
+      {
+        "id": "l10",
+        "from": "n10",
+        "to": "n11"
+      },
+      {
+        "id": "l11",
+        "from": "n11",
+        "to": "n12"
+      },
+      {
+        "id": "l12",
+        "from": "n12",
+        "to": "n13"
+      },
+      {
+        "id": "l13",
+        "from": "n13",
+        "to": "n14"
+      },
+      {
+        "id": "l14",
+        "from": "n14",
+        "to": "n15",
+        "choiceIndex": 0,
+        "label": "（低声问）“王小，为啥装病？”",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l15",
+        "from": "n15",
+        "to": "n16"
+      },
+      {
+        "id": "l16",
+        "from": "n16",
+        "to": "n17"
+      },
+      {
+        "id": "l17",
+        "from": "n17",
+        "to": "n18"
+      },
+      {
+        "id": "l18",
+        "from": "n18",
+        "to": "n19"
+      },
+      {
+        "id": "l19",
+        "from": "n19",
+        "to": "n20"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 48,
+      "y": 599.5286560058594,
+      "scale": 1
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 340,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

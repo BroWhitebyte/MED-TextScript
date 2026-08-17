@@ -1,0 +1,384 @@
+{
+  "main": {
+    "id": "727e20c61876c7d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e0f261ce0f3c78b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d39ed4d61dc62b4",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章.ncanvas"
+              },
+              "icon": "lucide-ghost",
+              "title": "narrative-canvas-view"
+            }
+          },
+          {
+            "id": "2e351e9ef07baa78",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "cb1bb88e19418ace",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "6dddbfcce78613cb",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/开场对话.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "开场对话.ncanvas"
+            }
+          },
+          {
+            "id": "b925b9bd483fec23",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "小广场黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "48715578369b4739",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/开场对话.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "开场对话.ncanvas"
+            }
+          },
+          {
+            "id": "93bb1cc0e5a0be7e",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章.ncanvas"
+            }
+          },
+          {
+            "id": "0dbbe1cbb84e1f51",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章.ncanvas"
+            }
+          },
+          {
+            "id": "6b46f32797e09a99",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/开场对话.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "开场对话.ncanvas"
+            }
+          },
+          {
+            "id": "fe9013eab412964c",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "小广场黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "1a2016fe8341f2c9",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "小广场黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "225303781a52efb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Characters/王裕昌.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "王裕昌"
+            }
+          },
+          {
+            "id": "7b3e16b40ce41c4f",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "小广场黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "d8e56071fae9b249",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "使用说明.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "使用说明"
+            }
+          }
+        ],
+        "currentTab": 13
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c767cf165b8a3a9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e346525f09b611f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55e615095699ab49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "797e27910ad84d5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "9565bbbe86fa864c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3a29ce9f16eb91a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c16ce8a0faeaaaac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "864a63f6c5d287e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "欢迎.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "be34de8b4daa3c58",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "c5d3cbb9acd2e3f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ca34ff3fe06e3df5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "4828229ac04a09c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "narrative-canvas:打开 Narrative Canvas": false
+    }
+  },
+  "active": "d8e56071fae9b249",
+  "lastOpenFiles": [
+    "Characters/王裕昌.md",
+    "Characters/程靖霖.md",
+    "Characters/wangyuchang.md",
+    "Characters/chengjinglin.md",
+    "使用说明.md",
+    "Flows/【主线】第一章/开场.canvas",
+    "Flows/【主线】序章.canvas",
+    "Flows/【主线】第一章.canvas",
+    "Flows/【主线】序章/序章.canvas",
+    "Exports/小广场黄昏.dialogue",
+    "Flows/【主线】序章/序章/小广场黄昏.ncanvas",
+    "Flows/【主线】第一章/【选择】老佟家车马店.canvas",
+    "Exports/序章.dialogue",
+    "Exports/【选择】伪满警察署.dialogue",
+    "Exports/【选择】老佟家车马店.dialogue",
+    "Exports/【选择】裕昌当铺.dialogue",
+    "Exports/去马家杂货铺送药.dialogue",
+    "Exports/开场对话.dialogue",
+    "Characters/王吉来.md",
+    "Flows/【主线】第一章/【选择】裕昌当铺.ncanvas",
+    "Flows/【主线】第一章/【选择】伪满警察署.canvas",
+    "Flows/【主线】第一章/【选择】伪满警察署.ncanvas",
+    "Characters/佟立春.md",
+    "Characters/李大个子.md",
+    "Flows/【主线】第一章/【选择】裕昌当铺.canvas",
+    "Flows/【主线】第一章/去马家杂货铺送药.canvas",
+    "Flows/【主线】第一章/选择一处地点送药.canvas",
+    "Flows/【主线】第一章/开场/前往马家杂货铺送药.canvas",
+    "Characters/程小梅.md",
+    "Characters/程时一.md",
+    "说明.md",
+    "未命名.md"
+  ]
+}

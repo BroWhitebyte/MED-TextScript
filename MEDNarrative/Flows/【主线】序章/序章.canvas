@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"ea74426385c5b04a","type":"file","file":"Flows/【主线】序章/序章/序章.ncanvas","x":150,"y":250,"width":300,"height":200},
+		{"id":"368fea0979edc228","type":"text","text":"# 与掌柜对话","x":150,"y":40,"width":300,"height":60}
+	],
+	"edges":[]
+}

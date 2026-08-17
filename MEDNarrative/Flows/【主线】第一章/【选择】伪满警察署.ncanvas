@@ -1,0 +1,1457 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-10T06:49:33.358Z",
+  "project": {
+    "title": "【选择】伪满警察署",
+    "workflowMode": "canvas",
+    "notes": "日本警尉没再看他，转身往走廊深处走去。后面的警士推了程靖霖一把。",
+    "variables": {},
+    "script": {
+      "nodeTypes": {},
+      "actions": [],
+      "playRules": {
+        "startNode": {
+          "enabled": true,
+          "value": "Start"
+        },
+        "endCondition": {
+          "enabled": false,
+          "value": ""
+        },
+        "visitTracking": {
+          "enabled": false,
+          "value": true
+        },
+        "debugMode": {
+          "enabled": false,
+          "value": false
+        }
+      }
+    },
+    "eventSheet": {
+      "columns": [
+        {
+          "key": "act",
+          "label": "ACT",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "chapter",
+          "label": "Chap.",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventType",
+          "label": "Event Type",
+          "width": "170px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "beatList",
+          "label": "Beat",
+          "width": "180px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventDescription",
+          "label": "Description",
+          "width": "360px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "characterEncountered",
+          "label": "Characters",
+          "width": "320px",
+          "readonly": false,
+          "custom": false
+        }
+      ],
+      "hiddenColumns": []
+    },
+    "eventRowOrder": {},
+    "nodeTypes": [
+      {
+        "type": "Entry",
+        "label": "Entry",
+        "badge": "E",
+        "color": "#cdd6f4",
+        "width": 160,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Content",
+        "label": "Content",
+        "badge": "C",
+        "color": "#61afef",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Dialog",
+        "label": "Dialog",
+        "badge": "D",
+        "color": "#56b6c2",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "dialog",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Choice",
+        "label": "Choice",
+        "badge": "C",
+        "color": "#d19a66",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "choice",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Marker",
+        "label": "Marker",
+        "badge": "M",
+        "color": "#7fdbca",
+        "width": 170,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Event",
+        "label": "Frame",
+        "badge": "F",
+        "color": "#b48cff",
+        "width": 420,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "StorySequence",
+        "label": "Story Sequence",
+        "badge": "N",
+        "color": "#b48cff",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "location",
+            "label": "Location"
+          },
+          {
+            "key": "timeWeather",
+            "label": "Time / Weather"
+          },
+          {
+            "key": "questEpisode",
+            "label": "Quest Ep."
+          },
+          {
+            "key": "status",
+            "label": "Status"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Clue",
+        "label": "Clue",
+        "badge": "N",
+        "color": "#d99a3d",
+        "width": 230,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "evidence",
+            "label": "Evidence"
+          },
+          {
+            "key": "owner",
+            "label": "Owner"
+          },
+          {
+            "key": "outcome",
+            "label": "Outcome"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InterviewNote",
+        "label": "Interview Note",
+        "badge": "N",
+        "color": "#56b6c2",
+        "width": 240,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "recorder",
+            "label": "Recorder"
+          },
+          {
+            "key": "reliability",
+            "label": "Reliability"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "LocationFrame",
+        "label": "Location Frame",
+        "badge": "N",
+        "color": "#6f8fcf",
+        "width": 560,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "mood",
+            "label": "Mood"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ConversationFrame",
+        "label": "Conversation Frame",
+        "badge": "N",
+        "color": "#3aa99f",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "participants",
+            "label": "Participants"
+          },
+          {
+            "key": "summary",
+            "label": "Summary"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InvestigationEvent",
+        "label": "Investigation Event",
+        "badge": "N",
+        "color": "#c678dd",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "clueStatus",
+            "label": "Clue Status"
+          },
+          {
+            "key": "risk",
+            "label": "Risk"
+          },
+          {
+            "key": "evidenceOwner",
+            "label": "Evidence Owner"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ArchiveNote",
+        "label": "Archive Note",
+        "badge": "N",
+        "color": "#8a8f98",
+        "width": 220,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "DraftFrame",
+        "label": "Draft Frame",
+        "badge": "N",
+        "color": "#7f848e",
+        "width": 520,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      }
+    ],
+    "customNodeTypes": [],
+    "characters": [],
+    "deletedNodes": [
+      {
+        "deletedAt": "2026-08-10T06:48:13.375Z",
+        "node": {
+          "id": "n26",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "Character line.",
+          "x": 10015,
+          "y": 209,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "",
+              "line": "Character line."
+            }
+          ]
+        },
+        "links": [
+          {
+            "id": "l25",
+            "from": "n25",
+            "to": "n26"
+          }
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 120,
+        "y": 120,
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "frameId": ""
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "虽然只有一街之隔，但程靖霖还是不太愿意将目光投向远处那座被漆成黑色的建筑。那大概是这个县城里最为阴森的地方，很多东边的平民家庭夜里吓唬孩子的时候，总会说：“再闹，黑狗子就上门来抓你！”\n县公署发“公告”，协和会讲“道理”，保甲所管“连坐”，警察署就复杂了。如果是平民百姓，平安无事地从里面走出来的几率并不大，这座衙门是带院的两进式改造房。前头朝街，门脸不大，里头吃人。\n程靖霖沿着南大街慢慢走过去，时不时抬起头盯着小广场西南角的那幢建筑。刚才出来时，程时一特别叮嘱他：“警察署的差使，到了就回。多了别问，不让你看的也别看。”\n如果走到路口再过街的话，就需要经过小广场。程靖霖想到那具吊在行刑架上的尸体凝固的眼白，把手往怀里揣紧了一点，低着头穿过南大街上的泥泞和车辙。他左顾右盼，但街上并没有什么人——过去，他偶尔也会被掌柜程时一派去西边送药，但去警察署，还是头一次。\n风更加凌厉起来，卷着尘土打透了程靖霖的裤管。他加快脚步，很快到了警署门口。两个正在抽烟的伪警察看到瘦高的身影靠近，其中一个厉声叫道：",
+        "x": 389,
+        "y": 48,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 454,
+        "height": 292
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警察A: “站住！干什么的！”",
+        "x": 947,
+        "y": 143,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警察A",
+            "line": "“站住！干什么的！”"
+          }
+        ],
+        "width": 288,
+        "height": 169
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "另一个警察认出了程靖霖，",
+        "x": 1297,
+        "y": 166,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警察B: “是老程家药房的伙计。里面用药，我刚让人去药房催了催老掌柜的。动作还挺快，这就送来了。”\n警察B: “进去吧。”",
+        "x": 1588,
+        "y": 102,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警察B",
+            "line": "“是老程家药房的伙计。里面用药，我刚让人去药房催了催老掌柜的。动作还挺快，这就送来了。”"
+          },
+          {
+            "speaker": "警察B",
+            "line": "“进去吧。”"
+          }
+        ],
+        "width": 446,
+        "height": 304
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖点头称是，从两个警察身边蹭进警察署的偏门。站在这幢黑乎乎的建筑前，他的心似乎也跟着沉了下去——被捏紧、揉搓和踩踏。\n大厅里比外面有了点暖和的意思，坐在门口的一个警士懒洋洋地拦住程靖霖",
+        "x": 2090,
+        "y": 169,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警士: “哪来的？找谁？”",
+        "x": 2448,
+        "y": 155,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警士",
+            "line": "“哪来的？找谁？”"
+          }
+        ],
+        "width": 323,
+        "height": 193
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "还没等程靖霖回答，从警署里面传来几句生硬的协和语：“伙计？药，我的。”随着话音，一连串脚步声顺着走廊传来，一个穿着警尉制服的日本人从黑暗中出现，走到程靖霖面前。他上下打量着年轻的伙计，摆手让旁边弹起来敬礼的警士坐下，微微笑了起来：",
+        "x": 2831,
+        "y": 192,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "日本人: “你的，程家的，我的见过你的。药的带来？”",
+        "x": 3219,
+        "y": 194,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "日本人",
+            "line": "“你的，程家的，我的见过你的。药的带来？”"
+          }
+        ],
+        "width": 334,
+        "height": 167
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖低下头，从怀中掏出药包，双手递上。他微微抬起眼睛，眼神与那个日本人鹰隼一样的目光交汇，又赶紧把眼睛垂下。\n日本警尉接过药包，掂了掂。他拍了拍程靖霖的肩膀。",
+        "x": 3620,
+        "y": 180,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "日本人: “你的，跟我来。”",
+        "x": 3995,
+        "y": 182,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "日本人",
+            "line": "“你的，跟我来。”"
+          }
+        ],
+        "width": 258,
+        "height": 158
+      },
+      {
+        "id": "n11",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "Offer player choices.",
+        "x": 4312,
+        "y": 170,
+        "choices": [
+          "是。"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "是。",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ],
+        "width": 282,
+        "height": 188
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "Write narration here.",
+        "x": 4670,
+        "y": 193,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警士: “中野太君叫你跟他走，快点！”",
+        "x": 4987,
+        "y": 177,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警士",
+            "line": "“中野太君叫你跟他走，快点！”"
+          }
+        ],
+        "width": 340,
+        "height": 174
+      },
+      {
+        "id": "n14",
+        "type": "Content",
+        "title": "Content",
+        "body": "走廊似乎长得看不到头。中野警尉打了铁掌的皮靴在水磨石地面上发出响亮的声音，每一步都像是一声判决。程靖霖跟随他走到一扇门前，中野回头看了看他。",
+        "x": 5389,
+        "y": 183,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野: “你的，会治病？”\n",
+        "x": 5776,
+        "y": 165,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野",
+            "line": "“你的，会治病？”"
+          },
+          {
+            "speaker": "",
+            "line": ""
+          }
+        ],
+        "width": 281,
+        "height": 201
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖点点头，但是想起掌柜程时一说的话，又赶紧摇摇头。中野看着他有些慌张的表情，又笑了起来。",
+        "x": 6107,
+        "y": 194,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野: “你的，不要害怕。有人，要看一看。不是我。”",
+        "x": 6488,
+        "y": 183,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野",
+            "line": "“你的，不要害怕。有人，要看一看。不是我。”"
+          }
+        ],
+        "width": 353,
+        "height": 184
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "title": "Content",
+        "body": "他推开门，程靖霖看到空荡荡的房间里摆着一张椅子，一个衣衫破烂的人被牢牢绑在上面。旁边的两个警察看到中野进来，都赶紧立正，手上的皮鞭和警棍垂在地上。\n程靖霖的眼睛不敢抬起来，紧紧盯着审讯室的地面。他看到水泥地上经年累月留下来的一块块深黑色的污渍，上面又覆盖了新的暗红色的痕迹。\n中野把程靖霖拉进房间，把他带到那个受刑者面前。",
+        "x": 6886,
+        "y": 168,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野: “去，看看他的，发烧？”",
+        "x": 7259,
+        "y": 166,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野",
+            "line": "“去，看看他的，发烧？”"
+          }
+        ],
+        "width": 313,
+        "height": 182
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖被推到受刑者面前，这个气息奄奄的男人衣衫破烂，上身的衣服被扯开，胸腹留着新鲜和陈旧的伤痕，干瘦的身躯上布满了皮鞭和木棒的印迹。他的一只眼睛已经青肿起来，脸上满是血渍。\n程靖霖小心地把手覆盖在他的额头上，感觉到一股超过正常体温的炽热。他从怀里拿出手巾，擦掉受刑者嘴上的鲜血，捏着他的下颌，并轻声让他张嘴。\n受刑者的喉咙里吐出几个无法辨认的音节，似乎对于外界的一切都已经无动于衷，但还是张开了嘴。程靖霖看到他的牙齿已经残缺不全，牙床上的新创口还在漾着血丝。男人好像恢复了一点知觉，他的喉结滚动了几下，嘶哑的声音被挤出来。",
+        "x": 7617,
+        "y": 116,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 475,
+        "height": 317
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "受刑者: “水……水……”\n警士: “说，怎么样？”",
+        "x": 8167,
+        "y": 179,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "受刑者",
+            "line": "“水……水……”"
+          },
+          {
+            "speaker": "警士",
+            "line": "“说，怎么样？”"
+          }
+        ],
+        "width": 270,
+        "height": 181
+      },
+      {
+        "id": "n22",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "Offer player choices.",
+        "x": 8494,
+        "y": 163,
+        "choices": [
+          "“风寒，烧得厉害。需要服药休息……”"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "“风寒，烧得厉害。需要服药休息……”",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ],
+        "width": 271,
+        "height": 203
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警士: “休息？快过年了，老子都没歇班。”",
+        "x": 8820,
+        "y": 155,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警士",
+            "line": "“休息？快过年了，老子都没歇班。”"
+          }
+        ],
+        "width": 373,
+        "height": 219
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "他转向中野警尉，说了几句日语。",
+        "x": 9239,
+        "y": 206,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警士: “彼は、その人は確かに病気だったと述べた。拷問を続けるべきでしょうか、それともどうしますか？”\n中野: “こいつは口が達者だ。死なせるわけにはいかない。”",
+        "x": 9568,
+        "y": 129,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.6458564277167793
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警士",
+            "line": "“彼は、その人は確かに病気だったと述べた。拷問を続けるべきでしょうか、それともどうしますか？”"
+          },
+          {
+            "speaker": "中野",
+            "line": "“こいつは口が達者だ。死なせるわけにはいかない。”"
+          }
+        ],
+        "width": 386,
+        "height": 260
+      },
+      {
+        "id": "n26",
+        "type": "Content",
+        "title": "Content",
+        "body": "他将手伸进裤袋，掏出几张“老头票”，招手叫程靖霖过去，把钱递给他",
+        "x": 9998,
+        "y": 195,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野: “你的，走开。”",
+        "x": 10373,
+        "y": 185,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野",
+            "line": "“你的，走开。”"
+          }
+        ],
+        "width": 254,
+        "height": 160
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "拿着药包的警察会意，跟上前去，把程靖霖推到室外，带上了门。程靖霖还没反应过来，一只铁钳似的手便掐住了他的胳膊，把日本人刚塞给他的钱夺了过去。",
+        "x": 10683,
+        "y": 195,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警士: “快滚！”\n警士: “从哪来的回哪去！”",
+        "x": 11076,
+        "y": 204,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "警士",
+            "line": "“快滚！”"
+          },
+          {
+            "speaker": "警士",
+            "line": "“从哪来的回哪去！”"
+          }
+        ],
+        "width": 262,
+        "height": 169
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖不知道自己是怎么从警察署里走出来的。他回身看了看那幢黑漆漆的建筑，仿佛刚做了一场短暂的噩梦。",
+        "x": 11384,
+        "y": 167,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 395,
+        "height": 242
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l1",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l2",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l3",
+        "from": "n3",
+        "to": "n4"
+      },
+      {
+        "id": "l4",
+        "from": "n4",
+        "to": "n5"
+      },
+      {
+        "id": "l5",
+        "from": "n5",
+        "to": "n6"
+      },
+      {
+        "id": "l6",
+        "from": "n6",
+        "to": "n7"
+      },
+      {
+        "id": "l7",
+        "from": "n7",
+        "to": "n8"
+      },
+      {
+        "id": "l8",
+        "from": "n8",
+        "to": "n9"
+      },
+      {
+        "id": "l9",
+        "from": "n9",
+        "to": "n10"
+      },
+      {
+        "id": "l10",
+        "from": "n10",
+        "to": "n11"
+      },
+      {
+        "id": "l11",
+        "from": "n11",
+        "to": "n12",
+        "choiceIndex": 0,
+        "label": "是。",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l12",
+        "from": "n12",
+        "to": "n13"
+      },
+      {
+        "id": "l13",
+        "from": "n13",
+        "to": "n14"
+      },
+      {
+        "id": "l14",
+        "from": "n14",
+        "to": "n15"
+      },
+      {
+        "id": "l15",
+        "from": "n15",
+        "to": "n16"
+      },
+      {
+        "id": "l16",
+        "from": "n16",
+        "to": "n17"
+      },
+      {
+        "id": "l17",
+        "from": "n17",
+        "to": "n18"
+      },
+      {
+        "id": "l18",
+        "from": "n18",
+        "to": "n19"
+      },
+      {
+        "id": "l19",
+        "from": "n19",
+        "to": "n20"
+      },
+      {
+        "id": "l20",
+        "from": "n20",
+        "to": "n21"
+      },
+      {
+        "id": "l21",
+        "from": "n21",
+        "to": "n22"
+      },
+      {
+        "id": "l22",
+        "from": "n22",
+        "to": "n23",
+        "choiceIndex": 0,
+        "label": "“风寒，烧得厉害。需要服药休息……”",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l23",
+        "from": "n23",
+        "to": "n24"
+      },
+      {
+        "id": "l24",
+        "from": "n24",
+        "to": "n25"
+      },
+      {
+        "id": "l25",
+        "from": "n25",
+        "to": "n26"
+      },
+      {
+        "id": "l26",
+        "from": "n26",
+        "to": "n27"
+      },
+      {
+        "id": "l27",
+        "from": "n27",
+        "to": "n28"
+      },
+      {
+        "id": "l28",
+        "from": "n28",
+        "to": "n29"
+      },
+      {
+        "id": "l29",
+        "from": "n29",
+        "to": "n30"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 1078.8174796977783,
+      "y": 571.5677082262539,
+      "scale": 0.92
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 340,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

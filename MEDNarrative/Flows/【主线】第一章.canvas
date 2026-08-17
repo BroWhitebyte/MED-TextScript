@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"6d0cfcd0f3d8daf9","type":"text","text":"# [主线]第一章","x":0,"y":0,"width":400,"height":120},
+		{"id":"c255e12175cfcd62","type":"file","file":"Flows/【主线】第一章/开场.canvas","x":440,"y":0,"width":300,"height":200},
+		{"id":"a62e85784c0a518e","type":"file","file":"Flows/【主线】第一章/去马家杂货铺送药.canvas","x":820,"y":0,"width":300,"height":200},
+		{"id":"6c472a5846723e6f","type":"file","file":"Flows/【主线】第一章/【选择】裕昌当铺.canvas","x":1220,"y":0,"width":300,"height":200},
+		{"id":"17a397945b133406","type":"file","file":"Flows/【主线】第一章/【选择】伪满警察署.canvas","x":1220,"y":280,"width":300,"height":200},
+		{"id":"fc8e46e07b583166","type":"file","file":"Flows/【主线】第一章/【选择】老佟家车马店.canvas","x":1220,"y":-280,"width":300,"height":200}
+	],
+	"edges":[
+		{"id":"47e0fca6ca47dc17","fromNode":"c255e12175cfcd62","fromSide":"right","toNode":"a62e85784c0a518e","toSide":"left"},
+		{"id":"96197eb2929937d1","fromNode":"a62e85784c0a518e","fromSide":"right","toNode":"fc8e46e07b583166","toSide":"left"},
+		{"id":"00336a209aa9c9bf","fromNode":"a62e85784c0a518e","fromSide":"right","toNode":"6c472a5846723e6f","toSide":"left"},
+		{"id":"15c68291c77940d3","fromNode":"a62e85784c0a518e","fromSide":"right","toNode":"17a397945b133406","toSide":"left"}
+	]
+}

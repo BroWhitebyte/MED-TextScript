@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-10T06:21:00.267Z",
+  "project": {
+    "title": "去马家杂货铺送药",
+    "notes": "",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 120,
+        "y": 120
+      }
+    ],
+    "links": []
+  },
+  "ui": {
+    "selectedNodeId": "n0",
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.5
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookJsonOpen": false
+  }
+}
