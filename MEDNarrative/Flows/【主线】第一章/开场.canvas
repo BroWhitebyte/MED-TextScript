@@ -1,7 +1,23 @@
 {
-	"nodes":[
-		{"id":"e7ab81edb3079c1f","type":"text","text":"# 开场","x":0,"y":0,"width":400,"height":120},
-		{"id":"3af4d0d6a4ec4795","type":"file","file":"Flows/【主线】第一章/开场对话.ncanvas","x":460,"y":20,"width":300,"height":200}
+	"nodes": [
+		{
+			"id": "e7ab81edb3079c1f",
+			"type": "text",
+			"text": "# 开场",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "3af4d0d6a4ec4795",
+			"type": "file",
+			"file": "Flows/【主线】第一章/开场对话.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
 	],
-	"edges":[]
+	"edges": []
 }

@@ -8,17 +8,17 @@
     "aiEndpoint": "",
     "aiApiKey": "",
     "aiModel": "",
-    "currentProjectPath": "Flows/【主线】序章/序章/小广场黄昏.ncanvas",
-    "lastProjectPath": "Flows/【主线】序章/序章/小广场黄昏.ncanvas",
+    "currentProjectPath": "Flows/【主线】第一章/去马家杂货铺送药.ncanvas",
+    "lastProjectPath": "Flows/【主线】第一章/去马家杂货铺送药.ncanvas",
     "sharedCharactersFolder": "Characters"
   },
   "session": {
     "version": 1,
-    "savedAt": "2026-08-17T13:37:03.912Z",
+    "savedAt": "2026-08-17T14:53:19.406Z",
     "project": {
-      "title": "小广场黄昏",
+      "title": "序章",
       "workflowMode": "canvas",
-      "notes": "提取自 MED_Demo Event 000（1942年1月30日 黄昏 小广场）",
+      "notes": "",
       "variables": {},
       "script": {
         "nodeTypes": {},
@@ -426,10 +426,89 @@
       ],
       "customNodeTypes": [],
       "characters": [],
-      "deletedNodes": [],
+      "deletedNodes": [
+        {
+          "deletedAt": "2026-08-07T08:50:19.246Z",
+          "node": {
+            "id": "n15",
+            "type": "Choice",
+            "title": "Choice",
+            "body": "Offer player choices.",
+            "x": 1588,
+            "y": -192,
+            "choices": [
+              "Continue",
+              "Turn back"
+            ],
+            "frameId": "",
+            "customFields": {},
+            "ports": {
+              "input": {
+                "side": "left",
+                "t": 0.5396794071903935
+              },
+              "output": {
+                "side": "bottom",
+                "t": 0.4755039898997759
+              }
+            },
+            "choiceRevealMode": "hide",
+            "choiceOptions": [
+              {
+                "id": "opt_1",
+                "label": "Continue",
+                "requires": "",
+                "requiresMode": "all",
+                "effects": []
+              },
+              {
+                "id": "opt_2",
+                "label": "Turn back",
+                "requires": "",
+                "requiresMode": "all",
+                "effects": []
+              }
+            ],
+            "width": 264,
+            "height": 194
+          },
+          "links": []
+        },
+        {
+          "deletedAt": "2026-08-06T07:17:06.006Z",
+          "node": {
+            "id": "2f1415c7fb1c25b0",
+            "type": "Dialog",
+            "title": "与掌柜对话",
+            "body": "",
+            "x": 400,
+            "y": 80,
+            "choices": [],
+            "customFields": {},
+            "ports": {
+              "input": {
+                "side": "top",
+                "t": 0.5
+              },
+              "output": {
+                "side": "bottom",
+                "t": 0.5
+              }
+            },
+            "frameId": ""
+          },
+          "links": [
+            {
+              "id": "2f23973ef816471b",
+              "from": "118d6e4a777c530a",
+              "to": "2f1415c7fb1c25b0"
+            }
+          ]
+        }
+      ],
       "nodes": [
         {
-          "id": "n_entry",
+          "id": "118d6e4a777c530a",
           "type": "Entry",
           "title": "Start",
           "body": "Begin here.",
@@ -440,1313 +519,567 @@
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.5737849055109797
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5437545089034347
             }
           },
           "frameId": ""
         },
         {
+          "id": "n0",
+          "type": "Content",
+          "title": "Content",
+          "body": "天快黑了。\n程靖霖夹着肩膀，顺着北大道一路慢慢向药房走去。北地的寒风卷起尘土，每一缕空气都是坚硬的。\n他深深地呼吸着，每一口吐出的白雾都如同硝烟。\n前面就是县城小广场。腊月的黄昏，街上没什么人，但他捕捉到了一个晃动的身影。\n略有些发福，穿着羊皮大氅，正深一脚浅一脚地走到广场上来。\n他认出这是裕昌当铺的掌柜，王裕昌。\n老王家在民国的那几年，过得就很不错。掌柜王裕昌做生意出身，在县城里又身段灵活，就算到了康德年，裕昌当铺也照样如鱼得水。\n有人说，这是因为王裕昌之前就认识几个日本人，“九一八”之后，那些人给了他不少额外的恩惠……不过，老王家的风评在这个吸血的行当里，还算是过得去的。再穷的人到他家门前，也有一碗水喝。\n但是人心隔肚皮，谁知道人家的生意背后又有什么事呢……\n程靖霖心里想着，步履不停，在广场上和王裕昌碰了个面对面。",
+          "x": 423,
+          "y": -62,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.4581694731841216
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5582541813926091
+            }
+          },
+          "width": 571,
+          "height": 441
+        },
+        {
           "id": "n1",
-          "type": "Content",
-          "title": "Content",
-          "x": 140,
-          "y": 80,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "天快黑了。\n程靖霖夹着肩膀，顺着北大道一路慢慢向药房走去。北地的寒风卷起尘土，每一缕空气都是坚硬的。\n他深深地呼吸着，每一口吐出的白雾都如同硝烟。\n前面就是县城小广场。腊月的黄昏，街上没什么人，但他捕捉到了一个晃动的身影。略有些发福，穿着羊皮大氅，正深一脚浅一脚地走到广场上来。\n他认出这是裕昌当铺的掌柜，王裕昌。\n老王家在民国的那几年，过得就很不错。掌柜王裕昌做生意出身，在县城里又身段灵活，就算到了康德年，裕昌当铺也照样如鱼得水。\n有人说，这是因为王裕昌之前就认识几个日本人，“九一八”之后，那些人给了他不少额外的恩惠……不过，老王家的风评在这个吸血的行当里，还算是过得去的。再穷的人到他家门前，也有一碗水喝。\n但是人心隔肚皮，谁知道人家的生意背后又有什么事呢……\n程靖霖心里想着，步履不停，在广场上和王裕昌碰了个面对面。",
-          "width": 460,
-          "height": 286
-        },
-        {
-          "id": "n2",
-          "type": "Content",
-          "title": "Content",
-          "x": 800,
-          "y": 80,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "还有几步远，他就摘下帽子，向王裕昌打招呼：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n3",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 1460,
-          "y": 80,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “王掌柜！大晚上的，刚回来？”",
-          "turns": [
-            {
-              "speaker": "程靖霖",
-              "line": "“王掌柜！大晚上的，刚回来？”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n4",
-          "type": "Content",
-          "title": "Content",
-          "x": 2120,
-          "y": 80,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌听见程靖霖的招呼，停下了脚步。他认出这是时一堂大药房的伙计，便也微笑着抬抬手：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n5",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 140,
-          "y": 340,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
           "body": "王裕昌: “哦哟，程子。这是又给哪家送药去了？”",
+          "x": 1245,
+          "y": 46,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5437550587697072
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5434845546506486
+            }
+          },
           "turns": [
             {
               "speaker": "王裕昌",
               "line": "“哦哟，程子。这是又给哪家送药去了？”"
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 296,
+          "height": 265
         },
         {
-          "id": "n6",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 800,
-          "y": 340,
+          "id": "n2",
+          "type": "Choice",
+          "title": "Choice",
+          "body": "Offer player choices.",
+          "x": 1681,
+          "y": 102,
+          "choices": [
+            "“这不大成家磨坊那边让给送点冻疮药过去。”",
+            "“掌柜的，吃了吗？”"
+          ],
           "frameId": "",
-          "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.45986243432032786
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5522049268086752
             }
           },
-          "body": "程靖霖: “这不大成家磨坊那边让给送点冻疮药过去。”",
-          "turns": [
+          "choiceRevealMode": "hide",
+          "choiceOptions": [
             {
-              "speaker": "程靖霖",
-              "line": "“这不大成家磨坊那边让给送点冻疮药过去。”"
+              "id": "opt_1",
+              "label": "“这不大成家磨坊那边让给送点冻疮药过去。”",
+              "requires": "",
+              "requiresMode": "all",
+              "effects": []
+            },
+            {
+              "id": "opt_2",
+              "label": "“掌柜的，吃了吗？”",
+              "requires": "",
+              "requiresMode": "all",
+              "effects": []
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 298,
+          "height": 192
         },
         {
-          "id": "n7",
-          "type": "Content",
-          "title": "Content",
-          "x": 1460,
-          "y": 340,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖走近王裕昌，借着黄昏的微光，看到他的靴子上沾满了污泥，望向他的身后，西大道上的灯火已经亮了起来。",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n8",
+          "id": "n3",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 2120,
-          "y": 340,
+          "body": "王裕昌: “那还真巧，这不，有个朋友来拜访，刚请过客。但是这年月……连客都请不动了。”",
+          "x": 2144,
+          "y": -122,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4661793313967954
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5014350330971977
             }
           },
-          "body": "程靖霖: “掌柜的，吃了吗？”",
-          "turns": [
-            {
-              "speaker": "程靖霖",
-              "line": "“掌柜的，吃了吗？”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n9",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 140,
-          "y": 600,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “唉。”\n王裕昌: “刚吃过啦，在那边。”",
           "turns": [
             {
               "speaker": "王裕昌",
-              "line": "“唉。”"
+              "line": "“那还真巧，这不，有个朋友来拜访，刚请过客。但是这年月……连客都请不动了。”"
+            }
+          ],
+          "width": 351,
+          "height": 238
+        },
+        {
+          "id": "n4",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "王裕昌: “刚吃过啦，在那边。”\n王裕昌: “这不，有个朋友来拜访，刚请过客。但是这年月……连客都请不动了。”",
+          "x": 2131,
+          "y": 320,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5151002798507462
             },
+            "output": {
+              "side": "right",
+              "t": 0.5419615593262807
+            }
+          },
+          "width": 390,
+          "height": 264,
+          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“刚吃过啦，在那边。”"
-            }
-          ],
-          "width": 400,
-          "height": 138
-        },
-        {
-          "id": "n10",
-          "type": "Content",
-          "title": "Content",
-          "x": 800,
-          "y": 600,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "他回手指了指西大道尽头挑着幌子的“同和居饭庄”，深吸了一口气说：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n11",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 1460,
-          "y": 600,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “这不，有个朋友来拜访，刚请过客。但是这年月……连客都请不动了。”",
-          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“这不，有个朋友来拜访，刚请过客。但是这年月……连客都请不动了。”"
             }
-          ],
-          "width": 400,
-          "height": 114
+          ]
         },
         {
-          "id": "n12",
+          "id": "n5",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 2120,
-          "y": 600,
+          "body": "程靖霖: “这怎么说？王掌柜。”“大成家那边没活了，这也自然，《粮谷出荷》嘛。这官面的饭庄子……”\n王裕昌: “西边也不好过。”",
+          "x": 2675,
+          "y": 152,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.570043904398726
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5483998750385485
             }
           },
-          "body": "程靖霖: “这怎么说？王掌柜。”",
           "turns": [
             {
               "speaker": "程靖霖",
-              "line": "“这怎么说？王掌柜。”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n13",
-          "type": "Content",
-          "title": "Content",
-          "x": 140,
-          "y": 860,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
+              "line": "“这怎么说？王掌柜。”“大成家那边没活了，这也自然，《粮谷出荷》嘛。这官面的饭庄子……”"
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖有些惊讶，",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n14",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 800,
-          "y": 860,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “大成家那边没活了，这也自然，《粮谷出荷》嘛。这官面的饭庄子……”",
-          "turns": [
-            {
-              "speaker": "程靖霖",
-              "line": "“大成家那边没活了，这也自然，《粮谷出荷》嘛。这官面的饭庄子……”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n15",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 1460,
-          "y": 860,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “西边也不好过。”",
-          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“西边也不好过。”"
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 340,
+          "height": 265
         },
         {
-          "id": "n16",
+          "id": "n6",
           "type": "Content",
           "title": "Content",
-          "x": 2120,
-          "y": 860,
+          "body": "中年人从皮手筒子里抽出手来，粗短的手指上那个金镏子泛起微光。\n他摊开手掌心，把五指一根根地闭合上。",
+          "x": 3141,
+          "y": 160,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4626734278223536
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5289978379601831
             }
           },
-          "body": "中年人从皮手筒子里抽出手来，粗短的手指上那个金镏子泛起微光。他摊开手掌心，把五指一根根地闭合上。",
-          "width": 460,
-          "height": 94
+          "width": 328,
+          "height": 167
         },
         {
-          "id": "n17",
+          "id": "n7",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 140,
-          "y": 1120,
+          "body": "王裕昌: “别说大米了。肉、酒、油……样样都缺。想吃点什么都没有。”\n王裕昌: “烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”",
+          "x": 3609,
+          "y": 125,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4772161745557598
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5805962805654489
             }
           },
-          "body": "王裕昌: “别说大米了。肉、酒、油……样样都缺。想吃点什么都没有。”",
           "turns": [
             {
               "speaker": "王裕昌",
               "line": "“别说大米了。肉、酒、油……样样都缺。想吃点什么都没有。”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n18",
-          "type": "Content",
-          "title": "Content",
-          "x": 800,
-          "y": 1120,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "他指向县城东边正在隐入黑暗的一片平房：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n19",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 1460,
-          "y": 1120,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”",
-          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”"
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 325,
+          "height": 255
         },
         {
-          "id": "n20",
+          "id": "n8",
           "type": "Content",
           "title": "Content",
-          "x": 2120,
-          "y": 1120,
+          "body": "王裕昌的眼神投入慢慢降临的夜色深处。东大道的尽头悄无声息，和亮起灯火的西边仿佛两个世界。",
+          "x": 4056,
+          "y": 184,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4991906807247528
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5638234943719377
             }
           },
-          "body": "王裕昌的眼神投入慢慢降临的夜色深处。东大道的尽头悄无声息，和亮起灯火的西边仿佛两个世界。他收回念头，转眼望向面前这个瘦高的少年，问他：",
-          "width": 460,
-          "height": 94
+          "width": 323,
+          "height": 177
         },
         {
-          "id": "n21",
+          "id": "n9",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 140,
-          "y": 1380,
+          "body": "王裕昌: “程子，你家老掌柜的最近身体还行？”\n程靖霖: “还好，就是最近腿脚不利索了。他说，上了岁数，到冬天旧伤就疼得厉害了。我就多往外跑跑。”\n程靖霖: “除了必须得出诊的事儿之外，不太出屋了。”\n王裕昌: “柴火、煤和吃的，还够吗？”\n程靖霖: “煤够烧的，粮食……大概够过年的。”\n程靖霖: “王掌柜的，大成磨坊那边，连石磨都给贴封条了。这日子还能过吗？咱就是说，要是连您这样的都觉得难受了，那这世道……”\n王裕昌: “嘘！”",
+          "x": 4504,
+          "y": 40,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.5619436579005592
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.554351806640625
             }
           },
-          "body": "王裕昌: “程子，你家老掌柜的最近身体还行？”",
           "turns": [
             {
               "speaker": "王裕昌",
               "line": "“程子，你家老掌柜的最近身体还行？”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n22",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 800,
-          "y": 1380,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “还好，就是最近腿脚不利索了。他说，上了岁数，到冬天旧伤就疼得厉害了。我就多往外跑跑。”",
-          "turns": [
             {
               "speaker": "程靖霖",
               "line": "“还好，就是最近腿脚不利索了。他说，上了岁数，到冬天旧伤就疼得厉害了。我就多往外跑跑。”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n23",
-          "type": "Content",
-          "title": "Content",
-          "x": 1460,
-          "y": 1380,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖恭敬地回答说：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n24",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 2120,
-          "y": 1380,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “除了必须得出诊的事儿之外，不太出屋了。”",
-          "turns": [
             {
               "speaker": "程靖霖",
               "line": "“除了必须得出诊的事儿之外，不太出屋了。”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n25",
-          "type": "Content",
-          "title": "Content",
-          "x": 140,
-          "y": 1640,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "他望向北大道的远处，那里有一间旧屋子还点着灯火，等他回去。",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n26",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 800,
-          "y": 1640,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “柴火、煤和吃的，还够吗？”",
-          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“柴火、煤和吃的，还够吗？”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n27",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 1460,
-          "y": 1640,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “煤够烧的，粮食……”",
-          "turns": [
             {
               "speaker": "程靖霖",
-              "line": "“煤够烧的，粮食……”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n28",
-          "type": "Content",
-          "title": "Content",
-          "x": 2120,
-          "y": 1640,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
+              "line": "“煤够烧的，粮食……大概够过年的。”"
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖思考了一下，",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n29",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 140,
-          "y": 1900,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “大概够过年的。”",
-          "turns": [
-            {
-              "speaker": "程靖霖",
-              "line": "“大概够过年的。”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n30",
-          "type": "Content",
-          "title": "Content",
-          "x": 800,
-          "y": 1900,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "他转身回望自己来的方向，压低声音跟王裕昌说：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n31",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 1460,
-          "y": 1900,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "程靖霖: “王掌柜的，大成磨坊那边，连石磨都给贴封条了。这日子还能过吗？咱就是说，要是连您这样的都觉得难受了，那这世道……”",
-          "turns": [
             {
               "speaker": "程靖霖",
               "line": "“王掌柜的，大成磨坊那边，连石磨都给贴封条了。这日子还能过吗？咱就是说，要是连您这样的都觉得难受了，那这世道……”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n32",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 2120,
-          "y": 1900,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “嘘！”",
-          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“嘘！”"
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 646,
+          "height": 442,
+          "dialogSpeakerRatio": 18
         },
         {
-          "id": "n33",
+          "id": "n10",
           "type": "Content",
           "title": "Content",
-          "x": 140,
-          "y": 2160,
+          "body": "王裕昌面色骤变，他四下里看了看，",
+          "x": 5300,
+          "y": 237,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4401509052998311
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5062167880771397
             }
-          },
-          "body": "王裕昌面色骤变，他四下里看了看，",
-          "width": 460,
-          "height": 94
+          }
         },
         {
-          "id": "n34",
+          "id": "n11",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 800,
-          "y": 2160,
+          "body": "王裕昌: “可别乱说。咱跟外面，可都得说自己过得好着呢。要不……”",
+          "x": 5688,
+          "y": 212,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4656767974028716
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5746584388608297
             }
           },
-          "body": "王裕昌: “可别乱说。咱跟外面，可都得说自己过得好着呢。要不……”",
           "turns": [
             {
               "speaker": "王裕昌",
               "line": "“可别乱说。咱跟外面，可都得说自己过得好着呢。要不……”"
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 370,
+          "height": 174
         },
         {
-          "id": "n35",
+          "id": "n12",
           "type": "Content",
           "title": "Content",
-          "x": 1460,
-          "y": 2160,
+          "body": "两个人同时住了嘴，目光转向了小广场上的一具绞刑架上。\n那具已经颇为陈旧的绞架上挂着一具衣衫褴褛的尸体，在寒风中如同坚铁，蒙上冰碴的眼白正直勾勾地望向两人。刚才的一番对话，只有他俩和这具尸体听得一清二楚。\n王裕昌吸了一口气，把手重新揣回皮筒子里。",
+          "x": 6160,
+          "y": 173,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.515483959301098
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5382723576120669
             }
           },
-          "body": "两个人同时住了嘴，目光转向了小广场上的一具绞刑架上。",
-          "width": 460,
-          "height": 94
+          "width": 504,
+          "height": 267
         },
         {
-          "id": "n36",
-          "type": "Content",
-          "title": "Content",
-          "x": 2120,
-          "y": 2160,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "那具已经颇为陈旧的绞架上挂着一具衣衫褴褛的尸体，在寒风中如同坚铁，蒙上冰碴的眼白正直勾勾地望向两人。刚才的一番对话，只有他俩和这具尸体听得一清二楚。",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n37",
-          "type": "Content",
-          "title": "Content",
-          "x": 140,
-          "y": 2420,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌吸了一口气，把手重新揣回皮筒子里。",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n38",
+          "id": "n13",
           "type": "Dialog",
           "title": "Dialog",
-          "x": 800,
-          "y": 2420,
+          "body": "王裕昌: “程子，快回家吧。马上宵禁了。让人看见，就麻烦了。”\n王裕昌: “给你家老掌柜带个好……”",
+          "x": 6774,
+          "y": 207,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.4944631215688345
             },
             "output": {
               "side": "right",
-              "t": 0.5
+              "t": 0.5821104547251825
             }
           },
-          "body": "王裕昌: “程子，快回家吧。马上宵禁了。让人看见，就麻烦了。”",
           "turns": [
             {
               "speaker": "王裕昌",
               "line": "“程子，快回家吧。马上宵禁了。让人看见，就麻烦了。”"
-            }
-          ],
-          "width": 400,
-          "height": 114
-        },
-        {
-          "id": "n39",
-          "type": "Content",
-          "title": "Content",
-          "x": 1460,
-          "y": 2420,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
             },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "中年人低下头，向广场东北侧的“裕昌当铺”走去，边走边说：",
-          "width": 460,
-          "height": 94
-        },
-        {
-          "id": "n40",
-          "type": "Dialog",
-          "title": "Dialog",
-          "x": 2120,
-          "y": 2420,
-          "frameId": "",
-          "choices": [],
-          "customFields": {},
-          "ports": {
-            "input": {
-              "side": "left",
-              "t": 0.5
-            },
-            "output": {
-              "side": "right",
-              "t": 0.5
-            }
-          },
-          "body": "王裕昌: “给你家老掌柜带个好……”",
-          "turns": [
             {
               "speaker": "王裕昌",
               "line": "“给你家老掌柜带个好……”"
             }
           ],
-          "width": 400,
-          "height": 114
+          "width": 343,
+          "height": 230
         },
         {
-          "id": "n41",
+          "id": "n14",
           "type": "Content",
           "title": "Content",
-          "x": 140,
-          "y": 2680,
+          "body": "声音消失在黑暗中，程靖霖意识到，天色已经完全沉下来了。\n他不愿再多想，用快要冻僵的手指系好帽带，双手揣回袖筒，继续向药房的方向走去。\n一声梆子在街道上远远传开，接着是嘶哑的声音：“天寒地冻，防火防盗！”\n这一天，就这样过去了。\n明天，才是一切的开始。",
+          "x": 7234,
+          "y": 219,
           "frameId": "",
           "choices": [],
           "customFields": {},
           "ports": {
             "input": {
               "side": "left",
-              "t": 0.5
+              "t": 0.533501960135795
             },
             "output": {
-              "side": "right",
+              "side": "bottom",
               "t": 0.5
             }
           },
-          "body": "声音消失在黑暗中，程靖霖意识到，天色已经完全沉下来了。他不愿再多想，用快要冻僵的手指系好帽带，双手揣回袖筒，继续向药房的方向走去。一声梆子在街道上远远传开，接着是嘶哑的声音：“天寒地冻，防火防盗！”这一天，就这样过去了。明天，才是一切的开始。",
-          "width": 460,
-          "height": 94
+          "width": 453,
+          "height": 231
         }
       ],
       "links": [
         {
           "id": "l0",
-          "from": "n_entry",
-          "to": "n1"
+          "from": "118d6e4a777c530a",
+          "to": "n0"
         },
         {
           "id": "l1",
+          "from": "n0",
+          "to": "n1"
+        },
+        {
+          "id": "l2",
           "from": "n1",
           "to": "n2"
         },
         {
-          "id": "l2",
-          "from": "n2",
-          "to": "n3"
-        },
-        {
           "id": "l3",
-          "from": "n3",
-          "to": "n4"
+          "from": "n2",
+          "to": "n3",
+          "choiceIndex": 0,
+          "label": "“这不大成家磨坊那边让给送点冻疮药过去。”",
+          "choiceOptionId": "opt_1"
         },
         {
           "id": "l4",
+          "from": "n2",
+          "to": "n4",
+          "choiceIndex": 1,
+          "label": "“掌柜的，吃了吗？”",
+          "choiceOptionId": "opt_2"
+        },
+        {
+          "id": "l5",
           "from": "n4",
           "to": "n5"
         },
         {
-          "id": "l5",
+          "id": "l6",
+          "from": "n3",
+          "to": "n5"
+        },
+        {
+          "id": "l7",
           "from": "n5",
           "to": "n6"
         },
         {
-          "id": "l6",
+          "id": "l8",
           "from": "n6",
           "to": "n7"
         },
         {
-          "id": "l7",
+          "id": "l9",
           "from": "n7",
           "to": "n8"
         },
         {
-          "id": "l8",
+          "id": "l10",
           "from": "n8",
           "to": "n9"
         },
         {
-          "id": "l9",
+          "id": "l11",
           "from": "n9",
           "to": "n10"
         },
         {
-          "id": "l10",
+          "id": "l12",
           "from": "n10",
           "to": "n11"
         },
         {
-          "id": "l11",
+          "id": "l13",
           "from": "n11",
           "to": "n12"
         },
         {
-          "id": "l12",
+          "id": "l14",
           "from": "n12",
           "to": "n13"
         },
         {
-          "id": "l13",
+          "id": "l15",
           "from": "n13",
           "to": "n14"
-        },
-        {
-          "id": "l14",
-          "from": "n14",
-          "to": "n15"
-        },
-        {
-          "id": "l15",
-          "from": "n15",
-          "to": "n16"
-        },
-        {
-          "id": "l16",
-          "from": "n16",
-          "to": "n17"
-        },
-        {
-          "id": "l17",
-          "from": "n17",
-          "to": "n18"
-        },
-        {
-          "id": "l18",
-          "from": "n18",
-          "to": "n19"
-        },
-        {
-          "id": "l19",
-          "from": "n19",
-          "to": "n20"
-        },
-        {
-          "id": "l20",
-          "from": "n20",
-          "to": "n21"
-        },
-        {
-          "id": "l21",
-          "from": "n21",
-          "to": "n22"
-        },
-        {
-          "id": "l22",
-          "from": "n22",
-          "to": "n23"
-        },
-        {
-          "id": "l23",
-          "from": "n23",
-          "to": "n24"
-        },
-        {
-          "id": "l24",
-          "from": "n24",
-          "to": "n25"
-        },
-        {
-          "id": "l25",
-          "from": "n25",
-          "to": "n26"
-        },
-        {
-          "id": "l26",
-          "from": "n26",
-          "to": "n27"
-        },
-        {
-          "id": "l27",
-          "from": "n27",
-          "to": "n28"
-        },
-        {
-          "id": "l28",
-          "from": "n28",
-          "to": "n29"
-        },
-        {
-          "id": "l29",
-          "from": "n29",
-          "to": "n30"
-        },
-        {
-          "id": "l30",
-          "from": "n30",
-          "to": "n31"
-        },
-        {
-          "id": "l31",
-          "from": "n31",
-          "to": "n32"
-        },
-        {
-          "id": "l32",
-          "from": "n32",
-          "to": "n33"
-        },
-        {
-          "id": "l33",
-          "from": "n33",
-          "to": "n34"
-        },
-        {
-          "id": "l34",
-          "from": "n34",
-          "to": "n35"
-        },
-        {
-          "id": "l35",
-          "from": "n35",
-          "to": "n36"
-        },
-        {
-          "id": "l36",
-          "from": "n36",
-          "to": "n37"
-        },
-        {
-          "id": "l37",
-          "from": "n37",
-          "to": "n38"
-        },
-        {
-          "id": "l38",
-          "from": "n38",
-          "to": "n39"
-        },
-        {
-          "id": "l39",
-          "from": "n39",
-          "to": "n40"
-        },
-        {
-          "id": "l40",
-          "from": "n40",
-          "to": "n41"
         }
       ]
     },
     "ui": {
-      "selectedNodeId": "n17",
+      "selectedNodeId": "118d6e4a777c530a",
       "selectedLinkId": null,
-      "panel": "node",
+      "panel": "project",
       "activeFileId": "adventure",
       "theme": "dark",
       "exportImageScale": 1,
       "view": {
-        "x": 185,
-        "y": 48,
+        "x": 872.1665344238281,
+        "y": 1201.0285949707031,
         "scale": 1
       },
       "sidebar": {

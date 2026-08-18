@@ -1,0 +1,689 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-18T13:39:06.738Z",
+  "project": {
+    "title": "结算：送药去向",
+    "workflowMode": "canvas",
+    "notes": "提取自 MED_Demo Event 002 结尾（1942年1月31日 下午 时一堂大药房 结算）——第一个三项分支选择（对应整合文档序号6）",
+    "variables": {},
+    "script": {
+      "nodeTypes": {},
+      "actions": [],
+      "playRules": {
+        "startNode": {
+          "enabled": true,
+          "value": "Start"
+        },
+        "endCondition": {
+          "enabled": false,
+          "value": ""
+        },
+        "visitTracking": {
+          "enabled": false,
+          "value": true
+        },
+        "debugMode": {
+          "enabled": false,
+          "value": false
+        }
+      }
+    },
+    "eventSheet": {
+      "columns": [
+        {
+          "key": "act",
+          "label": "ACT",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "chapter",
+          "label": "Chap.",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventType",
+          "label": "Event Type",
+          "width": "170px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "beatList",
+          "label": "Beat",
+          "width": "180px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventDescription",
+          "label": "Description",
+          "width": "360px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "characterEncountered",
+          "label": "Characters",
+          "width": "320px",
+          "readonly": false,
+          "custom": false
+        }
+      ],
+      "hiddenColumns": []
+    },
+    "eventRowOrder": {},
+    "nodeTypes": [
+      {
+        "type": "Entry",
+        "label": "Entry",
+        "badge": "E",
+        "color": "#cdd6f4",
+        "width": 160,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Content",
+        "label": "Content",
+        "badge": "C",
+        "color": "#61afef",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Dialog",
+        "label": "Dialog",
+        "badge": "D",
+        "color": "#56b6c2",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "dialog",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Choice",
+        "label": "Choice",
+        "badge": "C",
+        "color": "#d19a66",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "choice",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Marker",
+        "label": "Marker",
+        "badge": "M",
+        "color": "#7fdbca",
+        "width": 170,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Event",
+        "label": "Frame",
+        "badge": "F",
+        "color": "#b48cff",
+        "width": 420,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "StorySequence",
+        "label": "Story Sequence",
+        "badge": "N",
+        "color": "#b48cff",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "location",
+            "label": "Location"
+          },
+          {
+            "key": "timeWeather",
+            "label": "Time / Weather"
+          },
+          {
+            "key": "questEpisode",
+            "label": "Quest Ep."
+          },
+          {
+            "key": "status",
+            "label": "Status"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Clue",
+        "label": "Clue",
+        "badge": "N",
+        "color": "#d99a3d",
+        "width": 230,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "evidence",
+            "label": "Evidence"
+          },
+          {
+            "key": "owner",
+            "label": "Owner"
+          },
+          {
+            "key": "outcome",
+            "label": "Outcome"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InterviewNote",
+        "label": "Interview Note",
+        "badge": "N",
+        "color": "#56b6c2",
+        "width": 240,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "recorder",
+            "label": "Recorder"
+          },
+          {
+            "key": "reliability",
+            "label": "Reliability"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "LocationFrame",
+        "label": "Location Frame",
+        "badge": "N",
+        "color": "#6f8fcf",
+        "width": 560,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "mood",
+            "label": "Mood"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ConversationFrame",
+        "label": "Conversation Frame",
+        "badge": "N",
+        "color": "#3aa99f",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "participants",
+            "label": "Participants"
+          },
+          {
+            "key": "summary",
+            "label": "Summary"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InvestigationEvent",
+        "label": "Investigation Event",
+        "badge": "N",
+        "color": "#c678dd",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "clueStatus",
+            "label": "Clue Status"
+          },
+          {
+            "key": "risk",
+            "label": "Risk"
+          },
+          {
+            "key": "evidenceOwner",
+            "label": "Evidence Owner"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ArchiveNote",
+        "label": "Archive Note",
+        "badge": "N",
+        "color": "#8a8f98",
+        "width": 220,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "DraftFrame",
+        "label": "Draft Frame",
+        "badge": "N",
+        "color": "#7f848e",
+        "width": 520,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      }
+    ],
+    "customNodeTypes": [],
+    "characters": [],
+    "deletedNodes": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 80,
+        "y": 80,
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "frameId": ""
+      },
+      {
+        "id": "n0",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "送药去哪家？",
+        "x": 140,
+        "y": 80,
+        "choices": [
+          "去老佟家车马店",
+          "去裕昌当铺",
+          "去伪警察署"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "去老佟家车马店",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "去裕昌当铺",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "去伪警察署",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ],
+        "width": 400,
+        "height": 236
+      },
+      {
+        "id": "n1",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “这……不是给谁都得罪人？”",
+        "x": 800,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“这……不是给谁都得罪人？”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “那只能是事后再解释吧。”\n程时一: “这三个地方啊，还不太一样。你选哪家都对，就是卖个人情。”\n程时一: “这年头，啥都缺。你选一家，就是给他们面子啦，以后他们多少得还这个人情。”\n程时一: “定了就快去吧。天快黑了，千万得在宵禁之前回来。”",
+        "x": 1460,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“那只能是事后再解释吧。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“这三个地方啊，还不太一样。你选哪家都对，就是卖个人情。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“这年头，啥都缺。你选一家，就是给他们面子啦，以后他们多少得还这个人情。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“定了就快去吧。天快黑了，千万得在宵禁之前回来。”"
+          }
+        ],
+        "width": 420,
+        "height": 186
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “是，掌柜的，我这就去。”",
+        "x": 2120,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“是，掌柜的，我这就去。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖接过药包，走出药房去。街上的风更硬了。他无暇多想，在沉闷的黄昏里，走向通兰县城无声的街道。",
+        "x": 140,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0"
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "choiceIndex": 0,
+        "label": "去老佟家车马店",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l2",
+        "from": "n0",
+        "to": "n1",
+        "choiceIndex": 1,
+        "label": "去裕昌当铺",
+        "choiceOptionId": "opt_2"
+      },
+      {
+        "id": "l3",
+        "from": "n0",
+        "to": "n1",
+        "choiceIndex": 2,
+        "label": "去伪警察署",
+        "choiceOptionId": "opt_3"
+      },
+      {
+        "id": "l4",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l5",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l6",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l7",
+        "from": "n3",
+        "to": "n4"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.55
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

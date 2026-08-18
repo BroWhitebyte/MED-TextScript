@@ -8,7 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d39ed4d61dc62b4",
+            "id": "6dddbfcce78613cb",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/开场对话.ncanvas"
+              },
+              "icon": "lucide-ghost",
+              "title": "narrative-canvas-view"
+            }
+          },
+          {
+            "id": "48715578369b4739",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/开场对话.ncanvas"
+              },
+              "icon": "lucide-ghost",
+              "title": "narrative-canvas-view"
+            }
+          },
+          {
+            "id": "93bb1cc0e5a0be7e",
             "type": "leaf",
             "state": {
               "type": "narrative-canvas-view",
@@ -20,78 +44,6 @@
             }
           },
           {
-            "id": "2e351e9ef07baa78",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "【选择】老佟家车马店.ncanvas"
-            }
-          },
-          {
-            "id": "cb1bb88e19418ace",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "【选择】老佟家车马店.ncanvas"
-            }
-          },
-          {
-            "id": "6dddbfcce78613cb",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】第一章/开场对话.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "开场对话.ncanvas"
-            }
-          },
-          {
-            "id": "b925b9bd483fec23",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "小广场黄昏.ncanvas"
-            }
-          },
-          {
-            "id": "48715578369b4739",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】第一章/开场对话.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "开场对话.ncanvas"
-            }
-          },
-          {
-            "id": "93bb1cc0e5a0be7e",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】序章/序章/序章.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "序章.ncanvas"
-            }
-          },
-          {
             "id": "0dbbe1cbb84e1f51",
             "type": "leaf",
             "state": {
@@ -99,8 +51,8 @@
               "state": {
                 "file": "Flows/【主线】序章/序章/序章.ncanvas"
               },
-              "icon": "git-branch",
-              "title": "序章.ncanvas"
+              "icon": "lucide-ghost",
+              "title": "narrative-canvas-view"
             }
           },
           {
@@ -111,32 +63,8 @@
               "state": {
                 "file": "Flows/【主线】第一章/开场对话.ncanvas"
               },
-              "icon": "git-branch",
-              "title": "开场对话.ncanvas"
-            }
-          },
-          {
-            "id": "fe9013eab412964c",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "小广场黄昏.ncanvas"
-            }
-          },
-          {
-            "id": "1a2016fe8341f2c9",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "小广场黄昏.ncanvas"
+              "icon": "lucide-ghost",
+              "title": "narrative-canvas-view"
             }
           },
           {
@@ -145,28 +73,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Characters/王裕昌.md",
+                "file": "Characters/程靖霖.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "王裕昌"
-            }
-          },
-          {
-            "id": "7b3e16b40ce41c4f",
-            "type": "leaf",
-            "state": {
-              "type": "narrative-canvas-view",
-              "state": {
-                "file": "Flows/【主线】序章/序章/小广场黄昏.ncanvas"
-              },
-              "icon": "git-branch",
-              "title": "小广场黄昏.ncanvas"
+              "title": "程靖霖"
             }
           },
           {
             "id": "d8e56071fae9b249",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章：小广场的黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "9285b410741fb783",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,9 +106,284 @@
               "icon": "lucide-file",
               "title": "使用说明"
             }
+          },
+          {
+            "id": "b8839f10e46d8dbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Characters/马老二.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "马老二"
+            }
+          },
+          {
+            "id": "443ef7f72ad1c9c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Characters/马寡妇.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "马寡妇"
+            }
+          },
+          {
+            "id": "78daa3649179326b",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章.ncanvas"
+            }
+          },
+          {
+            "id": "d3052fcf30183fde",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "713163b46afc6ac1",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "6d6846d2795824b0",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "e7d702b17896010a",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "aa6859597de9bf5c",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章.ncanvas"
+            }
+          },
+          {
+            "id": "3248e87057040dcc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Flows/【主线】序章.canvas",
+                "viewState": {
+                  "x": 410,
+                  "y": 225,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "【主线】序章"
+            }
+          },
+          {
+            "id": "bf22b8de0616386e",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章：小广场的黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "090ac5191064b6c1",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章：小广场的黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "1e5939755b16cce7",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/深夜药房.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "深夜药房.ncanvas"
+            }
+          },
+          {
+            "id": "3e8728f89e0180ad",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "f1ca73c82c574bc2",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章：小广场的黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "187f7c7edc146cea",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章.ncanvas"
+            }
+          },
+          {
+            "id": "5c31c78ca3164835",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/深夜药房.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "深夜药房.ncanvas"
+            }
+          },
+          {
+            "id": "77bb130aef6eed2d",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "c583688a4828b51c",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "序章：小广场的黄昏.ncanvas"
+            }
+          },
+          {
+            "id": "1a8b5b4cb6044eaa",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/【选择】老佟家车马店.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "【选择】老佟家车马店.ncanvas"
+            }
+          },
+          {
+            "id": "37869bb3f5629948",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/结算：送药去向.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "结算：送药去向.ncanvas"
+            }
+          },
+          {
+            "id": "1856d3836e1cf386",
+            "type": "leaf",
+            "state": {
+              "type": "narrative-canvas-view",
+              "state": {
+                "file": "Flows/【主线】第一章/去马家杂货铺送药.ncanvas"
+              },
+              "icon": "git-branch",
+              "title": "去马家杂货铺送药.ncanvas"
+            }
+          },
+          {
+            "id": "77a0f7aabe340c7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Characters/王吉来.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "王吉来"
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 29
       }
     ],
     "direction": "vertical"
@@ -200,7 +403,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -346,38 +551,50 @@
       "narrative-canvas:打开 Narrative Canvas": false
     }
   },
-  "active": "d8e56071fae9b249",
+  "active": "77a0f7aabe340c7c",
   "lastOpenFiles": [
-    "Characters/王裕昌.md",
     "Characters/程靖霖.md",
-    "Characters/wangyuchang.md",
-    "Characters/chengjinglin.md",
-    "使用说明.md",
-    "Flows/【主线】第一章/开场.canvas",
-    "Flows/【主线】序章.canvas",
-    "Flows/【主线】第一章.canvas",
-    "Flows/【主线】序章/序章.canvas",
-    "Exports/小广场黄昏.dialogue",
-    "Flows/【主线】序章/序章/小广场黄昏.ncanvas",
+    "Characters/程时一.md",
     "Flows/【主线】第一章/【选择】老佟家车马店.canvas",
-    "Exports/序章.dialogue",
-    "Exports/【选择】伪满警察署.dialogue",
-    "Exports/【选择】老佟家车马店.dialogue",
-    "Exports/【选择】裕昌当铺.dialogue",
-    "Exports/去马家杂货铺送药.dialogue",
-    "Exports/开场对话.dialogue",
+    "Characters/角色属性说明.md",
+    "Characters/中野三郎.md",
+    "Characters/马寡妇.md",
+    "Characters/马老二.md",
+    "Characters/李加夫.md",
+    "Characters/受刑者.md",
+    "Flows/【主线】第一章.canvas",
+    "Characters/角色卡设定：程靖霖.docx",
+    "Characters/风寒车把式.md",
+    "Characters/警察A.md",
+    "Characters/警士.md",
+    "Characters/张老大.md",
+    "Characters/程晓梅.md",
+    "Flows/【主线】第一章/深夜药房.canvas",
+    "Flows/【主线】序章.canvas",
+    "结算：送药去向.dialogue",
+    "深夜药房.dialogue",
+    "Flows/【主线】第一章/结算：送药去向.canvas",
+    "Exports/结算：送药去向.dialogue",
+    "Flows/【主线】第一章/结算：送药去向.ncanvas",
+    "【选择】伪满警察署.dialogue",
+    "【选择】老佟家车马店.dialogue",
+    "【选择】裕昌当铺.dialogue",
+    "去马家杂货铺送药.dialogue",
+    "开场对话.dialogue",
+    "Flows/【主线】第一章/去马家杂货铺送药.canvas",
+    "Characters/王小.md",
+    "使用说明.md",
+    "Characters/王裕昌.md",
     "Characters/王吉来.md",
-    "Flows/【主线】第一章/【选择】裕昌当铺.ncanvas",
-    "Flows/【主线】第一章/【选择】伪满警察署.canvas",
-    "Flows/【主线】第一章/【选择】伪满警察署.ncanvas",
     "Characters/佟立春.md",
     "Characters/李大个子.md",
+    "Characters/wangyuchang.md",
+    "Characters/chengjinglin.md",
+    "Flows/【主线】第一章/开场.canvas",
+    "Flows/【主线】序章/序章.canvas",
+    "Flows/【主线】第一章/【选择】伪满警察署.canvas",
     "Flows/【主线】第一章/【选择】裕昌当铺.canvas",
-    "Flows/【主线】第一章/去马家杂货铺送药.canvas",
-    "Flows/【主线】第一章/选择一处地点送药.canvas",
-    "Flows/【主线】第一章/开场/前往马家杂货铺送药.canvas",
     "Characters/程小梅.md",
-    "Characters/程时一.md",
     "说明.md",
     "未命名.md"
   ]
