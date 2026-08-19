@@ -1,0 +1,11 @@
+# Obsidian 工作区 UI 状态：记录的只是打开的标签页、面板布局、窗口位置，
+# 每次打开/切换/移动窗口都会重写，纯运行时状态，无需入库。
+# 用通配符同时覆盖未来可能出现的 workspace-mobile.json。
+MEDNarrative/.obsidian/workspace*.json
+
+# Obsidian 插件运行时状态：
+#   - narrative-canvas/data.json：含当前打开项目的完整会话副本（savedAt、currentProjectPath，
+#     以及整个 project 快照，与 .ncanvas 文件内容重复），每次切换/保存项目都会大幅变化；
+#   - narrative-tool/data.json：含机器专属绝对路径 exportPath（如 C:/Users/white/...），换机器必然冲突。
+# 这类 data.json 由插件按需重新生成，不应入库。
+MEDNarrative/.obsidian/plugins/*/data.json

@@ -1,0 +1,6 @@
+# Obsidian 配置类 JSON 统一强制 LF 换行。
+# 原因：仓库 blob 均为 LF，而 core.autocrlf=true 会让 checkout 时转成 CRLF，
+# Obsidian 每次保存又按自己的方式重写，导致同一份内容反复出现 LF/CRLF 翻转，
+# git 误报为"已修改"（app.json 即如此：内容字节完全一致却一直显示 M）。
+# 强制 eol=lf 后 Obsidian 与 git 双方都写 LF，从根上消除这类伪 diff。
+MEDNarrative/.obsidian/*.json text eol=lf
