@@ -3328,6 +3328,7 @@ function installNarrativeCanvasApp() {
       "Condition added.": "已添加条件。",
       "Condition expression is empty.": "条件表达式为空。",
       "Condition expression": "条件表达式",
+      "Empty condition means an else branch: it is taken when every other conditional link from the same node fails. Conditional links from the same node are evaluated in order.": "空条件表示 else 分支：同一节点其他带条件的出线都不满足时走这条；多条带条件的出线按顺序判定。",
       "Content": "内容",
       "Choices": "选项",
       "Custom fields": "自定义字段",
@@ -3340,6 +3341,7 @@ function installNarrativeCanvasApp() {
       "Drag to reorder": "拖动排序",
       "Drag to resize": "拖动调整大小",
       "Edit": "编辑",
+      "Edit condition": "编辑条件",
       "Enabled": "启用",
       "Empty rule": "空规则",
       "Event search cleared.": "事件搜索已清除。",
@@ -4316,6 +4318,7 @@ function installNarrativeCanvasApp() {
     choiceOptionConditionExpandedIds: new Set(),
     nodeSectionExpandedIds: new Set(["dialogTurns"]),
     nodeConditionDraftNodeId: "",
+    linkConditionDraftLinkId: "",
     nodeEffectDraftNodeId: "",
     choiceConditionDraftIds: new Set(),
     choiceEffectDraftIds: new Set(),
@@ -5860,6 +5863,7 @@ function installNarrativeCanvasApp() {
       "add-script-node-condition",
       "delete-script-node-condition",
       "commit-node-condition-draft",
+      "commit-link-condition-draft",
       "commit-node-effect-draft",
       "commit-choice-option-condition-draft",
       "commit-choice-option-effect-draft",
@@ -11649,9 +11653,16 @@ function installNarrativeCanvasApp() {
       const path = linkPath(fromPoint, toPoint);
       linkSvg.push(`<path class="link-hitpath" d="${path}" data-link-id="${escapeAttr(link.id)}"></path>`);
       linkSvg.push(`<path class="link-path ${link.id === state.selectedLinkId ? "selected" : ""}" d="${path}" marker-end="url(#arrow-head)" data-link-id="${escapeAttr(link.id)}"></path>`);
-      if (link.label) {
+      const conditionText = normalizeOptionalString(link.requirements).trim();
+      if (link.label || conditionText) {
         const mid = midpoint(fromPoint, toPoint);
-        linkSvg.push(`<text class="link-label" x="${mid.x}" y="${mid.y - 8}" font-size="12" text-anchor="middle" data-link-id="${escapeAttr(link.id)}">${escapeHtml(link.label)}</text>`);
+        if (link.label) {
+          linkSvg.push(`<text class="link-label" x="${mid.x}" y="${mid.y - 8}" font-size="12" text-anchor="middle" data-link-id="${escapeAttr(link.id)}">${escapeHtml(link.label)}</text>`);
+        }
+        if (conditionText) {
+          const conditionLabel = `if ${conditionText.length > 48 ? `${conditionText.slice(0, 45)}…` : conditionText}`;
+          linkSvg.push(`<text class="link-label link-condition-label" x="${mid.x}" y="${mid.y + (link.label ? 10 : -8)}" font-size="11" text-anchor="middle" data-link-id="${escapeAttr(link.id)}">${escapeHtml(conditionLabel)}</text>`);
+        }
       }
     });
 
@@ -11779,7 +11790,10 @@ function installNarrativeCanvasApp() {
 
   function renderInspector() {
     const activeNode = getNode(state.selectedNodeId);
-    dom.inspectorTitle.textContent = state.panel === "node" && activeNode ? activeNode.title : t(titleCase(state.panel));
+    const activeLink = !activeNode ? getLink(state.selectedLinkId) : null;
+    dom.inspectorTitle.textContent = state.panel === "node" && activeNode
+      ? activeNode.title
+      : state.panel === "node" && activeLink ? t("Link") : t(titleCase(state.panel));
     renderInspectorTabs();
     renderProjectPanel();
     renderNodePanel(activeNode);
@@ -12227,7 +12241,8 @@ function installNarrativeCanvasApp() {
     applyFloatingWindowGeometry("inspector");
     if (dom.inspectorFloatTitle) {
       const node = panel === "node" ? getNode(state.selectedNodeId) : null;
-      dom.inspectorFloatTitle.textContent = node ? node.title || t("Node") : t(titleCase(panel));
+      const link = !node && panel === "node" ? getLink(state.selectedLinkId) : null;
+      dom.inspectorFloatTitle.textContent = node ? node.title || t("Node") : link ? t("Link") : t(titleCase(panel));
     }
   }
 
@@ -12333,6 +12348,11 @@ function installNarrativeCanvasApp() {
   function renderNodePanel(node) {
     dom.nodePanel.classList.remove("is-empty");
     if (!node) {
+      const link = getLink(state.selectedLinkId);
+      if (link) {
+        renderLinkPanel(link);
+        return;
+      }
       dom.nodePanel.replaceChildren();
       delete dom.nodePanel.dataset.renderedNodeId;
       return;
@@ -12590,6 +12610,48 @@ function installNarrativeCanvasApp() {
     return renderConditionDraftRow({
       action: "commit-node-condition-draft",
       conditionId: "node"
+    });
+  }
+
+  function renderLinkPanel(link) {
+    const fromNode = getNode(link.from);
+    const toNode = getNode(link.to);
+    const fromTitle = fromNode ? fromNode.title || getNodeDisplayId(fromNode) : "?";
+    const toTitle = toNode ? toNode.title || getNodeDisplayId(toNode) : "?";
+    const status = getConditionEvaluationStatus(link.requirements, state.project.variables);
+    const scroller = dom.nodePanel.closest(".inspector-panel");
+    const keepScroll = dom.nodePanel.dataset.renderedNodeId === link.id;
+    const scrollTop = keepScroll && scroller ? scroller.scrollTop : 0;
+    dom.nodePanel.dataset.renderedNodeId = link.id;
+    dom.nodePanel.innerHTML = `
+      <div class="form-stack">
+        <div class="field">
+          <span>${t("Link")}</span>
+          <div class="link-endpoints">${escapeHtml(fromTitle)} → ${escapeHtml(toTitle)}</div>
+        </div>
+        <div class="logic-editor-block">
+          <div class="logic-editor-head">
+            <span>${t("Condition")}</span>
+            <button class="small-button" type="button" data-action="show-link-condition-draft">${t("Add condition")}</button>
+          </div>
+          ${renderLinkConditionDraft(link)}
+          <textarea class="playbook-code-editor playbook-condition-code-editor" data-link-logic-field="requirements" spellcheck="false" placeholder="${escapeAttr(t("Condition expression"))}">${escapeHtml(link.requirements || "")}</textarea>
+          ${renderPlaybookCodeStatus(status)}
+          <small class="link-condition-hint">${escapeHtml(t("Empty condition means an else branch: it is taken when every other conditional link from the same node fails. Conditional links from the same node are evaluated in order."))}</small>
+        </div>
+        <div class="button-row">
+          <button class="small-button danger-button" data-action="delete-context-link">${t("Delete link")}</button>
+        </div>
+      </div>
+    `;
+    if (keepScroll && scroller) scroller.scrollTop = scrollTop;
+  }
+
+  function renderLinkConditionDraft(link) {
+    if (state.linkConditionDraftLinkId !== link?.id) return "";
+    return renderConditionDraftRow({
+      action: "commit-link-condition-draft",
+      conditionId: "link"
     });
   }
 
@@ -13707,6 +13769,7 @@ function installNarrativeCanvasApp() {
     if (link) {
       state.selectedLinkId = link.dataset.linkId;
       clearNodeSelection();
+      state.panel = "node";
       renderAll();
       return true;
     }
@@ -14017,6 +14080,7 @@ function installNarrativeCanvasApp() {
     state.activeFileId = "adventure";
     state.selectedLinkId = link.id;
     clearNodeSelection();
+    state.panel = "node";
     renderShellState();
     renderNodes();
     renderLinks();
@@ -14121,6 +14185,9 @@ function installNarrativeCanvasApp() {
     if (action === "delete-node-cast") deleteNodeCast(Number(target.dataset.nodeCastIndex));
     if (action === "show-node-condition-draft") showNodeConditionDraft();
     if (action === "commit-node-condition-draft") commitNodeConditionDraft(target);
+    if (action === "show-link-condition-draft") showLinkConditionDraft();
+    if (action === "commit-link-condition-draft") commitLinkConditionDraft(target);
+    if (action === "edit-link-condition") editContextLinkCondition();
     if (action === "add-node-condition-clause") addNodeConditionClause();
     if (action === "delete-node-condition-clause") deleteNodeConditionClause(Number(target.dataset.conditionIndex));
     if (action === "show-node-effect-draft") showNodeEffectDraft();
@@ -14466,6 +14533,7 @@ function installNarrativeCanvasApp() {
     state.contextLinkId = linkId;
     dom.nodeContextMenu.innerHTML = `
       ${renderChoiceLinkMenu(link)}
+      <button data-action="edit-link-condition">${t("Edit condition")}</button>
       <button data-action="reconnect-link-from">${t("Reconnect from output")}</button>
       <button data-action="reconnect-link-to">${t("Reconnect to input")}</button>
       <button class="context-menu-danger" data-action="delete-context-link">${t("Delete link")}</button>
@@ -14896,7 +14964,7 @@ function installNarrativeCanvasApp() {
     if (!target?.dataset) return "";
     if (target === dom.queryInput || target.hasAttribute?.("data-character-search") || target.hasAttribute?.("data-event-search")) return "";
     const parts = [];
-    ["documentSource", "projectField", "nodeField", "inlineNodeField", "nodeCustomField", "characterField", "variableField", "eventField", "nodeCastField", "nodeConditionField", "nodeLogicField", "nodeEffectField", "nodeRoutingField", "choiceConditionField", "choiceOptionField", "choiceOptionEffectField", "dialogTurnField", "playbookActionField", "scriptConditionField", "scriptNodeField", "gateConditionField", "gateEffectField", "gateField", "runnerRuleField", "runnerRuleEnabled"].forEach((name) => {
+    ["documentSource", "projectField", "nodeField", "inlineNodeField", "nodeCustomField", "characterField", "variableField", "eventField", "nodeCastField", "nodeConditionField", "nodeLogicField", "linkLogicField", "nodeEffectField", "nodeRoutingField", "choiceConditionField", "choiceOptionField", "choiceOptionEffectField", "dialogTurnField", "playbookActionField", "scriptConditionField", "scriptNodeField", "gateConditionField", "gateEffectField", "gateField", "runnerRuleField", "runnerRuleEnabled"].forEach((name) => {
       if (target.dataset[name]) parts.push(`${name}:${target.dataset[name]}`);
     });
     ["nodeId", "choiceNodeId", "dialogNodeId", "characterId", "variableKey", "eventNodeId", "nodeCastIndex", "conditionIndex", "nodeEffectIndex", "choiceOptionId", "choiceOptionIndex", "dialogTurnIndex", "choiceOptionEffectIndex", "playbookActionId", "scriptNodeId", "gateId", "gateEffectId", "gateEffectIndex"].forEach((name) => {
@@ -15079,6 +15147,10 @@ function installNarrativeCanvasApp() {
       setNodeLogicField(target.dataset.nodeLogicField, target.value, false);
       return;
     }
+    if (target.dataset.linkLogicField) {
+      setLinkLogicField(target.dataset.linkLogicField, target.value, false);
+      return;
+    }
     if (target.dataset.nodeRoutingField) {
       setNodeRoutingField(target.dataset.nodeRoutingField, target.value, false);
       return;
@@ -15245,6 +15317,11 @@ function installNarrativeCanvasApp() {
     }
     if (target.dataset.nodeLogicField) {
       setNodeLogicField(target.dataset.nodeLogicField, target.value, true);
+      commitFocusedEdit(target);
+      return;
+    }
+    if (target.dataset.linkLogicField) {
+      setLinkLogicField(target.dataset.linkLogicField, target.value, true);
       commitFocusedEdit(target);
       return;
     }
@@ -17547,6 +17624,67 @@ function installNarrativeCanvasApp() {
     renderPlaybookSurfaces();
     updateStatus();
     setStatus(t("Condition added."));
+  }
+
+  function setLinkLogicField(field, value, rerender) {
+    const link = getLink(state.selectedLinkId);
+    if (!link) return;
+    if (field === "requirements") {
+      const requirements = normalizeOptionalString(value).trim();
+      if (requirements) link.requirements = requirements;
+      else delete link.requirements;
+    }
+    setProjectDirty(true);
+    renderLinks();
+    updateStatus();
+    if (rerender) renderLinkPanel(link);
+  }
+
+  function showLinkConditionDraft() {
+    const link = getLink(state.selectedLinkId);
+    if (!link) return;
+    state.linkConditionDraftLinkId = link.id;
+    renderLinkPanel(link);
+    focusInspectorTarget(`.condition-draft-row[data-draft-id="link"] [data-draft-field="key"]`);
+  }
+
+  function commitLinkConditionDraft(target) {
+    const link = getLink(state.selectedLinkId);
+    if (!link) return;
+    const key = getDraftFieldValue(target, "key").trim();
+    const op = getDraftFieldValue(target, "op").trim();
+    const value = getDraftFieldValue(target, "value").trim();
+    if (!key) {
+      setStatus(t("State key is required."));
+      return;
+    }
+    if (conditionOperatorNeedsValue(op) && !value) {
+      setStatus(t("Condition value is required."));
+      return;
+    }
+    const condition = buildConditionExpressionFromParts({ key, op, value });
+    if (!condition) {
+      setStatus(t("Condition expression is empty."));
+      return;
+    }
+    link.requirements = appendConditionExpression(link.requirements, condition, "all");
+    state.linkConditionDraftLinkId = "";
+    setProjectDirty(true);
+    renderLinkPanel(link);
+    renderLinks();
+    renderPlaybookSurfaces();
+    updateStatus();
+    setStatus(t("Condition added."));
+  }
+
+  function editContextLinkCondition() {
+    const link = getLink(state.contextLinkId || state.selectedLinkId);
+    if (!link) return;
+    state.selectedLinkId = link.id;
+    clearNodeSelection();
+    state.panel = "node";
+    hideNodeContextMenu();
+    renderAll();
   }
 
   function showNodeEffectDraft() {
