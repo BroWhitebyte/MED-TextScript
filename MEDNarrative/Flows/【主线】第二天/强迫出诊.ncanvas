@@ -1,0 +1,607 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-25T08:53:10.308Z",
+  "project": {
+    "title": "强迫出诊",
+    "workflowMode": "canvas",
+    "notes": "",
+    "variables": {},
+    "script": {
+      "nodeTypes": {},
+      "actions": [],
+      "playRules": {
+        "startNode": {
+          "enabled": true,
+          "value": "Start"
+        },
+        "endCondition": {
+          "enabled": false,
+          "value": ""
+        },
+        "visitTracking": {
+          "enabled": false,
+          "value": true
+        },
+        "debugMode": {
+          "enabled": false,
+          "value": false
+        }
+      }
+    },
+    "eventSheet": {
+      "columns": [
+        {
+          "key": "act",
+          "label": "ACT",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "chapter",
+          "label": "Chap.",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventType",
+          "label": "Event Type",
+          "width": "170px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "beatList",
+          "label": "Beat",
+          "width": "180px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventDescription",
+          "label": "Description",
+          "width": "360px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "characterEncountered",
+          "label": "Characters",
+          "width": "320px",
+          "readonly": false,
+          "custom": false
+        }
+      ],
+      "hiddenColumns": []
+    },
+    "eventRowOrder": {},
+    "nodeTypes": [
+      {
+        "type": "Entry",
+        "label": "Entry",
+        "badge": "E",
+        "color": "#cdd6f4",
+        "width": 160,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Content",
+        "label": "Content",
+        "badge": "C",
+        "color": "#61afef",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Dialog",
+        "label": "Dialog",
+        "badge": "D",
+        "color": "#56b6c2",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "dialog",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Choice",
+        "label": "Choice",
+        "badge": "C",
+        "color": "#d19a66",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "choice",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Marker",
+        "label": "Marker",
+        "badge": "M",
+        "color": "#7fdbca",
+        "width": 170,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Event",
+        "label": "Frame",
+        "badge": "F",
+        "color": "#b48cff",
+        "width": 420,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "StorySequence",
+        "label": "Story Sequence",
+        "badge": "N",
+        "color": "#b48cff",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "location",
+            "label": "Location"
+          },
+          {
+            "key": "timeWeather",
+            "label": "Time / Weather"
+          },
+          {
+            "key": "questEpisode",
+            "label": "Quest Ep."
+          },
+          {
+            "key": "status",
+            "label": "Status"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Clue",
+        "label": "Clue",
+        "badge": "N",
+        "color": "#d99a3d",
+        "width": 230,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "evidence",
+            "label": "Evidence"
+          },
+          {
+            "key": "owner",
+            "label": "Owner"
+          },
+          {
+            "key": "outcome",
+            "label": "Outcome"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InterviewNote",
+        "label": "Interview Note",
+        "badge": "N",
+        "color": "#56b6c2",
+        "width": 240,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "recorder",
+            "label": "Recorder"
+          },
+          {
+            "key": "reliability",
+            "label": "Reliability"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "LocationFrame",
+        "label": "Location Frame",
+        "badge": "N",
+        "color": "#6f8fcf",
+        "width": 560,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "mood",
+            "label": "Mood"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ConversationFrame",
+        "label": "Conversation Frame",
+        "badge": "N",
+        "color": "#3aa99f",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "participants",
+            "label": "Participants"
+          },
+          {
+            "key": "summary",
+            "label": "Summary"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InvestigationEvent",
+        "label": "Investigation Event",
+        "badge": "N",
+        "color": "#c678dd",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "clueStatus",
+            "label": "Clue Status"
+          },
+          {
+            "key": "risk",
+            "label": "Risk"
+          },
+          {
+            "key": "evidenceOwner",
+            "label": "Evidence Owner"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ArchiveNote",
+        "label": "Archive Note",
+        "badge": "N",
+        "color": "#8a8f98",
+        "width": 220,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "DraftFrame",
+        "label": "Draft Frame",
+        "badge": "N",
+        "color": "#7f848e",
+        "width": 520,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      }
+    ],
+    "customNodeTypes": [],
+    "characters": [],
+    "deletedNodes": [],
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 120,
+        "y": 120,
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "frameId": ""
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野警尉先进来，身后跟着翻译，再后头是警察，屋里一下被寒气填满了。\n中野看了看屋里的三个人，又落到柜台上，最后看向程时一。\n他公事公办地摆了个笑脸。",
+        "x": 415,
+        "y": 107,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: （协和语）\"程桑，好久的不见。\"\n程靖霖: \"太君。\"",
+        "x": 802,
+        "y": 86,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "（协和语）\"程桑，好久的不见。\""
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "\"太君。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ],
+        "width": 421,
+        "height": 236
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野又看向程靖霖，目光在他脸上停了一下，又摇了摇头",
+        "x": 1288,
+        "y": 138,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: “徒弟，不行。”",
+        "x": 1666,
+        "y": 117,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "“徒弟，不行。”"
+          }
+        ],
+        "width": 345,
+        "height": 182,
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l1",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l2",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l3",
+        "from": "n3",
+        "to": "n4"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 48,
+      "y": 600.3619689941406,
+      "scale": 1
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 340,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

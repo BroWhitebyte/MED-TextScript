@@ -1,0 +1,23 @@
+{
+	"nodes": [
+		{
+			"id": "7e96e2b25a7c7d9b",
+			"type": "text",
+			"text": "# 【选择】裕昌当铺",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "6c77be27764d1531",
+			"type": "file",
+			"file": "Flows/【主线】第一章/【选择】裕昌当铺.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
+	],
+	"edges": []
+}

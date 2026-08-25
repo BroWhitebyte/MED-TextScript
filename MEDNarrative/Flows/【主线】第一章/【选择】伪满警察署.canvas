@@ -1,0 +1,23 @@
+{
+	"nodes": [
+		{
+			"id": "ac9b89e40bf08865",
+			"type": "text",
+			"text": "# 选择：伪满警察署",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "8238d6d14520835c",
+			"type": "file",
+			"file": "Flows/【主线】第一章/【选择】伪满警察署.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
+	],
+	"edges": []
+}

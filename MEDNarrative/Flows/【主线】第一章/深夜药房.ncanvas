@@ -1,0 +1,1685 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-18T13:39:06.744Z",
+  "project": {
+    "title": "深夜药房",
+    "workflowMode": "canvas",
+    "notes": "提取自 MED_Demo Event 004（1942年1月31日 夜晚 时一堂药房）——身世之夜：那颗步枪子弹",
+    "variables": {},
+    "script": {
+      "nodeTypes": {},
+      "actions": [],
+      "playRules": {
+        "startNode": {
+          "enabled": true,
+          "value": "Start"
+        },
+        "endCondition": {
+          "enabled": false,
+          "value": ""
+        },
+        "visitTracking": {
+          "enabled": false,
+          "value": true
+        },
+        "debugMode": {
+          "enabled": false,
+          "value": false
+        }
+      }
+    },
+    "eventSheet": {
+      "columns": [
+        {
+          "key": "act",
+          "label": "ACT",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "chapter",
+          "label": "Chap.",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventType",
+          "label": "Event Type",
+          "width": "170px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "beatList",
+          "label": "Beat",
+          "width": "180px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventDescription",
+          "label": "Description",
+          "width": "360px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "characterEncountered",
+          "label": "Characters",
+          "width": "320px",
+          "readonly": false,
+          "custom": false
+        }
+      ],
+      "hiddenColumns": []
+    },
+    "eventRowOrder": {},
+    "nodeTypes": [
+      {
+        "type": "Entry",
+        "label": "Entry",
+        "badge": "E",
+        "color": "#cdd6f4",
+        "width": 160,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Content",
+        "label": "Content",
+        "badge": "C",
+        "color": "#61afef",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Dialog",
+        "label": "Dialog",
+        "badge": "D",
+        "color": "#56b6c2",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "dialog",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Choice",
+        "label": "Choice",
+        "badge": "C",
+        "color": "#d19a66",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "choice",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Marker",
+        "label": "Marker",
+        "badge": "M",
+        "color": "#7fdbca",
+        "width": 170,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Event",
+        "label": "Frame",
+        "badge": "F",
+        "color": "#b48cff",
+        "width": 420,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "StorySequence",
+        "label": "Story Sequence",
+        "badge": "N",
+        "color": "#b48cff",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "location",
+            "label": "Location"
+          },
+          {
+            "key": "timeWeather",
+            "label": "Time / Weather"
+          },
+          {
+            "key": "questEpisode",
+            "label": "Quest Ep."
+          },
+          {
+            "key": "status",
+            "label": "Status"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Clue",
+        "label": "Clue",
+        "badge": "N",
+        "color": "#d99a3d",
+        "width": 230,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "evidence",
+            "label": "Evidence"
+          },
+          {
+            "key": "owner",
+            "label": "Owner"
+          },
+          {
+            "key": "outcome",
+            "label": "Outcome"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InterviewNote",
+        "label": "Interview Note",
+        "badge": "N",
+        "color": "#56b6c2",
+        "width": 240,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "recorder",
+            "label": "Recorder"
+          },
+          {
+            "key": "reliability",
+            "label": "Reliability"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "LocationFrame",
+        "label": "Location Frame",
+        "badge": "N",
+        "color": "#6f8fcf",
+        "width": 560,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "mood",
+            "label": "Mood"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ConversationFrame",
+        "label": "Conversation Frame",
+        "badge": "N",
+        "color": "#3aa99f",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "participants",
+            "label": "Participants"
+          },
+          {
+            "key": "summary",
+            "label": "Summary"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InvestigationEvent",
+        "label": "Investigation Event",
+        "badge": "N",
+        "color": "#c678dd",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "clueStatus",
+            "label": "Clue Status"
+          },
+          {
+            "key": "risk",
+            "label": "Risk"
+          },
+          {
+            "key": "evidenceOwner",
+            "label": "Evidence Owner"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ArchiveNote",
+        "label": "Archive Note",
+        "badge": "N",
+        "color": "#8a8f98",
+        "width": 220,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "DraftFrame",
+        "label": "Draft Frame",
+        "badge": "N",
+        "color": "#7f848e",
+        "width": 520,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      }
+    ],
+    "customNodeTypes": [],
+    "characters": [],
+    "deletedNodes": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 80,
+        "y": 80,
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "frameId": ""
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖端起饭碗的时候，城边还露出一点光。他看清楚碗里稀溜溜的“协和面”糊糊，不由自主地叹了口气。他想要开口说点什么，却又住了嘴：程晓梅特意给他多盛了点。",
+        "x": 140,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n1",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “胃不和，卧不安。”",
+        "x": 800,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“胃不和，卧不安。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一淡淡地说着，看了一眼程靖霖：",
+        "x": 1460,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “有胃气则生，无胃气则亡；正气存内，邪不可干。晚上少吃，睡得安稳。”",
+        "x": 2120,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“有胃气则生，无胃气则亡；正气存内，邪不可干。晚上少吃，睡得安稳。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "他拿起自己的碗，把小半碗糊糊拨进程靖霖的碗里，点了点桌子：",
+        "x": 140,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n5",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “吃吧。”",
+        "x": 800,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“吃吧。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "三个人悄然无声地吃着饭，桌上一碗熬酸菜，就是佐餐的菜了。碗筷撞击的声音停下时，天色已经完全黑了。\n晓梅点起煤油灯，收走碗筷。程时一无意识地敲着桌子，问道：",
+        "x": 1460,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 118
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “霖子，你还记得自己小时候的事吗？”",
+        "x": 2120,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，你还记得自己小时候的事吗？”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "他的声音若有若无，在灯影后变得不可捉摸。程靖霖放在膝盖上的拳头攥紧了。他低着头说：",
+        "x": 140,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n9",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “掌柜的，我记不大清楚了。”",
+        "x": 800,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，我记不大清楚了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "沉默了一会儿，他又补了一句，声音压得更低：",
+        "x": 1460,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “只记得那时候烧得厉害，迷迷糊糊的……身边好像有一个影子，一直在。可那是谁，我是一点都想不起来了。”",
+        "x": 2120,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“只记得那时候烧得厉害，迷迷糊糊的……身边好像有一个影子，一直在。可那是谁，我是一点都想不起来了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一微笑起来。他似乎陷入了久远的回忆中，慢慢地回溯着过去的碎片：",
+        "x": 140,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “其实我也记不太清楚过去的事了。这么多年，我也没问过你还记得什么。”",
+        "x": 800,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“其实我也记不太清楚过去的事了。这么多年，我也没问过你还记得什么。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n14",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅在后厨收拾过了，走进屋里，给程时一倒上一点水，说道：",
+        "x": 1460,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “爹，多久以前的事了，想不清楚，就不要想了。”",
+        "x": 2120,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“爹，多久以前的事了，想不清楚，就不要想了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "Content",
+        "body": "她话虽这么说，眼睛却一直若有如无地盯着程靖霖，似乎在等待着他的反应。程时一的眼皮微微挑动了一下：",
+        "x": 140,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n17",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “晓梅，你还记得爹原来是干什么的吗？”",
+        "x": 800,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“晓梅，你还记得爹原来是干什么的吗？”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “一直都是大夫。”",
+        "x": 1460,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“一直都是大夫。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n19",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅的声音没有起伏，还是少女的嗓音：",
+        "x": 2120,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n20",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “打记事起，爹不就是医生吗？在奉天也是，在这儿也是。”",
+        "x": 140,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“打记事起，爹不就是医生吗？在奉天也是，在这儿也是。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “医者难自医啊。”",
+        "x": 800,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“医者难自医啊。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一叹息一声，看向程靖霖：",
+        "x": 1460,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “霖子，你说对吗？”",
+        "x": 2120,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，你说对吗？”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖激灵了一下：",
+        "x": 140,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n25",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “掌柜的，您说这话的意思是……”",
+        "x": 800,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，您说这话的意思是……”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “你这孩子从来不爱多说话，心里揣的事贼多。虽然我老是跟你说：不该问的别问，不该听的别听——但是，我也知道，你有很多事儿想问。”",
+        "x": 1460,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“你这孩子从来不爱多说话，心里揣的事贼多。虽然我老是跟你说：不该问的别问，不该听的别听——但是，我也知道，你有很多事儿想问。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n27",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一的手指继续无意识地敲打着桌子。他的眼神没入了煤油灯昏暗的黄光，浸透在黑夜里：",
+        "x": 2120,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n28",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “比如，这世道，开医馆的，都快吃不起饭了，咱还能不能过下去。”",
+        "x": 140,
+        "y": 1900,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“比如，这世道，开医馆的，都快吃不起饭了，咱还能不能过下去。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “爹！”",
+        "x": 800,
+        "y": 1900,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“爹！”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅稍微提高了一点声音：",
+        "x": 1460,
+        "y": 1900,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n31",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “你老人家说什么呢！只要你硬实，霖子勤快，我给你们爷俩把家拾掇好了，有什么过不下去的！”",
+        "x": 2120,
+        "y": 1900,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“你老人家说什么呢！只要你硬实，霖子勤快，我给你们爷俩把家拾掇好了，有什么过不下去的！”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一不置可否，只是笑了笑。他对程晓梅说：",
+        "x": 140,
+        "y": 2160,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “丫头，去把绿皮粮本找出来。明儿一早，霖子得去领口粮了。”",
+        "x": 800,
+        "y": 2160,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“丫头，去把绿皮粮本找出来。明儿一早，霖子得去领口粮了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "他站起身来，清瘦的身影在油灯下抖动着。程时一转身向后屋走去，忽然间似乎记起了什么，转回身走到程靖霖面前：",
+        "x": 1460,
+        "y": 2160,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n35",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “霖子，有样东西，是时候还给你了。”",
+        "x": 2120,
+        "y": 2160,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，有样东西，是时候还给你了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n36",
+        "type": "Content",
+        "title": "Content",
+        "body": "他把手插进怀里，摸出了一样东西，放在木桌上，对程靖霖说：",
+        "x": 140,
+        "y": 2420,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n37",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “收着吧。早睡。”",
+        "x": 800,
+        "y": 2420,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“收着吧。早睡。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n38",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一和程晓梅回到了后屋，炉子里的余炭在噼啪作响，透出一点微弱的红光。程靖霖盯着桌上的那样东西。\n那是一颗步枪子弹。",
+        "x": 1460,
+        "y": 2420,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 118
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0"
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4"
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n5"
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n6"
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7"
+      },
+      {
+        "id": "l8",
+        "from": "n7",
+        "to": "n8"
+      },
+      {
+        "id": "l9",
+        "from": "n8",
+        "to": "n9"
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10"
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11"
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12"
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13"
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14"
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15"
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16"
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17"
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18"
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19"
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20"
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21"
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22"
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23"
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24"
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n25"
+      },
+      {
+        "id": "l26",
+        "from": "n25",
+        "to": "n26"
+      },
+      {
+        "id": "l27",
+        "from": "n26",
+        "to": "n27"
+      },
+      {
+        "id": "l28",
+        "from": "n27",
+        "to": "n28"
+      },
+      {
+        "id": "l29",
+        "from": "n28",
+        "to": "n29"
+      },
+      {
+        "id": "l30",
+        "from": "n29",
+        "to": "n30"
+      },
+      {
+        "id": "l31",
+        "from": "n30",
+        "to": "n31"
+      },
+      {
+        "id": "l32",
+        "from": "n31",
+        "to": "n32"
+      },
+      {
+        "id": "l33",
+        "from": "n32",
+        "to": "n33"
+      },
+      {
+        "id": "l34",
+        "from": "n33",
+        "to": "n34"
+      },
+      {
+        "id": "l35",
+        "from": "n34",
+        "to": "n35"
+      },
+      {
+        "id": "l36",
+        "from": "n35",
+        "to": "n36"
+      },
+      {
+        "id": "l37",
+        "from": "n36",
+        "to": "n37"
+      },
+      {
+        "id": "l38",
+        "from": "n37",
+        "to": "n38"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.55
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

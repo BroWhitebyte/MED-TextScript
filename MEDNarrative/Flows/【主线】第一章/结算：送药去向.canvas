@@ -1,0 +1,23 @@
+{
+	"nodes": [
+		{
+			"id": "d56f7b727ee7c6f2",
+			"type": "text",
+			"text": "# 结算：送药去向",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "972b9b7794d3fd6a",
+			"type": "file",
+			"file": "Flows/【主线】第一章/结算：送药去向.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
+	],
+	"edges": []
+}

@@ -1,0 +1,23 @@
+{
+	"nodes": [
+		{
+			"id": "ca438de17942c54b",
+			"type": "text",
+			"text": "# 深夜药房",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "ee44e8db7ca0c45f",
+			"type": "file",
+			"file": "Flows/【主线】第一章/深夜药房.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
+	],
+	"edges": []
+}

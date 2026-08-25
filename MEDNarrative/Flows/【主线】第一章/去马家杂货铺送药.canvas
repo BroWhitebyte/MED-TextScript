@@ -1,0 +1,23 @@
+{
+	"nodes": [
+		{
+			"id": "a733ef3e98970400",
+			"type": "text",
+			"text": "# 去马家杂货铺送药",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "6caf46146ec7ee55",
+			"type": "file",
+			"file": "Flows/【主线】第一章/去马家杂货铺送药.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
+	],
+	"edges": []
+}

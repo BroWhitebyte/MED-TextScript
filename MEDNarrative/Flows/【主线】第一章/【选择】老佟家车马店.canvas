@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"631cc4c3ee717b38","type":"text","text":"# 【选择】老佟家车马店","x":0,"y":0,"width":400,"height":120},
+		{"id":"28ad4d06c569e25f","type":"file","file":"Flows/【主线】第一章/【选择】老佟家车马店.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

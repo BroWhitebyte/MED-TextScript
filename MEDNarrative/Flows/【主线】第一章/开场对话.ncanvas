@@ -1,0 +1,1311 @@
+{
+  "version": 1,
+  "savedAt": "2026-08-18T13:39:06.731Z",
+  "project": {
+    "title": "开场对话",
+    "workflowMode": "canvas",
+    "notes": "提取自 MED_Demo Event 001（1942年1月31日 上午 时一堂大药房 · 训练日开始）",
+    "variables": {},
+    "script": {
+      "nodeTypes": {},
+      "actions": [],
+      "playRules": {
+        "startNode": {
+          "enabled": true,
+          "value": "Start"
+        },
+        "endCondition": {
+          "enabled": false,
+          "value": ""
+        },
+        "visitTracking": {
+          "enabled": false,
+          "value": true
+        },
+        "debugMode": {
+          "enabled": false,
+          "value": false
+        }
+      }
+    },
+    "eventSheet": {
+      "columns": [
+        {
+          "key": "act",
+          "label": "ACT",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "chapter",
+          "label": "Chap.",
+          "width": "110px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventType",
+          "label": "Event Type",
+          "width": "170px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "beatList",
+          "label": "Beat",
+          "width": "180px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "eventDescription",
+          "label": "Description",
+          "width": "360px",
+          "readonly": false,
+          "custom": false
+        },
+        {
+          "key": "characterEncountered",
+          "label": "Characters",
+          "width": "320px",
+          "readonly": false,
+          "custom": false
+        }
+      ],
+      "hiddenColumns": []
+    },
+    "eventRowOrder": {},
+    "nodeTypes": [
+      {
+        "type": "Entry",
+        "label": "Entry",
+        "badge": "E",
+        "color": "#cdd6f4",
+        "width": 160,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Content",
+        "label": "Content",
+        "badge": "C",
+        "color": "#61afef",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Dialog",
+        "label": "Dialog",
+        "badge": "D",
+        "color": "#56b6c2",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "dialog",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Choice",
+        "label": "Choice",
+        "badge": "C",
+        "color": "#d19a66",
+        "width": 200,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "choice",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Marker",
+        "label": "Marker",
+        "badge": "M",
+        "color": "#7fdbca",
+        "width": 170,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "node",
+        "template": "node",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "Event",
+        "label": "Frame",
+        "badge": "F",
+        "color": "#b48cff",
+        "width": 420,
+        "custom": false,
+        "badgeCustom": false,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": false
+      },
+      {
+        "type": "StorySequence",
+        "label": "Story Sequence",
+        "badge": "N",
+        "color": "#b48cff",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "location",
+            "label": "Location"
+          },
+          {
+            "key": "timeWeather",
+            "label": "Time / Weather"
+          },
+          {
+            "key": "questEpisode",
+            "label": "Quest Ep."
+          },
+          {
+            "key": "status",
+            "label": "Status"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "Clue",
+        "label": "Clue",
+        "badge": "N",
+        "color": "#d99a3d",
+        "width": 230,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "evidence",
+            "label": "Evidence"
+          },
+          {
+            "key": "owner",
+            "label": "Owner"
+          },
+          {
+            "key": "outcome",
+            "label": "Outcome"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InterviewNote",
+        "label": "Interview Note",
+        "badge": "N",
+        "color": "#56b6c2",
+        "width": 240,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "recorder",
+            "label": "Recorder"
+          },
+          {
+            "key": "reliability",
+            "label": "Reliability"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "LocationFrame",
+        "label": "Location Frame",
+        "badge": "N",
+        "color": "#6f8fcf",
+        "width": 560,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "mood",
+            "label": "Mood"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ConversationFrame",
+        "label": "Conversation Frame",
+        "badge": "N",
+        "color": "#3aa99f",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "participants",
+            "label": "Participants"
+          },
+          {
+            "key": "summary",
+            "label": "Summary"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "InvestigationEvent",
+        "label": "Investigation Event",
+        "badge": "N",
+        "color": "#c678dd",
+        "width": 540,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "clueStatus",
+            "label": "Clue Status"
+          },
+          {
+            "key": "risk",
+            "label": "Risk"
+          },
+          {
+            "key": "evidenceOwner",
+            "label": "Evidence Owner"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": false,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "ArchiveNote",
+        "label": "Archive Note",
+        "badge": "N",
+        "color": "#8a8f98",
+        "width": 220,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "node",
+        "template": "node",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": false,
+        "cardOpacity": 20,
+        "system": true
+      },
+      {
+        "type": "DraftFrame",
+        "label": "Draft Frame",
+        "badge": "N",
+        "color": "#7f848e",
+        "width": 520,
+        "custom": false,
+        "badgeCustom": true,
+        "kind": "frame",
+        "template": "frame",
+        "fields": [
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "removedColumns": [],
+        "eventColumnLabels": {},
+        "hidden": true,
+        "eventSheetHidden": true,
+        "cardOpacity": 20,
+        "system": true
+      }
+    ],
+    "customNodeTypes": [],
+    "characters": [],
+    "deletedNodes": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 80,
+        "y": 80,
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "frameId": ""
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "铁皮炉子里的火焰缓慢地闪动着。\n程靖霖望着赤红色的火炭出神。他慢慢地用火勾拨动了几下火，把炉圈盖好，拿起放在一旁的水壶，坐在炉子上。\n这是时一堂大药房的堂屋，也就是他日常生活和劳作的地方。他还记得当年掌柜程时一盘下这间平房的样子，时至今日，似乎并没有改变多少。青砖、木梁、板门、木柜、台面，来往的客人经常倚靠的地方被磨得光亮。\n门口黑底白字的匾额“时一堂”是康德二年挂上的，到了现在，在通兰县城里也还是一面硬气的招牌。两扇木板门与厚重的门帘将寒冷隔绝在外，只有在堂屋里还保留着一点温暖。\n程靖霖慢慢走到柜台后，他的背后是高过顶的百子药斗，手边是黄铜戥子、药剪、药纸、小刀、麻绳。他抓药和看病的本事，都是掌柜程时一手把手教出来的。这许多年过去，屋子里当归、黄芪、甘草、陈皮，混着煤炭、木柴，加上一点点潮气，构成了他嗅觉的一部分。\n炉子里的炭火毕毕剥剥地响起来。程靖霖听见有沉稳的脚步声从后堂过来，一个中年男子挑开柜台后的门帘进了药房。程靖霖转过身来，看到程时一那张略显苍老却并不衰颓的脸。",
+        "x": 140,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 214
+      },
+      {
+        "id": "n1",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “掌柜的，早。”",
+        "x": 800,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，早。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一点了点头，慢慢走到火炉旁。他伸出双手，枯瘦、修长、指节分明的手在炉火旁来回翻转。",
+        "x": 1460,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “掌柜的，早上我生火的时候，看了一下。煤快没有了。灶上还熬着药，我算了一下，大概还够三天。”",
+        "x": 2120,
+        "y": 80,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，早上我生火的时候，看了一下。煤快没有了。灶上还熬着药，我算了一下，大概还够三天。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有回头。他继续烤着手，盯着水壶，眼中忽明忽暗。\n炉火并不是很旺。东北的冬天，那里散发的温度是让人感到安全的最大理由。",
+        "x": 140,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 118
+      },
+      {
+        "id": "n5",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “快过年了。这煤，和粮食一样。越来越少了，也越来越贵啦。送煤的也不一定什么时候来。”",
+        "x": 800,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“快过年了。这煤，和粮食一样。越来越少了，也越来越贵啦。送煤的也不一定什么时候来。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一转过身来，望着程靖霖，轻轻捻着自己的手指：",
+        "x": 1460,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “这一阵，你就得多跑跑了。我年纪大了，腿疼得厉害。药材咱们倒是还有点，不用太担心。这不是眼看要过年了吗？往年，都会有人来咱这买点东西，送送礼，走动走动……”",
+        "x": 2120,
+        "y": 340,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“这一阵，你就得多跑跑了。我年纪大了，腿疼得厉害。药材咱们倒是还有点，不用太担心。这不是眼看要过年了吗？往年，都会有人来咱这买点东西，送送礼，走动走动……”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "他没有继续说下去，眼神投向玻璃窗外空荡荡的南大街，寒风卷着尘埃在街面上掠过。天光已经大亮，但街面并无声息，偌大的通兰县好像一座空城。\n炉子上的水壶发出嘶鸣，打破了药房里的沉默。程时一的女儿程晓梅从后门走进堂屋，她熟练地从柜台里取出两只碗，给程时一和程靖霖倒上开水，回到后间去水缸里添水。",
+        "x": 140,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 118
+      },
+      {
+        "id": "n9",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “粮食咱还够半个月的。大概，能撑到过年吧，爹。”",
+        "x": 800,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“粮食咱还够半个月的。大概，能撑到过年吧，爹。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅把水壶重新坐回到炉子上。程时一苦笑了一下，望向女儿，又望向被纸条糊住的玻璃窗。一阵风起，穿透窗缝。他问程晓梅：",
+        "x": 1460,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “闺女，老马家的药煎好了没有？”",
+        "x": 2120,
+        "y": 600,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“闺女，老马家的药煎好了没有？”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅答应一声，重新回到后间。程时一踱步到柜台后：",
+        "x": 140,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “霖子，跑一趟吧。”",
+        "x": 800,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，跑一趟吧。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "程靖霖",
+        "body": "程靖霖: “是。掌柜的。昨天我从南大街那边回来，觉着这街面比以前又冷清了。”\n程靖霖: “是不是外面风声又紧了？”",
+        "x": 1460,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“是。掌柜的。昨天我从南大街那边回来，觉着这街面比以前又冷清了。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“是不是外面风声又紧了？”"
+          }
+        ],
+        "width": 420,
+        "height": 138
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “让你去哪你就去哪。你过去怎么跑，现在还怎么跑。外面冷，衣服掖好了，东西拿好了，快去快回。大冬天的，搁外边呆太久，就会冻着，一冻着了，那可就什么事都干不了啦。”",
+        "x": 2120,
+        "y": 860,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“让你去哪你就去哪。你过去怎么跑，现在还怎么跑。外面冷，衣服掖好了，东西拿好了，快去快回。大冬天的，搁外边呆太久，就会冻着，一冻着了，那可就什么事都干不了啦。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅端着一个装药的小砂锅从灶间出来，她将砂锅放进一个篮子，盖上棉垫，叮嘱程靖霖：",
+        "x": 140,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n17",
+        "type": "Dialog",
+        "title": "程晓梅",
+        "body": "程晓梅: “霖子，地滑。小心点，别撒了。”",
+        "x": 800,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“霖子，地滑。小心点，别撒了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一看了看那个小篮子，苦笑了一下：",
+        "x": 1460,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n19",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “天寒地冻的，药汤咱们可送不了多远。幸亏老马家就在借壁儿，不用换衣服，到了那儿也凉不了。”",
+        "x": 2120,
+        "y": 1120,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“天寒地冻的，药汤咱们可送不了多远。幸亏老马家就在借壁儿，不用换衣服，到了那儿也凉不了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖挽起篮子，从柜台后面绕出来，他听到炉膛子里炭火闷烧的声音，像在给他提醒，这里是一个坐标。\n老医生走到柜台旁，拿起棉帽，在手里掂了掂，回头扣在程靖霖头上，给他系好帽带。程时一耐心地捋着带子，一边打结，一边说：",
+        "x": 140,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 118
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “我老啦。跑腿的事，全靠你了。”",
+        "x": 800,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“我老啦。跑腿的事，全靠你了。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "他给程靖霖戴好帽子，慢慢踱回柜台后面，补上两句：",
+        "x": 1460,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “马寡妇不定给你拿点什么……煤、粮食、钱，都顶一副药。但是这世道啊，有钱也买不到什么东西，有些东西钱买不来。”",
+        "x": 2120,
+        "y": 1380,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“马寡妇不定给你拿点什么……煤、粮食、钱，都顶一副药。但是这世道啊，有钱也买不到什么东西，有些东西钱买不来。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一抬起眼睛，与程靖霖的目光交汇。他点了点头说：",
+        "x": 140,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 94
+      },
+      {
+        "id": "n25",
+        "type": "Dialog",
+        "title": "程时一",
+        "body": "程时一: “不该看的别看，不该问的别问。走到哪，都得记得。去吧。”",
+        "x": 800,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“不该看的别看，不该问的别问。走到哪，都得记得。去吧。”"
+          }
+        ],
+        "width": 420,
+        "height": 114
+      },
+      {
+        "id": "n26",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖挑开厚重的门帘，推开药房正门。寒风如重拳般锤打在他的脸上。他回头看了看时一堂药房的牌匾，这是他每次出门的习惯，他自己也说不上为什么会这样做。\n路边的雪与泥混成一团。他顺着土路旁边慢慢地走，挑着没那么脏的地方下脚。马家杂货铺和药房很近，几分钟便走到了。\n敲门之前，程靖霖望了望天空。透彻冰冷的阳光洒在他的脸上，没有丝毫暖意。",
+        "x": 1460,
+        "y": 1640,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 480,
+        "height": 142
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0"
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4"
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n5"
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n6"
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7"
+      },
+      {
+        "id": "l8",
+        "from": "n7",
+        "to": "n8"
+      },
+      {
+        "id": "l9",
+        "from": "n8",
+        "to": "n9"
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10"
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11"
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12"
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13"
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14"
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15"
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16"
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17"
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18"
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19"
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20"
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21"
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22"
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23"
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24"
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n25"
+      },
+      {
+        "id": "l26",
+        "from": "n25",
+        "to": "n26"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.55
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

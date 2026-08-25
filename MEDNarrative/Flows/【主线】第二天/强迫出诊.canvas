@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"ed3fa0fa3a230c0c","type":"text","text":"# 强迫出诊","x":0,"y":0,"width":400,"height":120},
+		{"id":"5d2770698ac717ba","type":"file","file":"Flows/【主线】第二天/强迫出诊.ncanvas","x":0,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

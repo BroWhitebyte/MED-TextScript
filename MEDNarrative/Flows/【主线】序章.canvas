@@ -1,0 +1,33 @@
+{
+	"nodes": [
+		{
+			"id": "a9a2f406871af320",
+			"type": "text",
+			"text": "# [主线]序章",
+			"x": 80,
+			"y": 0,
+			"width": 300,
+			"height": 60
+		},
+		{
+			"id": "d58f317a36479e90",
+			"type": "file",
+			"file": "Flows/【主线】序章/序章.canvas",
+			"color": "5",
+			"x": 500,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		},
+		{
+			"id": "2cd43110307370a6",
+			"type": "file",
+			"file": "Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas",
+			"x": 960,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
+	],
+	"edges": []
+}

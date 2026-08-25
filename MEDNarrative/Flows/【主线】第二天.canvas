@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"5e74b84979a588df","type":"text","text":"# 【主线】第二天","x":0,"y":0,"width":400,"height":120},
+		{"id":"9fa9ca7bc812adf1","type":"file","file":"Flows/【主线】第二天/强迫出诊.canvas","x":1080,"y":-40,"width":300,"height":200}
+	],
+	"edges":[]
+}
