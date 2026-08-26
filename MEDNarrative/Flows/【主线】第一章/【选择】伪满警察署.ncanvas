@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-08-26T08:48:33.925Z",
+  "savedAt": "2026-08-26T09:14:39.486Z",
   "project": {
     "title": "【选择】伪满警察署",
     "workflowMode": "canvas",
@@ -413,6 +413,39 @@
     "customNodeTypes": [],
     "characters": [],
     "deletedNodes": [
+      {
+        "deletedAt": "2026-08-26T09:13:52.920Z",
+        "node": {
+          "id": "n1",
+          "type": "Content",
+          "title": "Content",
+          "body": "Write narration here.",
+          "x": 25895,
+          "y": 386,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "width": 632,
+          "height": 256
+        },
+        "links": [
+          {
+            "id": "l2",
+            "from": "n46",
+            "to": "n1"
+          }
+        ]
+      },
       {
         "deletedAt": "2026-08-26T07:28:47.279Z",
         "node": {
@@ -1851,7 +1884,7 @@
         "id": "n46",
         "type": "Content",
         "title": "Content",
-        "body": "警察吼道，他挥舞着拳头，威吓着年轻的伙计。",
+        "body": "警察吼道，他挥舞着拳头，威吓着年轻的伙计。\n程靖霖不知道自己是怎么从警察署里走出来的。他回身看了看那幢黑漆漆的建筑，仿佛刚做了一场短暂的噩梦。",
         "x": 25301,
         "y": 190,
         "frameId": "",
@@ -1874,9 +1907,9 @@
         "id": "n48",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖不知道自己是怎么从警察署里走出来的。他回身看了看那幢黑漆漆的建筑，仿佛刚做了一场短暂的噩梦。\n路并不远，但日头已经快到正中了。程靖霖推开药房的门，门帘掀起又落下，带进一股寒气。\n屋里炉火压着小火，暖意不多。程时一坐在柜台后头，看见他进来，把账本合上。",
-        "x": 25890,
-        "y": 163,
+        "body": "路并不远，但日头已经快到正中了。程靖霖推开药房的门，门帘掀起又落下，带进一股寒气。\n屋里炉火压着小火，暖意不多。程时一坐在柜台后头，看见他进来，把账本合上。",
+        "x": 25904,
+        "y": 154,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -2396,7 +2429,7 @@
         "id": "l3",
         "from": "n6",
         "to": "n2",
-        "requirements": "at_period(1)"
+        "requirements": "at_period(0)"
       },
       {
         "id": "l7",
@@ -2416,7 +2449,8 @@
       {
         "id": "l26",
         "from": "n46",
-        "to": "n48"
+        "to": "n48",
+        "requirements": "at_period(0)"
       },
       {
         "id": "l47",
@@ -2478,9 +2512,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 787.3033129882813,
-      "y": 647.7432993403048,
-      "scale": 0.7449999999999999
+      "x": 254,
+      "y": 754.0286560058594,
+      "scale": 1
     },
     "sidebar": {
       "leftWidth": 280,
