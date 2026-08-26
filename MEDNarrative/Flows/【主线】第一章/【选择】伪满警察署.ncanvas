@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-08-18T13:39:06.742Z",
+  "savedAt": "2026-08-26T08:48:33.925Z",
   "project": {
     "title": "【选择】伪满警察署",
     "workflowMode": "canvas",
@@ -412,15 +412,288 @@
     ],
     "customNodeTypes": [],
     "characters": [],
-    "deletedNodes": [],
+    "deletedNodes": [
+      {
+        "deletedAt": "2026-08-26T07:28:47.279Z",
+        "node": {
+          "id": "n4",
+          "type": "Content",
+          "title": "Content",
+          "body": "",
+          "x": 1180,
+          "y": 53,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5
+            }
+          },
+          "width": 488,
+          "height": 184
+        },
+        "links": [
+          {
+            "id": "l5",
+            "from": "n4",
+            "to": "n5"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T07:28:29.209Z",
+        "node": {
+          "id": "n3",
+          "type": "Content",
+          "title": "Content",
+          "body": "",
+          "x": 1037,
+          "y": 12,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5
+            }
+          },
+          "width": 525,
+          "height": 177
+        },
+        "links": [
+          {
+            "id": "l4",
+            "from": "n3",
+            "to": "n4"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T07:28:07.876Z",
+        "node": {
+          "id": "n1",
+          "type": "Content",
+          "title": "Content",
+          "body": "",
+          "x": 728,
+          "y": 54,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5
+            }
+          },
+          "width": 482,
+          "height": 184
+        },
+        "links": [
+          {
+            "id": "l1",
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "id": "l49",
+            "from": "n0",
+            "to": "n1"
+          },
+          {
+            "id": "l2",
+            "from": "n1",
+            "to": "n3"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T07:18:58.720Z",
+        "node": {
+          "id": "n47",
+          "type": "Dialog",
+          "title": "李加夫",
+          "body": "李加夫: “从哪来的回哪去！”",
+          "x": 27508,
+          "y": 174,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "李加夫",
+              "line": "“从哪来的回哪去！”"
+            }
+          ],
+          "width": 448,
+          "height": 228
+        },
+        "links": [
+          {
+            "id": "l47",
+            "from": "n46",
+            "to": "n47"
+          },
+          {
+            "id": "l48",
+            "from": "n47",
+            "to": "n48"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T07:13:45.021Z",
+        "node": {
+          "id": "n25",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "曹二泥: 1231231",
+          "x": 8166,
+          "y": 212,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "曹二泥",
+              "line": ""
+            }
+          ],
+          "cast": [
+            {
+              "characterId": "gc-曹二泥",
+              "role": "Speaker"
+            }
+          ]
+        },
+        "links": []
+      },
+      {
+        "deletedAt": "2026-08-26T07:08:00.139Z",
+        "node": {
+          "id": "n25",
+          "type": "Content",
+          "title": "Content",
+          "body": "",
+          "x": 14937,
+          "y": 146,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5
+            }
+          },
+          "width": 500,
+          "height": 189
+        },
+        "links": [
+          {
+            "id": "l25",
+            "from": "n24",
+            "to": "n25"
+          },
+          {
+            "id": "l26",
+            "from": "n25",
+            "to": "n26"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-25T13:45:25.718Z",
+        "node": {
+          "id": "n2",
+          "type": "Dialog",
+          "title": "程时一",
+          "body": "程时一: “警察署的差使，到了就回。多了别问，不让你看的也别看。”",
+          "x": 1460,
+          "y": 80,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5
+            },
+            "output": {
+              "side": "right",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "程时一",
+              "line": "“警察署的差使，到了就回。多了别问，不让你看的也别看。”"
+            }
+          ],
+          "width": 420,
+          "height": 114
+        },
+        "links": [
+          {
+            "id": "l2",
+            "from": "n1",
+            "to": "n2"
+          },
+          {
+            "id": "l3",
+            "from": "n2",
+            "to": "n3"
+          }
+        ]
+      }
+    ],
     "nodes": [
       {
         "id": "n_entry",
         "type": "Entry",
         "title": "Start",
         "body": "Adventure Begins",
-        "x": 80,
-        "y": 80,
+        "x": -206,
+        "y": 76,
         "choices": [],
         "customFields": {},
         "ports": {
@@ -439,9 +712,9 @@
         "id": "n0",
         "type": "Content",
         "title": "Content",
-        "body": "虽然只有一街之隔，但程靖霖还是不太愿意将目光投向远处那座被漆成黑色的建筑。那大概是这个县城里最为阴森的地方，很多东边的平民家庭夜里吓唬孩子的时候，总会说：“再闹，黑狗子就上门来抓你！”\n县公署发“公告”，协和会讲“道理”，保甲所管“连坐”，警察署就复杂了。如果是平民百姓，平安无事地从里面走出来的几率并不大，这座衙门是带院的两进式改造房。前头朝街，门脸不大，里头吃人。",
-        "x": 140,
-        "y": 80,
+        "body": "虽然只有一街之隔，但程靖霖还是不太愿意将目光投向远处那座被漆成黑色的建筑。那大概是这个县城里最为阴森的地方，很多东边的平民家庭夜里吓唬孩子的时候，总会说：“再闹，黑狗子就上门来抓你！”\n县公署发“公告”，协和会讲“道理”，保甲所管“连坐”，警察署就复杂了。如果是平民百姓，平安无事地从里面走出来的几率并不大，这座衙门是带院的两进式改造房。前头朝街，门脸不大，里头吃人。\n程靖霖沿着南大街慢慢走过去，时不时抬起头盯着小广场西南角的那幢建筑。刚才出来时，程时一特别叮嘱他：“警察署的差使，到了就回。多了别问，不让你看的也别看。”\n如果走到路口再过街的话，就需要经过小广场。程靖霖想到那具吊在行刑架上的尸体凝固的眼白，把手往怀里揣紧了一点，低着头穿过南大街上的泥泞和车辙。他左顾右盼，但街上并没有什么人——过去，他偶尔也会被掌柜程时一派去西边送药，但去警察署，还是头一次。\n风更加凌厉起来，卷着尘土打透了程靖霖的裤管。他加快脚步，很快到了警署门口。两个正在抽烟的伪警察看到瘦高的身影靠近，其中一个厉声叫着。",
+        "x": 97,
+        "y": -65,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -455,114 +728,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 118
-      },
-      {
-        "id": "n1",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖沿着南大街慢慢走过去，时不时抬起头盯着小广场西南角的那幢建筑。刚才出来时，程时一特别叮嘱他：",
-        "x": 800,
-        "y": 80,
-        "frameId": "",
-        "choices": [],
-        "customFields": {},
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 480,
-        "height": 94
-      },
-      {
-        "id": "n2",
-        "type": "Dialog",
-        "title": "程时一",
-        "body": "程时一: “警察署的差使，到了就回。多了别问，不让你看的也别看。”",
-        "x": 1460,
-        "y": 80,
-        "frameId": "",
-        "choices": [],
-        "customFields": {},
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "turns": [
-          {
-            "speaker": "程时一",
-            "line": "“警察署的差使，到了就回。多了别问，不让你看的也别看。”"
-          }
-        ],
-        "width": 420,
-        "height": 114
-      },
-      {
-        "id": "n3",
-        "type": "Content",
-        "title": "Content",
-        "body": "如果走到路口再过街的话，就需要经过小广场。程靖霖想到那具吊在行刑架上的尸体凝固的眼白，把手往怀里揣紧了一点，低着头穿过南大街上的泥泞和车辙。他左顾右盼，但街上并没有什么人——过去，他偶尔也会被掌柜程时一派去西边送药，但去警察署，还是头一次。",
-        "x": 2120,
-        "y": 80,
-        "frameId": "",
-        "choices": [],
-        "customFields": {},
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 480,
-        "height": 94
-      },
-      {
-        "id": "n4",
-        "type": "Content",
-        "title": "Content",
-        "body": "风更加凌厉起来，卷着尘土打透了程靖霖的裤管。他加快脚步，很快到了警署门口。两个正在抽烟的伪警察看到瘦高的身影靠近，其中一个厉声叫道：",
-        "x": 140,
-        "y": 340,
-        "frameId": "",
-        "choices": [],
-        "customFields": {},
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 480,
-        "height": 94
+        "width": 713,
+        "height": 386
       },
       {
         "id": "n5",
         "type": "Dialog",
-        "title": "警察A",
+        "title": "Dialog",
         "body": "警察A: “站住！干什么的！”",
-        "x": 800,
-        "y": 340,
+        "x": 982,
+        "y": 49,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -582,16 +757,16 @@
             "line": "“站住！干什么的！”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 442,
+        "height": 183
       },
       {
         "id": "n6",
         "type": "Content",
         "title": "Content",
-        "body": "另一个警察认出了程靖霖，哈哈一笑说：",
-        "x": 1460,
-        "y": 340,
+        "body": "另一个警察认出了程靖霖，哈哈一笑。",
+        "x": 1498,
+        "y": 45,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -605,16 +780,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 487,
+        "height": 180
       },
       {
         "id": "n7",
         "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “是老程家药房的伙计。里面用药，我刚让人去药房催了催老掌柜的。动作还挺快，这就送来了。”",
-        "x": 2120,
-        "y": 340,
+        "title": "Dialog",
+        "body": "警察B: “是老程家药房的伙计。里面用药，我刚让人去药房催了催老掌柜的。动作还挺快，这就送来了。”",
+        "x": 2134,
+        "y": 193,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -630,20 +805,26 @@
         },
         "turns": [
           {
-            "speaker": "李加夫",
+            "speaker": "警察B",
             "line": "“是老程家药房的伙计。里面用药，我刚让人去药房催了催老掌柜的。动作还挺快，这就送来了。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 516,
+        "height": 251,
+        "cast": [
+          {
+            "characterId": "gc-警察B",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n8",
         "type": "Content",
         "title": "Content",
-        "body": "他向程靖霖一努嘴：",
-        "x": 140,
-        "y": 600,
+        "body": "他向程靖霖努了努嘴。",
+        "x": 2789,
+        "y": 87,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -657,16 +838,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 488,
+        "height": 151
       },
       {
         "id": "n9",
         "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “进去吧。”",
-        "x": 800,
-        "y": 600,
+        "title": "Dialog",
+        "body": "警察B: “进去吧。”",
+        "x": 3380,
+        "y": 88,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -682,20 +863,26 @@
         },
         "turns": [
           {
-            "speaker": "李加夫",
+            "speaker": "警察B",
             "line": "“进去吧。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 473,
+        "height": 199,
+        "cast": [
+          {
+            "characterId": "gc-警察B",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n10",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖点头称是，从两个警察身边蹭进警察署的偏门。站在这幢黑乎乎的建筑前，他的心似乎也跟着沉了下去——被捏紧、揉搓和踩踏。\n大厅里比外面有了点暖和的意思，坐在门口的一个警士懒洋洋地拦住程靖霖：",
-        "x": 1460,
-        "y": 600,
+        "body": "程靖霖点头称是，从两个警察身边蹭进警察署的偏门。站在这幢黑乎乎的建筑前，他的心似乎也跟着沉了下去——被捏紧、揉搓和踩踏。\n大厅里比外面有了点暖和的意思，坐在门口的一个警士懒洋洋地拦住程靖霖。",
+        "x": 3961,
+        "y": 86,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -709,16 +896,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 118
+        "width": 494,
+        "height": 211
       },
       {
         "id": "n11",
         "type": "Dialog",
-        "title": "警士",
+        "title": "Dialog",
         "body": "警士: “哪来的？找谁？”",
-        "x": 2120,
-        "y": 600,
+        "x": 4559,
+        "y": 71,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -738,16 +925,16 @@
             "line": "“哪来的？找谁？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 478,
+        "height": 235
       },
       {
         "id": "n12",
         "type": "Content",
         "title": "Content",
-        "body": "还没等程靖霖回答，从警署里面传来几句生硬的协和语：“伙计？药，我的。”随着话音，一连串脚步声顺着走廊传来，一个穿着警尉制服的日本人从黑暗中出现，走到程靖霖面前。他上下打量着年轻的伙计，摆手让旁边弹起来敬礼的警士坐下，微微笑了起来：",
-        "x": 140,
-        "y": 860,
+        "body": "还没等程靖霖回答，从警署里面传来几句生硬的协和语：“伙计？药，我的。”随着话音，一连串脚步声顺着走廊传来，一个穿着警尉制服的日本人从黑暗中出现，走到程靖霖面前。他上下打量着年轻的伙计，摆手让旁边弹起来敬礼的警士坐下，微微笑了笑。",
+        "x": 5149,
+        "y": 89,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -761,16 +948,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 490,
+        "height": 197
       },
       {
         "id": "n13",
         "type": "Dialog",
-        "title": "中野三郎",
+        "title": "Dialog",
         "body": "中野三郎: “你的，程家的，我的见过你的。药的带来？”",
-        "x": 800,
-        "y": 860,
+        "x": 5767,
+        "y": 87,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -790,16 +977,22 @@
             "line": "“你的，程家的，我的见过你的。药的带来？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 489,
+        "height": 206,
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n14",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖低下头，从怀中掏出药包，双手递上。他微微抬起眼睛，眼神与那个日本人鹰隼一样的目光交汇，又赶紧把眼睛垂下。\n日本警尉接过药包，掂了掂。他拍了拍程靖霖的肩膀，笑道：",
-        "x": 1460,
-        "y": 860,
+        "body": "程靖霖低下头，从怀中掏出药包，双手递上。他微微抬起眼睛，眼神与那个日本人鹰隼一样的目光交汇，又赶紧把眼睛垂下。\n日本警尉接过药包，掂了掂。他拍了拍程靖霖的肩膀。",
+        "x": 6356,
+        "y": 97,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -813,16 +1006,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 118
+        "width": 556,
+        "height": 193
       },
       {
         "id": "n15",
         "type": "Dialog",
-        "title": "中野三郎",
+        "title": "Dialog",
         "body": "中野三郎: “你的，跟我来。”",
-        "x": 2120,
-        "y": 860,
+        "x": 7059,
+        "y": 96,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -842,16 +1035,22 @@
             "line": "“你的，跟我来。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 463,
+        "height": 205,
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n16",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖内心一惊。他本能地想拒绝，但心里如同电闪般划过了几个念头，最后还是低下头说：",
-        "x": 140,
-        "y": 1120,
+        "body": "程靖霖内心一惊。他本能地想拒绝，但心里如同电闪般划过了几个念头，最后还是低下头。",
+        "x": 7629,
+        "y": 115,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -865,16 +1064,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 495,
+        "height": 169
       },
       {
         "id": "n17",
         "type": "Dialog",
-        "title": "程靖霖",
+        "title": "Dialog",
         "body": "程靖霖: “是。”",
-        "x": 800,
-        "y": 1120,
+        "x": 8275,
+        "y": 113,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -894,16 +1093,16 @@
             "line": "“是。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 448,
+        "height": 184
       },
       {
         "id": "n18",
         "type": "Content",
         "title": "Content",
-        "body": "日本警尉没再看他，转身往走廊深处走去。后面的警士推了程靖霖一把：",
-        "x": 1460,
-        "y": 1120,
+        "body": "日本警尉没再看他，转身往走廊深处走去。后面的警士推了程靖霖一把。",
+        "x": 8937,
+        "y": 123,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -917,16 +1116,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 500,
+        "height": 182
       },
       {
         "id": "n19",
         "type": "Dialog",
-        "title": "警士",
+        "title": "Dialog",
         "body": "警士: “中野太君叫你跟他走，快点！”",
-        "x": 2120,
-        "y": 1120,
+        "x": 9597,
+        "y": 116,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -946,16 +1145,16 @@
             "line": "“中野太君叫你跟他走，快点！”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 441,
+        "height": 181
       },
       {
         "id": "n20",
         "type": "Content",
         "title": "Content",
-        "body": "走廊似乎长得看不到头。中野警尉打了铁掌的皮靴在水磨石地面上发出响亮的声音，每一步都像是一声判决。程靖霖跟随他走到一扇门前，中野回头看了看他：",
-        "x": 140,
-        "y": 1380,
+        "body": "走廊似乎长得看不到头。中野警尉打了铁掌的皮靴在水磨石地面上发出响亮的声音，每一步都像是一声判决。程靖霖跟随他走到一扇门前，中野回头看了看他。",
+        "x": 10148,
+        "y": 124,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -969,16 +1168,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 497,
+        "height": 165
       },
       {
         "id": "n21",
         "type": "Dialog",
-        "title": "中野三郎",
+        "title": "Dialog",
         "body": "中野三郎: “你的，会治病？”",
-        "x": 800,
-        "y": 1380,
+        "x": 10796,
+        "y": 112,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -998,16 +1197,16 @@
             "line": "“你的，会治病？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 454,
+        "height": 168
       },
       {
         "id": "n22",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖点点头，但是想起掌柜程时一说的话，又赶紧摇摇头。中野看着他有些慌张的表情，又笑了起来：",
-        "x": 1460,
-        "y": 1380,
+        "body": "程靖霖点点头，但是想起掌柜程时一说的话，又赶紧摇摇头。中野看着他有些慌张的表情，又笑了起来。",
+        "x": 11397,
+        "y": 145,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1021,16 +1220,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 498,
+        "height": 145
       },
       {
         "id": "n23",
         "type": "Dialog",
-        "title": "中野三郎",
+        "title": "Dialog",
         "body": "中野三郎: “你的，不要害怕。有人，要看一看。不是我。”",
-        "x": 2120,
-        "y": 1380,
+        "x": 12099,
+        "y": 110,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1050,16 +1249,22 @@
             "line": "“你的，不要害怕。有人，要看一看。不是我。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 467,
+        "height": 207,
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n24",
         "type": "Content",
         "title": "Content",
-        "body": "他推开门，程靖霖看到空荡荡的房间里摆着一张椅子，一个衣衫破烂的人被牢牢绑在上面。旁边的两个警察看到中野进来，都赶紧立正，手上的皮鞭和警棍垂在地上。\n程靖霖的眼睛不敢抬起来，紧紧盯着审讯室的地面。他看到水泥地上经年累月留下来的一块块深黑色的污渍，上面又覆盖了新的暗红色的痕迹。",
-        "x": 140,
-        "y": 1640,
+        "body": "他推开门，程靖霖看到空荡荡的房间里摆着一张椅子，一个衣衫破烂的人被牢牢绑在上面。旁边的两个警察看到中野进来，都赶紧立正，手上的皮鞭和警棍垂在地上。\n程靖霖的眼睛不敢抬起来，紧紧盯着审讯室的地面。他看到水泥地上经年累月留下来的一块块深黑色的污渍，上面又覆盖了新的暗红色的痕迹。\n中野把程靖霖拉进房间，把他带到那个受刑者面前。",
+        "x": 12686,
+        "y": 111,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1073,39 +1278,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 118
-      },
-      {
-        "id": "n25",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野把程靖霖拉进房间，把他带到那个受刑者面前：",
-        "x": 800,
-        "y": 1640,
-        "frameId": "",
-        "choices": [],
-        "customFields": {},
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 480,
-        "height": 94
+        "width": 502,
+        "height": 207
       },
       {
         "id": "n26",
         "type": "Dialog",
-        "title": "中野三郎",
+        "title": "Dialog",
         "body": "中野三郎: “去，看看他的，发烧？”",
-        "x": 1460,
-        "y": 1640,
+        "x": 13323,
+        "y": 124,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1125,16 +1307,16 @@
             "line": "“去，看看他的，发烧？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 448,
+        "height": 185
       },
       {
         "id": "n27",
         "type": "Content",
         "title": "Content",
-        "body": "他一边说，一边把药包抛给一个警察：“李桑。”\n程靖霖被推到受刑者面前，这个气息奄奄的男人衣衫破烂，上身的衣服被扯开，胸腹留着新鲜和陈旧的伤痕，干瘦的身躯上布满了皮鞭和木棒的印迹。他的一只眼睛已经青肿起来，脸上满是血渍。\n程靖霖小心地把手覆盖在他的额头上，感觉到一股超过正常体温的炽热。他从怀里拿出手巾，擦掉受刑者嘴上的鲜血，捏着他的下颌，轻声说：",
-        "x": 2120,
-        "y": 1640,
+        "body": "他一边说，一边把药包抛给一个警察。\n程靖霖被推到受刑者面前，这个气息奄奄的男人衣衫破烂，上身的衣服被扯开，胸腹留着新鲜和陈旧的伤痕，干瘦的身躯上布满了皮鞭和木棒的印迹。他的一只眼睛已经青肿起来，脸上满是血渍。\n程靖霖小心地把手覆盖在他的额头上，感觉到一股超过正常体温的炽热。他从怀里拿出手巾，擦掉受刑者嘴上的鲜血，捏着他的下颌。",
+        "x": 13921,
+        "y": 107,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1148,16 +1330,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 142
+        "width": 514,
+        "height": 225
       },
       {
         "id": "n28",
         "type": "Dialog",
-        "title": "程靖霖",
-        "body": "程靖霖: “张嘴。”",
-        "x": 140,
-        "y": 1900,
+        "title": "Dialog",
+        "body": "程靖霖: （轻声）“张嘴。”",
+        "x": 14591,
+        "y": 129,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1174,19 +1356,25 @@
         "turns": [
           {
             "speaker": "程靖霖",
-            "line": "“张嘴。”"
+            "line": "（轻声）“张嘴。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 449,
+        "height": 192,
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n29",
         "type": "Content",
         "title": "Content",
-        "body": "受刑者的喉咙里吐出几个无法辨认的音节，似乎对于外界的一切都已经无动于衷，但还是张开了嘴。程靖霖看到他的牙齿已经残缺不全，牙床上的新创口还在漾着血丝。男人好像恢复了一点知觉，他的喉结滚动了几下，嘶哑的声音被挤出来：",
-        "x": 800,
-        "y": 1900,
+        "body": "受刑者的喉咙里吐出几个无法辨认的音节，似乎对于外界的一切都已经无动于衷，但还是张开了嘴。程靖霖看到他的牙齿已经残缺不全，牙床上的新创口还在漾着血丝。男人好像恢复了一点知觉，他的喉结滚动了几下，嘶哑的声音被挤了出来。",
+        "x": 15188,
+        "y": 123,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1200,16 +1388,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 497,
+        "height": 200
       },
       {
         "id": "n30",
         "type": "Dialog",
-        "title": "受刑者",
+        "title": "Dialog",
         "body": "受刑者: “水……水……”",
-        "x": 1460,
-        "y": 1900,
+        "x": 15810,
+        "y": 130,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1229,16 +1417,16 @@
             "line": "“水……水……”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 482,
+        "height": 192
       },
       {
         "id": "n31",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖直起身来。刚才接过药包的警察走到他面前：",
-        "x": 2120,
-        "y": 1900,
+        "body": "程靖霖直起身来。刚才接过药包的警察走到他面前。",
+        "x": 16395,
+        "y": 134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1252,16 +1440,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 532,
+        "height": 180
       },
       {
         "id": "n32",
         "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “说，怎么样？”",
-        "x": 140,
-        "y": 2160,
+        "title": "Dialog",
+        "body": "警察A: “说，怎么样？”",
+        "x": 17037,
+        "y": 136,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1277,20 +1465,26 @@
         },
         "turns": [
           {
-            "speaker": "李加夫",
+            "speaker": "警察A",
             "line": "“说，怎么样？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 437,
+        "height": 190,
+        "cast": [
+          {
+            "characterId": "gc-警察A",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n33",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖咽了一口唾沫，回应道：",
-        "x": 800,
-        "y": 2160,
+        "body": "程靖霖咽了一口唾沫。",
+        "x": 17612,
+        "y": 158,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1304,16 +1498,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 499,
+        "height": 159
       },
       {
         "id": "n34",
         "type": "Dialog",
-        "title": "程靖霖",
+        "title": "Dialog",
         "body": "程靖霖: “风寒，烧得厉害。需要服药休息……”",
-        "x": 1460,
-        "y": 2160,
+        "x": 18249,
+        "y": 142,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1333,16 +1527,16 @@
             "line": "“风寒，烧得厉害。需要服药休息……”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 428,
+        "height": 180
       },
       {
         "id": "n35",
         "type": "Content",
         "title": "Content",
-        "body": "警察狞笑起来：",
-        "x": 2120,
-        "y": 2160,
+        "body": "警察狞笑起来。",
+        "x": 18817,
+        "y": 158,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1356,16 +1550,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 488,
+        "height": 169
       },
       {
         "id": "n36",
         "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “休息？快过年了，老子都没歇班。”",
-        "x": 140,
-        "y": 2420,
+        "title": "Dialog",
+        "body": "警察A: “休息？快过年了，老子都没歇班。”",
+        "x": 19416,
+        "y": 149,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1381,20 +1575,26 @@
         },
         "turns": [
           {
-            "speaker": "李加夫",
+            "speaker": "警察A",
             "line": "“休息？快过年了，老子都没歇班。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 432,
+        "height": 179,
+        "cast": [
+          {
+            "characterId": "gc-警察A",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n37",
         "type": "Content",
         "title": "Content",
-        "body": "他转向中野警尉，说了几句日语：",
-        "x": 800,
-        "y": 2420,
+        "body": "他转向中野警尉。",
+        "x": 19948,
+        "y": 163,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1408,16 +1608,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 491,
+        "height": 159
       },
       {
         "id": "n38",
         "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “彼は、その人は確かに病気だったと述べた。拷問を続けるべきでしょうか、それともどうしますか？”",
-        "x": 1460,
-        "y": 2420,
+        "title": "Dialog",
+        "body": "警察A: （日语）“他说那个人肯定生病了。我们应该继续拷问，还是怎么办？”",
+        "x": 20543,
+        "y": 142,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1433,20 +1633,26 @@
         },
         "turns": [
           {
-            "speaker": "李加夫",
-            "line": "“彼は、その人は確かに病気だったと述べた。拷問を続けるべきでしょうか、それともどうしますか？”"
+            "speaker": "警察A",
+            "line": "（日语）“他说那个人肯定生病了。我们应该继续拷问，还是怎么办？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 459,
+        "height": 181,
+        "cast": [
+          {
+            "characterId": "gc-警察A",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n39",
         "type": "Content",
         "title": "Content",
-        "body": "中野警尉脸上依旧挂着微笑，回应道：",
-        "x": 2120,
-        "y": 2420,
+        "body": "中野警尉脸上依旧挂着微笑。",
+        "x": 21127,
+        "y": 145,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1460,16 +1666,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 467,
+        "height": 170
       },
       {
         "id": "n40",
         "type": "Dialog",
-        "title": "中野三郎",
-        "body": "中野三郎: “こいつは口が達者だ。死なせるわけにはいかない。”",
-        "x": 140,
-        "y": 2680,
+        "title": "Dialog",
+        "body": "中野三郎: （日语）“这家伙很会说话。不能让他死。”",
+        "x": 21714,
+        "y": 146,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1486,19 +1692,25 @@
         "turns": [
           {
             "speaker": "中野三郎",
-            "line": "“こいつは口が達者だ。死なせるわけにはいかない。”"
+            "line": "（日语）“这家伙很会说话。不能让他死。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 463,
+        "height": 186,
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n41",
         "type": "Content",
         "title": "Content",
-        "body": "他将手伸进裤袋，掏出几张“老头票”，招手叫程靖霖过去，把钱递给他：",
-        "x": 800,
-        "y": 2680,
+        "body": "他将手伸进裤袋，掏出几张“老头票”，招手叫程靖霖过去，把钱递给他。",
+        "x": 22287,
+        "y": 157,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1512,16 +1724,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 509,
+        "height": 179
       },
       {
         "id": "n42",
         "type": "Dialog",
-        "title": "中野三郎",
+        "title": "Dialog",
         "body": "中野三郎: “你的，走开。”",
-        "x": 1460,
-        "y": 2680,
+        "x": 22915,
+        "y": 154,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1541,16 +1753,16 @@
             "line": "“你的，走开。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 458,
+        "height": 201
       },
       {
         "id": "n43",
         "type": "Content",
         "title": "Content",
-        "body": "拿着药包的警察会意，跟上前去，把程靖霖推到室外，带上了门。程靖霖还没反应过来，一只铁钳似的手便掐住了他的胳膊，把日本人刚塞给他的钱夺了过去，他本能地叫道：",
-        "x": 2120,
-        "y": 2680,
+        "body": "拿着药包的警察会意，跟上前去，把程靖霖推到室外，带上了门。程靖霖还没反应过来，一只铁钳似的手便掐住了他的胳膊，把日本人刚塞给他的钱夺了过去，让他本能地叫出声。",
+        "x": 23486,
+        "y": 157,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1564,16 +1776,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 540,
+        "height": 191
       },
       {
         "id": "n44",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “长官，这……”",
-        "x": 140,
-        "y": 2940,
+        "x": 24133,
+        "y": 171,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1593,16 +1805,16 @@
             "line": "“长官，这……”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 446,
+        "height": 187
       },
       {
         "id": "n45",
         "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “快滚！”",
-        "x": 800,
-        "y": 2940,
+        "title": "Dialog",
+        "body": "警察A: “快滚！”\n警察A: “从哪来的回哪去！”",
+        "x": 24715,
+        "y": 177,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1618,20 +1830,30 @@
         },
         "turns": [
           {
-            "speaker": "李加夫",
+            "speaker": "警察A",
             "line": "“快滚！”"
+          },
+          {
+            "speaker": "警察A",
+            "line": "“从哪来的回哪去！”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 455,
+        "height": 219,
+        "cast": [
+          {
+            "characterId": "gc-警察A",
+            "role": "Speaker"
+          }
+        ]
       },
       {
         "id": "n46",
         "type": "Content",
         "title": "Content",
         "body": "警察吼道，他挥舞着拳头，威吓着年轻的伙计。",
-        "x": 1460,
-        "y": 2940,
+        "x": 25301,
+        "y": 190,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1645,45 +1867,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
-      },
-      {
-        "id": "n47",
-        "type": "Dialog",
-        "title": "李加夫",
-        "body": "李加夫: “从哪来的回哪去！”",
-        "x": 2120,
-        "y": 2940,
-        "frameId": "",
-        "choices": [],
-        "customFields": {},
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "turns": [
-          {
-            "speaker": "李加夫",
-            "line": "“从哪来的回哪去！”"
-          }
-        ],
-        "width": 420,
-        "height": 114
+        "width": 493,
+        "height": 167
       },
       {
         "id": "n48",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖不知道自己是怎么从警察署里走出来的。他回身看了看那幢黑漆漆的建筑，仿佛刚做了一场短暂的噩梦。",
-        "x": 140,
-        "y": 3200,
+        "body": "程靖霖不知道自己是怎么从警察署里走出来的。他回身看了看那幢黑漆漆的建筑，仿佛刚做了一场短暂的噩梦。\n路并不远，但日头已经快到正中了。程靖霖推开药房的门，门帘掀起又落下，带进一股寒气。\n屋里炉火压着小火，暖意不多。程时一坐在柜台后头，看见他进来，把账本合上。",
+        "x": 25890,
+        "y": 163,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1697,8 +1890,310 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 565,
+        "height": 222
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "警察B: “咦——老程家药房的？昨儿就催了药，你怎么今儿才来？”",
+        "x": 2134,
+        "y": -54,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.3832129569075226
+          },
+          "output": {
+            "side": "right",
+            "t": 0.4488239547246182
+          }
+        },
+        "width": 506,
+        "height": 221,
+        "turns": [
+          {
+            "speaker": "警察B",
+            "line": "“咦——老程家药房的？昨儿就催了药，你怎么今儿才来？”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-警察B",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n25",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “回来了。洗手，吃饭。”\n程靖霖: “是，掌柜的。”",
+        "x": 26571,
+        "y": 168,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5026425962094907
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5872634747706422
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“回来了。洗手，吃饭。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“是，掌柜的。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ],
+        "width": 384,
+        "height": 218
+      },
+      {
+        "id": "n47",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅在灶间探出头，看见他，笑了一下，转身去端饭。两只粗瓷碗，一碗稠一点的，一碗稀一点的。稠的放程靖霖面前，稀的自己端了。\n程时一慢吞吞地起身，走到桌边坐下。\n程靖霖看了看程时一，摊开空空的双手。",
+        "x": 27070,
+        "y": 183,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.46080384865785257
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5522568922776442
+          }
+        },
+        "width": 320,
+        "height": 195
+      },
+      {
+        "id": "n49",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，警署的药送到了。但是，钱……被警察劫了。”",
+        "x": 27501,
+        "y": 194,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5077187478005349
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，警署的药送到了。但是，钱……被警察劫了。”"
+          }
+        ],
+        "width": 311,
+        "height": 189,
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n50",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没接话。",
+        "x": 27900,
+        "y": 228,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “坐下，先吃饭。”",
+        "x": 28167,
+        "y": 199,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 314,
+        "height": 219,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“坐下，先吃饭。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n52",
+        "type": "Content",
+        "title": "Content",
+        "body": "三个人围着桌子坐定。碗里还是稀溜溜的协和面糊糊，桌上一碗熬酸菜。程靖霖看到掌柜的端起碗，便也跟着拿起筷子。\n就在此时，门外响起急促的敲门声。咚咚咚。\n还没等人应，又响了两下更大的声音，砰砰。\n屋里端着饭碗的三个人互相看了一眼。\n门外传来生硬的协和语，不耐烦地叫嚷着。",
+        "x": 28535,
+        "y": 192,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 458,
+        "height": 242
+      },
+      {
+        "id": "n53",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "未知: “开门！太君来了！”",
+        "x": 29093,
+        "y": 244,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 276,
+        "height": 163,
+        "turns": [
+          {
+            "speaker": "未知",
+            "line": "“开门！太君来了！”"
+          }
+        ]
+      },
+      {
+        "id": "n54",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖站起来。他看一眼程时一，掌柜的扶着桌沿，慢慢站起。他便走向门口，拉开门板，日头照进来，门口站着三个人。\n前头那个穿着警尉的制服，脸上挂着若有若无的微笑。程靖霖认出这是刚见过面的中野警尉。\n他身后是一个翻译，和那个抢走药费的警察。\n程时一站在门口，微微低了低头。",
+        "x": 29456,
+        "y": 221,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 391,
+        "height": 237
+      },
+      {
+        "id": "n55",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “太君，屋里请。”",
+        "x": 29910,
+        "y": 219,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“太君，屋里请。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ],
+        "width": 380,
+        "height": 238
       }
     ],
     "links": [
@@ -1708,39 +2203,9 @@
         "to": "n0"
       },
       {
-        "id": "l1",
-        "from": "n0",
-        "to": "n1"
-      },
-      {
-        "id": "l2",
-        "from": "n1",
-        "to": "n2"
-      },
-      {
-        "id": "l3",
-        "from": "n2",
-        "to": "n3"
-      },
-      {
-        "id": "l4",
-        "from": "n3",
-        "to": "n4"
-      },
-      {
-        "id": "l5",
-        "from": "n4",
-        "to": "n5"
-      },
-      {
         "id": "l6",
         "from": "n5",
         "to": "n6"
-      },
-      {
-        "id": "l7",
-        "from": "n6",
-        "to": "n7"
       },
       {
         "id": "l8",
@@ -1826,16 +2291,6 @@
         "id": "l24",
         "from": "n23",
         "to": "n24"
-      },
-      {
-        "id": "l25",
-        "from": "n24",
-        "to": "n25"
-      },
-      {
-        "id": "l26",
-        "from": "n25",
-        "to": "n26"
       },
       {
         "id": "l27",
@@ -1938,14 +2393,80 @@
         "to": "n46"
       },
       {
-        "id": "l47",
+        "id": "l3",
+        "from": "n6",
+        "to": "n2",
+        "requirements": "at_period(1)"
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7"
+      },
+      {
+        "id": "l50",
+        "from": "n2",
+        "to": "n8"
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n26"
+      },
+      {
+        "id": "l26",
         "from": "n46",
-        "to": "n47"
+        "to": "n48"
+      },
+      {
+        "id": "l47",
+        "from": "n48",
+        "to": "n25"
       },
       {
         "id": "l48",
+        "from": "n25",
+        "to": "n47"
+      },
+      {
+        "id": "l51",
         "from": "n47",
-        "to": "n48"
+        "to": "n49"
+      },
+      {
+        "id": "l52",
+        "from": "n49",
+        "to": "n50"
+      },
+      {
+        "id": "l53",
+        "from": "n50",
+        "to": "n51"
+      },
+      {
+        "id": "l54",
+        "from": "n51",
+        "to": "n52"
+      },
+      {
+        "id": "l55",
+        "from": "n52",
+        "to": "n53"
+      },
+      {
+        "id": "l56",
+        "from": "n53",
+        "to": "n54"
+      },
+      {
+        "id": "l57",
+        "from": "n54",
+        "to": "n55"
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n5"
       }
     ]
   },
@@ -1957,9 +2478,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 0,
-      "y": 0,
-      "scale": 0.55
+      "x": 787.3033129882813,
+      "y": 647.7432993403048,
+      "scale": 0.7449999999999999
     },
     "sidebar": {
       "leftWidth": 280,

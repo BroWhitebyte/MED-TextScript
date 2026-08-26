@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-08-18T13:39:06.741Z",
+  "savedAt": "2026-08-25T08:54:27.205Z",
   "project": {
     "title": "【选择】老佟家车马店",
     "workflowMode": "canvas",
@@ -419,8 +419,8 @@
         "type": "Entry",
         "title": "Start",
         "body": "Adventure Begins",
-        "x": 80,
-        "y": 80,
+        "x": -179,
+        "y": 82,
         "choices": [],
         "customFields": {},
         "ports": {
@@ -1469,8 +1469,8 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 0,
-      "y": 0,
+      "x": 662.1666374206543,
+      "y": 638.0000419616699,
       "scale": 0.55
     },
     "sidebar": {
