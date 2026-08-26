@@ -2251,9 +2251,24 @@ function installNarrativeCanvasApp() {
     { value: "any", label: "Any condition" }
   ];
   const CONDITION_GROUP_MODE_VALUES = new Set(CONDITION_GROUP_MODES.map((option) => option.value));
+  const CONDITION_CLAUSE_TYPES = [
+    { value: "state", label: "State" },
+    { value: "period", label: "Time period" }
+  ];
+  // Period values mirror the runtime's at_period(0-3) time-of-day slots.
+  const CONDITION_PERIODS = [
+    { value: 0, label: "Morning" },
+    { value: 1, label: "Afternoon" },
+    { value: 2, label: "Dusk" },
+    { value: 3, label: "Late night" }
+  ];
   const JS_CONDITION_LITERAL_WORDS = new Set(["true", "false", "null", "undefined"]);
   const JS_CONDITION_LEGACY_FUNCTIONS = new Set(["has", "contains"]);
   const JS_CONDITION_METHODS = new Set(["includes"]);
+  const JS_CONDITION_TIME_FUNCTIONS = new Set(["at_period"]);
+  const JS_CONDITION_PERIOD_KEY = "period";
+  const JS_CONDITION_PERIOD_MIN = 0;
+  const JS_CONDITION_PERIOD_MAX = 3;
   const PLAYBOOK_STATE_CATEGORIES = [
     "Quest",
     "Quest Entry",
@@ -2275,7 +2290,8 @@ function installNarrativeCanvasApp() {
     "object-unreadable": "Object unreadable",
     "template-mismatch": "Template mismatch",
     "export-blocked": "Export risk",
-    "invalid-expression": "Invalid expression"
+    "invalid-expression": "Invalid expression",
+    builtin: "Built-in"
   };
   const PLAYBOOK_CHOICE_DISPLAY_OPTIONS = [
     { value: "hideUnavailable", label: "Hide unavailable choices" },
@@ -3162,6 +3178,21 @@ function installNarrativeCanvasApp() {
       "Any condition": "满足其一",
       "Mixed conditions": "混合关系",
       "Condition relation": "条件关系",
+      "Condition type": "条件类型",
+      "State": "状态",
+      "Time period": "时间段",
+      "Morning": "上午",
+      "Afternoon": "下午",
+      "Dusk": "黄昏",
+      "Late night": "深夜",
+      "Edit as text": "以文本形式编辑",
+      "Switch to visual editing": "切换为可视化编辑",
+      "This condition is too complex for visual editing; edit as text.": "此条件较复杂，仅支持文本编辑。",
+      "Built-in": "内建",
+      "Built-in state: provided by the runtime": "内建状态：程序运行时提供",
+      "Built-in state details": "内建状态说明",
+      "This key is provided by the runtime while the story runs, so the project does not need to initialize or write it.": "该 key 由运行时在演出过程中提供，项目无需初始化或写入。",
+      "No action needed: define a variable with this key only to preview or override the runtime value.": "无需处理：仅当需要预览或覆盖运行时值时，才在变量定义中添加同名 key。",
       "Delete condition": "删除条件",
       "Dialog": "对话",
       "Condition value is required.": "需要填写条件值。",
@@ -3191,7 +3222,7 @@ function installNarrativeCanvasApp() {
       "Fix hint: add the variable, rename the placeholder, or use an existing node field name.": "处理建议：添加对应变量，修正占位符名称，或改用已有节点字段名。",
       "Expression error details": "表达式错误",
       "A condition related to this key cannot be parsed. The route or option check may not behave as intended.": "关联该 key 的条件无法解析，路线或选项判断可能偏离预期。",
-      "Fix hint: use JavaScript comparisons, && / ||, parentheses, array_key.includes(value), or a bare boolean key.": "处理建议：使用 JavaScript 比较、&& / ||、括号、array_key.includes(value)，或直接使用布尔 key。",
+      "Fix hint: use JavaScript comparisons, && / ||, parentheses, array_key.includes(value), at_period(0-3), or a bare boolean key.": "处理建议：使用 JavaScript 比较、&& / ||、括号、array_key.includes(value)、at_period(0-3)，或直接使用布尔 key。",
       "Export risk details": "导出风险说明",
       "Runtime JSON keeps the richest data. Yarn, Ink, and Twee may rename this state, comment it out, or need custom runtime handling.": "Runtime JSON 保留完整数据；Yarn、Ink 和 Twee 可能重命名该状态、将其注释输出，或要求自定义运行时处理。",
       "No detailed export warning was attached to this key. Review the export report before handing files to an engine.": "该状态未关联具体导出警告。交付引擎前请检查导出报告。",
@@ -3803,7 +3834,7 @@ function installNarrativeCanvasApp() {
       "Export Yarn Spinner script": "导出 Yarn Spinner 脚本",
       "Go to title": "跳到标题",
       "Got it": "知道了",
-      "Conditions use a safe JavaScript expression subset: bare keys, === / !== comparisons, grouping, && / || / !, array_key.includes(value), and flat-first object paths.": "条件使用安全的 JavaScript 表达式子集：裸 key、=== / !== 比较、括号分组、&& / || / !、array_key.includes(value)，以及扁平优先对象路径。",
+      "Conditions use a safe JavaScript expression subset: bare keys, === / !== comparisons, grouping, && / || / !, array_key.includes(value), at_period(0-3) time-period checks, and flat-first object paths.": "条件使用安全的 JavaScript 表达式子集：裸 key、=== / !== 比较、括号分组、&& / || / !、array_key.includes(value)、at_period(0-3) 时间段判断，以及扁平优先对象路径。",
       "Gate simple branches with conditions such as a state check.": "使用状态检查控制简单分支。",
       "Gate branches with conditions such as a state check.": "使用状态检查控制分支。",
       "Choice Conditions": "选项条件",
@@ -4318,9 +4349,8 @@ function installNarrativeCanvasApp() {
     choiceOptionConditionExpandedIds: new Set(),
     nodeSectionExpandedIds: new Set(["dialogTurns"]),
     nodeConditionDraftNodeId: "",
-    linkConditionDraftLinkId: "",
     nodeEffectDraftNodeId: "",
-    choiceConditionDraftIds: new Set(),
+    conditionTextViewKeys: new Set(),
     choiceEffectDraftIds: new Set(),
     playbookChoiceEffectDraftIds: new Set(),
     history: { undo: [], redo: [], current: "", pending: null, applying: false },
@@ -5858,14 +5888,14 @@ function installNarrativeCanvasApp() {
       "delete-node-condition-clause",
       "add-choice-option-condition",
       "delete-choice-option-condition",
+      "add-link-condition",
+      "delete-link-condition",
       "add-gate-condition",
       "delete-gate-condition",
       "add-script-node-condition",
       "delete-script-node-condition",
       "commit-node-condition-draft",
-      "commit-link-condition-draft",
       "commit-node-effect-draft",
-      "commit-choice-option-condition-draft",
       "commit-choice-option-effect-draft",
       "commit-playbook-choice-effect-draft",
       "commit-playbook-action-draft",
@@ -8085,13 +8115,17 @@ function installNarrativeCanvasApp() {
   }
 
   function renderPlaybookGateConditionCell(row) {
+    if (row.kind === "legacy") {
+      return `
+        <div class="playbook-gate-condition">
+          ${renderPlaybookConditionCodeCell({ value: row.condition, readonly: true })}
+        </div>
+      `;
+    }
     return `
-      <div class="playbook-gate-condition">
-        ${renderPlaybookConditionCodeCell({
-          value: row.condition,
-          attributes: row.kind === "legacy" ? "" : `data-gate-id="${escapeAttr(row.id)}" data-gate-field="condition"`,
-          readonly: row.kind === "legacy"
-        })}
+      <div class="playbook-gate-condition playbook-code-cell">
+        ${renderPlaybookGateConditionControl(row)}
+        ${renderPlaybookCodeStatus(getGateConditionStatus(row))}
       </div>
     `;
   }
@@ -8149,9 +8183,6 @@ function installNarrativeCanvasApp() {
   }
 
   function renderPlaybookGateConditionControl(row) {
-    if (row.kind === "legacy") {
-      return `<input value="${escapeAttr(row.condition)}" readonly spellcheck="false">`;
-    }
     return renderConditionBuilderControl({
       expression: row.condition,
       mode: row.conditionMode,
@@ -8161,12 +8192,23 @@ function installNarrativeCanvasApp() {
       valueAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-condition-field="value"`,
       connectorAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-condition-field="connector"`,
       modeAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-condition-field="mode"`,
-      customAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-field="condition"`
+      typeAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-condition-field="type"`,
+      periodAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-condition-field="period"`,
+      customAttributes: `data-gate-id="${escapeAttr(row.id)}" data-gate-field="condition"`,
+      addAction: "add-gate-condition",
+      addAttributes: `data-gate-id="${escapeAttr(row.id)}"`,
+      deleteAction: "delete-gate-condition",
+      deleteAttributes: `data-gate-id="${escapeAttr(row.id)}"`,
+      viewKey: `gate:${row.id}`
     });
   }
 
   function getGateConditionStatus(row) {
     return getConditionEvaluationStatus(row?.condition, state.project.variables);
+  }
+
+  function isBuiltinConditionStateKey(key) {
+    return normalizeOptionalString(key).trim() === JS_CONDITION_PERIOD_KEY;
   }
 
   function getConditionEvaluationStatus(source, variables = state.project.variables) {
@@ -8175,8 +8217,14 @@ function installNarrativeCanvasApp() {
     const normalizedVariables = normalizeVariablesObject(variables);
     const result = collectExpressionKeys(text, normalizedVariables);
     if (result.invalid) return { status: "invalid" };
-    const unknown = result.keys.filter((key) => !resolveRuntimeStatePath(key, normalizedVariables).found);
+    const isAvailable = (key) => resolveRuntimeStatePath(key, normalizedVariables).found;
+    const unknown = result.keys.filter((key) => !isBuiltinConditionStateKey(key) && !isAvailable(key));
     if (unknown.length) return { status: "unknown", key: unknown[0] };
+    // Built-in keys (currently "period") are provided by the runtime at play time. When the
+    // project does not define them as variables, report a neutral status instead of guessing
+    // pass/fail; defining the variable opts into normal evaluation so the value can be previewed.
+    const builtin = result.keys.filter((key) => isBuiltinConditionStateKey(key) && !isAvailable(key));
+    if (builtin.length) return { status: "builtin", key: builtin[0] };
     const parsed = parseJsConditionExpression(text);
     if (parsed.invalid) return { status: "invalid" };
     return { status: coerceBoolean(evaluateJsConditionAst(parsed.ast, normalizedVariables)) ? "pass" : "fail" };
@@ -8187,6 +8235,7 @@ function installNarrativeCanvasApp() {
     if (status.status === "pass") return t("Demo run can meet this condition");
     if (status.status === "fail") return t("Requires demo run progress");
     if (status.status === "invalid") return t("Invalid expression");
+    if (status.status === "builtin") return t("Built-in state: provided by the runtime");
     if (status.status === "unknown") return t("Unknown variable: {key}", { key: status.key });
     return "";
   }
@@ -8210,7 +8259,7 @@ function installNarrativeCanvasApp() {
   function formatPlaybookEditorStatusLabel(status) {
     const normalized = normalizePlaybookEditorStatus(status);
     if (normalized.message) return normalized.message;
-    if (["always", "pass", "fail", "invalid", "unknown"].includes(normalized.status)) {
+    if (["always", "pass", "fail", "invalid", "builtin", "unknown"].includes(normalized.status)) {
       return formatConditionEvaluationStatusLabel(normalized);
     }
     if (normalized.status === "ok") {
@@ -8471,6 +8520,12 @@ function installNarrativeCanvasApp() {
 
   function getStateReportStatusDetail(row, status) {
     switch (status) {
+      case "builtin":
+        return {
+          title: t("Built-in state details"),
+          body: t("This key is provided by the runtime while the story runs, so the project does not need to initialize or write it."),
+          hint: t("No action needed: define a variable with this key only to preview or override the runtime value.")
+        };
       case "unknown-key":
         return {
           title: t("Unknown key details"),
@@ -8827,9 +8882,13 @@ function installNarrativeCanvasApp() {
           message: `State key "${row.key}" exports with "." converted to "_" in portable text formats.`
         });
       }
-      if (!row.hasInitial && row.reads.length && !row.writes.length) row.statusSet.add("read-only");
-      if (!row.hasInitial && (row.reads.length || row.interpolations.length) && !row.writes.length) row.statusSet.add("unknown-key");
-      if (row.writes.length && !row.reads.length && !row.interpolations.length) row.statusSet.add("written-only");
+      // Built-in runtime keys (currently "period") are provided by the runtime, so a missing
+      // initial value or write is expected and must not raise read-only/unknown-key warnings.
+      const isBuiltinRow = isBuiltinConditionStateKey(row.key) && !row.hasInitial;
+      if (isBuiltinRow) row.statusSet.add("builtin");
+      if (!isBuiltinRow && !row.hasInitial && row.reads.length && !row.writes.length) row.statusSet.add("read-only");
+      if (!isBuiltinRow && !row.hasInitial && (row.reads.length || row.interpolations.length) && !row.writes.length) row.statusSet.add("unknown-key");
+      if (!isBuiltinRow && row.writes.length && !row.reads.length && !row.interpolations.length) row.statusSet.add("written-only");
       if (!row.statusSet.size) row.statusSet.add("ok");
     });
 
@@ -8851,7 +8910,7 @@ function installNarrativeCanvasApp() {
         exportBlocks: exportBlocksByKey.get(row.key) || []
       }))
       .sort(compareStateReportRows);
-    const issueCount = rows.reduce((sum, row) => sum + row.statuses.filter((status) => status !== "ok").length, 0) + invalidExpressions.length;
+    const issueCount = rows.reduce((sum, row) => sum + row.statuses.filter((status) => !["ok", "builtin"].includes(status)).length, 0) + invalidExpressions.length;
     return {
       rows,
       invalidExpressions,
@@ -9000,13 +9059,13 @@ function installNarrativeCanvasApp() {
   }
 
   function sortStateReportStatuses(statuses) {
-    const order = ["invalid-expression", "template-mismatch", "unknown-key", "object-unreadable", "export-blocked", "read-only", "written-only", "ok"];
+    const order = ["invalid-expression", "template-mismatch", "unknown-key", "object-unreadable", "export-blocked", "read-only", "written-only", "ok", "builtin"];
     return statuses.sort((a, b) => order.indexOf(a) - order.indexOf(b));
   }
 
   function compareStateReportRows(a, b) {
-    const issueA = a.statuses.some((status) => status !== "ok") ? 0 : 1;
-    const issueB = b.statuses.some((status) => status !== "ok") ? 0 : 1;
+    const issueA = a.statuses.some((status) => !["ok", "builtin"].includes(status)) ? 0 : 1;
+    const issueB = b.statuses.some((status) => !["ok", "builtin"].includes(status)) ? 0 : 1;
     if (issueA !== issueB) return issueA - issueB;
     return a.key.localeCompare(b.key);
   }
@@ -9335,6 +9394,8 @@ function installNarrativeCanvasApp() {
       valueAttributes: `data-script-node-id="${escapeAttr(node.id)}" data-script-condition-field="value"`,
       connectorAttributes: `data-script-node-id="${escapeAttr(node.id)}" data-script-condition-field="connector"`,
       modeAttributes: `data-script-node-id="${escapeAttr(node.id)}" data-script-condition-field="mode"`,
+      typeAttributes: `data-script-node-id="${escapeAttr(node.id)}" data-script-condition-field="type"`,
+      periodAttributes: `data-script-node-id="${escapeAttr(node.id)}" data-script-condition-field="period"`,
       customAttributes: `data-script-node-id="${escapeAttr(node.id)}" data-script-node-field="requirements"`
     });
   }
@@ -12632,10 +12693,8 @@ function installNarrativeCanvasApp() {
         <div class="logic-editor-block">
           <div class="logic-editor-head">
             <span>${t("Condition")}</span>
-            <button class="small-button" type="button" data-action="show-link-condition-draft">${t("Add condition")}</button>
           </div>
-          ${renderLinkConditionDraft(link)}
-          <textarea class="playbook-code-editor playbook-condition-code-editor" data-link-logic-field="requirements" spellcheck="false" placeholder="${escapeAttr(t("Condition expression"))}">${escapeHtml(link.requirements || "")}</textarea>
+          ${renderLinkConditionControl(link)}
           ${renderPlaybookCodeStatus(status)}
           <small class="link-condition-hint">${escapeHtml(t("Empty condition means an else branch: it is taken when every other conditional link from the same node fails. Conditional links from the same node are evaluated in order."))}</small>
         </div>
@@ -12647,11 +12706,21 @@ function installNarrativeCanvasApp() {
     if (keepScroll && scroller) scroller.scrollTop = scrollTop;
   }
 
-  function renderLinkConditionDraft(link) {
-    if (state.linkConditionDraftLinkId !== link?.id) return "";
-    return renderConditionDraftRow({
-      action: "commit-link-condition-draft",
-      conditionId: "link"
+  function renderLinkConditionControl(link) {
+    return renderConditionBuilderControl({
+      expression: link.requirements || "",
+      className: "link-condition-builder",
+      keyAttributes: `data-link-condition-field="key"`,
+      opAttributes: `data-link-condition-field="op"`,
+      valueAttributes: `data-link-condition-field="value"`,
+      connectorAttributes: `data-link-condition-field="connector"`,
+      modeAttributes: `data-link-condition-field="mode"`,
+      typeAttributes: `data-link-condition-field="type"`,
+      periodAttributes: `data-link-condition-field="period"`,
+      customAttributes: `data-link-logic-field="requirements"`,
+      addAction: "add-link-condition",
+      deleteAction: "delete-link-condition",
+      viewKey: `link:${link.id}`
     });
   }
 
@@ -12726,18 +12795,26 @@ function installNarrativeCanvasApp() {
     valueAttributes = "",
     connectorAttributes = "",
     modeAttributes = "",
+    typeAttributes = "",
+    periodAttributes = "",
     customAttributes = "",
     className = "",
     addAction = "",
     addAttributes = "",
     deleteAction = "",
-    deleteAttributes = ""
+    deleteAttributes = "",
+    viewKey = ""
   } = {}) {
-    const model = parseConditionBuilderExpression(expression);
-    const custom = model.custom && normalizeOptionalString(expression).trim();
-    const groupMode = getConditionGroupModeForExpression(expression, mode);
+    const source = normalizeOptionalString(expression).trim();
+    const model = parseConditionBuilderExpression(source);
+    const custom = Boolean(model.custom && source);
+    const groupMode = getConditionGroupModeForExpression(source, mode);
+    const textView = !custom && isConditionTextViewOpen(viewKey);
     const canAdd = Boolean(getDefaultConditionKey()) && !custom;
     const canDelete = Boolean(deleteAction) && model.clauses.length > 1 && !custom;
+    const textEditor = `
+        <textarea class="condition-custom-expression" ${customAttributes} spellcheck="false" placeholder="${escapeAttr(t("Condition expression"))}">${escapeHtml(source)}</textarea>
+    `;
     return `
       <div class="condition-builder-list ${className}">
         <div class="condition-builder-toolbar">
@@ -12747,34 +12824,100 @@ function installNarrativeCanvasApp() {
               ${renderConditionGroupModeOptions(groupMode)}
             </select>
           </label>
-          ${addAction ? `<button class="small-button" type="button" data-action="${escapeAttr(addAction)}" ${addAttributes} ${canAdd ? "" : "disabled"}>${t("Add condition")}</button>` : ""}
-        </div>
-        ${model.clauses.map((clause, index) => {
-          const hasValue = Boolean(clause.key && conditionOperatorNeedsValue(clause.op));
-          const hasDelete = canDelete;
-          return `
-          <div class="condition-builder-row condition-clause-row${index ? " has-connector" : ""}${hasValue ? "" : " no-condition-value"}${hasDelete ? " has-delete" : ""}">
-            ${index ? `
-              <select ${connectorAttributes} data-condition-index="${index}">
-                ${renderPlaybookOptionList(CONDITION_CONNECTORS, normalizeConditionConnector(clause.connector))}
-              </select>
-            ` : ""}
-            ${renderConditionBuilderFields({
-              keyAttributes: `${keyAttributes} data-condition-index="${index}"`,
-              opAttributes: `${opAttributes} data-condition-index="${index}"`,
-              valueAttributes: `${valueAttributes} data-condition-index="${index}"`,
-              selectedKey: clause.key,
-              selectedOp: clause.op,
-              selectedValue: clause.value
-            })}
-            ${hasDelete ? `<button class="icon-button danger-button condition-clause-delete" type="button" title="${escapeAttr(t("Delete condition"))}" data-action="${escapeAttr(deleteAction)}" ${deleteAttributes} data-condition-index="${index}">x</button>` : ""}
+          <div class="condition-builder-actions">
+            ${viewKey ? `<button class="small-button" type="button" data-action="toggle-condition-text-view" data-condition-view-key="${escapeAttr(viewKey)}">${t(textView ? "Switch to visual editing" : "Edit as text")}</button>` : ""}
+            ${addAction ? `<button class="small-button" type="button" data-action="${escapeAttr(addAction)}" ${addAttributes} ${canAdd ? "" : "disabled"}>${t("Add condition")}</button>` : ""}
           </div>
-        `; }).join("")}
+        </div>
+        ${custom ? `
+          <small class="condition-custom-hint">${escapeHtml(t("This condition is too complex for visual editing; edit as text."))}</small>
+          ${textEditor}
+        ` : textView ? textEditor : model.clauses.map((clause, index) => renderConditionBuilderClauseRow(clause, index, {
+          typeAttributes,
+          keyAttributes,
+          opAttributes,
+          valueAttributes,
+          connectorAttributes,
+          periodAttributes,
+          deleteAction: canDelete ? deleteAction : "",
+          deleteAttributes
+        })).join("")}
       </div>
-      ${custom ? `
-        <textarea class="condition-custom-expression" ${customAttributes} spellcheck="false" placeholder="${escapeAttr(t("Condition expression"))}">${escapeHtml(expression)}</textarea>
-      ` : ""}
     `;
+  }
+
+  function renderConditionBuilderClauseRow(clause, index, options = {}) {
+    const clauseType = normalizeConditionClauseType(clause.type);
+    const hasValue = clauseType === "state" && Boolean(clause.key && conditionOperatorNeedsValue(clause.op));
+    const hasDelete = Boolean(options.deleteAction);
+    const classes = [
+      "condition-builder-row",
+      "condition-clause-row",
+      index ? "has-connector" : "",
+      clauseType === "period" ? "has-periods" : (hasValue ? "" : "no-condition-value"),
+      hasDelete ? "has-delete" : ""
+    ].filter(Boolean).join(" ");
+    return `
+      <div class="${classes}">
+        ${index ? `
+          <select ${options.connectorAttributes} data-condition-index="${index}">
+            ${renderPlaybookOptionList(CONDITION_CONNECTORS, normalizeConditionConnector(clause.connector))}
+          </select>
+        ` : ""}
+        <select ${options.typeAttributes} data-condition-index="${index}" title="${escapeAttr(t("Condition type"))}">
+          ${renderPlaybookOptionList(CONDITION_CLAUSE_TYPES, clauseType)}
+        </select>
+        ${clauseType === "period"
+          ? renderConditionPeriodOptions(clause, index, options.periodAttributes)
+          : renderConditionBuilderFields({
+            keyAttributes: `${options.keyAttributes} data-condition-index="${index}"`,
+            opAttributes: `${options.opAttributes} data-condition-index="${index}"`,
+            valueAttributes: `${options.valueAttributes} data-condition-index="${index}"`,
+            selectedKey: clause.key,
+            selectedOp: clause.op,
+            selectedValue: clause.value
+          })}
+        ${hasDelete ? `<button class="icon-button danger-button condition-clause-delete" type="button" title="${escapeAttr(t("Delete condition"))}" data-action="${escapeAttr(options.deleteAction)}" ${options.deleteAttributes} data-condition-index="${index}">x</button>` : ""}
+      </div>
+    `;
+  }
+
+  function renderConditionPeriodOptions(clause, index, periodAttributes = "") {
+    const periods = new Set(normalizeConditionClausePeriods(clause.periods));
+    return `
+      <div class="condition-period-options">
+        ${CONDITION_PERIODS.map((period) => `
+          <label class="condition-period-option">
+            <input type="checkbox" ${periodAttributes} data-condition-index="${index}" value="${period.value}" ${periods.has(period.value) ? "checked" : ""}>
+            <span>${escapeHtml(t(period.label))}</span>
+          </label>
+        `).join("")}
+      </div>
+    `;
+  }
+
+  function isConditionTextViewOpen(viewKey) {
+    const key = normalizeOptionalString(viewKey).trim();
+    return Boolean(key) && state.conditionTextViewKeys instanceof Set && state.conditionTextViewKeys.has(key);
+  }
+
+  function toggleConditionTextView(viewKey) {
+    const key = normalizeOptionalString(viewKey).trim();
+    if (!key) return;
+    if (!(state.conditionTextViewKeys instanceof Set)) state.conditionTextViewKeys = new Set();
+    if (state.conditionTextViewKeys.has(key)) state.conditionTextViewKeys.delete(key);
+    else state.conditionTextViewKeys.add(key);
+    if (key.startsWith("gate:")) {
+      renderPlaybookSurfaces();
+      return;
+    }
+    if (key.startsWith("link:")) {
+      const link = getLink(state.selectedLinkId);
+      if (link) renderLinkPanel(link);
+      return;
+    }
+    const node = getNode(state.selectedNodeId);
+    if (node) renderNodePanel(node);
   }
 
   function getDefaultConditionKey() {
@@ -12883,56 +13026,132 @@ function installNarrativeCanvasApp() {
 
   function parseConditionBuilderExpression(expression) {
     const source = normalizeOptionalString(expression).trim();
-    if (!source) return { custom: false, clauses: [{ key: "", op: "===", value: "true", connector: "&&" }] };
-    const parts = source.split(/\s+(&&|\|\|)\s+/);
-    const clauses = [];
-    for (let index = 0; index < parts.length; index += 2) {
-      const connector = index ? parts[index - 1] : "&&";
-      const parsed = parseSimpleConditionExpression(parts[index]);
-      if (parsed.custom) return { custom: true, clauses: [{ key: "", op: "===", value: source, connector: "&&" }] };
-      clauses.push({ ...parsed, connector: normalizeConditionConnector(connector) });
-    }
-    return { custom: false, clauses: clauses.length ? clauses : [{ key: "", op: "===", value: "true", connector: "&&" }] };
+    if (!source) return { custom: false, clauses: [{ type: "state", key: "", op: "===", value: "true", connector: "&&" }] };
+    const customModel = { custom: true, clauses: [{ type: "state", key: "", op: "===", value: source, connector: "&&" }] };
+    const parsed = parseJsConditionExpression(source);
+    if (parsed.invalid || !parsed.ast) return customModel;
+    const clauses = convertConditionBuilderAst(parsed.ast);
+    if (!clauses || !clauses.length) return customModel;
+    return { custom: false, clauses };
   }
 
-  function parseSimpleConditionExpression(expression) {
-    const source = normalizeOptionalString(expression).trim();
-    if (!source) return { key: "", op: "===", value: "true", custom: false };
-    const notMatch = source.match(/^!\s*([a-zA-Z_][\w.-]*)$/);
-    if (notMatch) return { key: notMatch[1], op: "falsy", value: "", custom: false };
-    const bareMatch = source.match(/^([a-zA-Z_][\w.-]*)$/);
-    if (bareMatch) return { key: bareMatch[1], op: "truthy", value: "", custom: false };
-    const includesMatch = source.match(/^([a-zA-Z_][\w.-]*)\.includes\s*\(([\s\S]*)\)$/);
-    if (includesMatch) {
-      return {
-        key: includesMatch[1],
-        op: "contains",
-        value: includesMatch[2].trim(),
-        custom: false
-      };
+  // Convertible iff the AST is a flat && or || chain of representable clauses; anything else
+  // (mixed connectors, nested logicals, other parenthesized groups) stays a custom expression.
+  function convertConditionBuilderAst(ast) {
+    if (!ast) return null;
+    if (ast.type === "logical") {
+      const terms = flattenLogicalConditionChain(ast, ast.operator);
+      // A top-level ||-chain of only at_period(...) calls is a single multi-period clause.
+      if (ast.operator === "||" && terms.every((term) => getAtPeriodConditionCallValue(term) != null)) {
+        return [{ type: "period", periods: terms.map(getAtPeriodConditionCallValue), connector: "&&" }];
+      }
+      const clauses = terms.map(convertConditionBuilderTerm);
+      if (clauses.some((clause) => !clause)) return null;
+      return clauses.map((clause, index) => ({ ...clause, connector: index ? ast.operator : "&&" }));
     }
-    const legacyMembershipMatch = source.match(/^(has|contains)\s*\(\s*([a-zA-Z_][\w.-]*)\s*,\s*([\s\S]*)\)$/i);
-    if (legacyMembershipMatch) {
-      return {
-        key: legacyMembershipMatch[2],
-        op: "contains",
-        value: legacyMembershipMatch[3].trim(),
-        custom: false
-      };
+    const clause = convertConditionBuilderTerm(ast);
+    return clause ? [{ ...clause, connector: "&&" }] : null;
+  }
+
+  function flattenLogicalConditionChain(node, operator) {
+    if (node?.type === "logical" && node.operator === operator) {
+      return [...flattenLogicalConditionChain(node.left, operator), ...flattenLogicalConditionChain(node.right, operator)];
     }
-    const compareMatch = source.match(/^([a-zA-Z_][\w.-]*)\s*(===|!==|==|!=|>=|<=|>|<)\s*(.+)$/i);
-    if (compareMatch) {
-      return {
-        key: compareMatch[1],
-        op: normalizeConditionOperator(compareMatch[2].toLowerCase()),
-        value: compareMatch[3].trim(),
-        custom: false
-      };
+    return [node];
+  }
+
+  function convertConditionBuilderTerm(node) {
+    if (!node) return null;
+    if (node.type === "identifier") {
+      const key = normalizeConditionIdentifierPath(node.path);
+      return key ? { type: "state", key, op: "truthy", value: "" } : null;
     }
-    return { key: "", op: "===", value: source, custom: true };
+    if (node.type === "unary" && node.operator === "!" && node.argument?.type === "identifier") {
+      const key = normalizeConditionIdentifierPath(node.argument.path);
+      return key ? { type: "state", key, op: "falsy", value: "" } : null;
+    }
+    if (node.type === "binary") return convertConditionBuilderBinary(node);
+    if (node.type === "call") return convertConditionBuilderCall(node);
+    if (node.type === "group") return convertConditionBuilderPeriodGroup(node);
+    return null;
+  }
+
+  function convertConditionBuilderBinary(node) {
+    if (node.left?.type !== "identifier") return null;
+    const key = normalizeConditionIdentifierPath(node.left.path);
+    if (!key) return null;
+    const op = normalizeConditionOperator(node.operator);
+    if (!["===", "!==", ">=", "<=", ">", "<"].includes(op)) return null;
+    const value = formatConditionBuilderOperand(node.right);
+    if (value == null) return null;
+    return { type: "state", key, op, value };
+  }
+
+  function convertConditionBuilderCall(node) {
+    if (JS_CONDITION_TIME_FUNCTIONS.has(node.name)) {
+      const period = getAtPeriodConditionCallValue(node);
+      return period == null ? null : { type: "period", periods: [period] };
+    }
+    if (node.name === "includes" && node.object?.type === "identifier" && node.args?.length === 1) {
+      const key = normalizeConditionIdentifierPath(node.object.path);
+      const value = formatConditionBuilderOperand(node.args[0]);
+      if (!key || value == null) return null;
+      return { type: "state", key, op: "contains", value };
+    }
+    if (JS_CONDITION_LEGACY_FUNCTIONS.has(node.name) && node.args?.length === 2 && node.args[0]?.type === "identifier") {
+      const key = normalizeConditionIdentifierPath(node.args[0].path);
+      const value = formatConditionBuilderOperand(node.args[1]);
+      if (!key || value == null) return null;
+      return { type: "state", key, op: "contains", value };
+    }
+    return null;
+  }
+
+  // The only parenthesized group the row builder can represent: a flat ||-chain of
+  // at_period(...) calls, which maps to one period clause listing every checked period.
+  function convertConditionBuilderPeriodGroup(node) {
+    const expression = node?.expression;
+    if (!expression) return null;
+    const terms = expression.type === "logical" && expression.operator === "||"
+      ? flattenLogicalConditionChain(expression, "||")
+      : [expression];
+    if (!terms.length || terms.some((term) => getAtPeriodConditionCallValue(term) == null)) return null;
+    return { type: "period", periods: terms.map(getAtPeriodConditionCallValue) };
+  }
+
+  function getAtPeriodConditionCallValue(node) {
+    if (!node || node.type !== "call" || !JS_CONDITION_TIME_FUNCTIONS.has(node.name)) return null;
+    const arg = node.args?.length === 1 ? node.args[0] : null;
+    const value = arg?.type === "literal" ? arg.value : null;
+    return Number.isInteger(value) && value >= JS_CONDITION_PERIOD_MIN && value <= JS_CONDITION_PERIOD_MAX ? value : null;
+  }
+
+  function formatConditionBuilderOperand(node) {
+    if (!node) return null;
+    if (node.type === "literal") return normalizeOptionalString(node.raw) || formatConditionLiteral(node.value);
+    if (node.type === "identifier") return normalizeConditionIdentifierPath(node.path) || null;
+    return null;
+  }
+
+  function normalizeConditionClauseType(value) {
+    return normalizeOptionalString(value).trim() === "period" ? "period" : "state";
+  }
+
+  function normalizeConditionClausePeriods(periods) {
+    const list = Array.isArray(periods) ? periods : [periods];
+    return [...new Set(list
+      .map((period) => Number(period))
+      .filter((period) => Number.isInteger(period) && period >= JS_CONDITION_PERIOD_MIN && period <= JS_CONDITION_PERIOD_MAX))]
+      .sort((a, b) => a - b);
   }
 
   function buildConditionExpressionFromParts(parts = {}) {
+    if (normalizeConditionClauseType(parts.type) === "period") {
+      const periods = normalizeConditionClausePeriods(parts.periods);
+      if (!periods.length) return "";
+      const terms = periods.map((period) => `at_period(${period})`);
+      return terms.length === 1 ? terms[0] : `(${terms.join(" || ")})`;
+    }
     const key = normalizeOptionalString(parts.key).trim();
     const op = normalizeConditionOperator(parts.op);
     const value = normalizeOptionalString(parts.value).trim();
@@ -12959,6 +13178,7 @@ function installNarrativeCanvasApp() {
     const key = getDefaultConditionKey();
     const op = normalizeConditionOperatorForKey(key, "===");
     return {
+      type: "state",
       key,
       op,
       value: getDefaultConditionValue(key, op),
@@ -13266,29 +13486,30 @@ function installNarrativeCanvasApp() {
   }
 
   function renderChoiceOptionConditionControl(optionId, expression, mode = "all") {
-    const groupMode = getConditionGroupModeForExpression(expression, mode);
     const status = getConditionEvaluationStatus(expression, state.project.variables);
     return `
-      <label class="condition-relation-field">
-        <span>${t("Condition relation")}</span>
-        <select data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="mode">
-          ${renderConditionGroupModeOptions(groupMode)}
-        </select>
-      </label>
-      ${renderChoiceOptionConditionDraft(optionId)}
       <div class="playbook-code-cell">
-        <textarea class="playbook-code-editor playbook-condition-code-editor" data-choice-option-id="${escapeAttr(optionId)}" data-choice-option-field="requires" spellcheck="false" placeholder="${escapeAttr(t("Condition expression"))}">${escapeHtml(expression || "")}</textarea>
+        ${renderConditionBuilderControl({
+          expression,
+          mode,
+          className: "choice-condition-builder",
+          keyAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="key"`,
+          opAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="op"`,
+          valueAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="value"`,
+          connectorAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="connector"`,
+          modeAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="mode"`,
+          typeAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="type"`,
+          periodAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-condition-field="period"`,
+          customAttributes: `data-choice-option-id="${escapeAttr(optionId)}" data-choice-option-field="requires"`,
+          addAction: "add-choice-option-condition",
+          addAttributes: `data-choice-option-id="${escapeAttr(optionId)}"`,
+          deleteAction: "delete-choice-option-condition",
+          deleteAttributes: `data-choice-option-id="${escapeAttr(optionId)}"`,
+          viewKey: `choice:${optionId}`
+        })}
         ${renderPlaybookCodeStatus(status)}
       </div>
     `;
-  }
-
-  function renderChoiceOptionConditionDraft(optionId) {
-    if (!(state.choiceConditionDraftIds instanceof Set) || !state.choiceConditionDraftIds.has(optionId)) return "";
-    return renderConditionDraftRow({
-      action: "commit-choice-option-condition-draft",
-      conditionId: optionId
-    });
   }
 
   function getChoiceOptionConditionCount(expression) {
@@ -13300,7 +13521,6 @@ function installNarrativeCanvasApp() {
 
   function isChoiceOptionConditionExpanded(optionId) {
     if (!optionId) return false;
-    if (state.choiceConditionDraftIds instanceof Set && state.choiceConditionDraftIds.has(optionId)) return true;
     const set = state.choiceOptionConditionExpandedIds;
     return set instanceof Set && set.has(optionId);
   }
@@ -14185,8 +14405,9 @@ function installNarrativeCanvasApp() {
     if (action === "delete-node-cast") deleteNodeCast(Number(target.dataset.nodeCastIndex));
     if (action === "show-node-condition-draft") showNodeConditionDraft();
     if (action === "commit-node-condition-draft") commitNodeConditionDraft(target);
-    if (action === "show-link-condition-draft") showLinkConditionDraft();
-    if (action === "commit-link-condition-draft") commitLinkConditionDraft(target);
+    if (action === "add-link-condition") addLinkCondition();
+    if (action === "delete-link-condition") deleteLinkCondition(Number(target.dataset.conditionIndex));
+    if (action === "toggle-condition-text-view") toggleConditionTextView(target.dataset.conditionViewKey);
     if (action === "edit-link-condition") editContextLinkCondition();
     if (action === "add-node-condition-clause") addNodeConditionClause();
     if (action === "delete-node-condition-clause") deleteNodeConditionClause(Number(target.dataset.conditionIndex));
@@ -14199,7 +14420,6 @@ function installNarrativeCanvasApp() {
     if (action === "move-choice-option-up") moveChoiceOption(target.dataset.choiceOptionId, -1);
     if (action === "move-choice-option-down") moveChoiceOption(target.dataset.choiceOptionId, 1);
     if (action === "add-choice-option-effect") addChoiceOptionEffect(target.dataset.choiceOptionId);
-    if (action === "commit-choice-option-condition-draft") commitChoiceOptionConditionDraft(target);
     if (action === "commit-choice-option-effect-draft") commitChoiceOptionEffectDraft(target);
     if (action === "delete-choice-option-effect") deleteChoiceOptionEffect(target.dataset.choiceOptionId, Number(target.dataset.choiceOptionEffectIndex));
     if (action === "add-choice-option-condition") addChoiceOptionCondition(target.dataset.choiceOptionId);
@@ -14964,7 +15184,7 @@ function installNarrativeCanvasApp() {
     if (!target?.dataset) return "";
     if (target === dom.queryInput || target.hasAttribute?.("data-character-search") || target.hasAttribute?.("data-event-search")) return "";
     const parts = [];
-    ["documentSource", "projectField", "nodeField", "inlineNodeField", "nodeCustomField", "characterField", "variableField", "eventField", "nodeCastField", "nodeConditionField", "nodeLogicField", "linkLogicField", "nodeEffectField", "nodeRoutingField", "choiceConditionField", "choiceOptionField", "choiceOptionEffectField", "dialogTurnField", "playbookActionField", "scriptConditionField", "scriptNodeField", "gateConditionField", "gateEffectField", "gateField", "runnerRuleField", "runnerRuleEnabled"].forEach((name) => {
+    ["documentSource", "projectField", "nodeField", "inlineNodeField", "nodeCustomField", "characterField", "variableField", "eventField", "nodeCastField", "nodeConditionField", "nodeLogicField", "linkLogicField", "linkConditionField", "nodeEffectField", "nodeRoutingField", "choiceConditionField", "choiceOptionField", "choiceOptionEffectField", "dialogTurnField", "playbookActionField", "scriptConditionField", "scriptNodeField", "gateConditionField", "gateEffectField", "gateField", "runnerRuleField", "runnerRuleEnabled"].forEach((name) => {
       if (target.dataset[name]) parts.push(`${name}:${target.dataset[name]}`);
     });
     ["nodeId", "choiceNodeId", "dialogNodeId", "characterId", "variableKey", "eventNodeId", "nodeCastIndex", "conditionIndex", "nodeEffectIndex", "choiceOptionId", "choiceOptionIndex", "dialogTurnIndex", "choiceOptionEffectIndex", "playbookActionId", "scriptNodeId", "gateId", "gateEffectId", "gateEffectIndex"].forEach((name) => {
@@ -15140,7 +15360,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.nodeConditionField) {
-      setNodeConditionPart(target.dataset.nodeConditionField, target.value, Number(target.dataset.conditionIndex), false);
+      setNodeConditionPart(target.dataset.nodeConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), false);
       return;
     }
     if (target.dataset.nodeLogicField) {
@@ -15149,6 +15369,10 @@ function installNarrativeCanvasApp() {
     }
     if (target.dataset.linkLogicField) {
       setLinkLogicField(target.dataset.linkLogicField, target.value, false);
+      return;
+    }
+    if (target.dataset.linkConditionField) {
+      setLinkConditionPart(target.dataset.linkConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), false);
       return;
     }
     if (target.dataset.nodeRoutingField) {
@@ -15169,7 +15393,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.choiceConditionField) {
-      setChoiceOptionConditionPart(target.dataset.choiceOptionId, target.dataset.choiceConditionField, target.value, Number(target.dataset.conditionIndex), false);
+      setChoiceOptionConditionPart(target.dataset.choiceOptionId, target.dataset.choiceConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), false);
       return;
     }
     if (target.dataset.choiceOptionEffectField) {
@@ -15185,7 +15409,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.scriptConditionField) {
-      setScriptNodeConditionPart(target.dataset.scriptNodeId, target.dataset.scriptConditionField, target.value, Number(target.dataset.conditionIndex), false);
+      setScriptNodeConditionPart(target.dataset.scriptNodeId, target.dataset.scriptConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), false);
       return;
     }
     if (target.dataset.scriptNodeField) {
@@ -15199,7 +15423,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.gateConditionField) {
-      setGateConditionPart(target.dataset.gateId, target.dataset.gateConditionField, target.value, Number(target.dataset.conditionIndex), false);
+      setGateConditionPart(target.dataset.gateId, target.dataset.gateConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), false);
       return;
     }
     if (target.dataset.gateEffectField) {
@@ -15311,7 +15535,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.nodeConditionField) {
-      setNodeConditionPart(target.dataset.nodeConditionField, target.value, Number(target.dataset.conditionIndex), true);
+      setNodeConditionPart(target.dataset.nodeConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), true);
       commitFocusedEdit(target);
       return;
     }
@@ -15322,6 +15546,11 @@ function installNarrativeCanvasApp() {
     }
     if (target.dataset.linkLogicField) {
       setLinkLogicField(target.dataset.linkLogicField, target.value, true);
+      commitFocusedEdit(target);
+      return;
+    }
+    if (target.dataset.linkConditionField) {
+      setLinkConditionPart(target.dataset.linkConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), true);
       commitFocusedEdit(target);
       return;
     }
@@ -15347,7 +15576,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.choiceConditionField) {
-      setChoiceOptionConditionPart(target.dataset.choiceOptionId, target.dataset.choiceConditionField, target.value, Number(target.dataset.conditionIndex), true);
+      setChoiceOptionConditionPart(target.dataset.choiceOptionId, target.dataset.choiceConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), true);
       commitFocusedEdit(target);
       return;
     }
@@ -15368,7 +15597,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.scriptConditionField) {
-      setScriptNodeConditionPart(target.dataset.scriptNodeId, target.dataset.scriptConditionField, target.value, Number(target.dataset.conditionIndex), true);
+      setScriptNodeConditionPart(target.dataset.scriptNodeId, target.dataset.scriptConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), true);
       commitFocusedEdit(target);
       return;
     }
@@ -15385,7 +15614,7 @@ function installNarrativeCanvasApp() {
       return;
     }
     if (target.dataset.gateConditionField) {
-      setGateConditionPart(target.dataset.gateId, target.dataset.gateConditionField, target.value, Number(target.dataset.conditionIndex), true);
+      setGateConditionPart(target.dataset.gateId, target.dataset.gateConditionField, getConditionPartInputValue(target), Number(target.dataset.conditionIndex), true);
       commitFocusedEdit(target);
       return;
     }
@@ -17640,41 +17869,55 @@ function installNarrativeCanvasApp() {
     if (rerender) renderLinkPanel(link);
   }
 
-  function showLinkConditionDraft() {
+  function setLinkConditionPart(field, value, conditionIndex, rerender) {
     const link = getLink(state.selectedLinkId);
     if (!link) return;
-    state.linkConditionDraftLinkId = link.id;
-    renderLinkPanel(link);
-    focusInspectorTarget(`.condition-draft-row[data-draft-id="link"] [data-draft-field="key"]`);
+    const current = link.requirements || "";
+    const next = field === "mode"
+      ? setConditionExpressionGroupMode(current, value)
+      : updateConditionExpressionPart(current, field, value, conditionIndex);
+    if (next) link.requirements = next;
+    else delete link.requirements;
+    setProjectDirty(true);
+    renderLinks();
+    updateStatus();
+    if (rerender) renderLinkPanel(link);
   }
 
-  function commitLinkConditionDraft(target) {
+  function addLinkCondition() {
     const link = getLink(state.selectedLinkId);
     if (!link) return;
-    const key = getDraftFieldValue(target, "key").trim();
-    const op = getDraftFieldValue(target, "op").trim();
-    const value = getDraftFieldValue(target, "value").trim();
-    if (!key) {
+    const current = link.requirements || "";
+    if (parseConditionBuilderExpression(current).custom) {
+      setStatus(t("This condition is too complex for visual editing; edit as text."));
+      return;
+    }
+    if (!getDefaultConditionKey()) {
       setStatus(t("State key is required."));
       return;
     }
-    if (conditionOperatorNeedsValue(op) && !value) {
-      setStatus(t("Condition value is required."));
-      return;
-    }
-    const condition = buildConditionExpressionFromParts({ key, op, value });
-    if (!condition) {
-      setStatus(t("Condition expression is empty."));
-      return;
-    }
-    link.requirements = appendConditionExpression(link.requirements, condition, "all");
-    state.linkConditionDraftLinkId = "";
+    const mode = getStoredConditionModeForExpression(current, "all");
+    link.requirements = addConditionExpressionClause(current, mode);
     setProjectDirty(true);
     renderLinkPanel(link);
     renderLinks();
     renderPlaybookSurfaces();
     updateStatus();
     setStatus(t("Condition added."));
+  }
+
+  function deleteLinkCondition(conditionIndex) {
+    const link = getLink(state.selectedLinkId);
+    if (!link) return;
+    const next = deleteConditionExpressionClause(link.requirements || "", conditionIndex);
+    if (next) link.requirements = next;
+    else delete link.requirements;
+    setProjectDirty(true);
+    renderLinkPanel(link);
+    renderLinks();
+    renderPlaybookSurfaces();
+    updateStatus();
+    setStatus(t("Condition deleted."));
   }
 
   function editContextLinkCondition() {
@@ -17730,6 +17973,13 @@ function installNarrativeCanvasApp() {
   function getDraftFieldValue(target, field) {
     const row = target?.closest?.(".logic-draft-row, .playbook-action-draft-row");
     return normalizeOptionalString(row?.querySelector?.(`[data-draft-field="${CSS.escape(field)}"]`)?.value);
+  }
+
+  // Condition clause checkboxes (period toggles) encode the desired state in the value so the
+  // input and change events both apply the same deterministic update instead of a double toggle.
+  function getConditionPartInputValue(target) {
+    if (target?.type === "checkbox") return `${target.checked ? "" : "!"}${target.value}`;
+    return target?.value;
   }
 
   function syncConditionDraftRow(row, changedField = "") {
@@ -18007,45 +18257,21 @@ function installNarrativeCanvasApp() {
     if (!node || !optionId) return;
     const option = ensureChoiceOptionsArray(node).find((opt) => opt.id === optionId);
     if (!option) return;
+    if (parseConditionBuilderExpression(option.requires || "").custom) {
+      setChoiceOptionConditionExpanded(optionId, true);
+      renderNodePanel(node);
+      setStatus(t("This condition is too complex for visual editing; edit as text."));
+      return;
+    }
     if (!getDefaultConditionKey()) {
       setStatus(t("State key is required."));
       return;
     }
-    if (!(state.choiceConditionDraftIds instanceof Set)) state.choiceConditionDraftIds = new Set();
-    state.choiceConditionDraftIds.add(optionId);
-    setChoiceOptionConditionExpanded(optionId, true);
-    renderNodePanel(node);
-    focusInspectorTarget(`.condition-draft-row[data-draft-id="${CSS.escape(optionId)}"] [data-draft-field="key"]`);
-  }
-
-  function commitChoiceOptionConditionDraft(target) {
-    const node = getSelectedChoiceNode();
-    if (!node) return;
-    const optionId = target?.closest?.("[data-draft-id]")?.dataset?.draftId || "";
-    if (!optionId) return;
-    const option = ensureChoiceOptionsArray(node).find((opt) => opt.id === optionId);
-    if (!option) return;
-    const key = getDraftFieldValue(target, "key").trim();
-    const op = getDraftFieldValue(target, "op").trim();
-    const value = getDraftFieldValue(target, "value").trim();
-    if (!key) {
-      setStatus(t("State key is required."));
-      return;
-    }
-    if (conditionOperatorNeedsValue(op) && !value) {
-      setStatus(t("Condition value is required."));
-      return;
-    }
-    const condition = buildConditionExpressionFromParts({ key, op, value });
-    if (!condition) {
-      setStatus(t("Condition expression is empty."));
-      return;
-    }
     option.requiresMode = normalizeStoredConditionGroupMode(option.requiresMode);
-    option.requires = appendConditionExpression(option.requires || "", condition, option.requiresMode);
-    if (state.choiceConditionDraftIds instanceof Set) state.choiceConditionDraftIds.delete(optionId);
+    option.requires = addConditionExpressionClause(option.requires || "", option.requiresMode);
     syncChoicesFromOptions(node);
     setProjectDirty(true);
+    setChoiceOptionConditionExpanded(optionId, true);
     renderNodePanel(node);
     if (state.activeFileId === "variables") renderPlaybookSurfaces();
     updateStatus();
@@ -18068,13 +18294,19 @@ function installNarrativeCanvasApp() {
   }
 
   function updateConditionExpressionPart(expression, field, value, conditionIndex = 0) {
-    const model = parseConditionBuilderExpression(expression);
-    const clauses = model.custom
-      ? [{ key: "", op: "==", value: "true", connector: "&&" }]
-      : model.clauses.map((clause) => ({ ...clause }));
+    const source = normalizeOptionalString(expression).trim();
+    const model = parseConditionBuilderExpression(source);
+    // Custom (complex) expressions are text-only: never rewrite them from row edits.
+    if (model.custom) return source;
+    const clauses = model.clauses.map((clause) => ({ ...clause }));
     const index = Number.isInteger(conditionIndex) && conditionIndex >= 0 && conditionIndex < clauses.length ? conditionIndex : 0;
-    const parts = clauses[index] || clauses[0];
-    if (field === "key") {
+    let parts = clauses[index] || clauses[0];
+    if (!parts) return source;
+    if (field === "type") {
+      parts = convertConditionClauseType(parts, value);
+    } else if (field === "period") {
+      if (!updateConditionPeriodClause(parts, value)) return source;
+    } else if (field === "key") {
       parts.key = normalizeOptionalString(value).trim();
       parts.op = normalizeConditionOperatorForKey(parts.key, parts.op);
       if (!parts.key || !conditionOperatorNeedsValue(parts.op)) {
@@ -18094,10 +18326,38 @@ function installNarrativeCanvasApp() {
     } else if (field === "connector") {
       parts.connector = normalizeConditionConnector(value);
     } else {
-      return normalizeOptionalString(expression).trim();
+      return source;
     }
     clauses[index] = parts;
     return buildConditionExpressionFromClauses(clauses);
+  }
+
+  function convertConditionClauseType(clause, value) {
+    const type = normalizeConditionClauseType(value);
+    const connector = normalizeConditionConnector(clause?.connector);
+    if (type === "period") {
+      const periods = normalizeConditionClausePeriods(clause?.periods);
+      return { type: "period", periods: periods.length ? periods : [JS_CONDITION_PERIOD_MIN], connector };
+    }
+    const currentKey = normalizeConditionClauseType(clause?.type) === "state" ? normalizeOptionalString(clause?.key).trim() : "";
+    const key = currentKey || getDefaultConditionKey();
+    const op = normalizeConditionOperatorForKey(key, clause?.op || "===");
+    return { type: "state", key, op, value: getDefaultConditionValue(key, op), connector };
+  }
+
+  // Checkbox edits arrive as "2" (checked) or "!2" (unchecked) so both the input and change
+  // events apply the same deterministic update instead of a double toggle.
+  function updateConditionPeriodClause(clause, value) {
+    if (normalizeConditionClauseType(clause?.type) !== "period") return false;
+    const raw = normalizeOptionalString(value).trim();
+    const removing = raw.startsWith("!");
+    const period = Number(removing ? raw.slice(1) : raw);
+    if (!Number.isInteger(period) || period < JS_CONDITION_PERIOD_MIN || period > JS_CONDITION_PERIOD_MAX) return false;
+    const periods = new Set(normalizeConditionClausePeriods(clause.periods));
+    if (removing) periods.delete(period);
+    else periods.add(period);
+    clause.periods = [...periods].sort((a, b) => a - b);
+    return true;
   }
 
   function addChoiceOption() {
@@ -18674,12 +18934,17 @@ function installNarrativeCanvasApp() {
   }
 
   function addGateCondition(id) {
+    const current = getGateConditionExpression(id);
+    if (parseConditionBuilderExpression(current).custom) {
+      setStatus(t("This condition is too complex for visual editing; edit as text."));
+      return;
+    }
     if (!getDefaultConditionKey()) {
       setStatus(t("State key is required."));
       return;
     }
     const mode = getGateConditionMode(id);
-    const next = addConditionExpressionClause(getGateConditionExpression(id), mode);
+    const next = addConditionExpressionClause(current, mode);
     setGateField(id, "condition", next, true);
     setStatus(t("Condition added."));
   }
@@ -21921,7 +22186,8 @@ function installNarrativeCanvasApp() {
       if (node.type === "identifier" && match("(", "(")) {
         const args = parseArgumentsAfterOpenParen();
         const name = node.path.join(".");
-        if (!JS_CONDITION_LEGACY_FUNCTIONS.has(name)) throw new Error(`Unsupported function ${name}`);
+        if (JS_CONDITION_TIME_FUNCTIONS.has(name)) validateJsTimeConditionCall(name, args);
+        else if (!JS_CONDITION_LEGACY_FUNCTIONS.has(name)) throw new Error(`Unsupported function ${name}`);
         return { type: "call", name, object: null, args };
       }
       return node;
@@ -21955,6 +22221,15 @@ function installNarrativeCanvasApp() {
       parseExpression,
       expect: consume
     };
+  }
+
+  function validateJsTimeConditionCall(name, args) {
+    if (name !== "at_period") return;
+    const arg = args.length === 1 ? args[0] : null;
+    const value = arg?.type === "literal" ? arg.value : null;
+    if (!Number.isInteger(value) || value < JS_CONDITION_PERIOD_MIN || value > JS_CONDITION_PERIOD_MAX) {
+      throw new Error(`at_period expects one period number (${JS_CONDITION_PERIOD_MIN}-${JS_CONDITION_PERIOD_MAX})`);
+    }
   }
 
   function formatJsConditionAst(ast, format, context = {}) {
@@ -22043,6 +22318,10 @@ function installNarrativeCanvasApp() {
   }
 
   function formatConditionCall(ast, format, context = {}) {
+    if (JS_CONDITION_TIME_FUNCTIONS.has(ast.name)) {
+      const value = formatJsConditionAst(ast.args?.[0], format, context);
+      return value ? `${ast.name}(${value})` : "";
+    }
     if (ast.name === "includes") {
       const object = formatJsConditionAst(ast.object, format, context);
       const value = formatJsConditionAst(ast.args?.[0], format, context);
@@ -22135,6 +22414,11 @@ function installNarrativeCanvasApp() {
   }
 
   function evaluateJsConditionCall(ast, variables) {
+    if (JS_CONDITION_TIME_FUNCTIONS.has(ast.name)) {
+      const expected = evaluateJsConditionAst(ast.args?.[0], variables);
+      const resolved = resolveRuntimeStatePath(JS_CONDITION_PERIOD_KEY, variables);
+      return resolved.found && expressionValuesMatch(resolved.value, expected);
+    }
     if (ast.name === "includes") {
       const container = evaluateJsConditionAst(ast.object, variables);
       const value = evaluateJsConditionAst(ast.args?.[0], variables);
@@ -22186,6 +22470,8 @@ function installNarrativeCanvasApp() {
         } else if (JS_CONDITION_LEGACY_FUNCTIONS.has(node.name)) {
           scan(node.args?.[0], { membership: true });
           scan(node.args?.[1]);
+        } else if (JS_CONDITION_TIME_FUNCTIONS.has(node.name)) {
+          keys.push(JS_CONDITION_PERIOD_KEY);
         } else {
           (node.args || []).forEach((arg) => scan(arg));
         }
