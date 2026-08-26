@@ -1,11 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2026-08-26T09:14:39.486Z",
+  "savedAt": "2026-08-26T12:22:22.599Z",
   "project": {
     "title": "【选择】伪满警察署",
     "workflowMode": "canvas",
     "notes": "提取自 MED_Demo Event 003C（1942年1月31日 黄昏 伪警察署支线）——中野警尉的“差事”",
-    "variables": {},
+    "variables": {
+      "morning_choose_police": true
+    },
     "script": {
       "nodeTypes": {},
       "actions": [],
@@ -1931,8 +1933,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "警察B: “咦——老程家药房的？昨儿就催了药，你怎么今儿才来？”",
-        "x": 2134,
-        "y": -54,
+        "x": 2131,
+        "y": -91,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1959,7 +1961,19 @@
             "characterId": "gc-警察B",
             "role": "Speaker"
           }
-        ]
+        ],
+        "stateLogic": {
+          "requirements": "",
+          "requirementsMode": "all",
+          "effects": [
+            {
+              "trigger": "onVisit",
+              "op": "set",
+              "key": "morning_choose_police",
+              "value": "true"
+            }
+          ]
+        }
       },
       {
         "id": "n25",
@@ -2513,7 +2527,7 @@
     "exportImageScale": 1,
     "view": {
       "x": 254,
-      "y": 754.0286560058594,
+      "y": 447.3619689941406,
       "scale": 1
     },
     "sidebar": {
