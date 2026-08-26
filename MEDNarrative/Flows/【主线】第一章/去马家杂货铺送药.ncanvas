@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-08-18T13:39:06.735Z",
+  "savedAt": "2026-08-26T09:37:05.066Z",
   "project": {
     "title": "去马家杂货铺送药",
     "workflowMode": "canvas",
@@ -1860,15 +1860,15 @@
     ]
   },
   "ui": {
-    "selectedNodeId": null,
+    "selectedNodeId": "n_entry",
     "selectedLinkId": null,
     "panel": "project",
     "activeFileId": "adventure",
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 0,
-      "y": 0,
+      "x": 48,
+      "y": 48,
       "scale": 0.55
     },
     "sidebar": {
