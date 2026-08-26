@@ -1,11 +1,13 @@
 {
   "version": 1,
-  "savedAt": "2026-08-25T08:53:10.308Z",
+  "savedAt": "2026-08-26T12:53:01.991Z",
   "project": {
     "title": "强迫出诊",
     "workflowMode": "canvas",
     "notes": "",
-    "variables": {},
+    "variables": {
+      "morning_choose_police": true
+    },
     "script": {
       "nodeTypes": {},
       "actions": [],
@@ -412,7 +414,330 @@
     ],
     "customNodeTypes": [],
     "characters": [],
-    "deletedNodes": [],
+    "deletedNodes": [
+      {
+        "deletedAt": "2026-08-26T12:47:13.238Z",
+        "node": {
+          "id": "n52",
+          "type": "Content",
+          "title": "Content",
+          "body": "程时一看了中野一眼。",
+          "x": 11245,
+          "y": 780,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "width": 296,
+          "height": 157
+        },
+        "links": [
+          {
+            "id": "l53",
+            "from": "n51",
+            "to": "n52",
+            "choiceIndex": 0,
+            "label": "跟随中野出诊",
+            "choiceOptionId": "opt_1"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T12:47:11.450Z",
+        "node": {
+          "id": "n53",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "程时一: \"好。我收拾好东西，这就走。\"",
+          "x": 11609,
+          "y": 787,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "程时一",
+              "line": "\"好。我收拾好东西，这就走。\""
+            }
+          ],
+          "cast": [
+            {
+              "characterId": "gc-程时一",
+              "role": "Speaker"
+            }
+          ],
+          "width": 347,
+          "height": 177
+        },
+        "links": [
+          {
+            "id": "l54",
+            "from": "n52",
+            "to": "n53"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T12:47:09.712Z",
+        "node": {
+          "id": "n54",
+          "type": "Content",
+          "title": "Content",
+          "body": "中野点了点头，对翻译说了一串日语。",
+          "x": 12041,
+          "y": 812,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          }
+        },
+        "links": [
+          {
+            "id": "l55",
+            "from": "n53",
+            "to": "n54"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T12:47:00.309Z",
+        "node": {
+          "id": "n55",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "协和会翻译: \"太君说，先生痛快。车在外面，事成之后有重谢。\"\n程靖霖: \"掌柜的！\"",
+          "x": 12441,
+          "y": 776,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "协和会翻译",
+              "line": "\"太君说，先生痛快。车在外面，事成之后有重谢。\""
+            },
+            {
+              "speaker": "程靖霖",
+              "line": "\"掌柜的！\""
+            }
+          ],
+          "cast": [
+            {
+              "characterId": "gc-协和会翻译",
+              "role": "Speaker"
+            },
+            {
+              "characterId": "gc-程靖霖",
+              "role": "Speaker"
+            }
+          ],
+          "width": 429,
+          "height": 236
+        },
+        "links": [
+          {
+            "id": "l56",
+            "from": "n54",
+            "to": "n55"
+          }
+        ]
+      },
+      {
+        "deletedAt": "2026-08-26T12:46:04.323Z",
+        "node": {
+          "id": "n55",
+          "type": "Content",
+          "title": "Content",
+          "body": "Write narration here.",
+          "x": 12375,
+          "y": 867,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          }
+        },
+        "links": []
+      },
+      {
+        "deletedAt": "2026-08-26T12:46:00.761Z",
+        "node": {
+          "id": "n55",
+          "type": "Choice",
+          "title": "Choice",
+          "body": "Offer player choices.",
+          "x": 12375,
+          "y": 870,
+          "choices": [
+            "Continue",
+            "Turn back"
+          ],
+          "frameId": "",
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "choiceRevealMode": "hide",
+          "choiceOptions": [
+            {
+              "id": "opt_1",
+              "label": "Continue",
+              "requires": "",
+              "requiresMode": "all",
+              "effects": []
+            },
+            {
+              "id": "opt_2",
+              "label": "Turn back",
+              "requires": "",
+              "requiresMode": "all",
+              "effects": []
+            }
+          ]
+        },
+        "links": []
+      },
+      {
+        "deletedAt": "2026-08-26T12:32:49.027Z",
+        "node": {
+          "id": "n25",
+          "type": "Dialog",
+          "title": "Dialog",
+          "body": "Character line.",
+          "x": 10742,
+          "y": 91,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          },
+          "turns": [
+            {
+              "speaker": "",
+              "line": "Character line."
+            }
+          ]
+        },
+        "links": []
+      },
+      {
+        "deletedAt": "2026-08-26T12:29:39.294Z",
+        "node": {
+          "id": "n16",
+          "type": "Content",
+          "title": "Content",
+          "body": "Write narration here.",
+          "x": 6765,
+          "y": 292,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "top",
+              "t": 0.5
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          }
+        },
+        "links": []
+      },
+      {
+        "deletedAt": "2026-08-26T12:27:26.481Z",
+        "node": {
+          "id": "n6",
+          "type": "Content",
+          "title": "Content",
+          "body": "Write narration here.",
+          "x": 2281,
+          "y": 327,
+          "frameId": "",
+          "choices": [],
+          "customFields": {},
+          "ports": {
+            "input": {
+              "side": "left",
+              "t": 0.5377483196086712
+            },
+            "output": {
+              "side": "bottom",
+              "t": 0.5
+            }
+          }
+        },
+        "links": [
+          {
+            "id": "l5",
+            "from": "n4",
+            "to": "n6"
+          }
+        ]
+      }
+    ],
     "nodes": [
       {
         "id": "n0",
@@ -454,7 +779,9 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 336,
+        "height": 192
       },
       {
         "id": "n2",
@@ -536,8 +863,8 @@
             "t": 0.5
           },
           "output": {
-            "side": "bottom",
-            "t": 0.5
+            "side": "right",
+            "t": 0.5504951896248284
           }
         },
         "turns": [
@@ -554,6 +881,1759 @@
             "role": "Speaker"
           }
         ]
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野没有回头。",
+        "x": 2287,
+        "y": 54,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5347454998944257
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: \"李。\"",
+        "x": 2581,
+        "y": 27,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "\"李。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ],
+        "width": 270,
+        "height": 177
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "李加夫上前一步，从怀里掏出一样东西，放在柜台上。是一卷老头票。",
+        "x": 2940,
+        "y": 42,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5316370305097485
+          }
+        },
+        "width": 343,
+        "height": 149
+      },
+      {
+        "id": "n9",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: \"之前的事，误会。\"",
+        "x": 3364,
+        "y": 33,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "\"之前的事，误会。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-李加夫",
+            "role": "Speaker"
+          }
+        ],
+        "width": 284,
+        "height": 181
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "李加夫说了这句话，看了看中野的脸色，便低头退开，在翻译背后垂手而立。\n程靖霖认出那是在警署被劫走的药钱，他望望掌柜的，程时一也正在看着那卷钱。",
+        "x": 3716,
+        "y": 16,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 378,
+        "height": 227
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "协和会翻译: “太君说了，药钱，不能少。这次专门来时一堂走一趟，是有事相求老掌柜的，受累出个诊。官舍区有户人家，孩子抽风，烧得厉害。想请先生走一趟。”",
+        "x": 4655,
+        "y": 276,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "协和会翻译",
+            "line": "“太君说了，药钱，不能少。这次专门来时一堂走一趟，是有事相求老掌柜的，受累出个诊。官舍区有户人家，孩子抽风，烧得厉害。想请先生走一趟。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-协和会翻译",
+            "role": "Speaker"
+          }
+        ],
+        "width": 428,
+        "height": 241
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野微笑了一下。他回头对翻译说了一串日语。",
+        "x": 4202,
+        "y": 316,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.44804657794232644
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5154463116247143
+          }
+        },
+        "width": 363,
+        "height": 132
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野自己补了一句，是中文，说得慢。",
+        "x": 5172,
+        "y": 343,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: \"小孩，急病。时一堂，有名。\"",
+        "x": 5564,
+        "y": 300,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "\"小孩，急病。时一堂，有名。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ],
+        "width": 345,
+        "height": 189
+      },
+      {
+        "id": "n14",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有接话。",
+        "x": 6003,
+        "y": 333,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.48369481542088966
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "Offer player choices.",
+        "x": 6322,
+        "y": 239,
+        "choices": [
+          "日本人的事跟我们中国人没关系",
+          "看来不得不去",
+          "有没有什么办法……"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.562591552734375
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5319927532691509
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "日本人的事跟我们中国人没关系",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          },
+          {
+            "id": "opt_d8tvd1",
+            "label": "看来不得不去",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          },
+          {
+            "id": "opt_3nlu76",
+            "label": "有没有什么办法……",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ],
+        "width": 374,
+        "height": 256
+      },
+      {
+        "id": "n16",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，不去。”",
+        "x": 6867,
+        "y": 141,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 402,
+        "height": 204,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，不去。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野的眼睛眯了起来。",
+        "x": 7368,
+        "y": 179,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “日本人没管过中国人死活，我们也管不到他们死活。该死有天收。”",
+        "x": 7680,
+        "y": 142,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“日本人没管过中国人死活，我们也管不到他们死活。该死有天收。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ],
+        "width": 392,
+        "height": 183
+      },
+      {
+        "id": "n19",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一面上骤然变色，他还没来得及说什么，中野又微笑了起来。",
+        "x": 8164,
+        "y": 148,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: “我听得懂中国话。反满，抗日。”",
+        "x": 8583,
+        "y": 130,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "“我听得懂中国话。反满，抗日。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ],
+        "width": 342,
+        "height": 180
+      },
+      {
+        "id": "n21",
+        "type": "Content",
+        "title": "Content",
+        "body": "腰间的皮套弹开，他的手放在枪柄上，看向程靖霖。",
+        "x": 9023,
+        "y": 149,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: “你再说一遍。”",
+        "x": 9428,
+        "y": 119,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "“你再说一遍。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ],
+        "width": 304,
+        "height": 178
+      },
+      {
+        "id": "n23",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "Offer player choices.",
+        "x": 9877,
+        "y": 118,
+        "choices": [
+          "打死我也不去",
+          "他真的会打死我"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5078524560043493
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "打死我也不去",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "他真的会打死我",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ],
+        "width": 304,
+        "height": 194
+      },
+      {
+        "id": "n24",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “打死我也不去。”\n中野三郎: “好。“",
+        "x": 10361,
+        "y": -50,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.43981595952460106
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5251252797599257
+          }
+        },
+        "width": 353,
+        "height": 235,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“打死我也不去。”"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "“好。“"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "枪响。",
+        "x": 10866,
+        "y": -1,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.6158265809755068
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “太君，小孩不懂事，乱说的。”",
+        "x": 10796,
+        "y": 274,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5342791810327646
+          },
+          "output": {
+            "side": "right",
+            "t": 0.6065581866673061
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“太君，小孩不懂事，乱说的。”"
+          }
+        ],
+        "width": 277,
+        "height": 196,
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n27",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看向程时一，掌柜的向前挪了两步。",
+        "x": 10361,
+        "y": 281,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5474384364797108
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5839576051946271
+          }
+        },
+        "width": 338,
+        "height": 171
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "他看了程靖霖一眼。",
+        "x": 11207,
+        "y": 308,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.4419101852554459
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5512618331221847
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “是哪位人家有事？我稍作准备就去。”",
+        "x": 11532,
+        "y": 263,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.45366441881334457
+          },
+          "output": {
+            "side": "right",
+            "t": 0.6355291513296274
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“是哪位人家有事？我稍作准备就去。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 423,
+        "height": 208
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野将目光转回到程时一脸上，看了一会儿，把手枪皮套扣上，回头看向翻译和警察。",
+        "x": 12082,
+        "y": 274,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5422533739794482
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5662773063590935
+          }
+        },
+        "width": 360,
+        "height": 136
+      },
+      {
+        "id": "n31",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: （日语）“在这里等他准备好，然后把他带到车上。”",
+        "x": 12532,
+        "y": 251,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5647756215688344
+          },
+          "output": {
+            "side": "right",
+            "t": 0.47765958978888695
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "（日语）“在这里等他准备好，然后把他带到车上。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 374,
+        "height": 178
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "说完，他走出门去，留下的两个人继续盯着屋子里的几人。",
+        "x": 13004,
+        "y": 252,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.6188299505560247
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.11611113906902855
+          }
+        },
+        "width": 359,
+        "height": 138
+      },
+      {
+        "id": "n33",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一看了中野一眼。",
+        "x": 13060,
+        "y": 635,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.46684505911495666
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 299,
+        "height": 197
+      },
+      {
+        "id": "n34",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: \"好。我收拾好东西，这就走。\"",
+        "x": 13459,
+        "y": 507,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "\"好。我收拾好东西，这就走。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 362,
+        "height": 179
+      },
+      {
+        "id": "n35",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野点了点头，对翻译说了一串日语。",
+        "x": 13887,
+        "y": 534,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n36",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "协和会翻译: \"太君说，先生痛快。车在外面，事成之后有重谢。\"\n程靖霖: \"掌柜的！\"\n程时一: \"去柜台后面，把我的诊箱拿出来。看店。\"",
+        "x": 14285,
+        "y": 463,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.62933349609375
+          }
+        },
+        "turns": [
+          {
+            "speaker": "协和会翻译",
+            "line": "\"太君说，先生痛快。车在外面，事成之后有重谢。\""
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "\"掌柜的！\""
+          },
+          {
+            "speaker": "程时一",
+            "line": "\"去柜台后面，把我的诊箱拿出来。看店。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-协和会翻译",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          },
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 482,
+        "height": 262
+      },
+      {
+        "id": "n37",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野点了点头，又看了一眼程靖霖，转身走出门去。\n程晓梅已经麻利地从饭桌后转了出来。她把老羊皮大氅递给程时一，焦虑地看着父亲。",
+        "x": 14855,
+        "y": 462,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 420,
+        "height": 240
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “爹，你还没吃饭……”",
+        "x": 15370,
+        "y": 491,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“爹，你还没吃饭……”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 326,
+        "height": 184
+      },
+      {
+        "id": "n39",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一穿上大氅，挎上药箱。",
+        "x": 15803,
+        "y": 527,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “回来再说。”",
+        "x": 16168,
+        "y": 483,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“回来再说。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 276,
+        "height": 191
+      },
+      {
+        "id": "n41",
+        "type": "Content",
+        "title": "Content",
+        "body": "老人微跛的脚步走出门去，正门被关上了。\n桌上还有三碗饭，只剩两个人在堂屋里。",
+        "x": 16516,
+        "y": 485,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 408,
+        "height": 171
+      },
+      {
+        "id": "n42",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “是急惊风？”\n程靖霖: “如果是抽风高热，急病得用急药才行。小孩发病快，药得比人早到。”",
+        "x": 6806,
+        "y": 819,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.49557700989738346
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“是急惊风？”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“如果是抽风高热，急病得用急药才行。小孩发病快，药得比人早到。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程靖霖",
+            "role": "Speaker"
+          }
+        ],
+        "width": 433,
+        "height": 252
+      },
+      {
+        "id": "n43",
+        "type": "Content",
+        "title": "Content",
+        "body": "翻译赶忙说给中野。中野的眼神又转回到程靖霖身上，这一次的目光多了点不一样的地方。",
+        "x": 7430,
+        "y": 858,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5049738153681025
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 358,
+        "height": 144
+      },
+      {
+        "id": "n44",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “说得对。若是急惊风，得先定惊。我这边若要出诊，也需要准备药材和工具。先给太君拿上一副备药，回去给孩子吃上。”",
+        "x": 7906,
+        "y": 826,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“说得对。若是急惊风，得先定惊。我这边若要出诊，也需要准备药材和工具。先给太君拿上一副备药，回去给孩子吃上。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 388,
+        "height": 239
+      },
+      {
+        "id": "n45",
+        "type": "Content",
+        "title": "Content",
+        "body": "他转回身示意程靖霖。",
+        "x": 8395,
+        "y": 876,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n46",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “霖子，药斗顶上右边抽匣，紫雪丹，一丸。”",
+        "x": 8721,
+        "y": 847,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，药斗顶上右边抽匣，紫雪丹，一丸。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 359,
+        "height": 192
+      },
+      {
+        "id": "n47",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "协和会翻译: “犀角、羚羊角、麝香……取药研末，一岁一分，多一岁添一分，至多一钱，冷开水送服，一日两次。”",
+        "x": 9535,
+        "y": 831,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "协和会翻译",
+            "line": "“犀角、羚羊角、麝香……取药研末，一岁一分，多一岁添一分，至多一钱，冷开水送服，一日两次。”"
+          }
+        ],
+        "width": 368,
+        "height": 223,
+        "cast": [
+          {
+            "characterId": "gc-协和会翻译",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n48",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野眯起眼睛看着程靖霖从药柜的高处，拿出一颗丸药。这边程时一慢慢走到柜台旁边，写下用法。\n\n药方和药丸都交到中野的手里，他仔细地看着龙飞凤舞的汉字，随即交给背后的翻译。",
+        "x": 9138,
+        "y": 854,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Content",
+        "title": "Content",
+        "body": "他望向中野，等待着他的下一步指令。\n中野拍了拍自己的警尉佩剑，望向程时一。他向翻译说话。",
+        "x": 9999,
+        "y": 854,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 338,
+        "height": 156
+      },
+      {
+        "id": "n50",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “药是有了，但大夫今天看起来是不能跟我走了？车就在外面。”",
+        "x": 10410,
+        "y": 841,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“药是有了，但大夫今天看起来是不能跟我走了？车就在外面。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 380,
+        "height": 198
+      },
+      {
+        "id": "n51",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "Offer player choices.",
+        "x": 10882,
+        "y": 845,
+        "choices": [
+          "跟随中野出诊",
+          "不跟随中野"
+        ],
+        "frameId": "",
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.55527388900784
+          }
+        },
+        "choiceRevealMode": "hide",
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "跟随中野出诊",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "不跟随中野",
+            "requires": "",
+            "requiresMode": "all",
+            "effects": []
+          }
+        ],
+        "width": 285,
+        "height": 198
+      },
+      {
+        "id": "n52",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “太君，救人在急，不在人到。”",
+        "x": 11704,
+        "y": 1110,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.4437668635961364
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 293,
+        "height": 181,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“太君，救人在急，不在人到。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ]
+      },
+      {
+        "id": "n53",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一也眯起眼睛看着中野。",
+        "x": 11266,
+        "y": 1105,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.4381993991225513
+          }
+        },
+        "width": 281,
+        "height": 157
+      },
+      {
+        "id": "n54",
+        "type": "Content",
+        "title": "Content",
+        "body": "翻译简短地说了一句，中野身后的警察皱起了眉头。\n中野思考了一下，对翻译说了一串日语，便转回身。",
+        "x": 12058,
+        "y": 1114,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 363,
+        "height": 164
+      },
+      {
+        "id": "n55",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "协和会翻译: \"太君说，多谢先生。先去送药——明日一早，来接先生。\"",
+        "x": 12484,
+        "y": 1080,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "协和会翻译",
+            "line": "\"太君说，多谢先生。先去送药——明日一早，来接先生。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-协和会翻译",
+            "role": "Speaker"
+          }
+        ],
+        "width": 427,
+        "height": 239
+      },
+      {
+        "id": "n56",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野走到门口，又停下，回头看了看程时一，看了看柜台上的牌匾，最后看了看程靖霖。",
+        "x": 13025,
+        "y": 1162,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: \"时一堂。\"\n中野三郎: \"好药房。\"",
+        "x": 13456,
+        "y": 1114,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "\"时一堂。\""
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "\"好药房。\""
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-中野三郎",
+            "role": "Speaker"
+          }
+        ],
+        "width": 291,
+        "height": 203
+      },
+      {
+        "id": "n58",
+        "type": "Content",
+        "title": "Content",
+        "body": "他走了。翻译跟上。\n警察是最后一个，他走到门口，又回过头，比了个拇指，低声说了句有种。\n药房的正门被关上了，寒气被隔绝在门板和厚门帘外。三个人看着大门许久。",
+        "x": 13866,
+        "y": 1167,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 355,
+        "height": 212
+      },
+      {
+        "id": "n59",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程晓梅: “爹，饭凉了。”",
+        "x": 14326,
+        "y": 1174,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“爹，饭凉了。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程晓梅",
+            "role": "Speaker"
+          }
+        ],
+        "width": 387,
+        "height": 200
+      },
+      {
+        "id": "n60",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一在桌旁坐下，咳了两声。",
+        "x": 14770,
+        "y": 1194,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "width": 329,
+        "height": 149
+      },
+      {
+        "id": "n61",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “先吃吧。吃完再说。”",
+        "x": 15165,
+        "y": 1177,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“先吃吧。吃完再说。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 335,
+        "height": 178
+      },
+      {
+        "id": "n62",
+        "type": "Content",
+        "title": "Content",
+        "body": "他拿起筷子，看着两个孩子。",
+        "x": 15556,
+        "y": 1223,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n63",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “坐下，吃饭。”",
+        "x": 15902,
+        "y": 1152,
+        "frameId": "",
+        "choices": [],
+        "customFields": {},
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“坐下，吃饭。”"
+          }
+        ],
+        "cast": [
+          {
+            "characterId": "gc-程时一",
+            "role": "Speaker"
+          }
+        ],
+        "width": 306,
+        "height": 195
       }
     ],
     "links": [
@@ -576,6 +2656,338 @@
         "id": "l3",
         "from": "n3",
         "to": "n4"
+      },
+      {
+        "id": "l4",
+        "from": "n4",
+        "to": "n5",
+        "requirements": "morning_choose_police === true"
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n7"
+      },
+      {
+        "id": "l7",
+        "from": "n7",
+        "to": "n8"
+      },
+      {
+        "id": "l8",
+        "from": "n8",
+        "to": "n9"
+      },
+      {
+        "id": "l9",
+        "from": "n9",
+        "to": "n10"
+      },
+      {
+        "id": "l10",
+        "from": "n10",
+        "to": "n12"
+      },
+      {
+        "id": "l11",
+        "from": "n12",
+        "to": "n11"
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n12"
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n6"
+      },
+      {
+        "id": "l13",
+        "from": "n6",
+        "to": "n13"
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14"
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15"
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16",
+        "choiceIndex": 0,
+        "label": "日本人的事跟我们中国人没关系",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17"
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18"
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19"
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20"
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21"
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22"
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23"
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24",
+        "choiceIndex": 0,
+        "label": "打死我也不去",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n25"
+      },
+      {
+        "id": "l26",
+        "from": "n23",
+        "to": "n27",
+        "choiceIndex": 1,
+        "label": "他真的会打死我",
+        "choiceOptionId": "opt_2"
+      },
+      {
+        "id": "l27",
+        "from": "n27",
+        "to": "n26"
+      },
+      {
+        "id": "l28",
+        "from": "n26",
+        "to": "n28"
+      },
+      {
+        "id": "l29",
+        "from": "n28",
+        "to": "n29"
+      },
+      {
+        "id": "l30",
+        "from": "n29",
+        "to": "n30"
+      },
+      {
+        "id": "l31",
+        "from": "n30",
+        "to": "n31"
+      },
+      {
+        "id": "l32",
+        "from": "n31",
+        "to": "n32"
+      },
+      {
+        "id": "l33",
+        "from": "n32",
+        "to": "n33"
+      },
+      {
+        "id": "l34",
+        "from": "n15",
+        "to": "n33",
+        "choiceIndex": 1,
+        "label": "看来不得不去",
+        "choiceOptionId": "opt_d8tvd1"
+      },
+      {
+        "id": "l35",
+        "from": "n33",
+        "to": "n34"
+      },
+      {
+        "id": "l36",
+        "from": "n34",
+        "to": "n35"
+      },
+      {
+        "id": "l37",
+        "from": "n35",
+        "to": "n36"
+      },
+      {
+        "id": "l38",
+        "from": "n36",
+        "to": "n37"
+      },
+      {
+        "id": "l39",
+        "from": "n37",
+        "to": "n38"
+      },
+      {
+        "id": "l40",
+        "from": "n38",
+        "to": "n39"
+      },
+      {
+        "id": "l41",
+        "from": "n39",
+        "to": "n40"
+      },
+      {
+        "id": "l42",
+        "from": "n40",
+        "to": "n41"
+      },
+      {
+        "id": "l43",
+        "from": "n15",
+        "to": "n42",
+        "choiceIndex": 2,
+        "label": "有没有什么办法……",
+        "choiceOptionId": "opt_3nlu76"
+      },
+      {
+        "id": "l44",
+        "from": "n42",
+        "to": "n43"
+      },
+      {
+        "id": "l45",
+        "from": "n43",
+        "to": "n44"
+      },
+      {
+        "id": "l46",
+        "from": "n44",
+        "to": "n45"
+      },
+      {
+        "id": "l47",
+        "from": "n45",
+        "to": "n46"
+      },
+      {
+        "id": "l48",
+        "from": "n46",
+        "to": "n48"
+      },
+      {
+        "id": "l49",
+        "from": "n48",
+        "to": "n47"
+      },
+      {
+        "id": "l50",
+        "from": "n47",
+        "to": "n49"
+      },
+      {
+        "id": "l51",
+        "from": "n49",
+        "to": "n50"
+      },
+      {
+        "id": "l52",
+        "from": "n50",
+        "to": "n51"
+      },
+      {
+        "id": "l53",
+        "from": "n51",
+        "to": "n33",
+        "choiceIndex": 0,
+        "label": "跟随中野出诊",
+        "choiceOptionId": "opt_1"
+      },
+      {
+        "id": "l54",
+        "from": "n51",
+        "to": "n53",
+        "choiceIndex": 1,
+        "label": "不跟随中野",
+        "choiceOptionId": "opt_2"
+      },
+      {
+        "id": "l55",
+        "from": "n53",
+        "to": "n52"
+      },
+      {
+        "id": "l56",
+        "from": "n52",
+        "to": "n54"
+      },
+      {
+        "id": "l57",
+        "from": "n54",
+        "to": "n55"
+      },
+      {
+        "id": "l58",
+        "from": "n55",
+        "to": "n56"
+      },
+      {
+        "id": "l59",
+        "from": "n56",
+        "to": "n57"
+      },
+      {
+        "id": "l60",
+        "from": "n57",
+        "to": "n58"
+      },
+      {
+        "id": "l61",
+        "from": "n58",
+        "to": "n59"
+      },
+      {
+        "id": "l62",
+        "from": "n59",
+        "to": "n60"
+      },
+      {
+        "id": "l63",
+        "from": "n60",
+        "to": "n61"
+      },
+      {
+        "id": "l64",
+        "from": "n61",
+        "to": "n62"
+      },
+      {
+        "id": "l65",
+        "from": "n62",
+        "to": "n63"
       }
     ]
   },
@@ -587,9 +2999,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 48,
-      "y": 600.3619689941406,
-      "scale": 1
+      "x": 13712.06297762025,
+      "y": 632.469276549324,
+      "scale": 0.20000000000000018
     },
     "sidebar": {
       "leftWidth": 280,
