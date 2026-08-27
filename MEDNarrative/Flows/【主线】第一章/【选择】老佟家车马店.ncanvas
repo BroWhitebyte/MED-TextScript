@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-08-26T12:14:46.185Z",
+  "savedAt": "2026-08-27T07:01:48.099Z",
   "project": {
     "title": "【选择】老佟家车马店",
     "workflowMode": "canvas",
@@ -1102,8 +1102,8 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 509,
+        "height": 171
       },
       {
         "id": "n25",
@@ -1131,8 +1131,8 @@
             "line": "“现钱，就这点，勉强顶药钱。你拿钱走，我也得把这根参抵给佟掌柜的，我揣了它一年多，今天到底是要离开我啦。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 437,
+        "height": 209
       },
       {
         "id": "n26",
@@ -1218,7 +1218,19 @@
           }
         ],
         "width": 488,
-        "height": 206
+        "height": 206,
+        "stateLogic": {
+          "requirements": "",
+          "requirementsMode": "all",
+          "effects": [
+            {
+              "trigger": "onVisit",
+              "op": "set",
+              "key": "first_choose_ginseng",
+              "value": "true"
+            }
+          ]
+        }
       },
       {
         "id": "n28",
@@ -1247,7 +1259,19 @@
           }
         ],
         "width": 523,
-        "height": 202
+        "height": 202,
+        "stateLogic": {
+          "requirements": "",
+          "requirementsMode": "all",
+          "effects": [
+            {
+              "trigger": "onVisit",
+              "op": "set",
+              "key": "first_choose_money",
+              "value": "true"
+            }
+          ]
+        }
       },
       {
         "id": "n29",
@@ -2177,8 +2201,8 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 547,
-      "y": 1065.3671433548068,
+      "x": 227,
+      "y": 389,
       "scale": 1
     },
     "sidebar": {
