@@ -1804,16 +1804,16 @@
     ]
   },
   "ui": {
-    "selectedNodeId": "n10",
+    "selectedNodeId": null,
     "selectedLinkId": null,
     "panel": "node",
     "activeFileId": "adventure",
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 372,
-      "y": 312,
-      "scale": 1
+      "x": 369.6135166554849,
+      "y": 322.68495027454713,
+      "scale": 0.28966437973668785
     },
     "sidebar": {
       "leftWidth": 280,
