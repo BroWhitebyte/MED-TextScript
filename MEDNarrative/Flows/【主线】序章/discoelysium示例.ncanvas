@@ -1,0 +1,2024 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-10T07:55:59.295Z",
+  "project": {
+    "title": "DiscoElysium示例",
+    "notes": "",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 120,
+        "y": 120,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 这里什么也没有。只有温暖的。原始的黑暗。你的意识在里面发酵——并不比一粒麦芽大多少。你不用再做任何事了。",
+        "x": 464,
+        "y": 96,
+        "width": 418,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "这里什么也没有。只有温暖的。原始的黑暗。你的意识在里面发酵——并不比一粒麦芽大多少。你不用再做任何事了。"
+          }
+        ],
+        "height": 104,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "永远。\n永远的永远。",
+        "x": 976,
+        "y": 112,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1320,
+        "y": 96,
+        "choices": [
+          "永远永远的永远？（只出现一次）",
+          "（简单地保持这种不存在的状态）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "永远永远的永远？（只出现一次）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "（简单地保持这种不存在的状态）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 永远永远的永远，宝贝！",
+        "x": 1912,
+        "y": -24,
+        "width": 276,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "永远永远的永远，宝贝！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 79,
+        "manualSize": true
+      },
+      {
+        "id": "n5",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 时间在这里汹涌的流逝。它是湮没了一切呻吟的终极宁静。没有留下任何旧日依恋。",
+        "x": 2432,
+        "y": 160,
+        "width": 340,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "时间在这里汹涌的流逝。它是湮没了一切呻吟的终极宁静。没有留下任何旧日依恋。"
+          }
+        ],
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2928,
+        "y": 152,
+        "choices": [
+          "这真是太棒了！（只出现一次）",
+          "再多来一些。",
+          "那个*旧*什么的是个什么东西？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_4",
+            "label": "这真是太棒了！（只出现一次）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "再多来一些。",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_6",
+            "label": "那个*旧*什么的是个什么东西？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 是的，没错。",
+        "x": 3296,
+        "y": 8,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "是的，没错。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 你说对了，亲爱的兄弟！除了虚无就是虚无，只有虚无！",
+        "x": 4080,
+        "y": 136,
+        "width": 294,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "你说对了，亲爱的兄弟！除了虚无就是虚无，只有虚无！"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 4912,
+        "y": 120,
+        "choices": [
+          "我喜欢虚无（只出现一次）",
+          "不如你再吐出点那种甜蜜的湮灭？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_9",
+            "label": "我喜欢虚无（只出现一次）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_10",
+            "label": "不如你再吐出点那种甜蜜的湮灭？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 我知道你会的，宝贝……我知道……",
+        "x": 5408,
+        "y": -24,
+        "width": 336,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "我知道你会的，宝贝……我知道……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 83,
+        "manualSize": true
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 马上就来，先生。舒适的旅行……",
+        "x": 6144,
+        "y": 168,
+        "width": 336,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "马上就来，先生。舒适的旅行……"
+          }
+        ],
+        "height": 83,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 6640,
+        "y": 48,
+        "choices": [
+          "出发吧，我们走！",
+          "我想现在下去，我喜欢痛苦，喜欢燃烧的灯光，从不愿意施舍我的人手中拿到东西"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_12",
+            "label": "出发吧，我们走！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_13",
+            "label": "我想现在下去，我喜欢痛苦，喜欢燃烧的灯光，从不愿意施舍我的人手中拿到东西",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "width": 347,
+        "height": 132,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 好吧。从虚无镇通往操蛋自治区！",
+        "x": 7144,
+        "y": -56,
+        "width": 321,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "好吧。从虚无镇通往操蛋自治区！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 83,
+        "manualSize": true
+      },
+      {
+        "id": "n17",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 7616,
+        "y": -88,
+        "choices": [
+          "我要开启重返寂静之旅，谢谢！",
+          "我们去拜访古老的零度沙洲吧！",
+          "看，*我已经厌倦做这种畜生*和*谁他妈在乎*又来了！"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_14",
+            "label": "我要开启重返寂静之旅，谢谢！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_15",
+            "label": "我们去拜访古老的零度沙洲吧！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_16",
+            "label": "看，*我已经厌倦做这种畜生*和*谁他妈在乎*又来了！",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 404,
+        "height": 142,
+        "manualSize": true
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 你希望我帮你升级成*单程旅行*吗，先生？",
+        "x": 8256,
+        "y": -320,
+        "width": 370,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "你希望我帮你升级成*单程旅行*吗，先生？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 97,
+        "manualSize": true
+      },
+      {
+        "id": "n19",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 8800,
+        "y": -56,
+        "choices": [
+          "别停下，继续唱。给我唱一首死亡之歌。",
+          "等等，不！正好相反，我需要贬低我自己。"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_17",
+            "label": "别停下，继续唱。给我唱一首死亡之歌。",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_18",
+            "label": "等等，不！正好相反，我需要贬低我自己。",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 316,
+        "height": 132,
+        "manualSize": true
+      },
+      {
+        "id": "n20",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 就像一只粘在油膏上的苍蝇，你的意识也牢牢粘在了上面。那具有血有肉的苦痛之躯，连同着它所承受的那毫无尊严的折磨，又躁动了起来。它想要在沙漠穿行。疼痛着，渴望着，舞动着。在迪斯科的旋律里。",
+        "x": 10272,
+        "y": -280,
+        "width": 467,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "就像一只粘在油膏上的苍蝇，你的意识也牢牢粘在了上面。那具有血有肉的苦痛之躯，连同着它所承受的那毫无尊严的折磨，又躁动了起来。它想要在沙漠穿行。疼痛着，渴望着，舞动着。在迪斯科的旋律里。"
+          }
+        ],
+        "height": 146,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 10944,
+        "y": -288,
+        "choices": [
+          "妈妈，帮帮我，我的脖子上连着一个脑袋，我也在脑袋*里面*。",
+          "住嘴！我不想再听到任何关于这种*感觉*的事了。带我回到那片无形又空洞的虚无里！"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_19",
+            "label": "妈妈，帮帮我，我的脖子上连着一个脑袋，我也在脑袋*里面*。",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_20",
+            "label": "住嘴！我不想再听到任何关于这种*感觉*的事了。带我回到那片无形又空洞的虚无里！",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 413,
+        "height": 149,
+        "manualSize": true
+      },
+      {
+        "id": "n22",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 你的嘴巴里泛起酒精的恶臭。随之而来的——还有*极度*的头疼。",
+        "x": 11536,
+        "y": -248,
+        "width": 284,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "你的嘴巴里泛起酒精的恶臭。随之而来的——还有*极度*的头疼。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 100,
+        "manualSize": true
+      },
+      {
+        "id": "n23",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 12072,
+        "y": -288,
+        "choices": [
+          "救命！有人吗！快把我的脑袋切掉，它想谋杀我其余的部分！",
+          "我*是*谁？什么样的生物居然会对自己的嘴巴做出这种事情？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_21",
+            "label": "救命！有人吗！快把我的脑袋切掉，它想谋杀我其余的部分！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_22",
+            "label": "我*是*谁？什么样的生物居然会对自己的嘴巴做出这种事情？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 一道炽热的斑纹穿透你的头颅，试图强迫你睁开双眼。它是一道声音。来自地狱的强烈呼唤。",
+        "x": 12552,
+        "y": -320,
+        "width": 692,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "一道炽热的斑纹穿透你的头颅，试图强迫你睁开双眼。它是一道声音。来自地狱的强烈呼唤。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 117,
+        "manualSize": true
+      },
+      {
+        "id": "n25",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 14752,
+        "y": -24,
+        "choices": [
+          "睁开眼睛"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_23",
+            "label": "睁开眼睛",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 15264,
+        "y": 8,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3848,
+        "y": 368,
+        "choices": [
+          "（重新跳入无形的深渊）",
+          "不，我想知道这个*旧日之物*。"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_24",
+            "label": "（重新跳入无形的深渊）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_25",
+            "label": "不，我想知道这个*旧日之物*。",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 一种意识向你悄然袭来。一大团东西隐藏在你的死角，浸泡在某种可怕的酸性酱汁里。它臃肿又不体面，就像一个肉球将你包围……着一连串可怕的询问，只会让你更多地感知到那个像肉球一样的东西。",
+        "x": 3312,
+        "y": 328,
+        "width": 362,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "一种意识向你悄然袭来。一大团东西隐藏在你的死角，浸泡在某种可怕的酸性酱汁里。它臃肿又不体面，就像一个肉球将你包围……着一连串可怕的询问，只会让你更多地感知到那个像肉球一样的东西。"
+          }
+        ],
+        "height": 184,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 在那里，没有肉球，无形的虚无里没有灯光。只有夜泳！",
+        "x": 4272,
+        "y": 352,
+        "width": 452,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "在那里，没有肉球，无形的虚无里没有灯光。只有夜泳！"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n30",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 你真这么想？",
+        "x": 7048,
+        "y": 368,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "你真这么想？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 7536,
+        "y": 400,
+        "choices": [
+          "别天真了，当然不是。我想在这片像墨汁一般的漆黑世界里一路航行到永恒的尽头！",
+          "是的，让我摆脱这一切。"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_26",
+            "label": "别天真了，当然不是。我想在这片像墨汁一般的漆黑世界里一路航行到永恒的尽头！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_27",
+            "label": "是的，让我摆脱这一切。",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 很棒的选择，长者。它一直都是这样——而且也一直都会这样。",
+        "x": 8200,
+        "y": -112,
+        "width": 478,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "很棒的选择，长者。它一直都是这样——而且也一直都会这样。"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 如果我告诉你回去之后有什么的话，你是不会喜欢的。你以为你为什么要把自己吓到失忆？难道你感觉不到自己——已经被腌渍过了？喝得太多了……有点*忘乎所以*了，不是吗，大厨？",
+        "x": 8040,
+        "y": 600,
+        "width": 437,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "如果我告诉你回去之后有什么的话，你是不会喜欢的。你以为你为什么要把自己吓到失忆？难道你感觉不到自己——已经被腌渍过了？喝得太多了……有点*忘乎所以*了，不是吗，大厨？"
+          }
+        ],
+        "height": 121,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "内陆帝国【容易：成功】-恐惧和忧虑……你应该先问问外面有什么。",
+        "x": 8648,
+        "y": 624,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 425,
+        "height": 79,
+        "manualSize": true
+      },
+      {
+        "id": "n35",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 9288,
+        "y": 600,
+        "choices": [
+          "等等，这是我自己做的吗？(只出现一次）",
+          "告诉我，是什么在等着我？",
+          "我不在乎，我是个白痴。一个勇敢的白痴。"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_28",
+            "label": "等等，这是我自己做的吗？(只出现一次）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_29",
+            "label": "告诉我，是什么在等着我？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_30",
+            "label": "我不在乎，我是个白痴。一个勇敢的白痴。",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 311,
+        "height": 159,
+        "manualSize": true
+      },
+      {
+        "id": "n36",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 是的，你就是这一切的始作俑者，你是迪斯科之母。",
+        "x": 9904,
+        "y": 320,
+        "width": 401,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "是的，你就是这一切的始作俑者，你是迪斯科之母。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 100,
+        "manualSize": true
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 那里有一个巨大的球。还有邪恶的猩猩。而且邪恶的猩猩在那个球上争得你死我活。你也是其中之一。所以基本上，就是一群邪恶的猩猩在一个巨大的球上争得你死我活。",
+        "x": 10656,
+        "y": 328,
+        "width": 407,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "那里有一个巨大的球。还有邪恶的猩猩。而且邪恶的猩猩在那个球上争得你死我活。你也是其中之一。所以基本上，就是一群邪恶的猩猩在一个巨大的球上争得你死我活。"
+          }
+        ],
+        "height": 168,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 11208,
+        "y": 312,
+        "choices": [
+          "那个球有多大？",
+          "那些猩猩有多小？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_34",
+            "label": "那个球有多大？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_35",
+            "label": "那些猩猩有多小？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 争个你死我活的时候，你甚至都认不出它是个球。它就有那么大。",
+        "x": 11656,
+        "y": 264,
+        "width": 362,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "争个你死我活的时候，你甚至都认不出它是个球。它就有那么大。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "right",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "height": 100,
+        "manualSize": true
+      },
+      {
+        "id": "n41",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 极其微小的微小。",
+        "x": 11600,
+        "y": 496,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "极其微小的微小。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "right",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 12112,
+        "y": 496,
+        "choices": [
+          "那个球有多大？",
+          "那些猩猩有多小？",
+          "那我一直听到的*争个你死我活——*又是什么？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_38",
+            "label": "那个球有多大？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_39",
+            "label": "那些猩猩有多小？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_40",
+            "label": "那我一直听到的*争个你死我活——*又是什么？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 争夺资源？这只是你从某个地方学到的一种愚蠢的表达。那段陈述里你要理解的只有一点：跟其他邪恶猩猩打架的的时候必须直接冲着脸去，不然你就会输。",
+        "x": 12648,
+        "y": 312,
+        "width": 471,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "争夺资源？这只是你从某个地方学到的一种愚蠢的表达。那段陈述里你要理解的只有一点：跟其他邪恶猩猩打架的的时候必须直接冲着脸去，不然你就会输。"
+          }
+        ],
+        "height": 151,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 13280,
+        "y": 320,
+        "choices": [
+          "那也太悲惨了吧。",
+          "听起来像是我喜欢做的事——我们走吧！"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_41",
+            "label": "那也太悲惨了吧。",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_42",
+            "label": "听起来像是我喜欢做的事——我们走吧！",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 301,
+        "height": 115,
+        "manualSize": true
+      },
+      {
+        "id": "n46",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 的确如此。而且你很久以前就已经溺死在悲痛之中了。",
+        "x": 13720,
+        "y": 288,
+        "width": 415,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "的确如此。而且你很久以前就已经溺死在悲痛之中了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 100,
+        "manualSize": true
+      },
+      {
+        "id": "n47",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 14272,
+        "y": 288,
+        "choices": [
+          "你说*溺死*是什么意思？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_43",
+            "label": "你说*溺死*是什么意思？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "边缘系统: 你失败了。",
+        "x": 14768,
+        "y": 280,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "边缘系统",
+            "line": "你失败了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 9560,
+        "y": 80,
+        "choices": [
+          "别天真了，当然不是。我想在这片像墨汁一般的漆黑世界里一路航行到永恒的尽头！",
+          "是的。让我摆脱这一切。"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_44",
+            "label": "别天真了，当然不是。我想在这片像墨汁一般的漆黑世界里一路航行到永恒的尽头！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_45",
+            "label": "是的。让我摆脱这一切。",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n50",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 你真这么想？",
+        "x": 9216,
+        "y": 128,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "你真这么想？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 旧爱，过往的柔情。想让失去的东西重现实在是愚不可及。你承受了如此多的伤害才走到今天这一步，太迟了，有些事情已经无可挽回……留下来，跟我一起航行，穿越这片不毛之地！",
+        "x": 4288,
+        "y": 576,
+        "width": 444,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "旧爱，过往的柔情。想让失去的东西重现实在是愚不可及。你承受了如此多的伤害才走到今天这一步，太迟了，有些事情已经无可挽回……留下来，跟我一起航行，穿越这片不毛之地！"
+          }
+        ],
+        "height": 168,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 5216,
+        "y": 600,
+        "choices": [
+          "出发吧！永远不要让我离开！",
+          "不，我想摆脱这一切，我喜欢痛苦，喜欢燃烧的火光，想要从不愿意施舍我的人手中拿到东西。"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_46",
+            "label": "出发吧！永远不要让我离开！",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_47",
+            "label": "不，我想摆脱这一切，我喜欢痛苦，喜欢燃烧的火光，想要从不愿意施舍我的人手中拿到东西。",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "width": 621,
+        "height": 132,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 你不会的！你的*谁他妈在乎*和*做那畜生*的日子已经过去了。",
+        "x": 8192,
+        "y": 128,
+        "width": 489,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "你不会的！你的*谁他妈在乎*和*做那畜生*的日子已经过去了。"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n54",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 在酸痛和肿胀的人类肌肉环绕着的某个地方——是一种感觉！",
+        "x": 9904,
+        "y": 704,
+        "width": 461,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "在酸痛和肿胀的人类肌肉环绕着的某个地方——是一种感觉！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 100,
+        "manualSize": true
+      },
+      {
+        "id": "n55",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "古老的爬虫脑: 死亡之歌甜蜜而永无止境……但这是什么？在你酸痛和肿胀的人类肌肉环绕着的地方——是一种感觉！",
+        "x": 9280,
+        "y": -296,
+        "width": 294,
+        "turns": [
+          {
+            "speaker": "古老的爬虫脑",
+            "line": "死亡之歌甜蜜而永无止境……但这是什么？在你酸痛和肿胀的人类肌肉环绕着的地方——是一种感觉！"
+          }
+        ],
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l1",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l3",
+        "from": "n3",
+        "to": "n4",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "永远永远的永远？"
+      },
+      {
+        "id": "l5",
+        "from": "n3",
+        "to": "n5",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "（简单地保持这种不存在的状态"
+      },
+      {
+        "id": "l6",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l9",
+        "from": "n5",
+        "to": "n7"
+      },
+      {
+        "id": "l10",
+        "from": "n7",
+        "to": "n8",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 0,
+        "label": "这真是太棒了！"
+      },
+      {
+        "id": "l13",
+        "from": "n7",
+        "to": "n10",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 1,
+        "label": "再多来一些。"
+      },
+      {
+        "id": "l14",
+        "from": "n10",
+        "to": "n11"
+      },
+      {
+        "id": "l15",
+        "from": "n11",
+        "to": "n12",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 0,
+        "label": "我喜欢虚无"
+      },
+      {
+        "id": "l18",
+        "from": "n11",
+        "to": "n14",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 1,
+        "label": "不如你再吐出点那种甜蜜的湮灭？"
+      },
+      {
+        "id": "l19",
+        "from": "n14",
+        "to": "n15"
+      },
+      {
+        "id": "l20",
+        "from": "n15",
+        "to": "n16",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 0,
+        "label": "出发吧，我们走！"
+      },
+      {
+        "id": "l21",
+        "from": "n16",
+        "to": "n17"
+      },
+      {
+        "id": "l22",
+        "from": "n17",
+        "to": "n18",
+        "choiceOptionId": "opt_14",
+        "choiceIndex": 0,
+        "label": "我要开启重返寂静之旅，谢谢！"
+      },
+      {
+        "id": "l23",
+        "from": "n18",
+        "to": "n19"
+      },
+      {
+        "id": "l25",
+        "from": "n20",
+        "to": "n21"
+      },
+      {
+        "id": "l26",
+        "from": "n21",
+        "to": "n22",
+        "choiceOptionId": "opt_19",
+        "choiceIndex": 0,
+        "label": "妈妈，帮帮我，我的脖子上连着一个脑袋，我也在脑袋*里面*。"
+      },
+      {
+        "id": "l27",
+        "from": "n22",
+        "to": "n23"
+      },
+      {
+        "id": "l28",
+        "from": "n23",
+        "to": "n24",
+        "choiceOptionId": "opt_21",
+        "choiceIndex": 0,
+        "label": "救命！有人吗！快把我的脑袋切掉，它想谋杀我其余的部分！"
+      },
+      {
+        "id": "l29",
+        "from": "n25",
+        "to": "n26",
+        "choiceOptionId": "opt_23",
+        "choiceIndex": 0,
+        "label": "睁开眼睛"
+      },
+      {
+        "id": "l30",
+        "from": "n24",
+        "to": "n25"
+      },
+      {
+        "id": "l31",
+        "from": "n7",
+        "to": "n28",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 2,
+        "label": "那个*旧*什么的是个什么东西？"
+      },
+      {
+        "id": "l32",
+        "from": "n28",
+        "to": "n27"
+      },
+      {
+        "id": "l33",
+        "from": "n27",
+        "to": "n29",
+        "choiceOptionId": "opt_24",
+        "choiceIndex": 0,
+        "label": "（重新跳入无形的深渊）"
+      },
+      {
+        "id": "l34",
+        "from": "n29",
+        "to": "n11"
+      },
+      {
+        "id": "l35",
+        "from": "n15",
+        "to": "n30",
+        "choiceOptionId": "opt_13",
+        "choiceIndex": 1,
+        "label": "我想现在下去，我喜欢痛苦，喜欢燃烧的灯光，从不愿意施舍我的人手中拿到东西"
+      },
+      {
+        "id": "l36",
+        "from": "n30",
+        "to": "n31"
+      },
+      {
+        "id": "l38",
+        "from": "n32",
+        "to": "n19"
+      },
+      {
+        "id": "l39",
+        "from": "n17",
+        "to": "n32",
+        "choiceOptionId": "opt_15",
+        "choiceIndex": 1,
+        "label": "我们去拜访古老的零度沙洲吧！"
+      },
+      {
+        "id": "l41",
+        "from": "n31",
+        "to": "n33",
+        "choiceOptionId": "opt_27",
+        "choiceIndex": 1,
+        "label": "是的，让我摆脱这一切。"
+      },
+      {
+        "id": "l42",
+        "from": "n33",
+        "to": "n34"
+      },
+      {
+        "id": "l43",
+        "from": "n34",
+        "to": "n35"
+      },
+      {
+        "id": "l44",
+        "from": "n35",
+        "to": "n36",
+        "choiceOptionId": "opt_28",
+        "choiceIndex": 0,
+        "label": "等等，这是我自己做的吗？"
+      },
+      {
+        "id": "l47",
+        "from": "n35",
+        "to": "n38",
+        "choiceOptionId": "opt_29",
+        "choiceIndex": 1,
+        "label": "告诉我，是什么在等着我？"
+      },
+      {
+        "id": "l48",
+        "from": "n38",
+        "to": "n39"
+      },
+      {
+        "id": "l49",
+        "from": "n39",
+        "to": "n40",
+        "choiceOptionId": "opt_34",
+        "choiceIndex": 0,
+        "label": "那个球有多大？"
+      },
+      {
+        "id": "l50",
+        "from": "n40",
+        "to": "n39"
+      },
+      {
+        "id": "l51",
+        "from": "n39",
+        "to": "n41",
+        "choiceOptionId": "opt_35",
+        "choiceIndex": 1,
+        "label": "那些猩猩有多小？"
+      },
+      {
+        "id": "l52",
+        "from": "n41",
+        "to": "n43"
+      },
+      {
+        "id": "l53",
+        "from": "n43",
+        "to": "n40",
+        "choiceOptionId": "opt_38",
+        "choiceIndex": 0,
+        "label": "那个球有多大？"
+      },
+      {
+        "id": "l54",
+        "from": "n43",
+        "to": "n41",
+        "choiceOptionId": "opt_39",
+        "choiceIndex": 1,
+        "label": "那些猩猩有多小？"
+      },
+      {
+        "id": "l55",
+        "from": "n43",
+        "to": "n44",
+        "choiceOptionId": "opt_40",
+        "choiceIndex": 2,
+        "label": "那我一直听到的*争个你死我活——*又是什么？"
+      },
+      {
+        "id": "l56",
+        "from": "n44",
+        "to": "n45"
+      },
+      {
+        "id": "l57",
+        "from": "n45",
+        "to": "n46",
+        "choiceOptionId": "opt_41",
+        "choiceIndex": 0,
+        "label": "那也太悲惨了吧。"
+      },
+      {
+        "id": "l58",
+        "from": "n46",
+        "to": "n47"
+      },
+      {
+        "id": "l59",
+        "from": "n47",
+        "to": "n48",
+        "choiceOptionId": "opt_43",
+        "choiceIndex": 0,
+        "label": "你说*溺死*是什么意思？"
+      },
+      {
+        "id": "l60",
+        "from": "n48",
+        "to": "n25"
+      },
+      {
+        "id": "l61",
+        "from": "n19",
+        "to": "n50",
+        "choiceOptionId": "opt_18",
+        "choiceIndex": 1,
+        "label": "等等，不！正好相反，我需要贬低我自己。"
+      },
+      {
+        "id": "l62",
+        "from": "n50",
+        "to": "n49"
+      },
+      {
+        "id": "l64",
+        "from": "n21",
+        "to": "n22",
+        "choiceOptionId": "opt_20",
+        "choiceIndex": 1,
+        "label": "住嘴！我不想再听到任何关于这种*感觉*的事了。带我回到那片无形又空洞的虚无里！"
+      },
+      {
+        "id": "l65",
+        "from": "n23",
+        "to": "n24",
+        "choiceOptionId": "opt_22",
+        "choiceIndex": 1,
+        "label": "我*是*谁？什么样的生物居然会对自己的嘴巴做出这种事情？"
+      },
+      {
+        "id": "l67",
+        "from": "n27",
+        "to": "n51",
+        "choiceOptionId": "opt_25",
+        "choiceIndex": 1,
+        "label": "不，我想知道这个*旧日之物*。"
+      },
+      {
+        "id": "l68",
+        "from": "n51",
+        "to": "n52"
+      },
+      {
+        "id": "l69",
+        "from": "n52",
+        "to": "n17",
+        "choiceOptionId": "opt_46",
+        "choiceIndex": 0,
+        "label": "出发吧！永远不要让我离开！"
+      },
+      {
+        "id": "l70",
+        "from": "n17",
+        "to": "n53",
+        "choiceOptionId": "opt_16",
+        "choiceIndex": 2,
+        "label": "看，*我已经厌倦做这种畜生*和*谁他妈在乎*又来了！"
+      },
+      {
+        "id": "l71",
+        "from": "n53",
+        "to": "n19"
+      },
+      {
+        "id": "l72",
+        "from": "n49",
+        "to": "n33",
+        "choiceOptionId": "opt_45",
+        "choiceIndex": 1,
+        "label": "是的。让我摆脱这一切。"
+      },
+      {
+        "id": "l73",
+        "from": "n35",
+        "to": "n54",
+        "choiceOptionId": "opt_30",
+        "choiceIndex": 2,
+        "label": "我不在乎，我是个白痴。一个勇敢的白痴。"
+      },
+      {
+        "id": "l74",
+        "from": "n19",
+        "to": "n55",
+        "choiceOptionId": "opt_17",
+        "choiceIndex": 0,
+        "label": "别停下，继续唱。给我唱一首死亡之歌。"
+      },
+      {
+        "id": "l75",
+        "from": "n55",
+        "to": "n20"
+      },
+      {
+        "id": "l76",
+        "from": "n54",
+        "to": "n20"
+      },
+      {
+        "id": "l77",
+        "from": "n8",
+        "to": "n7"
+      },
+      {
+        "id": "l78",
+        "from": "n4",
+        "to": "n3"
+      },
+      {
+        "id": "l79",
+        "from": "n36",
+        "to": "n35"
+      },
+      {
+        "id": "l80",
+        "from": "n12",
+        "to": "n11"
+      },
+      {
+        "id": "l81",
+        "from": "n31",
+        "to": "n16",
+        "choiceOptionId": "opt_26",
+        "choiceIndex": 0,
+        "label": "别天真了，当然不是。我想在这片像墨汁一般的漆黑世界里一路航行到永恒的尽头！"
+      },
+      {
+        "id": "l82",
+        "from": "n49",
+        "to": "n55",
+        "choiceOptionId": "opt_44",
+        "choiceIndex": 0,
+        "label": "别天真了，当然不是。我想在这片像墨汁一般的漆黑世界里一路航行到永恒的尽头！"
+      },
+      {
+        "id": "l83",
+        "from": "n45",
+        "to": "n20",
+        "choiceOptionId": "opt_42",
+        "choiceIndex": 1,
+        "label": "听起来像是我喜欢做的事——我们走吧！"
+      },
+      {
+        "id": "l84",
+        "from": "n52",
+        "to": "n30",
+        "choiceOptionId": "opt_47",
+        "choiceIndex": 1,
+        "label": "不，我想摆脱这一切，我喜欢痛苦，喜欢燃烧的火光，想要从不愿意施舍我的人手中拿到东西。"
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "view": {
+      "x": -3369.220291325443,
+      "y": 308.09783633378584,
+      "scale": 0.35369215365000345
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookJsonOpen": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"edc42f9c0fc43488","type":"text","text":"# DiscoElysium示例","x":0,"y":0,"width":400,"height":120},
+		{"id":"72a41006e6861f5f","type":"file","file":"Flows/【主线】序章/discoelysium示例.ncanvas","x":420,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

@@ -27,6 +27,24 @@
 			"y": 0,
 			"width": 300,
 			"height": 200
+		},
+		{
+			"id": "baf61970b70d62ad",
+			"type": "file",
+			"file": "Flows/【主线】序章/极乐迪斯科示例.canvas",
+			"x": 0,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		},
+		{
+			"id": "cc316d78badc6b75",
+			"type": "file",
+			"file": "Flows/【主线】序章/discoelysium示例.canvas",
+			"x": 0,
+			"y": 0,
+			"width": 300,
+			"height": 200
 		}
 	],
 	"edges": []
