@@ -2188,6 +2188,7 @@ function installNarrativeCanvasApp() {
   const EVENT_LAYER_BASE = 0;
   const REGULAR_LAYER_BASE = 1000000;
   const LINK_PORT_ANCHOR_OFFSET = 6;
+  const LINK_END_HANDLE_OFFSET = 24;
   const DEFAULT_CUSTOM_NODE_COLOR = "#7fdbca";
   const DEFAULT_VISUAL_FRAME_COLOR = "#9ca3af";
   const DEFAULT_EVENT_FRAME_COLOR = "#b48cff";
@@ -4283,6 +4284,7 @@ function installNarrativeCanvasApp() {
     connectingFrom: null,
     draggingNode: null,
     draggingPort: null,
+    draggingLinkEnd: null,
     suppressPortClick: false,
     ignoreNextCanvasClick: false,
     ignoreNextCanvasClickTargetId: null,
@@ -4749,6 +4751,7 @@ function installNarrativeCanvasApp() {
     document.addEventListener("click", handleGlobalAppPointerContext, { capture: true, signal });
     document.addEventListener("focusin", handleGlobalAppFocusContext, { capture: true, signal });
     document.addEventListener("keydown", handleGlobalHistoryKeyDown, { capture: true, signal });
+    document.addEventListener("keydown", handleGlobalSearchFocusKeyDown, { capture: true, signal });
     document.addEventListener("click", handleFloatingWindowOutsideClick, { capture: true, signal });
     document.addEventListener("click", handleDocumentClickCapture, { capture: true, signal });
     document.addEventListener("pointerdown", handleGlobalMenuDismiss, { capture: true, signal });
@@ -11710,10 +11713,14 @@ function installNarrativeCanvasApp() {
       if (isFrameCanvasActive() && (!visibleNodeIds.has(from.id) || !visibleNodeIds.has(to.id))) return;
       if (link.id !== state.selectedLinkId && !visibleNodeIds.has(from.id) && !visibleNodeIds.has(to.id)) return;
       const fromPoint = getOutputPoint(from);
-      const toPoint = getInputPoint(to);
+      const toPoint = getLinkInputPoint(link, to);
       const path = linkPath(fromPoint, toPoint);
       linkSvg.push(`<path class="link-hitpath" d="${path}" data-link-id="${escapeAttr(link.id)}"></path>`);
       linkSvg.push(`<path class="link-path ${link.id === state.selectedLinkId ? "selected" : ""}" d="${path}" marker-end="url(#arrow-head)" data-link-id="${escapeAttr(link.id)}"></path>`);
+      if (link.id === state.selectedLinkId) {
+        const handle = getLinkEndHandlePoint(toPoint);
+        linkSvg.push(`<circle class="link-end-handle" cx="${handle.x}" cy="${handle.y}" r="6" data-link-id="${escapeAttr(link.id)}"><title>Drag to move this link's input anchor</title></circle>`);
+      }
       const conditionText = normalizeOptionalString(link.requirements).trim();
       if (link.label || conditionText) {
         const mid = midpoint(fromPoint, toPoint);
@@ -13820,13 +13827,18 @@ function installNarrativeCanvasApp() {
       if (!endpoints) return;
       const { from, to } = endpoints;
       const a = getOutputPoint(from);
-      const b = getInputPoint(to);
+      const b = getLinkInputPoint(link, to);
       const d = linkPath(a, b);
       const mid = midpoint(a, b);
+      const handle = getLinkEndHandlePoint(b);
       els.forEach((el) => {
-        if (el.tagName && el.tagName.toLowerCase() === "text") {
+        const tag = el.tagName ? el.tagName.toLowerCase() : "";
+        if (tag === "text") {
           el.setAttribute("x", mid.x);
           el.setAttribute("y", mid.y - 8);
+        } else if (tag === "circle") {
+          el.setAttribute("cx", handle.x);
+          el.setAttribute("cy", handle.y);
         } else {
           el.setAttribute("d", d);
         }
@@ -14117,6 +14129,20 @@ function installNarrativeCanvasApp() {
 
   function handleGlobalHistoryKeyDown(event) {
     handleHistoryShortcutEvent(event);
+  }
+
+  function handleGlobalSearchFocusKeyDown(event) {
+    if (event.defaultPrevented) return;
+    if (!(event.ctrlKey || event.metaKey) || event.altKey || event.shiftKey) return;
+    if (String(event.key || "").toLowerCase() !== "f") return;
+    if (!isNarrativeCanvasShortcutContext(event.target)) return;
+    if (!dom.queryInput) return;
+    // Intentionally fires even when a text field is focused: Ctrl/Cmd+F always moves
+    // to the canvas search box and selects its current query for quick replacement.
+    event.preventDefault();
+    event.stopPropagation();
+    dom.queryInput.focus();
+    dom.queryInput.select();
   }
 
   function handleHistoryShortcutEvent(event) {
@@ -16317,6 +16343,23 @@ function installNarrativeCanvasApp() {
       return;
     }
 
+    const linkEndHandle = target.closest?.(".link-end-handle[data-link-id]");
+    if (linkEndHandle && event.button === 0) {
+      const link = getLink(linkEndHandle.dataset.linkId);
+      if (!link) return;
+      state.draggingLinkEnd = {
+        linkId: link.id,
+        startX: event.clientX,
+        startY: event.clientY,
+        active: false,
+        pointerId: event.pointerId,
+        historyBefore: getHistorySnapshot(),
+        linkRefs: collectLinkElementRefs([link])
+      };
+      event.preventDefault();
+      return;
+    }
+
     if (target.closest("[data-no-drag]")) return;
 
     const resizeHandle = target.closest("[data-resize-handle]");
@@ -16806,6 +16849,28 @@ function installNarrativeCanvasApp() {
   }
 
   function handleViewportPointerMove(event) {
+    if (state.draggingLinkEnd) {
+      const drag = state.draggingLinkEnd;
+      const distance = Math.hypot(event.clientX - drag.startX, event.clientY - drag.startY);
+      // The handle has no click behavior of its own, so a tiny threshold is enough.
+      if (!drag.active && distance < 3) return;
+      if (!drag.active) {
+        safeSetPointerCapture(dom.viewport, drag.pointerId ?? event.pointerId);
+      }
+      drag.active = true;
+      const link = getLink(drag.linkId);
+      if (!link) {
+        state.draggingLinkEnd = null;
+        return;
+      }
+      const endpoints = getRenderedLinkEndpoints(link, getNodeIndex(), { ignoredCollapsedFrameId: getActiveFrameCanvas()?.id || "" });
+      if (!endpoints) return;
+      link.toPort = getBorderPortFromBoardPoint(endpoints.to, screenToBoard(event.clientX, event.clientY));
+      setProjectDirty(true);
+      patchLinkElementRefs(drag.linkRefs);
+      event.preventDefault();
+      return;
+    }
     if (state.draggingPort) {
       const drag = state.draggingPort;
       const distance = Math.hypot(event.clientX - drag.startX, event.clientY - drag.startY);
@@ -16932,6 +16997,15 @@ function installNarrativeCanvasApp() {
   }
 
   function setNodePortFromBoardPoint(node, kind, point) {
+    node.ports = normalizeNodePorts(node.ports, node);
+    node.ports[kind] = getBorderPortFromBoardPoint(node, point);
+    setProjectDirty(true);
+  }
+
+  // Snap a board point onto the node's border; t is the normalized position along
+  // the chosen edge. Inside the node the nearest edge wins; outside, the edge the
+  // point extends farthest beyond wins (matches the previous inline logic).
+  function getBorderPortFromBoardPoint(node, point) {
     const size = nodeLayoutSize(node);
     const relX = clamp((point.x - node.x) / Math.max(1, size.width), 0, 1);
     const relY = clamp((point.y - node.y) / Math.max(1, size.height), 0, 1);
@@ -16948,12 +17022,21 @@ function installNarrativeCanvasApp() {
       { side: "left", value: Math.abs(point.x - node.x), t: relY }
     ];
     const next = distances.sort((a, b) => outsideDistances.length ? b.value - a.value : a.value - b.value)[0];
-    node.ports = normalizeNodePorts(node.ports, node);
-    node.ports[kind] = { side: next.side, t: clamp(next.t, 0, 1) };
-    setProjectDirty(true);
+    return { side: next.side, t: clamp(next.t, 0, 1) };
   }
 
   function endPointerActions(event) {
+    if (state.draggingLinkEnd) {
+      const drag = state.draggingLinkEnd;
+      state.draggingLinkEnd = null;
+      if (drag.active) {
+        safeReleasePointerCapture(dom.viewport, drag.pointerId ?? event.pointerId);
+        commitHistoryFromSnapshot(drag.historyBefore);
+        renderLinks();
+        updateStatus();
+      }
+      return;
+    }
     if (state.draggingPort) {
       const drag = state.draggingPort;
       state.draggingPort = null;
@@ -17056,6 +17139,8 @@ function installNarrativeCanvasApp() {
         }
         const historyBefore = getHistorySnapshot();
         link.to = nodeId;
+        const reconnectTarget = getNode(nodeId);
+        if (reconnectTarget) link.toPort = getNodeInputPortSpec(reconnectTarget);
         syncChoiceBranchLinksForNode(link.from, { markDirty: false, preferredLinkId: link.id });
         invalidateLinkIndexes();
         markProjectStructureChanged();
@@ -17093,11 +17178,15 @@ function installNarrativeCanvasApp() {
 
     if (kind === "input" && state.connectingFrom && state.connectingFrom !== nodeId) {
       const historyBefore = getHistorySnapshot();
+      const connectTarget = getNode(nodeId);
       const link = {
         id: nextId("l", state.project.links),
         from: state.connectingFrom,
         to: nodeId
       };
+      // Snapshot the input port the user actually clicked so this link keeps its
+      // own landing point even if the node's shared port is moved later.
+      if (connectTarget) link.toPort = getNodeInputPortSpec(connectTarget);
       state.project.links.push(link);
       syncChoiceBranchLinksForNode(link.from, { markDirty: false, preferredLinkId: link.id });
       markProjectStructureChanged();
@@ -25525,6 +25614,9 @@ function installNarrativeCanvasApp() {
     const requirements = normalizeOptionalString(link.requirements || link.requires).trim();
     if (requirements) normalized.requirements = requirements;
     else delete normalized.requirements;
+    const toPort = normalizeLinkToPort(link.toPort);
+    if (toPort) normalized.toPort = toPort;
+    else delete normalized.toPort;
     return normalized;
   }
 
@@ -25966,6 +26058,16 @@ function installNarrativeCanvasApp() {
     const side = ["top", "right", "bottom", "left"].includes(value?.side) ? value.side : defaultSide;
     const t = Number(value?.t);
     return { side, t: Number.isFinite(t) ? clamp(t, 0, 1) : 0.5 };
+  }
+
+  // A link's optional per-link input anchor. Unlike node.ports.input (one port per
+  // node), toPort lets each incoming link keep its own landing point on the target.
+  function normalizeLinkToPort(value) {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return null;
+    if (!["top", "right", "bottom", "left"].includes(value.side)) return null;
+    const t = Number(value.t);
+    if (!Number.isFinite(t)) return null;
+    return { side: value.side, t: clamp(t, 0, 1) };
   }
 
   function normalizeNodeCustomFields(customFields) {
@@ -28954,7 +29056,7 @@ function installNarrativeCanvasApp() {
       if (!endpoints) return;
       const { from, to } = endpoints;
       if (frameCanvasNodeIds && (!frameCanvasNodeIds.has(from.id) || !frameCanvasNodeIds.has(to.id))) return;
-      const distance = distancePointToLink(point, getOutputPoint(from), getInputPoint(to));
+      const distance = distancePointToLink(point, getOutputPoint(from), getLinkInputPoint(link, to));
       if (!best || distance < best.distance) best = { link, distance };
     });
     return best && best.distance <= threshold ? best.link : null;
@@ -29042,13 +29144,21 @@ function installNarrativeCanvasApp() {
   }
 
   function getNodePortPoint(node, kind) {
-    const size = nodeLayoutSize(node);
     const frame = isFrameNode(node);
     const defaults = {
       input: frame ? "left" : "top",
       output: frame ? "right" : "bottom"
     };
     const port = normalizePort(node?.ports?.[kind], defaults[kind] || "top");
+    return getNodePortPointFromSpec(node, port);
+  }
+
+  function getNodeInputPortSpec(node) {
+    return normalizePort(node?.ports?.input, isFrameNode(node) ? "left" : "top");
+  }
+
+  function getNodePortPointFromSpec(node, port) {
+    const size = nodeLayoutSize(node);
     const left = node.x;
     const top = node.y;
     const right = node.x + size.width;
@@ -29057,6 +29167,21 @@ function installNarrativeCanvasApp() {
     if (port.side === "right") return { x: right + LINK_PORT_ANCHOR_OFFSET, y: top + size.height * port.t, side: port.side };
     if (port.side === "bottom") return { x: left + size.width * port.t, y: bottom + LINK_PORT_ANCHOR_OFFSET, side: port.side };
     return { x: left - LINK_PORT_ANCHOR_OFFSET, y: top + size.height * port.t, side: port.side };
+  }
+
+  // Endpoint for the given link on the target node: the link's own toPort anchor
+  // when present, otherwise the node's shared input port (legacy behavior).
+  function getLinkInputPoint(link, node) {
+    const toPort = normalizeLinkToPort(link?.toPort);
+    if (!toPort || !node) return getInputPoint(node);
+    return getNodePortPointFromSpec(node, toPort);
+  }
+
+  // The drag handle sits a bit outside the endpoint along its side vector so it
+  // stays grabbable even when the endpoint overlaps the node's input port button.
+  function getLinkEndHandlePoint(toPoint) {
+    const vector = getPortSideVector(toPoint?.side) || { x: 0, y: -1 };
+    return { x: toPoint.x + vector.x * LINK_END_HANDLE_OFFSET, y: toPoint.y + vector.y * LINK_END_HANDLE_OFFSET };
   }
 
   function nodeHeight(node) {
@@ -29290,7 +29415,7 @@ function installNarrativeCanvasApp() {
     if (!node?.id) return "";
     const cache = getNodeSearchTextCache();
     if (cache.has(node.id)) return cache.get(node.id);
-    const text = [node.type, node.title, node.body, ...(node.choices || []), ...Object.values(node.customFields || {})]
+    const text = [node.type, node.id, getNodeDisplayId(node), node.title, node.body, ...(node.choices || []), ...Object.values(node.customFields || {})]
       .filter(Boolean)
       .map((value) => String(value).toLowerCase())
       .join("\n");

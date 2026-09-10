@@ -2237,6 +2237,18 @@
   stroke-dasharray: 9 7;
 }
 
+.narrative-canvas-plugin-host .link-end-handle {
+  fill: var(--background-primary);
+  stroke: var(--interactive-accent-hover);
+  stroke-width: 2;
+  pointer-events: all;
+  cursor: grab;
+}
+
+.narrative-canvas-plugin-host .link-end-handle:hover {
+  fill: var(--interactive-accent-hover);
+}
+
 .narrative-canvas-plugin-host .link-label {
   fill: var(--text-muted);
   stroke: var(--background-primary);
@@ -2468,9 +2480,14 @@
 }
 
 .narrative-canvas-plugin-host .node-id {
-  color: var(--text-faint);
-  font-size: 12px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
   white-space: nowrap;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border, transparent);
+  border-radius: 4px;
+  padding: 0 5px;
 }
 
 .narrative-canvas-plugin-host .node-body {
