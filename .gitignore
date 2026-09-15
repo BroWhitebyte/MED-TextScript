@@ -9,3 +9,7 @@ MEDNarrative/.obsidian/workspace*.json
 #   - narrative-tool/data.json：含机器专属绝对路径 exportPath（如 C:/Users/white/...），换机器必然冲突。
 # 这类 data.json 由插件按需重新生成，不应入库。
 MEDNarrative/.obsidian/plugins/*/data.json
+
+# 检索/研究临时工作区（大体积 PDF、下载件、脚本），不入库
+_研究过程/
+
