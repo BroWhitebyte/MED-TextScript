@@ -1,0 +1,3274 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-15T14:03:36.600Z",
+  "project": {
+    "title": "新序章",
+    "notes": "",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 120,
+        "y": 120,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "天快黑了。\n程靖霖夹着肩膀，顺着南大街一路慢慢向药房走去。\n他戴着一顶护耳灰棉帽，套着外出的大袄，脚穿一双棉靰鞡，在北大道的硬地上缓慢地而坚实地走着。\n风刮过来，程靖霖缩紧了脖子，把双手揣在袖子里，肩膀随着每一缕寒风都抽搐一下。\n北地的寒风卷起尘土，每一缕空气都是坚硬的。他深深地呼吸着，每一口吐出的白雾都像硝烟。\n前面就是县城小广场。腊月的黄昏，街上没什么人。走过这个县城大道的中间地带，就是南大道。\n离家就不远了。",
+        "x": 512,
+        "y": 16,
+        "width": 483,
+        "height": 288,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1208,
+        "y": 104,
+        "choices": [
+          "再快点",
+          "保持原速"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "再快点",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "保持原速",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖试图加快脚步，却绊了个踉跄。\n他脚下打滑，差点摔倒。\n天很冷，地很硬。",
+        "x": 1680,
+        "y": -96,
+        "width": 403,
+        "height": 156,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "“慢就是稳当，稳当就是快。”\n程靖霖想起掌柜的嘱咐，保持着一个稳健平衡的速度，继续向前走去。\n",
+        "x": 1672,
+        "y": 200,
+        "width": 450,
+        "height": 161,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2248,
+        "y": -72,
+        "choices": [
+          "再快点",
+          "太危险了，走慢点"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_3",
+            "label": "再快点",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_4",
+            "label": "太危险了，走慢点",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 260,
+        "height": 111,
+        "manualSize": true
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖勉强控制住即将起飞的步伐，对自己说：\n“这样的路上跑，是等着摔死自个儿么？”\n他把焦急的脚步稍微放缓了一些。",
+        "x": 2648,
+        "y": 0,
+        "width": 350,
+        "height": 139,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "他太想回家了，外面太冷了。\n他再次加快脚步。\n地上的残雪有种踩着棉花的感觉，少年觉得很有趣。",
+        "x": 2648,
+        "y": -200,
+        "width": 342,
+        "height": 114,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3144,
+        "y": -184,
+        "choices": [
+          "再快点"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_5",
+            "label": "再快点",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖试图跑起来，但他的脚下踩到了一块坚实而光滑的平面。\n是冰。\n他腾云驾雾一般全身浮在空中，想起了记忆深处一个模糊的夜。\n他的眼前出现火光、哭泣，以及他不理解的……一片比黑夜还黑的黑。\n他的后脑磕在冰面上。",
+        "x": 3536,
+        "y": -240,
+        "width": 417,
+        "height": 216,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 4056,
+        "y": -160,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Content",
+        "title": "Content",
+        "body": "前面就是小广场。太阳马上落山，眼前的东西都是影影绰绰的。程靖霖抬起头来，捕捉到了一个晃动的人影。\n这是一个略微有点发福的中年男子。他头戴着貂皮帽，穿着一件火狐皮大氅，靴子和裤子上也沾满了泥浆和残雪，正深一脚浅一脚地走到广场上来。\n程靖霖认出了这个人是谁。",
+        "x": 3152,
+        "y": 168,
+        "width": 475,
+        "height": 201,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3760,
+        "y": 216,
+        "choices": [
+          "摘下帽子，快步上前",
+          "不摘帽子，径直往前"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_6",
+            "label": "摘下帽子，快步上前",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_7",
+            "label": "不摘帽子，径直往前",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖离得老远就摘下了棉帽，他吆喝了一声：",
+        "x": 4216,
+        "y": 128,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 381,
+        "height": 121,
+        "manualSize": true
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “王掌柜！”\n程靖霖: “您铺上，生意好！”",
+        "x": 4768,
+        "y": 144,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“王掌柜！”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“您铺上，生意好！”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Content",
+        "title": "Content",
+        "body": "中年男子看见了走过来的少年，便也停下脚步，点了个头。",
+        "x": 5144,
+        "y": 112,
+        "width": 296,
+        "height": 141,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王掌柜: “诶呦，这不程子吗。大晚上的这是上哪去了？”",
+        "x": 5576,
+        "y": 112,
+        "width": 304,
+        "turns": [
+          {
+            "speaker": "王掌柜",
+            "line": "“诶呦，这不程子吗。大晚上的这是上哪去了？”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 134,
+        "manualSize": true
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖缩着肩膀继续往前走，没想搭理这人。\n中年男子扭头看见了程靖霖。他稍微皱了皱眉头，停下了脚步。",
+        "x": 4232,
+        "y": 328,
+        "width": 387,
+        "height": 159,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中年男子: “哎。程子，搁哪回来这是，着急忙慌的。”",
+        "x": 4752,
+        "y": 352,
+        "width": 332,
+        "turns": [
+          {
+            "speaker": "中年男子",
+            "line": "“哎。程子，搁哪回来这是，着急忙慌的。”"
+          }
+        ],
+        "height": 128,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖在男人的面前停下了脚步。",
+        "x": 6080,
+        "y": 296,
+        "width": 260,
+        "height": 139,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “嗨。王掌柜您身体好。这不是我们家老掌柜的，让给大成家磨坊那边送点冻疮药过去。”",
+        "x": 6440,
+        "y": 288,
+        "width": 333,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“嗨。王掌柜您身体好。这不是我们家老掌柜的，让给大成家磨坊那边送点冻疮药过去。”"
+          }
+        ],
+        "height": 162,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Content",
+        "title": "Content",
+        "body": "药房伙计望向当铺掌柜的来路，在他身后，西大道上的灯火已经亮了起来。",
+        "x": 6920,
+        "y": 288,
+        "width": 383,
+        "height": 163,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “您吃了吗？您家，裕昌号，最近不错？”\n王裕昌: “（叹气）”\n王裕昌: “这不，搁那边，刚吃完。”",
+        "x": 7432,
+        "y": 280,
+        "width": 365,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“您吃了吗？您家，裕昌号，最近不错？”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“（叹气）”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“这不，搁那边，刚吃完。”"
+          }
+        ],
+        "height": 176,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "title": "Content",
+        "body": "当铺掌柜回手，指向西大街尽头，日本人官舍区边上挑着幌子亮着招牌的一幢建筑，“同和居饭庄”。",
+        "x": 7960,
+        "y": 280,
+        "width": 387,
+        "height": 183,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “（吸气）”\n王裕昌: “这不，刚有个朋友，过来串门，介绍了个贵人，就搁那边……刚吃过。”",
+        "x": 8504,
+        "y": 296,
+        "width": 386,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“（吸气）”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“这不，刚有个朋友，过来串门，介绍了个贵人，就搁那边……刚吃过。”"
+          }
+        ],
+        "height": 153,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "他扭头看看程靖霖。",
+        "x": 9024,
+        "y": 320,
+        "width": 350,
+        "height": 111,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “吃得也够费劲的。谁曾想，这年月，连个客也请不动了。”",
+        "x": 9480,
+        "y": 312,
+        "width": 436,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“吃得也够费劲的。谁曾想，这年月，连个客也请不动了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 124,
+        "manualSize": true
+      },
+      {
+        "id": "n27",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 10040,
+        "y": 344,
+        "choices": [
+          "您这话怎么讲"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_8",
+            "label": "您这话怎么讲",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖有些惊讶。",
+        "x": 10408,
+        "y": 336,
+        "width": 260,
+        "height": 109,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “这怎么说？王掌柜。”\n程靖霖: “大成家那边没活了，这也自然。”\n程靖霖: “这官面的大饭庄子……”",
+        "x": 10784,
+        "y": 320,
+        "width": 347,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“这怎么说？王掌柜。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“大成家那边没活了，这也自然。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“这官面的大饭庄子……”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 138,
+        "manualSize": true
+      },
+      {
+        "id": "n30",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 11232,
+        "y": 296,
+        "choices": [
+          "有酒吗？",
+          "有肉吗？",
+          "有鱼吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_9",
+            "label": "有酒吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_10",
+            "label": "有肉吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "有鱼吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_12",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n31",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “别提了，他妈的连酒都没一口。”\n王裕昌: “要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”\n王裕昌: “烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”",
+        "x": 11824,
+        "y": 64,
+        "width": 528,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“别提了，他妈的连酒都没一口。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 143,
+        "manualSize": true
+      },
+      {
+        "id": "n32",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”",
+        "x": 11864,
+        "y": 312,
+        "width": 458,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”"
+          }
+        ],
+        "height": 101,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”",
+        "x": 11864,
+        "y": 688,
+        "width": 537,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 12504,
+        "y": 280,
+        "choices": [
+          "有酒吗？",
+          "有鱼吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_13",
+            "label": "有酒吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_15",
+            "label": "有鱼吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_16",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n35",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 12496,
+        "y": 48,
+        "choices": [
+          "有肉吗？",
+          "有鱼吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_18",
+            "label": "有肉吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_19",
+            "label": "有鱼吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_20",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n36",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 12528,
+        "y": 656,
+        "choices": [
+          "有酒吗？",
+          "有肉吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_21",
+            "label": "有酒吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_22",
+            "label": "有肉吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_24",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n37",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “别提了，他妈的连酒都没一口。”\n王裕昌: “要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”\n王裕昌: “烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”",
+        "x": 13000,
+        "y": 240,
+        "width": 528,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“别提了，他妈的连酒都没一口。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 143,
+        "manualSize": true
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”",
+        "x": 13016,
+        "y": 416,
+        "width": 537,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”",
+        "x": 13000,
+        "y": 0,
+        "width": 458,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”"
+          }
+        ],
+        "height": 101,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”",
+        "x": 13008,
+        "y": 120,
+        "width": 537,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “别提了，他妈的连酒都没一口。”\n王裕昌: “要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”\n王裕昌: “烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”",
+        "x": 13016,
+        "y": 544,
+        "width": 528,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“别提了，他妈的连酒都没一口。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 143,
+        "manualSize": true
+      },
+      {
+        "id": "n42",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”",
+        "x": 13032,
+        "y": 704,
+        "width": 458,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”"
+          }
+        ],
+        "height": 101,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 13728,
+        "y": 712,
+        "choices": [
+          "有酒吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_25",
+            "label": "有酒吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_27",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n44",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 13752,
+        "y": 448,
+        "choices": [
+          "有肉吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_29",
+            "label": "有肉吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_30",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n45",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 13752,
+        "y": 160,
+        "choices": [
+          "有鱼吗？",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_32",
+            "label": "有鱼吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_33",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n46",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”",
+        "x": 14256,
+        "y": 160,
+        "width": 537,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“你这孩子，腊月吃活鱼？往常有这本事，现在连捞鱼的人都快饿绝户了。”"
+          }
+        ],
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n47",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”",
+        "x": 14296,
+        "y": 456,
+        "width": 458,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“差点就没有。肥油全被厨子扣下啦，这帮王八蛋，胆子太肥了。”"
+          }
+        ],
+        "height": 101,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “别提了，他妈的连酒都没一口。”\n王裕昌: “要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”\n王裕昌: “烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”",
+        "x": 14256,
+        "y": 696,
+        "width": 528,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“别提了，他妈的连酒都没一口。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“要不是我这边还有烧锅打底的一点好高粱，今晚就瞎了。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“烧锅那边也快干不下去了。去年，还能明里暗里搞点东西。到了今年，那是啥都没有了。酒精现在也是军用物资，不让整，也藏不住了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 143,
+        "manualSize": true
+      },
+      {
+        "id": "n49",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 15048,
+        "y": 448,
+        "choices": [
+          "《粮谷出荷》",
+          "闭嘴不再问，赶紧回家要紧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_34",
+            "label": "《粮谷出荷》",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_35",
+            "label": "闭嘴不再问，赶紧回家要紧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 367,
+        "height": 167,
+        "manualSize": true
+      },
+      {
+        "id": "n50",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “这他妈的《粮谷出荷》，我真是这辈子也没见过这个德行。这帮日本子，地皮刮成这样。粮食一颗不剩，肉也军用，酒也军用，什么都他妈的军用。”",
+        "x": 15576,
+        "y": 440,
+        "width": 512,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“这他妈的《粮谷出荷》，我真是这辈子也没见过这个德行。这帮日本子，地皮刮成这样。粮食一颗不剩，肉也军用，酒也军用，什么都他妈的军用。”"
+          }
+        ],
+        "height": 151,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Content",
+        "title": "Content",
+        "body": "中年男人从皮手筒子里抽出手来，粗短的手指上那个金镏子泛起微光。\n他摊开手掌心，把五指一根根地闭合上。",
+        "x": 16216,
+        "y": 432,
+        "width": 447,
+        "height": 173,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “你觉着西边那帮子好过吗？今晚上要不是来的是贵人，连大米都拿不出来。”\n王裕昌: “别说大米了……样样都缺。想吃点什么都没有。我看过几天协和面也该没有了。”\n王裕昌: “咱这县城就一样东西不缺，西北风啊。”",
+        "x": 16808,
+        "y": 432,
+        "width": 546,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“你觉着西边那帮子好过吗？今晚上要不是来的是贵人，连大米都拿不出来。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“别说大米了……样样都缺。想吃点什么都没有。我看过几天协和面也该没有了。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“咱这县城就一样东西不缺，西北风啊。”"
+          }
+        ],
+        "height": 188,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Content",
+        "title": "Content",
+        "body": "王裕昌见程靖霖不再问了，便也住了口。",
+        "x": 17680,
+        "y": 104,
+        "width": 501,
+        "height": 195,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 18384,
+        "y": 136,
+        "choices": [
+          "套话终结",
+          "我急着走，您回见"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_36",
+            "label": "套话终结",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_37",
+            "label": "我急着走，您回见",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n56",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖点头称是。他再次跟王掌柜点了点头，扶了一下帽子，准备继续回家。",
+        "x": 18776,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖无心听王裕昌再唠叨下去。\n他跟对面的中年男人稍微躬了躬身子。",
+        "x": 18800,
+        "y": 248,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n58",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜，您发财。太冷了，我往家走了。”",
+        "x": 19144,
+        "y": 248,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜，您发财。太冷了，我往家走了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n59",
+        "type": "Content",
+        "title": "Content",
+        "body": "王裕昌的脸上露出不太高兴的神色，但也打算走开。",
+        "x": 19488,
+        "y": 215,
+        "width": 260,
+        "height": 151,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n60",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖正想径直往前，却又被王裕昌叫住了。",
+        "x": 19880,
+        "y": 104,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 398,
+        "height": 166,
+        "manualSize": true
+      },
+      {
+        "id": "n61",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “程子，还有点话。”",
+        "x": 20400,
+        "y": 152,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“程子，还有点话。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n62",
+        "type": "Content",
+        "title": "Content",
+        "body": "当铺掌柜走到少年面前，借着最后一丝夕照，端详了一下他的面孔。",
+        "x": 20728,
+        "y": 120,
+        "width": 260,
+        "height": 132,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n63",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “程子，你家老掌柜的最近身体还行？”\n程靖霖: “还好，就是最近腿脚不利索了。他说，上了岁数，到冬天旧伤就疼得厉害了。我就多往外跑跑。”\n程靖霖: “除了必须得出诊的事儿之外，不太出屋了。”",
+        "x": 21112,
+        "y": 112,
+        "width": 443,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“程子，你家老掌柜的最近身体还行？”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“还好，就是最近腿脚不利索了。他说，上了岁数，到冬天旧伤就疼得厉害了。我就多往外跑跑。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“除了必须得出诊的事儿之外，不太出屋了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 188,
+        "manualSize": true
+      },
+      {
+        "id": "n64",
+        "type": "Content",
+        "title": "Content",
+        "body": "他望向南大街的远处，那里有一间旧屋子还点着灯火，等他回去。\n王裕昌的眼睛停留在程靖霖的脸上，从上到下又从下到上，仔仔细细地看了几番。",
+        "x": 21704,
+        "y": 128,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 374,
+        "height": 143,
+        "manualSize": true
+      },
+      {
+        "id": "n65",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “你刚上大成家那边去了对吧。”\n王裕昌: “你家柴火、煤和吃的，还够吗？”",
+        "x": 22184,
+        "y": 144,
+        "width": 348,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“你刚上大成家那边去了对吧。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“你家柴火、煤和吃的，还够吗？”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 119,
+        "manualSize": true
+      },
+      {
+        "id": "n66",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖稍微思考了一下。",
+        "x": 22656,
+        "y": 144,
+        "width": 260,
+        "height": 83,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n67",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “吃的有，后天就能领粮食了。”\n程靖霖: “柴火还有。我姐管着，院里还有劈柴垛。”\n程靖霖: \"煤……煤老张三天送一次，一次管三天。今天早上刚送过来，还够三天。\"",
+        "x": 23032,
+        "y": 112,
+        "width": 523,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“吃的有，后天就能领粮食了。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“柴火还有。我姐管着，院里还有劈柴垛。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "\"煤……煤老张三天送一次，一次管三天。今天早上刚送过来，还够三天。\""
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 154,
+        "manualSize": true
+      },
+      {
+        "id": "n68",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 23648,
+        "y": 128,
+        "choices": [
+          "说说大成家那边",
+          "太冷了，想走"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_38",
+            "label": "说说大成家那边",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_39",
+            "label": "太冷了，想走",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n70",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “王掌柜的，大成磨坊那边，连石磨都给贴封条了。这日子还能过吗？咱就是说，要是连您这样的都觉得难受了，那这世道……”",
+        "x": 24400,
+        "y": 72,
+        "width": 431,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“王掌柜的，大成磨坊那边，连石磨都给贴封条了。这日子还能过吗？咱就是说，要是连您这样的都觉得难受了，那这世道……”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 134,
+        "manualSize": true
+      },
+      {
+        "id": "n71",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖回望自己来的北大道，压低了声音，凑近王裕昌身边。",
+        "x": 24040,
+        "y": 104,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n72",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看了看眼前的大道，又缩紧了脖子。",
+        "x": 24032,
+        "y": 224,
+        "width": 265,
+        "height": 119,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n73",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “王掌柜的，天黑了，我得紧走几步了。入夜了，狗可就出来了。”",
+        "x": 24376,
+        "y": 248,
+        "width": 460,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“王掌柜的，天黑了，我得紧走几步了。入夜了，狗可就出来了。”"
+          }
+        ],
+        "height": 119,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n74",
+        "type": "Content",
+        "title": "Content",
+        "body": "王裕昌面色骤变。\n他一把揪住孩子，四下里看了看：",
+        "x": 24960,
+        "y": 168,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 358,
+        "height": 138,
+        "manualSize": true
+      },
+      {
+        "id": "n75",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “嘘！”\n王裕昌: “可他妈别乱说！”\n王裕昌: “咱跟外面，可都得说自己过得好着呢。”\n王裕昌: “要不……”",
+        "x": 25448,
+        "y": 168,
+        "width": 319,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“嘘！”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“可他妈别乱说！”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“咱跟外面，可都得说自己过得好着呢。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“要不……”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 140,
+        "manualSize": true
+      },
+      {
+        "id": "n76",
+        "type": "Content",
+        "title": "Content",
+        "body": "两个人同时住了嘴，目光转向了小广场上的一具绞刑架上。\n那具已经颇为陈旧的绞架上挂着一具衣衫褴褛的尸体。\n尸体在寒风中如同坚铁，蒙上冰碴的眼白正直勾勾地望向两人。\n刚才的一番对话，只有他俩和这具尸体听得一清二楚。\n王裕昌把手重新揣回皮筒子里。",
+        "x": 25888,
+        "y": 143,
+        "width": 420,
+        "height": 185,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n77",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “程子，快回家吧。马上宵禁了。让人看见，就麻烦了。”\n王裕昌: “给你家老掌柜带个好……”",
+        "x": 26432,
+        "y": 168,
+        "width": 405,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“程子，快回家吧。马上宵禁了。让人看见，就麻烦了。”"
+          },
+          {
+            "speaker": "王裕昌",
+            "line": "“给你家老掌柜带个好……”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 136,
+        "manualSize": true
+      },
+      {
+        "id": "n78",
+        "type": "Content",
+        "title": "Content",
+        "body": "中年人低下头，向广场东北侧的“裕昌当铺”走去。\n他忽然停下脚步，回过头来，在最后一点天光里，就着西大道那边刚亮起来的灯火，仔仔细细地看了程靖霖一眼。",
+        "x": 26944,
+        "y": 168,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 504,
+        "height": 144,
+        "manualSize": true
+      },
+      {
+        "id": "n79",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "王裕昌: “真像……”",
+        "x": 27552,
+        "y": 191,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "王裕昌",
+            "line": "“真像……”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n80",
+        "type": "Content",
+        "title": "Content",
+        "body": "那目光让程靖霖有些莫名其妙，他张了张嘴，还没等问出口，王裕昌已经转回身去，声音与微胖的人影一并消失在黑暗里。\n天色已经完全沉下来了。\n他不愿再多想，用快要冻僵的手指系好帽带，双手揣回袖筒，继续向药房的方向走去。\n一声梆子在街道上远远传开，接着是嘶哑的声音：",
+        "x": 27840,
+        "y": 136,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 442,
+        "height": 180,
+        "manualSize": true
+      },
+      {
+        "id": "n81",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "打梆子的: “天寒地冻，防火防盗！”",
+        "x": 28375,
+        "y": 168,
+        "width": 250,
+        "turns": [
+          {
+            "speaker": "打梆子的",
+            "line": "“天寒地冻，防火防盗！”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 83,
+        "manualSize": true
+      },
+      {
+        "id": "n82",
+        "type": "Content",
+        "title": "Content",
+        "body": "这一天，就这样过去了。\n明天，才是一切的开始。",
+        "x": 28712,
+        "y": 168,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n83",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 29112,
+        "y": 176,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n1",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n2",
+        "to": "n3",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "再快点",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n4",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "保持原速",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n5",
+        "to": "n6",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 1,
+        "label": "太危险了，走慢点",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n7",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 0,
+        "label": "再快点",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n8",
+        "to": "n9",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 0,
+        "label": "再快点",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n6",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n4",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 0,
+        "label": "摘下帽子，快步上前",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n12",
+        "to": "n17",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 1,
+        "label": "不摘帽子，径直往前",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n16",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n24",
+        "to": "n25",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n27",
+        "to": "n28",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 0,
+        "label": "您这话怎么讲",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n28",
+        "to": "n29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n29",
+        "to": "n30",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n30",
+        "to": "n31",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 0,
+        "label": "有酒吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n30",
+        "to": "n32",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 1,
+        "label": "有肉吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n30",
+        "to": "n33",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 2,
+        "label": "有鱼吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n32",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n31",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n33",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n34",
+        "to": "n37",
+        "choiceOptionId": "opt_13",
+        "choiceIndex": 0,
+        "label": "有酒吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n34",
+        "to": "n38",
+        "choiceOptionId": "opt_15",
+        "choiceIndex": 1,
+        "label": "有鱼吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l40",
+        "from": "n35",
+        "to": "n39",
+        "choiceOptionId": "opt_18",
+        "choiceIndex": 0,
+        "label": "有肉吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "n35",
+        "to": "n40",
+        "choiceOptionId": "opt_19",
+        "choiceIndex": 1,
+        "label": "有鱼吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l42",
+        "from": "n36",
+        "to": "n41",
+        "choiceOptionId": "opt_21",
+        "choiceIndex": 0,
+        "label": "有酒吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l43",
+        "from": "n36",
+        "to": "n42",
+        "choiceOptionId": "opt_22",
+        "choiceIndex": 1,
+        "label": "有肉吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l44",
+        "from": "n42",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l45",
+        "from": "n41",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l46",
+        "from": "n38",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l47",
+        "from": "n37",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l48",
+        "from": "n40",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l49",
+        "from": "n39",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n45",
+        "to": "n46",
+        "choiceOptionId": "opt_32",
+        "choiceIndex": 0,
+        "label": "有鱼吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l51",
+        "from": "n44",
+        "to": "n47",
+        "choiceOptionId": "opt_29",
+        "choiceIndex": 0,
+        "label": "有肉吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l52",
+        "from": "n43",
+        "to": "n48",
+        "choiceOptionId": "opt_25",
+        "choiceIndex": 0,
+        "label": "有酒吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l53",
+        "from": "n46",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l54",
+        "from": "n47",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l55",
+        "from": "n48",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l56",
+        "from": "n49",
+        "to": "n50",
+        "choiceOptionId": "opt_34",
+        "choiceIndex": 0,
+        "label": "《粮谷出荷》",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l57",
+        "from": "n50",
+        "to": "n51",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l58",
+        "from": "n51",
+        "to": "n52",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l59",
+        "from": "n30",
+        "to": "n53",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 3,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l60",
+        "from": "n35",
+        "to": "n53",
+        "choiceOptionId": "opt_20",
+        "choiceIndex": 2,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l61",
+        "from": "n34",
+        "to": "n53",
+        "choiceOptionId": "opt_16",
+        "choiceIndex": 2,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l62",
+        "from": "n36",
+        "to": "n53",
+        "choiceOptionId": "opt_24",
+        "choiceIndex": 2,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n45",
+        "to": "n53",
+        "choiceOptionId": "opt_33",
+        "choiceIndex": 1,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n44",
+        "to": "n53",
+        "choiceOptionId": "opt_30",
+        "choiceIndex": 1,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n43",
+        "to": "n53",
+        "choiceOptionId": "opt_27",
+        "choiceIndex": 1,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l66",
+        "from": "n49",
+        "to": "n53",
+        "choiceOptionId": "opt_35",
+        "choiceIndex": 1,
+        "label": "闭嘴不再问，赶紧回家要紧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l67",
+        "from": "n52",
+        "to": "n53",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l68",
+        "from": "n53",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l69",
+        "from": "n55",
+        "to": "n56",
+        "choiceOptionId": "opt_36",
+        "choiceIndex": 0,
+        "label": "套话终结",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l70",
+        "from": "n55",
+        "to": "n57",
+        "choiceOptionId": "opt_37",
+        "choiceIndex": 1,
+        "label": "我急着走，您回见",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l71",
+        "from": "n57",
+        "to": "n58",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l72",
+        "from": "n58",
+        "to": "n59",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l73",
+        "from": "n56",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l74",
+        "from": "n59",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l75",
+        "from": "n60",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l76",
+        "from": "n61",
+        "to": "n62",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l77",
+        "from": "n62",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l78",
+        "from": "n63",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l79",
+        "from": "n64",
+        "to": "n65",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l80",
+        "from": "n65",
+        "to": "n66",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l81",
+        "from": "n66",
+        "to": "n67",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l82",
+        "from": "n67",
+        "to": "n68",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l83",
+        "from": "n68",
+        "to": "n71",
+        "choiceOptionId": "opt_38",
+        "choiceIndex": 0,
+        "label": "说说大成家那边",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l84",
+        "from": "n71",
+        "to": "n70",
+        "toPort": {
+          "side": "left",
+          "t": 0.5499621534800612
+        }
+      },
+      {
+        "id": "l85",
+        "from": "n68",
+        "to": "n72",
+        "choiceOptionId": "opt_39",
+        "choiceIndex": 1,
+        "label": "太冷了，想走",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l86",
+        "from": "n72",
+        "to": "n73",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l87",
+        "from": "n70",
+        "to": "n74",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l88",
+        "from": "n73",
+        "to": "n74",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l89",
+        "from": "n74",
+        "to": "n75",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l90",
+        "from": "n75",
+        "to": "n76",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l91",
+        "from": "n76",
+        "to": "n77",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l92",
+        "from": "n77",
+        "to": "n78",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l93",
+        "from": "n78",
+        "to": "n79",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l94",
+        "from": "n79",
+        "to": "n80",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l95",
+        "from": "n80",
+        "to": "n81",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l96",
+        "from": "n81",
+        "to": "n82",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l97",
+        "from": "n82",
+        "to": "n83",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "view": {
+      "x": -694.7679086645569,
+      "y": 538.2067517875511,
+      "scale": 0.4279675059165004
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookJsonOpen": false
+  }
+}

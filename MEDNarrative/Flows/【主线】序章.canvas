@@ -45,6 +45,15 @@
 			"y": 0,
 			"width": 300,
 			"height": 200
+		},
+		{
+			"id": "d74f4baef521dfa9",
+			"type": "file",
+			"file": "Flows/【主线】序章/新序章.canvas",
+			"x": 0,
+			"y": 0,
+			"width": 300,
+			"height": 200
 		}
 	],
 	"edges": []

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"9784bd34fc6d9e2f","type":"text","text":"# 新序章","x":0,"y":0,"width":400,"height":120},
+		{"id":"ae8fb60f30f1bc48","type":"file","file":"Flows/【主线】序章/新序章.ncanvas","x":0,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}
