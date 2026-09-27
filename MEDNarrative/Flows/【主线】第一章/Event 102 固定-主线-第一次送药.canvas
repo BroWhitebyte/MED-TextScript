@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7c4e1a93b6d25f80","type":"text","text":"# Event 102 固定-主线-第一次送药","x":0,"y":0,"width":400,"height":120},
+		{"id":"a92d5c7e13b84f61","type":"file","file":"Flows/【主线】第一章/Event 102 固定-主线-第一次送药.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"c3f81a47d92e5b06","type":"text","text":"# Event 103A 固定-主线-第二次送药-裕昌当铺","x":0,"y":0,"width":400,"height":120},
+		{"id":"8a17d5e2c9347fb1","type":"file","file":"Flows/【主线】第一章/Event 103A 固定-主线-第二次送药-裕昌当铺.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

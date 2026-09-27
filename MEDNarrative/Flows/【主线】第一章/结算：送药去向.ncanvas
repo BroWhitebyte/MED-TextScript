@@ -419,7 +419,7 @@
         "type": "Entry",
         "title": "Start",
         "body": "Adventure Begins",
-        "x": 80,
+        "x": 140,
         "y": 80,
         "choices": [],
         "customFields": {},
@@ -440,7 +440,7 @@
         "type": "Choice",
         "title": "Choice",
         "body": "送药去哪家？",
-        "x": 140,
+        "x": 770,
         "y": 80,
         "choices": [
           "去老佟家车马店",
@@ -491,7 +491,7 @@
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “这……不是给谁都得罪人？”",
-        "x": 800,
+        "x": 1320,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -512,15 +512,16 @@
             "line": "“这……不是给谁都得罪人？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n2",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “那只能是事后再解释吧。”\n程时一: “这三个地方啊，还不太一样。你选哪家都对，就是卖个人情。”\n程时一: “这年头，啥都缺。你选一家，就是给他们面子啦，以后他们多少得还这个人情。”\n程时一: “定了就快去吧。天快黑了，千万得在宵禁之前回来。”",
-        "x": 1460,
+        "x": 1910,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -553,15 +554,16 @@
             "line": "“定了就快去吧。天快黑了，千万得在宵禁之前回来。”"
           }
         ],
-        "width": 420,
-        "height": 186
+        "width": 440,
+        "height": 323,
+        "manualSize": true
       },
       {
         "id": "n3",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “是，掌柜的，我这就去。”",
-        "x": 2120,
+        "x": 2500,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -582,16 +584,17 @@
             "line": "“是，掌柜的，我这就去。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n4",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖接过药包，走出药房去。街上的风更硬了。他无暇多想，在沉闷的黄昏里，走向通兰县城无声的街道。",
-        "x": 140,
-        "y": 340,
+        "x": 3090,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -605,8 +608,9 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       }
     ],
     "links": [
@@ -669,9 +673,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 107.1295693168313,
-      "y": 224.66804526245443,
-      "scale": 1.0091249923988417
+      "x": 0,
+      "y": 0,
+      "scale": 0.08
     },
     "sidebar": {
       "leftWidth": 280,

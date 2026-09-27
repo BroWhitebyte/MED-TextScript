@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"a4f81c62d93b7e05","type":"text","text":"# Event 104 固定-看板教程","x":0,"y":0,"width":400,"height":120},
+		{"id":"7b25e9d4c81a306f","type":"file","file":"Flows/【主线】第一章/Event 104 固定-看板教程.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

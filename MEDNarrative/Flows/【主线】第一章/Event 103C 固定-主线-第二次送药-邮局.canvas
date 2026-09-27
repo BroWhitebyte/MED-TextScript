@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"e93a71b5d0c68427","type":"text","text":"# Event 103C 固定-主线-第二次送药-邮局","x":0,"y":0,"width":400,"height":120},
+		{"id":"15c8f3a9b62d704e","type":"file","file":"Flows/【主线】第一章/Event 103C 固定-主线-第二次送药-邮局.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

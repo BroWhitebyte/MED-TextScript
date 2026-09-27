@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"b1c7a4e93f2d5087","type":"text","text":"# Event 101 固定-主线-训练日","x":0,"y":0,"width":400,"height":120},
+		{"id":"5e2f9a7c4b1d6038","type":"file","file":"Flows/【主线】第一章/Event 101 固定-主线-训练日.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

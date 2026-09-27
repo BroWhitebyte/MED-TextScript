@@ -1,4 +1,4 @@
-﻿# MED Event 0000 序幕
+# MED Event 0000 序幕
 
 时间
 

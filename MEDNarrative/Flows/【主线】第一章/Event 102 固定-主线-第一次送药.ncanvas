@@ -1,0 +1,1996 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-26T14:39:44.441Z",
+  "project": {
+    "title": "Event 102 固定-主线-第一次送药",
+    "notes": "转化自 MED_Demo Event 0102-固定-主线-第一次送药-（上午）（无复用-教学）（定稿）｜（固定/白名单）1942年1月31日 上午 ｜ 通兰县城 东南 · 马家杂货铺 ｜ 人物：程靖霖（时一堂大药房伙计/程时一养子）、马寡妇（马家杂货铺女掌柜）、马老二（马寡妇之子）｜教学件·两个选择点：哈尔滨三选（去过／没去过／你问这个干嘛？）＋送药去向三选（送去大车店／送去裕昌当铺／送去邮局）；md 中「玩家选择／并列选项／——————」标记落为 Choice 节点与合流｜原文保留：md 头部件写「上午」而正文写「接近黄昏／沉闷的黄昏」（未改，待你裁定）",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "老马家离时一堂大药房非常近，街边是漆黑的泥泞与残雪。\n青砖瓦房上残破的招牌依稀可辨\"马家\"几个字，门前挂着蓝布的厚门帘，上面有几个破洞，露出发黄的棉絮。\n杂货就是小本生意，本来就没有什么顾客，如今天冷货少，有钱也买不到什么东西。人们就更没有什么登门的兴趣了。",
+        "x": 770,
+        "y": 80,
+        "width": 440,
+        "height": 288,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖挑开杂货铺的厚门帘，进了堂屋。他看到马家的二儿子马老二，正抄着手在柜台边上懒懒地站着。本来他以为是一个普通的客人，但是看见程靖霖之后，马老二那张稍微还带着些稚气的脸上，露出了一丝狡黠的微笑。\n马老二回头向屋里喊道：",
+        "x": 1770,
+        "y": 80,
+        "width": 440,
+        "height": 260,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “娘！程哥来了！”",
+        "x": 2360,
+        "y": 80,
+        "width": 440,
+        "height": 90,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“娘！程哥来了！”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "后堂传来了快速的脚步声。",
+        "x": 2950,
+        "y": 80,
+        "width": 440,
+        "height": 90,
+        "ports": {
+          "input": {
+            "side": "bottom",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "出现在程靖霖面前的是一个身高体壮、但眉眼间说不上朴实的中年女子。她没有先向程靖霖打招呼，却先瞪了一眼马老二，之后眼神才落在程靖霖挎着的药汤上。",
+        "x": 4130,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n9",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: “看人来了也不知道倒水！光知道喊！”\n马寡妇: “程子来啦。辛苦你了，大冷天的跑一趟。”\n程靖霖: “这就借壁儿，马姨客气了。”",
+        "x": 4350,
+        "y": 785,
+        "width": 440,
+        "height": 224,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "“看人来了也不知道倒水！光知道喊！”"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "“程子来啦。辛苦你了，大冷天的跑一趟。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“这就借壁儿，马姨客气了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n13",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖在柜台前坐下。马寡妇接过篮子，取出砂锅，一边继续喋喋不休地抱怨自己的儿子。马老二却依旧揣着手，懒懒地，不服气地反驳着。",
+        "x": 2540,
+        "y": 785,
+        "width": 440,
+        "height": 174,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: “早说让你过去取一趟，你不去！败家玩意儿！”\n马老二: “外面太冷了！出门就看见警察署，晦气，不想动！程哥这不是来了吗？”",
+        "x": 1950,
+        "y": 785,
+        "width": 440,
+        "height": 178,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "“早说让你过去取一趟，你不去！败家玩意儿！”"
+          },
+          {
+            "speaker": "马老二",
+            "line": "“外面太冷了！出门就看见警察署，晦气，不想动！程哥这不是来了吗？”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "他一边回答，一边慢慢地踱到炉子旁边，给程靖霖倒了一碗热水。\n马寡妇把药汤拿到后堂去了。\n马老二挠着头，忽然问程靖霖：",
+        "x": 1360,
+        "y": 785,
+        "width": 440,
+        "height": 174,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “程哥，你去过哈尔滨吗？”",
+        "x": 770,
+        "y": 785,
+        "width": 440,
+        "height": 90,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“程哥，你去过哈尔滨吗？”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n20",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 785,
+        "choices": [
+          "去过",
+          "没去过",
+          "你问这个干嘛？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "去过",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "没去过",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "你问这个干嘛？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “哈尔滨是不是比咱们这个县城大多了？听他们说，到处都是高楼，汽车满地跑，到处都有电灯，还有很多咱们县城里没有的东西。程哥，有空你给我讲讲。”",
+        "x": 140,
+        "y": 1482,
+        "width": 440,
+        "height": 185,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“哈尔滨是不是比咱们这个县城大多了？听他们说，到处都是高楼，汽车满地跑，到处都有电灯，还有很多咱们县城里没有的东西。程哥，有空你给我讲讲。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n22",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “哎呀，那太可惜了。听他们说，到处都是高楼，汽车满地跑，到处都有电灯，还有很多咱们县城里没有的东西。程哥，啥时候咱俩能一块儿去呀？”",
+        "x": 140,
+        "y": 1776,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“哎呀，那太可惜了。听他们说，到处都是高楼，汽车满地跑，到处都有电灯，还有很多咱们县城里没有的东西。程哥，啥时候咱俩能一块儿去呀？”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “我就是听说，哈尔滨大得很。听他们说，到处都是高楼，汽车满地跑，到处都有电灯，还有很多咱们县城里没有的东西。程哥，我也想出去见见世面。”",
+        "x": 140,
+        "y": 2040,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“我就是听说，哈尔滨大得很。听他们说，到处都是高楼，汽车满地跑，到处都有电灯，还有很多咱们县城里没有的东西。程哥，我也想出去见见世面。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "两个人说话的档口，马寡妇已经回到了堂屋。她拿着扫帚，一边扫着货架上的灰尘，一面有的没的整理着货架上的杂物，随口跟程靖霖搭讪着：",
+        "x": 730,
+        "y": 1482,
+        "width": 440,
+        "height": 174,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: “天气太冷啦，姨这身子骨也动不了了，不像年轻时候了。今年呐，生意也不好。快过年了，按理说，往年都有人来置办点杂货什么的。”\n程靖霖: “可不是吗。去年到今年，这法那法的，啥都弄不到了。别说药了，现在就连这县城里的粮食也越来越有数了。”",
+        "x": 1320,
+        "y": 1482,
+        "width": 440,
+        "height": 257,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "“天气太冷啦，姨这身子骨也动不了了，不像年轻时候了。今年呐，生意也不好。快过年了，按理说，往年都有人来置办点杂货什么的。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“可不是吗。去年到今年，这法那法的，啥都弄不到了。别说药了，现在就连这县城里的粮食也越来越有数了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n33",
+        "type": "Content",
+        "title": "Content",
+        "body": "马寡妇的脸霎时间白了。\n她狠狠盯了一眼马老二，左右看看，又望了一眼窗外，指了指窗外的警察署：",
+        "x": 3130,
+        "y": 1482,
+        "width": 440,
+        "height": 145,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n34",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: “诶！你这小逼崽子，你可不兴出去瞎说啊！这也就是你程哥。这话要让别人听见……”\n马寡妇: “换了别人，现在搁这说了这话，晚上你就上对面蹲笆篱子去了！”\n马老二: “得了，娘！”",
+        "x": 3720,
+        "y": 1482,
+        "width": 440,
+        "height": 251,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "“诶！你这小逼崽子，你可不兴出去瞎说啊！这也就是你程哥。这话要让别人听见……”"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "“换了别人，现在搁这说了这话，晚上你就上对面蹲笆篱子去了！”"
+          },
+          {
+            "speaker": "马老二",
+            "line": "“得了，娘！”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n38",
+        "type": "Content",
+        "title": "Content",
+        "body": "少年扯了扯袖筒，缩起肩膀。他站在程靖霖旁边，赌气似的说：",
+        "x": 4310,
+        "y": 1482,
+        "width": 440,
+        "height": 117,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n39",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “这寒冬腊月的，鬼子和狗腿子天天上门这拿一把，那扣一把，日子能过吗？别说平时都吃不饱饭了，这眼看过年了，哪有一点过年的样子呢？”",
+        "x": 4310,
+        "y": 2629,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“这寒冬腊月的，鬼子和狗腿子天天上门这拿一把，那扣一把，日子能过吗？别说平时都吃不饱饭了，这眼看过年了，哪有一点过年的样子呢？”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n40",
+        "type": "Content",
+        "title": "Content",
+        "body": "少年的眼神突然飘忽了起来，他以一种近似于梦游般的兴奋的口气说：",
+        "x": 3720,
+        "y": 2629,
+        "width": 440,
+        "height": 117,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n41",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “要我说呀，咱娘俩也别干了。你不是说大哥去哈尔滨了吗？咱们呀，把这铺子兑了，找他去吧！”\n马老二: “程哥，你那儿如果有什么有关哈尔滨的信儿，就跟我说一声？我可一天都不想在这个破县城里待着了。”",
+        "x": 3130,
+        "y": 2629,
+        "width": 440,
+        "height": 231,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“要我说呀，咱娘俩也别干了。你不是说大哥去哈尔滨了吗？咱们呀，把这铺子兑了，找他去吧！”"
+          },
+          {
+            "speaker": "马老二",
+            "line": "“程哥，你那儿如果有什么有关哈尔滨的信儿，就跟我说一声？我可一天都不想在这个破县城里待着了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n45",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: （放下水碗）“姨，时候不早了。我走了。”\n马寡妇: “哎，程子，等一下。”\n马寡妇: “昨天送煤的老张头来了，我好说歹说，多弄了点。这煤你带走，熬药烧火，都得用。姨这手头紧。现钱不多，就拿煤顶了。跟你爹说一声。”\n程靖霖: 是。我走了，姨，弟。",
+        "x": 1320,
+        "y": 2629,
+        "width": 440,
+        "height": 323,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "（放下水碗）“姨，时候不早了。我走了。”"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "“哎，程子，等一下。”"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "“昨天送煤的老张头来了，我好说歹说，多弄了点。这煤你带走，熬药烧火，都得用。姨这手头紧。现钱不多，就拿煤顶了。跟你爹说一声。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "是。我走了，姨，弟。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n48",
+        "type": "Content",
+        "title": "Content",
+        "body": "马寡妇赶紧走进后屋，拿出一包煤块，这煤块兜在半截子麻袋里，打了个花结。\n她把煤交到程靖霖手上。\n程靖霖从马家杂货铺挑帘子出来。天色已近黄昏，他的身后传来喊声：",
+        "x": 730,
+        "y": 2629,
+        "width": 440,
+        "height": 202,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n52",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: “程子！明天你或者小梅过来拿砂锅，记得把麻袋捎回来！”\n马老二: “程哥，别忘了哈尔滨！”",
+        "x": 140,
+        "y": 2629,
+        "width": 440,
+        "height": 152,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "“程子！明天你或者小梅过来拿砂锅，记得把麻袋捎回来！”"
+          },
+          {
+            "speaker": "马老二",
+            "line": "“程哥，别忘了哈尔滨！”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n55",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖抱着麻袋，目光飘向对面的警察署。\n两个巡警远远地在街对面望着这边，似乎在低声谈论什么。\n街上的风声一阵紧似一阵，程靖霖不由得把肩膀缩了缩，向药房走去。\n他跨进药房正门的时候，程时一正在柜台前低头盘账。老掌柜听到门声，抬起头来，眯着眼睛看程靖霖。",
+        "x": 140,
+        "y": 3830,
+        "width": 440,
+        "height": 317,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n60",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “马家捎给咱的是煤块吗？给我吧，让晓梅拿到后面去。”\n程时一: “霖子，有个难事。\n程时一: 我这里只有一份药，但是有三个地方要。你怎么选？”\n程靖霖: “这……不是给谁都得罪人？”\n程时一: “那只能是事后再解释吧。”",
+        "x": 730,
+        "y": 3830,
+        "width": 440,
+        "height": 317,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“马家捎给咱的是煤块吗？给我吧，让晓梅拿到后面去。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“霖子，有个难事。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "我这里只有一份药，但是有三个地方要。你怎么选？”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“这……不是给谁都得罪人？”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“那只能是事后再解释吧。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n63",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1320,
+        "y": 3830,
+        "choices": [
+          "送去大车店",
+          "送去裕昌当铺",
+          "送去邮局"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "送去大车店",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "送去裕昌当铺",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "送去邮局",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n64",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “老佟家这大车店里有个把式发烧了，明天还要赶路，他们把头派人过来问的。”",
+        "x": 1950,
+        "y": 3830,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“老佟家这大车店里有个把式发烧了，明天还要赶路，他们把头派人过来问的。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n65",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “裕昌当铺王掌柜的儿子王小发烧了。二柜派人来这边，让咱给送点药过去。”",
+        "x": 1950,
+        "y": 4065,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“裕昌当铺王掌柜的儿子王小发烧了。二柜派人来这边，让咱给送点药过去。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n66",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “邮局有人捎话，要点风寒药，让咱给送一趟。”",
+        "x": 1950,
+        "y": 4300,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“邮局有人捎话，要点风寒药，让咱给送一趟。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n69",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “这三个地方啊，还不太一样。你选哪家都对，就是卖个人情。”\n程时一: “这年头，啥都缺。你选一家，就是给他们面子啦，以后他们多少得还这个人情。”\n程时一: “饭在桌子上，吃了再去吧。”",
+        "x": 2540,
+        "y": 3830,
+        "width": 440,
+        "height": 251,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“这三个地方啊，还不太一样。你选哪家都对，就是卖个人情。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“这年头，啥都缺。你选一家，就是给他们面子啦，以后他们多少得还这个人情。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“饭在桌子上，吃了再去吧。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n70",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看向木桌，上面放着几副碗筷。他走过去，把旁边碟子里的咸菜丝夹了一点，搅和进碗里混合的灰色糊糊，快速地倒进喉咙。他放下碗筷，从柜台上拿过药包，走出药房去。街上的风更硬了。年轻的伙计无暇多想，在沉闷的黄昏里，走向通兰县城无声的街道。",
+        "x": 3130,
+        "y": 3830,
+        "width": 440,
+        "height": 260,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n74",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 3720,
+        "y": 3830,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n75",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1360,
+        "y": 80,
+        "choices": [
+          "走到门口",
+          "去别的地方转转"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_4",
+            "label": "走到门口",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "去别的地方转转",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "width": 260,
+        "height": 114,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "bottom",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n76",
+        "type": "Content",
+        "title": "Content",
+        "body": "这么冷的天，药汤一会儿就凉了。还是先送去再说吧。",
+        "x": 1770,
+        "y": 456,
+        "width": 440,
+        "height": 117,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n77",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: “来了！”",
+        "x": 3540,
+        "y": 80,
+        "width": 440,
+        "height": 90,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "“来了！”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n78",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3720,
+        "y": 785,
+        "choices": [
+          "递给马寡妇",
+          "递给马老二"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_6",
+            "label": "递给马寡妇",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_7",
+            "label": "递给马老二",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n79",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 姨，这是药，还热着。\n马寡妇: 辛苦啦，孩子，快坐着。\n马寡妇: 老二！赶紧给你程哥倒水！",
+        "x": 3130,
+        "y": 785,
+        "width": 440,
+        "height": 172,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "姨，这是药，还热着。"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "辛苦啦，孩子，快坐着。"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "老二！赶紧给你程哥倒水！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n80",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 老二，给。\n马老二: 又不是我喝！给我妈吧！\n马寡妇: 你这败家孩子！赶紧给你程哥倒水去！",
+        "x": 3130,
+        "y": 1064,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "老二，给。"
+          },
+          {
+            "speaker": "马老二",
+            "line": "又不是我喝！给我妈吧！"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "你这败家孩子！赶紧给你程哥倒水去！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 198,
+        "manualSize": true
+      },
+      {
+        "id": "n81",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1910,
+        "y": 1482,
+        "choices": [
+          "问马寡妇对时局的看法",
+          "问马老二对时局的看法"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_8",
+            "label": "问马寡妇对时局的看法",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "问马老二对时局的看法",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n82",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 姨，最近生意咋样？按说，这腊月十五都过了，置办年货的，现在也应该忙活起来了。\n马寡妇: 哎，今年，可有点难了。程子，不瞒你说，姨这本来就是小本生意，这几天，每天能开张一回，都算命好了。\n马寡妇: “你看看，街上跟过了鬼似的，什么人都没有。这日子也是黄鼠狼下鼠羔子，一天不如一天了。”\n马老二: “娘，街上不是过了鬼呀，街上就有鬼。这光天化日的，那鬼子和二鬼子不就跟眼前晃悠吗？”",
+        "x": 2540,
+        "y": 1482,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "姨，最近生意咋样？按说，这腊月十五都过了，置办年货的，现在也应该忙活起来了。"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "哎，今年，可有点难了。程子，不瞒你说，姨这本来就是小本生意，这几天，每天能开张一回，都算命好了。"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "“你看看，街上跟过了鬼似的，什么人都没有。这日子也是黄鼠狼下鼠羔子，一天不如一天了。”"
+          },
+          {
+            "speaker": "马老二",
+            "line": "“娘，街上不是过了鬼呀，街上就有鬼。这光天化日的，那鬼子和二鬼子不就跟眼前晃悠吗？”"
+          }
+        ],
+        "height": 429,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n83",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 老二，这几天都去哪逛悠了？\n马老二: （撇撇嘴）能去哪儿？还不是大车店遛遛，上当铺那边转悠转悠。\n马老二: 这天冷得能冻死驴，也就趁白天能出去晃晃，晚上都不知道去哪儿！\n马老二: 再说了，走到哪都有狗盯着！真不知道那帮子鬼子和二鬼子都在干啥，一天天的，上大街走道都得被人看着！什么鬼日子！",
+        "x": 2540,
+        "y": 2044,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "老二，这几天都去哪逛悠了？"
+          },
+          {
+            "speaker": "马老二",
+            "line": "（撇撇嘴）能去哪儿？还不是大车店遛遛，上当铺那边转悠转悠。"
+          },
+          {
+            "speaker": "马老二",
+            "line": "这天冷得能冻死驴，也就趁白天能出去晃晃，晚上都不知道去哪儿！"
+          },
+          {
+            "speaker": "马老二",
+            "line": "再说了，走到哪都有狗盯着！真不知道那帮子鬼子和二鬼子都在干啥，一天天的，上大街走道都得被人看着！什么鬼日子！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 350,
+        "manualSize": true
+      },
+      {
+        "id": "n84",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2500,
+        "y": 2629,
+        "choices": [
+          "答应",
+          "不答应",
+          "为什么非得去哈尔滨？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_10",
+            "label": "答应",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "不答应",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_12",
+            "label": "为什么非得去哈尔滨？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n85",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 行，到时候跟你说。\n马寡妇: 程子，你别听他瞎说！\n马老二: 那就这么定了程哥！",
+        "x": 1910,
+        "y": 2629,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "行，到时候跟你说。"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "程子，你别听他瞎说！"
+          },
+          {
+            "speaker": "马老二",
+            "line": "那就这么定了程哥！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 172,
+        "manualSize": true
+      },
+      {
+        "id": "n86",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 老二，别气你妈了！\n马老二: 谁气她了！这日子过的，我自己生气还生不过来呢！\n程靖霖: 你没事上药房串个门呢！老往大车店跑算怎么回事？\n马寡妇: 老二！没大没小的。听你程哥的！",
+        "x": 1910,
+        "y": 2908,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "老二，别气你妈了！"
+          },
+          {
+            "speaker": "马老二",
+            "line": "谁气她了！这日子过的，我自己生气还生不过来呢！"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "你没事上药房串个门呢！老往大车店跑算怎么回事？"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "老二！没大没小的。听你程哥的！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 271,
+        "manualSize": true
+      },
+      {
+        "id": "n87",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马寡妇: 老二！你是疯魔了还是怎么着了？天天念叨着哈尔滨，哈尔滨！\n马老二: 你不是说大哥在哈尔滨过得可好了吗？吃香的喝辣的，还给咱娘俩寄来了衣服！邮局就搁旁边，你写封信告诉他，要投奔他，不行吗？\n马寡妇: 你大哥……他过得咋样，都是那么说……实际咋样，谁知道呢？",
+        "x": 1910,
+        "y": 3296,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "马寡妇",
+            "line": "老二！你是疯魔了还是怎么着了？天天念叨着哈尔滨，哈尔滨！"
+          },
+          {
+            "speaker": "马老二",
+            "line": "你不是说大哥在哈尔滨过得可好了吗？吃香的喝辣的，还给咱娘俩寄来了衣服！邮局就搁旁边，你写封信告诉他，要投奔他，不行吗？"
+          },
+          {
+            "speaker": "马寡妇",
+            "line": "你大哥……他过得咋样，都是那么说……实际咋样，谁知道呢？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 304,
+        "manualSize": true
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n20",
+        "to": "n21",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "去过",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n20",
+        "to": "n22",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "没去过",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n20",
+        "to": "n23",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "你问这个干嘛？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n21",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n22",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n40",
+        "to": "n41",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n48",
+        "to": "n52",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n63",
+        "to": "n64",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "送去大车店",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n63",
+        "to": "n65",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "送去裕昌当铺",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n63",
+        "to": "n66",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "送去邮局",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n69",
+        "to": "n70",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n0",
+        "to": "n75",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n75",
+        "to": "n2",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 0,
+        "label": "走到门口",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n75",
+        "to": "n76",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 1,
+        "label": "去别的地方转转",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n76",
+        "to": "n75",
+        "toPort": {
+          "side": "bottom",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n2",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n14",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n7",
+        "to": "n77",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n77",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n9",
+        "to": "n78",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n78",
+        "to": "n80",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 1,
+        "label": "递给马老二",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n18",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n24",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n26",
+        "to": "n81",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n81",
+        "to": "n82",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 0,
+        "label": "问马寡妇对时局的看法",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n81",
+        "to": "n83",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 1,
+        "label": "问马老二对时局的看法",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n34",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n45",
+        "to": "n48",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n41",
+        "to": "n84",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n84",
+        "to": "n85",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 0,
+        "label": "答应",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n84",
+        "to": "n86",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 1,
+        "label": "不答应",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n84",
+        "to": "n87",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 2,
+        "label": "为什么非得去哈尔滨？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n87",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n86",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.4571437613337662
+        }
+      },
+      {
+        "id": "l40",
+        "from": "n85",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "n52",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l42",
+        "from": "n80",
+        "to": "n13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l43",
+        "from": "n78",
+        "to": "n79",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 0,
+        "label": "递给马寡妇",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l44",
+        "from": "n79",
+        "to": "n13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l45",
+        "from": "n13",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l46",
+        "from": "n82",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l47",
+        "from": "n83",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l48",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l49",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n55",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l51",
+        "from": "n60",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l52",
+        "from": "n64",
+        "to": "n69",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l53",
+        "from": "n65",
+        "to": "n69",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l54",
+        "from": "n66",
+        "to": "n69",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l55",
+        "from": "n70",
+        "to": "n74",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": -455.7677573580918,
+      "y": -1072.510946848087,
+      "scale": 0.5846151300000004
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

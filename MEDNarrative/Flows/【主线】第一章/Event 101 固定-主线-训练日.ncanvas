@@ -1,0 +1,2137 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-26T12:06:18.110Z",
+  "project": {
+    "title": "Event 101 固定-主线-训练日",
+    "notes": "转化自 MED_Demo Event 0101（（固定/白名单）1942年1月31日 清晨 ｜ 通兰县城 东南 · 时一堂大药房）｜人物：程靖霖（时一堂大药房伙计／程时一养子）、程时一（时一堂大药房掌柜）、程晓梅（程时一女儿）｜线性教学件（无玩家选择）｜37 叙述节拍 + 17 台词节拍 + 【教学说明】系统文案 1 处",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "天蒙蒙亮。铁皮炉子里的火焰缓慢地闪动着。\n程靖霖望着赤红色的火炭出神。他慢慢地用火勾拨动了几下火，把炉圈盖好，拿起放在一旁的水壶，坐在炉子上。",
+        "x": 770,
+        "y": 80,
+        "width": 440,
+        "height": 202,
+        "ports": {
+          "input": {
+            "side": "right",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "这是时一堂大药房的堂屋，也就是他日常生活和劳作的地方。他还记得当年掌柜程时一盘下这间平房的样子，时至今日，似乎并没有改变多少。青砖、木梁、板门、木柜、台面，来往的客人经常倚靠的地方被磨得光亮。",
+        "x": 1990,
+        "y": 80,
+        "width": 440,
+        "height": 231,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "门口黑底白字的匾额“时一堂”是康德二年挂上的，到了现在，在通兰县城里也还是一面硬气的招牌。两扇木板门与厚重的门帘将寒冷隔绝在外，只有在堂屋里还保留着一点温暖。",
+        "x": 2580,
+        "y": 80,
+        "width": 440,
+        "height": 202,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖慢慢走到柜台后。\n他的背后是高过顶的百子药斗，手边是黄铜戥子、药剪、包药纸、小刀、麻绳。他抓药和看病的本事，都是掌柜程时一手把手教出来的。这许多年过去，屋子里当归、黄芪、甘草、陈皮，混着煤炭、木柴，加上一点点潮气，构成了他嗅觉的一部分。",
+        "x": 3210,
+        "y": 80,
+        "width": 440,
+        "height": 288,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖转过身来，看到程时一那张略显苍老却并不衰颓的脸。",
+        "x": 4210,
+        "y": 80,
+        "width": 440,
+        "height": 117,
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，早。”",
+        "x": 4090,
+        "y": 1728,
+        "width": 440,
+        "height": 90,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，早。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖微微施了个礼。程时一点了点头，慢慢走到火炉旁。他伸出双手，枯瘦、修长、指节分明的手在炉火旁来回翻转。",
+        "x": 3500,
+        "y": 1728,
+        "width": 440,
+        "height": 145,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，早上我生火的时候，看了一下。”\n程靖霖: “煤快没有了。灶上还熬着药，我算了一下，大概还够三天。”",
+        "x": 2910,
+        "y": 1728,
+        "width": 440,
+        "height": 178,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，早上我生火的时候，看了一下。”"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "“煤快没有了。灶上还熬着药，我算了一下，大概还够三天。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有回头。他继续烤着手，盯着水壶，眼中忽明忽暗。炉火并不是很旺。东北的冬天，那里散发的温度是让人感到安全的最大理由。良久，老医生才低声说：",
+        "x": 2320,
+        "y": 1728,
+        "width": 440,
+        "height": 174,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n20",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “快过年了。这煤，和粮食一样。越来越少了，也越来越贵啦。送煤的也不一定什么时候来。”\n程时一: “这一阵，你就得多跑跑了。我年纪大了，腿疼得厉害。药材咱们倒是还有点，不用太担心。这不是眼看要过年了吗？往年，都会有人来咱这买点东西，送送礼，走动走动……”",
+        "x": 1730,
+        "y": 1728,
+        "width": 440,
+        "height": 284,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“快过年了。这煤，和粮食一样。越来越少了，也越来越贵啦。送煤的也不一定什么时候来。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“这一阵，你就得多跑跑了。我年纪大了，腿疼得厉害。药材咱们倒是还有点，不用太担心。这不是眼看要过年了吗？往年，都会有人来咱这买点东西，送送礼，走动走动……”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "bottom",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一转过身来，望着程靖霖，轻轻捻着自己的手指。他没有继续说下去，眼神投向玻璃窗外空荡荡的南大街，寒风卷着尘埃在街面上掠过。",
+        "x": 1140,
+        "y": 1728,
+        "width": 440,
+        "height": 174,
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "天光已经大亮，但街面并无声息，偌大的通兰县好像一座空城。炉子上的水壶发出嘶鸣，打破了药房里的沉默。\n程时一的女儿程晓梅从后门走进堂屋，她熟练地从柜台里取出两只碗，给程时一和程靖霖倒上开水，回到后间去水缸里添水。\n她把水壶重新坐回到炉子上。",
+        "x": 140,
+        "y": 1728,
+        "width": 440,
+        "height": 288,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n27",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程晓梅: “粮食咱还够半个月的。大概，能撑到过年吧，爹。”",
+        "x": 140,
+        "y": 3244,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“粮食咱还够半个月的。大概，能撑到过年吧，爹。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一苦笑了一下，望向女儿，又望向被纸条糊住的玻璃窗。一阵风起，穿透窗缝。",
+        "x": 730,
+        "y": 3244,
+        "width": 440,
+        "height": 145,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “闺女，老马家的药煎好了没有？”\n程晓梅: 马上就好。\n程时一: 霖子，跑一趟吧。",
+        "x": 1320,
+        "y": 3244,
+        "width": 440,
+        "height": 198,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“闺女，老马家的药煎好了没有？”"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "马上就好。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "霖子，跑一趟吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n38",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅端着一个装药的小砂锅从灶间出来，她将砂锅放进一个篮子，盖上棉垫。",
+        "x": 3540,
+        "y": 3244,
+        "width": 440,
+        "height": 117,
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n39",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程晓梅: “霖子，地滑。小心点，别撒了。”\n程时一: “我老啦。跑腿的事，全靠你了。”\n程时一: “不该看的别看，不该问的别问。走到哪，都得记得。去吧。”",
+        "x": 4130,
+        "y": 3244,
+        "width": 440,
+        "height": 251,
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "“霖子，地滑。小心点，别撒了。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“我老啦。跑腿的事，全靠你了。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“不该看的别看，不该问的别问。走到哪，都得记得。去吧。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n43",
+        "type": "Content",
+        "title": "Content",
+        "body": "老医生走到柜台旁，拿起棉帽，在手里掂了掂，回头扣在程靖霖头上，给他系好帽带。\n程靖霖挽起篮子，从柜台后面绕出来，他听到炉膛子里炭火闷烧的声音，像在给他提醒，这里是一个坐标。",
+        "x": 2540,
+        "y": 4656,
+        "width": 440,
+        "height": 231,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n49",
+        "type": "Content",
+        "title": "Content",
+        "body": "【教学说明】通兰县是一个不太大的县城。你会承担一些送药跑腿或者传递信息的工作，这就是你作为一个药房伙计每天的生活里重要的组成部分。\n（加上地图引导和场景点击的提示）",
+        "x": 1950,
+        "y": 4656,
+        "width": 440,
+        "height": 202,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n50",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖挑开厚重的门帘，推开药房正门。寒风如重拳般锤打在他的脸上。他回头看了看时一堂药房的牌匾，这是他每次出门的习惯，他自己也说不上为什么会这样做。路边的雪与泥混成一团。他顺着土路旁边慢慢地走，挑着没那么脏的地方下脚。\n马家杂货铺和药房离得很近，就在借壁儿，几步路的事。",
+        "x": 1360,
+        "y": 4656,
+        "width": 440,
+        "height": 288,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n54",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 730,
+        "y": 4656,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "程靖霖望向柜台上自己手边被使用了很久的物件。",
+        "x": 3800,
+        "y": 80,
+        "choices": [
+          "看黄铜戥子",
+          "看药剪",
+          "看包药纸",
+          "看小刀",
+          "看麻绳",
+          "背后有什么声音传来"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "看黄铜戥子",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "看药剪",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "看包药纸",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_4",
+            "label": "看小刀",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "看麻绳",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_6",
+            "label": "背后有什么声音传来",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 260,
+        "height": 240,
+        "manualSize": true
+      },
+      {
+        "id": "n56",
+        "type": "Content",
+        "title": "Content",
+        "body": "黄铜戥子描述：",
+        "x": 4210,
+        "y": 299,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "height": 90,
+        "manualSize": true,
+        "width": 440
+      },
+      {
+        "id": "n57",
+        "type": "Content",
+        "title": "Content",
+        "body": "药剪描述",
+        "x": 4210,
+        "y": 488,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "height": 90,
+        "manualSize": true,
+        "width": 440
+      },
+      {
+        "id": "n58",
+        "type": "Content",
+        "title": "Content",
+        "body": "药纸描述",
+        "x": 4210,
+        "y": 677,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 90,
+        "manualSize": true
+      },
+      {
+        "id": "n59",
+        "type": "Content",
+        "title": "Content",
+        "body": "小刀描述",
+        "x": 4210,
+        "y": 866,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 90,
+        "manualSize": true
+      },
+      {
+        "id": "n60",
+        "type": "Content",
+        "title": "Content",
+        "body": "麻绳描述\n",
+        "x": 4210,
+        "y": 1055,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "top",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
+      },
+      {
+        "id": "n61",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "询问程时一有关县城的事情",
+        "x": 730,
+        "y": 1728,
+        "choices": [
+          "县城",
+          "煤",
+          "粮食",
+          "礼物？",
+          "都问过一遍之后"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_7",
+            "label": "县城",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_8",
+            "label": "煤",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "粮食",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_10",
+            "label": "礼物？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "都问过一遍之后",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "width": 260,
+        "height": 242,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n62",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的，咱们这通兰县城现在大概是个什么情况？\n程时一: 介绍县城情况（文案）",
+        "x": 140,
+        "y": 2135,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，咱们这通兰县城现在大概是个什么情况？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "介绍县城情况（文案）"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 152,
+        "manualSize": true
+      },
+      {
+        "id": "n63",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的，咱们的煤和柴火，除了送煤的，还有哪能搞到\n程时一: 介绍煤情况（文案）",
+        "x": 140,
+        "y": 2392,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，咱们的煤和柴火，除了送煤的，还有哪能搞到"
+          },
+          {
+            "speaker": "程时一",
+            "line": "介绍煤情况（文案）"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 152,
+        "manualSize": true
+      },
+      {
+        "id": "n64",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的，粮食如果不够了怎么办？\n程时一: 介绍粮食情况（文案）",
+        "x": 140,
+        "y": 2649,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，粮食如果不够了怎么办？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "介绍粮食情况（文案）"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 125,
+        "manualSize": true
+      },
+      {
+        "id": "n65",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的，咱们柜上过往有哪些东西能送礼用的？\n程时一: 介绍贵重物品情况（文案）",
+        "x": 140,
+        "y": 2877,
+        "width": 440,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，咱们柜上过往有哪些东西能送礼用的？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "介绍贵重物品情况（文案）"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 152,
+        "manualSize": true
+      },
+      {
+        "id": "n66",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1910,
+        "y": 3244,
+        "choices": [
+          "是，这就去",
+          "外面太冷了，我不去",
+          "你自己咋不去"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_12",
+            "label": "是，这就去",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_13",
+            "label": "外面太冷了，我不去",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_14",
+            "label": "你自己咋不去",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "bottom",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 260,
+        "height": 134,
+        "manualSize": true
+      },
+      {
+        "id": "n67",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: 好孩子。晓梅，去把药汤端给霖子。\n程晓梅: 好嘞爹。\n程时一: 霖子，还有什么不清楚的事情吗？",
+        "x": 2320,
+        "y": 3244,
+        "width": 440,
+        "height": 198,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "好孩子。晓梅，去把药汤端给霖子。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "好嘞爹。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "霖子，还有什么不清楚的事情吗？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n68",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一微微皱起眉头。",
+        "x": 2320,
+        "y": 3552,
+        "width": 440,
+        "height": 90,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n69",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: 你说什么？\n程晓梅: 霖子，你今天怎么了？\n程时一: 冷归冷，马家就跟边上。紧走几步就到了。",
+        "x": 2910,
+        "y": 3244,
+        "width": 440,
+        "height": 198,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "你说什么？"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "霖子，你今天怎么了？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "冷归冷，马家就跟边上。紧走几步就到了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n70",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一的眉毛皱了起来。他看着程靖霖。",
+        "x": 2320,
+        "y": 3741,
+        "width": 440,
+        "height": 90,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n71",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: 你今天怎么了？\n程晓梅: 霖子，你疯了心了？敢跟爹这么说话？",
+        "x": 2910,
+        "y": 3552,
+        "width": 440,
+        "height": 152,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "你今天怎么了？"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "霖子，你疯了心了？敢跟爹这么说话？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n72",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2910,
+        "y": 3809,
+        "choices": [
+          "送药时的注意事项？",
+          "人家会给我什么？",
+          "是不是这几天街面上不太平？",
+          "都问过一遍"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_15",
+            "label": "送药时的注意事项？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_16",
+            "label": "人家会给我什么？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_17",
+            "label": "是不是这几天街面上不太平？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_24",
+            "label": "都问过一遍",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "top",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n73",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “是不是外面风声又紧了？”\n程时一: 今年不太平，街面上的日本人越来越多了，警察也跑得越来越勤。\n程时一: 这《粮谷出荷》，还有什么“勤劳奉仕”，从来没见过寒冬腊月还要交粮食的……\n程靖霖: 掌柜的，那咱该怎么办？\n程时一: “你过去怎么跑，现在还怎么跑。外面冷，衣服掖好了，东西拿好了，快去快回。大冬天的，搁外边呆太久，就会冻着，一冻着了，那可就什么事都干不了啦。”",
+        "x": 3540,
+        "y": 3463,
+        "width": 440,
+        "height": 449,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“是不是外面风声又紧了？”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "今年不太平，街面上的日本人越来越多了，警察也跑得越来越勤。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "这《粮谷出荷》，还有什么“勤劳奉仕”，从来没见过寒冬腊月还要交粮食的……"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，那咱该怎么办？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“你过去怎么跑，现在还怎么跑。外面冷，衣服掖好了，东西拿好了，快去快回。大冬天的，搁外边呆太久，就会冻着，一冻着了，那可就什么事都干不了啦。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n74",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “马寡妇不定给你拿点什么……煤、粮食、钱，都顶一副药。但是这世道啊，有钱也买不到什么东西，有些东西钱买不来。”",
+        "x": 3540,
+        "y": 4047,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“马寡妇不定给你拿点什么……煤、粮食、钱，都顶一副药。但是这世道啊，有钱也买不到什么东西，有些东西钱买不来。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n75",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “天寒地冻的，药汤咱们可送不了多远。幸亏老马家就在借壁儿，不用换衣服，到了那儿也凉不了。”",
+        "x": 3540,
+        "y": 4311,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“天寒地冻的，药汤咱们可送不了多远。幸亏老马家就在借壁儿，不用换衣服，到了那儿也凉不了。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "manualSize": true
+      },
+      {
+        "id": "n76",
+        "type": "Content",
+        "title": "Content",
+        "body": "炉火在跳跃。程靖霖望着跳动的火焰，瞳孔被什么占据了。\n天还没亮，他想起黑夜。",
+        "x": 1990,
+        "y": 424,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 145,
+        "manualSize": true,
+        "width": 440
+      },
+      {
+        "id": "n77",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2580,
+        "y": 392,
+        "choices": [
+          "有些闷",
+          "想起了什么"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_18",
+            "label": "有些闷",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_19",
+            "label": "想起了什么",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n78",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖觉得有些闷。\n他走到门旁边，把门稍微欠了个缝。刺骨的寒风立即从门里呼啸进来，他打了个哆嗦，吸了一口清晨的冷气，又把门关上了。\n脑子里有一些模糊的记忆，也随着这冷气消散了。",
+        "x": 3210,
+        "y": 487,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 260,
+        "manualSize": true,
+        "width": 440
+      },
+      {
+        "id": "n79",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖盯着炉火，有什么记忆深处的东西被搅动了。\n天还没有亮。\n他看着烧红的火炭，耳边响起了一些久远的枪声、脚步声与叫喊声。\n这些声音他这些年来从未仔细听过，但似乎始终在他耳边缠绕着。",
+        "x": 3210,
+        "y": 863,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 260,
+        "manualSize": true,
+        "width": 440
+      },
+      {
+        "id": "n80",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1360,
+        "y": 80,
+        "choices": [
+          "看着炉火",
+          "看看屋子"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_20",
+            "label": "看着炉火",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_21",
+            "label": "看看屋子",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n81",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3800,
+        "y": 434,
+        "choices": [
+          "继续盯着炉火",
+          "看看屋子"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_22",
+            "label": "继续盯着炉火",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_23",
+            "label": "看看屋子",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 260,
+        "height": 111,
+        "manualSize": true
+      },
+      {
+        "id": "n82",
+        "type": "Content",
+        "title": "Content",
+        "body": "声音远去了，天黑了下来。\n红色的范围越来越大，占据了整个视野。\n程靖霖伸出双手，炉圈上的水壶喷出白色的蒸汽。占据视野的红色与弥漫的白雾之间，是他自己瘦骨支楞的双手。\n黑色掺进了红色，像血和泥。",
+        "x": 4210,
+        "y": 1274,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 231,
+        "manualSize": true,
+        "width": 440
+      },
+      {
+        "id": "n83",
+        "type": "End",
+        "title": "End",
+        "body": "死亡结局：\n故事结束在第一天。\n屋内烧铁炉要注意通风。否则就会死于煤气中毒。",
+        "x": 4090,
+        "y": 1917,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n84",
+        "type": "Content",
+        "title": "疑问部分",
+        "body": "1、如果我想让玩家反复选择一个选项之后达成某种结果，该如何进行？\n2、如何在内容里设计势力值的变量？",
+        "x": 140,
+        "y": 4656,
+        "height": 145,
+        "manualSize": true,
+        "width": 440
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n27",
+        "to": "n28",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n28",
+        "to": "n29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n49",
+        "to": "n50",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l57",
+        "from": "n4",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l59",
+        "from": "n6",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l60",
+        "from": "n55",
+        "to": "n56",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "看黄铜戥子",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l61",
+        "from": "n55",
+        "to": "n57",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "看药剪",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l62",
+        "from": "n55",
+        "to": "n58",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "看包药纸",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n55",
+        "to": "n59",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 3,
+        "label": "看小刀",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n55",
+        "to": "n60",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 4,
+        "label": "看麻绳",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n56",
+        "to": "n55",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l66",
+        "from": "n57",
+        "to": "n55",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l67",
+        "from": "n58",
+        "to": "n55",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l68",
+        "from": "n59",
+        "to": "n55",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l69",
+        "from": "n60",
+        "to": "n55",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l70",
+        "from": "n55",
+        "to": "n10",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 5,
+        "label": "背后有什么声音传来",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l71",
+        "from": "n12",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l72",
+        "from": "n14",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l73",
+        "from": "n17",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l74",
+        "from": "n20",
+        "to": "n23",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l75",
+        "from": "n23",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l76",
+        "from": "n61",
+        "to": "n62",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 0,
+        "label": "县城",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l77",
+        "from": "n61",
+        "to": "n63",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 1,
+        "label": "煤",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l78",
+        "from": "n61",
+        "to": "n64",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 2,
+        "label": "粮食",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l79",
+        "from": "n61",
+        "to": "n65",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 3,
+        "label": "礼物？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l80",
+        "from": "n62",
+        "to": "n61",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l81",
+        "from": "n63",
+        "to": "n61",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l82",
+        "from": "n64",
+        "to": "n61",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l83",
+        "from": "n65",
+        "to": "n61",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l84",
+        "from": "n61",
+        "to": "n25",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 4,
+        "label": "都问过一遍之后",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l85",
+        "from": "n25",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l86",
+        "from": "n29",
+        "to": "n66",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l87",
+        "from": "n66",
+        "to": "n67",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 0,
+        "label": "是，这就去",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l88",
+        "from": "n66",
+        "to": "n68",
+        "choiceOptionId": "opt_13",
+        "choiceIndex": 1,
+        "label": "外面太冷了，我不去",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l89",
+        "from": "n68",
+        "to": "n69",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l90",
+        "from": "n66",
+        "to": "n70",
+        "choiceOptionId": "opt_14",
+        "choiceIndex": 2,
+        "label": "你自己咋不去",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l91",
+        "from": "n70",
+        "to": "n71",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l92",
+        "from": "n71",
+        "to": "n66",
+        "toPort": {
+          "side": "bottom",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l93",
+        "from": "n69",
+        "to": "n66",
+        "toPort": {
+          "side": "bottom",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l94",
+        "from": "n67",
+        "to": "n72",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l95",
+        "from": "n72",
+        "to": "n73",
+        "choiceOptionId": "opt_17",
+        "choiceIndex": 2,
+        "label": "是不是这几天街面上不太平？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l96",
+        "from": "n72",
+        "to": "n74",
+        "choiceOptionId": "opt_16",
+        "choiceIndex": 1,
+        "label": "人家会给我什么？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l97",
+        "from": "n72",
+        "to": "n75",
+        "choiceOptionId": "opt_15",
+        "choiceIndex": 0,
+        "label": "送药时的注意事项？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l99",
+        "from": "n76",
+        "to": "n77",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l100",
+        "from": "n77",
+        "to": "n78",
+        "choiceOptionId": "opt_18",
+        "choiceIndex": 0,
+        "label": "有些闷",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l101",
+        "from": "n2",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l102",
+        "from": "n77",
+        "to": "n79",
+        "choiceOptionId": "opt_19",
+        "choiceIndex": 1,
+        "label": "想起了什么",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l103",
+        "from": "n0",
+        "to": "n80",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l104",
+        "from": "n80",
+        "to": "n76",
+        "choiceOptionId": "opt_20",
+        "choiceIndex": 0,
+        "label": "看着炉火",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l105",
+        "from": "n80",
+        "to": "n2",
+        "choiceOptionId": "opt_21",
+        "choiceIndex": 1,
+        "label": "看看屋子",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l106",
+        "from": "n78",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l107",
+        "from": "n79",
+        "to": "n81",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l108",
+        "from": "n81",
+        "to": "n2",
+        "choiceOptionId": "opt_23",
+        "choiceIndex": 1,
+        "label": "看看屋子",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l109",
+        "from": "n81",
+        "to": "n82",
+        "choiceOptionId": "opt_22",
+        "choiceIndex": 0,
+        "label": "继续盯着炉火",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l110",
+        "from": "n82",
+        "to": "n83",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l111",
+        "from": "n75",
+        "to": "n72",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l112",
+        "from": "n74",
+        "to": "n72",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l113",
+        "from": "n73",
+        "to": "n72",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l114",
+        "from": "n72",
+        "to": "n38",
+        "choiceOptionId": "opt_24",
+        "choiceIndex": 3,
+        "label": "都问过一遍",
+        "toPort": {
+          "side": "top",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l115",
+        "from": "n39",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l117",
+        "from": "n50",
+        "to": "n54",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l118",
+        "from": "n43",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 425.103305785124,
+      "y": 33.93667824943651,
+      "scale": 0.2253944402704733
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

@@ -494,8 +494,8 @@
         "type": "Entry",
         "title": "Start",
         "body": "Adventure Begins",
-        "x": -179,
-        "y": 82,
+        "x": 140,
+        "y": 80,
         "choices": [],
         "customFields": {},
         "ports": {
@@ -515,8 +515,8 @@
         "type": "Content",
         "title": "Content",
         "body": "通兰县城东南区域的平房群落里，多得是七弯八绕的小巷子。老佟家车马店从大道上走也能到，但是从平房后面走显然更快。\n程靖霖从药房出来，拐进小胡同里，走过一片他从小就记得没人住的破烂房子，再向东拐个弯，在寒风里很快就望见了老佟家车马店的后身。\n大伙儿都叫惯了它大车店，这里是南来北往的把式们歇脚打尖，以及交换消息的地方。把式们都有着自己的一身本领，走南闯北——人人都有明面上的买卖，人人都有暗地里的生意。老佟家的老掌柜佟三爷原本也是走江湖的人，后来在东大道旁边安了家，开了这爿车马店。老头年纪大了之后，把生意交给儿子佟立春打理，其实很多关系还是维系在老头子身上——三教九流，各色人等，有时候也只有阅历足够的老头子才能应付。\n程靖霖把手揣在怀里，顺着小道急走，忽然间眼前被一个铁塔也似的黑影笼罩。那个庞大的身躯堵住了窄小的道路，居高临下地在寒风里站着。",
-        "x": 168,
-        "y": -58,
+        "x": 770,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -530,16 +530,17 @@
             "t": 0.5
           }
         },
-        "width": 709,
-        "height": 375
+        "width": 440,
+        "height": 717,
+        "manualSize": true
       },
       {
         "id": "n3",
         "type": "Dialog",
         "title": "李大个子",
         "body": "李大个子: “你是谁？”",
-        "x": 1016,
-        "y": 40,
+        "x": 1360,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -559,16 +560,17 @@
             "line": "“你是谁？”"
           }
         ],
-        "width": 425,
-        "height": 175
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n4",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖耸然抬头，认出这是老佟家的看院子伙计，李大个子。他一直在院里，劈柴、喂马、收拾杂务，偶尔也替掌柜佟立春跑跑外边。南来北往的把式们，多半是来到门口吆喝一声，看到李大个子便仿佛见到了故人。程靖霖赶紧回答道：",
-        "x": 1548,
-        "y": 31,
+        "x": 1950,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -582,16 +584,17 @@
             "t": 0.5
           }
         },
-        "width": 515,
-        "height": 200
+        "width": 440,
+        "height": 231,
+        "manualSize": true
       },
       {
         "id": "n5",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “老李大哥，我是药店小程子。掌柜的说大车店有人染了风寒，我来送药了。”",
-        "x": 2190,
-        "y": 44,
+        "x": 2540,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -611,16 +614,17 @@
             "line": "“老李大哥，我是药店小程子。掌柜的说大车店有人染了风寒，我来送药了。”"
           }
         ],
-        "width": 513,
-        "height": 212
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n6",
         "type": "Content",
         "title": "Content",
         "body": "李大个子面无表情，他看了看程靖霖，侧了侧身，让出空间。",
-        "x": 2810,
-        "y": 53,
+        "x": 3130,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -634,16 +638,17 @@
             "t": 0.5
           }
         },
-        "width": 558,
-        "height": 184
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n7",
         "type": "Dialog",
         "title": "李大个子",
         "body": "李大个子: “快去。”",
-        "x": 3470,
-        "y": 49,
+        "x": 3720,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -663,16 +668,17 @@
             "line": "“快去。”"
           }
         ],
-        "width": 511,
-        "height": 199
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n8",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖低头从他身边走过，车马店后门的小门已经打开，他闪身进去，走过院子，敲响屋门。\n门从里面被打开了，一股热气从屋子里冲出，不到四十岁的掌柜佟立春站在门口，身穿皮袍，戴着一顶小帽，是一个有些狡猾和市侩气的生意人。他看看程靖霖。",
-        "x": 4099,
-        "y": 58,
+        "x": 3680,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -686,16 +692,17 @@
             "t": 0.5
           }
         },
-        "width": 573,
-        "height": 184
+        "width": 440,
+        "height": 260,
+        "manualSize": true
       },
       {
         "id": "n9",
         "type": "Dialog",
         "title": "佟立春",
         "body": "佟立春: “程先生让你来的？快进来。”",
-        "x": 4878,
-        "y": 105,
+        "x": 3090,
+        "y": 1288,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -715,16 +722,17 @@
             "line": "“程先生让你来的？快进来。”"
           }
         ],
-        "width": 511,
-        "height": 192
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n10",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖赶紧闪身进屋关上门，留住屋里的暖和劲。他打量着大车店里，往日喧哗热闹的堂屋，今天看起来有些冷清，大炕上躺着一个把式，似乎睡着了——另一个把式正坐在他的旁边，满脸担忧。佟立春站在程靖霖的身后，嘴里嘀咕着：",
-        "x": 5501,
-        "y": 95,
+        "x": 2500,
+        "y": 1276,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -738,16 +746,17 @@
             "t": 0.5
           }
         },
-        "width": 553,
-        "height": 199
+        "width": 440,
+        "height": 231,
+        "manualSize": true
       },
       {
         "id": "n11",
         "type": "Dialog",
         "title": "佟立春",
         "body": "佟立春: “今年啊，真是邪了门了。赶到年前，也没几个把式出来跑，往年这时候店里都住满人了。”",
-        "x": 6180,
-        "y": 87,
+        "x": 1910,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -767,16 +776,17 @@
             "line": "“今年啊，真是邪了门了。赶到年前，也没几个把式出来跑，往年这时候店里都住满人了。”"
           }
         ],
-        "width": 525,
-        "height": 210
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n12",
         "type": "Content",
         "title": "Content",
         "body": "躺着的车把式呻吟起来，坐着的那个点着了烟袋，回应着佟立春的话：",
-        "x": 6800,
-        "y": -116,
+        "x": 1910,
+        "y": 1304,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -790,16 +800,17 @@
             "t": 0.5
           }
         },
-        "width": 529,
-        "height": 193
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n13",
         "type": "Dialog",
         "title": "张老大",
         "body": "张老大: “佟掌柜，您也不看看今年是什么德行！前年就算管得严，多少还有点山货可以倒腾。现在呢？这也军用，那也军用，什么都不给老百姓。我们这帮赶大车的，还能干什么呢？人吃马喂的，哪样不是钱？再说了，光有钱有什么用？”",
-        "x": 7443,
-        "y": -137,
+        "x": 1320,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -819,16 +830,17 @@
             "line": "“佟掌柜，您也不看看今年是什么德行！前年就算管得严，多少还有点山货可以倒腾。现在呢？这也军用，那也军用，什么都不给老百姓。我们这帮赶大车的，还能干什么呢？人吃马喂的，哪样不是钱？再说了，光有钱有什么用？”"
           }
         ],
-        "width": 544,
-        "height": 234
+        "width": 440,
+        "height": 211,
+        "manualSize": true
       },
       {
         "id": "n14",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖听着他们的抱怨，没应声，走到躺倒的把式跟前，伸手摸了摸他的额头，有些烫手。他从怀里掏出药包，看向抽烟的把式和佟立春：",
-        "x": 8087,
-        "y": -129,
+        "x": 730,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -842,16 +854,17 @@
             "t": 0.5
           }
         },
-        "width": 544,
-        "height": 218
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n15",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “这药……”",
-        "x": 8740,
-        "y": -132,
+        "x": 140,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -871,16 +884,17 @@
             "line": "“这药……”"
           }
         ],
-        "width": 518,
-        "height": 237
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n16",
         "type": "Content",
         "title": "Content",
         "body": "佟立春走到程靖霖面前，伸手拿过药包说：",
-        "x": 9425,
-        "y": -139,
+        "x": 140,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -894,16 +908,17 @@
             "t": 0.5
           }
         },
-        "width": 525,
-        "height": 203
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n17",
         "type": "Dialog",
         "title": "佟立春",
         "body": "佟立春: “给我吧，我让灶下给煎一下。”",
-        "x": 10120,
-        "y": -105,
+        "x": 730,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -923,16 +938,17 @@
             "line": "“给我吧，我让灶下给煎一下。”"
           }
         ],
-        "width": 468,
-        "height": 209
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n18",
         "type": "Content",
         "title": "Content",
         "body": "他向抽烟的把式努努嘴：",
-        "x": 10713,
-        "y": -102,
+        "x": 1320,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -946,16 +962,17 @@
             "t": 0.5
           }
         },
-        "width": 559,
-        "height": 194
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n19",
         "type": "Dialog",
         "title": "佟立春",
         "body": "佟立春: “药钱找张老大结。”",
-        "x": 11410,
-        "y": -116,
+        "x": 1910,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -975,16 +992,17 @@
             "line": "“药钱找张老大结。”"
           }
         ],
-        "width": 505,
-        "height": 225
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n20",
         "type": "Content",
         "title": "Content",
         "body": "说着便走出了堂屋。程靖霖回头看了看愁眉不展地抽着小烟袋的张老大。把式的脸上深深的皱纹仿佛沟壑纵横，他抬起头盯着小伙计说：",
-        "x": 12048,
-        "y": -123,
+        "x": 2500,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -998,16 +1016,17 @@
             "t": 0.5
           }
         },
-        "width": 533,
-        "height": 202
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n21",
         "type": "Dialog",
         "title": "张老大",
         "body": "张老大: “小老弟，钱不凑手，我明儿还得送这兄弟回去。这样，我给你拿点东西，你跟程先生说一声，说张老大张把式下回带现钱来，赎这玩意儿，这就算个小押。”",
-        "x": 12720,
-        "y": -92,
+        "x": 3090,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1027,16 +1046,17 @@
             "line": "“小老弟，钱不凑手，我明儿还得送这兄弟回去。这样，我给你拿点东西，你跟程先生说一声，说张老大张把式下回带现钱来，赎这玩意儿，这就算个小押。”"
           }
         ],
-        "width": 523,
-        "height": 236
+        "width": 440,
+        "height": 185,
+        "manualSize": true
       },
       {
         "id": "n22",
         "type": "Content",
         "title": "Content",
         "body": "张老大叼着烟袋，一只手伸进黑棉袄深处，掏出一只小布袋，将袋子小心地在炕面上铺平，又掏出一根系了红绳的人参，放在布袋上。他望了望程靖霖说：",
-        "x": 13389,
-        "y": -104,
+        "x": 3680,
+        "y": 1730,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1050,16 +1070,17 @@
             "t": 0.5
           }
         },
-        "width": 546,
-        "height": 216
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n23",
         "type": "Dialog",
         "title": "张老大",
         "body": "张老大: “五两多，顶这个药钱，绰绰有余。这年头，能保命的东西不多啦。”",
-        "x": 14035,
-        "y": -82,
+        "x": 3640,
+        "y": 2134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1079,16 +1100,17 @@
             "line": "“五两多，顶这个药钱，绰绰有余。这年头，能保命的东西不多啦。”"
           }
         ],
-        "width": 539,
-        "height": 206
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n24",
         "type": "Content",
         "title": "Content",
         "body": "他又掏出几张皱巴巴的“老头钱”（中银券），也扔在炕上，对程靖霖说：",
-        "x": 14742,
-        "y": -13,
+        "x": 3050,
+        "y": 2134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1102,16 +1124,17 @@
             "t": 0.5
           }
         },
-        "width": 509,
-        "height": 171
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n25",
         "type": "Dialog",
         "title": "张老大",
         "body": "张老大: “现钱，就这点，勉强顶药钱。你拿钱走，我也得把这根参抵给佟掌柜的，我揣了它一年多，今天到底是要离开我啦。”",
-        "x": 15402,
-        "y": -13,
+        "x": 2460,
+        "y": 2134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1131,16 +1154,17 @@
             "line": "“现钱，就这点，勉强顶药钱。你拿钱走，我也得把这根参抵给佟掌柜的，我揣了它一年多，今天到底是要离开我啦。”"
           }
         ],
-        "width": 437,
-        "height": 209
+        "width": 440,
+        "height": 158,
+        "manualSize": true
       },
       {
         "id": "n26",
         "type": "Choice",
         "title": "Choice",
         "body": "拿什么抵药钱？",
-        "x": 15974,
-        "y": -31,
+        "x": 1910,
+        "y": 2134,
         "choices": [
           "上前拿起人参",
           "上前拿起钱"
@@ -1196,8 +1220,8 @@
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “那我就拿这个了，张老大，您多担待。”",
-        "x": 16554,
-        "y": -167,
+        "x": 1320,
+        "y": 2134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1217,8 +1241,8 @@
             "line": "“那我就拿这个了，张老大，您多担待。”"
           }
         ],
-        "width": 488,
-        "height": 206,
+        "width": 440,
+        "height": 106,
         "stateLogic": {
           "requirements": "",
           "requirementsMode": "all",
@@ -1230,15 +1254,16 @@
               "value": "true"
             }
           ]
-        }
+        },
+        "manualSize": true
       },
       {
         "id": "n28",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “那我就拿这个了，张老大，您多担待。”",
-        "x": 16543,
-        "y": 132,
+        "x": 1320,
+        "y": 2341,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1258,8 +1283,8 @@
             "line": "“那我就拿这个了，张老大，您多担待。”"
           }
         ],
-        "width": 523,
-        "height": 202,
+        "width": 440,
+        "height": 106,
         "stateLogic": {
           "requirements": "",
           "requirementsMode": "all",
@@ -1271,15 +1296,16 @@
               "value": "true"
             }
           ]
-        }
+        },
+        "manualSize": true
       },
       {
         "id": "n29",
         "type": "Content",
         "title": "Content",
         "body": "张老大重新端起烟袋，烟锅里的火星忽明忽暗。他重又低下头去，吧嗒吧嗒地抽着烟，挥挥手说：",
-        "x": 17176,
-        "y": -8,
+        "x": 730,
+        "y": 2134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1293,16 +1319,17 @@
             "t": 0.5
           }
         },
-        "width": 556,
-        "height": 208
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n30",
         "type": "Dialog",
         "title": "张老大",
         "body": "张老大: “老弟，回去吧。回去跟程先生带个好。”",
-        "x": 17823,
-        "y": 9,
+        "x": 140,
+        "y": 2134,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1322,16 +1349,17 @@
             "line": "“老弟，回去吧。回去跟程先生带个好。”"
           }
         ],
-        "width": 460,
-        "height": 177
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n31",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖应了一声，重又从后门出来。他望见前院里的爬犁和几匹瘦马，还有院子里寡淡的货品。佟立春背着手站在门前，看了看他，咳嗽一声，给他打开屋门。\n",
-        "x": 18348,
-        "y": -10,
+        "x": 140,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1345,16 +1373,17 @@
             "t": 0.5
           }
         },
-        "width": 644,
-        "height": 214
+        "width": 440,
+        "height": 202,
+        "manualSize": true
       },
       {
         "id": "n1",
         "type": "Content",
         "title": "Content",
         "body": "佟立春站在车边，看见程靖霖，他先是一愣，随即嘀咕起来。",
-        "x": 4852,
-        "y": -165,
+        "x": 3090,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1368,16 +1397,17 @@
             "t": 0.48944772667143926
           }
         },
-        "width": 344,
-        "height": 175
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n2",
         "type": "Dialog",
         "title": "Dialog",
         "body": "佟立春: “昨儿这兄弟烧了一宿，药今儿才到？——再晚半日，人就得抬出去了。”",
-        "x": 5268,
-        "y": -203,
+        "x": 2500,
+        "y": 1069,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1391,8 +1421,8 @@
             "t": 0.5767573410956282
           }
         },
-        "width": 401,
-        "height": 217,
+        "width": 440,
+        "height": 106,
         "turns": [
           {
             "speaker": "佟立春",
@@ -1404,15 +1434,16 @@
             "characterId": "gc-佟立春",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n32",
         "type": "Content",
         "title": "Content",
         "body": "天色将晚，大车店的院门在身后关上。程靖霖吸入冰冷的空气，在小巷子中歪歪扭扭地走回到药房。大车店里带出来的热气很快被黑夜吞噬。他走回到药房前脸，没有迟疑便推开了屋门。黑色的棉门帘子撩起又放下，这一天便也如同这沉重的门帘一样，落到了地上。",
-        "x": 19209,
-        "y": 158,
+        "x": 730,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1426,16 +1457,17 @@
             "t": 0.5
           }
         },
-        "width": 400,
-        "height": 212
+        "width": 440,
+        "height": 260,
+        "manualSize": true
       },
       {
         "id": "n33",
         "type": "Content",
         "title": "Content",
         "body": "日头正高，大车店的院门在身后关上。程靖霖吸入冰冷的空气，在小巷子中歪歪扭扭地走回到药房。大车店里逮出来的热气很快被寒风吞掉。他走回到药房前脸，没有迟疑便推开了屋门。\n屋里炉火压着小火，暖意不多。程时一坐在柜台后头，看见他进来，把账本合上。",
-        "x": 19199,
-        "y": -240,
+        "x": 730,
+        "y": 3034,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1449,16 +1481,17 @@
             "t": 0.5
           }
         },
-        "width": 431,
-        "height": 234
+        "width": 440,
+        "height": 260,
+        "manualSize": true
       },
       {
         "id": "n34",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: “回来了。洗手，吃饭。”\n程靖霖: “是，掌柜的。”",
-        "x": 19758,
-        "y": -218,
+        "x": 1320,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1492,16 +1525,17 @@
             "role": "Speaker"
           }
         ],
-        "width": 344,
-        "height": 213
+        "width": 440,
+        "height": 125,
+        "manualSize": true
       },
       {
         "id": "n35",
         "type": "Content",
         "title": "Content",
         "body": "程晓梅在灶间探出头，看见他，笑了一下，转身去端饭。两只粗瓷碗，一碗稠一点的，一碗稀一点的。稠的放程靖霖面前，稀的自己端了。",
-        "x": 20185,
-        "y": -227,
+        "x": 1910,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1515,16 +1549,17 @@
             "t": 0.43517366293676035
           }
         },
-        "width": 376,
-        "height": 199
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n36",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖把一只小布袋放在柜台上，解开，露出一根系着红绳的人参。",
-        "x": 20804,
-        "y": -328,
+        "x": 2500,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1538,16 +1573,17 @@
             "t": 0.5043937487479968
           }
         },
-        "width": 349,
-        "height": 195
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n37",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖把一卷皱巴巴的老头票放在桌上，看向程时一。",
-        "x": 20822,
-        "y": -22,
+        "x": 2500,
+        "y": 2877,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1561,16 +1597,17 @@
             "t": 0.45816864838471283
           }
         },
-        "width": 337,
-        "height": 167
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n38",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: “张老大抵的药钱。他说，钱不凑手。”",
-        "x": 21264,
-        "y": -323,
+        "x": 3090,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1596,16 +1633,17 @@
             "role": "Speaker"
           }
         ],
-        "width": 376,
-        "height": 199
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n39",
         "type": "Content",
         "title": "Content",
         "body": "程时一拿起人参，在手里掂了掂，又看了看成色。",
-        "x": 21711,
-        "y": -304,
+        "x": 3680,
+        "y": 2658,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1619,16 +1657,17 @@
             "t": 0.5
           }
         },
-        "width": 360,
-        "height": 150
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n40",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: “五两多，好东西。”",
-        "x": 22127,
-        "y": -325,
+        "x": 2500,
+        "y": 3520,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1654,16 +1693,17 @@
             "role": "Speaker"
           }
         ],
-        "width": 287,
-        "height": 173
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n41",
         "type": "Content",
         "title": "Content",
         "body": "他把人参放回布袋，收进柜台。",
-        "x": 22472,
-        "y": -299,
+        "x": 1910,
+        "y": 3520,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1676,15 +1716,18 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "height": 90,
+        "manualSize": true,
+        "width": 440
       },
       {
         "id": "n42",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: “坐下，先吃饭。”",
-        "x": 22809,
-        "y": -341,
+        "x": 1320,
+        "y": 3520,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1710,16 +1753,17 @@
             "role": "Speaker"
           }
         ],
-        "width": 318,
-        "height": 175
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n43",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: “掌柜的，药钱，张老大结的。”",
-        "x": 21247,
-        "y": -27,
+        "x": 3090,
+        "y": 2865,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1733,8 +1777,8 @@
             "t": 0.5
           }
         },
-        "width": 371,
-        "height": 233,
+        "width": 440,
+        "height": 90,
         "turns": [
           {
             "speaker": "程靖霖",
@@ -1746,15 +1790,16 @@
             "characterId": "gc-程靖霖",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n44",
         "type": "Content",
         "title": "Content",
         "body": "程时一点了点头，并未接话。",
-        "x": 21714,
-        "y": 52,
+        "x": 3680,
+        "y": 2877,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1767,15 +1812,18 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "height": 90,
+        "manualSize": true,
+        "width": 440
       },
       {
         "id": "n45",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: “坐下，先吃饭。”",
-        "x": 22070,
-        "y": 15,
+        "x": 2500,
+        "y": 3709,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1801,16 +1849,17 @@
             "role": "Speaker"
           }
         ],
-        "width": 353,
-        "height": 196
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n46",
         "type": "Content",
         "title": "Content",
         "body": "三个人围着桌子坐定。碗里是稀溜溜的协和面糊糊，桌上一碗熬酸菜。程靖霖看到掌柜的端起碗，便也跟着拿起筷子。\n就在此时，门外响起急促的敲门声。咚咚咚。\n还没等人应，又响了两下更大的声音，砰砰。\n屋里端着饭碗的三个人互相看了一眼。\n门外传来生硬的协和语，不耐烦地叫着。",
-        "x": 23351,
-        "y": -64,
+        "x": 1910,
+        "y": 3709,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1824,16 +1873,17 @@
             "t": 0.5
           }
         },
-        "width": 414,
-        "height": 305
+        "width": 440,
+        "height": 317,
+        "manualSize": true
       },
       {
         "id": "n47",
         "type": "Dialog",
         "title": "Dialog",
         "body": "未知: “开门！太君来了！”",
-        "x": 23834,
-        "y": 6,
+        "x": 1320,
+        "y": 3709,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1853,16 +1903,17 @@
             "line": "“开门！太君来了！”"
           }
         ],
-        "width": 332,
-        "height": 193
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n48",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖站起来。他看一眼程时一，掌柜的扶着桌沿，慢慢站起。他便走向门口，拉开门板，日头照进来，门口站着三个人。\n前头那个穿着警尉的制服，脸上挂着笑。程靖霖认出这是刚见过面的中野警尉。\n他身后是一个翻译，一个警察。\n程时一站在门口，微微低了低头。",
-        "x": 24244,
-        "y": -21,
+        "x": 730,
+        "y": 3520,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1876,16 +1927,17 @@
             "t": 0.5
           }
         },
-        "width": 374,
-        "height": 247
+        "width": 440,
+        "height": 260,
+        "manualSize": true
       },
       {
         "id": "n49",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: “太君，屋里请。”",
-        "x": 24701,
-        "y": 38,
+        "x": 140,
+        "y": 3520,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1905,14 +1957,15 @@
             "line": "“太君，屋里请。”"
           }
         ],
-        "width": 361,
-        "height": 187,
+        "width": 440,
+        "height": 90,
         "cast": [
           {
             "characterId": "gc-程时一",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       }
     ],
     "links": [
@@ -2201,9 +2254,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 227,
-      "y": 389,
-      "scale": 1
+      "x": 818.710751785197,
+      "y": 374.65444437055135,
+      "scale": 0.22539444027047362
     },
     "sidebar": {
       "leftWidth": 280,

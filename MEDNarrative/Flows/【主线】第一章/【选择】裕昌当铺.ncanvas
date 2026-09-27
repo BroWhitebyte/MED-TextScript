@@ -667,8 +667,8 @@
         "type": "Entry",
         "title": "Start",
         "body": "Adventure Begins",
-        "x": -230,
-        "y": 68,
+        "x": 140,
+        "y": 80,
         "choices": [],
         "customFields": {},
         "ports": {
@@ -688,8 +688,8 @@
         "type": "Content",
         "title": "Content",
         "body": "从药房的正门出去，拐上南大街，程靖霖回到了昨天的老路上。他将手揣在怀里，想起夜色降临前见到的王裕昌。穷人的活路越走越窄，富人似乎也并没有好多少。这康德九年的艰难日子，莫非跟穷富没什么关系？\n小广场上的绞架依旧在寒风中矗立，那具尸体在寒风中轻轻摇晃着。街道上依旧没什么人，偶尔有一两个行人经过，看到那具尸体，便不由自主地加快脚步。\n程靖霖慢慢地穿过小广场，目光在那具尸体上稍微停留了一下。死人不需要保暖，枯瘦的尸体上除了一条破裤子外便一无所有，冻结住的眼白漫无目的地望着脚下。寒风吹过，木架发出干涩的声响，绳索慢慢转动着，尸体的眼睛便这样轮流扫过四条大道。\n程靖霖把手揣得更深了一些，从小广场旁走过，面前就是裕昌当铺。这间当铺在县城里开了快二十年——民国初年就有，等到九一八之后，一批铺子倒掉，一批铺子转手，这裕昌当铺却是没有任何变化，前几年还红火过一阵子。\n当铺的两扇黑漆大门已经显得有些陈旧，但仍颇为气派。里面是青砖底脚、木梁、厚门板和高柜台的老式铺面，牌匾旧，边角起皮，门槛高，冬天门鼻和锁鼻都冻得粘手。\n程靖霖走到侧门前，握住门环，叩打了三下门面。",
-        "x": 70,
-        "y": -105,
+        "x": 770,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -703,16 +703,17 @@
             "t": 0.5
           }
         },
-        "width": 653,
-        "height": 447
+        "width": 440,
+        "height": 917,
+        "manualSize": true
       },
       {
         "id": "n4",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “来了！”",
-        "x": 813,
-        "y": -34,
+        "x": 1360,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -732,16 +733,17 @@
             "line": "“来了！”"
           }
         ],
-        "width": 513,
-        "height": 312
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n5",
         "type": "Content",
         "title": "Content",
         "body": "一阵急促的脚步声，一个面相白净的男子打开了门，他头戴瓜皮帽，身穿长棉袍，是这裕昌当铺的二柜王吉来。他是王裕昌的堂弟，也是整个当铺里有门面的人。平时王裕昌不在，他便料理这当铺上下的买卖，盘点营生，代押小押，与人来往。有时候，富家也有过桥的时候，他便上门去给人家处理事情。\n王吉来看到门口站着的程靖霖，脸上立刻挂起了笑容。",
-        "x": 1458,
-        "y": -17,
+        "x": 1950,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -755,16 +757,17 @@
             "t": 0.5
           }
         },
-        "width": 556,
-        "height": 261
+        "width": 440,
+        "height": 345,
+        "manualSize": true
       },
       {
         "id": "n6",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “哎哟，程子，快进来暖和一下。大冷天跑一趟，辛苦啦！要不是公子病了，也不能劳烦程先生。”",
-        "x": 2165,
-        "y": 174,
+        "x": 2540,
+        "y": 446,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -784,16 +787,17 @@
             "line": "“哎哟，程子，快进来暖和一下。大冷天跑一趟，辛苦啦！要不是公子病了，也不能劳烦程先生。”"
           }
         ],
-        "width": 550,
-        "height": 277
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n7",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖向王吉来施礼，钻进了当铺正房。他环顾四周，看到锃亮的柜台与前屋的洋铁皮炉子，以及弥漫在空气里若有若无的一丝萧条气味。",
-        "x": 2827,
-        "y": 29,
+        "x": 3130,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -807,16 +811,17 @@
             "t": 0.5
           }
         },
-        "width": 573,
-        "height": 235
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n8",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “先生，最近生意怎样？”\n王吉来: “大掌柜这两天跑上跑下的，我们也不知道在办什么事，但今年呐，多半是不如往年。”",
-        "x": 3491,
-        "y": 20,
+        "x": 3720,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -840,8 +845,8 @@
             "line": "“大掌柜这两天跑上跑下的，我们也不知道在办什么事，但今年呐，多半是不如往年。”"
           }
         ],
-        "width": 517,
-        "height": 249,
+        "width": 440,
+        "height": 178,
         "cast": [
           {
             "characterId": "gc-程靖霖",
@@ -851,15 +856,16 @@
             "characterId": "gc-王吉来",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n10",
         "type": "Content",
         "title": "Content",
         "body": "他看着程靖霖从怀里取出药包。",
-        "x": 4133,
-        "y": 48,
+        "x": 4310,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -873,16 +879,17 @@
             "t": 0.5
           }
         },
-        "width": 486,
-        "height": 195
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n11",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “若是以往，王小得了病，大掌柜哪会把宝贝儿子扔在家里，出门去应酬！你看看，今天这上上下下，就只能我来料理。”\n程靖霖: “先生，这是给公子的风寒药。药包里有煎药的法子，老样子，您给灶下就得。”",
-        "x": 4731,
-        "y": 11,
+        "x": 4900,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -906,8 +913,8 @@
             "line": "“先生，这是给公子的风寒药。药包里有煎药的法子，老样子，您给灶下就得。”"
           }
         ],
-        "width": 496,
-        "height": 261,
+        "width": 440,
+        "height": 257,
         "cast": [
           {
             "characterId": "gc-王吉来",
@@ -917,15 +924,16 @@
             "characterId": "gc-程靖霖",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n13",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖将药包双手交给王吉来，犹疑了一下。",
-        "x": 5373,
-        "y": 3,
+        "x": 5490,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -939,16 +947,17 @@
             "t": 0.5
           }
         },
-        "width": 476,
-        "height": 274
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n14",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “公子怎么就偶染风寒了？这几天也没见他出来溜达。”\n王吉来: “那谁知道呢？”",
-        "x": 5942,
-        "y": 4,
+        "x": 6080,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -972,8 +981,8 @@
             "line": "“那谁知道呢？”"
           }
         ],
-        "width": 589,
-        "height": 249,
+        "width": 440,
+        "height": 152,
         "cast": [
           {
             "characterId": "gc-程靖霖",
@@ -983,15 +992,16 @@
             "characterId": "gc-王吉来",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n16",
         "type": "Content",
         "title": "Content",
         "body": "王吉来打着哈哈，接过药包，拿出老头票纸钞，递给程靖霖。他掂量着药包，却并未立即送客。\n过了半晌。",
-        "x": 6666,
-        "y": 36,
+        "x": 6670,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1005,16 +1015,17 @@
             "t": 0.5
           }
         },
-        "width": 505,
-        "height": 195
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n17",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “老先生不能出诊，小先生帮忙看看也行啊。小程先生，您要是不急的话，看看公子的病情如何？大掌柜爱子如命，我也怕他心神不宁呐。”",
-        "x": 7289,
-        "y": 36,
+        "x": 7260,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1034,16 +1045,17 @@
             "line": "“老先生不能出诊，小先生帮忙看看也行啊。小程先生，您要是不急的话，看看公子的病情如何？大掌柜爱子如命，我也怕他心神不宁呐。”"
           }
         ],
-        "width": 535,
-        "height": 212
+        "width": 440,
+        "height": 158,
+        "manualSize": true
       },
       {
         "id": "n18",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖尚在犹豫，王吉来已经走在前面，引他进入内室。王小的房间在后院里，屋子里烧着个炭火盆，少年蒙着大被躺在炕上。王吉来敲门叫道：",
-        "x": 7951,
-        "y": 34,
+        "x": 7850,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1057,16 +1069,17 @@
             "t": 0.5
           }
         },
-        "width": 515,
-        "height": 191
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n19",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “少爷！我请小程先生来给您瞧瞧。”",
-        "x": 8582,
-        "y": 42,
+        "x": 8440,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1086,16 +1099,17 @@
             "line": "“少爷！我请小程先生来给您瞧瞧。”"
           }
         ],
-        "width": 463,
-        "height": 190
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n20",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖走到炕边，一低头，便和王小活泼灵动的眼神对上了。他心里便有了定数。",
-        "x": 9149,
-        "y": 46,
+        "x": 9030,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1109,16 +1123,17 @@
             "t": 0.5
           }
         },
-        "width": 499,
-        "height": 190
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n21",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “公子，我来给你把把脉。”",
-        "x": 9787,
-        "y": 42,
+        "x": 9620,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1138,16 +1153,17 @@
             "line": "“公子，我来给你把把脉。”"
           }
         ],
-        "width": 455,
-        "height": 185
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n22",
         "type": "Content",
         "title": "Content",
         "body": "王小没有吭声，只是从被窝里伸出胳膊和焐热的手。王吉来一见小程子有模有样，便远远站在门口观看。\n程靖霖把手指头搭在脉门上，感觉到有力的脉搏不像病体。",
-        "x": 10393,
-        "y": 49,
+        "x": 10210,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1161,16 +1177,17 @@
             "t": 0.5
           }
         },
-        "width": 535,
-        "height": 186
+        "width": 440,
+        "height": 202,
+        "manualSize": true
       },
       {
         "id": "n23",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “王小，为啥装病？”",
-        "x": 11087,
-        "y": 55,
+        "x": 10800,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1190,16 +1207,17 @@
             "line": "“王小，为啥装病？”"
           }
         ],
-        "width": 523,
-        "height": 186
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n24",
         "type": "Content",
         "title": "Content",
         "body": "王小的眼神垂了下去。\n半晌，他才嗫嚅了道。",
-        "x": 11709,
-        "y": 67,
+        "x": 11390,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1213,16 +1231,17 @@
             "t": 0.5
           }
         },
-        "width": 508,
-        "height": 159
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n25",
         "type": "Dialog",
         "title": "王小",
         "body": "王小: “程哥，我……不想上学。日本督学天天骂人，打人。日语我也学不懂……上学就跟进监狱差不多……”",
-        "x": 12337,
-        "y": 59,
+        "x": 11980,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1242,16 +1261,17 @@
             "line": "“程哥，我……不想上学。日本督学天天骂人，打人。日语我也学不懂……上学就跟进监狱差不多……”"
           }
         ],
-        "width": 493,
-        "height": 198
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n26",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖没有作声，只是换了个手势继续搭脉。王小的眼睛重新又抬了起来，他轻轻地说：",
-        "x": 12959,
-        "y": 56,
+        "x": 12570,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1265,16 +1285,17 @@
             "t": 0.5
           }
         },
-        "width": 558,
-        "height": 180
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n27",
         "type": "Dialog",
         "title": "王小",
         "body": "王小: “程哥，我……”",
-        "x": 13640,
-        "y": 51,
+        "x": 13160,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1294,16 +1315,17 @@
             "line": "“程哥，我……”"
           }
         ],
-        "width": 520,
-        "height": 183
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n28",
         "type": "Content",
         "title": "Content",
         "body": "王小没能把话说完。程靖霖的手指离开了他的脉门，把他的胳膊塞回到大被底下。十九岁的药房伙计站起身来，对站在门边的王吉来说道：",
-        "x": 14242,
-        "y": 51,
+        "x": 13750,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1317,16 +1339,17 @@
             "t": 0.5
           }
         },
-        "width": 534,
-        "height": 190
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       },
       {
         "id": "n29",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “先生，公子偶染风寒，问题不大，按照药方服药，几天就能痊愈。冬天冷得利害，孩子体弱，让他在家多养养，这几天就别去上学了。”",
-        "x": 14879,
-        "y": 54,
+        "x": 14340,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1346,16 +1369,17 @@
             "line": "“先生，公子偶染风寒，问题不大，按照药方服药，几天就能痊愈。冬天冷得利害，孩子体弱，让他在家多养养，这几天就别去上学了。”"
           }
         ],
-        "width": 507,
-        "height": 200
+        "width": 440,
+        "height": 158,
+        "manualSize": true
       },
       {
         "id": "n30",
         "type": "Content",
         "title": "Content",
         "body": "王吉来听罢，眉开眼笑。",
-        "x": 15495,
-        "y": 65,
+        "x": 14930,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1369,16 +1393,17 @@
             "t": 0.5
           }
         },
-        "width": 570,
-        "height": 190
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n31",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “不愧是小先生，这本事也跟老程先生差不多了！”",
-        "x": 16185,
-        "y": 49,
+        "x": 15520,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1398,16 +1423,17 @@
             "line": "“不愧是小先生，这本事也跟老程先生差不多了！”"
           }
         ],
-        "width": 524,
-        "height": 260
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n32",
         "type": "Content",
         "title": "Content",
         "body": "他笑嘻嘻地走上前，手里又多了几张老头票，塞在程靖霖手里。",
-        "x": 16797,
-        "y": 66,
+        "x": 16110,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1421,16 +1447,17 @@
             "t": 0.5
           }
         },
-        "width": 492,
-        "height": 154
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n33",
         "type": "Dialog",
         "title": "王吉来",
         "body": "王吉来: “这一趟也不白来，改天公子病好了，我再跟大掌柜说说，登门拜谢。”",
-        "x": 17468,
-        "y": 81,
+        "x": 16700,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1450,16 +1477,17 @@
             "line": "“这一趟也不白来，改天公子病好了，我再跟大掌柜说说，登门拜谢。”"
           }
         ],
-        "width": 465,
-        "height": 186
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n34",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖回头看了一眼安静的王小，谢了王吉来，跨出门去。当铺的侧门在他背后关上，王吉来那句“替我向老程先生带好”还回荡在空气中。\n天色已近黑。程靖霖吸入冰冷的空气，当铺里带出来的热气很快被黑夜吞噬。他顺着大道走回到药房前脸，没有迟疑便推开了屋门。黑色的棉门帘子撩起又放下，这一天便也如同这沉重的门帘一样，落到了地上。",
-        "x": 18051,
-        "y": 192,
+        "x": 17290,
+        "y": 707,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1473,16 +1501,17 @@
             "t": 0.5
           }
         },
-        "width": 675,
-        "height": 248
+        "width": 440,
+        "height": 345,
+        "manualSize": true
       },
       {
         "id": "n1",
         "type": "Dialog",
         "title": "Dialog",
         "body": "王吉来: “哎哟，小程先生来了！快进来暖和暖和——昨儿公子等药等了一宿，小程先生今儿才来？还以为您不来了呢。”\n程靖霖: “先生，昨儿铺子里事多，药是今早才抓好的。”\n王吉来: “来了就好，来了就好。”",
-        "x": 2163,
-        "y": -172,
+        "x": 2540,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1496,8 +1525,8 @@
             "t": 0.5544351586161206
           }
         },
-        "width": 559,
-        "height": 292,
+        "width": 440,
+        "height": 251,
         "turns": [
           {
             "speaker": "王吉来",
@@ -1521,15 +1550,16 @@
             "characterId": "gc-程靖霖",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n2",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖回头看了一眼安静的王小，谢了王吉来，跨出门去。当铺的侧门在他背后关上，王吉来那句“替我向老程先生带好”还回荡在空气中。\n日头才过晌午。程靖霖吸入冰冷的空气，当铺里带出来的热气很快被寒风吞掉。他顺着大道走回到药房前脸，没有迟疑便推开了屋门。黑色的棉门帘子撩起又放下，这一天便也如同这沉重的门帘一样，落到了地上。\n路并不远，但日头已经快到正中了。程靖霖推开药房的门，门帘掀起又落下，带进一股寒气。\n屋里炉火压着小火，暖意不多。程时一坐在柜台后头，看见他进来，把账本合上。",
-        "x": 18062,
-        "y": -143,
+        "x": 17290,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1543,16 +1573,17 @@
             "t": 0.5589553590804811
           }
         },
-        "width": 665,
-        "height": 257
+        "width": 440,
+        "height": 488,
+        "manualSize": true
       },
       {
         "id": "n3",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: “回来了。洗手，吃饭。”\n程靖霖: “是，掌柜的。”",
-        "x": 18875,
-        "y": -133,
+        "x": 17880,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1566,8 +1597,8 @@
             "t": 0.5
           }
         },
-        "width": 326,
-        "height": 231,
+        "width": 440,
+        "height": 125,
         "turns": [
           {
             "speaker": "程时一",
@@ -1587,15 +1618,16 @@
             "characterId": "gc-程靖霖",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n9",
         "type": "Content",
         "title": "Content",
         "body": "程晓梅在灶间探出头，看见他，笑了一下，转身去端饭。两只粗瓷碗，一碗稠一点的，一碗稀一点的。稠的放程靖霖面前，稀的她自己端了。\n程时一慢吞吞地起身，走到桌边坐下。\n程靖霖把一卷老头票放在柜台上。",
-        "x": 19279,
-        "y": -155,
+        "x": 18470,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1609,16 +1641,17 @@
             "t": 0.5
           }
         },
-        "width": 439,
-        "height": 282
+        "width": 440,
+        "height": 231,
+        "manualSize": true
       },
       {
         "id": "n12",
         "type": "Content",
         "title": "Content",
         "body": "三个人围着桌子坐定。碗里是稀溜溜的协和面糊糊，桌上一碗熬酸菜。程靖霖看到掌柜的端起碗，便也跟着拿起筷子。\n就在此时，门外响起急促的敲门声。咚咚咚。\n还没等人应，又响了两下更大的声音，砰砰。\n屋里端着饭碗的三个人互相看了一眼。\n门外传来生硬的协和语，不耐烦地叫着。",
-        "x": 20220,
-        "y": -163,
+        "x": 19650,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1632,16 +1665,17 @@
             "t": 0.5
           }
         },
-        "width": 441,
-        "height": 283
+        "width": 440,
+        "height": 317,
+        "manualSize": true
       },
       {
         "id": "n15",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: “当铺的药送到了，这是药钱。王吉来说，改天登门拜谢。”\n程时一: （点头）“坐下，先吃饭。”",
-        "x": 19815,
-        "y": -135,
+        "x": 19060,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1655,8 +1689,8 @@
             "t": 0.5
           }
         },
-        "width": 334,
-        "height": 240,
+        "width": 440,
+        "height": 152,
         "turns": [
           {
             "speaker": "程靖霖",
@@ -1676,15 +1710,16 @@
             "characterId": "gc-程时一",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n35",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: “开门！太君来了！”",
-        "x": 20750,
-        "y": -132,
+        "x": 20240,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1698,8 +1733,8 @@
             "t": 0.5
           }
         },
-        "width": 247,
-        "height": 191,
+        "width": 440,
+        "height": 90,
         "turns": [
           {
             "speaker": "程靖霖",
@@ -1711,15 +1746,16 @@
             "characterId": "gc-程靖霖",
             "role": "Speaker"
           }
-        ]
+        ],
+        "manualSize": true
       },
       {
         "id": "n36",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖站起来。他看一眼程时一，掌柜的扶着桌沿，慢慢站起。他便走向门口，拉开门板，日头照进来，门口站着三个人。\n前头那个穿着警尉的制服，程靖霖认出这是刚见过面的中野警尉。他身后是一个翻译，一个警察。\n程时一站在门口，微微低了低头。",
-        "x": 21071,
-        "y": -147,
+        "x": 20830,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1733,16 +1769,17 @@
             "t": 0.5
           }
         },
-        "width": 453,
-        "height": 228
+        "width": 440,
+        "height": 260,
+        "manualSize": true
       },
       {
         "id": "n37",
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: “太君，屋里请。”",
-        "x": 21616,
-        "y": -106,
+        "x": 21420,
+        "y": 80,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1767,7 +1804,10 @@
             "characterId": "gc-程靖霖",
             "role": "Speaker"
           }
-        ]
+        ],
+        "height": 90,
+        "manualSize": true,
+        "width": 440
       }
     ],
     "links": [
@@ -1978,9 +2018,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -1403.9040770399297,
-      "y": 497.7591084032812,
-      "scale": 0.29230756500000016
+      "x": 0,
+      "y": 0,
+      "scale": 0.08
     },
     "sidebar": {
       "leftWidth": 280,

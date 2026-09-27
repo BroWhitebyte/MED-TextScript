@@ -419,7 +419,7 @@
         "type": "Entry",
         "title": "Start",
         "body": "Adventure Begins",
-        "x": 80,
+        "x": 140,
         "y": 80,
         "choices": [],
         "customFields": {},
@@ -440,7 +440,7 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖端起饭碗的时候，城边还露出一点光。他看清楚碗里稀溜溜的“协和面”糊糊，不由自主地叹了口气。他想要开口说点什么，却又住了嘴：程晓梅特意给他多盛了点。",
-        "x": 140,
+        "x": 770,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -455,15 +455,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 202,
+        "manualSize": true
       },
       {
         "id": "n1",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “胃不和，卧不安。”",
-        "x": 800,
+        "x": 1360,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -484,15 +485,16 @@
             "line": "“胃不和，卧不安。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n2",
         "type": "Content",
         "title": "Content",
         "body": "程时一淡淡地说着，看了一眼程靖霖：",
-        "x": 1460,
+        "x": 1950,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -507,15 +509,16 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n3",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “有胃气则生，无胃气则亡；正气存内，邪不可干。晚上少吃，睡得安稳。”",
-        "x": 2120,
+        "x": 2540,
         "y": 80,
         "frameId": "",
         "choices": [],
@@ -536,16 +539,17 @@
             "line": "“有胃气则生，无胃气则亡；正气存内，邪不可干。晚上少吃，睡得安稳。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n4",
         "type": "Content",
         "title": "Content",
         "body": "他拿起自己的碗，把小半碗糊糊拨进程靖霖的碗里，点了点桌子：",
-        "x": 140,
-        "y": 340,
+        "x": 2500,
+        "y": 502,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -559,16 +563,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n5",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “吃吧。”",
-        "x": 800,
-        "y": 340,
+        "x": 1910,
+        "y": 502,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -588,16 +593,17 @@
             "line": "“吃吧。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n6",
         "type": "Content",
         "title": "Content",
         "body": "三个人悄然无声地吃着饭，桌上一碗熬酸菜，就是佐餐的菜了。碗筷撞击的声音停下时，天色已经完全黑了。\n晓梅点起煤油灯，收走碗筷。程时一无意识地敲着桌子，问道：",
-        "x": 1460,
-        "y": 340,
+        "x": 1320,
+        "y": 502,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -611,16 +617,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 118
+        "width": 440,
+        "height": 202,
+        "manualSize": true
       },
       {
         "id": "n7",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “霖子，你还记得自己小时候的事吗？”",
-        "x": 2120,
-        "y": 340,
+        "x": 730,
+        "y": 502,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -640,8 +647,9 @@
             "line": "“霖子，你还记得自己小时候的事吗？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n8",
@@ -649,7 +657,7 @@
         "title": "Content",
         "body": "他的声音若有若无，在灯影后变得不可捉摸。程靖霖放在膝盖上的拳头攥紧了。他低着头说：",
         "x": 140,
-        "y": 600,
+        "y": 502,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -663,16 +671,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n9",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “掌柜的，我记不大清楚了。”",
-        "x": 800,
-        "y": 600,
+        "x": 140,
+        "y": 924,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -692,16 +701,17 @@
             "line": "“掌柜的，我记不大清楚了。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n10",
         "type": "Content",
         "title": "Content",
         "body": "沉默了一会儿，他又补了一句，声音压得更低：",
-        "x": 1460,
-        "y": 600,
+        "x": 730,
+        "y": 924,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -715,16 +725,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n11",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “只记得那时候烧得厉害，迷迷糊糊的……身边好像有一个影子，一直在。可那是谁，我是一点都想不起来了。”",
-        "x": 2120,
-        "y": 600,
+        "x": 1320,
+        "y": 924,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -744,16 +755,17 @@
             "line": "“只记得那时候烧得厉害，迷迷糊糊的……身边好像有一个影子，一直在。可那是谁，我是一点都想不起来了。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n12",
         "type": "Content",
         "title": "Content",
         "body": "程时一微笑起来。他似乎陷入了久远的回忆中，慢慢地回溯着过去的碎片：",
-        "x": 140,
-        "y": 860,
+        "x": 1910,
+        "y": 924,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -767,16 +779,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n13",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “其实我也记不太清楚过去的事了。这么多年，我也没问过你还记得什么。”",
-        "x": 800,
-        "y": 860,
+        "x": 2500,
+        "y": 924,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -796,16 +809,17 @@
             "line": "“其实我也记不太清楚过去的事了。这么多年，我也没问过你还记得什么。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n14",
         "type": "Content",
         "title": "Content",
         "body": "程晓梅在后厨收拾过了，走进屋里，给程时一倒上一点水，说道：",
-        "x": 1460,
-        "y": 860,
+        "x": 2500,
+        "y": 1269,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -819,16 +833,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n15",
         "type": "Dialog",
         "title": "程晓梅",
         "body": "程晓梅: “爹，多久以前的事了，想不清楚，就不要想了。”",
-        "x": 2120,
-        "y": 860,
+        "x": 1910,
+        "y": 1269,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -848,16 +863,17 @@
             "line": "“爹，多久以前的事了，想不清楚，就不要想了。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n16",
         "type": "Content",
         "title": "Content",
         "body": "她话虽这么说，眼睛却一直若有如无地盯着程靖霖，似乎在等待着他的反应。程时一的眼皮微微挑动了一下：",
-        "x": 140,
-        "y": 1120,
+        "x": 1320,
+        "y": 1269,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -871,16 +887,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n17",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “晓梅，你还记得爹原来是干什么的吗？”",
-        "x": 800,
-        "y": 1120,
+        "x": 730,
+        "y": 1269,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -900,16 +917,17 @@
             "line": "“晓梅，你还记得爹原来是干什么的吗？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n18",
         "type": "Dialog",
         "title": "程晓梅",
         "body": "程晓梅: “一直都是大夫。”",
-        "x": 1460,
-        "y": 1120,
+        "x": 140,
+        "y": 1269,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -929,16 +947,17 @@
             "line": "“一直都是大夫。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n19",
         "type": "Content",
         "title": "Content",
         "body": "程晓梅的声音没有起伏，还是少女的嗓音：",
-        "x": 2120,
-        "y": 1120,
+        "x": 140,
+        "y": 1629,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -952,16 +971,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n20",
         "type": "Dialog",
         "title": "程晓梅",
         "body": "程晓梅: “打记事起，爹不就是医生吗？在奉天也是，在这儿也是。”",
-        "x": 140,
-        "y": 1380,
+        "x": 730,
+        "y": 1629,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -981,16 +1001,17 @@
             "line": "“打记事起，爹不就是医生吗？在奉天也是，在这儿也是。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n21",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “医者难自医啊。”",
-        "x": 800,
-        "y": 1380,
+        "x": 1320,
+        "y": 1629,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1010,16 +1031,17 @@
             "line": "“医者难自医啊。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n22",
         "type": "Content",
         "title": "Content",
         "body": "程时一叹息一声，看向程靖霖：",
-        "x": 1460,
-        "y": 1380,
+        "x": 1910,
+        "y": 1629,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1033,16 +1055,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n23",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “霖子，你说对吗？”",
-        "x": 2120,
-        "y": 1380,
+        "x": 2500,
+        "y": 1629,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1062,16 +1085,17 @@
             "line": "“霖子，你说对吗？”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n24",
         "type": "Content",
         "title": "Content",
         "body": "程靖霖激灵了一下：",
-        "x": 140,
-        "y": 1640,
+        "x": 2500,
+        "y": 1958,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1085,16 +1109,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n25",
         "type": "Dialog",
         "title": "程靖霖",
         "body": "程靖霖: “掌柜的，您说这话的意思是……”",
-        "x": 800,
-        "y": 1640,
+        "x": 1910,
+        "y": 1958,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1114,16 +1139,17 @@
             "line": "“掌柜的，您说这话的意思是……”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n26",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “你这孩子从来不爱多说话，心里揣的事贼多。虽然我老是跟你说：不该问的别问，不该听的别听——但是，我也知道，你有很多事儿想问。”",
-        "x": 1460,
-        "y": 1640,
+        "x": 1320,
+        "y": 1958,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1143,16 +1169,17 @@
             "line": "“你这孩子从来不爱多说话，心里揣的事贼多。虽然我老是跟你说：不该问的别问，不该听的别听——但是，我也知道，你有很多事儿想问。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 158,
+        "manualSize": true
       },
       {
         "id": "n27",
         "type": "Content",
         "title": "Content",
         "body": "程时一的手指继续无意识地敲打着桌子。他的眼神没入了煤油灯昏暗的黄光，浸透在黑夜里：",
-        "x": 2120,
-        "y": 1640,
+        "x": 730,
+        "y": 1958,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1166,8 +1193,9 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n28",
@@ -1175,7 +1203,7 @@
         "title": "程时一",
         "body": "程时一: “比如，这世道，开医馆的，都快吃不起饭了，咱还能不能过下去。”",
         "x": 140,
-        "y": 1900,
+        "y": 1958,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1195,16 +1223,17 @@
             "line": "“比如，这世道，开医馆的，都快吃不起饭了，咱还能不能过下去。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n29",
         "type": "Dialog",
         "title": "程晓梅",
         "body": "程晓梅: “爹！”",
-        "x": 800,
-        "y": 1900,
+        "x": 140,
+        "y": 2332,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1224,16 +1253,17 @@
             "line": "“爹！”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n30",
         "type": "Content",
         "title": "Content",
         "body": "程晓梅稍微提高了一点声音：",
-        "x": 1460,
-        "y": 1900,
+        "x": 730,
+        "y": 2332,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1247,16 +1277,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n31",
         "type": "Dialog",
         "title": "程晓梅",
         "body": "程晓梅: “你老人家说什么呢！只要你硬实，霖子勤快，我给你们爷俩把家拾掇好了，有什么过不下去的！”",
-        "x": 2120,
-        "y": 1900,
+        "x": 1320,
+        "y": 2332,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1276,16 +1307,17 @@
             "line": "“你老人家说什么呢！只要你硬实，霖子勤快，我给你们爷俩把家拾掇好了，有什么过不下去的！”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n32",
         "type": "Content",
         "title": "Content",
         "body": "程时一不置可否，只是笑了笑。他对程晓梅说：",
-        "x": 140,
-        "y": 2160,
+        "x": 1910,
+        "y": 2332,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1299,16 +1331,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n33",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “丫头，去把绿皮粮本找出来。明儿一早，霖子得去领口粮了。”",
-        "x": 800,
-        "y": 2160,
+        "x": 2500,
+        "y": 2332,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1328,16 +1361,17 @@
             "line": "“丫头，去把绿皮粮本找出来。明儿一早，霖子得去领口粮了。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n34",
         "type": "Content",
         "title": "Content",
         "body": "他站起身来，清瘦的身影在油灯下抖动着。程时一转身向后屋走去，忽然间似乎记起了什么，转回身走到程靖霖面前：",
-        "x": 1460,
-        "y": 2160,
+        "x": 2500,
+        "y": 2677,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1351,16 +1385,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n35",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “霖子，有样东西，是时候还给你了。”",
-        "x": 2120,
-        "y": 2160,
+        "x": 1910,
+        "y": 2677,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1380,16 +1415,17 @@
             "line": "“霖子，有样东西，是时候还给你了。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n36",
         "type": "Content",
         "title": "Content",
         "body": "他把手插进怀里，摸出了一样东西，放在木桌上，对程靖霖说：",
-        "x": 140,
-        "y": 2420,
+        "x": 1320,
+        "y": 2677,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1403,16 +1439,17 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 94
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n37",
         "type": "Dialog",
         "title": "程时一",
         "body": "程时一: “收着吧。早睡。”",
-        "x": 800,
-        "y": 2420,
+        "x": 730,
+        "y": 2677,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1432,16 +1469,17 @@
             "line": "“收着吧。早睡。”"
           }
         ],
-        "width": 420,
-        "height": 114
+        "width": 440,
+        "height": 90,
+        "manualSize": true
       },
       {
         "id": "n38",
         "type": "Content",
         "title": "Content",
         "body": "程时一和程晓梅回到了后屋，炉子里的余炭在噼啪作响，透出一点微弱的红光。程靖霖盯着桌上的那样东西。\n那是一颗步枪子弹。",
-        "x": 1460,
-        "y": 2420,
+        "x": 140,
+        "y": 2677,
         "frameId": "",
         "choices": [],
         "customFields": {},
@@ -1455,8 +1493,9 @@
             "t": 0.5
           }
         },
-        "width": 480,
-        "height": 118
+        "width": 440,
+        "height": 174,
+        "manualSize": true
       }
     ],
     "links": [
@@ -1667,7 +1706,7 @@
     "view": {
       "x": 0,
       "y": 0,
-      "scale": 0.55
+      "scale": 0.3
     },
     "sidebar": {
       "leftWidth": 280,

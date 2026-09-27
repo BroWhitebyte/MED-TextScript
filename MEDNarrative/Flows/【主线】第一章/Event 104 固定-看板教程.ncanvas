@@ -1,0 +1,1047 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-27T10:05:31.111Z",
+  "project": {
+    "title": "Event 104 固定-看板教程",
+    "notes": "转化自 MED_Demo Event 0104-固定-看板教程-（上午-下午-黄昏）（选一项）（可复用）（定稿）｜（固定/白名单·教程触发——选一项）1942年1月31日（上午-下午-黄昏）｜通兰县城 东南 · 时一堂大药房（看板——自由任务入口）｜人物：程靖霖（时一堂大药房伙计/程时一养子）、程晓梅（程时一女儿）、（看板任务关联地点人物——按接取任务展开）｜【状态】试写（2026-09-09——五环节范式：白描→陈述→选择→代价→转场）｜【用途注】1/31 黄昏看板开放（教程——玩家第一次「待在药房 vs 看板接任务」的自由选择——26.9.8 会议：看板提前到第一天黄昏）——可复用挂载件（后续日空余时段可触发）——自由任务＝地图功能地点发起｜md 中「## 白描／## 选择／## 选择必有代价／## 结束转场」为五环节范式标题（落为图结构，不作叙事拍）；「（说明文字）」为美术占位标记；「## 玩家选择自由任务」为章节标记；「（进入玩家选择——自由任务·第一次自主决定：）」「（结算：无事发生·来客可能上门）」为范式/结算标注；## 看板（美术形式：黑板，粉笔）落为【看板说明】+ 三张任务纸条；「自由任务104A/B/C」为跨件占位（对应任务件待建）",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "送完药回来，天已经擦黑了。\n程靖霖挑开门帘，屋里暖烘烘的。\n程晓梅在灶间忙活，锅里咕嘟咕嘟响着。掌柜的正站在门旁，捻着下巴上的胡子。\n程靖霖向老人行了礼：",
+        "x": 770,
+        "y": 80,
+        "width": 440,
+        "height": 202,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，我回来了。”",
+        "x": 1360,
+        "y": 80,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，我回来了。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一抬眼看了看他：",
+        "x": 1950,
+        "y": 80,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “嗯。霖子，这几天可能会忙起来，我也不一定什么时候都在家。”\n程时一: “老规矩，如果有哪些事情来不及交代，我会把它写在这块板子上。天还亮着，这活就能干。”",
+        "x": 2540,
+        "y": 80,
+        "width": 440,
+        "height": 205,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“嗯。霖子，这几天可能会忙起来，我也不一定什么时候都在家。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“老规矩，如果有哪些事情来不及交代，我会把它写在这块板子上。天还亮着，这活就能干。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看向门口的看板。上面用粉笔粗粗地写着几行字。",
+        "x": 2454,
+        "y": 506,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "【看板说明·美术形式：黑板，粉笔】这里是时一堂大药房的门口看板。看板上写着的这些事情会有时间、地点以及额外需求。",
+        "x": 1864,
+        "y": 506,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “天色还早，霖子，挑一个去吧。回来吃饭。”\n程时一: “这板子上的事儿，大部分都不麻烦，一个时辰就能回来。可是也会有一些，得多跑几次。”\n程时一: “咱们药房，是给人抓药看病的地方。可县城里的事，不都在药柜上。有些事，得你去人家门上，才办得了。”\n程时一: “快过年啦。这板子上的事，办不办、先办哪件、什么时候办——你说了算。办好了，人家记你的情；办砸了，耽误了，人家也记着。”\n程时一: “这功夫，你要么在店里待着，等吃饭；要么趁天黑透之前，出去办一件。天快黑了。自己拿主意吧。”",
+        "x": 1274,
+        "y": 506,
+        "width": 440,
+        "height": 254,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“天色还早，霖子，挑一个去吧。回来吃饭。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“这板子上的事儿，大部分都不麻烦，一个时辰就能回来。可是也会有一些，得多跑几次。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“咱们药房，是给人抓药看病的地方。可县城里的事，不都在药柜上。有些事，得你去人家门上，才办得了。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“快过年啦。这板子上的事，办不办、先办哪件、什么时候办——你说了算。办好了，人家记你的情；办砸了，耽误了，人家也记着。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“这功夫，你要么在店里待着，等吃饭；要么趁天黑透之前，出去办一件。天快黑了。自己拿主意吧。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖想了想，在柜台后头坐下，帮着程时一归拢药斗里的签子。",
+        "x": 140,
+        "y": 506,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "天彻底黑了。灶间传来炒菜的声音。没有人上门，也没有什么事。",
+        "x": 140,
+        "y": 1585,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "title": "Content",
+        "body": "【自由任务104A】城东南 送风寒药——送药差事正文见对应任务件（待建）",
+        "x": 140,
+        "y": 725,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "【自由任务104B】城东北 送咳嗽药——送药差事正文见对应任务件（待建）",
+        "x": 140,
+        "y": 975,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "【自由任务104C】去协兴澡堂 送风湿药——送药差事正文见对应任务件（待建）",
+        "x": 140,
+        "y": 1225,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Content",
+        "title": "Content",
+        "body": "天色沉沉，程靖霖回到了药房。",
+        "x": 140,
+        "y": 1804,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Content",
+        "title": "Content",
+        "body": "他把板子上办好的事擦去，回身看向程时一。\n程时一没有细问。他站在柜台边，看了看年轻的伙计：",
+        "x": 730,
+        "y": 1585,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “事情办妥了就好。”\n程时一: “板上的事，办一件，少一件。明儿还会有新的事贴上来。”\n程时一: “日子就是这样。你今儿偷了闲，明儿就得紧着点；你今儿多跑了一趟，人家就多记你一分情。人情这玩意儿，在县城里比钱有用。”",
+        "x": 1320,
+        "y": 1585,
+        "width": 440,
+        "height": 277,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“事情办妥了就好。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“板上的事，办一件，少一件。明儿还会有新的事贴上来。”"
+          },
+          {
+            "speaker": "程时一",
+            "line": "“日子就是这样。你今儿偷了闲，明儿就得紧着点；你今儿多跑了一趟，人家就多记你一分情。人情这玩意儿，在县城里比钱有用。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "他咳嗽了两声说：",
+        "x": 1910,
+        "y": 1585,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “洗手，吃饭。”",
+        "x": 2500,
+        "y": 1585,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“洗手，吃饭。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅端了饭菜上桌。三个人围坐，正要动筷子，门被敲响了。",
+        "x": 2500,
+        "y": 2101,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n35",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “程哥！程哥在家吗？”",
+        "x": 1910,
+        "y": 2101,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“程哥！程哥在家吗？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n36",
+        "type": "Content",
+        "title": "Content",
+        "body": "是马老二的声音。\n程靖霖去开门，马老二搓着手，缩着脖子站在门外，眼睛却亮晶晶的：",
+        "x": 1320,
+        "y": 2101,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “程哥！我跟我娘说，晚上没事过来串个门——那个，我带了副牌来！你家掌柜的会打叶子戏不？咱凑一桌？”",
+        "x": 730,
+        "y": 2101,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“程哥！我跟我娘说，晚上没事过来串个门——那个，我带了副牌来！你家掌柜的会打叶子戏不？咱凑一桌？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Content",
+        "title": "Content",
+        "body": "他探头往屋里看了看，压低声音：",
+        "x": 140,
+        "y": 2101,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "马老二: “我娘说，你家人手够——掌柜的、你、你姐……再加上我，正好四个人！”",
+        "x": 140,
+        "y": 2461,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "马老二",
+            "line": "“我娘说，你家人手够——掌柜的、你、你姐……再加上我，正好四个人！”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里，程时一放下筷子，难得地笑了一声：",
+        "x": 730,
+        "y": 2461,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n42",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “叶子戏？多少年没摸过了。吃过饭，咱们打一把。晓梅，给老二拿个碗盛点饭。”",
+        "x": 1320,
+        "y": 2461,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“叶子戏？多少年没摸过了。吃过饭，咱们打一把。晓梅，给老二拿个碗盛点饭。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Content",
+        "title": "Content",
+        "body": "【转场】0105 叶子戏——1/31 夜晚·马老二凑局",
+        "x": 1910,
+        "y": 2461,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 2500,
+        "y": 2461,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 730,
+        "y": 506,
+        "choices": [
+          "自由任务1：城东南 风寒药（有效期 2月1日黄昏前）",
+          "自由任务2：城东北 镇痛药（有效期 2月1日黄昏前）",
+          "自由任务3：城西南 咳嗽药（有效期 2月1日黄昏前）",
+          "哪里也不去，呆在药房"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_5",
+            "label": "自由任务1：城东南 风寒药（有效期 2月1日黄昏前）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_6",
+            "label": "自由任务2：城东北 镇痛药（有效期 2月1日黄昏前）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_7",
+            "label": "自由任务3：城西南 咳嗽药（有效期 2月1日黄昏前）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_8",
+            "label": "哪里也不去，呆在药房",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "width": 394,
+        "height": 204,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n5",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n21",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n22",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n23",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n24",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n27",
+        "to": "n29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n29",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n32",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n34",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n35",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n36",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n40",
+        "to": "n41",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n41",
+        "to": "n42",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n42",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n43",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n10",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n15",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n45",
+        "to": "n23",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 0,
+        "label": "自由任务1：城东南 风寒药（有效期 2月1日黄昏前）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n45",
+        "to": "n24",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 1,
+        "label": "自由任务2：城东北 镇痛药（有效期 2月1日黄昏前）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n45",
+        "to": "n25",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 2,
+        "label": "自由任务3：城西南 咳嗽药（有效期 2月1日黄昏前）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n45",
+        "to": "n21",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 3,
+        "label": "哪里也不去，呆在药房",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 843.5754917355374,
+      "y": 261.6180333161156,
+      "scale": 0.39930000000000015
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}
