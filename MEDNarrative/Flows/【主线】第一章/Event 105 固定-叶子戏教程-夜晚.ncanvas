@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-27T13:30:57.668Z",
+  "project": {
+    "title": "Event 105 固定-叶子戏教程-夜晚",
+    "notes": "【占位骨架】本件＝《三天全部可能事件索引》§一.五 D1-05：1942-01-31 夜晚·时一堂大药房堂屋/炉边·马老二带牌上门凑四人叶子戏局（方案 B：120 张简化麻将·13 张无风牌·4 人）。现有素材只有试写件 MED_Demo Event 0105-支线-叶子戏-（上午-下午-黄昏-夜晚-午夜）（可复用）.md（五环节已写：白描蓝布包纸牌／陈述程时一讲马吊与火柴棍记输赢／三选稳着打·学着掌柜的·大胆冲／散局代价／转场 0106 安睡），尚无「教程件」（固定-叶子戏教程）定稿文本。本画布只放骨架（Entry → 占位说明 → End），等教程件正文写定后按同一流程重新生成：写 spec → 运行 _tools\\ncanvas_from_spec.ps1 → 覆盖本文件。",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "【占位·待写】本件（0105 叶子戏教程·夜晚）教程件正文尚未撰写。现有素材是试写件 0105-支线-叶子戏：白描（马老二掏出蓝布包，油亮纸牌，条子万子饼子）→陈述（程时一讲马吊规矩与奉军打牌掌故、火柴棍记输赢、豆包顶账）→三选（稳着打／学着掌柜的／大胆冲）→代价（散局·牌品看人品）→转场（0106 安睡·午夜）。\n待补：①教程件口径改写——叶子戏规则拆成分步教学（摸牌→出牌→吃碰→听和），每步一个结算，与 0104 固定-看板教程 同一写法；②时段口径对齐（索引定 1/31 夜晚，源 md 写 上午-下午-黄昏-夜晚-午夜）；③与 0104 的衔接（0104 转场＝马老二敲门凑局）。\n补齐后重新生成本画布即可。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 574,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 1380,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 200.97988887405393,
+      "y": 443.7613331097523,
+      "scale": 0.9415285130163009
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}
