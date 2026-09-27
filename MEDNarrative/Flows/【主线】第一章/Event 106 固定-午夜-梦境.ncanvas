@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-27T13:33:29.475Z",
+  "project": {
+    "title": "Event 106 固定-午夜-梦境",
+    "notes": "【占位骨架】本件（106 固定-午夜-梦境）暂无源 md：全库无「梦境」事件文本。编号 0106 现有素材是 MED_Demo Event 0106-支线-安睡（午夜）（可复用）.md（试写·跨天通用件：炉膛压灰／晓梅姐晒过的两床被子／二选「想一件今天的事·什么都不想」／次日清晨一次性结算）。索引把「午夜」一律定为写死固定事件位（§一.六 D1-06 午夜无事件·安睡／§二.六 D2-07 午夜响动·包裹·军籍残片／§三.六 D21-13′ 灯灭按钮）；「梦境」在写作手册里有专条定位（② 闪前/梦魇：心理预告，梦境与真相错位；既有用例 D13 前夜梦到雪与枪声、D27 梦到北大营）。本画布只放骨架（Entry → 占位说明 → End），等正文写定后按同一流程重新生成：写 spec → 运行 _tools\\ncanvas_from_spec.ps1 → 覆盖本文件。",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "【占位·待写】本件（0106 固定-午夜-梦境）正文尚未撰写——全库无梦境源文本；编号 0106 现有素材是试写件 0106-支线-安睡（午夜）（可复用）：炉膛压灰、晓梅姐晒过的两床被子、二选（想一件今天的事／什么都不想）。\n待补：①定案触发日与触发条件（午夜＝写死固定位：D1-06 午夜无事件／D2-07 午夜响动·包裹·军籍残片／D21-13′ 灯灭按钮）；②与 0106 安睡 的关系（替代通用件／并列插入）；③口径冲突需裁定——0207 正文写「这一夜他没有做梦」（同夜），若梦境落在 2/1 午夜须改；④写法对齐写作手册「② 闪前/梦魇：心理预告·梦境与真相错位」（既有用例：D13 前夜梦到雪与枪声、D27 梦到北大营）。\n补齐后重新生成本画布即可。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 631,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 1380,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 200.97988887405393,
+      "y": 443.7613331097523,
+      "scale": 0.9415285130163009
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}
