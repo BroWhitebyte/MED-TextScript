@@ -1,0 +1,32 @@
+/* MED Layout Toggle —— 视图左上角工具条（排布切换 + 重叠合并开关） */
+.med-layout-tools {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  z-index: 40;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.med-layout-tools button {
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.85;
+  box-shadow: none;
+}
+.med-layout-tools button:hover {
+  opacity: 1;
+  color: var(--text-normal);
+  border-color: var(--interactive-accent);
+}
+.med-layout-merge.is-off {
+  color: var(--text-faint);
+  border-style: dashed;
+}

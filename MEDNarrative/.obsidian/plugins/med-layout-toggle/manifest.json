@@ -1,0 +1,9 @@
+{
+  "id": "med-layout-toggle",
+  "name": "MED Layout Toggle",
+  "version": "1.8.1",
+  "minAppVersion": "1.5.0",
+  "description": "在 narrative-graph / narrative-canvas 视图左上角加按钮：一键在「横排」与「方形（蛇形分带）」之间切换 .ncanvas 节点排布。只改坐标，不动正文与连线。",
+  "author": "MED",
+  "isDesktopOnly": false
+}

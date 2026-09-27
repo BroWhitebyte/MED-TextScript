@@ -12,4 +12,5 @@ MEDNarrative/.obsidian/plugins/*/data.json
 
 # 检索/研究临时工作区（大体积 PDF、下载件、脚本），不入库
 _研究过程/
-
+# 用户本机库（仓库根）配置：含 workspace 等本机状态，不入库
+/.obsidian/
