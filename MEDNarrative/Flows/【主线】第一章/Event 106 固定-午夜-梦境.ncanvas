@@ -30,7 +30,7 @@
         "type": "Content",
         "title": "Content",
         "body": "【占位·待写】本件（0106 固定-午夜-梦境）正文尚未撰写——全库无梦境源文本；编号 0106 现有素材是试写件 0106-支线-安睡（午夜）（可复用）：炉膛压灰、晓梅姐晒过的两床被子、二选（想一件今天的事／什么都不想）。\n待补：①定案触发日与触发条件（午夜＝写死固定位：D1-06 午夜无事件／D2-07 午夜响动·包裹·军籍残片／D21-13′ 灯灭按钮）；②与 0106 安睡 的关系（替代通用件／并列插入）；③口径冲突需裁定——0207 正文写「这一夜他没有做梦」（同夜），若梦境落在 2/1 午夜须改；④写法对齐写作手册「② 闪前/梦魇：心理预告·梦境与真相错位」（既有用例：D13 前夜梦到雪与枪声、D27 梦到北大营）。\n补齐后重新生成本画布即可。",
-        "x": 760,
+        "x": 3800,
         "y": 80,
         "width": 440,
         "height": 631,
@@ -51,8 +51,216 @@
         "type": "End",
         "title": "End",
         "body": "",
-        "x": 1380,
+        "x": 3336,
+        "y": 72,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "所有人都走了。\n程靖霖把桌上的灯添满油，将灯端到窗台上。\n他回过身来看了看炉子。",
+        "x": 770,
         "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 174,
+        "manualSize": true
+      },
+      {
+        "id": "n3",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1360,
+        "y": 80,
+        "choices": [
+          "不加煤",
+          "加点煤",
+          "多加点煤"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "不加煤",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "加点煤",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "多加点煤",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖往炉子里填了几块碎煤坯，压住炉膛里的火炭。\n他回到自己的门板床前，脱掉棉衣裤，把衣服垫在床尾，钻进被子里。\n屋子里的热气还没散，他闭上眼睛，不再想其他的事情，很快便沉入睡梦之中。",
+        "x": 1984,
+        "y": -32,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 231,
+        "manualSize": true
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖回到自己的门板床前，脱掉棉衣裤，把衣服垫在床尾，钻进被子里。\n屋子里的热气还没散，他闭上眼睛，不再想其他的事情，很快便沉入睡梦之中。",
+        "x": 1992,
+        "y": -384,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 174,
+        "manualSize": true
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖往炉子里填了几块碎煤坯，压住炉膛里的火炭。他无意识地又加了几块，炉子里的火光黯沉下去，露出微弱的蓝色火苗。\n他回到自己的门板床前，脱掉棉衣裤，把衣服垫在床尾，钻进被子里。\n屋子里的热气还没散，他闭上眼睛，不再想其他的事情，很快便沉入睡梦之中。",
+        "x": 1992,
+        "y": 416,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 440,
+        "height": 288,
+        "manualSize": true
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "这一夜很短。\n程靖霖睁开眼睛的时候，屋子里还是黑沉沉的。他将目光投向窗台上的油灯，那一豆灯火还在闪烁，火苗还剩下一点点微弱的气息。\n该去领粮食了。程靖霖想着，努力说服自己，从被窝里钻出来，屋里的冷气让他打了个寒颤。\n他从床尾摸出焐在脚下的棉袄和棉裤，利落地套在身上。\n新的一天要开始了。",
+        "x": 2608,
+        "y": -112,
+        "width": 440,
+        "height": 374,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "北境的冬天里，夜总是很长。\n程靖霖梦见自己坠入冰湖，周身冰冷。\n他醒来发现炉子灭了。\n屋子里很冷，他只能躺在棉被里尽量不动弹。\n等到油灯的火苗开始闪动，他才慢吞吞地，在被子里拱了几下。\n该去领粮食了。程靖霖想着，努力说服自己，从被窝里钻出来，屋里的冷气让他打了个寒颤。\n他从床尾摸出焐在脚下的棉袄和棉裤，利落地套在身上。\n新的一天要开始了。\n（这个部分需要再加写一些心理活动）",
+        "x": 2600,
+        "y": -536,
+        "width": 440,
+        "height": 374,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "极乐迪斯科式开场",
+        "x": 2632,
+        "y": 360,
+        "width": 440,
+        "height": 374,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "End",
+        "title": "End",
+        "body": "煤气中毒死了",
+        "x": 3400,
+        "y": 504,
         "ports": {
           "input": {
             "side": "left",
@@ -69,7 +277,7 @@
       {
         "id": "l0",
         "from": "n_entry",
-        "to": "n0",
+        "to": "n2",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -77,8 +285,98 @@
       },
       {
         "id": "l1",
-        "from": "n0",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n3",
+        "to": "n4",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "加点煤",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n3",
+        "to": "n5",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "不加煤",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n6",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "多加点煤",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n7",
         "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n5",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n8",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n6",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -94,9 +392,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 200.97988887405393,
-      "y": 443.7613331097523,
-      "scale": 0.9415285130163009
+      "x": 248.05909650539047,
+      "y": 676.1463973318542,
+      "scale": 0.35369215365000056
     },
     "sidebar": {
       "leftWidth": 280,
