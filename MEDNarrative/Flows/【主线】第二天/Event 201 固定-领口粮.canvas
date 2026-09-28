@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"6a5e0a50776d9692","type":"text","text":"# Event 201 固定-领口粮","x":0,"y":0,"width":400,"height":120},
+		{"id":"7bf2d90d8f461bc7","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 201 固定-领口粮.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

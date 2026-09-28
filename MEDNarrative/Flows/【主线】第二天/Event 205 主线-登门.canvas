@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"d21090f4330bcc8b","type":"text","text":"# Event 205 主线-登门","x":0,"y":0,"width":400,"height":120},
+		{"id":"29c2a992cf0bb663","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 205 主线-登门.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

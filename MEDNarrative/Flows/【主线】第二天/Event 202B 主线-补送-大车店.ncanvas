@@ -1,0 +1,2172 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-28T06:17:28.834Z",
+  "project": {
+    "title": "Event 202B 主线-补送-大车店",
+    "notes": "转化自 MED_Demo Event 0202B-主线-补送-大车店-（上午-下午-黄昏）（选一项）（无复用）（定稿）｜（主线/白名单·补送任务——择时窗·选一项）1942年2月1日（上午-下午-黄昏）｜通兰县城 东南 · 老佟家车马店（大车店）｜人物：程靖霖（时一堂大药房伙计/程时一养子）、佟立春（老佟家车马店 掌柜）、李大个子（车马店伙计）、张老大（抽烟车把式）、风寒车把式（病人）｜择时窗·选一项（无复用）：2/1 上午-下午-黄昏任一时段可触发一次，全件只打一次｜承接 1/31 Event 103B（大车店）未送成那家：md 原文承接句＝佟立春“昨儿这兄弟烧了一宿，药今儿才到？——再晚半日，人就得抬出去了。”——1/31 未送成大车店的兄弟 2/1 补送（2/1 按排除规则不再去前日去过的那处，本件仅在前日未去大车店时触发；张老大“下回带现钱来，赎这玩意儿”与红绳人参为关键道具线）｜结构：37 叙述节拍 + 23 台词节拍 + 选择点 2 处——①大车店当场抉择：选择：人参／选择：钱（label 沿用 103B 入库画布；本件 md 以两条互斥正文行呈现该抉择、未给选项标题），两分支各自收尾后汇合于“张老大重新端起烟袋…”；②交差分岔：“若上午选了人参，交差在此处”／“若上午选了钱，交差在此处”——同一抉择的结果分岔（由①决定），按配方落为 Choice（label 用 md 分支标题原文、去括号与冒号），非玩家当场二次选择，两分支汇合于“三个人围着桌子坐定。”｜本件 md 无「（结算：…）」行——得失走道具（红绳人参／老头票）与 2/1 晨段结算（索引 D2-01C 人参入账）｜md 标记映射：「以下为文学性描述：」为体裁标记、「---」分隔线未落节点（结构由连线体现）；“**…**”强调标记不落节点（画布正文不含 markdown 强调）；头部「> **本日三问**（want/obstacle/turn/cost/button）：见《1942年2月1日全部可能事件索引》头部——2026-08-25 补（手册 §二）」与尾部「> **导演层（分支结构＋设定统一）→ `MED_Demo Rule\\Hidden_Meaning\\MED_Demo Event 203C 分支索引.md`**（不入 event 文件——写作规则见《写作手册》九·补Ⅳ）」为头部/导演层注记，未落节点、照原文入 notes｜说话人判定：掌车位置上坐着的老把式＝张老大（md 后文点明张老大）；末尾门外协和语呼叫者 md 未点名，说话人记为“门外”｜转场：0203 下午自由窗（2/1 事件顺序；0203 正文自述“上午补送的空药包”）——md 尾部的门外急促敲门＋协和语“开门！太君来了！”＋中野警尉登门桥段与 0203 尾部同源（0203 md 尾部明写「→ 转场：0205 登门——2/1 黄昏·警察上门」）；若本件在黄昏时段触发，则此处直接接 0205 登门",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "通兰县城东南区域的平房群落里，多得是七弯八绕的小巷子。老佟家车马店从大道上走也能到，但是从平房后面走显然更快。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖从药房出来，拐进小胡同里，走过一片他从小就记得没人住的破烂房子，再向东拐个弯，在寒风里很快就望见了老佟家车马店的后身。",
+        "x": 1380,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "大伙儿都叫惯了它大车店，这里是南来北往的把式们歇脚打尖，以及交换消息的地方。把式们都有着自己的一身本领，走南闯北——人人都有明面上的买卖，人人都有暗地里的生意。老佟家的老掌柜佟三爷原本也是走江湖的人，后来在东大道旁边安了家，开了这爿车马店。老头年纪大了之后，把生意交给儿子佟立春打理，其实很多关系还是维系在老头子身上——三教九流，各色人等，有时候也只有阅历足够的老头子才能应付。",
+        "x": 2000,
+        "y": 80,
+        "width": 440,
+        "height": 374,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖把手揣在怀里，顺着小道急走，忽然间眼前被一个铁塔也似的黑影笼罩。那个庞大的身躯堵住了窄小的道路，居高临下地在寒风里问道：",
+        "x": 2620,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李大个子: “你是谁？”",
+        "x": 3240,
+        "y": 80,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "李大个子",
+            "line": "“你是谁？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖耸然抬头，认出这是老佟家的看院子伙计，李大个子。他一直在院里，劈柴、喂马、收拾杂务，偶尔也替掌柜佟立春跑跑外边。南来北往的把式们，多半是来到门口吆喝一声，看到李大个子便仿佛见到了故人。程靖霖赶紧回答道：",
+        "x": 3860,
+        "y": 80,
+        "width": 440,
+        "height": 231,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “老李大哥，我是药店小程子。掌柜的说大车店有人染了风寒，我来送药了。”",
+        "x": 3860,
+        "y": 520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“老李大哥，我是药店小程子。掌柜的说大车店有人染了风寒，我来送药了。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "李大个子面无表情，他看了看程靖霖，侧了侧身，让出空间，对他说：",
+        "x": 3240,
+        "y": 520,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李大个子: “快去。”",
+        "x": 2620,
+        "y": 520,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "李大个子",
+            "line": "“快去。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖低头从他身边走过，车马店后门的小门已经打开。他闪身进去，看见院子里一辆大车已经套好了牲口，张老大正往车上铺棉被，炕上那个病恹恹的把式被裹得严严实实，只露出一张烧得通红的脸。",
+        "x": 2000,
+        "y": 520,
+        "width": 440,
+        "height": 202,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "佟立春站在车边，看见程靖霖，他先是一愣，随即嘀咕起来：",
+        "x": 1380,
+        "y": 520,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "佟立春: “昨儿这兄弟烧了一宿，药今儿才到？——再晚半日，人就得抬出去了。”",
+        "x": 760,
+        "y": 520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "佟立春",
+            "line": "“昨儿这兄弟烧了一宿，药今儿才到？——再晚半日，人就得抬出去了。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "躺着的车把式呻吟起来，掌车位置上坐着的老把式点着了烟袋，回应着佟立春的话：",
+        "x": 140,
+        "y": 520,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老大: “佟掌柜，您也不看看今年是什么德行！前年就算管得严，多少还有点山货可以倒腾。现在呢？这也军用，那也军用，什么都不给老百姓。我们这帮赶大车的，还能干什么呢？人吃马喂的，哪样不是钱？再说了，光有钱有什么用？”",
+        "x": 140,
+        "y": 960,
+        "width": 440,
+        "height": 211,
+        "turns": [
+          {
+            "speaker": "张老大",
+            "line": "“佟掌柜，您也不看看今年是什么德行！前年就算管得严，多少还有点山货可以倒腾。现在呢？这也军用，那也军用，什么都不给老百姓。我们这帮赶大车的，还能干什么呢？人吃马喂的，哪样不是钱？再说了，光有钱有什么用？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n14",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖听着他们的抱怨，没应声，走到躺倒的把式跟前，伸手摸了摸他的额头，有些烫手。他从怀里掏出药包，看向抽烟的把式和佟立春：",
+        "x": 760,
+        "y": 960,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “这药……”",
+        "x": 1380,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“这药……”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "Content",
+        "body": "佟立春走到程靖霖面前，伸手拿过药包说：",
+        "x": 2000,
+        "y": 960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "佟立春: “给我吧，我让灶下给煎一下。”",
+        "x": 2620,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "佟立春",
+            "line": "“给我吧，我让灶下给煎一下。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "title": "Content",
+        "body": "他向抽烟的把式努努嘴：",
+        "x": 3240,
+        "y": 960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "佟立春: “药钱找张老大结。”",
+        "x": 3860,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "佟立春",
+            "line": "“药钱找张老大结。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "张老大从车边走过来，烟袋叼在嘴里，脸上的皱纹像沟壑纵横。",
+        "x": 3860,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Content",
+        "title": "Content",
+        "body": "他看了看程靖霖，从怀里掏出个小布袋，他抬起头盯着小伙计说：",
+        "x": 3240,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老大: “小老弟，钱不凑手，我明儿还得送这兄弟回去。这样，我给你拿点东西，你跟程先生说一声，说张老大张把式下回带现钱来，赎这玩意儿，这就算个小押。”",
+        "x": 2620,
+        "y": 1400,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "张老大",
+            "line": "“小老弟，钱不凑手，我明儿还得送这兄弟回去。这样，我给你拿点东西，你跟程先生说一声，说张老大张把式下回带现钱来，赎这玩意儿，这就算个小押。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "title": "Content",
+        "body": "张老大叼着烟袋，一只手伸进黑棉袄深处，掏出一只小布袋，将袋子小心地在炕面上铺平，又掏出一根系了红绳的人参，放在布袋上。他望了望程靖霖说：",
+        "x": 2000,
+        "y": 1400,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老大: “五两多，顶这个药钱，绰绰有余。这年头，能保命的东西不多啦。”",
+        "x": 1380,
+        "y": 1400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "张老大",
+            "line": "“五两多，顶这个药钱，绰绰有余。这年头，能保命的东西不多啦。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "他又掏出几张皱巴巴的“老头票”（中银券），也扔在炕上，对程靖霖说：",
+        "x": 760,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老大: “现钱，就这点，勉强顶药钱。你拿钱走，我也得把这根参抵给佟掌柜的，我揣了它一年多，今天到底是要离开我啦。”",
+        "x": 140,
+        "y": 1400,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "张老大",
+            "line": "“现钱，就这点，勉强顶药钱。你拿钱走，我也得把这根参抵给佟掌柜的，我揣了它一年多，今天到底是要离开我啦。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 1840,
+        "choices": [
+          "选择：人参",
+          "选择：钱"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "选择：人参",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "选择：钱",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖沉默了一会儿，上前拿起了人参：",
+        "x": 760,
+        "y": 1840,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “那我就拿这个了，张老大，您多担待。”",
+        "x": 1380,
+        "y": 1840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“那我就拿这个了，张老大，您多担待。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖沉默了一会儿，上前拿起了钱：",
+        "x": 760,
+        "y": 2120,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “那我就拿这个了，张老大，您多担待。”",
+        "x": 1380,
+        "y": 2120,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“那我就拿这个了，张老大，您多担待。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "张老大重新端起烟袋，烟锅里的火星忽明忽暗。他重又低下头去，吧嗒吧嗒地抽着烟，挥挥手说：",
+        "x": 2000,
+        "y": 1840,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老大: “老弟，回去吧。回去跟程先生带个好。”",
+        "x": 2620,
+        "y": 1840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "张老大",
+            "line": "“老弟，回去吧。回去跟程先生带个好。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖应了一声，重又从后门出来。他望见前院里的爬犁和几匹瘦马，还有院子里寡淡的货品。佟立春背着手站在门前，看了看他，咳嗽一声，给他打开屋门。",
+        "x": 3240,
+        "y": 1840,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n35",
+        "type": "Content",
+        "title": "Content",
+        "body": "日头正高，大车店的院门在身后关上。程靖霖吸入冰冷的空气，在小巷子中歪歪扭扭地走回到药房。大车店里逮出来的热气很快被寒风吞掉。他走回到药房前脸，没有迟疑便推开了屋门。",
+        "x": 3860,
+        "y": 1840,
+        "width": 440,
+        "height": 202,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n36",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里炉火压着小火，暖意不多。程时一坐在柜台后头，看见他进来，把账本合上：",
+        "x": 3860,
+        "y": 2560,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n37",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “回来了。洗手，吃饭。”",
+        "x": 3240,
+        "y": 2560,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“回来了。洗手，吃饭。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “是，掌柜的。”",
+        "x": 2620,
+        "y": 2560,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“是，掌柜的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅在灶间探出头，看见他，笑了一下，转身去端饭。两只粗瓷碗，一碗稠一点的，一碗稀一点的。稠的放程靖霖面前，稀的自己端了。",
+        "x": 2000,
+        "y": 2560,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1380,
+        "y": 2560,
+        "choices": [
+          "若上午选了人参，交差在此处",
+          "若上午选了钱，交差在此处"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "若上午选了人参，交差在此处",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "若上午选了钱，交差在此处",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖把一只小布袋放在柜台上，解开，露出一根系着红绳的人参。",
+        "x": 760,
+        "y": 2560,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n42",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “张老大抵的药钱。他说，钱不凑手。”",
+        "x": 140,
+        "y": 2560,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“张老大抵的药钱。他说，钱不凑手。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一拿起人参，在手里掂了掂，又看了看成色：",
+        "x": 140,
+        "y": 3280,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “五两多，好东西。”",
+        "x": 760,
+        "y": 3280,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“五两多，好东西。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "Content",
+        "title": "Content",
+        "body": "他把人参放回布袋，收进柜台，",
+        "x": 1380,
+        "y": 3280,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n46",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “坐下，先吃饭。”",
+        "x": 2000,
+        "y": 3280,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“坐下，先吃饭。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n47",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖把一卷皱巴巴的老头票放在桌上，看向程时一：",
+        "x": 760,
+        "y": 2840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，药钱，张老大结的。”",
+        "x": 140,
+        "y": 2840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，药钱，张老大结的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一点了点头，并未接话，只是说：",
+        "x": 140,
+        "y": 3560,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n50",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “坐下，先吃饭。”",
+        "x": 760,
+        "y": 3560,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“坐下，先吃饭。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Content",
+        "title": "Content",
+        "body": "三个人围着桌子坐定。碗里是稀溜溜的协和面糊糊，桌上一碗熬酸菜。程靖霖看到掌柜的端起碗，便也跟着拿起筷子。",
+        "x": 1380,
+        "y": 3560,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Content",
+        "title": "Content",
+        "body": "就在此时，门外响起急促的敲门声。咚咚咚。",
+        "x": 2000,
+        "y": 3560,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Content",
+        "title": "Content",
+        "body": "还没等人应，又响了两下更大的声音，砰砰。",
+        "x": 2620,
+        "y": 3280,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n54",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里端着饭碗的三个人互相看了一眼。",
+        "x": 3240,
+        "y": 3280,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Content",
+        "title": "Content",
+        "body": "门外传来生硬的协和语，不耐烦地叫道：",
+        "x": 3860,
+        "y": 3280,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n56",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门外: “开门！太君来了！”",
+        "x": 3860,
+        "y": 4000,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "门外",
+            "line": "“开门！太君来了！”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖站起来。他看一眼程时一，掌柜的扶着桌沿，慢慢站起。他便走向门口，拉开门板，日头照进来，门口站着三个人。",
+        "x": 3240,
+        "y": 4000,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n58",
+        "type": "Content",
+        "title": "Content",
+        "body": "前头那个穿着警尉的制服，脸上挂着笑。程靖霖认出这是刚见过面的中野警尉。",
+        "x": 2620,
+        "y": 4000,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n59",
+        "type": "Content",
+        "title": "Content",
+        "body": "他身后是一个翻译，一个警察。",
+        "x": 2000,
+        "y": 4000,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n60",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一站在门口，微微低了低头：",
+        "x": 1380,
+        "y": 4000,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n61",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “太君，屋里请。”",
+        "x": 760,
+        "y": 4000,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“太君，屋里请。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n62",
+        "type": "Content",
+        "title": "Content",
+        "body": "【转场】0203 下午自由窗——2/1 下午·时一堂大药房",
+        "x": 140,
+        "y": 4000,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n63",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 140,
+        "y": 4440,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n25",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n27",
+        "to": "n28",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "选择：人参",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n27",
+        "to": "n30",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "选择：钱",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n28",
+        "to": "n29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n29",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n30",
+        "to": "n31",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n31",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n32",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n34",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n35",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n36",
+        "to": "n37",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n37",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l40",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l42",
+        "from": "n40",
+        "to": "n41",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "若上午选了人参，交差在此处",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l43",
+        "from": "n40",
+        "to": "n47",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "若上午选了钱，交差在此处",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l44",
+        "from": "n41",
+        "to": "n42",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l45",
+        "from": "n42",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l46",
+        "from": "n43",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l47",
+        "from": "n44",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l48",
+        "from": "n45",
+        "to": "n46",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l49",
+        "from": "n46",
+        "to": "n51",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n47",
+        "to": "n48",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l51",
+        "from": "n48",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l52",
+        "from": "n49",
+        "to": "n50",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l53",
+        "from": "n50",
+        "to": "n51",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l54",
+        "from": "n51",
+        "to": "n52",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l55",
+        "from": "n52",
+        "to": "n53",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l56",
+        "from": "n53",
+        "to": "n54",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l57",
+        "from": "n54",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l58",
+        "from": "n55",
+        "to": "n56",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l59",
+        "from": "n56",
+        "to": "n57",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l60",
+        "from": "n57",
+        "to": "n58",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l61",
+        "from": "n58",
+        "to": "n59",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l62",
+        "from": "n59",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n60",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n61",
+        "to": "n62",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n62",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.3
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}
