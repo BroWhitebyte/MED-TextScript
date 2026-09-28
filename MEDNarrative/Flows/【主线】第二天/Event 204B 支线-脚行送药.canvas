@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"4646d90538f832c1","type":"text","text":"# Event 204B 支线-脚行送药","x":0,"y":0,"width":400,"height":120},
-		{"id":"995ca9c1a087476d","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 204B 支线-脚行送药.ncanvas","x":480,"y":0,"width":300,"height":200}
+		{"id":"8935fe96a7293fe8","type":"text","text":"# Event 204B 支线-脚行送药","x":0,"y":0,"width":400,"height":120},
+		{"id":"aec7b5621b148cb2","type":"file","file":"Flows/【主线】第二天/Event 204B 支线-脚行送药.ncanvas","x":480,"y":0,"width":300,"height":200}
 	],
 	"edges":[]
 }

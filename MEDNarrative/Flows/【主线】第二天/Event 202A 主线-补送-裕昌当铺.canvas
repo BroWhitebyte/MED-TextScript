@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"70317741e8b4eae0","type":"text","text":"# Event 202A 主线-补送-裕昌当铺","x":0,"y":0,"width":400,"height":120},
-		{"id":"68f767ef6cf04ab9","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 202A 主线-补送-裕昌当铺.ncanvas","x":480,"y":0,"width":300,"height":200}
+		{"id":"93d4a8354cfc1ec0","type":"text","text":"# Event 202A 主线-补送-裕昌当铺","x":0,"y":0,"width":400,"height":120},
+		{"id":"54744aa6d5e43d1c","type":"file","file":"Flows/【主线】第二天/Event 202A 主线-补送-裕昌当铺.ncanvas","x":480,"y":0,"width":300,"height":200}
 	],
 	"edges":[]
 }
