@@ -5705,9 +5705,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 0,
-      "y": 0,
-      "scale": 0.3
+      "x": 491.29886933847035,
+      "y": 181.89047226060364,
+      "scale": 0.15
     },
     "sidebar": {
       "leftWidth": 280,
