@@ -2012,9 +2012,9 @@
     "panel": "project",
     "activeFileId": "adventure",
     "view": {
-      "x": -715.6883911915472,
-      "y": 472.1913374266287,
-      "scale": 0.5696247503748624
+      "x": 0,
+      "y": 0,
+      "scale": 0.08
     },
     "search": "",
     "characterSearch": "",

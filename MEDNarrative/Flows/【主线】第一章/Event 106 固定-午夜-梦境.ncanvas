@@ -385,16 +385,16 @@
     ]
   },
   "ui": {
-    "selectedNodeId": null,
+    "selectedNodeId": "n1",
     "selectedLinkId": null,
     "panel": "project",
     "activeFileId": "adventure",
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 248.05909650539047,
-      "y": 676.1463973318542,
-      "scale": 0.35369215365000056
+      "x": -1423.55489343607,
+      "y": 751.5765793838957,
+      "scale": 0.8339875970238365
     },
     "sidebar": {
       "leftWidth": 280,
