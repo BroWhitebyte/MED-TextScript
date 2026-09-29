@@ -262,7 +262,7 @@
         "id": "n10",
         "type": "End",
         "title": "End",
-        "body": "",
+        "body": "意外死亡结局",
         "x": 5085,
         "y": 80,
         "ports": {
@@ -3286,14 +3286,14 @@
     ]
   },
   "ui": {
-    "selectedNodeId": null,
+    "selectedNodeId": "n12",
     "selectedLinkId": null,
     "panel": "project",
     "activeFileId": "adventure",
     "view": {
-      "x": 318.19591518689094,
-      "y": 13.811533141427503,
-      "scale": 0.22539444027047398
+      "x": -2618.945159333913,
+      "y": -174.02496445158624,
+      "scale": 1.0356813643179357
     },
     "search": "",
     "characterSearch": "",
