@@ -29,32 +29,11 @@
         "id": "n0",
         "type": "Content",
         "title": "Content",
-        "body": "出了药房，程靖霖选择从东南边的平房小巷里穿行过去。穿过那几幢据说“闹鬼”的无人房屋，走过老佟家大车店，再经过协兴澡堂后身，向北跨过烂泥糊成的东大街，就到了。",
-        "x": 760,
+        "body": "出了药房，程靖霖选择从东南边的平房小巷里穿行过去。穿过那几幢据说“闹鬼”的无人房屋，走过老佟家大车店，再经过协兴澡堂后身，向北跨过烂泥糊成的东大街，就到了。\n程靖霖不喜欢东大街。这里两侧都是穷人、手艺人，不知道因为什么就活着或死去的人。他从小到大，走过很多次，但就是不喜欢走在这条大街上。",
+        "x": 770,
         "y": 80,
         "width": 440,
-        "height": 202,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n1",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖不喜欢东大街。这里两侧都是穷人、手艺人，不知道因为什么就活着或死去的人。他从小到大，走过很多次，但就是不喜欢走在这条大街上。",
-        "x": 1380,
-        "y": 80,
-        "width": 440,
-        "height": 174,
+        "height": 317,
         "manualSize": true,
         "ports": {
           "input": {
@@ -71,53 +50,11 @@
         "id": "n2",
         "type": "Content",
         "title": "Content",
-        "body": "协兴澡堂的烟囱还在冒着白烟，他站在街边，已经看见了脚行的平房。天气太冷，往常院里总是人声鼎沸，此时却寂静无声。只有窗户上映出火焰挑动的痕迹，证明屋里还有人。",
-        "x": 2000,
+        "body": "协兴澡堂的烟囱还在冒着白烟，他站在街边，已经看见了脚行的平房。天气太冷，往常院里总是人声鼎沸，此时却寂静无声。只有窗户上映出火焰挑动的痕迹，证明屋里还有人。\n东大街上已经没什么人了。程靖霖穿过大街的时候，瞄了一眼旁边的源顺烧锅，也是静静的没有声音。",
+        "x": 1360,
         "y": 80,
         "width": 440,
-        "height": 202,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n3",
-        "type": "Content",
-        "title": "Content",
-        "body": "东大街上已经没什么人了。程靖霖穿过大街的时候，瞄了一眼旁边的源顺烧锅，也是静静的没有声音。",
-        "x": 2620,
-        "y": 80,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n4",
-        "type": "Content",
-        "title": "Content",
-        "body": "他走到平码脚行的院门跟前，伸出戴着厚手套的右手，嘭嘭嘭地敲了几下门。",
-        "x": 3240,
-        "y": 80,
-        "width": 440,
-        "height": 117,
+        "height": 288,
         "manualSize": true,
         "ports": {
           "input": {
@@ -134,11 +71,11 @@
         "id": "n5",
         "type": "Content",
         "title": "Content",
-        "body": "一阵咒骂声从屋里模糊地传出来。一个人走到院门后，打了个喷嚏，一股子酒味从门缝里飘进程靖霖的鼻子。",
-        "x": 3860,
+        "body": "他走到平码脚行的院门跟前，伸出戴着厚手套的右手，嘭嘭嘭地敲了几下门。\n一阵咒骂声从屋里模糊地传出来。一个人走到院门后，打了个喷嚏，一股子酒味从门缝里飘进程靖霖的鼻子。\n",
+        "x": 1950,
         "y": 80,
         "width": 440,
-        "height": 145,
+        "height": 202,
         "manualSize": true,
         "ports": {
           "input": {
@@ -155,108 +92,24 @@
         "id": "n6",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "里面的人: 干什么的？",
-        "x": 4480,
+        "body": "里面的人: 干什么的？\n程靖霖: 药房，送药的。\n程靖霖: 韩大爷，咳嗽药。\n里面的人: 给谁送什么药？",
+        "x": 2540,
         "y": 80,
         "width": 440,
-        "height": 79,
+        "height": 218,
         "turns": [
           {
             "speaker": "里面的人",
             "line": "干什么的？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n7",
-        "type": "Content",
-        "title": "Content",
-        "body": "里面的人闷声喝问。",
-        "x": 5100,
-        "y": 80,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n8",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 药房，送药的。",
-        "x": 5720,
-        "y": 80,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "程靖霖",
             "line": "药房，送药的。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n9",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖答道。",
-        "x": 6340,
-        "y": 80,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+          {
+            "speaker": "程靖霖",
+            "line": "韩大爷，咳嗽药。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n10",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "里面的人: 给谁送什么药？",
-        "x": 6340,
-        "y": 520,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "里面的人",
             "line": "给谁送什么药？"
@@ -275,62 +128,14 @@
         }
       },
       {
-        "id": "n11",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 韩大爷，咳嗽药。",
-        "x": 5720,
-        "y": 520,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "韩大爷，咳嗽药。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n12",
         "type": "Content",
         "title": "Content",
-        "body": "门吱呀一声开了，半黑的天色里映出一个红鼻子，一张不耐烦的带着点伤痕的脸。开门的人看到门前站着个大孩子，便粗暴地把他拖进院子，然后探头出去左右看了看，闩上了院门。",
-        "x": 5100,
-        "y": 520,
+        "body": "门吱呀一声开了，半黑的天色里映出一个红鼻子，一张不耐烦的带着点伤痕的脸。开门的人看到门前站着个大孩子，便粗暴地把他拖进院子，然后探头出去左右看了看，闩上了院门。\n他回头看看程靖霖：",
+        "x": 3130,
+        "y": 80,
         "width": 440,
-        "height": 202,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n13",
-        "type": "Content",
-        "title": "Content",
-        "body": "他回头看看程靖霖：",
-        "x": 4480,
-        "y": 520,
-        "width": 440,
-        "height": 88,
+        "height": 231,
         "manualSize": true,
         "ports": {
           "input": {
@@ -348,8 +153,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "二虎: 药呢？",
-        "x": 3860,
-        "y": 520,
+        "x": 3720,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -375,8 +180,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖拍了拍胸口，药包沙沙地响。他不再搭理开门的人，转身向有火光的屋子走去。",
-        "x": 3240,
-        "y": 520,
+        "x": 4310,
+        "y": 80,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -396,8 +201,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "二虎: 让你进去了吗，你就往里走？",
-        "x": 2620,
-        "y": 520,
+        "x": 4900,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -422,53 +227,11 @@
         "id": "n17",
         "type": "Content",
         "title": "Content",
-        "body": "身后的人有些蛮横地问道。但是药房伙计的脚步比他要快，几步之间，程靖霖已经走到了平房门口，挑开门帘，推开木门。",
-        "x": 2000,
-        "y": 520,
+        "body": "身后的人有些蛮横地问道。但是药房伙计的脚步比他要快，几步之间，程靖霖已经走到了平房门口，挑开门帘，推开木门。\n屋子里的铁炉旁围着四五个汉子，炕上坐着两个正在吸旱烟袋的人。炉边的男人们看到一个陌生的身影进来，有几个便站了起来。\n程靖霖刚要在门口站定，身后的一只手便搭上了他的肩膀，与此同时脚下伸来一个绊子。",
+        "x": 5490,
+        "y": 80,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n18",
-        "type": "Content",
-        "title": "Content",
-        "body": "屋子里的铁炉旁围着四五个汉子，炕上坐着两个正在吸旱烟袋的人。炉边的男人们看到一个陌生的身影进来，有几个便站了起来。",
-        "x": 1380,
-        "y": 520,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n19",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖刚要在门口站定，身后的一只手便搭上了他的肩膀，与此同时脚下伸来一个绊子。",
-        "x": 760,
-        "y": 520,
-        "width": 440,
-        "height": 145,
+        "height": 345,
         "manualSize": true,
         "ports": {
           "input": {
@@ -486,8 +249,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "二虎: 妈个逼的，问你话没听见？",
-        "x": 140,
-        "y": 520,
+        "x": 6080,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -513,8 +276,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 140,
-        "y": 960,
+        "x": 6670,
+        "y": 80,
         "choices": [
           "摆脱控制",
           "故意绊倒"
@@ -548,53 +311,11 @@
         "id": "n22",
         "type": "Content",
         "title": "Content",
-        "body": "搭在肩膀上的这只手想扣住他的肩胛，程靖霖感觉到手指上传来的力道。",
-        "x": 760,
-        "y": 960,
+        "body": "搭在肩膀上的这只手想扣住他的肩胛，程靖霖感觉到手指上传来的力道。\n他没有多想，稍微一沉肩膀，左脚向前多跨了一点，躲过伸来的那只脚，同时伸出左手往后一挡，拨开对方的胳膊。\n身后的男人显然没想到这个不大的少年会这么干。他抓了个空，一个趔趄，转回身直起腰来看着程靖霖，显然有点伤面子：",
+        "x": 7296,
+        "y": -64,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n23",
-        "type": "Content",
-        "title": "Content",
-        "body": "他没有多想，稍微一沉肩膀，左脚向前多跨了一点，躲过伸来的那只脚，同时伸出左手往后一挡，拨开对方的胳膊。",
-        "x": 1380,
-        "y": 960,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n24",
-        "type": "Content",
-        "title": "Content",
-        "body": "身后的男人显然没想到这个不大的少年会这么干。他抓了个空，一个趔趄，转回身直起腰来看着程靖霖，显然有点伤面子：",
-        "x": 2000,
-        "y": 960,
-        "width": 440,
-        "height": 145,
+        "height": 288,
         "manualSize": true,
         "ports": {
           "input": {
@@ -612,8 +333,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "二虎: 小逼崽子，找不痛快啊？",
-        "x": 2620,
-        "y": 960,
+        "x": 9070,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -639,8 +360,8 @@
         "type": "Content",
         "title": "Content",
         "body": "炉子旁边的几个人发出了轻微的嗤笑声，炕上一个抽烟的老人放下了烟袋，嘿喽着咳嗽了一阵，开了口。",
-        "x": 3240,
-        "y": 960,
+        "x": 9660,
+        "y": 80,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -660,8 +381,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 二虎，别搁这闹。",
-        "x": 3860,
-        "y": 960,
+        "x": 10250,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -687,8 +408,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老人说，",
-        "x": 4480,
-        "y": 960,
+        "x": 10840,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -708,8 +429,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 这是程先生家的伙计，我叫来的。",
-        "x": 5100,
-        "y": 960,
+        "x": 11430,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -735,8 +456,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖摘下帽子，躬身施礼：",
-        "x": 5720,
-        "y": 960,
+        "x": 12020,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -756,8 +477,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 韩大爷。我家掌柜的差我给您送药来。",
-        "x": 6340,
-        "y": 960,
+        "x": 12610,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -783,8 +504,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他眯着眼睛上下打量着程靖霖，点了点头说：",
-        "x": 6340,
-        "y": 1680,
+        "x": 13200,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -804,8 +525,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 好小伙，长得真快。药呢？",
-        "x": 5720,
-        "y": 1680,
+        "x": 13790,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -830,53 +551,11 @@
         "id": "n34",
         "type": "Content",
         "title": "Content",
-        "body": "搭在肩膀上的这只手想扣住他的肩胛，程靖霖感觉到手指上传来的力道。",
-        "x": 760,
-        "y": 1240,
+        "body": "搭在肩膀上的这只手想扣住他的肩胛，程靖霖感觉到手指上传来的力道。\n他心念一动，故意绊在伸出的那条腿上，一个趔趄，差点摔倒在屋里的泥地上。\n炉子旁边的几个人发出了轻微的嗤笑声，炕上一个抽烟的老人放下了烟袋，嘿喽着咳嗽了一阵，开了口。",
+        "x": 7300,
+        "y": 299,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n35",
-        "type": "Content",
-        "title": "Content",
-        "body": "他心念一动，故意绊在伸出的那条腿上，一个趔趄，差点摔倒在屋里的泥地上。",
-        "x": 1380,
-        "y": 1240,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n36",
-        "type": "Content",
-        "title": "Content",
-        "body": "炉子旁边的几个人发出了轻微的嗤笑声，炕上一个抽烟的老人放下了烟袋，嘿喽着咳嗽了一阵，开了口。",
-        "x": 2000,
-        "y": 1240,
-        "width": 440,
-        "height": 145,
+        "height": 260,
         "manualSize": true,
         "ports": {
           "input": {
@@ -894,8 +573,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 二虎，干鸡巴毛呢？",
-        "x": 2620,
-        "y": 1240,
+        "x": 9070,
+        "y": 257,
         "width": 440,
         "height": 79,
         "turns": [
@@ -921,8 +600,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老人说，",
-        "x": 3240,
-        "y": 1240,
+        "x": 9660,
+        "y": 330,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -942,8 +621,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 整点猫尿，欺负个孩子，脸上有光？今天晚上睡觉都香？",
-        "x": 3860,
-        "y": 1240,
+        "x": 10250,
+        "y": 257,
         "width": 440,
         "height": 106,
         "turns": [
@@ -969,8 +648,8 @@
         "type": "Content",
         "title": "Content",
         "body": "屋里静了下来。",
-        "x": 4480,
-        "y": 1240,
+        "x": 10840,
+        "y": 267,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -990,8 +669,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "二虎: 是，韩大爷。他说是来送药的，我问他话他也不吱声……",
-        "x": 5100,
-        "y": 1240,
+        "x": 11430,
+        "y": 257,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1017,8 +696,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖听见身后的二虎讪讪地回答。",
-        "x": 5720,
-        "y": 1240,
+        "x": 12020,
+        "y": 267,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1038,8 +717,8 @@
         "type": "Content",
         "title": "Content",
         "body": "药房伙计直起身来，摘下帽子，看着老人：",
-        "x": 6340,
-        "y": 1240,
+        "x": 12610,
+        "y": 276,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1059,8 +738,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 韩大爷，我家掌柜的差我给您送药来。",
-        "x": 6340,
-        "y": 1960,
+        "x": 13200,
+        "y": 299,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1086,8 +765,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩眯着眼睛上下打量着程靖霖，点了点头说：",
-        "x": 5720,
-        "y": 1960,
+        "x": 13790,
+        "y": 257,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1107,8 +786,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 好小伙，长得真快。药呢？",
-        "x": 5100,
-        "y": 1680,
+        "x": 14380,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1134,8 +813,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖上前两步，从怀里掏出药包，放到炕桌上。一阵辛辣刺鼻的烟味传来，他透过淡蓝色的烟雾，看着老把头那张被生活捶打太久的脸。",
-        "x": 5100,
-        "y": 1960,
+        "x": 14380,
+        "y": 257,
         "width": 440,
         "height": 174,
         "manualSize": true,
@@ -1155,8 +834,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩看了看药包，并没急着收起来。他用两个指头敲着炕桌，嘿嘿地笑起来：",
-        "x": 4480,
-        "y": 1680,
+        "x": 14970,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1176,8 +855,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 哈哈，这一行啊。汗干衣裳烂，干不动去要饭。大冬天的，肺子痒痒得恨不得掏出来搓搓。活着干，死了算。",
-        "x": 3860,
-        "y": 1680,
+        "x": 15560,
+        "y": 80,
         "width": 440,
         "height": 132,
         "turns": [
@@ -1203,8 +882,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他看看程靖霖，笑着笑着，便又咳嗽了一会。等气息平复，才说：",
-        "x": 3240,
-        "y": 1680,
+        "x": 16150,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1224,8 +903,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 吃了没？要不搁这吃点再走吧。",
-        "x": 2620,
-        "y": 1680,
+        "x": 16740,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1251,8 +930,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 不了，韩大爷，掌柜的说等我回去吃饭。",
-        "x": 2000,
-        "y": 1680,
+        "x": 17330,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1278,8 +957,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖恭谨地回答道。",
-        "x": 1380,
-        "y": 1680,
+        "x": 17920,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1299,8 +978,8 @@
         "type": "Content",
         "title": "Content",
         "body": "炕上另一个人放下烟袋，老韩对他示意说：",
-        "x": 760,
-        "y": 1680,
+        "x": 18510,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1320,8 +999,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 刘先生，给他。说好的金粒子顶药钱。",
-        "x": 140,
-        "y": 1680,
+        "x": 19100,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1347,8 +1026,8 @@
         "type": "Content",
         "title": "Content",
         "body": "脚行先生从怀里摸出一个小布包，摊在炕桌上，跳动的炉火映在那几颗金属上，折射出黄澄澄的暗光。炉子旁边有个糙汉咽了咽口水。",
-        "x": 140,
-        "y": 2400,
+        "x": 19690,
+        "y": 80,
         "width": 440,
         "height": 174,
         "manualSize": true,
@@ -1368,8 +1047,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩自顾自地拿起烟袋，在炕沿上磕了磕，向程靖霖勾勾手，示意他过去:",
-        "x": 760,
-        "y": 2400,
+        "x": 20280,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1389,8 +1068,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 药钱，收着。",
-        "x": 1380,
-        "y": 2400,
+        "x": 20870,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1416,8 +1095,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 2000,
-        "y": 2400,
+        "x": 21460,
+        "y": 80,
         "choices": [
           "先谢再拿",
           "沉默直接拿",
@@ -1459,8 +1138,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 谢韩大爷。",
-        "x": 2620,
-        "y": 2400,
+        "x": 22090,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1486,8 +1165,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖又躬一躬身，这才走到炕桌边上。",
-        "x": 3240,
-        "y": 2400,
+        "x": 22680,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1507,8 +1186,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他没收过金子，却也学着掌柜的样子，端详了一下这几颗金粒子，折起布包，上手掂了掂。",
-        "x": 3860,
-        "y": 2400,
+        "x": 23270,
+        "y": 80,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -1528,8 +1207,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 韩大爷，这副咳嗽药……",
-        "x": 4480,
-        "y": 2400,
+        "x": 23900,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1555,8 +1234,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖抬眼看着老人说，",
-        "x": 5100,
-        "y": 2400,
+        "x": 24490,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1576,8 +1255,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 不值这么多金子。给多了。",
-        "x": 5720,
-        "y": 2400,
+        "x": 25080,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1603,8 +1282,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 6340,
-        "y": 2400,
+        "x": 25670,
+        "y": 80,
         "choices": [
           "如果前面选摆脱控制",
           "如果前面选故意绊倒"
@@ -1639,8 +1318,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩和脚行先生互相看了一眼，嘿嘿地乐起来，其他人便也跟着笑了。",
-        "x": 6340,
-        "y": 3680,
+        "x": 26300,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1660,8 +1339,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩嘿喽着说：",
-        "x": 5720,
-        "y": 3680,
+        "x": 26930,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1681,8 +1360,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 这孩子行，有点意思。",
-        "x": 5100,
-        "y": 3680,
+        "x": 27520,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1708,8 +1387,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生吧嗒吧嗒地抽着烟说：",
-        "x": 4480,
-        "y": 3680,
+        "x": 28110,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1729,8 +1408,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 不知道老程平时都教他点啥。毛都没长齐，还挺会来事。",
-        "x": 3860,
-        "y": 3680,
+        "x": 28700,
+        "y": 80,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1756,8 +1435,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖仍旧拿着布包站在那里，老韩拍拍炕桌说：",
-        "x": 3240,
-        "y": 3680,
+        "x": 29290,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1777,8 +1456,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 拿走吧，孩子！快过年了，图个吉利，换副手套。",
-        "x": 2620,
-        "y": 3680,
+        "x": 29880,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1804,8 +1483,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖这才把布包揣到怀里，又躬了躬身。",
-        "x": 2000,
-        "y": 3680,
+        "x": 30470,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1825,8 +1504,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】人情+1",
-        "x": 1380,
-        "y": 3680,
+        "x": 31060,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1846,8 +1525,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩和脚行先生互相看了一眼，嘿嘿地乐起来，其他人便也跟着笑了。",
-        "x": 6340,
-        "y": 3960,
+        "x": 26300,
+        "y": 299,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1867,8 +1546,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩嘿喽着说：",
-        "x": 5720,
-        "y": 3960,
+        "x": 26930,
+        "y": 267,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1888,8 +1567,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 这孩子眼力比身手好。",
-        "x": 5100,
-        "y": 3960,
+        "x": 27520,
+        "y": 257,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1915,8 +1594,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生吧嗒吧嗒地抽着烟说：",
-        "x": 4480,
-        "y": 3960,
+        "x": 28110,
+        "y": 267,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1936,8 +1615,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 那老程又不扛大包，教他都是细活儿。",
-        "x": 3860,
-        "y": 3960,
+        "x": 28700,
+        "y": 287,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1963,8 +1642,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖仍旧拿着布包站在那里，老韩拍拍炕桌说：",
-        "x": 3240,
-        "y": 3960,
+        "x": 29290,
+        "y": 299,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1984,8 +1663,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 拿走吧，孩子！快过年了，图个吉利，换双新鞋。",
-        "x": 2620,
-        "y": 3960,
+        "x": 29880,
+        "y": 276,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2011,8 +1690,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖这才把布包揣到怀里，又躬了躬身。",
-        "x": 2000,
-        "y": 3960,
+        "x": 30470,
+        "y": 299,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2032,8 +1711,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】人情+1",
-        "x": 1380,
-        "y": 3960,
+        "x": 31060,
+        "y": 267,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2053,8 +1732,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖走到炕桌边上，看着那几颗金粒子。他头一次收金子，但不懂怎么看，便犹豫着慢慢地将布包折起来，揣进贴肉的袋里。",
-        "x": 2620,
-        "y": 2680,
+        "x": 22090,
+        "y": 257,
         "width": 440,
         "height": 174,
         "manualSize": true,
@@ -2074,8 +1753,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他看看炕上的两个人，又回头看看火炉旁边的那几个汉子，意识到这儿已经没自己什么事了。",
-        "x": 3240,
-        "y": 2680,
+        "x": 22680,
+        "y": 267,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2095,8 +1774,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 3860,
-        "y": 2680,
+        "x": 23270,
+        "y": 330,
         "choices": [
           "如果前面选摆脱控制",
           "如果前面选故意绊倒"
@@ -2131,8 +1810,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩又嘿喽了两声，说：",
-        "x": 4480,
-        "y": 2680,
+        "x": 23900,
+        "y": 257,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2152,8 +1831,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 初生牛犊不怕虎呢。",
-        "x": 5100,
-        "y": 2680,
+        "x": 24490,
+        "y": 267,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2179,8 +1858,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他端详着程靖霖，忽然问道：",
-        "x": 5720,
-        "y": 2680,
+        "x": 25080,
+        "y": 257,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2200,8 +1879,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 你也不数数？",
-        "x": 6340,
-        "y": 2680,
+        "x": 25670,
+        "y": 346,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2227,8 +1906,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 6340,
-        "y": 4240,
+        "x": 26300,
+        "y": 518,
         "choices": [
           "数",
           "不数"
@@ -2263,8 +1942,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖本就心慌。他听到老韩这么说，便又从怀里掏出布包解开，看看金粒子的份量。",
-        "x": 5720,
-        "y": 4240,
+        "x": 26930,
+        "y": 454,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2284,8 +1963,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生从旁边凑过来，看着程靖霖数金子，问道：",
-        "x": 5100,
-        "y": 4240,
+        "x": 27520,
+        "y": 434,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2305,8 +1984,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 有几颗，看清楚了吗？",
-        "x": 4480,
-        "y": 4240,
+        "x": 28110,
+        "y": 454,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2332,8 +2011,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖数完了，舒了一口气说：",
-        "x": 3860,
-        "y": 4240,
+        "x": 28700,
+        "y": 483,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2353,8 +2032,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 六颗。",
-        "x": 3240,
-        "y": 4240,
+        "x": 29290,
+        "y": 518,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2380,8 +2059,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生伸出手，夹了两颗藏进怀里说：",
-        "x": 2620,
-        "y": 4240,
+        "x": 29880,
+        "y": 472,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2401,8 +2080,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 你刚才数错了。再数数？",
-        "x": 2000,
-        "y": 4240,
+        "x": 30470,
+        "y": 518,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2428,8 +2107,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖意识到事情有些不对。",
-        "x": 1380,
-        "y": 4240,
+        "x": 31060,
+        "y": 454,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2449,8 +2128,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他刚想说什么，听到身后火炉旁的壮劳力们脚下移动的声音，便咽了一口唾沫，将布包折起来，重新放回怀里。",
-        "x": 760,
-        "y": 3680,
+        "x": 31650,
+        "y": 80,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2470,8 +2149,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】报酬减少",
-        "x": 140,
-        "y": 3680,
+        "x": 32240,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2491,8 +2170,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 不数了。",
-        "x": 5720,
-        "y": 4520,
+        "x": 26930,
+        "y": 704,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2518,8 +2197,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖虽然心慌，但还是镇静地回答道。",
-        "x": 5100,
-        "y": 4520,
+        "x": 27520,
+        "y": 653,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2539,8 +2218,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 韩大爷给的药钱，还是让我家老掌柜的数去吧。",
-        "x": 4480,
-        "y": 4520,
+        "x": 28110,
+        "y": 631,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2566,8 +2245,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩轻轻笑了一下：",
-        "x": 3860,
-        "y": 4520,
+        "x": 28700,
+        "y": 670,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2587,8 +2266,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 嘴跟身手一样硬。",
-        "x": 3240,
-        "y": 4520,
+        "x": 29290,
+        "y": 695,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2614,8 +2293,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生接上一句：",
-        "x": 2620,
-        "y": 4520,
+        "x": 29880,
+        "y": 659,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2635,8 +2314,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 毛没长齐的，不都这样？",
-        "x": 2000,
-        "y": 4520,
+        "x": 30470,
+        "y": 695,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2662,8 +2341,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩伸手到炕席底下划拉两下，摸到一个物件。他把东西丢给程靖霖，药房伙计一怔，下意识地接住了。",
-        "x": 1380,
-        "y": 4520,
+        "x": 31060,
+        "y": 641,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2683,8 +2362,8 @@
         "type": "Content",
         "title": "Content",
         "body": "这是个瓷瓶，瓶口塞得严严实实，里面显然装满了液体。",
-        "x": 760,
-        "y": 3960,
+        "x": 31650,
+        "y": 330,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2704,8 +2383,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩叹了口气说：",
-        "x": 140,
-        "y": 3960,
+        "x": 32240,
+        "y": 267,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2725,8 +2404,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 捎给你家掌柜，快过年了，数钱的时候喝两口。就说韩老头给的。",
-        "x": 140,
-        "y": 5800,
+        "x": 32830,
+        "y": 80,
         "width": 440,
         "height": 106,
         "turns": [
@@ -2752,8 +2431,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】道具 酒",
-        "x": 760,
-        "y": 5800,
+        "x": 33420,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2773,8 +2452,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩又嘿喽了两声，说：",
-        "x": 4480,
-        "y": 2960,
+        "x": 23900,
+        "y": 444,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2794,8 +2473,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 还是小孩呢。",
-        "x": 5100,
-        "y": 2960,
+        "x": 24490,
+        "y": 444,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2821,8 +2500,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他端详着程靖霖，忽然问道：",
-        "x": 5720,
-        "y": 2960,
+        "x": 25080,
+        "y": 444,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2842,8 +2521,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 你也不数数？",
-        "x": 6340,
-        "y": 2960,
+        "x": 25670,
+        "y": 523,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2869,8 +2548,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 6340,
-        "y": 4520,
+        "x": 26300,
+        "y": 784,
         "choices": [
           "数",
           "不数"
@@ -2905,8 +2584,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖本就心慌。他听到老韩这么说，便又从怀里掏出布包解开，看看金粒子的份量。",
-        "x": 5720,
-        "y": 4800,
+        "x": 26930,
+        "y": 881,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2926,8 +2605,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生从旁边凑过来，看着程靖霖数金子，问道：",
-        "x": 5100,
-        "y": 4800,
+        "x": 27520,
+        "y": 840,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2947,8 +2626,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 有几颗，看清楚了吗？",
-        "x": 4480,
-        "y": 4800,
+        "x": 28110,
+        "y": 827,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2974,8 +2653,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖数完了，舒了一口气说：",
-        "x": 3860,
-        "y": 4800,
+        "x": 28700,
+        "y": 857,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2995,8 +2674,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 六颗。",
-        "x": 3240,
-        "y": 4800,
+        "x": 29290,
+        "y": 872,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3022,8 +2701,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生伸出手，夹了两颗。他刚要把手收回怀里，老韩的手伸了过来：",
-        "x": 2620,
-        "y": 4800,
+        "x": 29880,
+        "y": 846,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3043,8 +2722,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 先生，别逗孩子玩儿了。",
-        "x": 2000,
-        "y": 4800,
+        "x": 30470,
+        "y": 872,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3070,8 +2749,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生的手指悬在空中，最后松开了。两颗金粒子落进老韩手里，他把金子重新放在一起，折好布包，塞给程靖霖：",
-        "x": 1380,
-        "y": 4800,
+        "x": 31060,
+        "y": 891,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -3091,8 +2770,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 贴身揣着。",
-        "x": 760,
-        "y": 4240,
+        "x": 31650,
+        "y": 549,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3118,8 +2797,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 不数了。",
-        "x": 5720,
-        "y": 5080,
+        "x": 26930,
+        "y": 1131,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3145,8 +2824,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖虽然心慌，但还是镇静地回答道。",
-        "x": 5100,
-        "y": 5080,
+        "x": 27520,
+        "y": 1059,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3166,8 +2845,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 哦？怎么不数呢？",
-        "x": 4480,
-        "y": 5080,
+        "x": 28110,
+        "y": 1004,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3193,8 +2872,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩的嘴又凑到烟袋上。",
-        "x": 3860,
-        "y": 5080,
+        "x": 28700,
+        "y": 1044,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3214,8 +2893,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 数完了出门再摔个大马趴，那数就对不上了。",
-        "x": 3240,
-        "y": 5080,
+        "x": 29290,
+        "y": 1049,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3241,8 +2920,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖说。",
-        "x": 2620,
-        "y": 5080,
+        "x": 29880,
+        "y": 1065,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3262,8 +2941,8 @@
         "type": "Content",
         "title": "Content",
         "body": "火炉旁传来低低的笑声，刘先生也笑起来：",
-        "x": 2000,
-        "y": 5080,
+        "x": 30470,
+        "y": 1049,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3283,8 +2962,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 破茶壶嘴好，这孩子多少吃不了亏。",
-        "x": 1380,
-        "y": 5080,
+        "x": 31060,
+        "y": 1141,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3310,8 +2989,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩伸手到炕席底下划拉两下，摸到一个物件。",
-        "x": 760,
-        "y": 4520,
+        "x": 31650,
+        "y": 726,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3331,8 +3010,8 @@
         "type": "Content",
         "title": "Content",
         "body": "这是个瓷瓶，瓶口塞得严严实实，里面显然装满了液体。",
-        "x": 140,
-        "y": 4240,
+        "x": 32240,
+        "y": 454,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3352,8 +3031,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩把瓷瓶递给程靖霖，叹了口气说：",
-        "x": 140,
-        "y": 6080,
+        "x": 32830,
+        "y": 287,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3373,8 +3052,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 跟金子一起揣怀里。你要摔了，那就打碎喽。带给你家掌柜！",
-        "x": 760,
-        "y": 6080,
+        "x": 33420,
+        "y": 267,
         "width": 440,
         "height": 106,
         "turns": [
@@ -3400,8 +3079,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】道具 酒",
-        "x": 1380,
-        "y": 5800,
+        "x": 34010,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3421,8 +3100,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖看着那几颗金子，心里有了额外的主意。他学着大人的样子，向炕上的人拱了拱手。",
-        "x": 2620,
-        "y": 2960,
+        "x": 22090,
+        "y": 538,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -3442,8 +3121,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩微微一怔。",
-        "x": 3240,
-        "y": 2960,
+        "x": 22680,
+        "y": 517,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3463,8 +3142,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 韩大爷，我家老掌柜的说，一副药值不了多少钱。金粒子，好，但是别的更好。",
-        "x": 3860,
-        "y": 2960,
+        "x": 23270,
+        "y": 596,
         "width": 440,
         "height": 106,
         "turns": [
@@ -3490,8 +3169,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩笑了，笑得嘿喽起来，他咳嗽着喷出一团烟雾说：",
-        "x": 4480,
-        "y": 3240,
+        "x": 23900,
+        "y": 631,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3511,8 +3190,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 老程啊，这老狐狸。他想要什么？",
-        "x": 5100,
-        "y": 3240,
+        "x": 24490,
+        "y": 621,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3538,8 +3217,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 掌柜的没说太细。",
-        "x": 5720,
-        "y": 3240,
+        "x": 25080,
+        "y": 631,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3565,8 +3244,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖说，",
-        "x": 6340,
-        "y": 3240,
+        "x": 25670,
+        "y": 700,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3586,8 +3265,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 他就说，粮食、消息，韩大爷觉得行的就行。",
-        "x": 6340,
-        "y": 4800,
+        "x": 26300,
+        "y": 1050,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3613,8 +3292,8 @@
         "type": "Content",
         "title": "Content",
         "body": "屋子里又陷入了寂静。",
-        "x": 5720,
-        "y": 5360,
+        "x": 26930,
+        "y": 1308,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3634,8 +3313,8 @@
         "type": "Content",
         "title": "Content",
         "body": "刘先生吧嗒吧嗒地抽着烟袋，望着程靖霖，隔了半晌，对老韩说：",
-        "x": 5100,
-        "y": 5360,
+        "x": 27520,
+        "y": 1246,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3655,8 +3334,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "刘先生: 看你？",
-        "x": 4480,
-        "y": 5360,
+        "x": 28110,
+        "y": 1181,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3682,8 +3361,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老韩想了想，打开布包，拿出一半金子，把剩下一半又折起来，抛给程靖霖。",
-        "x": 3860,
-        "y": 5360,
+        "x": 28700,
+        "y": 1231,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3703,8 +3382,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 贴身揣着。回去告诉你家老掌柜的，小年之前，给他回信。",
-        "x": 3240,
-        "y": 5360,
+        "x": 29290,
+        "y": 1245,
         "width": 440,
         "height": 106,
         "turns": [
@@ -3730,8 +3409,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖从炕桌边退开两步，老韩招呼：",
-        "x": 2620,
-        "y": 5360,
+        "x": 29880,
+        "y": 1252,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3751,8 +3430,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 二虎，送客。看着点，别让孩子再摔了。",
-        "x": 2000,
-        "y": 5360,
+        "x": 30470,
+        "y": 1268,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3778,8 +3457,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他接着吩咐屋子里的汉子们：",
-        "x": 1380,
-        "y": 5360,
+        "x": 31060,
+        "y": 1337,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -3799,8 +3478,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "老韩: 等会就开饭，高粱米饭大锅菜，今晚够吃。明儿一早，得跟奉纳所的下屯子去，搁外面过两宿才能回来。今晚吃完饭，都赶紧睡觉！",
-        "x": 760,
-        "y": 4800,
+        "x": 31650,
+        "y": 945,
         "width": 440,
         "height": 132,
         "turns": [
@@ -3826,8 +3505,8 @@
         "type": "Content",
         "title": "Content",
         "body": "七零八落的应承声响起。程靖霖走到屋门口，看看二虎那张仍带有三分醉意的脸。",
-        "x": 140,
-        "y": 4520,
+        "x": 32240,
+        "y": 673,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3847,8 +3526,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他推开屋门走到院子门口，二虎拿肩膀拱了他一下，打开院门，左右探头看看，恶声恶气地说道：",
-        "x": 140,
-        "y": 6360,
+        "x": 32830,
+        "y": 474,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -3868,8 +3547,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "二虎: 滚吧！",
-        "x": 760,
-        "y": 6360,
+        "x": 33420,
+        "y": 474,
         "width": 440,
         "height": 79,
         "turns": [
@@ -3895,8 +3574,8 @@
         "type": "Content",
         "title": "Content",
         "body": "脚行的院门在身后砰的一声关上了，接着是落门闩的声音。",
-        "x": 1380,
-        "y": 6080,
+        "x": 34010,
+        "y": 267,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3916,8 +3595,8 @@
         "type": "Content",
         "title": "Content",
         "body": "梆子的声音从小广场的方向响起，东大街上已经没什么人了。各家的门都关严了，旁边的烧锅还透着一线亮。",
-        "x": 2000,
-        "y": 5800,
+        "x": 34600,
+        "y": 80,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -3937,8 +3616,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖想了想，选择了大路。他加快脚步，拐到小广场，又拐上南大道。",
-        "x": 2620,
-        "y": 5800,
+        "x": 35190,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3958,8 +3637,8 @@
         "type": "Content",
         "title": "Content",
         "body": "能看见药房的轮廓的时候，天已经彻底黑透了。",
-        "x": 3240,
-        "y": 5800,
+        "x": 35780,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -3979,8 +3658,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 饿了。",
-        "x": 3860,
-        "y": 5800,
+        "x": 36370,
+        "y": 80,
         "width": 440,
         "height": 79,
         "turns": [
@@ -4006,8 +3685,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖心里想着，加快了脚步。",
-        "x": 4480,
-        "y": 5800,
+        "x": 36960,
+        "y": 80,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -4027,8 +3706,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【转场】0205 登门——2/1 黄昏·时一堂大药房",
-        "x": 5100,
-        "y": 5800,
+        "x": 37550,
+        "y": 80,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -4048,8 +3727,8 @@
         "type": "End",
         "title": "End",
         "body": "",
-        "x": 5720,
-        "y": 5800,
+        "x": 38140,
+        "y": 80,
         "ports": {
           "input": {
             "side": "left",
@@ -4075,15 +3754,6 @@
       {
         "id": "l1",
         "from": "n0",
-        "to": "n1",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l2",
-        "from": "n1",
         "to": "n2",
         "toPort": {
           "side": "left",
@@ -4091,26 +3761,8 @@
         }
       },
       {
-        "id": "l3",
+        "id": "l2",
         "from": "n2",
-        "to": "n3",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l4",
-        "from": "n3",
-        "to": "n4",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l5",
-        "from": "n4",
         "to": "n5",
         "toPort": {
           "side": "left",
@@ -4118,7 +3770,7 @@
         }
       },
       {
-        "id": "l6",
+        "id": "l3",
         "from": "n5",
         "to": "n6",
         "toPort": {
@@ -4127,53 +3779,8 @@
         }
       },
       {
-        "id": "l7",
+        "id": "l4",
         "from": "n6",
-        "to": "n7",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l8",
-        "from": "n7",
-        "to": "n8",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l9",
-        "from": "n8",
-        "to": "n9",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l10",
-        "from": "n9",
-        "to": "n10",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l11",
-        "from": "n10",
-        "to": "n11",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l12",
-        "from": "n11",
         "to": "n12",
         "toPort": {
           "side": "left",
@@ -4181,17 +3788,8 @@
         }
       },
       {
-        "id": "l13",
+        "id": "l5",
         "from": "n12",
-        "to": "n13",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l14",
-        "from": "n13",
         "to": "n14",
         "toPort": {
           "side": "left",
@@ -4199,7 +3797,7 @@
         }
       },
       {
-        "id": "l15",
+        "id": "l6",
         "from": "n14",
         "to": "n15",
         "toPort": {
@@ -4208,7 +3806,7 @@
         }
       },
       {
-        "id": "l16",
+        "id": "l7",
         "from": "n15",
         "to": "n16",
         "toPort": {
@@ -4217,7 +3815,7 @@
         }
       },
       {
-        "id": "l17",
+        "id": "l8",
         "from": "n16",
         "to": "n17",
         "toPort": {
@@ -4226,26 +3824,8 @@
         }
       },
       {
-        "id": "l18",
+        "id": "l9",
         "from": "n17",
-        "to": "n18",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l19",
-        "from": "n18",
-        "to": "n19",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l20",
-        "from": "n19",
         "to": "n20",
         "toPort": {
           "side": "left",
@@ -4253,7 +3833,7 @@
         }
       },
       {
-        "id": "l21",
+        "id": "l10",
         "from": "n20",
         "to": "n21",
         "toPort": {
@@ -4262,7 +3842,7 @@
         }
       },
       {
-        "id": "l22",
+        "id": "l11",
         "from": "n21",
         "to": "n22",
         "choiceOptionId": "opt_1",
@@ -4274,7 +3854,7 @@
         }
       },
       {
-        "id": "l23",
+        "id": "l12",
         "from": "n21",
         "to": "n34",
         "choiceOptionId": "opt_2",
@@ -4286,26 +3866,8 @@
         }
       },
       {
-        "id": "l24",
+        "id": "l13",
         "from": "n22",
-        "to": "n23",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l25",
-        "from": "n23",
-        "to": "n24",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l26",
-        "from": "n24",
         "to": "n25",
         "toPort": {
           "side": "left",
@@ -4313,7 +3875,7 @@
         }
       },
       {
-        "id": "l27",
+        "id": "l14",
         "from": "n25",
         "to": "n26",
         "toPort": {
@@ -4322,7 +3884,7 @@
         }
       },
       {
-        "id": "l28",
+        "id": "l15",
         "from": "n26",
         "to": "n27",
         "toPort": {
@@ -4331,7 +3893,7 @@
         }
       },
       {
-        "id": "l29",
+        "id": "l16",
         "from": "n27",
         "to": "n28",
         "toPort": {
@@ -4340,7 +3902,7 @@
         }
       },
       {
-        "id": "l30",
+        "id": "l17",
         "from": "n28",
         "to": "n29",
         "toPort": {
@@ -4349,7 +3911,7 @@
         }
       },
       {
-        "id": "l31",
+        "id": "l18",
         "from": "n29",
         "to": "n30",
         "toPort": {
@@ -4358,7 +3920,7 @@
         }
       },
       {
-        "id": "l32",
+        "id": "l19",
         "from": "n30",
         "to": "n31",
         "toPort": {
@@ -4367,7 +3929,7 @@
         }
       },
       {
-        "id": "l33",
+        "id": "l20",
         "from": "n31",
         "to": "n32",
         "toPort": {
@@ -4376,7 +3938,7 @@
         }
       },
       {
-        "id": "l34",
+        "id": "l21",
         "from": "n32",
         "to": "n33",
         "toPort": {
@@ -4385,7 +3947,7 @@
         }
       },
       {
-        "id": "l35",
+        "id": "l22",
         "from": "n33",
         "to": "n47",
         "toPort": {
@@ -4394,26 +3956,8 @@
         }
       },
       {
-        "id": "l36",
+        "id": "l23",
         "from": "n34",
-        "to": "n35",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l37",
-        "from": "n35",
-        "to": "n36",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l38",
-        "from": "n36",
         "to": "n37",
         "toPort": {
           "side": "left",
@@ -4421,7 +3965,7 @@
         }
       },
       {
-        "id": "l39",
+        "id": "l24",
         "from": "n37",
         "to": "n38",
         "toPort": {
@@ -4430,7 +3974,7 @@
         }
       },
       {
-        "id": "l40",
+        "id": "l25",
         "from": "n38",
         "to": "n39",
         "toPort": {
@@ -4439,7 +3983,7 @@
         }
       },
       {
-        "id": "l41",
+        "id": "l26",
         "from": "n39",
         "to": "n40",
         "toPort": {
@@ -4448,7 +3992,7 @@
         }
       },
       {
-        "id": "l42",
+        "id": "l27",
         "from": "n40",
         "to": "n41",
         "toPort": {
@@ -4457,7 +4001,7 @@
         }
       },
       {
-        "id": "l43",
+        "id": "l28",
         "from": "n41",
         "to": "n42",
         "toPort": {
@@ -4466,7 +4010,7 @@
         }
       },
       {
-        "id": "l44",
+        "id": "l29",
         "from": "n42",
         "to": "n43",
         "toPort": {
@@ -4475,7 +4019,7 @@
         }
       },
       {
-        "id": "l45",
+        "id": "l30",
         "from": "n43",
         "to": "n44",
         "toPort": {
@@ -4484,7 +4028,7 @@
         }
       },
       {
-        "id": "l46",
+        "id": "l31",
         "from": "n44",
         "to": "n45",
         "toPort": {
@@ -4493,7 +4037,7 @@
         }
       },
       {
-        "id": "l47",
+        "id": "l32",
         "from": "n45",
         "to": "n46",
         "toPort": {
@@ -4502,7 +4046,7 @@
         }
       },
       {
-        "id": "l48",
+        "id": "l33",
         "from": "n46",
         "to": "n47",
         "toPort": {
@@ -4511,7 +4055,7 @@
         }
       },
       {
-        "id": "l49",
+        "id": "l34",
         "from": "n47",
         "to": "n48",
         "toPort": {
@@ -4520,7 +4064,7 @@
         }
       },
       {
-        "id": "l50",
+        "id": "l35",
         "from": "n48",
         "to": "n49",
         "toPort": {
@@ -4529,7 +4073,7 @@
         }
       },
       {
-        "id": "l51",
+        "id": "l36",
         "from": "n49",
         "to": "n50",
         "toPort": {
@@ -4538,7 +4082,7 @@
         }
       },
       {
-        "id": "l52",
+        "id": "l37",
         "from": "n50",
         "to": "n51",
         "toPort": {
@@ -4547,7 +4091,7 @@
         }
       },
       {
-        "id": "l53",
+        "id": "l38",
         "from": "n51",
         "to": "n52",
         "toPort": {
@@ -4556,7 +4100,7 @@
         }
       },
       {
-        "id": "l54",
+        "id": "l39",
         "from": "n52",
         "to": "n53",
         "toPort": {
@@ -4565,7 +4109,7 @@
         }
       },
       {
-        "id": "l55",
+        "id": "l40",
         "from": "n53",
         "to": "n54",
         "toPort": {
@@ -4574,7 +4118,7 @@
         }
       },
       {
-        "id": "l56",
+        "id": "l41",
         "from": "n54",
         "to": "n55",
         "toPort": {
@@ -4583,7 +4127,7 @@
         }
       },
       {
-        "id": "l57",
+        "id": "l42",
         "from": "n55",
         "to": "n56",
         "toPort": {
@@ -4592,7 +4136,7 @@
         }
       },
       {
-        "id": "l58",
+        "id": "l43",
         "from": "n56",
         "to": "n57",
         "toPort": {
@@ -4601,7 +4145,7 @@
         }
       },
       {
-        "id": "l59",
+        "id": "l44",
         "from": "n57",
         "to": "n58",
         "toPort": {
@@ -4610,7 +4154,7 @@
         }
       },
       {
-        "id": "l60",
+        "id": "l45",
         "from": "n58",
         "to": "n59",
         "toPort": {
@@ -4619,7 +4163,7 @@
         }
       },
       {
-        "id": "l61",
+        "id": "l46",
         "from": "n59",
         "to": "n60",
         "choiceOptionId": "opt_1",
@@ -4631,7 +4175,7 @@
         }
       },
       {
-        "id": "l62",
+        "id": "l47",
         "from": "n59",
         "to": "n85",
         "choiceOptionId": "opt_2",
@@ -4643,7 +4187,7 @@
         }
       },
       {
-        "id": "l63",
+        "id": "l48",
         "from": "n59",
         "to": "n142",
         "choiceOptionId": "opt_3",
@@ -4655,7 +4199,7 @@
         }
       },
       {
-        "id": "l64",
+        "id": "l49",
         "from": "n60",
         "to": "n61",
         "toPort": {
@@ -4664,7 +4208,7 @@
         }
       },
       {
-        "id": "l65",
+        "id": "l50",
         "from": "n61",
         "to": "n62",
         "toPort": {
@@ -4673,7 +4217,7 @@
         }
       },
       {
-        "id": "l66",
+        "id": "l51",
         "from": "n62",
         "to": "n63",
         "toPort": {
@@ -4682,7 +4226,7 @@
         }
       },
       {
-        "id": "l67",
+        "id": "l52",
         "from": "n63",
         "to": "n64",
         "toPort": {
@@ -4691,7 +4235,7 @@
         }
       },
       {
-        "id": "l68",
+        "id": "l53",
         "from": "n64",
         "to": "n65",
         "toPort": {
@@ -4700,7 +4244,7 @@
         }
       },
       {
-        "id": "l69",
+        "id": "l54",
         "from": "n65",
         "to": "n66",
         "toPort": {
@@ -4709,7 +4253,7 @@
         }
       },
       {
-        "id": "l70",
+        "id": "l55",
         "from": "n66",
         "to": "n67",
         "choiceOptionId": "opt_1",
@@ -4721,7 +4265,7 @@
         }
       },
       {
-        "id": "l71",
+        "id": "l56",
         "from": "n66",
         "to": "n76",
         "choiceOptionId": "opt_2",
@@ -4733,7 +4277,7 @@
         }
       },
       {
-        "id": "l72",
+        "id": "l57",
         "from": "n67",
         "to": "n68",
         "toPort": {
@@ -4742,7 +4286,7 @@
         }
       },
       {
-        "id": "l73",
+        "id": "l58",
         "from": "n68",
         "to": "n69",
         "toPort": {
@@ -4751,7 +4295,7 @@
         }
       },
       {
-        "id": "l74",
+        "id": "l59",
         "from": "n69",
         "to": "n70",
         "toPort": {
@@ -4760,7 +4304,7 @@
         }
       },
       {
-        "id": "l75",
+        "id": "l60",
         "from": "n70",
         "to": "n71",
         "toPort": {
@@ -4769,7 +4313,7 @@
         }
       },
       {
-        "id": "l76",
+        "id": "l61",
         "from": "n71",
         "to": "n72",
         "toPort": {
@@ -4778,7 +4322,7 @@
         }
       },
       {
-        "id": "l77",
+        "id": "l62",
         "from": "n72",
         "to": "n73",
         "toPort": {
@@ -4787,7 +4331,7 @@
         }
       },
       {
-        "id": "l78",
+        "id": "l63",
         "from": "n73",
         "to": "n74",
         "toPort": {
@@ -4796,7 +4340,7 @@
         }
       },
       {
-        "id": "l79",
+        "id": "l64",
         "from": "n74",
         "to": "n75",
         "toPort": {
@@ -4805,7 +4349,7 @@
         }
       },
       {
-        "id": "l80",
+        "id": "l65",
         "from": "n75",
         "to": "n155",
         "toPort": {
@@ -4814,7 +4358,7 @@
         }
       },
       {
-        "id": "l81",
+        "id": "l66",
         "from": "n76",
         "to": "n77",
         "toPort": {
@@ -4823,7 +4367,7 @@
         }
       },
       {
-        "id": "l82",
+        "id": "l67",
         "from": "n77",
         "to": "n78",
         "toPort": {
@@ -4832,7 +4376,7 @@
         }
       },
       {
-        "id": "l83",
+        "id": "l68",
         "from": "n78",
         "to": "n79",
         "toPort": {
@@ -4841,7 +4385,7 @@
         }
       },
       {
-        "id": "l84",
+        "id": "l69",
         "from": "n79",
         "to": "n80",
         "toPort": {
@@ -4850,7 +4394,7 @@
         }
       },
       {
-        "id": "l85",
+        "id": "l70",
         "from": "n80",
         "to": "n81",
         "toPort": {
@@ -4859,7 +4403,7 @@
         }
       },
       {
-        "id": "l86",
+        "id": "l71",
         "from": "n81",
         "to": "n82",
         "toPort": {
@@ -4868,7 +4412,7 @@
         }
       },
       {
-        "id": "l87",
+        "id": "l72",
         "from": "n82",
         "to": "n83",
         "toPort": {
@@ -4877,7 +4421,7 @@
         }
       },
       {
-        "id": "l88",
+        "id": "l73",
         "from": "n83",
         "to": "n84",
         "toPort": {
@@ -4886,7 +4430,7 @@
         }
       },
       {
-        "id": "l89",
+        "id": "l74",
         "from": "n84",
         "to": "n155",
         "toPort": {
@@ -4895,7 +4439,7 @@
         }
       },
       {
-        "id": "l90",
+        "id": "l75",
         "from": "n85",
         "to": "n86",
         "toPort": {
@@ -4904,7 +4448,7 @@
         }
       },
       {
-        "id": "l91",
+        "id": "l76",
         "from": "n86",
         "to": "n87",
         "toPort": {
@@ -4913,7 +4457,7 @@
         }
       },
       {
-        "id": "l92",
+        "id": "l77",
         "from": "n87",
         "to": "n88",
         "choiceOptionId": "opt_1",
@@ -4925,7 +4469,7 @@
         }
       },
       {
-        "id": "l93",
+        "id": "l78",
         "from": "n87",
         "to": "n115",
         "choiceOptionId": "opt_2",
@@ -4937,7 +4481,7 @@
         }
       },
       {
-        "id": "l94",
+        "id": "l79",
         "from": "n88",
         "to": "n89",
         "toPort": {
@@ -4946,7 +4490,7 @@
         }
       },
       {
-        "id": "l95",
+        "id": "l80",
         "from": "n89",
         "to": "n90",
         "toPort": {
@@ -4955,7 +4499,7 @@
         }
       },
       {
-        "id": "l96",
+        "id": "l81",
         "from": "n90",
         "to": "n91",
         "toPort": {
@@ -4964,7 +4508,7 @@
         }
       },
       {
-        "id": "l97",
+        "id": "l82",
         "from": "n91",
         "to": "n92",
         "toPort": {
@@ -4973,7 +4517,7 @@
         }
       },
       {
-        "id": "l98",
+        "id": "l83",
         "from": "n92",
         "to": "n93",
         "choiceOptionId": "opt_1",
@@ -4985,7 +4529,7 @@
         }
       },
       {
-        "id": "l99",
+        "id": "l84",
         "from": "n92",
         "to": "n103",
         "choiceOptionId": "opt_2",
@@ -4997,7 +4541,7 @@
         }
       },
       {
-        "id": "l100",
+        "id": "l85",
         "from": "n93",
         "to": "n94",
         "toPort": {
@@ -5006,7 +4550,7 @@
         }
       },
       {
-        "id": "l101",
+        "id": "l86",
         "from": "n94",
         "to": "n95",
         "toPort": {
@@ -5015,7 +4559,7 @@
         }
       },
       {
-        "id": "l102",
+        "id": "l87",
         "from": "n95",
         "to": "n96",
         "toPort": {
@@ -5024,7 +4568,7 @@
         }
       },
       {
-        "id": "l103",
+        "id": "l88",
         "from": "n96",
         "to": "n97",
         "toPort": {
@@ -5033,7 +4577,7 @@
         }
       },
       {
-        "id": "l104",
+        "id": "l89",
         "from": "n97",
         "to": "n98",
         "toPort": {
@@ -5042,7 +4586,7 @@
         }
       },
       {
-        "id": "l105",
+        "id": "l90",
         "from": "n98",
         "to": "n99",
         "toPort": {
@@ -5051,7 +4595,7 @@
         }
       },
       {
-        "id": "l106",
+        "id": "l91",
         "from": "n99",
         "to": "n100",
         "toPort": {
@@ -5060,7 +4604,7 @@
         }
       },
       {
-        "id": "l107",
+        "id": "l92",
         "from": "n100",
         "to": "n101",
         "toPort": {
@@ -5069,7 +4613,7 @@
         }
       },
       {
-        "id": "l108",
+        "id": "l93",
         "from": "n101",
         "to": "n102",
         "toPort": {
@@ -5078,7 +4622,7 @@
         }
       },
       {
-        "id": "l109",
+        "id": "l94",
         "from": "n102",
         "to": "n155",
         "toPort": {
@@ -5087,7 +4631,7 @@
         }
       },
       {
-        "id": "l110",
+        "id": "l95",
         "from": "n103",
         "to": "n104",
         "toPort": {
@@ -5096,7 +4640,7 @@
         }
       },
       {
-        "id": "l111",
+        "id": "l96",
         "from": "n104",
         "to": "n105",
         "toPort": {
@@ -5105,7 +4649,7 @@
         }
       },
       {
-        "id": "l112",
+        "id": "l97",
         "from": "n105",
         "to": "n106",
         "toPort": {
@@ -5114,7 +4658,7 @@
         }
       },
       {
-        "id": "l113",
+        "id": "l98",
         "from": "n106",
         "to": "n107",
         "toPort": {
@@ -5123,7 +4667,7 @@
         }
       },
       {
-        "id": "l114",
+        "id": "l99",
         "from": "n107",
         "to": "n108",
         "toPort": {
@@ -5132,7 +4676,7 @@
         }
       },
       {
-        "id": "l115",
+        "id": "l100",
         "from": "n108",
         "to": "n109",
         "toPort": {
@@ -5141,7 +4685,7 @@
         }
       },
       {
-        "id": "l116",
+        "id": "l101",
         "from": "n109",
         "to": "n110",
         "toPort": {
@@ -5150,7 +4694,7 @@
         }
       },
       {
-        "id": "l117",
+        "id": "l102",
         "from": "n110",
         "to": "n111",
         "toPort": {
@@ -5159,7 +4703,7 @@
         }
       },
       {
-        "id": "l118",
+        "id": "l103",
         "from": "n111",
         "to": "n112",
         "toPort": {
@@ -5168,7 +4712,7 @@
         }
       },
       {
-        "id": "l119",
+        "id": "l104",
         "from": "n112",
         "to": "n113",
         "toPort": {
@@ -5177,7 +4721,7 @@
         }
       },
       {
-        "id": "l120",
+        "id": "l105",
         "from": "n113",
         "to": "n114",
         "toPort": {
@@ -5186,7 +4730,7 @@
         }
       },
       {
-        "id": "l121",
+        "id": "l106",
         "from": "n114",
         "to": "n155",
         "toPort": {
@@ -5195,7 +4739,7 @@
         }
       },
       {
-        "id": "l122",
+        "id": "l107",
         "from": "n115",
         "to": "n116",
         "toPort": {
@@ -5204,7 +4748,7 @@
         }
       },
       {
-        "id": "l123",
+        "id": "l108",
         "from": "n116",
         "to": "n117",
         "toPort": {
@@ -5213,7 +4757,7 @@
         }
       },
       {
-        "id": "l124",
+        "id": "l109",
         "from": "n117",
         "to": "n118",
         "toPort": {
@@ -5222,7 +4766,7 @@
         }
       },
       {
-        "id": "l125",
+        "id": "l110",
         "from": "n118",
         "to": "n119",
         "toPort": {
@@ -5231,7 +4775,7 @@
         }
       },
       {
-        "id": "l126",
+        "id": "l111",
         "from": "n119",
         "to": "n120",
         "choiceOptionId": "opt_1",
@@ -5243,7 +4787,7 @@
         }
       },
       {
-        "id": "l127",
+        "id": "l112",
         "from": "n119",
         "to": "n129",
         "choiceOptionId": "opt_2",
@@ -5255,7 +4799,7 @@
         }
       },
       {
-        "id": "l128",
+        "id": "l113",
         "from": "n120",
         "to": "n121",
         "toPort": {
@@ -5264,7 +4808,7 @@
         }
       },
       {
-        "id": "l129",
+        "id": "l114",
         "from": "n121",
         "to": "n122",
         "toPort": {
@@ -5273,7 +4817,7 @@
         }
       },
       {
-        "id": "l130",
+        "id": "l115",
         "from": "n122",
         "to": "n123",
         "toPort": {
@@ -5282,7 +4826,7 @@
         }
       },
       {
-        "id": "l131",
+        "id": "l116",
         "from": "n123",
         "to": "n124",
         "toPort": {
@@ -5291,7 +4835,7 @@
         }
       },
       {
-        "id": "l132",
+        "id": "l117",
         "from": "n124",
         "to": "n125",
         "toPort": {
@@ -5300,7 +4844,7 @@
         }
       },
       {
-        "id": "l133",
+        "id": "l118",
         "from": "n125",
         "to": "n126",
         "toPort": {
@@ -5309,7 +4853,7 @@
         }
       },
       {
-        "id": "l134",
+        "id": "l119",
         "from": "n126",
         "to": "n127",
         "toPort": {
@@ -5318,7 +4862,7 @@
         }
       },
       {
-        "id": "l135",
+        "id": "l120",
         "from": "n127",
         "to": "n128",
         "toPort": {
@@ -5327,7 +4871,7 @@
         }
       },
       {
-        "id": "l136",
+        "id": "l121",
         "from": "n128",
         "to": "n155",
         "toPort": {
@@ -5336,7 +4880,7 @@
         }
       },
       {
-        "id": "l137",
+        "id": "l122",
         "from": "n129",
         "to": "n130",
         "toPort": {
@@ -5345,7 +4889,7 @@
         }
       },
       {
-        "id": "l138",
+        "id": "l123",
         "from": "n130",
         "to": "n131",
         "toPort": {
@@ -5354,7 +4898,7 @@
         }
       },
       {
-        "id": "l139",
+        "id": "l124",
         "from": "n131",
         "to": "n132",
         "toPort": {
@@ -5363,7 +4907,7 @@
         }
       },
       {
-        "id": "l140",
+        "id": "l125",
         "from": "n132",
         "to": "n133",
         "toPort": {
@@ -5372,7 +4916,7 @@
         }
       },
       {
-        "id": "l141",
+        "id": "l126",
         "from": "n133",
         "to": "n134",
         "toPort": {
@@ -5381,7 +4925,7 @@
         }
       },
       {
-        "id": "l142",
+        "id": "l127",
         "from": "n134",
         "to": "n135",
         "toPort": {
@@ -5390,7 +4934,7 @@
         }
       },
       {
-        "id": "l143",
+        "id": "l128",
         "from": "n135",
         "to": "n136",
         "toPort": {
@@ -5399,7 +4943,7 @@
         }
       },
       {
-        "id": "l144",
+        "id": "l129",
         "from": "n136",
         "to": "n137",
         "toPort": {
@@ -5408,7 +4952,7 @@
         }
       },
       {
-        "id": "l145",
+        "id": "l130",
         "from": "n137",
         "to": "n138",
         "toPort": {
@@ -5417,7 +4961,7 @@
         }
       },
       {
-        "id": "l146",
+        "id": "l131",
         "from": "n138",
         "to": "n139",
         "toPort": {
@@ -5426,7 +4970,7 @@
         }
       },
       {
-        "id": "l147",
+        "id": "l132",
         "from": "n139",
         "to": "n140",
         "toPort": {
@@ -5435,7 +4979,7 @@
         }
       },
       {
-        "id": "l148",
+        "id": "l133",
         "from": "n140",
         "to": "n141",
         "toPort": {
@@ -5444,7 +4988,7 @@
         }
       },
       {
-        "id": "l149",
+        "id": "l134",
         "from": "n141",
         "to": "n155",
         "toPort": {
@@ -5453,7 +4997,7 @@
         }
       },
       {
-        "id": "l150",
+        "id": "l135",
         "from": "n142",
         "to": "n143",
         "toPort": {
@@ -5462,7 +5006,7 @@
         }
       },
       {
-        "id": "l151",
+        "id": "l136",
         "from": "n143",
         "to": "n144",
         "toPort": {
@@ -5471,7 +5015,7 @@
         }
       },
       {
-        "id": "l152",
+        "id": "l137",
         "from": "n144",
         "to": "n145",
         "toPort": {
@@ -5480,7 +5024,7 @@
         }
       },
       {
-        "id": "l153",
+        "id": "l138",
         "from": "n145",
         "to": "n146",
         "toPort": {
@@ -5489,7 +5033,7 @@
         }
       },
       {
-        "id": "l154",
+        "id": "l139",
         "from": "n146",
         "to": "n147",
         "toPort": {
@@ -5498,7 +5042,7 @@
         }
       },
       {
-        "id": "l155",
+        "id": "l140",
         "from": "n147",
         "to": "n148",
         "toPort": {
@@ -5507,7 +5051,7 @@
         }
       },
       {
-        "id": "l156",
+        "id": "l141",
         "from": "n148",
         "to": "n149",
         "toPort": {
@@ -5516,7 +5060,7 @@
         }
       },
       {
-        "id": "l157",
+        "id": "l142",
         "from": "n149",
         "to": "n150",
         "toPort": {
@@ -5525,7 +5069,7 @@
         }
       },
       {
-        "id": "l158",
+        "id": "l143",
         "from": "n150",
         "to": "n151",
         "toPort": {
@@ -5534,7 +5078,7 @@
         }
       },
       {
-        "id": "l159",
+        "id": "l144",
         "from": "n151",
         "to": "n152",
         "toPort": {
@@ -5543,7 +5087,7 @@
         }
       },
       {
-        "id": "l160",
+        "id": "l145",
         "from": "n152",
         "to": "n153",
         "toPort": {
@@ -5552,7 +5096,7 @@
         }
       },
       {
-        "id": "l161",
+        "id": "l146",
         "from": "n153",
         "to": "n154",
         "toPort": {
@@ -5561,7 +5105,7 @@
         }
       },
       {
-        "id": "l162",
+        "id": "l147",
         "from": "n154",
         "to": "n155",
         "toPort": {
@@ -5570,7 +5114,7 @@
         }
       },
       {
-        "id": "l163",
+        "id": "l148",
         "from": "n155",
         "to": "n156",
         "toPort": {
@@ -5579,7 +5123,7 @@
         }
       },
       {
-        "id": "l164",
+        "id": "l149",
         "from": "n156",
         "to": "n157",
         "toPort": {
@@ -5588,7 +5132,7 @@
         }
       },
       {
-        "id": "l165",
+        "id": "l150",
         "from": "n157",
         "to": "n158",
         "toPort": {
@@ -5597,7 +5141,7 @@
         }
       },
       {
-        "id": "l166",
+        "id": "l151",
         "from": "n158",
         "to": "n159",
         "toPort": {
@@ -5606,7 +5150,7 @@
         }
       },
       {
-        "id": "l167",
+        "id": "l152",
         "from": "n159",
         "to": "n160",
         "toPort": {
@@ -5615,7 +5159,7 @@
         }
       },
       {
-        "id": "l168",
+        "id": "l153",
         "from": "n160",
         "to": "n161",
         "toPort": {
@@ -5624,7 +5168,7 @@
         }
       },
       {
-        "id": "l169",
+        "id": "l154",
         "from": "n161",
         "to": "n162",
         "toPort": {
@@ -5633,7 +5177,7 @@
         }
       },
       {
-        "id": "l170",
+        "id": "l155",
         "from": "n162",
         "to": "n163",
         "toPort": {
@@ -5642,7 +5186,7 @@
         }
       },
       {
-        "id": "l171",
+        "id": "l156",
         "from": "n163",
         "to": "n164",
         "toPort": {
@@ -5651,7 +5195,7 @@
         }
       },
       {
-        "id": "l172",
+        "id": "l157",
         "from": "n164",
         "to": "n165",
         "toPort": {
@@ -5660,7 +5204,7 @@
         }
       },
       {
-        "id": "l173",
+        "id": "l158",
         "from": "n165",
         "to": "n166",
         "toPort": {
@@ -5669,7 +5213,7 @@
         }
       },
       {
-        "id": "l174",
+        "id": "l159",
         "from": "n166",
         "to": "n167",
         "toPort": {
@@ -5678,7 +5222,7 @@
         }
       },
       {
-        "id": "l175",
+        "id": "l160",
         "from": "n167",
         "to": "n168",
         "toPort": {
@@ -5687,7 +5231,7 @@
         }
       },
       {
-        "id": "l176",
+        "id": "l161",
         "from": "n168",
         "to": "n169",
         "toPort": {
@@ -5705,9 +5249,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 491.29886933847035,
-      "y": 181.89047226060364,
-      "scale": 0.15
+      "x": -2601.757463895615,
+      "y": 422.81065632590054,
+      "scale": 0.5696247503748649
     },
     "sidebar": {
       "leftWidth": 280,

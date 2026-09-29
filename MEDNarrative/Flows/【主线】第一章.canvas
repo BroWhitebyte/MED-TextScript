@@ -1,22 +1,21 @@
 {
 	"nodes":[
-		{"id":"6d0cfcd0f3d8daf9","type":"text","text":"# [主线]第一章","x":80,"y":0,"width":400,"height":120},
-		{"id":"c255e12175cfcd62","type":"file","file":"Flows/【主线】第一章/开场.canvas","x":600,"y":0,"width":300,"height":200},
-		{"id":"a62e85784c0a518e","type":"file","file":"Flows/【主线】第一章/去马家杂货铺送药.canvas","x":1060,"y":0,"width":300,"height":200},
-		{"id":"b3f1d47af86f6201","type":"file","file":"Flows/【主线】第一章/结算：送药去向.canvas","x":1520,"y":0,"width":300,"height":200},
-		{"id":"6c472a5846723e6f","type":"file","file":"Flows/【主线】第一章/【选择】裕昌当铺.canvas","x":1980,"y":-320,"width":300,"height":200},
-		{"id":"fc8e46e07b583166","type":"file","file":"Flows/【主线】第一章/【选择】老佟家车马店.canvas","x":1980,"y":360,"width":300,"height":200},
-		{"id":"17a397945b133406","type":"file","file":"Flows/【主线】第一章/【选择】伪满警察署.canvas","x":1980,"y":0,"width":300,"height":200},
-		{"id":"ddf396de20a07d5d","type":"file","file":"Flows/【主线】第一章/深夜药房.canvas","x":2620,"y":0,"width":300,"height":200}
+		{"id":"bca8291f195d5193","type":"text","text":"# 【主线】第一章","x":80,"y":0,"width":400,"height":120},
+		{"id":"24b60c5bd9faf49d","type":"file","file":"Flows/【主线】第一章/Event 101 固定-主线-训练日.canvas","x":600,"y":0,"width":300,"height":200},
+		{"id":"7925803861aceaf6","type":"file","file":"Flows/【主线】第一章/Event 102 固定-主线-第一次送药.canvas","x":1060,"y":0,"width":300,"height":200},
+		{"id":"60182f364d1ff26d","type":"file","file":"Flows/【主线】第一章/Event 103A 固定-主线-第二次送药-裕昌当铺.canvas","x":1520,"y":-130,"width":300,"height":200},
+		{"id":"61385a34215f3f8d","type":"file","file":"Flows/【主线】第一章/Event 103B 固定-主线-第二次送药-大车店.canvas","x":1520,"y":130,"width":300,"height":200},
+		{"id":"c59d316e4673dcef","type":"file","file":"Flows/【主线】第一章/Event 104 固定-看板教程.canvas","x":1980,"y":0,"width":300,"height":200},
+		{"id":"257d9138745b644c","type":"file","file":"Flows/【主线】第一章/Event 105 固定-叶子戏教程-夜晚.canvas","x":2440,"y":0,"width":300,"height":200},
+		{"id":"5676285ea8da2f0a","type":"file","file":"Flows/【主线】第一章/Event 106 固定-午夜-梦境.canvas","x":2900,"y":0,"width":300,"height":200}
 	],
 	"edges":[
-		{"id":"47e0fca6ca47dc17","fromNode":"c255e12175cfcd62","fromSide":"right","toNode":"a62e85784c0a518e","toSide":"left"},
-		{"id":"cf6f30b628ad5984","fromNode":"6c472a5846723e6f","fromSide":"right","toNode":"ddf396de20a07d5d","toSide":"left"},
-		{"id":"fbb95e26176d6c66","fromNode":"17a397945b133406","fromSide":"right","toNode":"ddf396de20a07d5d","toSide":"left"},
-		{"id":"b8fc92b3b65563be","fromNode":"fc8e46e07b583166","fromSide":"right","toNode":"ddf396de20a07d5d","toSide":"left"},
-		{"id":"2490911fa9d3a2a0","fromNode":"a62e85784c0a518e","fromSide":"right","toNode":"b3f1d47af86f6201","toSide":"left"},
-		{"id":"fd22dfe4b1cce17f","fromNode":"b3f1d47af86f6201","fromSide":"right","toNode":"6c472a5846723e6f","toSide":"left"},
-		{"id":"4036a54e0ec841fd","fromNode":"b3f1d47af86f6201","fromSide":"right","toNode":"17a397945b133406","toSide":"left"},
-		{"id":"bec3e290b2fea9c5","fromNode":"b3f1d47af86f6201","fromSide":"right","toNode":"fc8e46e07b583166","toSide":"left"}
+		{"id":"d42cc9cf6f8fb38d","fromNode":"24b60c5bd9faf49d","fromSide":"right","toNode":"7925803861aceaf6","toSide":"left"},
+		{"id":"108e5d229c49e1e4","fromNode":"7925803861aceaf6","fromSide":"right","toNode":"60182f364d1ff26d","toSide":"left"},
+		{"id":"f18a76eba824b7ac","fromNode":"7925803861aceaf6","fromSide":"right","toNode":"61385a34215f3f8d","toSide":"left"},
+		{"id":"08a3147435650a8e","fromNode":"60182f364d1ff26d","fromSide":"right","toNode":"c59d316e4673dcef","toSide":"left"},
+		{"id":"2454f096aaa1a94a","fromNode":"61385a34215f3f8d","fromSide":"right","toNode":"c59d316e4673dcef","toSide":"left"},
+		{"id":"f4ed589c95cb969f","fromNode":"c59d316e4673dcef","fromSide":"right","toNode":"257d9138745b644c","toSide":"left"},
+		{"id":"84be010312e38452","fromNode":"257d9138745b644c","fromSide":"right","toNode":"5676285ea8da2f0a","toSide":"left"}
 	]
 }

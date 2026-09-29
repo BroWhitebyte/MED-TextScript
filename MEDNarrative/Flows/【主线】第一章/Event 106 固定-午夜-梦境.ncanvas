@@ -1923,8 +1923,8 @@
         "id": "n59",
         "type": "Content",
         "title": "Content",
-        "x": 2580,
-        "y": 1834,
+        "x": 2632,
+        "y": 2432,
         "width": 440,
         "height": 440,
         "manualSize": true,
@@ -2948,9 +2948,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 0,
-      "y": 0,
-      "scale": 0.3
+      "x": -143.09331347562102,
+      "y": 40.687565688541326,
+      "scale": 0.292307565000002
     },
     "sidebar": {
       "leftWidth": 280,
