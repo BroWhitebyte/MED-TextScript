@@ -126,24 +126,73 @@ function repairDoc(doc, opts) {
 
 function graphInfo(doc) {
   const nodes = (doc && doc.project && doc.project.nodes) || [];
-  const links = (doc && doc.project && doc.project.links) || [];
+  const links = (doc && doc.project.links) || [];
   if (!nodes.length) throw new Error('文档没有节点');
 
+  const idxOf = new Map();
   const adj = new Map();
+  nodes.forEach((n, i) => { idxOf.set(n.id, i); adj.set(n.id, []); });
+  const edges = [];
   for (const l of links) {
-    if (!adj.has(l.from)) adj.set(l.from, []);
+    if (!idxOf.has(l.from) || !idxOf.has(l.to)) continue;
     adj.get(l.from).push(l.to);
+    edges.push([l.from, l.to]);
   }
   const hasEntry = nodes.some((n) => n.id === 'n_entry');
   const root = hasEntry ? 'n_entry' : nodes[0].id;
 
-  const depth = new Map([[root, 0]]);
+  // ① 可达性（只用来看哪些节点算"孤立/笔记卡"，照旧排到最后）
+  const reach = new Set([root]);
   const queue = [root];
   while (queue.length) {
     const cur = queue.shift();
-    for (const t of (adj.get(cur) || [])) {
-      if (!depth.has(t)) { depth.set(t, depth.get(cur) + 1); queue.push(t); }
+    for (const t of (adj.get(cur) || [])) if (!reach.has(t)) { reach.add(t); queue.push(t); }
+  }
+
+  // ② 流程深度 = SCC 缩点后的最长路径
+  //    目的：节点排在它**所有上游之后**（而不是 BFS 最短路径），这样汇合点与 End 不会被"提前"到上/左端；
+  //    环（梦境回环 hub、「回去吧」循环等）内部节点同层，不会把深度无限推高。
+  const index = new Map(), low = new Map(), onStack = new Set(), stack = [], sccOf = new Map(), sccs = [];
+  let counter = 0;
+  const strongconnect = (v) => {
+    index.set(v, counter); low.set(v, counter); counter += 1; stack.push(v); onStack.add(v);
+    for (const w of adj.get(v)) {
+      if (!index.has(w)) { strongconnect(w); low.set(v, Math.min(low.get(v), low.get(w))); }
+      else if (onStack.has(w)) low.set(v, Math.min(low.get(v), index.get(w)));
     }
+    if (low.get(v) === index.get(v)) {
+      const comp = [];
+      for (;;) { const w = stack.pop(); onStack.delete(w); sccOf.set(w, sccs.length); comp.push(w); if (w === v) break; }
+      sccs.push(comp);
+    }
+  };
+  for (const n of nodes) if (!index.has(n.id)) strongconnect(n.id);
+
+  const succ = sccs.map(() => new Set());
+  const indeg = sccs.map(() => 0);
+  for (const [a, b] of edges) {
+    const A = sccOf.get(a), B = sccOf.get(b);
+    if (A !== B && !succ[A].has(B)) { succ[A].add(B); indeg[B] += 1; }
+  }
+  const rootScc = sccOf.get(root);
+  const sccDepth = new Map([[rootScc, 0]]);
+  const dq = [rootScc];
+  const ind = indeg.slice();
+  while (dq.length) {
+    const u = dq.shift();
+    for (const w of succ[u]) {
+      const want = (sccDepth.get(u) || 0) + 1;
+      if ((sccDepth.get(w) === undefined ? -1 : sccDepth.get(w)) < want) sccDepth.set(w, want);
+      ind[w] -= 1;
+      if (ind[w] === 0) dq.push(w);
+    }
+  }
+
+  const depth = new Map();
+  for (const n of nodes) {
+    if (!reach.has(n.id)) continue;               // 不可达 → 下面统一排到最后
+    const d = sccDepth.get(sccOf.get(n.id));
+    depth.set(n.id, d === undefined ? 0 : d);
   }
   let maxD = 0;
   for (const v of depth.values()) if (v > maxD) maxD = v;

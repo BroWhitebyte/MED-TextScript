@@ -35,14 +35,45 @@ function Get-CanvasGraph($Doc) {
   if (-not $hasEntry) { $root = [string](GetV $nodes[0] 'id') }
 
   $depth = @{}
-  $depth[$root] = 0
-  $q = New-Object System.Collections.Queue
-  $q.Enqueue($root)
-  while ($q.Count -gt 0) {
-    $cur = $q.Dequeue()
-    if (-not $adj.ContainsKey($cur)) { continue }
-    foreach ($t in $adj[$cur]) {
-      if (-not $depth.ContainsKey($t)) { $depth[$t] = [int]$depth[$cur] + 1; $q.Enqueue($t) }
+  # 流程深度＝SCC 缩点后的最长路径（与插件 med-layout-toggle 同算法，共用 tools/flow_depth.js）
+  # 目的：节点排在其所有上游之后，汇合点与 End 不会被"提前"到上/左端；环内节点同层。
+  $flowJs = $null
+  foreach ($cand in @(
+      $(if ($PSScriptRoot) { Join-Path $PSScriptRoot 'flow_depth.js' } else { $null }),
+      'C:\Users\white\Downloads\MED Project\06_MED_TextScript\MED-TextScript\tools\flow_depth.js',
+      'C:\Users\white\Downloads\DS workspace\_tools\flow_depth.js'
+    )) {
+    if ($cand -and (Test-Path -LiteralPath $cand)) { $flowJs = $cand; break }
+  }
+  $usedShared = $false
+  if ($flowJs -and (Test-Path -LiteralPath $flowJs)) {
+    $nodeIds = New-Object System.Collections.ArrayList
+    foreach ($n in $nodes) { [void]$nodeIds.Add([string](GetV $n 'id')) }
+    $edgePairs = New-Object System.Collections.ArrayList
+    foreach ($l in $links) { [void]$edgePairs.Add(@([string](GetV $l 'from'), [string](GetV $l 'to'))) }
+    $payload = @{ root = $root; nodes = @($nodeIds); links = @($edgePairs) } | ConvertTo-Json -Depth 6 -Compress
+    $tmp = Join-Path $env:TEMP ('flowdepth_' + [guid]::NewGuid().ToString('N') + '.json')
+    [System.IO.File]::WriteAllText($tmp, $payload, (New-Object System.Text.UTF8Encoding($false)))
+    try {
+      $out = & node $flowJs $tmp 2>$null
+      if ($LASTEXITCODE -eq 0 -and $out) {
+        $parsed = $out | ConvertFrom-Json
+        foreach ($p in $parsed.depth.PSObject.Properties) { $depth[$p.Name] = [int]$p.Value }
+        $usedShared = $true
+      }
+    } finally { Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue }
+  }
+  if (-not $usedShared) {
+    # 兜底：旧 BFS（flow_depth.js 不在时）
+    $depth[$root] = 0
+    $q = New-Object System.Collections.Queue
+    $q.Enqueue($root)
+    while ($q.Count -gt 0) {
+      $cur = $q.Dequeue()
+      if (-not $adj.ContainsKey($cur)) { continue }
+      foreach ($t in $adj[$cur]) {
+        if (-not $depth.ContainsKey($t)) { $depth[$t] = [int]$depth[$cur] + 1; $q.Enqueue($t) }
+      }
     }
   }
   $maxD = 0
@@ -191,28 +222,36 @@ function Invoke-SquareLayout {
   $cols = [int]$best.cols
   $bandRows = Get-BandRows $byDepth $cols
 
-  $bandTop = @{}
-  $acc = 80
-  for ($b = 0; $b -lt $best.bands; $b++) {
-    $bandTop[$b] = $acc
-    $rn = 1
-    if ($bandRows.ContainsKey($b)) { $rn = [math]::Max(1, [int]$bandRows[$b]) }
-    $acc += $rn * $Dy + $Pad
-  }
-
-  foreach ($d in @($byDepth.Keys)) {
-    $band = [int][math]::Floor($d / $cols)
-    $col = $d % $cols
-    $vcol = if ($band % 2 -eq 0) { $col } else { $cols - 1 - $col }
-    $slot = 0
-    foreach ($n in $byDepth[$d]) {
-      SetV $n 'x' (140 + $vcol * $Dx)
-      SetV $n 'y' ([int]$bandTop[$band] + $slot * $Dy)
-      $slot++
+  # 放置 + 松弛：重叠则逐次放大间距（与插件 maxRelax 同思路），直到 overlaps=0 或跑满 8 轮
+  $m = $null
+  $scale = 1.0
+  for ($try = 0; $try -lt 8; $try++) {
+    $DyS = [int][math]::Round($Dy * $scale)
+    $PadS = [int][math]::Round($Pad * $scale)
+    $bandTop = @{}
+    $acc = 80
+    for ($b = 0; $b -lt $best.bands; $b++) {
+      $bandTop[$b] = $acc
+      $rn = 1
+      if ($bandRows.ContainsKey($b)) { $rn = [math]::Max(1, [int]$bandRows[$b]) }
+      $acc += $rn * $DyS + $PadS
     }
+    foreach ($d in @($byDepth.Keys)) {
+      $band = [int][math]::Floor($d / $cols)
+      $col = $d % $cols
+      $vcol = if ($band % 2 -eq 0) { $col } else { $cols - 1 - $col }
+      $slot = 0
+      foreach ($n in $byDepth[$d]) {
+        SetV $n 'x' (140 + $vcol * $Dx)
+        SetV $n 'y' ([int]$bandTop[$band] + $slot * $DyS)
+        $slot++
+      }
+    }
+    $m = Measure-Canvas $g.nodes
+    if ($m.overlaps -eq 0) { break }
+    $scale *= 1.25
   }
   Set-CanvasView $Doc $Scale
-  $m = Measure-Canvas $g.nodes
   return [PSCustomObject]@{
     mode = 'square'; cols = $cols; bands = [int]$best.bands; levels = $levels
     width = $m.width; height = $m.height; aspect = $m.aspect; overlaps = $m.overlaps
