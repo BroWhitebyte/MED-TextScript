@@ -1,0 +1,2244 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-29T03:36:36.843Z",
+  "project": {
+    "title": "Event 306 固定-选边",
+    "notes": "转化自 MED_Demo Event 0306-固定-选边-（午夜）（无复用）.md｜（固定/白名单·写死固定事件——午夜）1942年2月2日 午夜｜通兰县城 东南 · 时一堂大药房（后院/堂屋）｜人物：程靖霖（时一堂大药房伙计/程时一养子）、程时一（时一堂大药房掌柜）、程晓梅（程时一女儿）、（夜访者——按玩家选择出现）｜【状态】试写（2026-09-09——五环节范式·DEMO 收束件——双 end）｜【用途注】2/2 午夜·写死段——选边二选一（日军/抗联）→双 end 文本——DEMO 收束（26.9.8 会议）｜结构：43 叙述节拍 + 22 台词节拍（Dialog 22 节点·turns 合计 22）+ 选择点 1 处（选项：收下草药／不接这份药）+ End 2（z1／z2·双 end）｜md 标记映射：「## 白描／## 陈述／## 选择／## 选择必有代价／## 结束转场」为五环节范式标题（结构由连线体现，不作叙事拍）；「（进入玩家选择——DEMO 收束·选边二选一：）」「（双端结算——DEMO 收束文本：）」「（DEMO 收束——两端的共同转场：）」为纯范式标注（未落节点）；两处选项标题「### 收下草药（结算：抗联线——端 01）」「### 不接这份药（结算：守住药房——端 02）」的括号结算字样不落节点（选项 label 只取选项名），结算口径各落【结算】卡；「（——收束·端 01：……）」「（——收束·端 02：……）」落【收束·端 01】／【收束·端 02】卡；「## 选择必有代价」下「【端 01·城外】」「【端 02·城内】」两段按端分落两条支；尾部「（→ DEMO 结束——彩蛋/续作预告位：……）」照原文落 Content 卡｜双 end 说明：本件为 DEMO 收束件——Choice 两选项各自独立走到自己的 End（z1＝收下草药·抗联线—端 01；z2＝不接这份药·守住药房—端 02），两支不汇合；「## 结束转场」的「两端的共同转场」正文（更夫梆子声／闭眼·醒过两回／DEMO 结束段）在两条支上各落一份；本件为 DEMO 最后一格（2/2 午夜·写死段），不补「转场到下一件」的常规转场卡｜存疑：夜访者 md 未具名（正文称「来人」「那人」，件头称「夜访者」），Dialog speaker 统一作「来人」；正文中「程先生收」为油纸反面炭条字迹、「有些事，知道了未必是好事」为程时一旧语的转述，均系书写/转述文字，照原文留在 Content 内，未拆 Dialog",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "后院的墙头，传来一声轻响——有人跳进来了。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖一下子坐起来。他还没来得及出声，堂屋里已经亮起一点火光——程时一点着了灯，坐在桌边。",
+        "x": 1380,
+        "y": 80,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "来人从后院进来，脚步很轻。他站在堂屋门口，先看了看程时一，又看了看从里屋探出头来的程靖霖。",
+        "x": 2000,
+        "y": 80,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "来人裹着一件旧棉袄，兜着帽子，看不清脸。他开口，声音低而哑：",
+        "x": 2620,
+        "y": 80,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “程先生。我半夜翻墙进来，是有一句话想问——昨儿，官舍区那家的孩子，是你救的？”",
+        "x": 3240,
+        "y": 80,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“程先生。我半夜翻墙进来，是有一句话想问——昨儿，官舍区那家的孩子，是你救的？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有否认：",
+        "x": 3860,
+        "y": 80,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “是我救的。”",
+        "x": 3860,
+        "y": 520,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“是我救的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “程先生是好人。”",
+        "x": 3240,
+        "y": 520,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“程先生是好人。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人说，",
+        "x": 2620,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “好人的药，能救命。可这县城里，有人在拿活人做文章——我听说，昨儿夜里，官舍区来了几辆车，下来的，是些做那种事的。”",
+        "x": 2000,
+        "y": 520,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“好人的药，能救命。可这县城里，有人在拿活人做文章——我听说，昨儿夜里，官舍区来了几辆车，下来的，是些做那种事的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "他顿了顿：",
+        "x": 1380,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “程先生，你救了一个日本孩子。可你知道，那孩子将来，会不会变成——拿活人做文章的人？”",
+        "x": 760,
+        "y": 520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“程先生，你救了一个日本孩子。可你知道，那孩子将来，会不会变成——拿活人做文章的人？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里静得能听见油灯的火苗声。",
+        "x": 140,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有立刻回答。他望着灯，过了很久，才说：",
+        "x": 140,
+        "y": 960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “我救他的时候，他发着烧，抽着筋。”",
+        "x": 760,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“我救他的时候，他发着烧，抽着筋。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一说，",
+        "x": 1380,
+        "y": 960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “我只管他当时是病人。旁的，我没问。”",
+        "x": 2000,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“我只管他当时是病人。旁的，我没问。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人沉默了一会儿，没有接话。他站起身：",
+        "x": 2620,
+        "y": 960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “我今夜来，不为难程先生。只想问一句——往后，程先生这药房，是只给日本人看病，还是也肯，给城外的人看？”",
+        "x": 3240,
+        "y": 960,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“我今夜来，不为难程先生。只想问一句——往后，程先生这药房，是只给日本人看病，还是也肯，给城外的人看？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “城外的人……”",
+        "x": 3860,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“城外的人……”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一重复了一遍，抬起眼睛，",
+        "x": 3860,
+        "y": 1400,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “城外的人，也是人。”",
+        "x": 3240,
+        "y": 1400,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“城外的人，也是人。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人点了点头，像是得了什么答复。他转身要走，又停下，从怀里摸出一小包东西，放在桌上：",
+        "x": 2620,
+        "y": 1400,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “程先生，这个你收着。是城外的一点心意——不是什么金贵东西，是山里晒的草药。”",
+        "x": 2000,
+        "y": 1400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“程先生，这个你收着。是城外的一点心意——不是什么金贵东西，是山里晒的草药。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "他走到门口，回头看了一眼——这一眼，他看见了程靖霖。",
+        "x": 1380,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "他愣了一下，又看了程靖霖一眼。火光底下，他的嘴动了动，到底没出声。他拱了拱手：",
+        "x": 760,
+        "y": 1400,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "来人: “程先生，后会有期。”",
+        "x": 140,
+        "y": 1400,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "来人",
+            "line": "“程先生，后会有期。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Content",
+        "title": "Content",
+        "body": "他翻过墙头，消失在夜色里。",
+        "x": 140,
+        "y": 1840,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 760,
+        "y": 1840,
+        "choices": [
+          "收下草药",
+          "不接这份药"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "收下草药",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "不接这份药",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖走到桌边，看着那包草药。他没有立刻收，先看了看程时一。",
+        "x": 1380,
+        "y": 1840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有看他，只望着门口那人消失的方向，过了很久，才说：",
+        "x": 2000,
+        "y": 1840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “收着吧。”",
+        "x": 2620,
+        "y": 1840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“收着吧。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖把草药包拿起来。包得仔细，外面是油纸，里头干爽——他闻了闻，是黄芩和柴胡的味道。油纸反面，炭条写着\"程先生收\"三个字，笔画粗。",
+        "x": 3240,
+        "y": 1840,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，”",
+        "x": 3860,
+        "y": 1840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "他问，",
+        "x": 3860,
+        "y": 2560,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n35",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “那人……是城外队伍上的？”",
+        "x": 3240,
+        "y": 2560,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“那人……是城外队伍上的？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n36",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有回答。他站起身，走到门口，望着黑黢黢的街道，站了很久。",
+        "x": 2620,
+        "y": 2560,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n37",
+        "type": "Content",
+        "title": "Content",
+        "body": "回来的时候，他当着程靖霖的面说：",
+        "x": 2000,
+        "y": 2560,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “霖子，从今儿起，药房的账，有两本。一本记在明面上，一本记在心里。”",
+        "x": 1380,
+        "y": 2560,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，从今儿起，药房的账，有两本。一本记在明面上，一本记在心里。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Content",
+        "title": "Content",
+        "body": "【收束·端 01】时一堂在明暗之间，接下了城外线第一单——油纸包里的草药，是这条线的第一枚信物",
+        "x": 760,
+        "y": 2560,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】收下草药——抗联线——端 01",
+        "x": 140,
+        "y": 2560,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Content",
+        "title": "Content",
+        "body": "【端 01·城外】程靖霖把那包草药压在枕头底下，翻了个身。黄芩和柴胡的味道淡得很，从枕边散出来——他闻了一夜。",
+        "x": 140,
+        "y": 3280,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n42",
+        "type": "Content",
+        "title": "Content",
+        "body": "远处传来更夫的梆子声，一声，又一声。",
+        "x": 760,
+        "y": 3280,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖闭上眼睛。这一夜，他醒过两回——一回，听见后院墙头的雪塌下一角；一回，看见掌柜的屋里的灯影亮了亮，又灭了。",
+        "x": 1380,
+        "y": 3280,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "Content",
+        "title": "Content",
+        "body": "（→ DEMO 结束——彩蛋/续作预告位：天亮前，有人在后院的雪地上站了一会儿，留下两行脚印——一行进城，一行出城。雪还在下，脚印慢慢被盖住了）",
+        "x": 2000,
+        "y": 3280,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 2620,
+        "y": 3280,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n46",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看着那包草药，没有伸手。",
+        "x": 1380,
+        "y": 2120,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n47",
+        "type": "Content",
+        "title": "Content",
+        "body": "他想起昨夜的包裹，想起掌柜的说过的\"有些事，知道了未必是好事\"，想起那个看门人压低的声音。",
+        "x": 2000,
+        "y": 2120,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的，”",
+        "x": 2620,
+        "y": 2120,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的，”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Content",
+        "title": "Content",
+        "body": "他低声说，",
+        "x": 3240,
+        "y": 2120,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n50",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “这药……咱收不得吧。”",
+        "x": 3860,
+        "y": 2120,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“这药……咱收不得吧。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有立刻说话。他望着门口，过了很久，才说：",
+        "x": 3860,
+        "y": 2840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “霖子，你的意思是——咱们只管看病抓药，旁的，不沾？”",
+        "x": 3240,
+        "y": 2840,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，你的意思是——咱们只管看病抓药，旁的，不沾？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖低下头：",
+        "x": 2620,
+        "y": 2840,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n54",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “我是怕……连累您，连累姐。”",
+        "x": 2000,
+        "y": 2840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“我是怕……连累您，连累姐。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里静了很久。",
+        "x": 1380,
+        "y": 2840,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n56",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一伸手，把那包草药轻轻推向桌角——没有收进柜台，也没有丢。",
+        "x": 760,
+        "y": 2840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “你说的，也是条路。”",
+        "x": 140,
+        "y": 2840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“你说的，也是条路。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n58",
+        "type": "Content",
+        "title": "Content",
+        "body": "他说，没有再往下说。",
+        "x": 140,
+        "y": 3560,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n59",
+        "type": "Content",
+        "title": "Content",
+        "body": "他吹灭了灯。黑暗中，他低声说：",
+        "x": 760,
+        "y": 3560,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n60",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “睡吧。明儿的事，明儿再说。”",
+        "x": 1380,
+        "y": 3560,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“睡吧。明儿的事，明儿再说。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n61",
+        "type": "Content",
+        "title": "Content",
+        "body": "【收束·端 02】时一堂守住了明面的干净——那包草药被推到桌角，收没收，成了一笔没落下的账——城外的线，还悬在暗处",
+        "x": 2000,
+        "y": 3560,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n62",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】不接这份药——守住药房——端 02",
+        "x": 2620,
+        "y": 3560,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n63",
+        "type": "Content",
+        "title": "Content",
+        "body": "【端 02·城内】程靖霖躺下，翻来覆去。桌角那包草药在黑暗里搁着。他伸手，够到一半，又缩了回来。他翻过身，脸朝着墙。",
+        "x": 3240,
+        "y": 3280,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n64",
+        "type": "Content",
+        "title": "Content",
+        "body": "远处传来更夫的梆子声，一声，又一声。",
+        "x": 3860,
+        "y": 3280,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n65",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖闭上眼睛。这一夜，他醒过两回——一回，听见后院墙头的雪塌下一角；一回，看见掌柜的屋里的灯影亮了亮，又灭了。",
+        "x": 3860,
+        "y": 4000,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n66",
+        "type": "Content",
+        "title": "Content",
+        "body": "（→ DEMO 结束——彩蛋/续作预告位：天亮前，有人在后院的雪地上站了一会儿，留下两行脚印——一行进城，一行出城。雪还在下，脚印慢慢被盖住了）",
+        "x": 3240,
+        "y": 4000,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n67",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 2620,
+        "y": 4000,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n25",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n27",
+        "to": "n28",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n28",
+        "to": "n29",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "收下草药",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n29",
+        "to": "n30",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n30",
+        "to": "n31",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n31",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n32",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n34",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n35",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n36",
+        "to": "n37",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n37",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l40",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "n40",
+        "to": "n41",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l42",
+        "from": "n41",
+        "to": "n42",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l43",
+        "from": "n42",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l44",
+        "from": "n43",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l45",
+        "from": "n44",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l46",
+        "from": "n28",
+        "to": "n46",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "不接这份药",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l47",
+        "from": "n46",
+        "to": "n47",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l48",
+        "from": "n47",
+        "to": "n48",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l49",
+        "from": "n48",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n49",
+        "to": "n50",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l51",
+        "from": "n50",
+        "to": "n51",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l52",
+        "from": "n51",
+        "to": "n52",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l53",
+        "from": "n52",
+        "to": "n53",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l54",
+        "from": "n53",
+        "to": "n54",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l55",
+        "from": "n54",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l56",
+        "from": "n55",
+        "to": "n56",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l57",
+        "from": "n56",
+        "to": "n57",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l58",
+        "from": "n57",
+        "to": "n58",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l59",
+        "from": "n58",
+        "to": "n59",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l60",
+        "from": "n59",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l61",
+        "from": "n60",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l62",
+        "from": "n61",
+        "to": "n62",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n62",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n63",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n64",
+        "to": "n65",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l66",
+        "from": "n65",
+        "to": "n66",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l67",
+        "from": "n66",
+        "to": "n67",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.3
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

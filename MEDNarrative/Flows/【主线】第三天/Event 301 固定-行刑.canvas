@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"0c2e2cdbb8a2758a","type":"text","text":"# Event 301 固定-行刑","x":0,"y":0,"width":400,"height":120},
+		{"id":"932dc02bfa5bede2","type":"file","file":"Flows/【主线】第三天/Event 301 固定-行刑.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

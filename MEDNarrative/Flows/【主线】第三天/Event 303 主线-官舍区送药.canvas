@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"3f6d0fbf7e143a09","type":"text","text":"# Event 303 主线-官舍区送药","x":0,"y":0,"width":400,"height":120},
+		{"id":"4b501170ddaec91a","type":"file","file":"Flows/【主线】第三天/Event 303 主线-官舍区送药.ncanvas","x":480,"y":0,"width":300,"height":200}
+	],
+	"edges":[]
+}

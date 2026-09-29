@@ -1,0 +1,2405 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-29T03:36:35.948Z",
+  "project": {
+    "title": "Event 305 主线-黑川夜访",
+    "notes": "转化自 MED_Demo Event 0305-主线-黑川夜访-（夜晚）（选一项）（无复用）｜（主线/白名单）1942年2月2日 夜晚｜通兰县城 东南 · 时一堂大药房（堂屋——灯下）｜人物：老黑川（县公署——匿名来访——真容待写明）、程时一（时一堂大药房掌柜）、程靖霖（时一堂大药房伙计/程时一养子）、程晓梅（程时一女儿——里屋——未露面）｜【状态】试写（2026-09-09——五环节范式——双胞胎线核爆件·高优先级·现场文案待细化）｜【用途注】2/2 夜晚·黑川匿名来访——闻「像慎介的年轻人」传闻→来历试探三选（如实/遮掩/反问）——双胞胎线当场碰撞——他不知双胞胎·纯惊疑（26.9.8 裁定）｜结构：白描 7 节拍 + 陈述 9 节拍 + 选择点 1 处（3 选项：如实相告／遮掩／反问，三支各自展开后于「选择必有代价」段首节点 c31 汇合）+ 代价 4 节拍 + 结束转场 4 节拍｜md 标记映射：「## 白描／## 陈述／## 选择／## 选择必有代价／## 结束转场」为五环节范式标题（落为图结构，不作叙事节拍）；「（进入玩家选择——黑川来历试探·三选：）」为范式标注（不落节点）；三条支的「（结算：…）」落为三张【结算】Content 卡；md 尾部「（→ 转场：0306 选边——2/2 午夜·不速之客）」落为【转场】Content 卡；头部两条 blockquote【状态】【用途注】原样入 notes（含「现场文案待细化」「真容待写明」；md 正文无「（待写）」类占位，故未造【占位·待写】卡，不代 md 补白、不代拟对白）｜speaker 标注：正文以「他／那人／陌生人」指称的匿名来访者，取 md 人物表「老黑川」，Dialog 说话人记作「黑川」；夹在两句引语之间的叙述句（「他开口，声音不高，」「那人说，语气很平，」「那人点了点头，」「程时一说，」「程靖霖说，」「他说，」等）按 104 粒度单独落 Content 卡，引语按 md 顺序拆 Dialog",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里没有点灯，只有炉膛里一点余火。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖站在门口，看见那个陌生人坐在柜台对面——深色长大衣，皮帽子搁在手边，露出花白的鬓角。他坐得很直，大衣的扣子，从领口一直扣到底。",
+        "x": 1380,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一坐在柜台后头，手搁在账本上，没有动。两人之间隔着一盏没点着的油灯，谁也没先开口。",
+        "x": 2000,
+        "y": 80,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "Content",
+        "body": "听见门响，那人回过头来。",
+        "x": 2620,
+        "y": 80,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "灯影里，那是一张清瘦的脸，眉眼很深，看不出年纪——大约五十上下。他看了程靖霖一眼，目光在他脸上停了一下。",
+        "x": 3240,
+        "y": 80,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Content",
+        "title": "Content",
+        "body": "就那一下。他的目光收了回去，停了一息，又慢慢地移回来，落在程靖霖脸上。这一回看得久了——他搁在膝上的手，攥了一下，又松开。",
+        "x": 3860,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “程掌柜，”",
+        "x": 4480,
+        "y": 80,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“程掌柜，”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "Content",
+        "body": "他开口，声音不高，",
+        "x": 4480,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “你这药房的伙计，多大了？”",
+        "x": 3860,
+        "y": 520,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“你这药房的伙计，多大了？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一没有立刻回答。他看了那人一眼，又看了程靖霖一眼，慢慢说：",
+        "x": 3240,
+        "y": 520,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “十七了。太君认得他？”",
+        "x": 2620,
+        "y": 520,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“十七了。太君认得他？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “不认得。”",
+        "x": 2000,
+        "y": 520,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“不认得。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人说，语气很平，",
+        "x": 1380,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “只是……我这人，看人记脸。这位小哥的脸，让我想起一个人。”",
+        "x": 760,
+        "y": 520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“只是……我这人，看人记脸。这位小哥的脸，让我想起一个人。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n14",
+        "type": "Content",
+        "title": "Content",
+        "body": "他没有说想起谁。他转回头，看着程时一，话锋一转：",
+        "x": 140,
+        "y": 520,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “昨儿晚上，程掌柜去官舍区出了一趟诊——是那户人家的孩子。孩子怎么样了？”",
+        "x": 140,
+        "y": 960,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“昨儿晚上，程掌柜去官舍区出了一趟诊——是那户人家的孩子。孩子怎么样了？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “稳住了。”",
+        "x": 760,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“稳住了。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一说，",
+        "x": 1380,
+        "y": 960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “急惊风，扎了针，用了药。调养些日子，就能好。”",
+        "x": 2000,
+        "y": 960,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“急惊风，扎了针，用了药。调养些日子，就能好。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “好。”",
+        "x": 2620,
+        "y": 960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“好。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人点了点头，",
+        "x": 3240,
+        "y": 960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “程掌柜医道高明，县城里都这么说。我今夜来，没有别的事——一来，谢程掌柜的医术；二来……”",
+        "x": 3860,
+        "y": 960,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“程掌柜医道高明，县城里都这么说。我今夜来，没有别的事——一来，谢程掌柜的医术；二来……”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "他顿了一下，又看了程靖霖一眼。这一次，他的目光落在程靖霖的脸上，看了很久。",
+        "x": 4480,
+        "y": 960,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “二来，想请教程掌柜一件事。”\n黑川: “这位小哥——是你的什么人？”",
+        "x": 4480,
+        "y": 1400,
+        "width": 440,
+        "height": 125,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“二来，想请教程掌柜一件事。”"
+          },
+          {
+            "speaker": "黑川",
+            "line": "“这位小哥——是你的什么人？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3860,
+        "y": 1400,
+        "choices": [
+          "如实相告",
+          "遮掩",
+          "反问"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "如实相告",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "遮掩",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "反问",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖迎着那人的目光，没有躲：",
+        "x": 3240,
+        "y": 1400,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “我姓程。掌柜的收养的我——打我记事起，就在时一堂。”",
+        "x": 2620,
+        "y": 1400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“我姓程。掌柜的收养的我——打我记事起，就在时一堂。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “收养的。”",
+        "x": 2000,
+        "y": 1400,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“收养的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人重复了一遍这三个字，目光在程靖霖脸上又停了一瞬，",
+        "x": 1380,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “……程掌柜心善。”",
+        "x": 760,
+        "y": 1400,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“……程掌柜心善。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "他没有再问下去。他站起身，拿起皮帽子：",
+        "x": 140,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “打扰了。程掌柜，改日再谢。孩子要是有什么反复，还得劳烦先生。”",
+        "x": 140,
+        "y": 2400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“打扰了。程掌柜，改日再谢。孩子要是有什么反复，还得劳烦先生。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "走到门口，他又停下来，没有回头，只说了一句：",
+        "x": 760,
+        "y": 2400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “这县城不大，可也不小。有些人，一辈子兴许只见一面——可那一面，就够记一辈子了。”",
+        "x": 1380,
+        "y": 2400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“这县城不大，可也不小。有些人，一辈子兴许只见一面——可那一面，就够记一辈子了。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】如实相告——黑川记下\"程家养子·十七岁\"——他心里的疑影落下一角，又悬起一角——回看才知：他回去后，会对着养子的脸发很久的怔",
+        "x": 2000,
+        "y": 2400,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n35",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “掌柜的远房亲戚家的孩子。”",
+        "x": 3240,
+        "y": 1680,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“掌柜的远房亲戚家的孩子。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n36",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖说，",
+        "x": 2620,
+        "y": 1680,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n37",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “家里遭了灾，托付过来的。”",
+        "x": 2000,
+        "y": 1680,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“家里遭了灾，托付过来的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n38",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人看了他一会儿：",
+        "x": 1380,
+        "y": 1680,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “……远房亲戚。”",
+        "x": 760,
+        "y": 1680,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“……远房亲戚。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Content",
+        "title": "Content",
+        "body": "他没有拆穿，也没有追问，只是站起身：",
+        "x": 140,
+        "y": 1680,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “程掌柜，多有打扰。”",
+        "x": 140,
+        "y": 2680,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“程掌柜，多有打扰。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n42",
+        "type": "Content",
+        "title": "Content",
+        "body": "走到门口，他回头看了程靖霖一眼，灯影里看不出神色，",
+        "x": 760,
+        "y": 2680,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “孩子是个机灵孩子。好好养着。”",
+        "x": 1380,
+        "y": 2680,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“孩子是个机灵孩子。好好养着。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】遮掩——黑川不点破但微疑——\"好好养着\"四个字像话里有话——回看才知：他听出了话里的躲闪",
+        "x": 2000,
+        "y": 2680,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖没有答话。他迎着那人的目光，反问道：",
+        "x": 3240,
+        "y": 1960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n46",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “先生深更半夜来，问了掌柜的诊务，又问我的来历——先生是哪位？登门不报名姓，倒先问人家孩子的事？”",
+        "x": 2620,
+        "y": 1960,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“先生深更半夜来，问了掌柜的诊务，又问我的来历——先生是哪位？登门不报名姓，倒先问人家孩子的事？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n47",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里静了一瞬。",
+        "x": 2000,
+        "y": 1960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Content",
+        "title": "Content",
+        "body": "那人看了程靖霖很久。忽然，他笑了一下——那笑到嘴角，就停了：",
+        "x": 1380,
+        "y": 1960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “好利的一张嘴。”",
+        "x": 760,
+        "y": 1960,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“好利的一张嘴。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n50",
+        "type": "Content",
+        "title": "Content",
+        "body": "他站起身，拿起皮帽子，",
+        "x": 140,
+        "y": 1960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “我姓黑川，在县公署当差。这回，程掌柜可以放心了？”",
+        "x": 140,
+        "y": 2960,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“我姓黑川，在县公署当差。这回，程掌柜可以放心了？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Content",
+        "title": "Content",
+        "body": "他走到门口，又停下：",
+        "x": 760,
+        "y": 2960,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "黑川: “小哥，你这份胆子，像极了我认识的一个人。他像你这么大的时候，也是这么跟人说话的。”",
+        "x": 1380,
+        "y": 2960,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "黑川",
+            "line": "“小哥，你这份胆子，像极了我认识的一个人。他像你这么大的时候，也是这么跟人说话的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n54",
+        "type": "Content",
+        "title": "Content",
+        "body": "他走了。门在身后合上，屋里重新暗下来。",
+        "x": 2000,
+        "y": 2960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】反问——黑川报名\"县公署·黑川\"——\"像极了我认识的一个人\"——回看才知：他说的是年轻时的自己，还是养子慎介？——他心里已把这孩子记住了",
+        "x": 2620,
+        "y": 2400,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n56",
+        "type": "Content",
+        "title": "Content",
+        "body": "不管怎么答，那人走后，屋里都安静了很久。",
+        "x": 2620,
+        "y": 2680,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一坐在柜台后头，没有动。过了好一会儿，他才伸手，慢慢地把那盏没点着的油灯点亮。",
+        "x": 3240,
+        "y": 2400,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n58",
+        "type": "Content",
+        "title": "Content",
+        "body": "火苗跳起来，照亮了程时一的脸。他的表情看不出什么，只是握着火柴的手，停了一瞬。",
+        "x": 3860,
+        "y": 2400,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n59",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “霖子，”",
+        "x": 4480,
+        "y": 2400,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“霖子，”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n60",
+        "type": "Content",
+        "title": "Content",
+        "body": "他说，",
+        "x": 4480,
+        "y": 3400,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n61",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “往后，官舍区那边的药，少送。要去，也挑白天。”",
+        "x": 3860,
+        "y": 3400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“往后，官舍区那边的药，少送。要去，也挑白天。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n62",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖应了一声。他张了张嘴，想问那人是谁——话到嘴边，又咽了回去。",
+        "x": 3240,
+        "y": 3400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n63",
+        "type": "Content",
+        "title": "Content",
+        "body": "掌柜的没有看他。灯亮着，两人谁也没再说话。",
+        "x": 2620,
+        "y": 3400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n64",
+        "type": "Content",
+        "title": "Content",
+        "body": "夜更深了。程时一没有立刻去睡。他坐在灯下，把账本翻到今日那一页，看了一会儿，又合上。",
+        "x": 2000,
+        "y": 3400,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n65",
+        "type": "Content",
+        "title": "Content",
+        "body": "程晓梅从里屋出来，轻手轻脚地给炉子添了块煤，又回去了。",
+        "x": 1380,
+        "y": 3400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n66",
+        "type": "Content",
+        "title": "Content",
+        "body": "炉火跳了跳。程时一忽然开口，声音很轻，像是对自己说的：",
+        "x": 760,
+        "y": 3400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n67",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “……该来的，躲不掉。”",
+        "x": 140,
+        "y": 3400,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“……该来的，躲不掉。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n68",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖躺在门板铺上，睁着眼睛，望着黑黢黢的房梁。他翻了个身，脸朝墙，又翻回来——那人的目光早收了，他脸上还发着紧。",
+        "x": 140,
+        "y": 3840,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n69",
+        "type": "Content",
+        "title": "Content",
+        "body": "【转场】0306 选边——2/2 午夜·不速之客",
+        "x": 760,
+        "y": 3840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n70",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 1380,
+        "y": 3840,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n18",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n19",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n20",
+        "to": "n21",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n21",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n24",
+        "to": "n25",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "如实相告",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n24",
+        "to": "n35",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "遮掩",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n24",
+        "to": "n45",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "反问",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n27",
+        "to": "n28",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n28",
+        "to": "n29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n29",
+        "to": "n30",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n30",
+        "to": "n31",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n31",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n32",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n35",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n36",
+        "to": "n37",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n37",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l40",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l42",
+        "from": "n40",
+        "to": "n41",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l43",
+        "from": "n41",
+        "to": "n42",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l44",
+        "from": "n42",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l45",
+        "from": "n43",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l46",
+        "from": "n45",
+        "to": "n46",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l47",
+        "from": "n46",
+        "to": "n47",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l48",
+        "from": "n47",
+        "to": "n48",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l49",
+        "from": "n48",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n49",
+        "to": "n50",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l51",
+        "from": "n50",
+        "to": "n51",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l52",
+        "from": "n51",
+        "to": "n52",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l53",
+        "from": "n52",
+        "to": "n53",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l54",
+        "from": "n53",
+        "to": "n54",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l55",
+        "from": "n54",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l56",
+        "from": "n34",
+        "to": "n56",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l57",
+        "from": "n44",
+        "to": "n56",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l58",
+        "from": "n55",
+        "to": "n56",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l59",
+        "from": "n56",
+        "to": "n57",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l60",
+        "from": "n57",
+        "to": "n58",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l61",
+        "from": "n58",
+        "to": "n59",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l62",
+        "from": "n59",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n60",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n61",
+        "to": "n62",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n62",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l66",
+        "from": "n63",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l67",
+        "from": "n64",
+        "to": "n65",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l68",
+        "from": "n65",
+        "to": "n66",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l69",
+        "from": "n66",
+        "to": "n67",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l70",
+        "from": "n67",
+        "to": "n68",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l71",
+        "from": "n68",
+        "to": "n69",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l72",
+        "from": "n69",
+        "to": "n70",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.3
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}

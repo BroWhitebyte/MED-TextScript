@@ -1,0 +1,1212 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-29T03:36:35.606Z",
+  "project": {
+    "title": "Event 304 支线-聚春馆送药",
+    "notes": "转化自 MED_Demo Event 0304-支线-聚春馆送药-（黄昏）（选一项）（无复用）｜（支线/白名单）1942年2月2日 黄昏｜通兰县城 西南深处（SW-05）｜聚春馆（妓院）｜人物：程靖霖 时一堂大药房伙计/程时一养子、老鸨 聚春馆（正文中作「刘妈」——聚春馆的管事，四十多岁，脸上敷着厚厚的粉）、（一位生病的姑娘——不详其名）、门边两个穿花袄的女人（md 后文称「嗑瓜子的女人」，本件两句引语的说话人）、末尾陌生人（0305 黑川夜访·匿名来客）｜【状态】试写（2026-09-09——五环节范式·九·补Ⅴ 中档——女性苦难群像背景化·不渲染）｜【用途注】2/2 黄昏·聚春馆（SW-05）送药——送药为名·背景化——独立闭环——顺手得消息｜结构：26 叙述节拍 + 8 台词节拍 + 选择点 1 处（选项「多看一眼」「不看了，走」）＝节点 36（Content 26｜Dialog 8／turns 8｜Choice 1｜End 1）、边 37｜场景要点：聚春馆（SW-05）送药——送药为名·背景化——独立闭环——顺手得消息｜md 标记映射：「## 白描／## 陈述／## 选择／## 选择必有代价／## 结束转场」为五环节范式标题，不落叙事节拍（结构由连线体现）；「（进入玩家选择——离开前的反应：）」为纯范式标注，未落节点；两个「### 选项名（结算：…）」的选项名落 Choice 的 label（「多看一眼」「不看了，走」），括号内结算字样落该支链末【结算】卡（信息+1·心里记下一笔／干净交差），支链末另各有正文尾的（结算：…）落【结算】卡（聚春馆信息碎片／任务干净完成）；正文「程靖霖没再说什么，转身走了。可他记住了那句话——\"让一个日本人领走了，说是领去当丫头\"。」中内嵌直引号系程靖霖心中复述刘妈之语，保留于叙述卡内，未拆 Dialog；引语按 md 逐字落 turns（含外层引号），引出句单独成 Content；本件无〔…〕方括号舞台标注、无跨件占位、无状态分岔｜结尾依 md 尾部「（→ 转场：0305 黑川夜访——2/2 夜晚·匿名来客）」落【转场】卡接 End｜纪律：照「九·补Ⅴ 中档——女性苦难群像背景化·不渲染」逐字转写，未增补任何身体／性化描写",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "title": "Content",
+        "body": "聚春馆在县城西南的巷子深处，门脸比药房高，也比药房旧。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖到的时候，天还没全黑，馆子门口已经挂起了灯。两个穿花袄的女人靠在门边嗑瓜子，看见他一个半大小子背着药包走过来，都笑了：",
+        "x": 1380,
+        "y": 80,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "嗑瓜子的女人: “哟，这么小的哥儿，也来玩儿？”",
+        "x": 2000,
+        "y": 80,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "嗑瓜子的女人",
+            "line": "“哟，这么小的哥儿，也来玩儿？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “送药的。”",
+        "x": 2620,
+        "y": 80,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“送药的。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖说，脸有点热，",
+        "x": 2620,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: “时一堂的——你们这儿有个人，昨儿托掌柜的抓了副药。”",
+        "x": 2000,
+        "y": 520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "“时一堂的——你们这儿有个人，昨儿托掌柜的抓了副药。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Content",
+        "title": "Content",
+        "body": "嗑瓜子的女人收了笑，朝里面努了努嘴：",
+        "x": 1380,
+        "y": 520,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "嗑瓜子的女人: “找刘妈去。里头那位，病了好几天了，也没人管。”",
+        "x": 760,
+        "y": 520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "嗑瓜子的女人",
+            "line": "“找刘妈去。里头那位，病了好几天了，也没人管。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "Content",
+        "body": "刘妈是聚春馆的管事，四十多岁，脸上敷着厚厚的粉，说话却干脆。她接了药包，数出钱来，又加了一句：",
+        "x": 140,
+        "y": 520,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "刘妈: “小先生，劳你带句话给程先生——里头那位，要是还不好，怕是得请程先生亲自来瞧瞧。别的不怕，就怕……是那种不干净的病，传给别人就糟了。”",
+        "x": 140,
+        "y": 960,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "刘妈",
+            "line": "“小先生，劳你带句话给程先生——里头那位，要是还不好，怕是得请程先生亲自来瞧瞧。别的不怕，就怕……是那种不干净的病，传给别人就糟了。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "Content",
+        "body": "她说到后半句，声音低下去，眼睛朝楼上瞟了一眼。",
+        "x": 760,
+        "y": 960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖顺着她的目光看了一眼。楼上的栏杆边，靠着个穿蓝褂子的女人，褂子空荡荡的，露着一截细手腕。她在望楼下。楼下街上空着，她还在望。",
+        "x": 1380,
+        "y": 960,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "Content",
+        "body": "刘妈顺着他的目光看过去，叹了口气，声音更低了：",
+        "x": 2000,
+        "y": 960,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "刘妈: “那是从北边来的。去年冬天，她男人死了，她带着个小丫头进城讨饭……后来就进了这儿。小丫头，前些天让一个日本人领走了，说是领去当丫头。”",
+        "x": 2620,
+        "y": 960,
+        "width": 440,
+        "height": 158,
+        "turns": [
+          {
+            "speaker": "刘妈",
+            "line": "“那是从北边来的。去年冬天，她男人死了，她带着个小丫头进城讨饭……后来就进了这儿。小丫头，前些天让一个日本人领走了，说是领去当丫头。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n14",
+        "type": "Content",
+        "title": "Content",
+        "body": "她摆摆手：",
+        "x": 2620,
+        "y": 1400,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "刘妈: “我多嘴了。小先生，你回去吧。药钱结了，替我给程先生带个好。”",
+        "x": 2000,
+        "y": 1400,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "刘妈",
+            "line": "“我多嘴了。小先生，你回去吧。药钱结了，替我给程先生带个好。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1380,
+        "y": 1400,
+        "choices": [
+          "多看一眼",
+          "不看了，走"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "多看一眼",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "不看了，走",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖又看了一眼楼上那个穿蓝褂子的女人。",
+        "x": 760,
+        "y": 1400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "title": "Content",
+        "body": "她像是察觉了，低下头，慢慢地退回屋里去了。栏杆边空了，只剩一盏昏黄的灯，照着楼板上的灰。",
+        "x": 140,
+        "y": 1400,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖没再说什么，转身走了。可他记住了那句话——\"让一个日本人领走了，说是领去当丫头\"。",
+        "x": 140,
+        "y": 2120,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】信息+1·心里记下一笔",
+        "x": 760,
+        "y": 2120,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】聚春馆信息碎片——蓝褂女人/被领走的小丫头——回看锚候选：与官舍区/731 线的隐线关联——写作时定",
+        "x": 1380,
+        "y": 2120,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖没有再看。他接了药钱，道了谢，转身就走。出了巷口，他站住，把肩膀松了松，才接着走。",
+        "x": 760,
+        "y": 1680,
+        "width": 440,
+        "height": 145,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "title": "Content",
+        "body": "身后传来嗑瓜子的声音和低低的笑声，像是什么都没发生过。",
+        "x": 140,
+        "y": 1680,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】干净交差",
+        "x": 140,
+        "y": 2400,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "Content",
+        "body": "【结算】任务干净完成——无额外信息——聚春馆的门脸在身后合拢",
+        "x": 760,
+        "y": 2400,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Content",
+        "title": "Content",
+        "body": "往回走的路上，天彻底黑了。",
+        "x": 1380,
+        "y": 2400,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖把药钱在怀里按了按，脚步快了些。刘妈那句话，他一路没忘——可一直到药房门口，他也没想好，这话该不该学给掌柜的听。",
+        "x": 2000,
+        "y": 2120,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Content",
+        "title": "Content",
+        "body": "药钱在怀里，焐热了。",
+        "x": 2620,
+        "y": 2120,
+        "width": 440,
+        "height": 88,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Content",
+        "title": "Content",
+        "body": "回到药房门口，程靖霖正要推门，忽然觉得哪里不对。",
+        "x": 2620,
+        "y": 2840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "Content",
+        "body": "药房的门虚掩着，里面没有灯——往常这时候，掌柜的总会点着灯等他。他推开门，屋里黑着，只有炉膛里一点余火，映着两个坐着的人影。",
+        "x": 2000,
+        "y": 2840,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一坐在柜台后头，没有点灯。他对面，隔着柜台，坐着一个陌生人——看不清脸，只看见一件深色的长大衣，和一双搁在膝上、骨节分明的手。",
+        "x": 1380,
+        "y": 2840,
+        "width": 440,
+        "height": 174,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "Content",
+        "body": "听见门响，那人没有回头，只慢慢地开口，声音不高，却清清楚楚：",
+        "x": 760,
+        "y": 2840,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "陌生人: “程掌柜，你这药房的伙计，回来了？”",
+        "x": 140,
+        "y": 2840,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "陌生人",
+            "line": "“程掌柜，你这药房的伙计，回来了？”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "【转场】0305 黑川夜访——2/2 夜晚·匿名来客",
+        "x": 140,
+        "y": 3280,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n35",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 760,
+        "y": 3280,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n5",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n12",
+        "to": "n13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n13",
+        "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n16",
+        "to": "n17",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "多看一眼",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n16",
+        "to": "n22",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "不看了，走",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n18",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n19",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n20",
+        "to": "n21",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n21",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n24",
+        "to": "n25",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n27",
+        "to": "n28",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n28",
+        "to": "n29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n29",
+        "to": "n30",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n30",
+        "to": "n31",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n31",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n32",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n34",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 0,
+      "y": 0,
+      "scale": 0.3
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}
