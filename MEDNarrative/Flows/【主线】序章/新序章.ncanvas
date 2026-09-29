@@ -23,7 +23,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n1",
@@ -80,7 +81,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n3",
@@ -232,7 +234,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n9",
@@ -271,7 +274,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n11",
@@ -328,7 +332,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n13",
@@ -378,7 +383,9 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "height": 178,
+        "manualSize": true
       },
       {
         "id": "n15",
@@ -707,7 +714,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n28",
@@ -1606,7 +1614,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n56",
@@ -1624,7 +1633,10 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n57",
@@ -1642,7 +1654,10 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n58",
@@ -1667,7 +1682,9 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "height": 132,
+        "manualSize": true
       },
       {
         "id": "n59",
@@ -1734,7 +1751,9 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n62",
@@ -1934,7 +1953,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       },
       {
         "id": "n70",
@@ -1979,7 +1999,10 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n72",
@@ -2185,7 +2208,9 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "height": 106,
+        "manualSize": true
       },
       {
         "id": "n80",
@@ -2251,7 +2276,10 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n83",
@@ -2269,7 +2297,8 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "width": 440
       }
     ],
     "links": [

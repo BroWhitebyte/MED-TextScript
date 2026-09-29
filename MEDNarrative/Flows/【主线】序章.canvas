@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"a9a2f406871af320","type":"text","text":"# [主线]序章","x":80,"y":0,"width":300,"height":60},
-		{"id":"d58f317a36479e90","type":"file","file":"Flows/【主线】序章/序章.canvas","x":500,"y":0,"width":300,"height":200,"color":"5"},
-		{"id":"2cd43110307370a6","type":"file","file":"Flows/【主线】序章/序章/序章：小广场的黄昏.ncanvas","x":960,"y":0,"width":300,"height":200},
-		{"id":"baf61970b70d62ad","type":"file","file":"Flows/【主线】序章/极乐迪斯科示例.canvas","x":0,"y":0,"width":300,"height":200},
-		{"id":"d74f4baef521dfa9","type":"file","file":"Flows/【主线】序章/新序章.canvas","x":0,"y":340,"width":300,"height":200},
-		{"id":"cc316d78badc6b75","type":"file","file":"Flows/【主线】序章/discoelysium示例.canvas","x":40,"y":-400,"width":300,"height":200},
-		{"id":"3d44d533db76cd1b","type":"file","file":"Flows/【主线】序章/DiscoElysium示例-克拉洁阳台问话-全段-游戏数据版.ncanvas","x":40,"y":580,"width":300,"height":200,"color":"5"},
-		{"id":"8b90a7f5f0c35361","type":"file","file":"Flows/【主线】序章/DiscoElysium示例-克拉洁阳台问话.ncanvas","x":40,"y":820,"width":300,"height":200,"color":"5"}
+		{"id":"7e3dba2b98898dd3","type":"text","text":"# 【主线】序章","x":80,"y":0,"width":400,"height":120},
+		{"id":"24a077b1e3b64719","type":"file","file":"MEDNarrative/Flows/【主线】序章/新序章.canvas","x":600,"y":0,"width":300,"height":200},
+		{"id":"e131d628f591436d","type":"file","file":"MEDNarrative/Flows/【主线】序章/discoelysium示例.ncanvas","x":1060,"y":-390,"width":300,"height":200},
+		{"id":"fccb6339999700cc","type":"file","file":"MEDNarrative/Flows/【主线】序章/DiscoElysium示例-克拉洁阳台问话.ncanvas","x":1060,"y":-130,"width":300,"height":200},
+		{"id":"a6fe22a833aa6623","type":"file","file":"MEDNarrative/Flows/【主线】序章/DiscoElysium示例-克拉洁阳台问话-全段.ncanvas","x":1060,"y":130,"width":300,"height":200},
+		{"id":"a3f789467160324b","type":"file","file":"MEDNarrative/Flows/【主线】序章/DiscoElysium示例-克拉洁阳台问话-全段-游戏数据版.ncanvas","x":1060,"y":390,"width":300,"height":200}
 	],
-	"edges":[]
+	"edges":[
+
+	]
 }
