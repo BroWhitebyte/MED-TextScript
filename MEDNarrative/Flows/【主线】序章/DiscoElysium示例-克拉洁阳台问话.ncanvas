@@ -1,0 +1,821 @@
+{
+  "version": 1,
+  "savedAt": "2026-09-28T09:19:46.898Z",
+  "project": {
+    "title": "DiscoElysium示例-克拉洁阳台问话",
+    "notes": "转化自《极乐迪斯科》官方简体中文全本｜数据源 WHIRLING F3 / KLAASJE MAIN（ConvTitle，官方 Articy 术语表 702 条中的第 35-53 条，逐条照抄未改写）｜场景：旋涡俱乐部楼顶阳台·第二天上午｜人物：克拉洁（Miss Oranje Disco Dancer）、金·曷城、你；技能声：物理技能、电化学、争强好胜、能言善辩；叙述者标记「吊死的人」｜结构：13 台词节拍（turns 合计 17）+ 选择点 2 处（选项合计 7）+ End 1；本件不含 Content 节点（源表该段无旁白行，叙述由「吊死的人」与技能声承担）｜映射规则：源表 TermType=Dialogue Text 逐条照抄，画布内每一句均可在源表中逐字命中（已用脚本核验）；说话人为技能名者落 Dialog 的 speaker；源表叙述者的两行（树上还挂着／地面上还躺着）以「吊死的人」为 speaker 落 Dialog，不另加前缀；台词行内的（礼貌地继续。）（匆忙继续。）等舞台标注随台词保留｜取值说明：「欢迎来到屋顶」取源表 idx 36、1 号房间之说取 idx 35、末日警察取 idx 44，均按源表位次取用，未自撰文本｜结构说明（重要）：官方术语表只提供文本与条件，不提供连线；英文对话库（allura-org/disco-elysium-conversations-raw）在本段的 dlinks 极稀疏（该对话 1543 条内部边中，Klaasje 起始条目仅 1 条出边、4 个 HUB 根几乎不连线），不足以成图——故本件连线为依据对话逻辑重建：选择点与汇合点按「多条玩家项共用同一条 NPC 回应」判定；技能声作为反应节拍串入主线，不参与选择接线｜未落节点：该对话其余 650 条未纳入本件，后续可分件续接。",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "title": "Start",
+        "body": "Adventure Begins",
+        "x": 140,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n0",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "Klaasje: “欢迎来到屋顶。”年轻女子一手夹着一支烟，另一只手端着咖啡。",
+        "x": 760,
+        "y": 80,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "Klaasje",
+            "line": "“欢迎来到屋顶。”年轻女子一手夹着一支烟，另一只手端着咖啡。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1380,
+        "y": 80,
+        "choices": [
+          "“你这里的景色很好。”",
+          "“有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）",
+          "“没时间开玩笑了。我们有问题要问你。”（匆忙继续。）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "“你这里的景色很好。”",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "“有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "“没时间开玩笑了。我们有问题要问你。”（匆忙继续。）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "Klaasje: “抱歉，下面搞得那么乱。清洁女工已经好*几天*没有来过了。我在想她还会不会出现……”",
+        "x": 2000,
+        "y": 80,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "Klaasje",
+            "line": "“抱歉，下面搞得那么乱。清洁女工已经好*几天*没有来过了。我在想她还会不会出现……”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "Klaasje: “我有没有……这就是传说中的末日警察。”",
+        "x": 2000,
+        "y": 360,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "Klaasje",
+            "line": "“我有没有……这就是传说中的末日警察。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "Klaasje: “是的！1号房间的传说已经在这里传开了。他们说那里已经开启了通往地狱的大门。”",
+        "x": 2620,
+        "y": 80,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "Klaasje",
+            "line": "“是的！1号房间的传说已经在这里传开了。他们说那里已经开启了通往地狱的大门。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "物理技能: ……经过多年的防身术训练后有所改善。你能从她的手肘尖角上感觉出来。",
+        "x": 2620,
+        "y": 800,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "物理技能",
+            "line": "……经过多年的防身术训练后有所改善。你能从她的手肘尖角上感觉出来。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "电化学: 在她那银色的连体裤下面——是一副年轻又健美的身体。修长而纤瘦……",
+        "x": 2000,
+        "y": 800,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "电化学",
+            "line": "在她那银色的连体裤下面——是一副年轻又健美的身体。修长而纤瘦……"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "吊死的人: 树上还挂着一具成熟的尸体，上面布满绿色和紫色的斑点。\n吊死的人: 地面上还躺着一个男人成熟的尸体，上面布满绿色和紫色的斑点。",
+        "x": 1380,
+        "y": 800,
+        "width": 440,
+        "height": 178,
+        "turns": [
+          {
+            "speaker": "吊死的人",
+            "line": "树上还挂着一具成熟的尸体，上面布满绿色和紫色的斑点。"
+          },
+          {
+            "speaker": "吊死的人",
+            "line": "地面上还躺着一个男人成熟的尸体，上面布满绿色和紫色的斑点。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "金·曷城: “我是金·曷城。”警督上前一步。“我是57分局的一名警探。相信你一定已经见过我这位41分局的同事了吧。”",
+        "x": 760,
+        "y": 800,
+        "width": 440,
+        "height": 132,
+        "turns": [
+          {
+            "speaker": "金·曷城",
+            "line": "“我是金·曷城。”警督上前一步。“我是57分局的一名警探。相信你一定已经见过我这位41分局的同事了吧。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 800,
+        "choices": [
+          "“没错。”",
+          "“迪斯科地狱。”",
+          "“地狱？你根本不知道自己在说什么！”",
+          "“不，我只是把这个地方搞得乱七八糟。”"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "“没错。”",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "“迪斯科地狱。”",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "“地狱？你根本不知道自己在说什么！”",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_4",
+            "label": "“不，我只是把这个地方搞得乱七八糟。”",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "Klaasje: “他们*还说*这就是清洁女工辞职的原因。”",
+        "x": 140,
+        "y": 1240,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "Klaasje",
+            "line": "“他们*还说*这就是清洁女工辞职的原因。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "争强好胜: 哦耶，感受力量吧。",
+        "x": 760,
+        "y": 1240,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "争强好胜",
+            "line": "哦耶，感受力量吧。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "你: “这里确实存在黑暗能量漩涡，不过不是通往地狱——而是另一个地方。*第三个*地方，跟我们的世界很不一样。”\nKlaasje: “第三个地方？有意思。”她抿了一口咖啡。“这也许就是清洁女工辞职的原因吧。”",
+        "x": 1380,
+        "y": 1240,
+        "width": 440,
+        "height": 205,
+        "turns": [
+          {
+            "speaker": "你",
+            "line": "“这里确实存在黑暗能量漩涡，不过不是通往地狱——而是另一个地方。*第三个*地方，跟我们的世界很不一样。”"
+          },
+          {
+            "speaker": "Klaasje",
+            "line": "“第三个地方？有意思。”她抿了一口咖啡。“这也许就是清洁女工辞职的原因吧。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "你: “没错。”\nKlaasje: “我知道。”她的眉毛笑弯了腰。“这*可能*也是清洁女工辞职的原因。”",
+        "x": 140,
+        "y": 1520,
+        "width": 440,
+        "height": 152,
+        "turns": [
+          {
+            "speaker": "你",
+            "line": "“没错。”"
+          },
+          {
+            "speaker": "Klaasje",
+            "line": "“我知道。”她的眉毛笑弯了腰。“这*可能*也是清洁女工辞职的原因。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "你: “迪斯科地狱。”\nKlaasje: “哦，我*当然*知道了——他们还说这就是清洁女工辞职的原因。”",
+        "x": 140,
+        "y": 1800,
+        "width": 440,
+        "height": 152,
+        "turns": [
+          {
+            "speaker": "你",
+            "line": "“迪斯科地狱。”"
+          },
+          {
+            "speaker": "Klaasje",
+            "line": "“哦，我*当然*知道了——他们还说这就是清洁女工辞职的原因。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "你: “地狱？你根本不知道自己在说什么！”\nKlaasje: “哦，我*当然*知道了——他们还说这就是清洁女工辞职的原因。”",
+        "x": 140,
+        "y": 2080,
+        "width": 440,
+        "height": 152,
+        "turns": [
+          {
+            "speaker": "你",
+            "line": "“地狱？你根本不知道自己在说什么！”"
+          },
+          {
+            "speaker": "Klaasje",
+            "line": "“哦，我*当然*知道了——他们还说这就是清洁女工辞职的原因。”"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "能言善辩: 她刚刚承认跟地狱之间的交情很好——生活不易啊，这是肯定的。",
+        "x": 760,
+        "y": 1520,
+        "width": 440,
+        "height": 106,
+        "turns": [
+          {
+            "speaker": "能言善辩",
+            "line": "她刚刚承认跟地狱之间的交情很好——生活不易啊，这是肯定的。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "End",
+        "title": "End",
+        "body": "",
+        "x": 1380,
+        "y": 1520,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "“你这里的景色很好。”",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n1",
+        "to": "n2",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "“有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n1",
+        "to": "n3",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "“没时间开玩笑了。我们有问题要问你。”（匆忙继续。）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n2",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n5",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n9",
+        "to": "n10",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "“没错。”",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n9",
+        "to": "n14",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "“迪斯科地狱。”",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n9",
+        "to": "n15",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "“地狱？你根本不知道自己在说什么！”",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n9",
+        "to": "n13",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 3,
+        "label": "“不，我只是把这个地方搞得乱七八糟。”",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n12",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n13",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n14",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n16",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  },
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 517.7281330759463,
+      "y": 281.4325515083443,
+      "scale": 0.39930000000000054
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  }
+}
