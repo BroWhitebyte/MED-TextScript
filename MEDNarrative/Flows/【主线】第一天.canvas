@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"2d060cbba83b4013","type":"text","text":"# 【主线】第一天","x":80,"y":0,"width":400,"height":120},
+		{"id":"9ce2fca084a7e191","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 101 固定-主线-训练日.canvas","x":600,"y":0,"width":300,"height":200},
+		{"id":"bee8c5f46e7a88cd","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 102 固定-主线-第一次送药.canvas","x":1060,"y":0,"width":300,"height":200},
+		{"id":"aab9f03d9e1ab4ef","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 103A 固定-主线-第二次送药-裕昌当铺.canvas","x":1520,"y":-130,"width":300,"height":200},
+		{"id":"ce77a4f00f78beff","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 103B 固定-主线-第二次送药-大车店.canvas","x":1520,"y":130,"width":300,"height":200},
+		{"id":"610f5ec97c39d61e","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 104 固定-看板教程.canvas","x":1980,"y":0,"width":300,"height":200},
+		{"id":"eec32e3413cddcd8","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 105 固定-叶子戏教程-夜晚.canvas","x":2440,"y":0,"width":300,"height":200},
+		{"id":"59da42dc0365b920","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 106 固定-午夜-梦境.canvas","x":2900,"y":0,"width":300,"height":200}
+	],
+	"edges":[
+		{"id":"f0375e3efc6e2f28","fromNode":"9ce2fca084a7e191","fromSide":"right","toNode":"bee8c5f46e7a88cd","toSide":"left"},
+		{"id":"c766454e765799be","fromNode":"bee8c5f46e7a88cd","fromSide":"right","toNode":"aab9f03d9e1ab4ef","toSide":"left"},
+		{"id":"be4a76001d3437ff","fromNode":"bee8c5f46e7a88cd","fromSide":"right","toNode":"ce77a4f00f78beff","toSide":"left"},
+		{"id":"5092cdfd97633df5","fromNode":"aab9f03d9e1ab4ef","fromSide":"right","toNode":"610f5ec97c39d61e","toSide":"left"},
+		{"id":"051a30951e30ecf5","fromNode":"ce77a4f00f78beff","fromSide":"right","toNode":"610f5ec97c39d61e","toSide":"left"},
+		{"id":"9f3ac8b397b05152","fromNode":"610f5ec97c39d61e","fromSide":"right","toNode":"eec32e3413cddcd8","toSide":"left"},
+		{"id":"c16d80d3db5d2f08","fromNode":"eec32e3413cddcd8","fromSide":"right","toNode":"59da42dc0365b920","toSide":"left"}
+	]
+}

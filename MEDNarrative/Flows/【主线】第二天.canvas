@@ -1,26 +1,21 @@
 {
 	"nodes":[
-		{"id":"7f8b48c03dbecbfd","type":"text","text":"# 【主线】第二天","x":80,"y":0,"width":400,"height":120},
-		{"id":"837189e77510650d","type":"file","file":"Flows/【主线】第二天/Event 201 固定-领口粮.canvas","x":600,"y":0,"width":300,"height":200},
-		{"id":"ed5b0c5e29de73e9","type":"file","file":"Flows/【主线】第二天/Event 202A 主线-补送-裕昌当铺.canvas","x":1060,"y":-130,"width":300,"height":200},
-		{"id":"3a0194b078f118a1","type":"file","file":"Flows/【主线】第二天/Event 202B 主线-补送-大车店.canvas","x":1060,"y":130,"width":300,"height":200},
-		{"id":"826da493b6fac1c4","type":"file","file":"Flows/【主线】第二天/Event 203 自由-下午自由窗.canvas","x":1520,"y":0,"width":300,"height":200},
-		{"id":"04fc0ec022d3a3f1","type":"file","file":"Flows/【主线】第二天/Event 204A 支线-同和居送药.canvas","x":1980,"y":-130,"width":300,"height":200},
-		{"id":"9822020720d6b59d","type":"file","file":"Flows/【主线】第二天/Event 204B 支线-脚行送药.canvas","x":1980,"y":130,"width":300,"height":200},
-		{"id":"3e0214f66939ceb7","type":"file","file":"Flows/【主线】第二天/Event 205 主线-登门.canvas","x":2440,"y":0,"width":300,"height":200},
-		{"id":"147b46d6fae7158c","type":"file","file":"Flows/【主线】第二天/Event 206 主线-夜归.canvas","x":2900,"y":0,"width":300,"height":200},
-		{"id":"50c68d247ea14363","type":"file","file":"Flows/【主线】第二天/Event 207 固定-午夜响动.canvas","x":3360,"y":0,"width":300,"height":200}
+		{"id":"b5a4f0d40be475f6","type":"text","text":"# 【主线】第二天","x":80,"y":0,"width":400,"height":120},
+		{"id":"a16af24024760349","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 201 固定-领口粮.canvas","x":600,"y":0,"width":300,"height":200},
+		{"id":"7f6bd2a463b63fca","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 202A 支线-同和居送药.canvas","x":1060,"y":-130,"width":300,"height":200},
+		{"id":"2b8c1907b73def82","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 202B 支线-脚行送药.canvas","x":1060,"y":130,"width":300,"height":200},
+		{"id":"1f20336beec24e0a","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 203 自由-下午自由窗.canvas","x":1520,"y":0,"width":300,"height":200},
+		{"id":"4d39b9b31d9fdc01","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 204 主线-登门.canvas","x":1980,"y":0,"width":300,"height":200},
+		{"id":"a9886a108db7e01b","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 205 主线-夜归.canvas","x":2440,"y":0,"width":300,"height":200},
+		{"id":"8a2b2149e9a644b2","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 206 固定-午夜响动.canvas","x":2900,"y":0,"width":300,"height":200}
 	],
 	"edges":[
-		{"id":"ca1a7a79b1e11701","fromNode":"837189e77510650d","fromSide":"right","toNode":"ed5b0c5e29de73e9","toSide":"left"},
-		{"id":"be691682f3532785","fromNode":"837189e77510650d","fromSide":"right","toNode":"3a0194b078f118a1","toSide":"left"},
-		{"id":"98d4d0f918c2ed9d","fromNode":"ed5b0c5e29de73e9","fromSide":"right","toNode":"826da493b6fac1c4","toSide":"left"},
-		{"id":"18185ccabf029ee7","fromNode":"3a0194b078f118a1","fromSide":"right","toNode":"826da493b6fac1c4","toSide":"left"},
-		{"id":"2c78ba800638be38","fromNode":"826da493b6fac1c4","fromSide":"right","toNode":"04fc0ec022d3a3f1","toSide":"left"},
-		{"id":"68c78736bac18e6a","fromNode":"826da493b6fac1c4","fromSide":"right","toNode":"9822020720d6b59d","toSide":"left"},
-		{"id":"75eb818ffa50016d","fromNode":"04fc0ec022d3a3f1","fromSide":"right","toNode":"3e0214f66939ceb7","toSide":"left"},
-		{"id":"c87d50a04ca82165","fromNode":"9822020720d6b59d","fromSide":"right","toNode":"3e0214f66939ceb7","toSide":"left"},
-		{"id":"fd3a3815e847cf2e","fromNode":"3e0214f66939ceb7","fromSide":"right","toNode":"147b46d6fae7158c","toSide":"left"},
-		{"id":"4a78db0ec15829e9","fromNode":"147b46d6fae7158c","fromSide":"right","toNode":"50c68d247ea14363","toSide":"left"}
+		{"id":"34fc89b5546e7144","fromNode":"a16af24024760349","fromSide":"right","toNode":"7f6bd2a463b63fca","toSide":"left"},
+		{"id":"c4756e9a0c02bbfc","fromNode":"a16af24024760349","fromSide":"right","toNode":"2b8c1907b73def82","toSide":"left"},
+		{"id":"26a4ac1ff637c2bb","fromNode":"7f6bd2a463b63fca","fromSide":"right","toNode":"1f20336beec24e0a","toSide":"left"},
+		{"id":"fbd47ad321331baa","fromNode":"2b8c1907b73def82","fromSide":"right","toNode":"1f20336beec24e0a","toSide":"left"},
+		{"id":"bce513c856f61e22","fromNode":"1f20336beec24e0a","fromSide":"right","toNode":"4d39b9b31d9fdc01","toSide":"left"},
+		{"id":"b9ebd9fb39b790e9","fromNode":"4d39b9b31d9fdc01","fromSide":"right","toNode":"a9886a108db7e01b","toSide":"left"},
+		{"id":"b5d610633b0ae092","fromNode":"a9886a108db7e01b","fromSide":"right","toNode":"8a2b2149e9a644b2","toSide":"left"}
 	]
 }

@@ -758,7 +758,8 @@
             "t": 0.5
           }
         },
-        "frameId": ""
+        "frameId": "",
+        "width": 440
       },
       {
         "id": "n1",
@@ -845,7 +846,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n4",
@@ -901,7 +905,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n7",
@@ -1096,7 +1103,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n13",
@@ -1152,7 +1162,10 @@
             "side": "right",
             "t": 0.48369481542088966
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n15",
@@ -1259,7 +1272,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n18",
@@ -1315,7 +1331,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n20",
@@ -1371,7 +1390,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 117,
+        "manualSize": true
       },
       {
         "id": "n22",
@@ -1513,7 +1535,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n26",
@@ -1592,7 +1617,10 @@
             "side": "right",
             "t": 0.5512618331221847
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n29",
@@ -1787,7 +1815,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n36",
@@ -1917,7 +1948,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n40",
@@ -2093,7 +2127,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n46",
@@ -2184,7 +2221,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 260,
+        "manualSize": true
       },
       {
         "id": "n49",
@@ -2422,7 +2462,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 145,
+        "manualSize": true
       },
       {
         "id": "n57",
@@ -2598,7 +2641,10 @@
             "side": "bottom",
             "t": 0.5
           }
-        }
+        },
+        "width": 440,
+        "height": 88,
+        "manualSize": true
       },
       {
         "id": "n63",
@@ -2999,9 +3045,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 568.251376438532,
-      "y": 424.37650942434396,
-      "scale": 0.43923000000000056
+      "x": 526.8300489213398,
+      "y": -671.2943615652478,
+      "scale": 0.643076643000001
     },
     "sidebar": {
       "leftWidth": 280,

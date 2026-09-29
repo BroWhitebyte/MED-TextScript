@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"a4f81c62d93b7e05","type":"text","text":"# Event 104 固定-看板教程","x":0,"y":0,"width":400,"height":120},
+		{"id":"7b25e9d4c81a306f","type":"file","file":"MEDNarrative/Flows/【主线】第一天/Event 104 固定-看板教程.canvas","x":480,"y":0,"width":300,"height":200},
+		{"id":"945d0b3583f90915","x":249,"y":260,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[]
+}
