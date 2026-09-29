@@ -95,7 +95,7 @@
         "title": "Dialog",
         "body": "程时一: \"你领完口粮回来，还有一趟要跑。\"\n程时一: 能挣一份钱，就能多吃一口饭。",
         "x": 3680,
-        "y": 80,
+        "y": 72,
         "width": 440,
         "height": 205,
         "turns": [
@@ -1855,16 +1855,16 @@
     ]
   },
   "ui": {
-    "selectedNodeId": null,
+    "selectedNodeId": "n54",
     "selectedLinkId": null,
     "panel": "project",
     "activeFileId": "adventure",
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -12479.75579716711,
-      "y": 457.3802709521382,
-      "scale": 0.8339875970238372
+      "x": -2071.5905424686175,
+      "y": 387.82889494471476,
+      "scale": 0.9173863567262217
     },
     "sidebar": {
       "leftWidth": 280,
