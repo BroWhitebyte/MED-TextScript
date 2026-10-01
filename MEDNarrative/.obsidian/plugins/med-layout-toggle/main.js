@@ -169,23 +169,35 @@ function graphInfo(doc) {
   for (const n of nodes) if (!index.has(n.id)) strongconnect(n.id);
 
   const succ = sccs.map(() => new Set());
-  const indeg = sccs.map(() => 0);
   for (const [a, b] of edges) {
     const A = sccOf.get(a), B = sccOf.get(b);
-    if (A !== B && !succ[A].has(B)) { succ[A].add(B); indeg[B] += 1; }
+    if (A !== B && !succ[A].has(B)) succ[A].add(B);
   }
   const rootScc = sccOf.get(root);
   const sccDepth = new Map([[rootScc, 0]]);
-  const dq = [rootScc];
-  const ind = indeg.slice();
-  while (dq.length) {
-    const u = dq.shift();
-    for (const w of succ[u]) {
-      const want = (sccDepth.get(u) || 0) + 1;
-      if ((sccDepth.get(w) === undefined ? -1 : sccDepth.get(w)) < want) sccDepth.set(w, want);
-      ind[w] -= 1;
-      if (ind[w] === 0) dq.push(w);
+  /* 缩点图是 DAG：深度 = 从 root 出发的最长路径长度。
+     注意两点（都是 Event 202B 排布失效的根因）：
+       1) **不能用 Kahn 的入度门控**（ind[w] 归零才入队）——图里只要有环，环及其下游
+          分量的入度永远降不到 0，会被静默跳过；sccDepth 拿不到值，下面兜底成 0，
+          同一深度堆下上百个节点，placeRow 把它们竖排成一列，方形与横排都退化成竖条；
+       2) **入队式松弛会提前出队**——环上分量在环内被反复发现，但一旦出队就不再传播，
+          下游会停在偏小的深度。故这里跑到不动点：每轮全量检查，任何分量
+          depth < max(上游 depth)+1 就抬升并继续，直到再无变化。
+     环内节点本就该同层，与「SCC 缩点后同层」的设计一致。 */
+  let rounds = 0;
+  const MAXR = sccs.length + 2;
+  for (;;) {
+    let changed = false;
+    for (const A of succ.keys()) {
+      const da = sccDepth.get(A);
+      if (da === undefined) continue;
+      for (const B of succ[A]) {
+        const cur = sccDepth.has(B) ? sccDepth.get(B) : -1;
+        if (cur < da + 1) { sccDepth.set(B, da + 1); changed = true; }
+      }
     }
+    if (!changed) break;
+    if (++rounds > MAXR) break;               // 兜底：正常 DAG 上最多 |V| 轮
   }
 
   const depth = new Map();

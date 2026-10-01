@@ -41,23 +41,34 @@ const strongconnect = (v) => {
 for (const id of ids) if (!index.has(id)) strongconnect(id);
 
 const succ = sccs.map(() => new Set());
-const indeg = sccs.map(() => 0);
 for (const [a, b] of edges) {
   const A = sccOf.get(a), B = sccOf.get(b);
-  if (A !== B && !succ[A].has(B)) { succ[A].add(B); indeg[B] += 1; }
+  if (A !== B && !succ[A].has(B)) succ[A].add(B);
 }
 const rootScc = sccOf.get(root);
 const sccDepth = new Map([[rootScc, 0]]);
-const dq = [rootScc];
-const ind = indeg.slice();
-while (dq.length) {
-  const u = dq.shift();
-  for (const w of succ[u]) {
-    const want = (sccDepth.get(u) || 0) + 1;
-    if ((sccDepth.has(w) ? sccDepth.get(w) : -1) < want) sccDepth.set(w, want);
-    ind[w] -= 1;
-    if (ind[w] === 0) dq.push(w);
+/* 缩点图是 DAG：深度 = 从 root 出发的最长路径长度。
+   注意两点（都是 Event 202B 排布失效的根因）：
+     1) **不能用 Kahn 的入度门控**（ind[w] 归零才入队）——图里只要有环，环及其下游
+        分量的入度永远降不到 0，会被静默跳过，depth 兜底成 0，同一深度堆下上百个
+        节点，排布退化成一列；
+     2) **单遍「按 SCC 序号推进」不够**——Tarjan 的分量序号是逆拓扑序，从小往大扫
+        等于顺拓扑序，看似一趟就够；但环上分量会被反复抬升，抬升后其下游必须重扫，
+        否则会停在偏小的深度（202B 里 n47 停在 27，而上游 n46 已是 83）。
+        故这里跑到真正的不动点。
+   环内节点本就该同层，与「SCC 缩点后同层」的设计一致。 */
+for (let round = 0; ; round++) {
+  let changed = false;
+  for (const A of succ.keys()) {
+    const da = sccDepth.get(A);
+    if (da === undefined) continue;
+    for (const B of succ[A]) {
+      const cur = sccDepth.has(B) ? sccDepth.get(B) : -1;
+      if (cur < da + 1) { sccDepth.set(B, da + 1); changed = true; }
+    }
   }
+  if (!changed) break;
+  if (round > sccs.length) break;            // 兜底：DAG 上最多 |V| 轮，正常远用不到
 }
 
 const depth = {};
