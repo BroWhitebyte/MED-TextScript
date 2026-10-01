@@ -1543,8 +1543,8 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 0,
-      "y": 0,
+      "x": 251,
+      "y": 121,
       "scale": 0.3
     },
     "sidebar": {

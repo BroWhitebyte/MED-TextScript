@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"b6f204d7a1c93e58","type":"text","text":"# Event 105 固定-叶子戏教程-夜晚","x":0,"y":0,"width":400,"height":120},
-		{"id":"4d81ca39f7062be5","type":"file","file":"Flows/【主线】第一章/Event 105 固定-叶子戏教程-夜晚.ncanvas","x":480,"y":0,"width":300,"height":200}
+		{"id":"4d81ca39f7062be5","type":"file","file":"Flows/【主线】第一天/Event 105 固定-叶子戏教程-夜晚.ncanvas","x":480,"y":0,"width":300,"height":200}
 	],
 	"edges":[]
 }

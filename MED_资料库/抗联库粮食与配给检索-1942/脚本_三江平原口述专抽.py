@@ -10,8 +10,8 @@ try:
 except Exception:
     pass
 
-DB = r"I:\抗联整理_OCR成果\_index\library.db"
-CSV = r"I:\抗联整理_OCR成果\_index\书目总表.csv"
+DB = r"D:\抗联整理_OCR成果\_index\library.db"
+CSV = r"D:\抗联整理_OCR成果\_index\书目总表.csv"
 OUT = Path(r"C:\Users\white\Downloads\DS workspace\data\kanglian_liang_jms.md")
 
 KWS = ["出荷", "粮谷", "粮食", "粮库", "粮栈", "配给", "橡子面", "饿", "粮"]

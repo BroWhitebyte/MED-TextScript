@@ -12,7 +12,7 @@ try:
 except Exception:
     pass
 
-DB = r"I:\抗联整理_OCR成果\_index\library.db"
+DB = r"D:\抗联整理_OCR成果\_index\library.db"
 OUT = Path(r"C:\Users\white\Downloads\DS workspace\data\kanglian_liang_themes.md")
 
 ORAL = ["口述", "回忆", "亲历", "见闻", "忆述", "文史资料", "志"]

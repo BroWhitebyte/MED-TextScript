@@ -13,7 +13,7 @@ try:
 except Exception:
     pass
 
-DB = r"I:\抗联整理_OCR成果\_index\library.db"
+DB = r"D:\抗联整理_OCR成果\_index\library.db"
 OUT = Path(r"C:\Users\white\Downloads\DS workspace\data\kanglian_liang_1942.md")
 
 LIANG = ["粮库", "粮仓", "粮囤", "粮栈", "粮店", "粮行", "粮秣", "粮食", "食粮", "粮谷",

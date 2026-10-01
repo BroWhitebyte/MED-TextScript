@@ -8,7 +8,7 @@ try:
 except Exception:
     pass
 
-DB = r"I:\抗联整理_OCR成果\_index\library.db"
+DB = r"D:\抗联整理_OCR成果\_index\library.db"
 TITLE = "吉林市文史资料 第10辑 吉林中医百年"
 KEYS = ["汉医讲习", "取缔", "考试", "执照", "许可", "登录", "登记", "限制", "压制",
         "满洲中央汉医会", "中医公会", "国药同业", "诊治传染病"]

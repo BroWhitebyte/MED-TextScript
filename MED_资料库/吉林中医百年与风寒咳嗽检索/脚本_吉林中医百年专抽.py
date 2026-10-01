@@ -9,7 +9,7 @@ try:
 except Exception:
     pass
 
-DB = r"I:\抗联整理_OCR成果\_index\library.db"
+DB = r"D:\抗联整理_OCR成果\_index\library.db"
 OUT = Path(r"C:\Users\white\Downloads\DS workspace\data\kanglian_tcm_jl.md")
 TITLE = "吉林市文史资料 第10辑 吉林中医百年"
 
