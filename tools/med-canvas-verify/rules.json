@@ -1,0 +1,70 @@
+{
+  "name": "med-canvas-verify",
+  "version": "1.0.0",
+  "period": {
+    "label": "1942-01..1942-02",
+    "from": "1942-01",
+    "to": "1942-02",
+    "note": "新序章（序章件）时点。第二天/第三天件另建 period 覆盖，勿改此默认值。"
+  },
+  "caps": {
+    "queries": 120,
+    "pages": 40,
+    "booksPerQuery": 8,
+    "hitsPerBook": 8,
+    "window": 20000
+  },
+  "backend": {
+    "prefer": "db",
+    "note": "db=索引库直连（混合 FTS5 MATCH + LIKE，毫秒级；2 字词走 LIKE 约 3–5 秒）；api=本机 8080 服务（每次约 6 秒）。api 不可用时自动回退 db；prefer=api 时若服务未起也回退 db。"
+  },
+  "lib": {
+    "db": "D:\\抗联整理_OCR成果\\_index\\library.final.db",
+    "root": "D:\\抗联整理_OCR成果",
+    "api": "http://127.0.0.1:8080"
+  },
+  "outDir": "06_MED_TextScript\\MED-TextScript\\MED_考证索引",
+  "truthSource": "_tools\\audit_decisions.md",
+  "gates": {
+    "timeGuard": {
+      "level": "warn",
+      "enabled": true,
+      "rule": "正文出现词表词且该词 timeGuard=from:YYYY-MM 晚于当前 period 时报警；X 类词（通账配给制/组合/堂倌）在期限前出现报 error。"
+    },
+    "deprecatedTerm": {
+      "level": "warn",
+      "enabled": true,
+      "rule": "正文出现词表词，且词表 note 含【用词裁定】/【禁用】时，按 note 首句提示改写。"
+    },
+    "gapTerm": {
+      "level": "info",
+      "enabled": true,
+      "rule": "正文出现 class=C 的词（库中缺口）时提示：可留、宜加注或改词。"
+    },
+    "properNounRepeat": {
+      "level": "info",
+      "enabled": true,
+      "rule": "同一专名（人名/字号）在同一画布出现 5 次以上时列出计数，供人工判断。"
+    }
+  },
+  "exempt": {
+    "metaLayer": {
+      "match": "106",
+      "note": "Event 106 梦境层＝元层，不受 1942 时代语约束（见 _tools\\audit_decisions.md 附注）。匹配到则闸门全部跳过。"
+    }
+  },
+  "noIndex": {
+    "note": "按作者裁定**不做检索索引**的件（2026-09-30 定：106 为特殊内容，无须索引）。batch 默认跳过；总索引标「按裁定不索引」；scan_events.js 重建登记表时把该标记写回 events.json 的 noIndex 字段。",
+    "codes": ["106"]
+  },
+  "sections": [
+    { "key": "服御", "title": "服御与器物" },
+    { "key": "街市", "title": "街市与建筑" },
+    { "key": "制度", "title": "经济统制与配给" },
+    { "key": "医药", "title": "医药" },
+    { "key": "治安", "title": "治安、宵禁与示众" },
+    { "key": "岁时", "title": "岁时与气候" },
+    { "key": "民生", "title": "民生：煤、柴、灯油" },
+    { "key": "语言", "title": "语言与称谓" }
+  ]
+}

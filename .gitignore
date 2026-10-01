@@ -14,3 +14,9 @@ MEDNarrative/.obsidian/plugins/*/data.json
 _研究过程/
 # 用户本机库（仓库根）配置：含 workspace 等本机状态，不入库
 /.obsidian/
+
+# 考证工具（tools/med-canvas-verify/）在仓库内运行时的运行期文件：
+#   - .cache/：词级检索缓存、单件检索快照、history.jsonl，每次运行都会变；
+#   - bookmap.json：本机 OCR 库的书名映射，换机器必然不同，由库在线时重新生成。
+tools/med-canvas-verify/.cache/
+tools/med-canvas-verify/bookmap.json
