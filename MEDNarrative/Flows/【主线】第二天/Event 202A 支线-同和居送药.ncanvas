@@ -3723,9 +3723,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -3054.311711946001,
-      "y": -2338.2803614582504,
-      "scale": 1.1392495007497252
+      "x": 0,
+      "y": 0,
+      "scale": 0.3
     },
     "sidebar": {
       "leftWidth": 280,
