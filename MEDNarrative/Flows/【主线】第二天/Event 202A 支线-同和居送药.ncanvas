@@ -196,8 +196,8 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜看了看他，又看了看正在上楼的客人，等到客人的背影消失在楼梯转角，才叹了口气说：",
-        "x": 4860,
-        "y": 663,
+        "x": 5530,
+        "y": 80,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -217,8 +217,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "卢二柜: 把药包拿过来吧。这年月，饭馆也是越来越难开了。",
-        "x": 4270,
-        "y": 663,
+        "x": 6160,
+        "y": 80,
         "width": 440,
         "height": 106,
         "turns": [
@@ -243,9 +243,9 @@
         "id": "n14",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖从怀里掏出药包，走到柜台前。卢二柜坐在桌后，拿起烟杆，若有所思。他看着程靖霖把药包放在柜上，才说道：",
-        "x": 3680,
-        "y": 663,
+        "body": "程靖霖走到柜台前。卢二柜坐在桌后，拿起烟杆，若有所思。\n他看着程靖霖把药包放在柜上，才说道：",
+        "x": 4310,
+        "y": 706,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -264,15 +264,19 @@
         "id": "n15",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "卢二柜: 要过年啦，年前进货，周转紧。这个药钱，先挂个账，你回去跟程先生说一下。",
-        "x": 3090,
-        "y": 663,
+        "body": "卢二柜: 要过年啦，年前进货，周转紧。这个药钱，先挂个账，你回去跟程先生说一下。\n卢二柜: 你来跑一趟也不容易，歇歇脚，暖和暖和再走。",
+        "x": 3720,
+        "y": 706,
         "width": 440,
         "height": 106,
         "turns": [
           {
             "speaker": "卢二柜",
             "line": "要过年啦，年前进货，周转紧。这个药钱，先挂个账，你回去跟程先生说一下。"
+          },
+          {
+            "speaker": "卢二柜",
+            "line": "你来跑一趟也不容易，歇歇脚，暖和暖和再走。"
           }
         ],
         "manualSize": true,
@@ -292,8 +296,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 2500,
-        "y": 663,
+        "x": 3130,
+        "y": 706,
         "choices": [
           "这样回去不好交代",
           "生意真的不好？",
@@ -335,87 +339,20 @@
         "id": "n17",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 卢先生，这可不行啊。",
-        "x": 1910,
-        "y": 663,
+        "body": "程靖霖: 卢先生，这可不行啊。\n程靖霖: 知道是年关不好过，但是我们家这小本生意的，这我回去可没法跟家里掌柜的交代呀。\n卢二柜: 哪年不是这样？年关难过，关关都得过啊。大伙儿都得想辙、凑手。",
+        "x": 2540,
+        "y": 706,
         "width": 440,
-        "height": 79,
+        "height": 251,
         "turns": [
           {
             "speaker": "程靖霖",
             "line": "卢先生，这可不行啊。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n18",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖说，",
-        "x": 1320,
-        "y": 663,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n19",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 您这样，我回去跟掌柜的可没法交代。",
-        "x": 730,
-        "y": 663,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "程靖霖",
-            "line": "您这样，我回去跟掌柜的可没法交代。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "line": "知道是年关不好过，但是我们家这小本生意的，这我回去可没法跟家里掌柜的交代呀。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n20",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 哪年不是这样？年关难过，关关都得过啊。大伙儿都得想辙、凑手。",
-        "x": 140,
-        "y": 663,
-        "width": 440,
-        "height": 106,
-        "turns": [
           {
             "speaker": "卢二柜",
             "line": "哪年不是这样？年关难过，关关都得过啊。大伙儿都得想辙、凑手。"
@@ -438,8 +375,8 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜慢慢地吸着烟杆说。",
-        "x": 140,
-        "y": 1419,
+        "x": 1950,
+        "y": 706,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -458,108 +395,20 @@
         "id": "n22",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 那您总得给我个凭据吧。要不我回去没法交代。",
-        "x": 730,
-        "y": 1419,
+        "body": "程靖霖: 那您总得给我个凭据吧。要不我回去没法交代。\n卢二柜: 凭据？一包咳嗽药，说大不大说小不小的，费一张纸，多不值当的。\n卢二柜: 回去告诉程先生，小年的时候，连之前挂账的，一块送过去。走吧。",
+        "x": 1360,
+        "y": 706,
         "width": 440,
-        "height": 79,
+        "height": 251,
         "turns": [
           {
             "speaker": "程靖霖",
             "line": "那您总得给我个凭据吧。要不我回去没法交代。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n23",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖继续追问。",
-        "x": 1320,
-        "y": 1419,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n24",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 凭据？一包咳嗽药，说大不大说小不小的，费一张纸，多不值当的。",
-        "x": 1910,
-        "y": 1419,
-        "width": 440,
-        "height": 106,
-        "turns": [
           {
             "speaker": "卢二柜",
             "line": "凭据？一包咳嗽药，说大不大说小不小的，费一张纸，多不值当的。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n25",
-        "type": "Content",
-        "title": "Content",
-        "body": "卢二柜站起身来说：",
-        "x": 2500,
-        "y": 1419,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n26",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 回去告诉程先生，小年的时候，连之前挂账的，一块送过去。走吧。",
-        "x": 3090,
-        "y": 1419,
-        "width": 440,
-        "height": 106,
-        "turns": [
           {
             "speaker": "卢二柜",
             "line": "回去告诉程先生，小年的时候，连之前挂账的，一块送过去。走吧。"
@@ -581,9 +430,9 @@
         "id": "n27",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖站在柜台前，看着卢二柜眉宇间的一点忧色。他试探着问了一句：",
-        "x": 1910,
-        "y": 840,
+        "body": "程靖霖站在柜台前，看着卢二柜眉宇间的一点忧色。\n他试探着问了一句：",
+        "x": 2540,
+        "y": 1072,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -602,39 +451,16 @@
         "id": "n28",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 卢先生，怎么，生意真的……",
-        "x": 1320,
-        "y": 850,
+        "body": "程靖霖: 卢先生，怎么，生意真的……\n卢二柜: 你小孩子家家的，懂什么？",
+        "x": 1950,
+        "y": 893,
         "width": 440,
-        "height": 79,
+        "height": 133,
         "turns": [
           {
             "speaker": "程靖霖",
             "line": "卢先生，怎么，生意真的……"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n29",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 你小孩子家家的，懂什么？",
-        "x": 730,
-        "y": 859,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "卢二柜",
             "line": "你小孩子家家的，懂什么？"
@@ -658,7 +484,7 @@
         "title": "Content",
         "body": "卢二柜没有抬头，继续吸着他的烟杆。",
         "x": 140,
-        "y": 870,
+        "y": 706,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -677,15 +503,19 @@
         "id": "n31",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "卢二柜: 《粮谷出荷》，什么都要军管，市面上根本什么都买不着，要么就黑市买……年还得过，饭还得做，客人还得捧着，日本人也得哄着……",
+        "body": "卢二柜: 《粮谷出荷》，什么都要军管，市面上根本什么都买不着，要么就黑市买……年还得过，饭还得做，客人还得捧着，日本人也得哄着……\n卢二柜: 人都得吃饭才能活着，可是要是连饭庄子都吃不上一顿好饭了，那怎么办呢？",
         "x": 140,
-        "y": 1606,
+        "y": 1729,
         "width": 440,
-        "height": 158,
+        "height": 257,
         "turns": [
           {
             "speaker": "卢二柜",
             "line": "《粮谷出荷》，什么都要军管，市面上根本什么都买不着，要么就黑市买……年还得过，饭还得做，客人还得捧着，日本人也得哄着……"
+          },
+          {
+            "speaker": "卢二柜",
+            "line": "人都得吃饭才能活着，可是要是连饭庄子都吃不上一顿好饭了，那怎么办呢？"
           }
         ],
         "manualSize": true,
@@ -705,37 +535,10 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜若有所思地自言自语着：",
-        "x": 730,
-        "y": 1615,
+        "x": 140,
+        "y": 2102,
         "width": 440,
         "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n33",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 人都得吃饭才能活着，可是要是连饭庄子都吃不上一顿好饭了，那怎么办呢？",
-        "x": 1320,
-        "y": 1606,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "卢二柜",
-            "line": "人都得吃饭才能活着，可是要是连饭庄子都吃不上一顿好饭了，那怎么办呢？"
-          }
-        ],
         "manualSize": true,
         "ports": {
           "input": {
@@ -753,8 +556,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他抬起头来看着程靖霖：",
-        "x": 1910,
-        "y": 1626,
+        "x": 730,
+        "y": 1729,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -774,8 +577,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "卢二柜: 回去吧，程子。跟老先生说一下，小年的时候，连之前挂账的，一块送过去。走吧。",
-        "x": 2500,
-        "y": 1606,
+        "x": 1320,
+        "y": 1729,
         "width": 440,
         "height": 106,
         "turns": [
@@ -797,56 +600,14 @@
         }
       },
       {
-        "id": "n36",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】人情+1",
-        "x": 3090,
-        "y": 1626,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n37",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖站在柜台前，没有要走的意思。他只是沉默地盯着卢二柜，等待着下一句话。",
-        "x": 1910,
-        "y": 1059,
+        "body": "程靖霖站在柜台前，没有要走的意思。他只是沉默地盯着卢二柜，等待着下一句话。\n卢二柜并没有看他。他吧嗒吧嗒地抽了几口，撂下烟杆。",
+        "x": 2540,
+        "y": 1307,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n38",
-        "type": "Content",
-        "title": "Content",
-        "body": "卢二柜并没有看他。他吧嗒吧嗒地抽了几口，撂下烟杆。",
-        "x": 1320,
-        "y": 1027,
-        "width": 440,
-        "height": 117,
+        "height": 202,
         "manualSize": true,
         "ports": {
           "input": {
@@ -863,15 +624,19 @@
         "id": "n39",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "卢二柜: 你这孩子，够倔的。",
-        "x": 730,
-        "y": 1036,
+        "body": "卢二柜: 你这孩子，够倔的。\n卢二柜: 你在这站到上板，也拿不回钱去。",
+        "x": 140,
+        "y": 893,
         "width": 440,
-        "height": 79,
+        "height": 154,
         "turns": [
           {
             "speaker": "卢二柜",
             "line": "你这孩子，够倔的。"
+          },
+          {
+            "speaker": "卢二柜",
+            "line": "你在这站到上板，也拿不回钱去。"
           }
         ],
         "manualSize": true,
@@ -890,32 +655,11 @@
         "id": "n40",
         "type": "Content",
         "title": "Content",
-        "body": "他从柜台的底下摸出一个瓷瓶，瓶口塞得严严实实，里面显然装满了液体。",
+        "body": "他从柜台的底下摸出一个瓷瓶，瓶口塞得严严实实，里面显然装满了液体。\n卢二柜把瓷瓶递给程靖霖：",
         "x": 140,
-        "y": 1057,
+        "y": 2289,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n41",
-        "type": "Content",
-        "title": "Content",
-        "body": "卢二柜把瓷瓶递给程靖霖：",
-        "x": 140,
-        "y": 1870,
-        "width": 440,
-        "height": 88,
+        "height": 145,
         "manualSize": true,
         "ports": {
           "input": {
@@ -932,60 +676,16 @@
         "id": "n42",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "卢二柜: 揣怀里，回去路上别摔跤，洒了就完了。",
+        "body": "卢二柜: 揣怀里，回去路上别摔跤，洒了就完了。\n卢二柜: 拿这个给你家掌柜，当个凭据。就说，卢先生说了，小年的时候，连之前挂账的，一块送过去。走吧。",
         "x": 730,
-        "y": 1802,
-        "width": 440,
-        "height": 79,
+        "y": 1916,
+        "width": 234,
+        "height": 310,
         "turns": [
           {
             "speaker": "卢二柜",
             "line": "揣怀里，回去路上别摔跤，洒了就完了。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n43",
-        "type": "Content",
-        "title": "Content",
-        "body": "他叹了口气，继续说：",
-        "x": 1320,
-        "y": 1828,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n44",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 拿这个给你家掌柜，当个凭据。就说，卢先生说了，小年的时候，连之前挂账的，一块送过去。走吧。",
-        "x": 1910,
-        "y": 1813,
-        "width": 440,
-        "height": 132,
-        "turns": [
           {
             "speaker": "卢二柜",
             "line": "拿这个给你家掌柜，当个凭据。就说，卢先生说了，小年的时候，连之前挂账的，一块送过去。走吧。"
@@ -1008,8 +708,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】道具 酒",
-        "x": 2500,
-        "y": 1828,
+        "x": 1320,
+        "y": 1951,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1029,8 +729,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖还想说点什么，身后传来一声喜悦的招呼：",
-        "x": 3680,
-        "y": 1419,
+        "x": 1910,
+        "y": 1729,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1049,60 +749,16 @@
         "id": "n47",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "成顺: 哟！是霖子！",
-        "x": 4270,
-        "y": 1419,
+        "body": "成顺: 哟！是霖子！\n卢二柜: 成顺！规矩。",
+        "x": 2500,
+        "y": 1729,
         "width": 440,
-        "height": 79,
+        "height": 125,
         "turns": [
           {
             "speaker": "成顺",
             "line": "哟！是霖子！"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n48",
-        "type": "Content",
-        "title": "Content",
-        "body": "卢二柜咳嗽了一声，叫道：",
-        "x": 4860,
-        "y": 1419,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n49",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "卢二柜: 成顺！规矩。",
-        "x": 4860,
-        "y": 2167,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "卢二柜",
             "line": "成顺！规矩。"
@@ -1124,53 +780,11 @@
         "id": "n50",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖回过头，看到自己的玩伴成顺穿着跑堂的衣服，正站在身后。他刚从楼上下来，正用腰里的手巾擦着手。",
-        "x": 4270,
-        "y": 2167,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n51",
-        "type": "Content",
-        "title": "Content",
-        "body": "他本来也是城东的孩子，后来被送到同和居当了跑堂学徒，一晃也三四年过去了。",
-        "x": 3680,
-        "y": 2167,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n52",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺跨上一步，向卢二柜行礼：",
+        "body": "程靖霖回过头，看到自己的玩伴成顺穿着跑堂的衣服，正站在身后。他刚从楼上下来，正用腰里的手巾擦着手。\n他本来也是城东的孩子，后来被送到同和居当了跑堂学徒，一晃也三四年过去了。\n成顺跨上一步，向卢二柜行礼：",
         "x": 3090,
-        "y": 2167,
+        "y": 1729,
         "width": 440,
-        "height": 88,
+        "height": 231,
         "manualSize": true,
         "ports": {
           "input": {
@@ -1188,8 +802,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "成顺: 二掌柜，楼上那桌伺候得了，新来那桌还在喝水。我跟霖子唠唠嗑？就几句回来。",
-        "x": 2500,
-        "y": 2167,
+        "x": 3680,
+        "y": 1729,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1215,8 +829,8 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜重新垂下眼睛，又叼起了烟杆：",
-        "x": 1910,
-        "y": 2167,
+        "x": 4270,
+        "y": 1729,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1236,8 +850,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "卢二柜: 去吧，就门口，带点眼力见。",
-        "x": 1320,
-        "y": 2167,
+        "x": 4860,
+        "y": 1729,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1262,9 +876,9 @@
         "id": "n56",
         "type": "Content",
         "title": "Content",
-        "body": "两个少年站在同和居大门口，哈着双手。",
-        "x": 730,
-        "y": 2167,
+        "body": "程靖霖和成顺一前一后地走了出去，两个少年站在同和居饭庄大门口，哈着双手，跺着脚，抵御严冬的寒气。\n程靖霖问成顺：",
+        "x": 5450,
+        "y": 1729,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1284,17 +898,18 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 140,
-        "y": 2167,
+        "x": 6040,
+        "y": 1729,
         "choices": [
-          "最近你家生意怎样？",
+          "最近你家生意……咋样？",
           "最近你家都来的什么人？",
-          "沉默"
+          "快过年了，这几天，累吧？",
+          "（沉默）"
         ],
         "choiceOptions": [
           {
             "id": "opt_1",
-            "label": "最近你家生意怎样？",
+            "label": "最近你家生意……咋样？",
             "requires": "",
             "effects": []
           },
@@ -1306,7 +921,13 @@
           },
           {
             "id": "opt_3",
-            "label": "沉默",
+            "label": "快过年了，这几天，累吧？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "（沉默）",
             "requires": "",
             "effects": []
           }
@@ -1327,108 +948,24 @@
         "id": "n58",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 刚才我看卢先生脸色不太好。咋的，最近生意不行？",
-        "x": 140,
-        "y": 2543,
+        "body": "程靖霖: 刚才我看卢先生脸色不太好。咋的，最近生意不行？\n成顺: 嗨，生意行不行，他都那样。卢先生天天拉拉着脸，嘴也狠，但对我们还挺好的。\n成顺: 只不过……\n成顺: 这不是什么都难买，什么都难做吗。",
+        "x": 5760,
+        "y": 2649,
         "width": 440,
-        "height": 106,
+        "height": 297,
         "turns": [
           {
             "speaker": "程靖霖",
             "line": "刚才我看卢先生脸色不太好。咋的，最近生意不行？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n59",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖试探着问道。",
-        "x": 730,
-        "y": 2543,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n60",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 嗨。",
-        "x": 1320,
-        "y": 2543,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "成顺",
-            "line": "嗨。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "line": "嗨，生意行不行，他都那样。卢先生天天拉拉着脸，嘴也狠，但对我们还挺好的。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n61",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺搓着手回应道，",
-        "x": 1910,
-        "y": 2543,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+          {
+            "speaker": "成顺",
+            "line": "只不过……"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n62",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 这不是什么都难买，什么都难做吗。",
-        "x": 2500,
-        "y": 2543,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "成顺",
             "line": "这不是什么都难买，什么都难做吗。"
@@ -1450,9 +987,9 @@
         "id": "n63",
         "type": "Content",
         "title": "Content",
-        "body": "他回头看看饭庄大门：",
-        "x": 3090,
-        "y": 2543,
+        "body": "他回头看看饭庄大门，凑近程靖霖旁边说：",
+        "x": 5170,
+        "y": 2649,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1471,86 +1008,25 @@
         "id": "n64",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "成顺: 到底要过年了，来往的客人还挺热闹。但菜色啊、菜式什么的，我看都不如前几年了……",
-        "x": 3680,
-        "y": 2543,
+        "body": "成顺: 到底要过年了，来往的客人还挺热闹。但菜色啊、菜式什么的，我看都不如前几年了……\n成顺: 前几天，我还往南边去取东西来着，听他们唠嗑说，西南角那边啥都有……\n成顺: 但是都血贵。二柜也没办法，老掌柜身体不行，到处都挂账……",
+        "x": 4580,
+        "y": 2649,
         "width": 440,
-        "height": 106,
+        "height": 277,
         "turns": [
           {
             "speaker": "成顺",
             "line": "到底要过年了，来往的客人还挺热闹。但菜色啊、菜式什么的，我看都不如前几年了……"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n65",
-        "type": "Content",
-        "title": "Content",
-        "body": "他凑近程靖霖旁边说：",
-        "x": 4270,
-        "y": 2543,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n66",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 前几天，我还往南边去取东西来着，听他们唠嗑说，西南角那边啥都有……",
-        "x": 4860,
-        "y": 2543,
-        "width": 440,
-        "height": 106,
-        "turns": [
           {
             "speaker": "成顺",
             "line": "前几天，我还往南边去取东西来着，听他们唠嗑说，西南角那边啥都有……"
+          },
+          {
+            "speaker": "成顺",
+            "line": "但是都血贵。二柜也没办法，老掌柜身体不行，到处都挂账……"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n67",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺想了想，又跺了几下脚说：",
-        "x": 4860,
-        "y": 3277,
-        "width": 440,
-        "height": 88,
         "manualSize": true,
         "ports": {
           "input": {
@@ -1567,63 +1043,23 @@
         "id": "n68",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "成顺: 这几天还是得进货，我还得往外跑。你要是有空，我就上药房找你去？",
-        "x": 4270,
-        "y": 3277,
+        "body": "成顺: 这几天还是得进货，我还得往外跑。你要是有空，我就上药房找你去？\n程靖霖: 行啊！\n成顺: 眼见为实，耳听为虚。我带你上西南角开开眼去。",
+        "x": 5570,
+        "y": 5063,
         "width": 440,
-        "height": 106,
+        "height": 176,
         "turns": [
           {
             "speaker": "成顺",
             "line": "这几天还是得进货，我还得往外跑。你要是有空，我就上药房找你去？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n69",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖点了点头，哈着双手说：",
-        "x": 3680,
-        "y": 3277,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n70",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 行啊！",
-        "x": 3090,
-        "y": 3277,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "程靖霖",
             "line": "行啊！"
+          },
+          {
+            "speaker": "成顺",
+            "line": "眼见为实，耳听为虚。我带你上西南角开开眼去。"
           }
         ],
         "manualSize": true,
@@ -1643,8 +1079,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【结算】黑市线索+1",
-        "x": 2500,
-        "y": 3277,
+        "x": 4980,
+        "y": 5063,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1664,8 +1100,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 药钱又挂账了。你们家，最近生意真不太行？",
-        "x": 140,
-        "y": 2750,
+        "x": 5760,
+        "y": 3066,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1687,33 +1123,12 @@
         }
       },
       {
-        "id": "n73",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖试探着问道。",
-        "x": 730,
-        "y": 2730,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n74",
         "type": "Dialog",
         "title": "Dialog",
         "body": "成顺: 最近中国人来吃饭的都少了，当官的和日本人还那样……都是前面公署的。",
-        "x": 1320,
-        "y": 2720,
+        "x": 5170,
+        "y": 2856,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1738,30 +1153,9 @@
         "id": "n75",
         "type": "Content",
         "title": "Content",
-        "body": "成顺搓着手回应道。",
-        "x": 1910,
-        "y": 2730,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n76",
-        "type": "Content",
-        "title": "Content",
-        "body": "他哈了口气，接着说：",
-        "x": 2500,
-        "y": 2720,
+        "body": "成顺搓着手，哈了口气，又说：",
+        "x": 4580,
+        "y": 3044,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1780,134 +1174,21 @@
         "id": "n77",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "成顺: 前天晚上，当铺王掌柜的还在这请日本人吃饭呢。我出去取东西了，回来时候他们已经吃完走了。我就看到个背影。",
-        "x": 3090,
-        "y": 2730,
+        "body": "成顺: 前天晚上，当铺王掌柜的还在这请日本人吃饭呢。我出去取东西了，回来时候他们已经吃完走了。我就看到个背影……\n成顺: 我还听别的伙计唠嗑说，西南角那边啥都有……",
+        "x": 3990,
+        "y": 2649,
         "width": 440,
         "height": 132,
         "turns": [
           {
             "speaker": "成顺",
-            "line": "前天晚上，当铺王掌柜的还在这请日本人吃饭呢。我出去取东西了，回来时候他们已经吃完走了。我就看到个背影。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "line": "前天晚上，当铺王掌柜的还在这请日本人吃饭呢。我出去取东西了，回来时候他们已经吃完走了。我就看到个背影……"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n78",
-        "type": "Content",
-        "title": "Content",
-        "body": "他绕到程靖霖背后，定了定神，没说什么，又转到程靖霖身旁，跺着脚说：",
-        "x": 3680,
-        "y": 2765,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n79",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 等初二，找你玩去，年前太忙啦。",
-        "x": 4270,
-        "y": 2730,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "成顺",
-            "line": "等初二，找你玩去，年前太忙啦。"
+            "line": "我还听别的伙计唠嗑说，西南角那边啥都有……"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n80",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖点了点头，哈着双手说：",
-        "x": 4860,
-        "y": 2750,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n81",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 行啊！",
-        "x": 4860,
-        "y": 3464,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "行啊！"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n82",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】双胞胎线索+1",
-        "x": 4270,
-        "y": 3484,
-        "width": 440,
-        "height": 88,
         "manualSize": true,
         "ports": {
           "input": {
@@ -1924,32 +1205,11 @@
         "id": "n83",
         "type": "Content",
         "title": "Content",
-        "body": "两个少年肩并肩站在一块，望着南边星星点点的昏黄油灯光。",
-        "x": 140,
-        "y": 2946,
+        "body": "两个少年肩并肩站在一块，望着南边星星点点的昏黄油灯光。\n程靖霖回头看了看同和居饭庄的大招牌，又看了看身边的童年玩伴，想说点什么，到底没说出口。",
+        "x": 5760,
+        "y": 3262,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n84",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖回头看了看同和居饭庄的大招牌，又看了看身边的童年玩伴，想说点什么，到底没说出口。",
-        "x": 730,
-        "y": 2917,
-        "width": 440,
-        "height": 145,
+        "height": 202,
         "manualSize": true,
         "ports": {
           "input": {
@@ -1967,8 +1227,8 @@
         "type": "Content",
         "title": "Content",
         "body": "成顺发现程靖霖在看着他，笑了起来：",
-        "x": 1910,
-        "y": 3277,
+        "x": 4390,
+        "y": 5063,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1988,8 +1248,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "成顺: 嗨，霖子，在哪不是混口饭吃。老掌柜待你多好，跟亲儿子有什么区别。你上我这来，赶上这寒冬腊月的洗几天碗，就知道好歹了。",
-        "x": 1320,
-        "y": 3277,
+        "x": 3800,
+        "y": 5063,
         "width": 440,
         "height": 132,
         "turns": [
@@ -2011,84 +1271,19 @@
         }
       },
       {
-        "id": "n87",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖也笑了起来：",
-        "x": 730,
-        "y": 3277,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n88",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 还是小时候好，不用想那么多，吃啥都香。咱俩当时还想学二人转呐，忘啦？",
-        "x": 140,
-        "y": 3277,
+        "body": "程靖霖: 还是小时候好，不用想那么多，吃啥都香。咱俩当时还想学二人转呐，忘啦？\n成顺: 那时候学得可太杂了，咱俩小孩当时脑子里都想啥呢？",
+        "x": 1950,
+        "y": 5063,
         "width": 440,
         "height": 106,
         "turns": [
           {
             "speaker": "程靖霖",
             "line": "还是小时候好，不用想那么多，吃啥都香。咱俩当时还想学二人转呐，忘啦？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n89",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺哈哈大笑：",
-        "x": 140,
-        "y": 3781,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n90",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 那时候学得可太杂了，咱俩小孩当时脑子里都想啥呢？",
-        "x": 730,
-        "y": 3781,
-        "width": 440,
-        "height": 106,
-        "turns": [
           {
             "speaker": "成顺",
             "line": "那时候学得可太杂了，咱俩小孩当时脑子里都想啥呢？"
@@ -2110,57 +1305,9 @@
         "id": "n91",
         "type": "Content",
         "title": "Content",
-        "body": "他看看四下无人，对程靖霖说：",
-        "x": 1320,
-        "y": 3781,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n92",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 你今天来都来了，我请你吃饭吧。",
-        "x": 1910,
-        "y": 3781,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "成顺",
-            "line": "你今天来都来了，我请你吃饭吧。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n93",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖笑道：",
-        "x": 2500,
-        "y": 3781,
+        "body": "成顺有一瞬间，脸上的表情似乎回到了并不遥远的过去。\n他看看四下无人，低声对程靖霖说：",
+        "x": 1360,
+        "y": 5063,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2179,156 +1326,28 @@
         "id": "n94",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 你家可是大饭庄子，我可吃不起呀。你要请我吃什么？",
-        "x": 3090,
-        "y": 3781,
+        "body": "成顺: 你今天来都来了，我请你吃饭吧。\n程靖霖: 你家可是大饭庄子，我可吃不起呀。话说，你打算请我吃什么呀？\n成顺: 南北大菜，满汉全席！\n程靖霖: 什么？满汉全席？你给我来一卷炕席怎么样？满汉全席里头有烤地瓜吗？\n成顺: 你看不起人呢！",
+        "x": 770,
+        "y": 5063,
         "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "你家可是大饭庄子，我可吃不起呀。你要请我吃什么？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n95",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺接道：",
-        "x": 3680,
-        "y": 3781,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n96",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 南北大菜，满汉全席。",
-        "x": 4270,
-        "y": 3781,
-        "width": 440,
-        "height": 79,
+        "height": 152,
         "turns": [
           {
             "speaker": "成顺",
-            "line": "南北大菜，满汉全席。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "line": "你今天来都来了，我请你吃饭吧。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n97",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖：",
-        "x": 4860,
-        "y": 3781,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+          {
+            "speaker": "程靖霖",
+            "line": "你家可是大饭庄子，我可吃不起呀。话说，你打算请我吃什么呀？"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n98",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 什么？满汉全席？你给我来一卷炕席怎么样？满汉全席里头有烤地瓜吗？",
-        "x": 4860,
-        "y": 4098,
-        "width": 440,
-        "height": 106,
-        "turns": [
+          {
+            "speaker": "成顺",
+            "line": "南北大菜，满汉全席！"
+          },
           {
             "speaker": "程靖霖",
             "line": "什么？满汉全席？你给我来一卷炕席怎么样？满汉全席里头有烤地瓜吗？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n99",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺：",
-        "x": 4270,
-        "y": 4098,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n100",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 你看不起人呢！",
-        "x": 3680,
-        "y": 4098,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "成顺",
             "line": "你看不起人呢！"
@@ -2347,180 +1366,27 @@
         }
       },
       {
-        "id": "n101",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖：",
-        "x": 3090,
-        "y": 4098,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n102",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 这样吧，你给我说说满汉全席里有什么菜，你说对了，就当你请我了。",
-        "x": 2500,
-        "y": 4098,
+        "body": "程靖霖: 这样吧，你给我说说满汉全席里有什么菜，你说对了，就当你请我了。\n成顺: 没吃过那我能说上来吗？蒸羊羔有没有？\n程靖霖: 蒸羊羔这是大补，有。\n成顺: 有蒸羊羔、蒸熊掌、蒸鹿尾儿、烧花鸭、烧雏鸡、烧子鹅、炉猪、炉鸭、酱鸡、腊肉、松花、小肚儿、晾肉、香肠儿！",
+        "x": 140,
+        "y": 5908,
         "width": 440,
-        "height": 106,
+        "height": 260,
         "turns": [
           {
             "speaker": "程靖霖",
             "line": "这样吧，你给我说说满汉全席里有什么菜，你说对了，就当你请我了。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n103",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺：",
-        "x": 1910,
-        "y": 4098,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n104",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 没吃过那我能说上来吗？蒸羊羔有没有？",
-        "x": 1320,
-        "y": 4098,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "成顺",
             "line": "没吃过那我能说上来吗？蒸羊羔有没有？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n105",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖：",
-        "x": 730,
-        "y": 4098,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n106",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 蒸羊羔这是大补，有。",
-        "x": 140,
-        "y": 4098,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "程靖霖",
             "line": "蒸羊羔这是大补，有。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n107",
-        "type": "Content",
-        "title": "Content",
-        "body": "成顺：",
-        "x": 140,
-        "y": 4415,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n108",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "成顺: 有蒸羊羔、蒸熊掌、蒸鹿尾儿、烧花鸭、烧雏鸡、烧子鹅、炉猪、炉鸭、酱鸡、腊肉、松花、小肚儿、晾肉、香肠儿！",
-        "x": 730,
-        "y": 4415,
-        "width": 440,
-        "height": 132,
-        "turns": [
           {
             "speaker": "成顺",
             "line": "有蒸羊羔、蒸熊掌、蒸鹿尾儿、烧花鸭、烧雏鸡、烧子鹅、炉猪、炉鸭、酱鸡、腊肉、松花、小肚儿、晾肉、香肠儿！"
@@ -2542,32 +1408,11 @@
         "id": "n109",
         "type": "Content",
         "title": "Content",
-        "body": "成顺的手伸到衣襟下面，变魔术似的抽出一根香肠，塞到程靖霖手里。",
-        "x": 1320,
-        "y": 4415,
+        "body": "成顺的手伸到衣襟下面，变魔术似的抽出一根香肠，塞到程靖霖手里。\n他低声说：",
+        "x": 730,
+        "y": 5908,
         "width": 440,
         "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n110",
-        "type": "Content",
-        "title": "Content",
-        "body": "他低声说：",
-        "x": 1910,
-        "y": 4415,
-        "width": 440,
-        "height": 88,
         "manualSize": true,
         "ports": {
           "input": {
@@ -2585,8 +1430,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "成顺: 楼上那桌日本人喝醉啦，我给他们换碟时候偷的，快拿走吧。",
-        "x": 2500,
-        "y": 4415,
+        "x": 1320,
+        "y": 5908,
         "width": 440,
         "height": 106,
         "turns": [
@@ -2611,9 +1456,9 @@
         "id": "n112",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖还想说什么，看到西大道上有另几个客人正向同和居走过来。成顺也看到了，立刻提高了嗓门，让屋子里的卢二柜也能听到：",
-        "x": 3090,
-        "y": 4415,
+        "body": "程靖霖还想说什么，看到西大道上有另几个客人正向同和居走过来。\n成顺也看到了，立刻提高了嗓门，让屋子里的卢二柜也能听到：",
+        "x": 1910,
+        "y": 5908,
         "width": 440,
         "height": 174,
         "manualSize": true,
@@ -2632,15 +1477,15 @@
         "id": "n113",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "成顺: 哎呀！几位爷，今晚有雅兴，来饭庄吃饭！咱这什么都有，里面请，里面请！",
-        "x": 3680,
-        "y": 4415,
+        "body": "成顺: 哎呀！几位爷，今天有雅兴，来饭庄吃饭！咱这什么都有，里面请，里面请！",
+        "x": 2500,
+        "y": 5908,
         "width": 440,
         "height": 106,
         "turns": [
           {
             "speaker": "成顺",
-            "line": "哎呀！几位爷，今晚有雅兴，来饭庄吃饭！咱这什么都有，里面请，里面请！"
+            "line": "哎呀！几位爷，今天有雅兴，来饭庄吃饭！咱这什么都有，里面请，里面请！"
           }
         ],
         "manualSize": true,
@@ -2660,8 +1505,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他推了一把程靖霖，低声说：",
-        "x": 4270,
-        "y": 4415,
+        "x": 3090,
+        "y": 5908,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2681,8 +1526,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "成顺: 快走吧。回去给老掌柜的带个好。",
-        "x": 4860,
-        "y": 4415,
+        "x": 3680,
+        "y": 5908,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2707,32 +1552,11 @@
         "id": "n116",
         "type": "Content",
         "title": "Content",
-        "body": "天马上就要黑透了。程靖霖顺着西大道往回走，走了几步，回头看看同和居。",
-        "x": 1910,
-        "y": 4806,
+        "body": "程靖霖顺着西大道往回走，走了几步，回头看看同和居。\n风渐渐大起来，擦过脸颊，犹如刀锋。",
+        "x": 4270,
+        "y": 5908,
         "width": 440,
         "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n117",
-        "type": "Content",
-        "title": "Content",
-        "body": "再过一会儿，头更的梆子就要响了。他看着成顺挑开门帘，把几个客人让进了屋，便也转身低下头去，向自己熟悉的方向深一脚浅一脚地走去。",
-        "x": 1320,
-        "y": 4806,
-        "width": 440,
-        "height": 174,
         "manualSize": true,
         "ports": {
           "input": {
@@ -2750,8 +1574,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【转场】0205 登门——2/1 黄昏·警察上门",
-        "x": 730,
-        "y": 4806,
+        "x": 4860,
+        "y": 5908,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2771,8 +1595,8 @@
         "type": "End",
         "title": "End",
         "body": "",
-        "x": 140,
-        "y": 4806,
+        "x": 5450,
+        "y": 5908,
         "ports": {
           "input": {
             "side": "left",
@@ -2833,8 +1657,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 卢先生，老掌柜的咳嗽药，我给他老人家送过来。",
-        "x": 4900,
-        "y": 287,
+        "x": 6120,
+        "y": 706,
         "width": 200,
         "turns": [
           {
@@ -2858,11 +1682,11 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜微微皱了皱眉头。",
-        "x": 4860,
-        "y": 913,
+        "x": 5490,
+        "y": 706,
         "ports": {
           "input": {
-            "side": "left",
+            "side": "right",
             "t": 0.5
           },
           "output": {
@@ -2876,8 +1700,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "卢二柜: 你这孩子怎么这样，没规矩。回头得让成顺教教你，眼色都没有。\n卢二柜: 把药包拿过来吧。",
-        "x": 4270,
-        "y": 870,
+        "x": 4900,
+        "y": 706,
         "width": 440,
         "height": 106,
         "turns": [
@@ -2906,9 +1730,898 @@
         "id": "n124",
         "type": "Content",
         "title": "Content",
+        "body": "程靖霖不知道自己该说些什么。他站在那里，一言不发，只是把药包从怀里掏了出来。",
+        "x": 4900,
+        "y": 287,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n125",
+        "type": "Content",
+        "title": "Content",
+        "body": "卢二柜纳闷地看着他：",
+        "x": 5530,
+        "y": 330,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n126",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "卢二柜: 你这孩子，跟这站着干嘛呢？有事说事，找人说人。",
+        "x": 6160,
+        "y": 287,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "卢二柜",
+            "line": "你这孩子，跟这站着干嘛呢？有事说事，找人说人。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n127",
+        "type": "Choice",
+        "title": "Choice",
         "body": "",
-        "x": 5424,
-        "y": 360
+        "x": 730,
+        "y": 706,
+        "choices": [
+          "坚持要凭据",
+          "那……就算了吧"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_7",
+            "label": "坚持要凭据",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_8",
+            "label": "那……就算了吧",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n128",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 咋样，成顺，快过年了，饭庄子这边是不是特别忙。\n成顺: 嗨。今年不比往年，今年客人没往年多……但是事情比往年麻烦。\n程靖霖: 怎么麻烦？\n成顺: 菜色、样式都不如往年了，上货也麻烦。我们这边，人手也不够……",
+        "x": 5760,
+        "y": 3574,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "咋样，成顺，快过年了，饭庄子这边是不是特别忙。"
+          },
+          {
+            "speaker": "成顺",
+            "line": "嗨。今年不比往年，今年客人没往年多……但是事情比往年麻烦。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "怎么麻烦？"
+          },
+          {
+            "speaker": "成顺",
+            "line": "菜色、样式都不如往年了，上货也麻烦。我们这边，人手也不够……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n129",
+        "type": "Content",
+        "title": "Content",
+        "body": "成顺没能把话说完。\n他的眼神投向程靖霖身后，忽然横向里跨出一步行礼致意，大声喊道：",
+        "x": 3360,
+        "y": 2649,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n130",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "成顺: 哟！李爷！您今天有空！",
+        "x": 3010,
+        "y": 2649,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "成顺",
+            "line": "哟！李爷！您今天有空！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n131",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖回头，看到一个伪满警察正在溜达过来。这个一身黑的警察懒洋洋地搓着发红的鼻子，走到两个少年的身边。",
+        "x": 2380,
+        "y": 2649,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n132",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: 小顺子，外面怪冷的，还搁这遛鸟呐？一会儿鼻子掉地上找不着！\n李加夫: （看向程靖霖）你是那个……那个那个……\n: ",
+        "x": 2030,
+        "y": 2649,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "小顺子，外面怪冷的，还搁这遛鸟呐？一会儿鼻子掉地上找不着！"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "（看向程靖霖）你是那个……那个那个……"
+          },
+          {
+            "speaker": "",
+            "line": ""
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 304,
+        "manualSize": true
+      },
+      {
+        "id": "n133",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1400,
+        "y": 2649,
+        "choices": [
+          "我是时一堂药房的伙计",
+          "我是谁你认不出来？",
+          "我是谁关你什么事？",
+          "一言不发"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_10",
+            "label": "我是时一堂药房的伙计",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "我是谁你认不出来？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_12",
+            "label": "我是谁关你什么事？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_13",
+            "label": "一言不发",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n134",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 这位爷，我是时一堂药房的伙计，小霖子。\n程靖霖: 上个月您还去过我们铺上，您忘啦。",
+        "x": 770,
+        "y": 2649,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "这位爷，我是时一堂药房的伙计，小霖子。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "上个月您还去过我们铺上，您忘啦。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n135",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 您可真是贵人多忘事啊。\n成顺: 李爷，他是时一堂药房的伙计，过来送药来的。",
+        "x": 770,
+        "y": 2970,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "您可真是贵人多忘事啊。"
+          },
+          {
+            "speaker": "成顺",
+            "line": "李爷，他是时一堂药房的伙计，过来送药来的。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n136",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 怎么着，天多冷还不让人站大街上聊天了？",
+        "x": 770,
+        "y": 3265,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "怎么着，天多冷还不让人站大街上聊天了？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n137",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖沉默地站在那里，街道上只有风刮过的声响。",
+        "x": 770,
+        "y": 3531,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n138",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "成顺: 李爷，他是时一堂药房的伙计，过来送药来的。",
+        "x": 1120,
+        "y": 4229,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "成顺",
+            "line": "李爷，他是时一堂药房的伙计，过来送药来的。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n139",
+        "type": "Content",
+        "title": "Content",
+        "body": "李加夫斜楞了程靖霖一眼，鼻子里哼出一声：",
+        "x": 140,
+        "y": 2649,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n140",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: 哦，想起来了。我寻思谁家半大孩子大白天的没事儿跟这逛游呢。\n李加夫: 少跟外面转悠啊！太君这两天还跟外面拉夫呢，小心看见你给你拖走了。",
+        "x": 140,
+        "y": 4229,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "哦，想起来了。我寻思谁家半大孩子大白天的没事儿跟这逛游呢。"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "少跟外面转悠啊！太君这两天还跟外面拉夫呢，小心看见你给你拖走了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n141",
+        "type": "Content",
+        "title": "Content",
+        "body": "李加夫似乎听出了这句话里的讥讽。他有点不高兴地看了看程靖霖。",
+        "x": 140,
+        "y": 2915,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n142",
+        "type": "Content",
+        "title": "Content",
+        "body": "李加夫脸色垮了下来。他黑着脸看着程靖霖。",
+        "x": 140,
+        "y": 3181,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n143",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: 小逼崽子，够横的啊？\n李加夫: 信不信现在就他妈让你进笆篱子？别的没有，凉水棒子管饱！",
+        "x": 140,
+        "y": 4629,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "小逼崽子，够横的啊？"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "信不信现在就他妈让你进笆篱子？别的没有，凉水棒子管饱！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n144",
+        "type": "Content",
+        "title": "Content",
+        "body": "成顺感觉到氛围有点尴尬，赶紧上前一步说：",
+        "x": 490,
+        "y": 4229,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n145",
+        "type": "Content",
+        "title": "Content",
+        "body": "寒风掠过，李加夫紧了紧身上的黑大衣，缩了缩脖子。\n他没再理程靖霖，对成顺说：",
+        "x": 1470,
+        "y": 4229,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n146",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: 小顺子，告诉你家二掌柜的。\n李加夫: 老规矩，四个菜，一个点后送到署里去。\n李加夫: 没有猪肉，鸡也行！得有荤腥，跟昨天似的拿肉皮糊弄我们，小心你们幌子！\n成顺: 哎！我马上就跟二柜说去！李爷放心！大风天的，您受累跑一趟！\n李加夫: 一会你送过去啊！要是不合意，你送这一趟，就别回来了，笆篱子里呆着吧！",
+        "x": 2100,
+        "y": 4229,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "小顺子，告诉你家二掌柜的。"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "老规矩，四个菜，一个点后送到署里去。"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "没有猪肉，鸡也行！得有荤腥，跟昨天似的拿肉皮糊弄我们，小心你们幌子！"
+          },
+          {
+            "speaker": "成顺",
+            "line": "哎！我马上就跟二柜说去！李爷放心！大风天的，您受累跑一趟！"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "一会你送过去啊！要是不合意，你送这一趟，就别回来了，笆篱子里呆着吧！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n147",
+        "type": "Content",
+        "title": "Content",
+        "body": "李加夫蹬了两个人一眼，转身往来路走去。一边走嘴里一边咕哝着：",
+        "x": 2450,
+        "y": 4229,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n148",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: 这他妈的，非得我跑一趟。真是艹了……",
+        "x": 3080,
+        "y": 4229,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "这他妈的，非得我跑一趟。真是艹了……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n149",
+        "type": "Content",
+        "title": "Content",
+        "body": "成顺保持着低头行礼的姿势，直到李加夫走远。他回过身看看程靖霖，伸手抹了一下额头擦去不存在的汗水。",
+        "x": 3430,
+        "y": 4229,
+        "width": 260,
+        "height": 131,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n150",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "成顺: 你看见啦？\n成顺: 天天都这样……不是这个来吃，就是那个来要……就这帮黑狗子，天天要菜要饭，酒也是因为实在没有才不要的……",
+        "x": 3840,
+        "y": 4229,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "成顺",
+            "line": "你看见啦？"
+          },
+          {
+            "speaker": "成顺",
+            "line": "天天都这样……不是这个来吃，就是那个来要……就这帮黑狗子，天天要菜要饭，酒也是因为实在没有才不要的……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n151",
+        "type": "Content",
+        "title": "Content",
+        "body": "他叹了口气，又接着说：",
+        "x": 4190,
+        "y": 4229,
+        "width": 260,
+        "height": 60,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n152",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "成顺: 这年头，谁都不容易……\n成顺: 熬过这个年，兴许能好点？",
+        "x": 4600,
+        "y": 4229,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "成顺",
+            "line": "这年头，谁都不容易……"
+          },
+          {
+            "speaker": "成顺",
+            "line": "熬过这个年，兴许能好点？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n153",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 6160,
+        "y": 5063,
+        "choices": [
+          "啥时候有空，找我玩去？",
+          "你刚才说到西南边有啥？（n77）",
+          "成顺，这日子，够辛苦的"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_14",
+            "label": "啥时候有空，找我玩去？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_15",
+            "label": "你刚才说到西南边有啥？（n77）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_16",
+            "label": "成顺，这日子，够辛苦的",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n154",
+        "type": "Content",
+        "title": "Content",
+        "body": "他伸出双手。\n程靖霖看到那双粗糙的手上，满是冻疮、伤口、其中几个指甲已经扭曲变形，手掌在寒风中微微颤抖着。",
+        "x": 3170,
+        "y": 5063,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n155",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2540,
+        "y": 5063,
+        "choices": [
+          "你忙吧，我走了",
+          "这么过日子，什么时候是个头啊",
+          "还是咱俩过去当小孩的时候好啊"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_17",
+            "label": "你忙吧，我走了",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_18",
+            "label": "这么过日子，什么时候是个头啊",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_19",
+            "label": "还是咱俩过去当小孩的时候好啊",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n156",
+        "type": "Content",
+        "title": "Content",
+        "body": "两个少年越说越有劲，头上冒起了白气。",
+        "x": 140,
+        "y": 5063,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n157",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 成顺，你好歹是不饿肚子了。\n成顺: 猫一天狗一天活着吧。\n程靖霖: 你说这个日子……什么时候是头呢？\n成顺: 你问我呀，我问谁去。",
+        "x": 1950,
+        "y": 5358,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "成顺，你好歹是不饿肚子了。"
+          },
+          {
+            "speaker": "成顺",
+            "line": "猫一天狗一天活着吧。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "你说这个日子……什么时候是头呢？"
+          },
+          {
+            "speaker": "成顺",
+            "line": "你问我呀，我问谁去。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
       }
     ],
     "links": [
@@ -2958,7 +2671,7 @@
         }
       },
       {
-        "id": "l7",
+        "id": "l5",
         "from": "n11",
         "to": "n12",
         "toPort": {
@@ -2967,7 +2680,7 @@
         }
       },
       {
-        "id": "l8",
+        "id": "l6",
         "from": "n12",
         "to": "n13",
         "toPort": {
@@ -2976,7 +2689,7 @@
         }
       },
       {
-        "id": "l9",
+        "id": "l7",
         "from": "n13",
         "to": "n14",
         "toPort": {
@@ -2985,7 +2698,7 @@
         }
       },
       {
-        "id": "l10",
+        "id": "l8",
         "from": "n14",
         "to": "n15",
         "toPort": {
@@ -2994,7 +2707,7 @@
         }
       },
       {
-        "id": "l11",
+        "id": "l9",
         "from": "n15",
         "to": "n16",
         "toPort": {
@@ -3003,7 +2716,7 @@
         }
       },
       {
-        "id": "l12",
+        "id": "l10",
         "from": "n16",
         "to": "n17",
         "choiceOptionId": "opt_1",
@@ -3015,35 +2728,8 @@
         }
       },
       {
-        "id": "l13",
+        "id": "l11",
         "from": "n17",
-        "to": "n18",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l14",
-        "from": "n18",
-        "to": "n19",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l15",
-        "from": "n19",
-        "to": "n20",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l16",
-        "from": "n20",
         "to": "n21",
         "toPort": {
           "side": "left",
@@ -3051,7 +2737,7 @@
         }
       },
       {
-        "id": "l17",
+        "id": "l12",
         "from": "n21",
         "to": "n22",
         "toPort": {
@@ -3060,52 +2746,7 @@
         }
       },
       {
-        "id": "l18",
-        "from": "n22",
-        "to": "n23",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l19",
-        "from": "n23",
-        "to": "n24",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l20",
-        "from": "n24",
-        "to": "n25",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l21",
-        "from": "n25",
-        "to": "n26",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l22",
-        "from": "n26",
-        "to": "n46",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l23",
+        "id": "l13",
         "from": "n16",
         "to": "n27",
         "choiceOptionId": "opt_2",
@@ -3117,7 +2758,7 @@
         }
       },
       {
-        "id": "l24",
+        "id": "l14",
         "from": "n27",
         "to": "n28",
         "toPort": {
@@ -3126,17 +2767,8 @@
         }
       },
       {
-        "id": "l25",
+        "id": "l15",
         "from": "n28",
-        "to": "n29",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l26",
-        "from": "n29",
         "to": "n30",
         "toPort": {
           "side": "left",
@@ -3144,7 +2776,7 @@
         }
       },
       {
-        "id": "l27",
+        "id": "l16",
         "from": "n30",
         "to": "n31",
         "toPort": {
@@ -3153,7 +2785,7 @@
         }
       },
       {
-        "id": "l28",
+        "id": "l17",
         "from": "n31",
         "to": "n32",
         "toPort": {
@@ -3162,17 +2794,17 @@
         }
       },
       {
-        "id": "l29",
+        "id": "l18",
         "from": "n32",
-        "to": "n33",
+        "to": "n31",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l30",
-        "from": "n33",
+        "id": "l19",
+        "from": "n31",
         "to": "n34",
         "toPort": {
           "side": "left",
@@ -3180,7 +2812,7 @@
         }
       },
       {
-        "id": "l31",
+        "id": "l20",
         "from": "n34",
         "to": "n35",
         "toPort": {
@@ -3189,25 +2821,7 @@
         }
       },
       {
-        "id": "l32",
-        "from": "n35",
-        "to": "n36",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l33",
-        "from": "n36",
-        "to": "n46",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l34",
+        "id": "l21",
         "from": "n16",
         "to": "n37",
         "choiceOptionId": "opt_3",
@@ -3219,17 +2833,8 @@
         }
       },
       {
-        "id": "l35",
+        "id": "l22",
         "from": "n37",
-        "to": "n38",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l36",
-        "from": "n38",
         "to": "n39",
         "toPort": {
           "side": "left",
@@ -3237,7 +2842,7 @@
         }
       },
       {
-        "id": "l37",
+        "id": "l23",
         "from": "n39",
         "to": "n40",
         "toPort": {
@@ -3246,17 +2851,8 @@
         }
       },
       {
-        "id": "l38",
+        "id": "l24",
         "from": "n40",
-        "to": "n41",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l39",
-        "from": "n41",
         "to": "n42",
         "toPort": {
           "side": "left",
@@ -3264,26 +2860,8 @@
         }
       },
       {
-        "id": "l40",
+        "id": "l25",
         "from": "n42",
-        "to": "n43",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l41",
-        "from": "n43",
-        "to": "n44",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l42",
-        "from": "n44",
         "to": "n45",
         "toPort": {
           "side": "left",
@@ -3291,7 +2869,7 @@
         }
       },
       {
-        "id": "l43",
+        "id": "l26",
         "from": "n45",
         "to": "n46",
         "toPort": {
@@ -3300,7 +2878,7 @@
         }
       },
       {
-        "id": "l44",
+        "id": "l27",
         "from": "n46",
         "to": "n47",
         "toPort": {
@@ -3309,26 +2887,8 @@
         }
       },
       {
-        "id": "l45",
+        "id": "l28",
         "from": "n47",
-        "to": "n48",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l46",
-        "from": "n48",
-        "to": "n49",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l47",
-        "from": "n49",
         "to": "n50",
         "toPort": {
           "side": "left",
@@ -3336,26 +2896,8 @@
         }
       },
       {
-        "id": "l48",
+        "id": "l29",
         "from": "n50",
-        "to": "n51",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l49",
-        "from": "n51",
-        "to": "n52",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l50",
-        "from": "n52",
         "to": "n53",
         "toPort": {
           "side": "left",
@@ -3363,7 +2905,7 @@
         }
       },
       {
-        "id": "l51",
+        "id": "l30",
         "from": "n53",
         "to": "n54",
         "toPort": {
@@ -3372,7 +2914,7 @@
         }
       },
       {
-        "id": "l52",
+        "id": "l31",
         "from": "n54",
         "to": "n55",
         "toPort": {
@@ -3381,7 +2923,7 @@
         }
       },
       {
-        "id": "l53",
+        "id": "l32",
         "from": "n55",
         "to": "n56",
         "toPort": {
@@ -3390,7 +2932,7 @@
         }
       },
       {
-        "id": "l54",
+        "id": "l33",
         "from": "n56",
         "to": "n57",
         "toPort": {
@@ -3399,7 +2941,7 @@
         }
       },
       {
-        "id": "l55",
+        "id": "l34",
         "from": "n57",
         "to": "n58",
         "choiceOptionId": "opt_1",
@@ -3411,44 +2953,8 @@
         }
       },
       {
-        "id": "l56",
+        "id": "l35",
         "from": "n58",
-        "to": "n59",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l57",
-        "from": "n59",
-        "to": "n60",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l58",
-        "from": "n60",
-        "to": "n61",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l59",
-        "from": "n61",
-        "to": "n62",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l60",
-        "from": "n62",
         "to": "n63",
         "toPort": {
           "side": "left",
@@ -3456,7 +2962,7 @@
         }
       },
       {
-        "id": "l61",
+        "id": "l36",
         "from": "n63",
         "to": "n64",
         "toPort": {
@@ -3465,70 +2971,7 @@
         }
       },
       {
-        "id": "l62",
-        "from": "n64",
-        "to": "n65",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l63",
-        "from": "n65",
-        "to": "n66",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l64",
-        "from": "n66",
-        "to": "n67",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l65",
-        "from": "n67",
-        "to": "n68",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l66",
-        "from": "n68",
-        "to": "n69",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l67",
-        "from": "n69",
-        "to": "n70",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l68",
-        "from": "n70",
-        "to": "n71",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l69",
+        "id": "l37",
         "from": "n71",
         "to": "n85",
         "toPort": {
@@ -3537,7 +2980,7 @@
         }
       },
       {
-        "id": "l70",
+        "id": "l38",
         "from": "n57",
         "to": "n72",
         "choiceOptionId": "opt_2",
@@ -3549,25 +2992,7 @@
         }
       },
       {
-        "id": "l71",
-        "from": "n72",
-        "to": "n73",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l72",
-        "from": "n73",
-        "to": "n74",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l73",
+        "id": "l39",
         "from": "n74",
         "to": "n75",
         "toPort": {
@@ -3576,109 +3001,7 @@
         }
       },
       {
-        "id": "l74",
-        "from": "n75",
-        "to": "n76",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l75",
-        "from": "n76",
-        "to": "n77",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l76",
-        "from": "n77",
-        "to": "n78",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l77",
-        "from": "n78",
-        "to": "n79",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l78",
-        "from": "n79",
-        "to": "n80",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l79",
-        "from": "n80",
-        "to": "n81",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l80",
-        "from": "n81",
-        "to": "n82",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l81",
-        "from": "n82",
-        "to": "n85",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l82",
-        "from": "n57",
-        "to": "n83",
-        "choiceOptionId": "opt_3",
-        "choiceIndex": 2,
-        "label": "沉默",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l83",
-        "from": "n83",
-        "to": "n84",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l84",
-        "from": "n84",
-        "to": "n85",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l85",
+        "id": "l40",
         "from": "n85",
         "to": "n86",
         "toPort": {
@@ -3687,71 +3010,8 @@
         }
       },
       {
-        "id": "l86",
-        "from": "n86",
-        "to": "n87",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l87",
-        "from": "n87",
-        "to": "n88",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l88",
-        "from": "n88",
-        "to": "n89",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l89",
-        "from": "n89",
-        "to": "n90",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l90",
-        "from": "n90",
-        "to": "n91",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l91",
+        "id": "l41",
         "from": "n91",
-        "to": "n92",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l92",
-        "from": "n92",
-        "to": "n93",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l93",
-        "from": "n93",
         "to": "n94",
         "toPort": {
           "side": "left",
@@ -3759,160 +3019,7 @@
         }
       },
       {
-        "id": "l94",
-        "from": "n94",
-        "to": "n95",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l95",
-        "from": "n95",
-        "to": "n96",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l96",
-        "from": "n96",
-        "to": "n97",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l97",
-        "from": "n97",
-        "to": "n98",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l98",
-        "from": "n98",
-        "to": "n99",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l99",
-        "from": "n99",
-        "to": "n100",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l100",
-        "from": "n100",
-        "to": "n101",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l101",
-        "from": "n101",
-        "to": "n102",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l102",
-        "from": "n102",
-        "to": "n103",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l103",
-        "from": "n103",
-        "to": "n104",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l104",
-        "from": "n104",
-        "to": "n105",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l105",
-        "from": "n105",
-        "to": "n106",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l106",
-        "from": "n106",
-        "to": "n107",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l107",
-        "from": "n107",
-        "to": "n108",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l108",
-        "from": "n108",
-        "to": "n109",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l109",
-        "from": "n109",
-        "to": "n110",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l110",
-        "from": "n110",
-        "to": "n111",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l111",
+        "id": "l59",
         "from": "n111",
         "to": "n112",
         "toPort": {
@@ -3921,7 +3028,7 @@
         }
       },
       {
-        "id": "l112",
+        "id": "l60",
         "from": "n112",
         "to": "n113",
         "toPort": {
@@ -3930,7 +3037,7 @@
         }
       },
       {
-        "id": "l113",
+        "id": "l61",
         "from": "n113",
         "to": "n114",
         "toPort": {
@@ -3939,7 +3046,7 @@
         }
       },
       {
-        "id": "l114",
+        "id": "l62",
         "from": "n114",
         "to": "n115",
         "toPort": {
@@ -3948,7 +3055,7 @@
         }
       },
       {
-        "id": "l115",
+        "id": "l63",
         "from": "n115",
         "to": "n116",
         "toPort": {
@@ -3957,25 +3064,7 @@
         }
       },
       {
-        "id": "l116",
-        "from": "n116",
-        "to": "n117",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l117",
-        "from": "n117",
-        "to": "n118",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l118",
+        "id": "l66",
         "from": "n118",
         "to": "n119",
         "toPort": {
@@ -3984,7 +3073,7 @@
         }
       },
       {
-        "id": "l119",
+        "id": "l67",
         "from": "n0",
         "to": "n2",
         "toPort": {
@@ -3993,7 +3082,7 @@
         }
       },
       {
-        "id": "l120",
+        "id": "l68",
         "from": "n9",
         "to": "n120",
         "toPort": {
@@ -4002,7 +3091,7 @@
         }
       },
       {
-        "id": "l121",
+        "id": "l69",
         "from": "n120",
         "to": "n11",
         "choiceOptionId": "opt_4",
@@ -4014,7 +3103,7 @@
         }
       },
       {
-        "id": "l122",
+        "id": "l70",
         "from": "n120",
         "to": "n121",
         "choiceOptionId": "opt_5",
@@ -4026,7 +3115,7 @@
         }
       },
       {
-        "id": "l123",
+        "id": "l71",
         "from": "n121",
         "to": "n122",
         "toPort": {
@@ -4035,7 +3124,7 @@
         }
       },
       {
-        "id": "l124",
+        "id": "l72",
         "from": "n122",
         "to": "n123",
         "toPort": {
@@ -4044,9 +3133,585 @@
         }
       },
       {
-        "id": "l125",
+        "id": "l73",
         "from": "n123",
         "to": "n14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l74",
+        "from": "n120",
+        "to": "n124",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 2,
+        "label": "站在原地，等对方开口",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l75",
+        "from": "n124",
+        "to": "n125",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l76",
+        "from": "n125",
+        "to": "n126",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l77",
+        "from": "n126",
+        "to": "n121",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l78",
+        "from": "n22",
+        "to": "n127",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l79",
+        "from": "n127",
+        "to": "n30",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 1,
+        "label": "那……就算了吧",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l80",
+        "from": "n127",
+        "to": "n39",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 0,
+        "label": "坚持要凭据",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l81",
+        "from": "n35",
+        "to": "n46",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l82",
+        "from": "n57",
+        "to": "n83",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 3,
+        "label": "（沉默）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l83",
+        "from": "n57",
+        "to": "n128",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "快过年了，这几天，累吧？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l84",
+        "from": "n72",
+        "to": "n74",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l85",
+        "from": "n128",
+        "to": "n74",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l86",
+        "from": "n75",
+        "to": "n77",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l87",
+        "from": "n64",
+        "to": "n129",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l88",
+        "from": "n77",
+        "to": "n129",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l89",
+        "from": "n129",
+        "to": "n130",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l90",
+        "from": "n130",
+        "to": "n131",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l91",
+        "from": "n131",
+        "to": "n132",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l92",
+        "from": "n132",
+        "to": "n133",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l93",
+        "from": "n133",
+        "to": "n137",
+        "choiceOptionId": "opt_13",
+        "choiceIndex": 3,
+        "label": "一言不发",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l94",
+        "from": "n133",
+        "to": "n134",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 0,
+        "label": "我是时一堂药房的伙计",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l95",
+        "from": "n134",
+        "to": "n139",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l96",
+        "from": "n133",
+        "to": "n135",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 1,
+        "label": "我是谁你认不出来？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l97",
+        "from": "n139",
+        "to": "n140",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l98",
+        "from": "n135",
+        "to": "n141",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l99",
+        "from": "n141",
+        "to": "n140",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l100",
+        "from": "n133",
+        "to": "n136",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 2,
+        "label": "我是谁关你什么事？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l101",
+        "from": "n136",
+        "to": "n142",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l102",
+        "from": "n142",
+        "to": "n143",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l103",
+        "from": "n137",
+        "to": "n144",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l104",
+        "from": "n143",
+        "to": "n144",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l105",
+        "from": "n144",
+        "to": "n138",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l106",
+        "from": "n140",
+        "to": "n145",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l107",
+        "from": "n138",
+        "to": "n145",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l108",
+        "from": "n145",
+        "to": "n146",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l109",
+        "from": "n146",
+        "to": "n147",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l110",
+        "from": "n147",
+        "to": "n148",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l111",
+        "from": "n148",
+        "to": "n149",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l112",
+        "from": "n149",
+        "to": "n150",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l113",
+        "from": "n150",
+        "to": "n151",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l114",
+        "from": "n151",
+        "to": "n152",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l115",
+        "from": "n152",
+        "to": "n153",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l116",
+        "from": "n83",
+        "to": "n129",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l117",
+        "from": "n153",
+        "to": "n68",
+        "choiceOptionId": "opt_15",
+        "choiceIndex": 1,
+        "label": "你刚才说到西南边有啥？（n77）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l118",
+        "from": "n68",
+        "to": "n71",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l119",
+        "from": "n153",
+        "to": "n86",
+        "choiceOptionId": "opt_16",
+        "choiceIndex": 2,
+        "label": "成顺，这日子，够辛苦的",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l120",
+        "from": "n153",
+        "to": "n85",
+        "choiceOptionId": "opt_14",
+        "choiceIndex": 0,
+        "label": "啥时候有空，找我玩去？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l121",
+        "from": "n86",
+        "to": "n154",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l122",
+        "from": "n154",
+        "to": "n155",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l123",
+        "from": "n88",
+        "to": "n91",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l124",
+        "from": "n155",
+        "to": "n88",
+        "choiceOptionId": "opt_19",
+        "choiceIndex": 2,
+        "label": "还是咱俩过去当小孩的时候好啊",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l125",
+        "from": "n94",
+        "to": "n156",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l126",
+        "from": "n156",
+        "to": "n102",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l127",
+        "from": "n102",
+        "to": "n109",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l128",
+        "from": "n109",
+        "to": "n111",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l129",
+        "from": "n155",
+        "to": "n112",
+        "choiceOptionId": "opt_17",
+        "choiceIndex": 0,
+        "label": "你忙吧，我走了",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l130",
+        "from": "n155",
+        "to": "n157",
+        "choiceOptionId": "opt_18",
+        "choiceIndex": 1,
+        "label": "这么过日子，什么时候是个头啊",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l131",
+        "from": "n157",
+        "to": "n112",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l132",
+        "from": "n116",
+        "to": "n118",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -4062,9 +3727,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -858.9326550448716,
-      "y": -277.45288386284585,
-      "scale": 0.7781227380300011
+      "x": 171.86370466498215,
+      "y": -532.9455143479395,
+      "scale": 0.24793388429752067
     },
     "sidebar": {
       "leftWidth": 280,
