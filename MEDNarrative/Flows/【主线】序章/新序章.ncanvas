@@ -3286,14 +3286,14 @@
     ]
   },
   "ui": {
-    "selectedNodeId": "n12",
+    "selectedNodeId": null,
     "selectedLinkId": null,
     "panel": "project",
     "activeFileId": "adventure",
     "view": {
-      "x": -2618.945159333913,
-      "y": -174.02496445158624,
-      "scale": 1.0356813643179357
+      "x": -507.94315795468015,
+      "y": -613.4875066393549,
+      "scale": 0.6265872254123491
     },
     "search": "",
     "characterSearch": "",
