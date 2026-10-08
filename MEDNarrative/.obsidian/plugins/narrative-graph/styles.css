@@ -476,6 +476,42 @@
 }
 
 /* ---------------------------------------------------------------------------
+ * Layout tools (MED 布局): 左上角浮动小号工具条——排布局/合并开关/尺寸整理
+ * ------------------------------------------------------------------------- */
+
+.ng-layout-tools {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    z-index: 40;
+    display: flex;
+    gap: 6px;
+}
+
+.ng-layout-tools__btn {
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.ng-layout-tools__btn:hover {
+    opacity: 1;
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
+}
+
+/* 合并提示关闭态：虚线灰字 */
+.ng-layout-tools__btn.is-off {
+    border-style: dashed;
+    color: var(--text-faint);
+}
+
+/* ---------------------------------------------------------------------------
  * Inline editor panels (M1b)
  * ------------------------------------------------------------------------- */
 
@@ -500,6 +536,9 @@
     font-size: var(--font-ui-smaller);
     color: var(--text-faint);
     font-weight: 600;
+    /* 标题栏即面板拖拽把手（_placeEditor 挂 pointerdown） */
+    cursor: move;
+    user-select: none;
 }
 
 .ng-editor input[type="text"],
@@ -579,6 +618,11 @@
     gap: 6px;
     justify-content: flex-end;
     margin-top: 4px;
+    /* 面板内容超高滚动时 footer 常驻底部可见（确定/取消始终点得到） */
+    position: sticky;
+    bottom: 0;
+    background: var(--background-primary);
+    padding-top: 4px;
 }
 
 .ng-editor--link {
@@ -616,6 +660,51 @@
 
 .ng-node--unsupported .ng-node__header {
     background: var(--background-modifier-border);
+}
+
+/* ---------------------------------------------------------------------------
+ * M4: 拖拽合并确认气泡（纯 DOM 覆盖层，不参与 pointer 手势链）
+ * ------------------------------------------------------------------------- */
+
+.ng-merge-bubble {
+    position: absolute;
+    z-index: 30;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--interactive-accent);
+    background: var(--background-primary);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    font-size: var(--font-ui-small);
+    color: var(--text-normal);
+}
+
+.ng-merge-bubble__text {
+    max-width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ng-merge-bubble__btn {
+    padding: 2px 10px;
+    border-radius: 4px;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    cursor: pointer;
+}
+
+.ng-merge-bubble__btn:hover {
+    background: var(--background-modifier-hover);
+}
+
+.ng-merge-bubble__btn--ok {
+    background: color-mix(in srgb, var(--interactive-accent) 20%, var(--background-secondary));
+    border-color: color-mix(in srgb, var(--interactive-accent) 45%, var(--background-modifier-border));
+    font-weight: 600;
 }
 
 /* ---------------------------------------------------------------------------
