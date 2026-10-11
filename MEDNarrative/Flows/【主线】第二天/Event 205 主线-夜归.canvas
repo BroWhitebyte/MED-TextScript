@@ -1,7 +1,23 @@
 {
-	"nodes":[
-		{"id":"cf3121d1668521cd","type":"text","text":"# Event 206 主线-夜归","x":0,"y":0,"width":400,"height":120},
-		{"id":"bfc070e0aece80bd","type":"file","file":"Flows/【主线】第二天/Event 206 主线-夜归.ncanvas","x":480,"y":0,"width":300,"height":200}
+	"nodes": [
+		{
+			"id": "cf3121d1668521cd",
+			"type": "text",
+			"text": "# Event 206 主线-夜归",
+			"x": 0,
+			"y": 0,
+			"width": 400,
+			"height": 120
+		},
+		{
+			"id": "bfc070e0aece80bd",
+			"type": "file",
+			"file": "Flows/【主线】第二天/Event 205 主线-夜归.ncanvas",
+			"x": 480,
+			"y": 0,
+			"width": 300,
+			"height": 200
+		}
 	],
-	"edges":[]
+	"edges": []
 }

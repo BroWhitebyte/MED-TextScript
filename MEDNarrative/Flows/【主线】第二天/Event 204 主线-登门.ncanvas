@@ -30,8 +30,8 @@
         "id": "n0",
         "type": "Content",
         "title": "Content",
-        "body": "中野警尉先进来，身后跟着翻译，再后头是警察，屋里一下被寒气填满了。",
-        "x": 760,
+        "body": "一个日本警尉大踏步跨了进来。他身后跟着一个穿棉袍戴眼镜的人，另有一个警察跟在身后。\n（如果去过同和居）（程靖霖认出这个警察是李加夫）\n药房正屋里一下塞了六个人，寒气填满了整个房间。",
+        "x": 2340,
         "y": 80,
         "width": 440,
         "height": 117,
@@ -48,32 +48,11 @@
         }
       },
       {
-        "id": "n1",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野看了看屋里的三个人，又落到柜台上，最后看向程时一。他公事公办地笑起来：",
-        "x": 1380,
-        "y": 80,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n2",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "中野三郎: \"程桑。\"",
-        "x": 2000,
+        "body": "中野三郎: \"程桑。\"\n中野三郎: \"好久的不见。\"",
+        "x": 4540,
         "y": 80,
         "width": 440,
         "height": 79,
@@ -81,51 +60,7 @@
           {
             "speaker": "中野三郎",
             "line": "\"程桑。\""
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n3",
-        "type": "Content",
-        "title": "Content",
-        "body": "他说的是协和语，",
-        "x": 2620,
-        "y": 80,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n4",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "中野三郎: \"好久的不见。\"",
-        "x": 3240,
-        "y": 80,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "中野三郎",
             "line": "\"好久的不见。\""
@@ -148,7 +83,7 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一微微低了低头：",
-        "x": 3860,
+        "x": 5130,
         "y": 80,
         "width": 440,
         "height": 88,
@@ -169,7 +104,7 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: \"太君。\"",
-        "x": 4480,
+        "x": 5720,
         "y": 80,
         "width": 440,
         "height": 79,
@@ -192,118 +127,12 @@
         }
       },
       {
-        "id": "n7",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野又看向程靖霖，目光在他脸上停了一下。他摇摇头说：",
-        "x": 5100,
-        "y": 80,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n8",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "中野三郎: 徒弟，不行。",
-        "x": 5100,
-        "y": 520,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "中野三郎",
-            "line": "徒弟，不行。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n9",
-        "type": "Choice",
-        "title": "Choice",
-        "body": "",
-        "x": 4480,
-        "y": 520,
-        "choices": [
-          "若上午选了警署，施恩节拍在此处",
-          "若之前两次选择都没有选警署，跳过施恩节拍，直接入下文"
-        ],
-        "choiceOptions": [
-          {
-            "id": "opt_1",
-            "label": "若上午选了警署，施恩节拍在此处",
-            "requires": "",
-            "effects": []
-          },
-          {
-            "id": "opt_2",
-            "label": "若之前两次选择都没有选警署，跳过施恩节拍，直接入下文",
-            "requires": "",
-            "effects": []
-          }
-        ],
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 440
-      },
-      {
-        "id": "n10",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野没有回头，只说了一个字：",
-        "x": 3860,
-        "y": 520,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n11",
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: \"李。\"",
-        "x": 3240,
-        "y": 520,
+        "x": 7650,
+        "y": 914,
         "width": 440,
         "height": 79,
         "turns": [
@@ -325,267 +154,42 @@
         }
       },
       {
-        "id": "n12",
-        "type": "Content",
-        "title": "Content",
-        "body": "李加夫上前一步，从怀里掏出一样东西，放在柜台上。是一卷老头票。",
-        "x": 2620,
-        "y": 520,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n13",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "李加夫: \"之前的事，误会。\"",
-        "x": 2000,
-        "y": 520,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "李加夫",
-            "line": "\"之前的事，误会。\""
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n14",
-        "type": "Content",
-        "title": "Content",
-        "body": "李加夫说了这句话，看了看中野的脸色，便低头退开，在翻译背后垂手而立。",
-        "x": 1380,
-        "y": 520,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n15",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖认出那是在警署被劫走的药钱，他望望掌柜的，程时一也正在看着那卷钱。",
-        "x": 760,
-        "y": 520,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n16",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野微笑了一下。他回头对翻译说了一串日语。",
-        "x": 140,
-        "y": 520,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n17",
-        "type": "Content",
-        "title": "Content",
-        "body": "翻译开口说：",
-        "x": 140,
-        "y": 1240,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n18",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "翻译: 太君说了，药钱，不能少。这次专门来时一堂走一趟，是有事相求老掌柜的，受累出个诊。官舍区有户人家，孩子抽风，烧得厉害。想请先生走一趟。",
-        "x": 760,
-        "y": 1240,
-        "width": 440,
-        "height": 158,
-        "turns": [
-          {
-            "speaker": "翻译",
-            "line": "太君说了，药钱，不能少。这次专门来时一堂走一趟，是有事相求老掌柜的，受累出个诊。官舍区有户人家，孩子抽风，烧得厉害。想请先生走一趟。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n19",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野微笑了一下。他回头对翻译说了一串日语。",
-        "x": 3860,
-        "y": 800,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n20",
-        "type": "Content",
-        "title": "Content",
-        "body": "翻译开口说：",
-        "x": 3240,
-        "y": 800,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n21",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "翻译: 太君说这次专门来时一堂走一趟，是有事相求老掌柜的，受累出个诊。官舍区有户人家，孩子抽风，烧得厉害。想请先生走一趟。",
-        "x": 2620,
-        "y": 800,
-        "width": 440,
-        "height": 132,
-        "turns": [
-          {
-            "speaker": "翻译",
-            "line": "太君说这次专门来时一堂走一趟，是有事相求老掌柜的，受累出个诊。官舍区有户人家，孩子抽风，烧得厉害。想请先生走一趟。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n22",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野自己补了一句，是中文，说得慢：",
-        "x": 2000,
-        "y": 800,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
         "id": "n23",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "中野三郎: \"小孩，急病。时一堂，有名。\"",
-        "x": 1380,
-        "y": 800,
+        "body": "中野三郎: \"有人，急病。时一堂，有名。\"\n中野三郎: 我的，过来。\n中野三郎: 徒弟的，不行。掌柜的，可以。\n中野三郎: 钱的，这里。病好的，还有。大大的有。\n中野三郎: この件は私にとって非常に重要です。ご協力をお願いいたします。\n中野三郎: 私は中国の方々、とりわけ医師を深く尊敬しています。\n中野三郎: 張！",
+        "x": 5450,
+        "y": 914,
         "width": 440,
-        "height": 79,
+        "height": 212,
         "turns": [
           {
             "speaker": "中野三郎",
-            "line": "\"小孩，急病。时一堂，有名。\""
+            "line": "\"有人，急病。时一堂，有名。\""
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "我的，过来。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "徒弟的，不行。掌柜的，可以。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "钱的，这里。病好的，还有。大大的有。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "この件は私にとって非常に重要です。ご協力をお願いいたします。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "私は中国の方々、とりわけ医師を深く尊敬しています。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "張！"
           }
         ],
         "manualSize": true,
@@ -604,214 +208,11 @@
         "id": "n24",
         "type": "Content",
         "title": "Content",
-        "body": "程时一没有接话。",
-        "x": 760,
-        "y": 800,
+        "body": "程时一没有接话。\n老掌柜的眼睛转向张通译，又望向柜台旁边倚着的伪警察，最后又落回到中野身上。\n日头向西面沉去，颜色更加深重了。",
+        "x": 3880,
+        "y": 914,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n25",
-        "type": "Choice",
-        "title": "Choice",
-        "body": "",
-        "x": 140,
-        "y": 800,
-        "choices": [
-          "选项：日本人的事跟我们中国人没关系",
-          "选项：看起来不得不去",
-          "选项：有没有什么办法……"
-        ],
-        "choiceOptions": [
-          {
-            "id": "opt_1",
-            "label": "选项：日本人的事跟我们中国人没关系",
-            "requires": "",
-            "effects": []
-          },
-          {
-            "id": "opt_2",
-            "label": "选项：看起来不得不去",
-            "requires": "",
-            "effects": []
-          },
-          {
-            "id": "opt_3",
-            "label": "选项：有没有什么办法……",
-            "requires": "",
-            "effects": []
-          }
-        ],
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 440
-      },
-      {
-        "id": "n26",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 掌柜的，不去。",
-        "x": 140,
-        "y": 1520,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "掌柜的，不去。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n27",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖说。",
-        "x": 760,
-        "y": 1520,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n28",
-        "type": "Content",
-        "title": "Content",
-        "body": "中野的眼睛眯了起来。",
-        "x": 1380,
-        "y": 1240,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n29",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 日本人没管过中国人死活，我们也管不到他们死活。该死有天收。",
-        "x": 2000,
-        "y": 1240,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "日本人没管过中国人死活，我们也管不到他们死活。该死有天收。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n30",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖说。",
-        "x": 2620,
-        "y": 1240,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n31",
-        "type": "Content",
-        "title": "Content",
-        "body": "程时一面上骤然变色，他还没来得及说什么，中野又微笑了起来。",
-        "x": 3240,
-        "y": 1240,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n32",
-        "type": "Content",
-        "title": "Content",
-        "body": "他说：",
-        "x": 3860,
-        "y": 1240,
-        "width": 440,
-        "height": 88,
+        "height": 147,
         "manualSize": true,
         "ports": {
           "input": {
@@ -829,8 +230,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: 我听得懂中国话。反满，抗日。",
-        "x": 4480,
-        "y": 1240,
+        "x": 140,
+        "y": 914,
         "width": 440,
         "height": 79,
         "turns": [
@@ -856,8 +257,8 @@
         "type": "Content",
         "title": "Content",
         "body": "腰间的皮套弹开，他的手放在枪柄上，看向程靖霖：",
-        "x": 5100,
-        "y": 1240,
+        "x": 140,
+        "y": 6931,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -877,8 +278,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: 你再说一遍。",
-        "x": 5100,
-        "y": 2520,
+        "x": 730,
+        "y": 6931,
         "width": 440,
         "height": 79,
         "turns": [
@@ -904,8 +305,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 4480,
-        "y": 2520,
+        "x": 1320,
+        "y": 6931,
         "choices": [
           "选项：打死我也不去",
           "选项：他真的会打死我"
@@ -941,8 +342,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 打死我也不去。",
-        "x": 3860,
-        "y": 2520,
+        "x": 1910,
+        "y": 6931,
         "width": 440,
         "height": 79,
         "turns": [
@@ -968,8 +369,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖说。",
-        "x": 3240,
-        "y": 2520,
+        "x": 2500,
+        "y": 6931,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -989,8 +390,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: 好。",
-        "x": 2620,
-        "y": 2520,
+        "x": 3090,
+        "y": 6931,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1016,8 +417,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野简短地回答。",
-        "x": 2000,
-        "y": 2520,
+        "x": 3680,
+        "y": 6931,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1037,8 +438,8 @@
         "type": "Content",
         "title": "Content",
         "body": "枪响。",
-        "x": 1380,
-        "y": 2520,
+        "x": 4270,
+        "y": 6931,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1058,8 +459,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【Game Over 回到上个存档点】",
-        "x": 760,
-        "y": 2520,
+        "x": 4860,
+        "y": 6931,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1079,8 +480,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖看向程时一，掌柜的向前挪了两步：",
-        "x": 3860,
-        "y": 2800,
+        "x": 5450,
+        "y": 6931,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1100,8 +501,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 太君，小孩不懂事，乱说的。",
-        "x": 3240,
-        "y": 2800,
+        "x": 6040,
+        "y": 6931,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1127,8 +528,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他看了程靖霖一眼：",
-        "x": 2620,
-        "y": 2800,
+        "x": 6630,
+        "y": 6931,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1148,8 +549,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 是哪位人家有事？我稍作准备就去。",
-        "x": 2000,
-        "y": 2800,
+        "x": 7220,
+        "y": 6931,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1175,8 +576,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野将目光转回到程时一脸上，看了一会儿，把手枪皮套扣上，对身后的翻译和警察说：",
-        "x": 1380,
-        "y": 2800,
+        "x": 7810,
+        "y": 6931,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -1196,8 +597,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: ここで彼が準備を整えるのを待ち、車まで連れて行ってください。",
-        "x": 760,
-        "y": 2800,
+        "x": 8400,
+        "y": 6931,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1223,8 +624,8 @@
         "type": "Content",
         "title": "Content",
         "body": "说完，他走出门去，留下的两个人继续盯着屋子里的几人。",
-        "x": 140,
-        "y": 2520,
+        "x": 8400,
+        "y": 7307,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1244,8 +645,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一看了中野一眼：",
-        "x": 140,
-        "y": 1800,
+        "x": 7810,
+        "y": 7307,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1265,8 +666,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: \"好。我收拾好东西，这就走。\"",
-        "x": 760,
-        "y": 1800,
+        "x": 7220,
+        "y": 7307,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1292,8 +693,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野点了点头，对翻译说了一串日语。翻译：",
-        "x": 1380,
-        "y": 1520,
+        "x": 6630,
+        "y": 7307,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1313,8 +714,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "翻译: \"太君说，先生痛快。车在外面，事成之后有重谢。\"",
-        "x": 2000,
-        "y": 1520,
+        "x": 6040,
+        "y": 7307,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1340,8 +741,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖：",
-        "x": 2620,
-        "y": 1520,
+        "x": 5450,
+        "y": 7307,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1361,8 +762,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: \"掌柜的！\"",
-        "x": 3240,
-        "y": 1520,
+        "x": 4860,
+        "y": 7307,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1388,8 +789,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一：",
-        "x": 3860,
-        "y": 1520,
+        "x": 4270,
+        "y": 7307,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1409,8 +810,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: \"去柜台后面，把我的诊箱拿出来。看店。\"",
-        "x": 4480,
-        "y": 1520,
+        "x": 3680,
+        "y": 7307,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1436,8 +837,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野点了点头，又看了一眼程靖霖，转身走出门去。",
-        "x": 5100,
-        "y": 1520,
+        "x": 3090,
+        "y": 7307,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1457,8 +858,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程晓梅已经麻利地从饭桌后转了出来。她把老羊皮大氅递给程时一，焦虑地看着父亲：",
-        "x": 5100,
-        "y": 2800,
+        "x": 2500,
+        "y": 7307,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -1478,8 +879,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程晓梅: 爹，你还没吃饭……",
-        "x": 4480,
-        "y": 2800,
+        "x": 1910,
+        "y": 7307,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1505,8 +906,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一穿上大氅，挎上药箱：",
-        "x": 3860,
-        "y": 3080,
+        "x": 1320,
+        "y": 7307,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1526,8 +927,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 回来再说。",
-        "x": 3240,
-        "y": 3080,
+        "x": 730,
+        "y": 7307,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1553,8 +954,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老人微跛的脚步走出门去，正门被关上了。",
-        "x": 2620,
-        "y": 3080,
+        "x": 140,
+        "y": 7307,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1575,7 +976,7 @@
         "title": "Dialog",
         "body": "程靖霖: 是急惊风？",
         "x": 140,
-        "y": 2080,
+        "y": 7667,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1601,8 +1002,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖开口道，",
-        "x": 760,
-        "y": 2080,
+        "x": 730,
+        "y": 7667,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1622,8 +1023,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 如果是抽风高热，急病得用急药才行。小孩发病快，药得比人早到。",
-        "x": 1380,
-        "y": 1800,
+        "x": 1320,
+        "y": 7667,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1649,8 +1050,8 @@
         "type": "Content",
         "title": "Content",
         "body": "翻译赶忙说给中野。中野的眼神又转回到程靖霖身上，这一次的目光多了点不一样的地方。",
-        "x": 2000,
-        "y": 1800,
+        "x": 1910,
+        "y": 7667,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -1670,8 +1071,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一也适时地开口了：",
-        "x": 2620,
-        "y": 1800,
+        "x": 2500,
+        "y": 7667,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1691,8 +1092,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 说得对。若是急惊风，得先定惊。我这边若要出诊，也需要准备药材和工具。先给太君拿上一副备药，回去给孩子吃上。",
-        "x": 3240,
-        "y": 1800,
+        "x": 3090,
+        "y": 7667,
         "width": 440,
         "height": 132,
         "turns": [
@@ -1718,8 +1119,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他转回身示意程靖霖：",
-        "x": 3860,
-        "y": 1800,
+        "x": 3680,
+        "y": 7667,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1739,8 +1140,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 霖子，药斗顶上右边抽匣，紫雪丹，一丸。",
-        "x": 4480,
-        "y": 1800,
+        "x": 4270,
+        "y": 7667,
         "width": 440,
         "height": 79,
         "turns": [
@@ -1766,8 +1167,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野眯起眼睛看着程靖霖从药柜的高处，拿出一颗丸药。这边程时一慢慢走到柜台旁边，写下用法。",
-        "x": 5100,
-        "y": 1800,
+        "x": 4860,
+        "y": 7667,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -1787,8 +1188,8 @@
         "type": "Content",
         "title": "Content",
         "body": "药方和药丸都交到中野的手里，他仔细地看着龙飞凤舞的汉字，随即交给背后的翻译。",
-        "x": 5100,
-        "y": 3080,
+        "x": 5450,
+        "y": 7667,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -1808,8 +1209,8 @@
         "type": "Content",
         "title": "Content",
         "body": "翻译念了出来：",
-        "x": 4480,
-        "y": 3080,
+        "x": 6040,
+        "y": 7667,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1829,8 +1230,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "翻译: 犀角、羚羊角、麝香……取药研末，一岁一分，多一岁添一分，至多一钱，冷开水送服，一日两次。",
-        "x": 3860,
-        "y": 3360,
+        "x": 6630,
+        "y": 7667,
         "width": 440,
         "height": 132,
         "turns": [
@@ -1856,8 +1257,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他望向中野，等待着他的下一步指令。",
-        "x": 3240,
-        "y": 3360,
+        "x": 7220,
+        "y": 7667,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1877,8 +1278,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野拍了拍自己的警尉佩剑，望向程时一。他向翻译说话，翻译道：",
-        "x": 2620,
-        "y": 3360,
+        "x": 7810,
+        "y": 7667,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -1898,8 +1299,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "翻译: 药是有了，但大夫今天看起来是不能跟我走了？车就在外面。",
-        "x": 2000,
-        "y": 3080,
+        "x": 8400,
+        "y": 7667,
         "width": 440,
         "height": 106,
         "turns": [
@@ -1925,8 +1326,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 1380,
-        "y": 3080,
+        "x": 8400,
+        "y": 8027,
         "choices": [
           "选项：跟随中野出诊",
           "选项：不跟随中野"
@@ -1962,8 +1363,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一看了中野一眼：",
-        "x": 760,
-        "y": 3080,
+        "x": 7810,
+        "y": 8027,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -1983,8 +1384,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: \"好。我收拾好东西，这就走。\"",
-        "x": 140,
-        "y": 2800,
+        "x": 7220,
+        "y": 8027,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2010,8 +1411,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野点了点头，对翻译说了一串日语。翻译：",
-        "x": 140,
-        "y": 4080,
+        "x": 6630,
+        "y": 8027,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2031,8 +1432,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "翻译: \"太君说，先生痛快。车在外面，事成之后有重谢。\"",
-        "x": 760,
-        "y": 4080,
+        "x": 6040,
+        "y": 8027,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2058,8 +1459,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖：",
-        "x": 1380,
-        "y": 4080,
+        "x": 5450,
+        "y": 8027,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2079,8 +1480,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: \"掌柜的！\"",
-        "x": 2000,
-        "y": 4080,
+        "x": 4860,
+        "y": 8027,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2106,8 +1507,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一：",
-        "x": 2620,
-        "y": 4080,
+        "x": 4270,
+        "y": 8027,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2127,8 +1528,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: \"去柜台后面，把我的诊箱拿出来。看店。\"",
-        "x": 3240,
-        "y": 4080,
+        "x": 3680,
+        "y": 8027,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2154,8 +1555,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野点了点头，又看了一眼程靖霖，转身走出门去。",
-        "x": 3860,
-        "y": 4080,
+        "x": 3090,
+        "y": 8027,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2175,8 +1576,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程晓梅已经麻利地从饭桌后转了出来。她把老羊皮大氅递给程时一，焦虑地看着父亲：",
-        "x": 4480,
-        "y": 4080,
+        "x": 2500,
+        "y": 8027,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2196,8 +1597,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程晓梅: 爹，你还没吃饭……",
-        "x": 5100,
-        "y": 4080,
+        "x": 1910,
+        "y": 8027,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2223,8 +1624,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一穿上大氅，挎上药箱：",
-        "x": 5100,
-        "y": 4800,
+        "x": 1320,
+        "y": 8027,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2244,8 +1645,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 回来再说。",
-        "x": 4480,
-        "y": 4800,
+        "x": 730,
+        "y": 8027,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2271,8 +1672,8 @@
         "type": "Content",
         "title": "Content",
         "body": "老人微跛的脚步走出门去，正门被关上了。",
-        "x": 3860,
-        "y": 4800,
+        "x": 140,
+        "y": 8027,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2292,8 +1693,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一也眯起眼睛看着中野：",
-        "x": 760,
-        "y": 3360,
+        "x": 140,
+        "y": 8403,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2313,8 +1714,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 太君，救人在急，不在人到。",
-        "x": 140,
-        "y": 3080,
+        "x": 730,
+        "y": 8403,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2340,8 +1741,8 @@
         "type": "Content",
         "title": "Content",
         "body": "翻译简短地说了一句，中野身后的警察皱起了眉头。",
-        "x": 140,
-        "y": 4360,
+        "x": 1320,
+        "y": 8403,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2361,8 +1762,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野思考了一下，对翻译说了一串日语，便转回身。",
-        "x": 760,
-        "y": 4360,
+        "x": 1910,
+        "y": 8403,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2382,8 +1783,8 @@
         "type": "Content",
         "title": "Content",
         "body": "翻译：",
-        "x": 1380,
-        "y": 4360,
+        "x": 2500,
+        "y": 8403,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2403,8 +1804,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "翻译: \"太君说，多谢先生。先去送药——明日一早，来接先生。\"",
-        "x": 2000,
-        "y": 4360,
+        "x": 3090,
+        "y": 8403,
         "width": 440,
         "height": 106,
         "turns": [
@@ -2430,8 +1831,8 @@
         "type": "Content",
         "title": "Content",
         "body": "中野走到门口，又停下，回头看了看程时一，看了看柜台上的牌匾，最后看了看程靖霖。",
-        "x": 2620,
-        "y": 4360,
+        "x": 3680,
+        "y": 8403,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2451,8 +1852,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: \"时一堂。\"",
-        "x": 3240,
-        "y": 4360,
+        "x": 4270,
+        "y": 8403,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2478,8 +1879,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他说，",
-        "x": 3860,
-        "y": 4360,
+        "x": 4860,
+        "y": 8403,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2499,8 +1900,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "中野三郎: \"好药房。\"",
-        "x": 4480,
-        "y": 4360,
+        "x": 5450,
+        "y": 8403,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2526,8 +1927,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他走了。翻译跟上。",
-        "x": 5100,
-        "y": 4360,
+        "x": 6040,
+        "y": 8403,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2547,8 +1948,8 @@
         "type": "Content",
         "title": "Content",
         "body": "警察是最后一个，他走到门口，又回过头，比了个拇指，低声说：",
-        "x": 5100,
-        "y": 5080,
+        "x": 6630,
+        "y": 8403,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2568,8 +1969,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "警察: 有种。",
-        "x": 4480,
-        "y": 5080,
+        "x": 7220,
+        "y": 8403,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2595,8 +1996,8 @@
         "type": "Content",
         "title": "Content",
         "body": "药房的正门被关上了，寒气被隔绝在门板和厚门帘外。三个人看着大门许久，程晓梅低声说：",
-        "x": 3860,
-        "y": 5080,
+        "x": 7810,
+        "y": 8403,
         "width": 440,
         "height": 145,
         "manualSize": true,
@@ -2616,8 +2017,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程晓梅: 爹，饭凉了。",
-        "x": 3240,
-        "y": 4800,
+        "x": 8400,
+        "y": 8403,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2643,8 +2044,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程时一在桌旁坐下，咳了两声。",
-        "x": 2620,
-        "y": 4800,
+        "x": 4090,
+        "y": 8763,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2664,8 +2065,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 先吃吧。吃完再说。",
-        "x": 2000,
-        "y": 4800,
+        "x": 3500,
+        "y": 8763,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2691,8 +2092,8 @@
         "type": "Content",
         "title": "Content",
         "body": "他拿起筷子，看着两个孩子，",
-        "x": 1380,
-        "y": 4800,
+        "x": 2910,
+        "y": 8763,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2712,8 +2113,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程时一: 坐下，吃饭。",
-        "x": 760,
-        "y": 4800,
+        "x": 2320,
+        "y": 8763,
         "width": 440,
         "height": 79,
         "turns": [
@@ -2739,8 +2140,8 @@
         "type": "Content",
         "title": "Content",
         "body": "桌上还有三碗饭，只剩两个人在堂屋里。",
-        "x": 2000,
-        "y": 3360,
+        "x": 1730,
+        "y": 8763,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -2760,8 +2161,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【转场】0206 夜归——2/1 夜晚·时一堂大药房",
-        "x": 1380,
-        "y": 3360,
+        "x": 1140,
+        "y": 8763,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -2781,8 +2182,8 @@
         "type": "End",
         "title": "End",
         "body": "",
-        "x": 760,
-        "y": 3640,
+        "x": 550,
+        "y": 8763,
         "ports": {
           "input": {
             "side": "left",
@@ -2794,352 +2195,1200 @@
           }
         },
         "width": 440
+      },
+      {
+        "id": "n116",
+        "type": "Content",
+        "title": "Content",
+        "body": "微黄的光芒从窗户里透进来。腊月的西晒就着炉火，让人沉迷在暖烘烘的气息里。\n程靖霖吸了吸鼻子，闻着屋子里淡淡的煤烟与药材混合的气息，他望向程晓梅，嘴巴无声地开合。\n“我饿啦。”\n程晓梅的眼神与他碰触了一下，便转向一边。",
+        "x": 730,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n117",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程晓梅: 爹，我做饭去了，天快黑了。\n程时一: 嗯……嗯。做吧。",
+        "x": 1360,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "爹，我做饭去了，天快黑了。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "嗯……嗯。做吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n118",
+        "type": "Content",
+        "title": "Content",
+        "body": "就在此时，门外一阵引擎的声音由远及近，伴随着“嘎吱”一声，刹在了药房门口。\n屋里的三个人互相看了一眼。\n厚重的黑木门被推开了。一股浓厚的冷气伴随着钉掌皮靴清脆的哒哒声，冲进了药房。",
+        "x": 1710,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n119",
+        "type": "Content",
+        "title": "Content",
+        "body": "日本警尉环视了一下屋子，又逐一扫视着屋子里的三个人。\n程靖霖向晓梅的方向挪了一步，晓梅退了一步。\n程时一向警尉那边跨了一步，拱了拱手：\n",
+        "x": 2930,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n120",
+        "type": "Content",
+        "title": "Content",
+        "body": "日本警尉摩挲了一下自己的小胡子。他的眼睛再次环视整个房间，瞄向炉子、柜台、程靖霖、程晓梅，最后才是程时一。\n他公事公办地笑了起来，从嘴唇边挤出一句协和语：",
+        "x": 3910,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n121",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖望向这三位不速之客。穿棉袍的人的眼镜上糊满了雾气，正在狼狈地用袍子角擦拭着。他听到程时一的回答，停止了动作，咳嗽一声走上前来：",
+        "x": 6310,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n122",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: “中野长官，张通译，李警官。”",
+        "x": 3560,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "“中野长官，张通译，李警官。”"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n123",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张通译: 咳咳，程老先生。\n张通译: 这位，是警察署副署长，中野三郎长官。这位，是警士李加夫。我是翻译文书，张连成。\n张通译: 咱们都熟人熟面，我跟您说一下来意。\n张通译: 日本人官舍区，有个急症，需要出诊。\n张通译: 这位病人，举足轻重。中野长官心急如焚，因此特别登门，相请老先生。",
+        "x": 6940,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "张通译",
+            "line": "咳咳，程老先生。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "这位，是警察署副署长，中野三郎长官。这位，是警士李加夫。我是翻译文书，张连成。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "咱们都熟人熟面，我跟您说一下来意。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "日本人官舍区，有个急症，需要出诊。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "这位病人，举足轻重。中野长官心急如焚，因此特别登门，相请老先生。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n124",
+        "type": "Content",
+        "title": "Content",
+        "body": "张翻译回头看向中野。",
+        "x": 7290,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n125",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张通译: 長官、事の次第はすべて報告いたしました。",
+        "x": 7920,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "张通译",
+            "line": "長官、事の次第はすべて報告いたしました。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n126",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野微微眯起眼睛，手摸向腰间，拿出一个烟盒打开，弹出一支香烟，叼在嘴上。\n他身后的警察赶紧凑上前来，擦燃一支火柴，给他点着烟。\n蓝色的烟雾袅袅升起，中野向警察比划了一下。",
+        "x": 8240,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n127",
+        "type": "Content",
+        "title": "Content",
+        "body": "警察走到柜台旁边，手伸到警服内兜摸了几下，摸出一卷老头票，拍在柜台上。",
+        "x": 7020,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n128",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "李加夫: 喏，钱。\n李加夫: 别他妈不识抬举。\n李加夫: 太君都亲自上门了，有点眼力见。",
+        "x": 6670,
+        "y": 914,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "李加夫",
+            "line": "喏，钱。"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "别他妈不识抬举。"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "太君都亲自上门了，有点眼力见。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n129",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野皱了皱眉头，看了一眼李加夫，又把视线转回到程时一身上：",
+        "x": 6040,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n130",
+        "type": "Content",
+        "title": "Content",
+        "body": "张翻译听到中野叫他，赶紧又补充道：",
+        "x": 4820,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n131",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张通译: 药钱肯定一分不少，治好了另有赏钱。\n张通译: 太君很着急，点名程老先生走一遭。\n张通译: 病人危急，天快黑了，怕撑不过今夜。\n张通译: （压低声音）咱们保命要紧。\n张通译: 请程老先生出马！",
+        "x": 4470,
+        "y": 914,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "张通译",
+            "line": "药钱肯定一分不少，治好了另有赏钱。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "太君很着急，点名程老先生走一遭。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "病人危急，天快黑了，怕撑不过今夜。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "（压低声音）咱们保命要紧。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "请程老先生出马！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n132",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3250,
+        "y": 914,
+        "choices": [
+          "咱不去。",
+          "这事有点麻烦。",
+          "掌柜的有什么办法吗？",
+          "我去行不行？",
+          "警官，不止这些钱吧？（眼力）",
+          "警官，什么情况？（身手）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_4",
+            "label": "咱不去。",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "这事有点麻烦。",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_6",
+            "label": "掌柜的有什么办法吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_7",
+            "label": "我去行不行？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_8",
+            "label": "警官，不止这些钱吧？（眼力）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "警官，什么情况？（身手）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n133",
+        "type": "Content",
+        "title": "Content",
+        "body": "药房伙计向着警尉的方向跨了一步。",
+        "x": 3250,
+        "y": 1180,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n134",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的腿脚不好，我替他走一趟，行不行？\n张通译: 店主は足が悪いので、私が代わりにひとっ走り行ってきてもいいですか？",
+        "x": 3250,
+        "y": 1446,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的腿脚不好，我替他走一趟，行不行？"
+          },
+          {
+            "speaker": "张通译",
+            "line": "店主は足が悪いので、私が代わりにひとっ走り行ってきてもいいですか？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n135",
+        "type": "Content",
+        "title": "Content",
+        "body": "日本人摇了摇头。",
+        "x": 3250,
+        "y": 1820,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n136",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 徒弟的，不行。\n中野三郎: 掌柜的，可以。",
+        "x": 3250,
+        "y": 2086,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "徒弟的，不行。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "掌柜的，可以。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n137",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的，咱不去。\n程时一: 你说什么？\n张通译: 你说什么？\n李加夫: 你说什么？",
+        "x": 3250,
+        "y": 2354,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，咱不去。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "你说什么？"
+          },
+          {
+            "speaker": "张通译",
+            "line": "你说什么？"
+          },
+          {
+            "speaker": "李加夫",
+            "line": "你说什么？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n138",
+        "type": "Content",
+        "title": "Content",
+        "body": "所有人的脸色都变了。\n日本警尉的眼睛眯成一条线。",
+        "x": 3250,
+        "y": 2688,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n139",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3250,
+        "y": 2954,
+        "choices": [
+          "继续反抗",
+          "我乱说的",
+          "沉默"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_10",
+            "label": "继续反抗",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "我乱说的",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_15",
+            "label": "沉默",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n140",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 日本人没管过中国人死活，咱也管不到他们死活。该死有天收。\n程靖霖: 生死有命。就兴咱们中国人命不好，不兴他日本人该见阎王？\n程靖霖: 咱管不了那么多。",
+        "x": 3250,
+        "y": 3220,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "日本人没管过中国人死活，咱也管不到他们死活。该死有天收。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "生死有命。就兴咱们中国人命不好，不兴他日本人该见阎王？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "咱管不了那么多。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n141",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋子里连呼吸都听不见了，只有炉子里煤炭丝丝燃烧的闷响。\n中野忽然笑了起来，露出了犬齿。",
+        "x": 3250,
+        "y": 3666,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n142",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 我听得懂中国话。\n中野三郎: 反满，抗日。",
+        "x": 3250,
+        "y": 3932,
+        "width": 440,
+        "height": 117,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "我听得懂中国话。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "反满，抗日。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n143",
+        "type": "Content",
+        "title": "Content",
+        "body": "他的手再次摸向腰间，这次扶在装着南部十四式手枪的皮套上。\n嗒的一声，皮套弹开了。中野的手按在枪柄上，微笑着望向十七岁的药房伙计：",
+        "x": 3250,
+        "y": 4151,
+        "width": 440,
+        "height": 117,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n144",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 你再说一遍。",
+        "x": 3250,
+        "y": 4415,
+        "width": 440,
+        "height": 79,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "你再说一遍。"
+          }
+        ],
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n145",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3250,
+        "y": 4592,
+        "choices": [
+          "逞强",
+          "服软",
+          "沉默"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_12",
+            "label": "逞强",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_13",
+            "label": "服软",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_14",
+            "label": "沉默",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "width": 440
+      },
+      {
+        "id": "n146",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖望向那撮小胡子和眯起来的眼睛。",
+        "x": 2620,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n147",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 你打死我也不去。",
+        "x": 1990,
+        "y": 914,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "你打死我也不去。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n148",
+        "type": "Content",
+        "title": "Content",
+        "body": "枪声响起。\n一片黑暗。",
+        "x": 1360,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n149",
+        "type": "End",
+        "title": "End",
+        "body": "BE\n你因抵抗被枪杀。",
+        "x": 730,
+        "y": 914,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n150",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 掌柜的，这趟是不是……\n程时一: 闭嘴。大人说话，小孩别插嘴。\n程时一: 你想的我都知道。张通译，告诉太君，我随后就到。\n张通译: 医師は「準備をしてすぐに来ます」と言いました。",
+        "x": 2620,
+        "y": 1180,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "掌柜的，这趟是不是……"
+          },
+          {
+            "speaker": "程时一",
+            "line": "闭嘴。大人说话，小孩别插嘴。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "你想的我都知道。张通译，告诉太君，我随后就到。"
+          },
+          {
+            "speaker": "张通译",
+            "line": "医師は「準備をしてすぐに来ます」と言いました。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n151",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 咱有辙吗？\n程时一: 难说。",
+        "x": 2620,
+        "y": 1725,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "咱有辙吗？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "难说。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n152",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖往旁边挪了一下，在程时一的身旁低声道：",
+        "x": 140,
+        "y": 8763,
+        "width": 260,
+        "height": 83,
+        "manualSize": true
+      },
+      {
+        "id": "n153",
+        "type": "Content",
+        "title": "Content",
+        "body": "屋里又陷入了寂静。",
+        "x": 3250,
+        "y": 4858,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n154",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野微微点头。他转回身，对通译说：",
+        "x": 1990,
+        "y": 1180,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n155",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 車の中で待っています。",
+        "x": 1360,
+        "y": 1180,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "車の中で待っています。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n156",
+        "type": "Content",
+        "title": "Content",
+        "body": "说完，他转身走向门口。李加夫赶紧跑到警尉前面，推开大门，躬下身子。张通译看了一眼程时一，也紧跟着中野走了出去。\n堂屋里又只剩下三个人。",
+        "x": 730,
+        "y": 1180,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n157",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我……\n程时一: 太君，小孩不懂事，乱说的。别见怪。\n程时一: 子供の冗談を真に受けないでください。",
+        "x": 3250,
+        "y": 5124,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我……"
+          },
+          {
+            "speaker": "程时一",
+            "line": "太君，小孩不懂事，乱说的。别见怪。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "子供の冗談を真に受けないでください。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n158",
+        "type": "Content",
+        "title": "Content",
+        "body": "中野的脸色稍微和缓了一点，他把已经拔出的手枪又放回枪套，点了点头。",
+        "x": 3250,
+        "y": 5491,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n159",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖望向那撮小胡子和眯起来的眼睛。\n中野掏出手枪，咔嚓一声拉动枪栓上膛，将黑洞洞的枪口指向伙计的眉心。",
+        "x": 3250,
+        "y": 5757,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n160",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 你的，不怕死？",
+        "x": 3250,
+        "y": 6023,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "你的，不怕死？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n161",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3250,
+        "y": 6289,
+        "choices": [
+          "逞强",
+          "服软"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_16",
+            "label": "逞强",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_17",
+            "label": "服软",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n162",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖的双腿不争气地哆嗦起来。\n他翕动着嘴唇，正想说点什么，旁边的老掌柜慢慢举起一只手。",
+        "x": 3250,
+        "y": 6555,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
       }
     ],
     "links": [
       {
-        "id": "l0",
-        "from": "n_entry",
-        "to": "n0",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l1",
-        "from": "n0",
-        "to": "n1",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l2",
-        "from": "n1",
-        "to": "n2",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l3",
-        "from": "n2",
-        "to": "n3",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l4",
-        "from": "n3",
-        "to": "n4",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l5",
-        "from": "n4",
-        "to": "n5",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
         "id": "l6",
         "from": "n5",
         "to": "n6",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l7",
-        "from": "n6",
-        "to": "n7",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l8",
-        "from": "n7",
-        "to": "n8",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l9",
-        "from": "n8",
-        "to": "n9",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l10",
-        "from": "n9",
-        "to": "n10",
-        "choiceOptionId": "opt_1",
-        "choiceIndex": 0,
-        "label": "若上午选了警署，施恩节拍在此处",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l11",
-        "from": "n9",
-        "to": "n19",
-        "choiceOptionId": "opt_2",
-        "choiceIndex": 1,
-        "label": "若之前两次选择都没有选警署，跳过施恩节拍，直接入下文",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l12",
-        "from": "n10",
-        "to": "n11",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l13",
-        "from": "n11",
-        "to": "n12",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l14",
-        "from": "n12",
-        "to": "n13",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l15",
-        "from": "n13",
-        "to": "n14",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l16",
-        "from": "n14",
-        "to": "n15",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l17",
-        "from": "n15",
-        "to": "n16",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l18",
-        "from": "n16",
-        "to": "n17",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l19",
-        "from": "n17",
-        "to": "n18",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l20",
-        "from": "n18",
-        "to": "n24",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l21",
-        "from": "n19",
-        "to": "n20",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l22",
-        "from": "n20",
-        "to": "n21",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l23",
-        "from": "n21",
-        "to": "n22",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l24",
-        "from": "n22",
-        "to": "n23",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l25",
-        "from": "n23",
-        "to": "n24",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l26",
-        "from": "n24",
-        "to": "n25",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l27",
-        "from": "n25",
-        "to": "n26",
-        "choiceOptionId": "opt_1",
-        "choiceIndex": 0,
-        "label": "选项：日本人的事跟我们中国人没关系",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l28",
-        "from": "n25",
-        "to": "n50",
-        "choiceOptionId": "opt_2",
-        "choiceIndex": 1,
-        "label": "选项：看起来不得不去",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l29",
-        "from": "n25",
-        "to": "n64",
-        "choiceOptionId": "opt_3",
-        "choiceIndex": 2,
-        "label": "选项：有没有什么办法……",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l30",
-        "from": "n26",
-        "to": "n27",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l31",
-        "from": "n27",
-        "to": "n28",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l32",
-        "from": "n28",
-        "to": "n29",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l33",
-        "from": "n29",
-        "to": "n30",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l34",
-        "from": "n30",
-        "to": "n31",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l35",
-        "from": "n31",
-        "to": "n32",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l36",
-        "from": "n32",
-        "to": "n33",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -3912,6 +4161,564 @@
           "side": "left",
           "t": 0.5
         }
+      },
+      {
+        "id": "l121",
+        "from": "n_entry",
+        "to": "n116",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l122",
+        "from": "n116",
+        "to": "n117",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l123",
+        "from": "n117",
+        "to": "n118",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l124",
+        "from": "n118",
+        "to": "n0",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l125",
+        "from": "n0",
+        "to": "n119",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l127",
+        "from": "n120",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l128",
+        "from": "n2",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l129",
+        "from": "n6",
+        "to": "n121",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l130",
+        "from": "n119",
+        "to": "n122",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l131",
+        "from": "n122",
+        "to": "n120",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l132",
+        "from": "n121",
+        "to": "n123",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l133",
+        "from": "n123",
+        "to": "n124",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l134",
+        "from": "n124",
+        "to": "n125",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l135",
+        "from": "n125",
+        "to": "n126",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l136",
+        "from": "n126",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l137",
+        "from": "n11",
+        "to": "n127",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l138",
+        "from": "n127",
+        "to": "n128",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l139",
+        "from": "n128",
+        "to": "n129",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l140",
+        "from": "n129",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l141",
+        "from": "n23",
+        "to": "n130",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l142",
+        "from": "n130",
+        "to": "n131",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l143",
+        "from": "n131",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l144",
+        "from": "n24",
+        "to": "n132",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l145",
+        "from": "n132",
+        "to": "n133",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 3,
+        "label": "掌柜的，我去行不行？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l146",
+        "from": "n133",
+        "to": "n134",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l147",
+        "from": "n134",
+        "to": "n135",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l148",
+        "from": "n135",
+        "to": "n136",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l149",
+        "from": "n132",
+        "to": "n137",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 0,
+        "label": "掌柜的，咱不去。",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l150",
+        "from": "n137",
+        "to": "n138",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l151",
+        "from": "n138",
+        "to": "n139",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l152",
+        "from": "n139",
+        "to": "n140",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 0,
+        "label": "掌柜的，日本人没把咱们当成人，咱也不用救他。",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l153",
+        "from": "n140",
+        "to": "n141",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l154",
+        "from": "n141",
+        "to": "n142",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l155",
+        "from": "n143",
+        "to": "n144",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l156",
+        "from": "n144",
+        "to": "n145",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l157",
+        "from": "n142",
+        "to": "n143",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l158",
+        "from": "n145",
+        "to": "n146",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 0,
+        "label": "逞强",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l159",
+        "from": "n146",
+        "to": "n147",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l160",
+        "from": "n147",
+        "to": "n148",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l161",
+        "from": "n148",
+        "to": "n149",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l162",
+        "from": "n132",
+        "to": "n150",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 1,
+        "label": "掌柜的，这事有点麻烦。",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l163",
+        "from": "n136",
+        "to": "n153",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l164",
+        "from": "n153",
+        "to": "n132",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l165",
+        "from": "n132",
+        "to": "n151",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 2,
+        "label": "掌柜的，你有什么办法吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l166",
+        "from": "n150",
+        "to": "n154",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l167",
+        "from": "n154",
+        "to": "n155",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l168",
+        "from": "n155",
+        "to": "n156",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l169",
+        "from": "n139",
+        "to": "n132",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 1,
+        "label": "我乱说的",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l170",
+        "from": "n139",
+        "to": "n141",
+        "choiceOptionId": "opt_15",
+        "choiceIndex": 2,
+        "label": "沉默",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l171",
+        "from": "n145",
+        "to": "n157",
+        "choiceOptionId": "opt_13",
+        "choiceIndex": 1,
+        "label": "服软",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l172",
+        "from": "n157",
+        "to": "n158",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l173",
+        "from": "n158",
+        "to": "n132",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l174",
+        "from": "n145",
+        "to": "n159",
+        "choiceOptionId": "opt_14",
+        "choiceIndex": 2,
+        "label": "沉默",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l175",
+        "from": "n159",
+        "to": "n160",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l176",
+        "from": "n160",
+        "to": "n161",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l177",
+        "from": "n161",
+        "to": "n147",
+        "choiceOptionId": "opt_16",
+        "choiceIndex": 0,
+        "label": "逞强",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l178",
+        "from": "n161",
+        "to": "n162",
+        "choiceOptionId": "opt_17",
+        "choiceIndex": 1,
+        "label": "服软",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l179",
+        "from": "n162",
+        "to": "n157",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
       }
     ]
   },
@@ -3923,9 +4730,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 558.477363410331,
-      "y": 229.04101796985188,
-      "scale": 0.3215383215000005
+      "x": -1390.9870903542474,
+      "y": -35.80194886065601,
+      "scale": 0.5696247503748626
     },
     "sidebar": {
       "leftWidth": 280,

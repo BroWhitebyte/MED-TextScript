@@ -1,0 +1,1207 @@
+════════════════════════════════════════════════════════════════════════
+  DiscoElysium示例-克拉洁阳台问话-全段-游戏数据版
+════════════════════════════════════════════════════════════════════════
+  源文件   【主线】序章/DiscoElysium示例-克拉洁阳台问话-全段-游戏数据版.ncanvas
+  节点     672（Entry 1｜Dialog 640｜Choice 30｜End 1）
+  连线     1058
+  可达     672/672
+  转写     2026-10-11 13:31:22
+────────────────────────────────────────────────────────────────────────
+  说明：逐节点按数组顺序转写，非拓扑序。[id] 为画布节点号。
+        【…】开头为内部卡（结算/教学说明/转场等），非叙事正文。
+        Dialog 按 turns 逐句；〔卡内叙述〕为该卡中台词之外的文字。
+════════════════════════════════════════════════════════════════════════
+
+[n_entry] Adventure Begins
+[n0] Empathy：这一定就是她说的：香烟。直接看着尸体对她而言是个伤害，所以她又把目光转回到你身上。
+[n1] 〔卡内叙述〕Physical Instrument
+[n1] Physical Instrument：没必要磨磨蹭蹭的。她很坚强。
+[n2] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n2] Klaasje (Miss Oranje Disco Dancer)：“我能看出来。”她点点头。“很高兴这些*进行中的调查*把你带到了我的身边。”
+[n3] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n3] Klaasje (Miss Oranje Disco Dancer)：“没事的，这样完全没问题。”她同情地点点头。“有什么事吗，警官？”
+[n4] You：“不是。不是哇。”（靠近。）“现在我是这个世界上最无聊的警察。*那种*事情永远也不会发生了。”
+[n5] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n5] Klaasje (Miss Oranje Disco Dancer)：“我很怀疑。是什么把这个*所谓的*无聊警探带到我身边的呢？”
+[n6] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n6] Klaasje (Miss Oranje Disco Dancer)：“哇哦……”水蒸气从她手中的咖啡杯上升腾而起。“那能停止吗？如果不能，剩下来的时间我们能做些什么？”
+[n7] You：“所以你是最漂亮的那一个了？”
+[n8] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n8] Klaasje (Miss Oranje Disco Dancer)：“没事的。毕竟他是个才气横溢的作家。我已经习惯了。”
+[n9] You：“我很肯定我有权要求你出示护照，小姐。”
+[n10] 〔卡内叙述〕Kim Kitsuragi
+[n10] Kim Kitsuragi：“还有什么别的理由？”他突然变得专心起来。
+[n11] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n11] Klaasje (Miss Oranje Disco Dancer)：“我是个不受欢迎的姑娘。”她抽了一口烟。“我的家乡有些不喜欢我的人——如果他们出现，我就变得*很匆忙*。”
+[n11] Klaasje (Miss Oranje Disco Dancer)：“那种你承受不起*找不到*证件的匆忙——但是别担心。这跟你的调查没有*任何关系*。”
+[n12] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n12] Klaasje (Miss Oranje Disco Dancer)：“我很*乐意*换个话题。这不重要。除非我有些……嫌疑？”她弯起眉毛。
+[n13] Drama：她好像说的是实话，大人。
+[n14] 〔卡内叙述〕Composure
+[n14] Composure：如果这些让她感到紧张，肯定没有在她的表情或者动作上表现出来。
+[n15] You：“你在这里做什么——在褴褛飞旋？”
+[n16] Empathy：那句*是啊*能产生一些安慰，同时又能避而不谈的效果。
+[n17] You：“根本感觉不到爱。”
+[n18] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n18] Klaasje (Miss Oranje Disco Dancer)：“你确定吗？爱情是一种*恐惧*……”她吸入一大团薄荷味的烟雾，细细品味，然后慢慢吐了出来。
+[n19] You：“明白了。”
+[n20] You：“什么时候换的？在你停留的期间内。”
+[n21] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n21] Klaasje (Miss Oranje Disco Dancer)：她点点头，查看你的鬓角。“你的情况已经很糟糕了。”
+[n22] You：“那就把真相告诉我。”
+[n23] 〔卡内叙述〕Half
+[n23] Half Light：她感觉自己就像个猎物，被重重包围……她的眼睛瞥向那扇门。
+[n24] You：“可能有联系。”
+[n25] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n25] Klaasje (Miss Oranje Disco Dancer)：“当然是因为我的*罪过*。一个邪恶又轻浮的人长久以来犯下的罪过。”
+[n25] Klaasje (Miss Oranje Disco Dancer)：“因为毁掉了我的初恋。因为帮坏人做事。这张清单还有很长很长。”
+[n26] You：“能跟我们多说说莱利，那个上吊的男人吗？我的搭档需要听听这个。”
+[n27] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n27] Klaasje (Miss Oranje Disco Dancer)：她睁大眼睛。“哦……”
+[n28] You：“证件是你拿走的吗？”
+[n29] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n29] Klaasje (Miss Oranje Disco Dancer)：“用钱，长官。”她抽了一口烟。“并不完全是我希望它某天能达到反明星的高度，但是正在朝那个方向发展。”
+[n30] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n30] Klaasje (Miss Oranje Disco Dancer)：“当然，”她笑了。“继续什么？”
+[n31] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n31] Klaasje (Miss Oranje Disco Dancer)：“祝你好运，警官。”
+[n32] 〔卡内叙述〕Half
+[n32] Half Light：现在她被困在这里了，在笼子里——就跟你一样。
+[n33] You：“这里确实存在黑暗能量漩涡，不过不是通往地狱——而是另一个地方。*第三个*地方，跟我们的世界很不一样。”
+[n34] 〔卡内叙述〕Composure
+[n34] Composure：她想表现出漠不关心的样子，不过还是要抽上一口——才能让自己不畏惧。
+[n35] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n35] Klaasje (Miss Oranje Disco Dancer)：“现在好多了。”她看向北边，院子的方向。
+[n36] Empathy：这对他来说也不是什么好消息。
+[n37] You：“我为自己的下一次出场找到了更*悲惨*的东西。”（拿出“小教堂”的磁带）
+[n38] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n38] Klaasje (Miss Oranje Disco Dancer)：“啊，我明白了。”她沉思着抽了一口薄荷香烟。
+[n39] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n39] Klaasje (Miss Oranje Disco Dancer)：“就是这个！小教堂悲歌！我很想念它，真的。”
+[n40] 〔卡内叙述〕Conceptualization
+[n40] Conceptualization：我们要让他看看。你要用所有方式花天酒地！
+[n41] 〔卡内叙述〕Endurance
+[n41] Endurance：不。她在两个月之前就达到了忍耐的极限——从现在起，她的一举一动都会停留在某个地方。
+[n42] 〔卡内叙述〕Authority
+[n42] Authority：*不要*赞同这一点。
+[n43] 〔卡内叙述〕Endurance
+[n43] Endurance：为什么不可以呢？你就是一个精力充沛的人。
+[n44] 〔卡内叙述〕Physical Instrument
+[n44] Physical Instrument：没关系！这件事情已经过去了！女人说了些什么，现在男人在说什么……要专心一点，孩子！
+[n45] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n45] Klaasje (Miss Oranje Disco Dancer)：“警官。”她点头向你示意。“今天是个问问题的好日子。”
+[n46] 〔卡内叙述〕Esprit de
+[n46] Esprit de Corps：想听是什么蠢事？在布吉街某处的一间公寓里，一个年轻男人向巡警提尔布鲁克展示着自己的生殖器疣，询问它们是不是*癌症*。
+[n47] You：“瑞瓦肖文学也是吗？”
+[n48] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n48] Klaasje (Miss Oranje Disco Dancer)：“很酷。”她看着你手里的白色硬币。“做*我本人*都比奥兰治文学要赚的多。”
+[n49] You：“37年的奥兰治小姐是什么？”
+[n50] Logic：那时候她14岁。
+[n51] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n51] Klaasje (Miss Oranje Disco Dancer)：“好吧。”她向后靠了靠。“看来我有些低估你了——或者说低估了你的宿醉，警官。”
+[n51] Klaasje (Miss Oranje Disco Dancer)：“如果我不知道的话，我会说你捏造了那些‘该死的’说辞来诱骗我说出一些蠢话。是不是这么回事呢？”
+[n52] You：“不，那是*真诚的*。”
+[n53] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n53] Klaasje (Miss Oranje Disco Dancer)：“不，我没有。”她挥手让你离开。
+[n54] You：“我恨物体。我是反物体特遣部队的一份子。”
+[n55] You：“它是一种感觉。白色的，充满厄运。它是气态的。无形的。致命的。它无处不在。”
+[n56] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n56] Klaasje (Miss Oranje Disco Dancer)：“我一直想在一年中最糟糕的时节来看看这座‘世界上唯一的城市’。跟旅游有点关系。”
+[n57] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n57] Klaasje (Miss Oranje Disco Dancer)：“是的。”她微微移到你的左边，查看里面自己的倒影。
+[n58] Rhetoric：回避问题。可以推断她有仰慕者。而且还不少。
+[n59] You：“另一边有一个偷窥孔，可以看到你的卧室。”
+[n60] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n60] Klaasje (Miss Oranje Disco Dancer)：“好吧……”为了消化这条信息，她稍微停顿了一下。
+[n61] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n61] Klaasje (Miss Oranje Disco Dancer)：“我没有。”她抽了一口烟。“你觉得这跟发生的事有什么关联吗？”
+[n62] 〔卡内叙述〕Kim Kitsuragi
+[n62] Kim Kitsuragi：“是的。能看到你的卧室，小姐。”警督指着她的窗户。透过玻璃可以看到还没整理好的床铺。
+[n63] You：“我们还是不要再讨论它了。”
+[n64] Drama：啐……这肯定是在演戏。问问题吧。最好是很难回答的那种。
+[n65] You：“恐怕你现在有危险了。”
+[n66] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n66] Klaasje (Miss Oranje Disco Dancer)：她想了一会儿，然后耸耸肩。“没错——不管到底是谁拿走了证件。”
+[n66] Klaasje (Miss Oranje Disco Dancer)：“这很可能只是个意外。我担心我对锁闩装置不太小心。那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+[n67] You：“我要把这件事归档到*盗窃*的门类下。”
+[n68] 〔卡内叙述〕Electrochemistry
+[n68] Electrochemistry：奥兰治小姐？这才是你应该*流连*的问题。
+[n69] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n69] Klaasje (Miss Oranje Disco Dancer)：“祝你们好运，警官。”
+[n70] You：“露比肯定已经不在她的老临时住所了。”
+[n71] You：“你这里的景色很好。”
+[n72] 〔卡内叙述〕Physical Instrument
+[n72] Physical Instrument：……经过多年的防身术训练后有所改善。你能从她的手肘尖角上感觉出来。
+[n73] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n73] Klaasje (Miss Oranje Disco Dancer)：“我有没有……这就是传说中的末日警察。”
+[n74] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n74] Klaasje (Miss Oranje Disco Dancer)：“我能看出来。”她抿了一口咖啡。“很适合你。”
+[n75] You：“是吗？为什么？”
+[n76] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n76] Klaasje (Miss Oranje Disco Dancer)：“小教堂悲歌里就是这么唱的，警探——*悲伤*。”
+[n77] You：“我想收回我之前说过的话。考虑到我们现在的处境，那些好像有些不合时宜。”
+[n78] You：“什么也不说。”
+[n79] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n79] Klaasje (Miss Oranje Disco Dancer)：“哇哦……”她转向警督。“是什么把*凤凰*带回我身边的？”
+[n80] You：“拖了这么久，让我真的很失望。真是一场闹剧……”（看着周围。）
+[n81] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n81] Klaasje (Miss Oranje Disco Dancer)：“是啊，老兄。”她的脸上露出摇滚式的笑容。
+[n82] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n82] Klaasje (Miss Oranje Disco Dancer)：“丁香花和闪电。”她眯起眼睛，好像在远处看到了它们。“公园，玻璃，杜拉铝——弗里德堡是一个会议很多的城市。那里一直是秋天。还有夜晚。至少对于我来说是这样的。”
+[n83] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n83] Klaasje (Miss Oranje Disco Dancer)：“这只是瑞瓦肖英雄经历的一个阶段……”她吸了一口薄荷味的香烟，细细品味……
+[n83] Klaasje (Miss Oranje Disco Dancer)：……然后吐了出来。“在他们全身心投入到拯救人类和拯救世界的使命之前。”
+[n84] You：“说回你吧。”
+[n85] You：“选美比赛是什么？”
+[n86] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n86] Klaasje (Miss Oranje Disco Dancer)：“是一个比赛。”她抽了一口烟。“专门为蠢女孩准备的。男人看着她们，然后选出里面最漂亮的那一个。”
+[n87] Rhetoric：又一个无辜的传统被道德*发展*前进的步伐给消除了！
+[n88] You：“不。我只是来聊聊的。”
+[n89] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n89] Klaasje (Miss Oranje Disco Dancer)：“还不赖。周五晚上你给我们说了调查的事。就在楼下。在一张坐满本地小孩和码头工人的桌子前面。你基本上跟所有人都说过了。就在你把枪拿给他们看之后……”
+[n90] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n90] Klaasje (Miss Oranje Disco Dancer)：“呼……”她揉了揉眉毛。
+[n91] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n91] Klaasje (Miss Oranje Disco Dancer)：“那还挺硬核的，”她点点头。“我自己是反人类前特遣小队的一份子。”
+[n92] You：（点点头。）“无所谓了。”
+[n93] Rhetoric：照目前来看，这不是她来到这里唯一的理由——而且她也没有真正隐藏这一点。
+[n94] 〔卡内叙述〕Reaction
+[n94] Reaction Speed：这是逃避策略。要求跟进！
+[n95] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n95] Klaasje (Miss Oranje Disco Dancer)：“是啊……我不想骗你。别再给我增加难度了。”
+[n96] You：“那好吧——我会放你一马。”
+[n97] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n97] Klaasje (Miss Oranje Disco Dancer)：“事实是我是一个可怕的女孩。我周围的窗户都会碎裂。这不是他们的错。”
+[n98] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n98] Klaasje (Miss Oranje Disco Dancer)：“我真的不知道，先生。”她抿了一口冷掉的咖啡。“我完全不*觉得*自己赢了。我感觉很糟糕，先生。一直都是这样。”
+[n99] You：“我猜，那就这样吧。”（总结。）
+[n100] You：“这一切好像都是偶然的——对于你来说。”
+[n101] You：“你经常会出现这种情况吗？”
+[n102] 〔卡内叙述〕Encyclopedia
+[n102] Encyclopedia：反明星是（或者曾经是）一个很喜欢嗑药的维斯珀摇滚明星。由于实在是嗑的太狠，最后他突变了——变成了一具尸体。
+[n103] You：“这只是一个词语。我们还是继续吧。”
+[n104] 〔卡内叙述〕Reaction
+[n104] Reaction Speed：这个*秘密*的内容可能远不止这样——之后再说吧。她有所隐瞒。暂时先记在心里吧。
+[n105] You：“如果是最近的，你觉得是谁做的——露比吗？”
+[n106] 〔卡内叙述〕Kim Kitsuragi
+[n106] Kim Kitsuragi：“……无论如何，嫌疑人已经不在那里了。”
+[n107] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n107] Klaasje (Miss Oranje Disco Dancer)：“我真的不知道还能跟你说什么……”
+[n108] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n108] Klaasje (Miss Oranje Disco Dancer)：“我不是警察方面的专家，不过在我听起来，好像是一个非常特殊的警官。”
+[n109] You：“现在金不在——我们说说周日晚上的事吧。”
+[n110] 〔卡内叙述〕Kim Kitsuragi
+[n110] Kim Kitsuragi：警督看了你一眼。
+[n111] You：“我已经不再是末日警探了。预言是错误的。那些兆头毫无意义。宿醉已经过去了。”
+[n112] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n112] Klaasje (Miss Oranje Disco Dancer)：“很好？那我就不知道了，警官……”她看向北边，院子的方向。
+[n113] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n113] Klaasje (Miss Oranje Disco Dancer)：“就像骑在一辆‘警車’上。”她抿了一口咖啡。
+[n114] You：“你还什么都没看见呢。楼下有个*卡拉OK*舞台。”
+[n115] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n115] Klaasje (Miss Oranje Disco Dancer)：她把头歪向一旁，笑了。水蒸气从她手中的咖啡杯上升腾而起。
+[n116] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n116] Klaasje (Miss Oranje Disco Dancer)：“一个忏悔的僧侣警探……”她自言自语。“是什么把这个*改变的男人*带到我身边的呢？”
+[n117] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n117] Klaasje (Miss Oranje Disco Dancer)：“哇哦，还有*警察类型*……”水蒸气从她手中的咖啡杯上升腾而起。
+[n118] 〔卡内叙述〕Reaction
+[n118] Reaction Speed：被害人的种族也*可能*是奥兰治……——也许之后再深究？
+[n119] Rhetoric：谢天谢地——这是在暗示。
+[n120] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n120] Klaasje (Miss Oranje Disco Dancer)：“没什么酷的，但是你又能做什么呢？”
+[n121] You：（放下拇指。）“我不赞成这种习俗。”
+[n122] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n122] Klaasje (Miss Oranje Disco Dancer)：“没事的，他只是在找方向。选美比赛的世界*的确*很让人困惑的。”
+[n123] You：“为什么？”
+[n124] You：“我怎么知道你告诉我们的是不是真名？”
+[n125] You：“还没有。”
+[n126] You：“也许是吧。”
+[n127] You：“这个‘污染’的本质到底是什么？”
+[n128] 〔卡内叙述〕Inland
+[n128] Inland Empire：下面的某个地方，军事级别的悲伤从墙上滴落下来……你应该说首先要做的事。这样比较诚实。它能引导你反省自我。
+[n129] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n129] Klaasje (Miss Oranje Disco Dancer)：“听起来像是我拥有的一种先进的形式。上面还喷洒了一些旧爱的味道。”
+[n130] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n130] Klaasje (Miss Oranje Disco Dancer)：“嗯。这可不太妙啊。”
+[n131] You：“能看到你的卧室，小姐。”
+[n132] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n132] Klaasje (Miss Oranje Disco Dancer)：“你觉得这跟我*有关系*吗？”
+[n133] You：“你说得对。”
+[n134] You：“屋顶上那朵枯萎的花——可能是露比留下的吗？这些跟任何事都不符合。”
+[n135] You：“是的。”
+[n136] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n136] Klaasje (Miss Oranje Disco Dancer)：“主要还是缺少清洁服务。还有大量的*我*。”
+[n137] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n137] Klaasje (Miss Oranje Disco Dancer)：她笑了：“又来了——那个*只会说*的男人。我能领会。”
+[n138] You：“没错，我知道这个*临时住所*。甚至还跟女房东聊过了。但是露比已经不在那里了。”
+[n139] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n139] Klaasje (Miss Oranje Disco Dancer)：“我不觉得吃惊……她是个很小心的人。但是——在你问我之前——我真的不知道她可能去了哪里。”
+[n140] Empathy：她的浅棕色眼睛里有些什么……一种悲伤。在她想到那个男人死去的时候。
+[n141] You：“地狱？你根本不知道自己在说什么！”
+[n142] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n142] Klaasje (Miss Oranje Disco Dancer)：“我知道。”她的眉毛笑弯了腰。“这*可能*也是清洁女工辞职的原因。”
+[n143] 〔卡内叙述〕Physical Instrument
+[n143] Physical Instrument：你会显得很多愁善感的！
+[n144] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n144] Klaasje (Miss Oranje Disco Dancer)：“哇哦……”她怀疑地默默摇摇头，吸了一口咖啡的香气。
+[n145] You：“警察要开始花天酒地了。用悲伤的风格。”
+[n146] You：“是的。*哇哦*。”（靠近。）“现在我是行星屠宰场的传令官。即将降临的屠宰场。”
+[n147] You：“要知道，我不再是末日警探了。预言是错误的。那些符号没有任何意义。宿醉已经过去了。”
+[n148] 〔卡内叙述〕Physical Instrument
+[n148] Physical Instrument：这跟奉献有关，孩子。你*可能*是一个体育老师。只有当过体育老师的人会产生这些想法，还能喝这么多酒。
+[n149] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n149] Klaasje (Miss Oranje Disco Dancer)：“一段糟糕的记忆，警官。”
+[n150] You：“那是什么？”
+[n151] You：“我没有那样做的打算。”
+[n152] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n152] Klaasje (Miss Oranje Disco Dancer)：“那是瑞瓦肖英雄的自然状态……”她吸了一口薄荷味的香烟，细细品味——然后吐了出来。
+[n153] 〔卡内叙述〕Conceptualization
+[n153] Conceptualization：瑞瓦肖文学呢？人们在讨论一些事情的时候，有时候会暴露出自己的一些东西……
+[n154] Empathy：她的声音对于数字漠不关心。
+[n155] You：“不过这不是你把它藏起来的原因。”
+[n156] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n156] Klaasje (Miss Oranje Disco Dancer)：“关于公司有些传闻，说那里发生了工业污染。”她用高跟鞋拍打着屋顶。
+[n157] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n157] Klaasje (Miss Oranje Disco Dancer)：“嗯，这是个*秘密*。”她抽了一口烟。“一个跟酒精有关的秘密。”
+[n158] 〔卡内叙述〕Kim Kitsuragi
+[n158] Kim Kitsuragi：“你在这里待多久了？”
+[n159] You：“来飞旋旅社。”
+[n160] You：“来伊苏林迪洲。”
+[n161] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n161] Klaasje (Miss Oranje Disco Dancer)：“最后它成了个霉斑遍布的第三世界贫民窟。”
+[n162] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n162] Klaasje (Miss Oranje Disco Dancer)：“相信我，你不会想卷入这种破事的。”她弹了弹烟灰。
+[n163] 〔卡内叙述〕Authority
+[n163] Authority：感觉很成功。
+[n164] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n164] Klaasje (Miss Oranje Disco Dancer)：“我只是在想——今天可真是个问问题的好日子。”她点燃一只香烟，“跟一起凶杀案调查有关的问题。”
+[n165] You：“能多跟我说说被害人吗？我的意思是说，基本信息。”
+[n166] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n166] Klaasje (Miss Oranje Disco Dancer)：“我不知道。”她抽了一口烟，笑了。“那谜题就解开了。我一直也很好奇它会通向哪里。”
+[n167] You：“可能只是个巧合。”
+[n168] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n168] Klaasje (Miss Oranje Disco Dancer)：“你会不会觉得……露比经过那里……会不会跟这个有关？”
+[n169] 〔卡内叙述〕Kim Kitsuragi
+[n169] Kim Kitsuragi：“很遗憾，不能，不过按照我的猜测——很久了。偷窥孔在你房间墙壁的书架下面。用胶带封起来应该不难。”
+[n170] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n170] Klaasje (Miss Oranje Disco Dancer)：“天啦……它在哪？我想我要把它封起来。”
+[n171] You：“要我猜的话，应该是最近的事。”
+[n172] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n172] Klaasje (Miss Oranje Disco Dancer)：“我的意思是说……它对我来说能变得*多好*呢。”她看了看周围。
+[n173] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n173] Klaasje (Miss Oranje Disco Dancer)：她慢慢点点头——甚至可以说有些小心。
+[n174] You：“我的理论好像……有些不太*对劲*的地方——关于露比的。”
+[n175] 〔卡内叙述〕Suggestion
+[n175] Suggestion：她确实保证过，如果你不逮捕她的话，她晚上就会出现在这里……好姑娘。
+[n176] You：最后一分钟的怀疑……
+[n177] 〔卡内叙述〕Kim Kitsuragi
+[n177] Kim Kitsuragi：“小姐，我们在调查一个男人被绞死的凶杀案。”他低头看着院子。“相关责任人让我们跟你聊聊。”
+[n178] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n178] Klaasje (Miss Oranje Disco Dancer)：“谢谢你——我在里面投入了大量的时间还有精力，”她的话里没有任何明显的讽刺意味。
+[n179] You：“好吧。我拿了一些。个人用。”（把*帕立太特*拿给她看。）
+[n180] 〔卡内叙述〕Conceptualization
+[n180] Conceptualization：就好像她有点……失望，因为这不是什么更加令人愉悦的事。
+[n181] You：“小姐，我在调查，呃……”（朝院子下面比个手势。）“把他放在那里的人说，我们应该跟你聊聊。”
+[n182] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n182] Klaasje (Miss Oranje Disco Dancer)：“我曾经……这是世界上最不幸的警察。”
+[n183] You：“我也*不知道*自己在做什么。”
+[n184] You：“马丁内斯很幸运。*一千个*警察中间只会出现一个明星警探。”
+[n185] 〔卡内叙述〕Kim Kitsuragi
+[n185] Kim Kitsuragi：“我肯定是这样的。在我们一起度过的时间里，我肯定已经走了30公里。他对警察工作有一套*田径*的方法。”
+[n186] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n186] Klaasje (Miss Oranje Disco Dancer)：“28岁。”她抽了一口烟。
+[n187] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n187] Klaasje (Miss Oranje Disco Dancer)：“害怕失败，害怕死亡。做奥兰治人有多么*糟糕*。所有国家的文学作品都是这样——只是换了个国家名称。”
+[n188] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n188] Klaasje (Miss Oranje Disco Dancer)：“很多身份。轮滑教练，秘书，37年的奥兰治小姐。”她笑了。
+[n189] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n189] Klaasje (Miss Oranje Disco Dancer)：“不。”她伸长脖子。“我是*最*蠢，最平庸的那个。我得到了一顶王冠和一条饰带——还有一根权杖。还有学习奥兰治文学的奖学金。”
+[n190] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n190] Klaasje (Miss Oranje Disco Dancer)：“没事的，我不介意。选美比赛的世界本身就很荒谬，很让人困惑。”
+[n191] 〔卡内叙述〕Kim Kitsuragi
+[n191] Kim Kitsuragi：“为什么不行？”
+[n192] You：“好吧。”
+[n193] You：“完全就是。”
+[n194] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n194] Klaasje (Miss Oranje Disco Dancer)：“它总是这么来的，不是吗？来自你的脑海——还有过去。”
+[n195] You：“我也是。”
+[n196] You：“你在这里过冬多久了？”
+[n197] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n197] Klaasje (Miss Oranje Disco Dancer)：“是来飞旋旅社，马丁内斯，还是瑞瓦肖？”
+[n198] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n198] Klaasje (Miss Oranje Disco Dancer)：“好吧。”她深思着抽了一口烟。
+[n199] You：随她去吧。
+[n200] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n200] Klaasje (Miss Oranje Disco Dancer)：“不不不。”她靠近了一些，查看你的鬓角。“你的情况已经很糟糕了。”
+[n201] You：“那就对我撒谎吧。”
+[n202] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n202] Klaasje (Miss Oranje Disco Dancer)：“能看见你总是很高兴的。”她挤出一个疲惫的笑容，向后靠在了栏杆上。
+[n203] 〔卡内叙述〕Encyclopedia
+[n203] Encyclopedia：35年的合唱单曲“人类最强音”，向你灌输了一种*大爷我什么都不在乎*的招摇风范，让你在早起散步的时候可以毫无顾忌地在大妈群里横冲直撞。
+[n204] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n204] Klaasje (Miss Oranje Disco Dancer)：她想了一会儿，然后耸耸肩。“他们不可能知道我放在哪里了。我很肯定自己没有被跟踪。而且除了你，我没有告诉任何人……”
+[n204] Klaasje (Miss Oranje Disco Dancer)：“你提到了海水？我担心我对锁闩装置不太小心。那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+[n205] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n205] Klaasje (Miss Oranje Disco Dancer)：“我仔细想了一下——你提到海水。我担心我对锁闩装置不太小心。那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+[n206] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n206] Klaasje (Miss Oranje Disco Dancer)：“我刚刚还在想这是一个多么美丽的夜晚。”她看了看周围。“正好适合参加凶杀案调查。”
+[n207] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n207] Klaasje (Miss Oranje Disco Dancer)：“啧……啧啧……”她自言自语。“像个普通的拦路强盗把它拿走了。别以为这个问题不会再出现了——对于我来说——只要遇到一个恰当的时间点，迪斯科警官。”她笑了。
+[n208] You：“不管她在哪，现在的情况一定很糟糕。也许她会藏在某个对她来说很有意义的地方？”
+[n209] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n209] Klaasje (Miss Oranje Disco Dancer)：“当然可以。”她笑了笑，指尖的香烟上升腾起袅袅轻烟。“做你需要做的事吧。”
+[n210] 〔卡内叙述〕The Hanged
+[n210] The Hanged Man：地面上还躺着一个男人成熟的尸体，上面布满绿色和紫色的斑点。
+[n211] 〔卡内叙述〕Electrochemistry
+[n211] Electrochemistry：在她那银色的连体裤下面——是一副年轻又健美的身体。修长而纤瘦……
+[n212] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n212] Klaasje (Miss Oranje Disco Dancer)：“我*本身*没有见过，不过在附近见过他，警探。嗖的一下就过去了。场面挺壮观的。”
+[n213] 〔卡内叙述〕Conceptualization
+[n213] Conceptualization：这不仅仅是一种措辞。这个年轻女子对*悲伤*的含义有着根深蒂固的理解。
+[n214] You：“你一定是把我跟其他人弄混了。我只是个普通又现实的执法人员。”
+[n215] You：“我永远也不会做出什么有趣的事情。我要努力变成世界上最普通的警察。”
+[n216] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n216] Klaasje (Miss Oranje Disco Dancer)：“这又是怎么个情况？”她看着警督。
+[n217] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n217] Klaasje (Miss Oranje Disco Dancer)：“哇哦……”水蒸气从她手中的咖啡杯上升腾而起。
+[n218] 〔卡内叙述〕Encyclopedia
+[n218] Encyclopedia：凤凰是纪尧姆·列米利翁众多昵称中的一个，他是瑞瓦肖第二伟大的（男性）迪斯科舞者。这是一种荣耀。
+[n219] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n219] Klaasje (Miss Oranje Disco Dancer)：她赞同地点点头。“他们还说这就是清洁女工辞职的原因。因为*地狱*。”
+[n220] You：“你是从哪里来的？”
+[n221] You：通情达理？
+[n222] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n222] Klaasje (Miss Oranje Disco Dancer)：“迟早，大家都会做错事。”
+[n223] You：“奥兰治文学——你拿它*做什么*呢？”
+[n224] You：“那你怎么赚钱呢？钱很重要的——大家都这么跟我说。”
+[n225] Logic：在执法人员面前隐藏自己的证件还有很多别的原因。
+[n226] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n226] Klaasje (Miss Oranje Disco Dancer)：“如果我要对你撒谎，我会想出一个比*卡拉洁·阿曼多*更*主流*一些的名字。这可是个……奇怪的名字。”
+[n227] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n227] Klaasje (Miss Oranje Disco Dancer)：“好吧。周五晚上你给我们说了调查的事。就在楼下。在一张坐满本地小孩和码头工人的桌子前面。你基本上跟所有人都说过了。就在你把枪拿给他们看之后……”
+[n228] Empathy：她不像是过度悲伤的样子。或者说一点也不悲伤，真的。
+[n229] 〔卡内叙述〕Esprit de
+[n229] Esprit de Corps：他在想：“我喜欢这种刺激，不管眼下是什么情况。可能会探出什么东西……”
+[n230] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n230] Klaasje (Miss Oranje Disco Dancer)：“是啊，它是挺*豪华*的。”
+[n231] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n231] Klaasje (Miss Oranje Disco Dancer)：“变成了会议中心。很多都是。”
+[n232] Empathy：在那背后是深深的，无尽的感激。
+[n233] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n233] Klaasje (Miss Oranje Disco Dancer)：“嗯。”她抽了一口烟。“继续吧。”
+[n234] 〔卡内叙述〕Kim Kitsuragi
+[n234] Kim Kitsuragi：警督点点头，拿出了他的笔记本。“我来看看。我记下了一个叫‘莱利斯塔德’的昵称。”他的手指在页面上滑动……
+[n234] Kim Kitsuragi：……然后撕下一张，递给了你。“我们有些问题，也许能帮忙解决现场尸检的时候发现的一些空白。我做笔记的同时，相信我的同事会有一些自己的问题。”
+[n235] Drama：她不像是在撒谎——她是真心被它们的失踪吓坏了。
+[n236] 〔卡内叙述〕Kim Kitsuragi
+[n236] Kim Kitsuragi：“小姐，我们正在调查下面那个死者的凶杀案。”他低头看着院子。“把他放在那里的人让我们跟你聊聊。”
+[n237] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n237] Klaasje (Miss Oranje Disco Dancer)：“你好，警官。”她双腿交叉，向后倚靠在栏杆上。“是什么风又把你给吹来了？”
+[n238] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n238] Klaasje (Miss Oranje Disco Dancer)：“啧……啧啧……”她自言自语。“就像个普通的拦路强盗。对于我来说，这个问题在一个恰当的时间点*还会*出现的，迪斯科警官。”
+[n239] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n239] Klaasje (Miss Oranje Disco Dancer)：“是的！1号房间的传说已经在这里传开了。他们说那里已经开启了通往地狱的大门。”
+[n240] 〔卡内叙述〕Suggestion
+[n240] Suggestion：要小心。先问点别的。当你问到*那件事*的时候，用一些类似‘我听说你经历了一些困难’的话语。
+[n241] You：“不。那已经不再是我了。现在我是明星警探。”
+[n242] You：“事情离*哇哦*还离得很远呢，小姐。”（靠近。）“我已经变了，一个重生的警察，为自己的缺点而*忏悔*——我是抱歉警探。”
+[n243] You：“新的信息已经浮出水面——现在只是几个*星期*的问题了。一次伟大的阶级审判。瑞瓦肖会在义务警员的暴力行径中爆发。这是我的预言。”
+[n244] 〔卡内叙述〕Endurance
+[n244] Endurance：确实。你完全不觉得自己像个精力充沛的人。
+[n245] 〔卡内叙述〕Encyclopedia
+[n245] Encyclopedia：他们会让你变成一个财政殖民地，转移你的自然资源，持有专利和股份，但是不会像全盛时期的瑞瓦肖一样，威胁着*随时可以把你灭掉*。
+[n246] You：“那有什么不好的？”
+[n247] Empathy：会议中心里面全是会因为你的*错误*而生气的人。
+[n248] You：“奥兰治文学是讲什么的？”
+[n249] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n249] Klaasje (Miss Oranje Disco Dancer)：“不是的。*更加*愚蠢一些——奥兰治文学。”
+[n250] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n250] Klaasje (Miss Oranje Disco Dancer)：“拜托，警探，放他一马吧。这家伙经历了一些很沉重的感情负担。”
+[n251] You：（环顾四周。）“我不想这么说，但是你的*悲伤*几乎无处不在。”
+[n252] You：“我还有其他问题要问你。”
+[n253] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n253] Klaasje (Miss Oranje Disco Dancer)：她点点头。“污染从一个房间扩散到另一个房间。一开始我往楼上逃。但是悲伤也追了上来。然后我发现盛夏之门的把手……”
+[n254] You：“我*痛恨*杏子味的口香糖。它背叛了我。”
+[n255] You：“它是一种感觉。酸性的，充满厄运。它是气态的。无形的。致命的。它无处不在。”
+[n256] 〔卡内叙述〕Reaction
+[n256] Reaction Speed：哈里，你变得软弱了。
+[n257] 〔卡内叙述〕Conceptualization
+[n257] Conceptualization：那是什么？放克城市？
+[n258] 〔卡内叙述〕Kim Kitsuragi
+[n258] Kim Kitsuragi：“有这个可能。”
+[n259] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n259] Klaasje (Miss Oranje Disco Dancer)：“谢谢你。”她看着窗户。海面吹来一阵冷风。
+[n260] Logic：她知道。她肯定*有些*想法。
+[n261] Empathy：她笑了。一丝苦涩的微笑。她是认真的。
+[n262] Shivers：雪花飘落在她的肩头，然后融化在她浅金色的头发上……冰冷而柔软。
+[n263] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n263] Klaasje (Miss Oranje Disco Dancer)：“我不知道该说什么。”
+[n264] 〔卡内叙述〕Kim Kitsuragi
+[n264] Kim Kitsuragi：“证件是你拿走的吗？”
+[n265] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n265] Klaasje (Miss Oranje Disco Dancer)：“不，当然不是。我说过了，用那些证件对我来说太危险——是我的雇主把它们给我的。说真的，我应该把它们销毁掉。”
+[n266] You：“也许是追踪你的人拿走的。”
+[n267] Empathy：作为一个袭击的被害人，她似乎挺放松的。不过当然了，*似乎*并不是你的优先级。
+[n268] 〔卡内叙述〕Kim Kitsuragi
+[n268] Kim Kitsuragi：“这并不相当于真正的腐败。我很容易就能地把它记录在没收的栏目下面。”
+[n269] 〔卡内叙述〕Kim Kitsuragi
+[n269] Kim Kitsuragi：“她正处于极大的困境之中。她有没有可能藏在某个对她来说有情感依赖的地方呢？”
+[n270] 〔卡内叙述〕Pain Threshold
+[n270] Pain Threshold：走投无路的动物可能会寻找某处有情感价值的藏身之所。
+[n271] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n271] Klaasje (Miss Oranje Disco Dancer)：“他的到来是世界末日的标志。这一切，”她环顾四周，“将会在短短几天内崩溃。”
+[n272] 〔卡内叙述〕Perception
+[n272] Perception (Sight)：她那头刚刚沐浴过的头发还有些湿滑。
+[n273] 〔卡内叙述〕Authority
+[n273] Authority：强身健体教练表现的有点过火——就算按我的标准来看也是如此。先说点别的吧。
+[n274] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n274] Klaasje (Miss Oranje Disco Dancer)：“哦。”她停顿了一下。“呃，你知道吗……听到这个我很难过。”
+[n275] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n275] Klaasje (Miss Oranje Disco Dancer)：“那是什么把田径之神一路带到这里的呢？”
+[n276] You：体育老师？
+[n277] Empathy：女人没有退缩，但是她的眼睛里有些什么……相同的悲伤？是的，还是她告诉你上吊男人的时候，没错，是在走廊里。
+[n278] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n278] Klaasje (Miss Oranje Disco Dancer)：“奥兰治共和国，弗里德堡。”
+[n279] You：“奥兰治是什么？”
+[n280] You：“什么糟糕的记忆？”
+[n281] You：随它去吧。
+[n282] 〔卡内叙述〕Kim Kitsuragi
+[n282] Kim Kitsuragi：“那有什么不好的？”
+[n283] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n283] Klaasje (Miss Oranje Disco Dancer)：“拜托，警探，放他一马吧。这可能是人类存在的最后时刻了。”
+[n284] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n284] Klaasje (Miss Oranje Disco Dancer)：“我也没有，”她平静地说到。“我觉得是*酒精*让你产生了这种感觉。肯定跟派对有所关联。”
+[n285] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n285] Klaasje (Miss Oranje Disco Dancer)：“你们的旅游手册上是这么说的——来到河流西边的时候，不要把旅游证件放在自己身边。”
+[n286] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n286] Klaasje (Miss Oranje Disco Dancer)：“警官，我喜欢这个地方，但我不想自己的旅游证件被洗劫一空之后，像个幽灵一样困在这个城市里*游荡*。”
+[n286] Klaasje (Miss Oranje Disco Dancer)：“我不想成为布吉街妓院里的契约奴仆——而且我也不希望我的亲戚来支付赎金。”
+[n287] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n287] Klaasje (Miss Oranje Disco Dancer)：“这*也是*我把它藏起来的原因。”
+[n288] You：“之前你说我可能会*审问*你。只有嫌疑人才会被审问。”
+[n289] You：“如果你也把*这个*污染了呢？”（摊开你的双手。）
+[n290] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n290] Klaasje (Miss Oranje Disco Dancer)：“对于我来说，这就是*我*和缺乏清洁服务的混合。你呢？”
+[n291] Logic：跟楼下的账单一致。
+[n292] You：“来马丁内斯。”
+[n293] 〔卡内叙述〕Encyclopedia
+[n293] Encyclopedia：名字叫做伊尔玛。而且它不是的。甚至在梅斯克从周日开始进行七次殖民之后，它依然是一个工业发电厂。
+[n294] 〔卡内叙述〕Kim Kitsuragi
+[n294] Kim Kitsuragi：警督在笔记本里做了些笔记。
+[n295] You：“你说得对。”
+[n296] 〔卡内叙述〕Perception
+[n296] Perception (Sight)：斑驳的白色指甲油覆盖在她的指甲上。它很长很尖利，就像一把迷你匕首。花瓣一碰到就碎了。
+[n297] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n297] Klaasje (Miss Oranje Disco Dancer)：“好吧。”她点点头，抽了一口烟。“我喜欢突如其来的感觉。”
+[n298] You：“那边那扇门……”（指向它。）“你知道它是通向楼下的*电梯*吗？”
+[n299] You：“不见得。”
+[n300] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n300] Klaasje (Miss Oranje Disco Dancer)：“我要用*很多*胶带把它封起来——这是肯定的。后面还有什么别的吗？”
+[n301] You：“你肯定*有些*想法——谁可能会有兴趣挖出那个孔呢？”
+[n302] You：“我们说回你的那些谎言吧。”
+[n303] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n303] Klaasje (Miss Oranje Disco Dancer)：“嗯？”
+[n304] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n304] Klaasje (Miss Oranje Disco Dancer)：“哦，是的。我的最爱之一。它能治愈很多疾病。”
+[n305] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n305] Klaasje (Miss Oranje Disco Dancer)：“嗯，”她点点头，笑了。“比如说，*麻醉剂上瘾*。”
+[n306] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n306] Klaasje (Miss Oranje Disco Dancer)：“当你吃了太多阿片类药物的时候，它就能派上用场了。”
+[n307] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n307] Klaasje (Miss Oranje Disco Dancer)：她的脸被笑容点亮了。“很抱歉，”她恢复了镇定。
+[n308] You：“比如什么？”
+[n309] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n309] Klaasje (Miss Oranje Disco Dancer)：“露比？她不可能把它留下的。她可不是那种老派的人。老实说，我不知道那朵花为什么会在那里。”
+[n310] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n310] Klaasje (Miss Oranje Disco Dancer)：“我不知道，警官。她在海岸的某个地方有个临时住所……但她对此守口如瓶，甚至都不肯告诉我。”
+[n311] You：“关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”
+[n312] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n312] Klaasje (Miss Oranje Disco Dancer)：“哦，我*当然*知道了——他们还说这就是清洁女工辞职的原因。”
+[n313] 〔卡内叙述〕Visual
+[n313] Visual Calculus：那个曾经挂着尸体的地方，从屋顶可以一览无余。但是现在已经不在。
+[n314] 〔卡内叙述〕Suggestion
+[n314] Suggestion：她的目光在你的肩膀上游移的方式——蕴含着一点点奉承的意味。
+[n315] You：谢了教练，不过我觉得这次我还是*磨蹭*一点的好。
+[n316] You：“事情对我来说变得简单多了。我是一个警察：嘀嘀嘀-嘟嘟嘟！”（模仿警笛的声音。）
+[n317] You：“其实，警察不会花天酒地，这样太不专业了。”
+[n318] You：“我坚持自己说过的话。”
+[n319] 〔卡内叙述〕Endurance
+[n319] Endurance：事实上，是啊……怎么做到的？你的肺平平无奇。
+[n320] 〔卡内叙述〕Encyclopedia
+[n320] Encyclopedia：跟提图斯说的名字相同。就像她的口音，听起来就像奥兰治人。
+[n321] You：“你多大？”
+[n322] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n322] Klaasje (Miss Oranje Disco Dancer)：“奥兰治文学确实没帮多少忙。做*我本人*都比奥兰治文学要赚的多。”
+[n323] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n323] Klaasje (Miss Oranje Disco Dancer)：“没事的。”她耸耸肩。“其实是叫37年奥兰治*妙龄*小姐。选美比赛已经中断了，听到这个消息你一定很高兴吧。”
+[n324] You：“为什么？”
+[n325] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n325] Klaasje (Miss Oranje Disco Dancer)：“感谢你的理解。”她看起来有些吃惊。
+[n326] 〔卡内叙述〕Kim Kitsuragi
+[n326] Kim Kitsuragi：“我的同事有一种*探索性*的幽默感。别跟他过不去。”
+[n327] You：“有些很不好的东西，”指着你的脑袋，“在我的脑子里。跟过去有关。”
+[n328] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n328] Klaasje (Miss Oranje Disco Dancer)：“是啊。”
+[n329] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n329] Klaasje (Miss Oranje Disco Dancer)：“来看看新新世界，”她耸耸肩。“跟旅游有点关系。”
+[n330] You：“那旧世界怎么样了？”
+[n331] Rhetoric：迄今为止，这不是她来到这里唯一的理由——而且她也没有公开隐瞒这一点。
+[n332] You：“不是的。这是个时髦的地方。这里就是未来的舞蹈所在。”
+[n333] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n333] Klaasje (Miss Oranje Disco Dancer)：“很漂亮。看起来像是一朵枯萎的*铃兰*——这就是你抓到的那朵吗？萨拳风？”
+[n334] Empathy：她的行为好像有些变化。她很疲惫，向自己的命运屈服了——跟你一起待在这里，还有接下来要发生的事情。
+[n335] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n335] Klaasje (Miss Oranje Disco Dancer)：“说实话，我真的不知道。”
+[n336] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n336] Klaasje (Miss Oranje Disco Dancer)：“我有吗？”她弯起眉毛，叹了口气。“为什么我还是觉得自己没有脱离*嫌疑*呢？我所做的就是把他害死了。我能理解这一点。”
+[n337] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n337] Klaasje (Miss Oranje Disco Dancer)：“对我来说*没有什么*是偶然的。”
+[n338] You：“我找到了你说的浮标。里面是空的。只有海水。”
+[n339] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n339] Klaasje (Miss Oranje Disco Dancer)：“不，当然不是。我说过了，用那些证件对我来说太危险——是我的雇主把它们给我的。说真的，我应该把它们销毁掉。”
+[n340] You：“只是要注意自己的健康，小姐。”
+[n341] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n341] Klaasje (Miss Oranje Disco Dancer)：“比如没办法36小时不睡觉。”她想到。“不开心。它能治愈*那些*疾病。基本上它只是镜像版的思必得微粒。”
+[n342] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n342] Klaasje (Miss Oranje Disco Dancer)：“我有没有……这就是独一无二的超级警探。他可是这里的大人物。”
+[n343] 〔卡内叙述〕Inland
+[n343] Inland Empire：*冲走*这个词听起来很遥远，突然间还有些奇怪。远处的某个地方传来一阵狗吠。
+[n344] 〔卡内叙述〕Esprit de
+[n344] Esprit de Corps：在城市的另一边，警督停下来，打算抽根烟休息一下。他甩掉了这种冲动：还是今晚再说吧。你明显能感觉到他的缺席。现在已经太晚了。
+[n345] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n345] Klaasje (Miss Oranje Disco Dancer)：“他们*还说*这就是清洁女工辞职的原因。”
+[n346] You：“与此同时，情况变得更加艰难了——不过我还会继续。”
+[n347] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n347] Klaasje (Miss Oranje Disco Dancer)：“看见了吗？”她转向警督。“‘什么也不说’。真奇怪。谁说的？这里出什么事了？”
+[n348] You：“很抱歉。我是抱歉警探。”
+[n349] You：“那已经不再是我了。现在我是一个普通的警察。普通的执法人员。”
+[n350] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n350] Klaasje (Miss Oranje Disco Dancer)：“如果问我的话，这是个不必要的发展。”她摇摇头。“那是什么把这个所谓的*普通*执法人员带回我身边的呢？”
+[n351] You：没关系。
+[n352] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n352] Klaasje (Miss Oranje Disco Dancer)：“为什么不呢？我会在这里待到23点，很可能是在喝咖啡……”
+[n353] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n353] Klaasje (Miss Oranje Disco Dancer)：“一些蠢事。”
+[n354] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n354] Klaasje (Miss Oranje Disco Dancer)：“奥兰治文学。我在*大学*研究的就是这个。”她扬起双眉。
+[n355] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n355] Klaasje (Miss Oranje Disco Dancer)：“奇怪，一般瑞瓦肖英雄不会拯救女人的……”她吸了一口薄荷味的香烟，细细品味……
+[n355] Klaasje (Miss Oranje Disco Dancer)：……然后吐了出来。“这是一种轻佻的追求。他转而拯救了全人类。”
+[n356] Rhetoric：道德发展前进的步伐还在继续。
+[n357] You：“来瑞瓦肖。”
+[n358] 〔卡内叙述〕Encyclopedia
+[n358] Encyclopedia：放克是一种音乐形式，它是对瑞瓦肖三十年代产生的*新时代*审美的一种激进复兴，不过这一次是起源于格拉德的。它是随着伊尔玛大移民一起带来的。放克音乐比迪斯科更阳刚，更加以吉他为导向。甚至可以说更*危险*一些。
+[n359] You：“它为什么会在那里？”
+[n360] 〔卡内叙述〕Suggestion
+[n360] Suggestion：或者有一个爱慕者？
+[n361] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n361] Klaasje (Miss Oranje Disco Dancer)：她看着那扇门。突然，她睁大了双眼。“哦……你觉得*露比*可能就是这样进来的吗？上到*屋顶*？她可以从那里上来的！”
+[n362] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n362] Klaasje (Miss Oranje Disco Dancer)：“好吧。”她笑了。“很高兴至少*有人*玩的很开心。”
+[n363] You：“*麻醉剂上瘾*不是什么值得骄傲的事，小姐。”
+[n364] You：“没什么。”
+[n365] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n365] Klaasje (Miss Oranje Disco Dancer)：她笑着转向警督。“又来了——那个*只会说*的男人。我能领会。”
+[n366] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n366] Klaasje (Miss Oranje Disco Dancer)：“嗯？”她看着手中的毒品。“混帐东西把我的帕立太特拿走了！看来你欠了我一个人情，警官。我说的可是严重的腐败行为。”
+[n367] You：“这个话题可以结束了。”
+[n368] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n368] Klaasje (Miss Oranje Disco Dancer)：“啧……啧啧……”她笑着自言自语到。“被一个普通的拦路强盗打劫了。”
+[n369] 〔卡内叙述〕Composure
+[n369] Composure：突然之间，她站地像棍子一样笔直。
+[n370] You：“金，我发誓不知道她在说什么。”
+[n371] You：我是怎么做到的……
+[n372] Empathy：女人没有退缩，但是她的浅棕色眼睛里有些什么……是一种悲伤。
+[n373] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n373] Klaasje (Miss Oranje Disco Dancer)：“奥兰治文学。”
+[n374] 〔卡内叙述〕Esprit de
+[n374] Esprit de Corps：他的搭档埃米尔·莫林有事来不了了……他在另一间公寓里，另一个男人在给他看暖气片下面的一条死狗。“那玩意死了。”莫林说道。“不，”男人回应，“我摸过他了。他还有体温。”“他之所以是温热的，”莫林答道，“是因为他就在暖气片下面。”
+[n374] Esprit de Corps：‘它是热的，’莫林回复到，‘是因为它在散热器下面。’
+[n375] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n375] Klaasje (Miss Oranje Disco Dancer)：“没什么。我什么也不做。”
+[n376] You：“那你本人是什么？”
+[n377] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n377] Klaasje (Miss Oranje Disco Dancer)：“是一个选美比赛。本世纪37年举办的——在奥兰治。”
+[n378] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n378] Klaasje (Miss Oranje Disco Dancer)：“当你跟标准之间的偏差最小的时候就是漂亮。别人告诉我说，这是我拥有的一种平庸之才。”
+[n379] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n379] Klaasje (Miss Oranje Disco Dancer)：“没事的。这是明星执法人员会做的事。我已经习惯了。”
+[n380] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n380] Klaasje (Miss Oranje Disco Dancer)：“因为这是马丁内斯最放克风的建筑。而且其他建筑都被炸成了地狱的模样。”
+[n381] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n381] Klaasje (Miss Oranje Disco Dancer)：“是吗？”
+[n382] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n382] Klaasje (Miss Oranje Disco Dancer)：“我不想对执法人员说谎。这不是我的作风。”她笑了。这个笑容有些悲伤，感觉她就像是一只小小鸟或者是一只小田鼠。
+[n382] Klaasje (Miss Oranje Disco Dancer)：然后她低语到：“我只是一个周围窗户会碎裂的女孩。”
+[n383] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n383] Klaasje (Miss Oranje Disco Dancer)：“警官。你为什么冒雨来到这里呢？”她向后倚靠在栏杆上。
+[n384] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n384] Klaasje (Miss Oranje Disco Dancer)：“嗯……”她心不在焉地弹了弹烟灰。
+[n385] You：“这一切对你来说已经够好了——你不知怎么的已经成功脱离了*嫌疑人*的范围。”
+[n386] You：“我们已经完成了尸检，想问一些有关莱利的问题。”
+[n387] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n387] Klaasje (Miss Oranje Disco Dancer)：“当然，”她笑了。
+[n388] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n388] Klaasje (Miss Oranje Disco Dancer)：“露比确实充满热情，不过也很多愁善感——不，也算不上……不过有可能是收音机——各种各样的无线电技术。很抱歉，我也帮不上你多少忙……”
+[n389] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n389] Klaasje (Miss Oranje Disco Dancer)：“出什么事了，老兄？末日不是已经近在咫尺了吗。我们为什么还留在这里？”
+[n390] You：“迪斯科地狱。”
+[n391] Rhetoric：她刚刚承认跟地狱之间的交情很好——生活不易啊，这是肯定的。
+[n392] You：“不。那已经不再是我了。现在我是末日警探。”
+[n393] 〔卡内叙述〕Kim Kitsuragi
+[n393] Kim Kitsuragi：“小姐，我不知道他跟你说过什么，不过警察里面没有什么超级明星。”
+[n394] 〔卡内叙述〕Inland
+[n394] Inland Empire：难道不觉得奇怪吗？你怎么*能*跑这么久？
+[n395] You：“请问能看看你的护照吗？”
+[n396] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n396] Klaasje (Miss Oranje Disco Dancer)：“说回我。”她吸了一口薄荷味的香烟，在肺里细细品味。
+[n397] You：“那你怎么赚钱呢？钱很重要的。”（拿点钱给她看。）
+[n398] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n398] Klaasje (Miss Oranje Disco Dancer)：“是的。因为这样，我得到了一顶王冠和一条饰带——还有一根权杖。还有学习奥兰治文学的奖学金。”
+[n399] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n399] Klaasje (Miss Oranje Disco Dancer)：“超级酷的。”她举起咖啡杯，像是在祝酒。“大曝光——我是37年奥兰治的*妙龄*小姐。选美比赛最近中断了。”
+[n400] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n400] Klaasje (Miss Oranje Disco Dancer)：“嗯。”她朝着桌子比了个手势。“我想给你冲杯咖啡，不过它实在是太垃圾——基本上尝起来就是毒药的味道。”她抿了一口。
+[n401] You：“那好吧。”（总结。）
+[n402] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n402] Klaasje (Miss Oranje Disco Dancer)：“呼……”她揉了揉眉毛。
+[n403] Empathy：开玩笑。她不像是过度悲伤的样子。或者说一点也不悲伤，真的。
+[n404] You：“窗户是新的。”
+[n405] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n405] Klaasje (Miss Oranje Disco Dancer)：“要污染这种广阔的空间是很难的——就算对于我来说也是这样。至少我希望如此。如果我真的污染了……”她露出颤抖的笑容。“我们还能去哪里？”
+[n406] You：“可能吧，是啊。”
+[n407] 〔卡内叙述〕Electrochemistry
+[n407] Electrochemistry：老兄，炸裂起来吧！按下快乐的按钮，让痛苦减退！
+[n408] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n408] Klaasje (Miss Oranje Disco Dancer)：“我不知道，警官。”她镇静地看着它。
+[n409] You：“你来对地方了。”
+[n410] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n410] Klaasje (Miss Oranje Disco Dancer)：“如果你这么说的话，警官——如果你想这么说的话。”
+[n411] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n411] Klaasje (Miss Oranje Disco Dancer)：她笑了，“我真不是。”
+[n412] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n412] Klaasje (Miss Oranje Disco Dancer)：“爱慕者？我年纪太大，做不了初涉社交界的名媛。”她越过栏杆，看向下面的广场。“而且这里也不是上流社会。”
+[n413] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n413] Klaasje (Miss Oranje Disco Dancer)：“一种武术，长官。”她扬起眉毛。“就这些吗？”
+[n414] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n414] Klaasje (Miss Oranje Disco Dancer)：“我不知道……”她皱起眉头，不是很确定。“还有别的吗？那后面？”
+[n415] You：“地板上留下了一些痕迹，是最近的。”
+[n416] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n416] Klaasje (Miss Oranje Disco Dancer)：“好吧……你能不能搞清楚它在那里已经*多久*了？”
+[n417] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n417] Klaasje (Miss Oranje Disco Dancer)：“不，没事的。还有别的吗？”
+[n418] Shivers：雨滴拍打在她的剪头，把她的金发染上了一层浅棕色。闻起来有工业污染和海水的味道。
+[n419] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n419] Klaasje (Miss Oranje Disco Dancer)：“我不知道，长官。我说过了，我不知道它们是怎么一回事。老实说，我觉得它们只是垃圾。”
+[n420] Drama：是的！因为欺骗吾辈，她必须受到惩罚。吾辈要求她焦虑。吾辈要求她恐惧。
+[n421] 〔卡内叙述〕Kim Kitsuragi
+[n421] Kim Kitsuragi：“是的，小姐。希望你不要介意。”警督把他的笔记递给了你。
+[n422] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n422] Klaasje (Miss Oranje Disco Dancer)：“神秘动物？当然了。肯定就是这样。”她抽了一口烟，眼睛里流露出暖心的愉悦。“谢谢你。我已经感觉好多了。”
+[n423] You：“如果它是*最近*的——你觉得是谁做的？”
+[n424] You：“小姐，我在调查，呃……”（朝院子下面的尸体比个手势。）“把他放在那里的人说，我们应该跟你聊聊。”
+[n425] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n425] Klaasje (Miss Oranje Disco Dancer)：“抱歉，下面搞得那么乱。清洁女工已经好*几天*没有来过了。我在想她还会不会出现……”
+[n426] 〔卡内叙述〕Kim Kitsuragi
+[n426] Kim Kitsuragi：“我是金·曷城。”警督上前一步。“我是57分局的一名警探。相信你一定已经见过我这位41分局的同事了吧。”
+[n427] You：“曾经当过警察——永远都是警察。”
+[n428] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n428] Klaasje (Miss Oranje Disco Dancer)：“我表示怀疑。”她摇摇头。“那种火焰是隐藏不住的。是什么把你又带回了我身边，消防员？”
+[n429] You：“很遗憾，自从我们上次见面以来，我已经改变了*警察类型*。现在我是个不同的警察了。”
+[n430] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n430] Klaasje (Miss Oranje Disco Dancer)：“卡拉洁·阿曼多。”
+[n431] You：“明白了。”（总结。）
+[n432] You：“结果它确实糟糕透顶——对于*你*来说。”
+[n433] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n433] Klaasje (Miss Oranje Disco Dancer)：“我受宠若惊。周五晚上你给我们说了调查的事。就在楼下。在一张坐满本地小孩和码头工人的桌子前面。你基本上跟所有人都说过了。就在你把枪拿给他们看之后……”
+[n434] You：“对于我来说，它是酒精中毒，小姐。”
+[n435] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n435] Klaasje (Miss Oranje Disco Dancer)：“我喜欢杏子味的口香糖！”
+[n436] Empathy：他对答案不是很满意。
+[n437] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n437] Klaasje (Miss Oranje Disco Dancer)：她看着你手中枯萎的花瓣，然后用手指甲轻轻碰触了其中一瓣。
+[n438] You：“突然转变话题！”
+[n439] You：“萨拳是什么？”
+[n440] Empathy：她陷入了沉思——眼睛眯起，前额挤出了沟痕……
+[n441] You：“这个说不清楚。”
+[n442] Volition：她的眼睛里突然闪过一道奇怪的光芒。并不邪恶……但却很危险。
+[n443] You：“你听见我说的了：麻醉剂上瘾是一个很严重的问题，没什么好嘲笑的，小姐。”
+[n444] You：“挺让人印象深刻的。你是怎么积累这么一大堆的？”
+[n445] You：“那么，就到此为止吧。”
+[n446] You：“没有什么问题了。”
+[n447] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n447] Klaasje (Miss Oranje Disco Dancer)：“我一直听说你们RCM的人挺酷的。”她用香烟朝你比划着。“你的确很酷。”
+[n448] You：“我想我找到了，但是我没办法让女房东开口。”
+[n449] Empathy：她的眼睛里有些什么……相同的悲伤？是的，还是她第一次在走廊里告诉你上吊男人的时候，没错，是在走廊里。
+[n450] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n450] Klaasje (Miss Oranje Disco Dancer)：“欢迎来到屋顶。”年轻女子一手夹着一支烟，另一只手端着咖啡。
+[n451] 〔卡内叙述〕The Hanged
+[n451] The Hanged Man：树上还挂着一具成熟的尸体，上面布满绿色和紫色的斑点。
+[n452] 〔卡内叙述〕Kim Kitsuragi
+[n452] Kim Kitsuragi：“我是金·曷城。”警督上前一步。“我是57分局的一名警探。看来你已经见过我的同事了。”
+[n453] You：“这对眼前这起案件不重要。”
+[n454] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n454] Klaasje (Miss Oranje Disco Dancer)：“你做得挺好的——毕竟，你的道路指引你又回到了我这里。”
+[n455] 〔卡内叙述〕Kim Kitsuragi
+[n455] Kim Kitsuragi：“我向你保证，他不会以*任何*方式花天酒地的。事实上……”
+[n456] You：“无可奉告。”
+[n457] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n457] Klaasje (Miss Oranje Disco Dancer)：“哦，我的保证书还有好几年呢……”她看着银色连体裤下闪闪发光的身体。
+[n458] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n458] Klaasje (Miss Oranje Disco Dancer)：“问题？什么问题？”
+[n459] You：“你叫什么名字，小姐？我们要备案。”
+[n460] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n460] Klaasje (Miss Oranje Disco Dancer)：“我怀疑你能不能成功。”她摇摇头。“所以，找我有什么事呢，警官？”
+[n461] 〔卡内叙述〕Encyclopedia
+[n461] Encyclopedia：奥兰治共和国是蒙迪洲上的一个民主国家，就在这里的北部，跨过海洋，穿越灰域。它是六大奥西登国家之一，保持着对瑞瓦肖的占有权（联盟国）。大家都觉得它是一个*通情达理*的超级大国。
+[n462] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n462] Klaasje (Miss Oranje Disco Dancer)：“很酷。”她看着你手上的黑色纸币。“做*我本人*都比奥兰治文学要赚的多。”
+[n463] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n463] Klaasje (Miss Oranje Disco Dancer)：“‘备案’——真的很官方！”
+[n464] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n464] Klaasje (Miss Oranje Disco Dancer)：“爱情是一种恐惧。”她吸入一大团薄荷味的烟雾，细细品味，然后慢慢吐了出来……
+[n465] You：“那旧新世界怎么样了？”
+[n466] You：“什么是放克？”
+[n467] You：“你有什么爱慕者吗，小姐？”
+[n468] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n468] Klaasje (Miss Oranje Disco Dancer)：她忧虑地一直盯着那扇门看。风吹乱了她的头发。
+[n469] Logic：暂时不行？也许她是打算留作下一步动作，等到她自己更确定一些的时候……
+[n470] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n470] Klaasje (Miss Oranje Disco Dancer)：“显然并没有。我们现在就在谈话，不是吗？它能有*多好*呢。我的意思是说……”她看了看周围。
+[n471] Empathy：他对这次谈话感觉不太舒服。他不知道该补充些什么。
+[n472] You：她被困在这里了。
+[n473] You：“我们再说说这个所谓的袭击吧。”
+[n474] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n474] Klaasje (Miss Oranje Disco Dancer)：“天啦，现在又变成麻醉剂上瘾了。如果是*两个词*的话，那就是来真的了。”
+[n475] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n475] Klaasje (Miss Oranje Disco Dancer)：“不！你说*麻醉剂上瘾*。这是什么词？”
+[n476] You：“我好像找不到露比。你知道她可能去哪了吗？”
+[n477] 〔卡内叙述〕Kim Kitsuragi
+[n477] Kim Kitsuragi：“我们在海岸上找到了那个*临时住所*，小姐，甚至还跟女房东聊过了。她好像……对嫌疑人相当忠诚……”
+[n478] You：“有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）
+[n479] 〔卡内叙述〕Inland
+[n479] Inland Empire：如果说这是真的，那*瑞瓦肖文学*就像手套一样适合你。
+[n480] 〔卡内叙述〕Esprit de
+[n480] Esprit de Corps：能跟她讨论你的历史其实挺好的，他想到。我可以配合。
+[n481] You：“没错。”
+[n482] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n482] Klaasje (Miss Oranje Disco Dancer)：“我曾经……”她转向你。“你已经习惯‘警察’的角色了吗？”
+[n483] You：“听见了吗，金？我是这附近的*大*人物。”
+[n484] You：“这是……呃……我告诉过你的*那些事*的一部分。”
+[n485] 〔卡内叙述〕Physical Instrument
+[n485] Physical Instrument：没关系！这件事情已经过去了！女人说了些什么，现在男人在说什么……要专心一点，孩子！
+[n486] You：“他们说你被强暴了。”
+[n487] You：“我们稍后再继续，小姐。”[离开。]
+[n488] You：“你是做什么的，小姐？你有什么*特长*？”
+[n489] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n489] Klaasje (Miss Oranje Disco Dancer)：“没什么——如果你不在那里的话。”
+[n490] You：“奥兰治文学？”
+[n491] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n491] Klaasje (Miss Oranje Disco Dancer)：“当然。”她抽了一口烟。
+[n492] 〔卡内叙述〕Half
+[n492] Half Light：天啊……
+[n493] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n493] Klaasje (Miss Oranje Disco Dancer)：“好吧。我想我也有那么一点点吧。以我对室内装饰的品味，它并没有带来多大的惊喜。”
+[n494] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n494] Klaasje (Miss Oranje Disco Dancer)：“很放克的地方，”她一边说着，一边抿了一口咖啡。
+[n495] You：“你还太年轻，不能说自己是过气的迪斯科明星。”
+[n496] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n496] Klaasje (Miss Oranje Disco Dancer)：她看着你，点了点头。
+[n497] 〔卡内叙述〕Encyclopedia
+[n497] Encyclopedia：萨马拉拳击，或者又称为萨拳。优雅的武术类的东西。“萨拳风”意味着潜行和镇静。
+[n498] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n498] Klaasje (Miss Oranje Disco Dancer)：“又见面了，警官。”现在的她听上去有些疲惫。所有活力都已经消失不见。
+[n499] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n499] Klaasje (Miss Oranje Disco Dancer)：“该死……我不知道。也许已经很久了吧。也许本地的小孩会用，或者什么的。我不知道……”
+[n500] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n500] Klaasje (Miss Oranje Disco Dancer)：“我被困在了马丁内斯。就像所有人一样。我在这里已经待了……我也不知道多久？我喜欢把这个叫做是我的*屋顶封隔设施*。”
+[n501] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n501] Klaasje (Miss Oranje Disco Dancer)：她眯起眼睛。“你是说你抓到的那些小玩意吗——就是你第一次来这里的时候？在那边的屋顶上？”
+[n502] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n502] Klaasje (Miss Oranje Disco Dancer)：“谢谢你，不过老实说——我仔细想了一下——你提到了海水？我担心我对锁闩装置不太小心……那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+[n503] 〔卡内叙述〕Electrochemistry
+[n503] Electrochemistry：综合各方面考虑——非常不合适。现在开始流连吧。
+[n504] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n504] Klaasje (Miss Oranje Disco Dancer)：“不管怎么说——我觉得如果说不是我做的，好像有点*好笑*。因为我知道你的调查……”她揶揄到。“那我是不是就成了嫌疑人？我真的不能再想这种愚蠢的事情了……”
+[n505] Rhetoric：很难说她是认真的，还是只当个玩笑。
+[n506] You：“除此之外，你好像还有，帕立太特。”
+[n507] 〔卡内叙述〕Kim Kitsuragi
+[n507] Kim Kitsuragi：“谢谢你，小姐。”他转向你。“我们应该对渔村进行彻底地搜查。”
+[n508] You：“没时间开玩笑了。我们有问题要问你。”（匆忙继续。）
+[n509] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n509] Klaasje (Miss Oranje Disco Dancer)：“当然见过！这是我*这辈子*遇见的招摇乐团最大的粉丝。而且我之前还见过不少……”
+[n509] Klaasje (Miss Oranje Disco Dancer)：“‘当然，’”她说到。“‘生活很艰难——但是我们也要继续。’”
+[n510] 〔卡内叙述〕Authority
+[n510] Authority：哦耶，感受力量吧。
+[n511] 〔卡内叙述〕Kim Kitsuragi
+[n511] Kim Kitsuragi：“警笛的声音其实不是这样的。”警督转向年轻女子。
+[n512] You：“那些日子已经离我远去。我来是为了问问题的。”
+[n513] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n513] Klaasje (Miss Oranje Disco Dancer)：“我错了。是什么把你带回到我身边的——即将降临的末日吗？”
+[n514] 〔卡内叙述〕Conceptualization
+[n514] Conceptualization：现在要做什么——困在这里？这个问题对她来说很私密。远不止幽默这么简单。
+[n515] You：等什么？我是什么？
+[n516] 〔卡内叙述〕Reaction
+[n516] Reaction Speed：那个上吊男人身上不是有*奥兰治*水路地图的纹身吗？一个想法慢慢在你脑海中形成，然后又消散了——这件事之后再说。
+[n517] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n517] Klaasje (Miss Oranje Disco Dancer)：“那是过去。”她抿了一口咖啡。“谁都回不到过去。”
+[n518] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n518] Klaasje (Miss Oranje Disco Dancer)：“不是！”她好像很高兴你能这么问。“瑞瓦肖文学说的都是瑞瓦肖有多么的*壮丽和庄重*。讲的都是你该如何拯救这个世界。”
+[n519] You：“我确实感觉到拯救世界的冲动，没错。我猜这就是我调查这起案件的原因。”
+[n520] You：“那时你14岁？”
+[n521] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n521] Klaasje (Miss Oranje Disco Dancer)：“是的。”
+[n522] You：“厉害。”（竖起大拇指。）
+[n523] Shivers：低垂的天空下，一群海鸥在嚎叫。远处的港口堆满机械。这里开阔又冰冷。
+[n524] You：“有这个可能。”
+[n525] Empathy：她的身体因为恐惧和厌恶而颤抖着，从肩膀开始，一直延伸到臀部。现在连香烟的味道也变得很难闻。
+[n526] You：“那你为什么要留下来？”
+[n527] 〔卡内叙述〕Kim Kitsuragi
+[n527] Kim Kitsuragi：警督的目光越过栏杆，看向了其他地方。
+[n528] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n528] Klaasje (Miss Oranje Disco Dancer)：“什么？”她眯起眼睛。“哦，那些啊！我不知道，长官。我说过了，我不知道它们是怎么一回事。老实说，我觉得它们只是垃圾。”
+[n529] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n529] Klaasje (Miss Oranje Disco Dancer)：“你看。”她抽了一口烟，向你打了个招呼。“外面很黑，狗在叫，而我还在这里，喝我的咖啡——就像我保证过的。”她微微一笑。
+[n530] You：“我的工作假说是，这里面有着某种阴谋——而且它打算让我们所有人都陷入大麻烦。”
+[n531] You：“我有种奇怪的感觉——是一种未被发现的*神秘动物*拿走了你的证件。”
+[n532] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n532] Klaasje (Miss Oranje Disco Dancer)：“小心驶得万年船。”她抽了一口烟，笑了。
+[n533] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n533] Klaasje (Miss Oranje Disco Dancer)：“不过——如果我记的没错——还有好几个世纪的时间呢。非常虎头蛇尾。”
+[n534] You：“是的，我这种类型罕见地难以置信。”
+[n535] 〔卡内叙述〕Composure
+[n535] Composure：她可能在想些什么呢？很难说——她的肩膀很放松，眼睛一直盯着香烟。
+[n536] 〔卡内叙述〕Esprit de
+[n536] Esprit de Corps：我们来之前应该就讨论过你的历史了，他想到。这家伙真是有太多让人不不愉快的惊喜……
+[n537] 〔卡内叙述〕Half
+[n537] Half Light：纯粹的恐惧。让人惊慌，尖叫。
+[n538] 〔卡内叙述〕Electrochemistry
+[n538] Electrochemistry：她没有生气，不过是真的：现在她得去找更多帕立太特了。
+[n539] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n539] Klaasje (Miss Oranje Disco Dancer)：“第三个地方？有意思。”她抿了一口咖啡。“这也许就是清洁女工辞职的原因吧。”
+[n540] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n540] Klaasje (Miss Oranje Disco Dancer)：“我曾经……这个男人的言语表达方式特别*难忘*。”
+[n541] You：“我已经习惯于这种*力量*了，小姐。”
+[n542] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n542] Klaasje (Miss Oranje Disco Dancer)：“啊，我能看出来你有的，警官。”她点点头。
+[n543] 〔卡内叙述〕Conceptualization
+[n543] Conceptualization：不，不会的。它会成为主旋律。
+[n544] 〔卡内叙述〕Electrochemistry
+[n544] Electrochemistry：在寒风中几乎难以察觉，但是她脸颊和脖子上的血管扩张了。
+[n545] 〔卡内叙述〕Kim Kitsuragi
+[n545] Kim Kitsuragi：“没错，我能理解，警官。”他转向那个年轻女子。
+[n546] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n546] Klaasje (Miss Oranje Disco Dancer)：“确实让人惊叹……那是什么把这个传令官带回到我身边的呢？”
+[n547] 〔卡内叙述〕Kim Kitsuragi
+[n547] Kim Kitsuragi：“我可以向你保证——真的，绝对*没有*。”
+[n548] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n548] Klaasje (Miss Oranje Disco Dancer)：“我知道，”她带着极大的忧虑说到。“现在怎么样？”
+[n549] 〔卡内叙述〕Perception
+[n549] Perception (Sight)：她的胎记也是奥兰治的标志。你不知道为什么，但是奥兰治女孩的身上往往会有斑点。
+[n550] Empathy：这是世界上最疲惫的笑容。
+[n551] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n551] Klaasje (Miss Oranje Disco Dancer)：“恐怕不行，警官。”
+[n552] 〔卡内叙述〕Kim Kitsuragi
+[n552] Kim Kitsuragi：“感谢你能这么直率——为什么呢？”
+[n553] You：“那些是什么*人*——那些不喜欢你的人？”
+[n554] Logic：她不是说你可能需要*审问*她吗？之前说过？说她*没有做过*？这是怎么回事？
+[n555] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n555] Klaasje (Miss Oranje Disco Dancer)：“这个世界？”她看了看周围。
+[n556] You：“它是一个能嗅到背叛味道的恶魔。还有杏子。”
+[n557] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n557] Klaasje (Miss Oranje Disco Dancer)：“被我们所爱的东西背叛——真是不公平的境遇……”她吸入一大团薄荷味的烟雾，细细品味，然后慢慢吐了出来……
+[n558] You：“我不知道那是什么。”
+[n559] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n559] Klaasje (Miss Oranje Disco Dancer)：“我听说这里是过气迪斯科明星会来的地方。”
+[n560] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n560] Klaasje (Miss Oranje Disco Dancer)：“好吧。”她沉思着，长长地抽了一口阿斯特拉薄荷烟。
+[n561] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n561] Klaasje (Miss Oranje Disco Dancer)：“谢谢。”她笑了。这个笑容有些悲伤，感觉她就像是一只小小鸟或者是一只小田鼠。
+[n562] You：什么也不说。
+[n563] You：“暂时先这样吧。”（总结。）
+[n564] You：“我们现在还不知道。”
+[n565] You：“偷窥孔应该在你卧室的书架下面。”
+[n566] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n566] Klaasje (Miss Oranje Disco Dancer)：“很难相信——她居然会做出这种事。但是……不。我不知道。”她眯起眼睛。“我真的不知道这件事，警官。”
+[n566] Klaasje (Miss Oranje Disco Dancer)：“她*可以*的。也许就是她做的。或者它已经在那里很久了，也许本地的小孩会用，或者什么的。那后面还有什么别的吗？”
+[n567] You：“但是这对你来说是件好事。你*躲过了*所有怀疑。”
+[n568] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n568] Klaasje (Miss Oranje Disco Dancer)：她突然对你微微一笑。“是的，肯定就是这样。谢谢你。我已经感觉好多了。”
+[n569] 〔卡内叙述〕Reaction
+[n569] Reaction Speed：他想用直言不讳的提问来迷惑她。
+[n570] You：“明白了。”
+[n571] You：“你那里还真是收藏了不少处方药啊。”
+[n572] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n572] Klaasje (Miss Oranje Disco Dancer)：她差点就把咖啡喷出来了：“你说什么？”
+[n573] 〔卡内叙述〕Kim Kitsuragi
+[n573] Kim Kitsuragi：“你经常会出现这种情况吗，小姐？”他的口气并不咄咄逼人，只是有些好奇。
+[n574] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n574] Klaasje (Miss Oranje Disco Dancer)：“是的，露比的粗鲁也有她自己的魅力。”
+[n575] You：“我想我应该去渔村里四处问问。”
+[n576] You：“我注意到你的房间离我的很近。我有个私人问题。”
+[n577] You：“我需要再跟你说说你房间的事。”
+[n578] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n578] Klaasje (Miss Oranje Disco Dancer)：“我错了。是什么把你带回到我身边的——超级巨星吗？”
+[n579] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n579] Klaasje (Miss Oranje Disco Dancer)：“当然是了。你看看他……”她看着你，然后看着警督。“他是凤凰。是什么把凤凰带回我身边的？”
+[n580] You：（满脸写满了轻视。）“他妈的已经*结束*了。”
+[n581] You：“明白，小姐。”
+[n582] You：“你是个警察？”
+[n583] You：“这个世界不重要——我想听听你的事。”
+[n584] You：“什么是漂亮？”
+[n585] You：“我觉得14岁的我根本不存在。”
+[n586] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n586] Klaasje (Miss Oranje Disco Dancer)：“因为它被埋在一个密封的塑料袋里，就藏在海岸边一个隐蔽的地方。里面还有现金和机票。”
+[n587] You：“还有什么别的理由？”
+[n588] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n588] Klaasje (Miss Oranje Disco Dancer)：“好的好的。”她给自己又倒了一些咖啡。
+[n589] You：“这扇门是通向什么地方的？”（指着屋顶上的门。）
+[n590] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n590] Klaasje (Miss Oranje Disco Dancer)：“是啊……”她拖长了声音。“我把它污染地挺严重的。”
+[n591] You：“这就是你来这里的原因？”
+[n592] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n592] Klaasje (Miss Oranje Disco Dancer)：“别惊慌，不过加尔特先生暗示说那里有工业污染。”她用高跟鞋拍打着屋顶。
+[n593] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n593] Klaasje (Miss Oranje Disco Dancer)：“我在过冬。”
+[n594] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n594] Klaasje (Miss Oranje Disco Dancer)：她计算着。“大概4个月。我是11月来的。”
+[n595] 〔卡内叙述〕Perception
+[n595] Perception (Sight)：看着她自己在卧室窗户上的倒影——高挑，闪耀，被烟雾萦绕。
+[n596] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n596] Klaasje (Miss Oranje Disco Dancer)：“为什么屋顶上有一朵花？我不知道，警探。因为风吹来的吗？”
+[n597] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n597] Klaasje (Miss Oranje Disco Dancer)：她看着你把花瓣装进口袋，然后闭上眼镜，吸入了一口香烟……
+[n598] You：标准反威勒尔骰子。
+[n599] You：“那是一间破旧的弹球工作室，就是后面那个房间。这个地方曾经是一家弹球游戏室。”
+[n600] Shivers：潮湿的海风，夹杂着大量海水的咸味，还有附近堆栈散发的工业污染的味道，拨乱了她的头发。
+[n601] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n601] Klaasje (Miss Oranje Disco Dancer)：“我的意思是说，我没有任何理由认为这些跟她有着某种关联。”
+[n602] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n602] Klaasje (Miss Oranje Disco Dancer)：“谎言，我……”她重复着——然后声音逐渐减弱。不清楚她到底打算说什么。
+[n603] 〔卡内叙述〕Authority
+[n603] Authority：从严格的意义上讲，持有麻醉剂在瑞瓦肖是合法的。不过你还是应该训斥她。
+[n604] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n604] Klaasje (Miss Oranje Disco Dancer)：“哇哦……一个老练又无情的拦路强盗。别以为这个问题不会再出现了——对于我来说——只要遇到一个恰当的时间点，迪斯科警官。”她笑了。
+[n605] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n605] Klaasje (Miss Oranje Disco Dancer)：“露比有一种粗鲁的魅力，能够激起别人的忠诚……我衷心祝愿你的搜查工作顺顺利利，警官。”
+[n606] 〔卡内叙述〕Visual
+[n606] Visual Calculus：她当然会赢得选美比赛了。她很匀称。
+[n607] You：“不，我只是把这个地方搞得乱七八糟。”
+[n608] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n608] Klaasje (Miss Oranje Disco Dancer)：“谢谢你，警官。真心的。”
+[n609] You：“你觉得，我们距离被困苦击垮还有多久呢？”
+[n610] You：我就单刀直入了。我可不想表现地像个多愁善感的人。
+[n611] 〔卡内叙述〕Physical Instrument
+[n611] Physical Instrument：干得好，小子。她能承受的。
+[n612] 〔卡内叙述〕Kim Kitsuragi
+[n612] Kim Kitsuragi：“的确，不是吗？这样会很*奇怪*。你明白的……”
+[n613] You：“这是什么野花？”（把花给她看。）
+[n614] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n614] Klaasje (Miss Oranje Disco Dancer)：“没错。”她转身迎着风，让风吹干她的头发。
+[n615] 〔卡内叙述〕Encyclopedia
+[n615] Encyclopedia：跟提图斯说的名字相同。听起来很像奥兰治人——她的口音也一样。
+[n616] You：“你做了什么错事吗？”
+[n617] You：“挺酷的。”
+[n618] You：“所以你很蠢，还很平庸？”
+[n619] 〔卡内叙述〕Kim Kitsuragi
+[n619] Kim Kitsuragi：“我觉得我没有听过任何跟调查无关的事。”
+[n620] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n620] Klaasje (Miss Oranje Disco Dancer)：“拜托，警探，他是这片土地上最追悔莫及的执法人员了。我不介意的。”
+[n621] You：“谢谢你。就这些了——只是为了备案而已。”
+[n622] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n622] Klaasje (Miss Oranje Disco Dancer)：“你把它踹下去的——你告诉我吧。”
+[n623] You：“你的房间挺不错的。”
+[n624] You：“为什么要来这里？”
+[n625] You：“我想。”
+[n626] 〔卡内叙述〕Kim Kitsuragi
+[n626] Kim Kitsuragi：你听见警督的笔涂画的声音。
+[n627] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n627] Klaasje (Miss Oranje Disco Dancer)：“一个偷窥孔？你是说类似墙上那种孔吗？”
+[n628] You：“为什么我觉得这里是你*赢了*？”
+[n629] You：“是的。它为什么会在那里呢？”
+[n630] You：“哈迪兄弟把事情的真相告诉我们了。”
+[n631] You：难道不觉得，呃……流连有些不合适吗？
+[n632] 〔卡内叙述〕Suggestion
+[n632] Suggestion：没人喜欢谈论他们的脏衣服还有空瓶子。也许如果你的措辞再情绪化一些……
+[n633] You：“当时我正在经历思必得带来的严重副作用。我需要支撑自己。”
+[n634] You：“这叫没收。”
+[n635] 〔卡内叙述〕Suggestion
+[n635] Suggestion：不不，别听这些*死板的话*。要酷一点。
+[n636] You：“在我的脑子里，它指定的是那些滥用药物的人。”
+[n637] 〔卡内叙述〕Klaasje (Miss Oranje Disco
+[n637] Klaasje (Miss Oranje Disco Dancer)：“非常放克风。”她抽了一口烟，直直地望向你的眼睛。
+[n638] You：“藏品里还包含纳克拉——一种阿片类拮抗剂。”
+[n639] You：“关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”
+[n640] 〈选项 2〉
+        - “什么时候换的？在你停留的期间内。”
+        - 随她去吧。
+[n641] 〈选项 4〉
+        - “藏品里还包含纳克拉——一种阿片类拮抗剂。”
+        - “除此之外，你好像还有，帕立太特。”
+        - “好吧。我拿了一些。个人用。”（把*帕立太特*拿给她看。）
+        - “那么，就到此为止吧。”
+[n642] 〈选项 5〉
+        - “有些很不好的东西，”指着你的脑袋，“在我的脑子里。跟过去有关。”
+        - “我恨物体。我是反物体特遣部队的一份子。”
+        - “它是一个能嗅到背叛味道的恶魔。还有杏子。”
+        - “对于我来说，它是酒精中毒，小姐。”
+        - “我不知道那是什么。”
+[n643] 〈选项 3〉
+        - “你这里的景色很好。”
+        - “有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）
+        - “没时间开玩笑了。我们有问题要问你。”（匆忙继续。）
+[n644] 〈选项 2〉
+        - 等什么？我是什么？
+        - 体育老师？
+[n645] 〈选项 2〉
+        - “你做了什么错事吗？”
+        - 随它去吧。
+[n646] 〈选项 3〉
+        - “完全就是。”
+        - “结果它确实糟糕透顶——对于*你*来说。”
+        - “不，那是*真诚的*。”
+[n647] 〈选项 2〉
+        - 我就单刀直入了。我可不想表现地像个多愁善感的人。
+        - 谢了教练，不过我觉得这次我还是*磨蹭*一点的好。
+[n648] 〈选项 5〉
+        - “另一边有一个偷窥孔，可以看到你的卧室。”
+        - “你肯定*有些*想法——谁可能会有兴趣挖出那个孔呢？”
+        - “地板上留下了一些痕迹，是最近的。”
+        - “那是一间破旧的弹球工作室，就是后面那个房间。这个地方曾经是一家弹球游戏室。”
+        - “暂时先这样吧。”（总结。）
+[n649] 〈选项 2〉
+        - 我是怎么做到的……
+        - 没关系。
+[n650] 〈选项 2〉
+        - “为什么？”
+        - “好吧。”
+[n651] 〈选项 2〉
+        - “你有什么爱慕者吗，小姐？”
+        - 什么也不说。
+[n652] 〈选项 2〉
+        - “为什么要来这里？”
+        - “明白了。”
+[n653] 〈选项 23〉
+        - “我找到了你说的浮标。里面是空的。只有海水。”
+        - “我好像找不到露比。你知道她可能去哪了吗？”
+        - “露比肯定已经不在她的老临时住所了。”
+        - “为什么我觉得这里是你*赢了*？”
+        - 最后一分钟的怀疑……
+        - “我们说回你的那些谎言吧。”
+        - 她被困在这里了。
+        - “你叫什么名字，小姐？我们要备案。”
+        - “我需要再跟你说说你房间的事。”
+        - “你的房间挺不错的。”
+        - “我们再说说这个所谓的袭击吧。”
+        - “他们说你被强暴了。”
+        - 标准反威勒尔骰子。
+        - “我们已经完成了尸检，想问一些有关莱利的问题。”
+        - “能跟我们多说说莱利，那个上吊的男人吗？我的搭档需要听听这个。”
+        - “能多跟我说说被害人吗？我的意思是说，基本信息。”
+        - “关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”
+        - “关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”〔同文重复 2〕
+        - “哈迪兄弟把事情的真相告诉我们了。”
+        - “这是什么野花？”（把花给她看。）
+        - “现在金不在——我们说说周日晚上的事吧。”
+        - “我注意到你的房间离我的很近。我有个私人问题。”
+        - “我们稍后再继续，小姐。”[离开。]
+[n654] 〈选项 7〉
+        - “你是从哪里来的？”
+        - “奥兰治是什么？”
+        - “你多大？”
+        - “你是做什么的，小姐？你有什么*特长*？”
+        - “奥兰治文学——你拿它*做什么*呢？”
+        - “请问能看看你的护照吗？”
+        - “谢谢你。就这些了——只是为了备案而已。”
+[n655] 〈选项 6〉
+        - 难道不觉得，呃……流连有些不合适吗？
+        - “37年的奥兰治小姐是什么？”
+        - “选美比赛是什么？”
+        - “什么是漂亮？”
+        - “那时你14岁？”
+        - “明白了。”（总结。）
+[n656] 〈选项 2〉
+        - “瑞瓦肖文学也是吗？”
+        - “说回你吧。”
+[n657] 〈选项 2〉
+        - “那你怎么赚钱呢？钱很重要的。”（拿点钱给她看。）
+        - “挺酷的。”
+[n658] 〈选项 2〉
+        - “那你怎么赚钱呢？钱很重要的——大家都这么跟我说。”
+        - “挺酷的。”
+[n659] 〈选项 3〉
+        - “如果是最近的，你觉得是谁做的——露比吗？”
+        - “如果它是*最近*的——你觉得是谁做的？”
+        - “我们还是不要再讨论它了。”
+[n660] 〈选项 3〉
+        - “这叫没收。”
+        - “只是要注意自己的健康，小姐。”
+        - “当时我正在经历思必得带来的严重副作用。我需要支撑自己。”
+[n661] 〈选项 5〉
+        - “那你为什么要留下来？”
+        - “这一切对你来说已经够好了——你不知怎么的已经成功脱离了*嫌疑人*的范围。”
+        - “我的理论好像……有些不太*对劲*的地方——关于露比的。”
+        - “屋顶上那朵枯萎的花——可能是露比留下的吗？这些跟任何事都不符合。”
+        - “我猜，那就这样吧。”（总结。）
+[n662] 〈选项 8〉
+        - “你在这里做什么——在褴褛飞旋？”
+        - “什么是放克？”
+        - （环顾四周。）“我不想这么说，但是你的*悲伤*几乎无处不在。”
+        - “你那里还真是收藏了不少处方药啊。”
+        - “这扇门是通向什么地方的？”（指着屋顶上的门。）
+        - “那边那扇门……”（指向它。）“你知道它是通向楼下的*电梯*吗？”
+        - “窗户是新的。”
+        - “我还有其他问题要问你。”
+[n663] 〈选项 5〉
+        - “我的工作假说是，这里面有着某种阴谋——而且它打算让我们所有人都陷入大麻烦。”
+        - “恐怕你现在有危险了。”
+        - “也许是追踪你的人拿走的。”
+        - “我有种奇怪的感觉——是一种未被发现的*神秘动物*拿走了你的证件。”
+        - “我要把这件事归档到*盗窃*的门类下。”
+[n664] 〈选项 2〉
+        - “有这个可能。”
+        - “不见得。”
+[n665] 〈选项 2〉
+        - “这个说不清楚。”
+        - “要我猜的话，应该是最近的事。”
+[n666] 〈选项 3〉
+        - “*麻醉剂上瘾*不是什么值得骄傲的事，小姐。”
+        - “挺让人印象深刻的。你是怎么积累这么一大堆的？”
+        - “没有什么问题了。”
+[n667] 〈选项 5〉
+        - “我很肯定我有权要求你出示护照，小姐。”
+        - “不过这不是你把它藏起来的原因。”
+        - “那些是什么*人*——那些不喜欢你的人？”
+        - “我怎么知道你告诉我们的是不是真名？”
+        - “那好吧。”（总结。）
+[n668] 〈选项 4〉
+        - “之前你说我可能会*审问*你。只有嫌疑人才会被审问。”
+        - “还没有。”
+        - “不。我只是来聊聊的。”
+        - “也许是吧。”
+[n669] 〈选项 11〉
+        - “警官。”她点头向你示意。“今天是个问问题的好日子。”
+        - “我只是在想——今天可真是个问问题的好日子。”她点燃一只香烟，“跟一起凶杀案调查有关的问题。”
+        - “能看见你总是很高兴的。”她挤出一个疲惫的笑容，向后靠在了栏杆上。
+        - “我刚刚还在想这是一个多么美丽的夜晚。”她看了看周围。“正好适合参加凶杀案调查。”
+        - “你好，警官。”她双腿交叉，向后倚靠在栏杆上。“是什么风又把你给吹来了？”
+        - “警官。你为什么冒雨来到这里呢？”她向后倚靠在栏杆上。
+        - “欢迎来到屋顶。”年轻女子一手夹着一支烟，另一只手端着咖啡。
+        - “又见面了，警官。”现在的她听上去有些疲惫。所有活力都已经消失不见。
+        - “你看。”她抽了一口烟，向你打了个招呼。“外面很黑，狗在叫，而我还在这里，喝我的咖啡——就像我保证过的。”她微微一笑。
+        - “我是金·曷城。”警督上前一步。“我是57分局的一名警探。相信你一定已经见过我这位41分局的同事了吧。”
+        - “我是金·曷城。”警督上前一步。“我是57分局的一名警探。看来你已经见过我的同事了。”
+[n670] 〔End·空〕
+
+────────────────────────────────────────────────────────────────────────
+  统计
+    净字数（不含内部卡）   17474
+    ├ 台词                17459
+    ├ 选项文字            2446
+    └ 内部卡              0
+    汉字                  15617
+  结构体检
+    断头（零入边）        0
+    死胡同（无出边非End） 0
+    重复正文组            7
+════════════════════════════════════════════════════════════════════════
