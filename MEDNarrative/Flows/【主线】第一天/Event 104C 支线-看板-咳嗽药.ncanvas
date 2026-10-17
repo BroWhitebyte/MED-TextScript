@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-17T07:29:23.771Z",
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": -560.1042452507377,
+      "y": 398.1461969941672,
+      "scale": 0.7624784660766962
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  },
+  "project": {
+    "title": "Event 104C 支线-看板-咳嗽药",
+    "notes": "看板自由任务 104C——过程性填充件（超轻量，6 节点）。\n1942年2月1日（上午-下午-黄昏任一窗口）｜通兰县城 西南区 · 沿街人家\n人物：程靖霖；（收药人——不具名）\n挂载：0104 看板「自由任务3：城西南 咳嗽药（有效期 2月1日黄昏前）」。\n【结构】Entry → 出门 → 走路 → 见到人并交药 → 回药房 → End。单线，无选择点、无结算分支。",
+    "variables": {},
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "x": 140,
+        "y": 80,
+        "width": 440,
+        "body": "Adventure Begins"
+      },
+      {
+        "id": "n0",
+        "type": "Content",
+        "x": 730,
+        "y": 80,
+        "width": 440,
+        "body": "这一趟在城西南。程靖霖把药方压在药包底下，一并揣好，出门时顺手把门帘挂了一下，省得风把它卷回来。",
+        "title": ""
+      },
+      {
+        "id": "n1",
+        "type": "Content",
+        "x": 1320,
+        "y": 80,
+        "width": 440,
+        "body": "西南边靠警署和保甲所，路修得比别处平整。沿街的墙上还留着旧年的标语，字被雪水泡得发花。\n程靖霖低着头走过去，没往那边多看。"
+      },
+      {
+        "id": "n2",
+        "type": "Dialog",
+        "x": 1910,
+        "y": 80,
+        "width": 440,
+        "body": "女人: 时一堂的先生派来的？\n程靖霖: 药。煎法我念一遍。",
+        "turns": [
+          {
+            "speaker": "女人",
+            "line": "时一堂的先生派来的？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "药。煎法我念一遍。"
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "x": 2500,
+        "y": 80,
+        "width": 440,
+        "body": "程靖霖站在门槛外把药包递过去，把煎法和忌口说了一遍。女人连声道谢，说家里孩子夜里咳得睡不着。\n他点点头，便退开。\n回来时天有点沉，推门进屋，把看板上那一条擦掉，才回柜台后头去。"
+      },
+      {
+        "id": "n4",
+        "type": "End",
+        "x": 3090,
+        "y": 80,
+        "width": 440,
+        "body": ""
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n0"
+      },
+      {
+        "id": "l1",
+        "from": "n0",
+        "to": "n1"
+      },
+      {
+        "id": "l2",
+        "from": "n1",
+        "to": "n2"
+      },
+      {
+        "id": "l3",
+        "from": "n2",
+        "to": "n3"
+      },
+      {
+        "id": "l4",
+        "from": "n3",
+        "to": "n4"
+      }
+    ]
+  }
+}
