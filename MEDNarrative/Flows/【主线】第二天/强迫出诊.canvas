@@ -3,7 +3,7 @@
 		{
 			"id": "ed3fa0fa3a230c0c",
 			"type": "text",
-			"text": "# 强迫出诊",
+			"text": "# 强迫出诊（内容已并入 Event 204 主线-登门）",
 			"x": 0,
 			"y": 0,
 			"width": 400,
@@ -12,7 +12,7 @@
 		{
 			"id": "5d2770698ac717ba",
 			"type": "file",
-			"file": "Flows/【主线】第二天/Event 待定 强迫出诊-登门 待修改资产.ncanvas",
+			"file": "Flows/【主线】第二天/Event 204 主线-登门.ncanvas",
 			"x": 0,
 			"y": 0,
 			"width": 300,

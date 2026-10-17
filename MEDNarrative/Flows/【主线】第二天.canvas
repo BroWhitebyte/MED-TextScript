@@ -7,7 +7,7 @@
 		{"id":"1f20336beec24e0a","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 203 自由-下午自由窗.canvas","x":1520,"y":0,"width":300,"height":200},
 		{"id":"4d39b9b31d9fdc01","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 204 主线-登门.canvas","x":1980,"y":0,"width":300,"height":200},
 		{"id":"a9886a108db7e01b","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 205 主线-夜归.canvas","x":2440,"y":0,"width":300,"height":200},
-		{"id":"8a2b2149e9a644b2","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 206 固定-午夜响动.canvas","x":2900,"y":0,"width":300,"height":200}
+		{"id":"8a2b2149e9a644b2","type":"file","file":"MEDNarrative/Flows/【主线】第二天/Event 206 固定-第二夜.canvas","x":2900,"y":0,"width":300,"height":200}
 	],
 	"edges":[
 		{"id":"34fc89b5546e7144","fromNode":"a16af24024760349","fromSide":"right","toNode":"7f6bd2a463b63fca","toSide":"left"},
