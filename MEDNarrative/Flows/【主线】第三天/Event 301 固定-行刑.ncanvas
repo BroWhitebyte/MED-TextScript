@@ -1,110 +1,79 @@
 {
   "version": 1,
-  "savedAt": "2026-09-29T03:36:30.132Z",
+  "savedAt": "2026-10-17T08:48:01.644Z",
+  "ui": {
+    "selectedNodeId": null,
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 415.03893695920885,
+      "y": 45.29048207663777,
+      "scale": 0.1838689740420272
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  },
   "project": {
     "title": "Event 301 固定-行刑",
-    "notes": "转化自 MED_Demo Event 0301-固定-行刑-（清晨）（无复用）（定稿）｜（固定/白名单）1942年2月2日 清晨｜通兰县城 中央 · 中央小广场（绞架）｜人物：程靖霖（时一堂大药房伙计/程时一养子）、程晓梅（程时一女儿）、保甲长（敲锣头目·保甲）、哑脖子差役（保甲）、中野三郎（伪满警察署警尉）、宪兵队军官（关东军）、通译（中国人）、王老鸹（受刑者·城外小队·本名不详）、围观人群、（广场对面\"像靖霖的身影\"——双读法）｜【状态】定稿（固定件·无复用·无玩家选择）｜【用途注】2/2 清晨·行刑固定件——承 0207（2/1 午夜·后院响动）之后的跨日清晨（DEMO 首例真实死亡场面·“太君让看，都得看”强制集合观看）｜【设定注】本日三问：D3 每日三问待建——见《D3 处决日设计定案（2月2日）》｜结构：61 叙述节拍（含【转场】卡 1）+ 25 台词节拍（Dialog 25 节点·turns 合计 25）+ 结算卡 0 + 选择点 0 处｜md 标记映射：本件为定稿散段件，无「## 白描／## 陈述／## 选择／## 选择必有代价／## 结束转场」五环节标题——按自然段与场景推进拆分：一段一 Content，引语拆 Dialog（引语逐字照抄、保留外层引号；引语的引出句单独一个 Content，紧接该 Dialog）；「**他下意识地抬起手来想掩住程晓梅的眼睛，但被她拨开了。**」强调标记去标记、文字照抄；「以下为文学性描述：」为写作层标注（未落节点）；speaker 取 md 人物表与正文称呼——哑脖子差役／保甲长／程晓梅／程靖霖／有个女人／小学校的孩子们／保甲／通译／警察和保甲／王老鸹／程时一；md 只写「有人」「身边有人」的未具名围观者统一记作「看客」（对应人物表「围观人群」）；行内嵌入引语「……拽住他说“不要命了”。」按引语拆出 Dialog（句末句号留在叙述行，未改字）；本件无（结算：…）得失标注、无「（进入玩家选择——…：）」范式标注、无〔…〕舞台标注、无 Choice｜跨件说明：本件为 2/2 清晨固定行刑件（无复用、无玩家选择）——承 0207（2/1 午夜·写死固定事件）之后的跨日清晨；末尾补【转场】卡＝0302 自由任务日（2/2 上午·自由行动日·时一堂大药房出发地）｜导演层（分支结构＋设定统一）→ MED_Demo Rule\\Hidden_Meaning\\MED_Demo Event 301 分支索引.md（不入 event 文件——写作规则见《写作手册》九·补Ⅳ）（md 尾部原注，只进 notes、未落节点）",
+    "notes": "Event 301 定稿（2026-10-19）。原「扩写副本」经作者裁定升为定稿，取代旧 301；旧本已不在库内。\n设计原则（作者裁定）：保留「白天无力」——观刑本身无选择；选择点只关于「看什么／怎么反应」，不涉及去不去。\n裁定：不承接警署线（受刑者＝彻底的陌生人）｜老黑川不点名（只作\"呢子大衣的中国人＋一个少年\"）｜不写悬尸处置｜合并碎卡｜承接现 206（第二夜·梦境）。\n选择点共 5 个：C1 站位（n38·物证／暗面前置／制度）· C2 手怎么办（n72·关系）· C3 散场（n113+n118·摘帽／问姐，菜单式，含「看看程晓梅（仅一次）」）· C4 怎么答父亲（n101·关系／伏笔）。\n【结构】Entry → 21 拍前导 → C1/C2 → C4 → C3（散场小循环）→ 【转场】0302 → End。C1×C3 联动：C1 选「外头站着」会先看见矮墙，C3「追背影」因此有由头。\n【考据】沿用原件全部名物与法条（暂行惩治叛徒法／时局诏书／出荷粮谷）；新增词：靰鞡、呢子大衣（203 已用）、煤油打火机（原件已有）。\n【待办】l25（n38→n39）与 l36（n72→n73）缺 choiceOptionId/choiceIndex，需补；l25 的 label 与选项文字不一致（「往前面挤」vs「再往前面挤一下」）。",
     "variables": {},
     "characters": [],
     "nodes": [
       {
         "id": "n_entry",
         "type": "Entry",
-        "title": "Start",
         "body": "Adventure Begins",
         "x": 140,
         "y": 80,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
         "width": 440
       },
       {
         "id": "n0",
         "type": "Content",
-        "title": "Content",
-        "body": "程靖霖是被连续不断的砸门声惊醒的。在梦里，他听到了巨大的轰鸣声，睁开眼睛，才发现天色惨白，门板伴随着急促的嗵嗵嗵晃动着。",
-        "x": 760,
+        "body": "梦里那些话还没散尽，便传来了急促的、巨大的轰鸣声。\n程靖霖猛地睁开眼睛：有人在外面砸门。",
+        "height": 146,
+        "x": 730,
         "y": 80,
         "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n1",
         "type": "Content",
-        "title": "Content",
-        "body": "门外有个哑脖子扯嗓子喊着：",
-        "x": 1380,
+        "body": "“嗵嗵嗵-嗵嗵嗵！”\n天色近亮，时一堂的门板伴随着急促的敲打晃动着。\n窗台上的油灯已经熄灭，门外有个哑脖子扯着嗓子喊：",
+        "height": 176,
+        "x": 1320,
         "y": 80,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n2",
         "type": "Dialog",
-        "title": "Dialog",
         "body": "哑脖子差役: 药铺的！起来！太君有命令！开门！",
-        "x": 2000,
-        "y": 80,
-        "width": 440,
-        "height": 79,
         "turns": [
           {
             "speaker": "哑脖子差役",
             "line": "药铺的！起来！太君有命令！开门！"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n3",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖的心抽紧了。找掌柜的？",
-        "x": 2620,
+        "height": 86,
+        "x": 1910,
         "y": 80,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -119,13 +88,12 @@
       {
         "id": "n4",
         "type": "Content",
-        "title": "Content",
-        "body": "他还坐在门板铺上发愣，程晓梅已经一边挽着头发，一边拢着棉袄大襟，从后屋冲了出来。她与程靖霖对视一眼，赶快走到门边应答道：",
-        "x": 3240,
+        "body": "找掌柜的？\n程靖霖还坐在门板铺上发愣，程晓梅已经一边挽着头发，一边拢着棉袄大襟，从后屋冲了出来。她与程靖霖对视一眼，赶快走到门边应答道：",
+        "height": 146,
+        "x": 2500,
         "y": 80,
         "width": 440,
-        "height": 174,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -140,349 +108,171 @@
       {
         "id": "n5",
         "type": "Dialog",
-        "title": "Dialog",
         "body": "程晓梅: 谁呀？什么太君？都没起呢！",
-        "x": 3860,
-        "y": 80,
-        "width": 440,
-        "height": 79,
         "turns": [
           {
             "speaker": "程晓梅",
             "line": "谁呀？什么太君？都没起呢！"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 86,
+        "x": 3090,
+        "y": 80,
+        "width": 440
       },
       {
         "id": "n6",
         "type": "Content",
-        "title": "Content",
-        "body": "砸门的动静更猛烈了。与此同时，街道上响起了哐啷哐啷的铜锣声。",
-        "x": 4480,
+        "body": "砸门的动静更猛烈了。与此同时，街道上响起了哐啷哐啷的铜锣声。\n哑脖子还在喊着：",
+        "x": 3680,
         "y": 80,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n7",
-        "type": "Content",
-        "title": "Content",
-        "body": "哑脖子还在喊着：",
-        "x": 4480,
-        "y": 520,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "width": 440
       },
       {
         "id": "n8",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "哑脖子差役: 快点！",
-        "x": 3860,
-        "y": 520,
-        "width": 440,
-        "height": 79,
+        "body": "哑脖子差役: 快点！\n哑脖子差役: 别他妈废话！\n哑脖子差役: 赶紧开门！",
         "turns": [
           {
             "speaker": "哑脖子差役",
             "line": "快点！"
+          },
+          {
+            "speaker": "哑脖子差役",
+            "line": "别他妈废话！"
+          },
+          {
+            "speaker": "哑脖子差役",
+            "line": "赶紧开门！"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 86,
+        "x": 4270,
+        "y": 80,
+        "width": 440,
+        "title": ""
       },
       {
         "id": "n9",
         "type": "Content",
-        "title": "Content",
-        "body": "程靖霖赶忙套上棉裤，冲到程晓梅旁边，按住她放在门闩上的手，点了点头，把木门拉开一条缝。",
-        "x": 3240,
-        "y": 520,
+        "body": "程靖霖赶忙套上棉裤，冲到程晓梅旁边，按住她放在门闩上的手，点了点头，把木门拉开一条缝。\n一个腰里挂着保甲木牌的男人，哆里哆嗦地站在门外。他看到门开了，赶紧凑过来借借屋子里的热气，一边说：",
+        "height": 206,
+        "x": 4860,
+        "y": 80,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n10",
-        "type": "Content",
-        "title": "Content",
-        "body": "一个腰里挂着保甲木牌的男人，哆里哆嗦地站在门外。他看到门开了，赶紧凑过来借借屋子里的热气，一边哑着嗓子说道：",
-        "x": 2620,
-        "y": 520,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n11",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "哑脖子差役: 太君有令，全城人等，都到广场集合。必须得去，太君让看，都得看。",
-        "x": 2000,
-        "y": 520,
-        "width": 440,
-        "height": 106,
+        "body": "哑脖子差役: 太君有令，全城人等，都到广场集合。\n哑脖子差役: 必须得去，太君让看，都得看。",
         "turns": [
           {
             "speaker": "哑脖子差役",
-            "line": "太君有令，全城人等，都到广场集合。必须得去，太君让看，都得看。"
+            "line": "太君有令，全城人等，都到广场集合。"
+          },
+          {
+            "speaker": "哑脖子差役",
+            "line": "必须得去，太君让看，都得看。"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 86,
+        "x": 5450,
+        "y": 80,
+        "width": 440,
+        "title": ""
+      },
+      {
+        "id": "n11",
+        "type": "Content",
+        "body": "屋里的两个人放下了心。\n他们互相看了一眼，程晓梅说：",
+        "height": 116,
+        "x": 6040,
+        "y": 80,
+        "width": 440,
+        "title": ""
       },
       {
         "id": "n12",
-        "type": "Content",
-        "title": "Content",
-        "body": "屋里的两个人放下了心。他们互相看了一眼，程晓梅说：",
-        "x": 1380,
-        "y": 520,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n13",
         "type": "Dialog",
-        "title": "Dialog",
         "body": "程晓梅: 俺爹腿脚不行，道滑，走不了，俺俩可以去。",
-        "x": 760,
-        "y": 520,
-        "width": 440,
-        "height": 79,
         "turns": [
           {
             "speaker": "程晓梅",
             "line": "俺爹腿脚不行，道滑，走不了，俺俩可以去。"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 86,
+        "x": 6040,
+        "y": 511,
+        "width": 440
+      },
+      {
+        "id": "n13",
+        "type": "Content",
+        "body": "保甲想了想，用冻得像萝卜似的手指挠了挠耳朵：",
+        "height": 88,
+        "x": 5450,
+        "y": 511,
+        "width": 440
       },
       {
         "id": "n14",
-        "type": "Content",
-        "title": "Content",
-        "body": "保甲想了想，用冻得像萝卜似的手指挠了挠耳朵：",
-        "x": 140,
-        "y": 520,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n15",
         "type": "Dialog",
-        "title": "Dialog",
         "body": "哑脖子差役: 老程先生啊。",
-        "x": 140,
-        "y": 960,
-        "width": 440,
-        "height": 79,
         "turns": [
           {
             "speaker": "哑脖子差役",
             "line": "老程先生啊。"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 86,
+        "x": 4860,
+        "y": 511,
+        "width": 440
+      },
+      {
+        "id": "n15",
+        "type": "Content",
+        "body": "他回头看向大道上正在敲锣的那个人。\n敲锣的保甲长停了手里的锣槌，没好气地说：",
+        "height": 116,
+        "x": 4270,
+        "y": 511,
+        "width": 440,
+        "title": ""
       },
       {
         "id": "n16",
-        "type": "Content",
-        "title": "Content",
-        "body": "他回头看向大道上正在敲锣的那个人。",
-        "x": 760,
-        "y": 960,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n17",
-        "type": "Content",
-        "title": "Content",
-        "body": "敲锣的保甲长停了手里的锣槌，没好气地说：",
-        "x": 1380,
-        "y": 960,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n18",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "保甲长: 各家有人去就行！大冷天的，看完麻溜回家了！趁被窝还有热乎气，赶紧的吧！",
-        "x": 2000,
-        "y": 960,
-        "width": 440,
-        "height": 106,
+        "body": "保甲长: 各家有人去就行！大冷天的，看完麻溜回家了！\n保甲长: 趁被窝还有热乎气，赶紧的吧！\n程晓梅: 行。",
         "turns": [
           {
             "speaker": "保甲长",
-            "line": "各家有人去就行！大冷天的，看完麻溜回家了！趁被窝还有热乎气，赶紧的吧！"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "line": "各家有人去就行！大冷天的，看完麻溜回家了！"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n19",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程晓梅: 行。",
-        "x": 2620,
-        "y": 960,
-        "width": 440,
-        "height": 79,
-        "turns": [
+          {
+            "speaker": "保甲长",
+            "line": "趁被窝还有热乎气，赶紧的吧！"
+          },
           {
             "speaker": "程晓梅",
             "line": "行。"
           }
         ],
-        "manualSize": true,
+        "x": 3680,
+        "y": 511,
+        "width": 440,
+        "title": ""
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "body": "程晓梅关上门，扣上棉袄扣子，拢好头发。\n她望着程靖霖：",
+        "height": 88,
+        "x": 3090,
+        "y": 511,
+        "width": 440,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -496,89 +286,54 @@
       },
       {
         "id": "n20",
-        "type": "Content",
-        "title": "Content",
-        "body": "程晓梅点头，关上门。",
-        "x": 3240,
-        "y": 960,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n21",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖望着她说：",
-        "x": 3860,
-        "y": 960,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n22",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 姐，要不我去就行了。",
-        "x": 4480,
-        "y": 960,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "姐，要不我去就行了。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n23",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程晓梅: 让爹留家，我跟你一块去。我去跟爹说一声。",
-        "x": 4480,
-        "y": 1400,
-        "width": 440,
-        "height": 79,
+        "body": "程晓梅: 让爹留家，我跟你一块去。\n程靖霖: 姐，要不我去就行了。\n程晓梅: 不行。不知道是啥事，得去俩人。\n程晓梅: 万一……万一有事，得有个回来给爹送信的。\n程晓梅: 我去跟爹说一声。",
         "turns": [
           {
             "speaker": "程晓梅",
-            "line": "让爹留家，我跟你一块去。我去跟爹说一声。"
+            "line": "让爹留家，我跟你一块去。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "姐，要不我去就行了。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "不行。不知道是啥事，得去俩人。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "万一……万一有事，得有个回来给爹送信的。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "我去跟爹说一声。"
           }
         ],
-        "manualSize": true,
+        "x": 2500,
+        "y": 511,
+        "width": 440,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "title": ""
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "body": "她转身往里屋走去。程靖霖望着她的背影，目光移到窗台上。\n那盏油灯的灯芯上，还挂着点没烧完的黑头，灯油已经烧干。\n程靖霖用双手摩擦了几下脸颊，穿好衣服。程晓梅从后面又出来，两个人互相对视了一下，拉开了药房的堂屋大门。",
+        "height": 146,
+        "x": 1910,
+        "y": 511,
+        "width": 440,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -593,76 +348,31 @@
       {
         "id": "n24",
         "type": "Content",
-        "title": "Content",
-        "body": "程晓梅往里屋走，程靖霖望着她的背影，目光移到窗台上。",
-        "x": 3860,
-        "y": 1400,
+        "body": "保甲长还在路上敲着铜锣，大声嚷嚷着。\n清晨的路硬邦邦的，两个人互相搀扶着，慢慢向北走去。\n路很滑，程晓梅打了两个趔趄，程靖霖在旁边拽着她。\n",
+        "height": 146,
+        "x": 1320,
+        "y": 511,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n25",
         "type": "Content",
-        "title": "Content",
-        "body": "那盏油灯不知何时已经灭了。",
-        "x": 3240,
-        "y": 1400,
+        "body": "不是所有门都开了。有的门口站着人，手拢在袖子里，看着别家往外走，自己不动。\n保甲便过去，连推带吓唬，人才不情愿地迈动步子，向北走的人便越来越多了。\n快到小广场的时候，人已经有点挤了。高的、矮的，胖的、瘦的，大的、小的，戴帽子的，捂着耳朵的。\n大伙都不说话，就像要去给人送葬。",
+        "height": 146,
+        "x": 730,
+        "y": 511,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n26",
         "type": "Content",
-        "title": "Content",
-        "body": "清晨的路硬邦邦的，程晓梅滑了两下，程靖霖在旁边拽着她。越往小广场那边走，人就越多。",
-        "x": 2620,
-        "y": 1400,
+        "body": "广场外围，十几个伪军和日本兵端着步枪，人们在刺刀的寒光下拖着脚走过去。\n黑棉鞋、毡靴、靰鞡在冻土上刺啦刺啦地摩擦着，最后都停在了同一处地方。",
+        "height": 176,
+        "x": 140,
+        "y": 511,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n27",
-        "type": "Content",
-        "title": "Content",
-        "body": "大家都不说话，就像要去给人送葬。",
-        "x": 2000,
-        "y": 1400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -677,13 +387,12 @@
       {
         "id": "n28",
         "type": "Content",
-        "title": "Content",
-        "body": "广场外围，十几个伪军和日本兵端着步枪，人们在刺刀的寒光下拖着脚走过去。",
-        "x": 1380,
-        "y": 1400,
+        "body": "人们的视线汇集到广场正中。\n绞架空着，一个绳圈耷拉在晨光中慢慢摇晃，上面结着冰碴。\n有一个警察正在把绳子另一头重新捆在架子上。程靖霖和程晓梅挽着胳膊，站在最里圈人群边上。\n他们两边的人们都缩着脖子，把手拢在袖筒里。",
+        "height": 206,
+        "x": 1750,
+        "y": 1028,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -698,199 +407,92 @@
       {
         "id": "n29",
         "type": "Content",
-        "title": "Content",
-        "body": "黑棉鞋、毡靴、靰鞡在冻土上刺啦刺啦地摩擦着，最后都停在了同一处地方。",
-        "x": 760,
-        "y": 1400,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n30",
-        "type": "Content",
-        "title": "Content",
-        "body": "广场正中的绞架空着，一个绳圈耷拉在晨光中慢慢摇晃，上面结着冰碴。",
-        "x": 140,
-        "y": 1400,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "body": "绞架的木头上有一圈深色的印子，是绳子长年勒出来的。\n架子底下的冻土被踩得很实，比旁边低下去一块。\n有个女人哆嗦着问：",
+        "x": 2340,
+        "y": 1028,
+        "width": 440
       },
       {
         "id": "n31",
-        "type": "Content",
-        "title": "Content",
-        "body": "有一个警察正在把绳子另一头重新捆在架子上。程靖霖和程晓梅挽着胳膊，挤到稍微靠前的位置。他们两边的人们都缩着脖子，把手拢在袖筒里。",
-        "x": 140,
-        "y": 1840,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+        "type": "Dialog",
+        "body": "女人: 又要干啥呀？这是要看啥？\n女人: 大早上的搁这挨冻图啥？",
+        "turns": [
+          {
+            "speaker": "女人",
+            "line": "又要干啥呀？这是要看啥？"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
+          {
+            "speaker": "女人",
+            "line": "大早上的搁这挨冻图啥？"
           }
-        }
+        ],
+        "height": 86,
+        "x": 2930,
+        "y": 1028,
+        "width": 440,
+        "title": ""
       },
       {
         "id": "n32",
         "type": "Content",
-        "title": "Content",
-        "body": "有个女人哆嗦着问：",
-        "x": 760,
-        "y": 1840,
-        "width": 440,
+        "body": "旁边立刻有人不耐烦地低声呵斥道：",
         "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "x": 3520,
+        "y": 1028,
+        "width": 440
       },
       {
         "id": "n33",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "有个女人: 又要干啥呀？这是要看啥？",
-        "x": 1380,
-        "y": 1840,
-        "width": 440,
-        "height": 79,
+        "body": "看客: 别搁那叽咕了。\n看客: 让你看你就看吧，看完就完了。",
         "turns": [
           {
-            "speaker": "有个女人",
-            "line": "又要干啥呀？这是要看啥？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "speaker": "看客",
+            "line": "别搁那叽咕了。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n34",
-        "type": "Content",
-        "title": "Content",
-        "body": "旁边立刻有人不耐烦地低声呵斥道：",
-        "x": 2000,
-        "y": 1840,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n35",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "看客: 让你看你就看吧，看完就完了。",
-        "x": 2620,
-        "y": 1840,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
             "speaker": "看客",
             "line": "让你看你就看吧，看完就完了。"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 86,
+        "x": 4110,
+        "y": 1028,
+        "width": 440,
+        "title": ""
       },
       {
-        "id": "n36",
+        "id": "n34",
         "type": "Content",
-        "title": "Content",
         "body": "小广场北边，小学校的十几个孩子稀稀拉拉地背诵着《时局诏书》：",
-        "x": 3240,
-        "y": 1840,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "height": 116,
+        "x": 4700,
+        "y": 1028,
+        "width": 440
       },
       {
-        "id": "n37",
+        "id": "n35",
         "type": "Dialog",
-        "title": "Dialog",
         "body": "小学校的孩子们: ……兹以本日，宣战美英两国，明诏煊煊悬在天日……朕与日本天皇陛下，精神如一体……",
-        "x": 3860,
-        "y": 1840,
-        "width": 440,
-        "height": 132,
         "turns": [
           {
             "speaker": "小学校的孩子们",
             "line": "……兹以本日，宣战美英两国，明诏煊煊悬在天日……朕与日本天皇陛下，精神如一体……"
           }
         ],
-        "manualSize": true,
+        "height": 86,
+        "x": 5290,
+        "y": 1028,
+        "width": 440
+      },
+      {
+        "id": "n36",
+        "type": "Content",
+        "body": "穿着一身黑的日本督学站在他们面前，握在背后的棍子也和他的制服一样黑。",
+        "height": 116,
+        "x": 5880,
+        "y": 1028,
+        "width": 440,
         "ports": {
           "input": {
             "side": "left",
@@ -904,14 +506,37 @@
       },
       {
         "id": "n38",
-        "type": "Content",
-        "title": "Content",
-        "body": "穿着一身黑的日本督学站在他们面前，握在背后的棍子也和他的制服一样黑。",
-        "x": 4480,
-        "y": 1840,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
+        "type": "Choice",
+        "body": "站在哪里",
+        "choices": [
+          "再往前面挤一下",
+          "就在这站着不动",
+          "跟孩子们站在一处"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "再往前面挤一下",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "就在这站着不动",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "跟孩子们站在一处",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "height": 150,
+        "x": 6080,
+        "y": 2470,
+        "width": 260,
         "ports": {
           "input": {
             "side": "left",
@@ -921,66 +546,17 @@
             "side": "right",
             "t": 0.5
           }
-        }
+        },
+        "title": ""
       },
       {
         "id": "n39",
         "type": "Content",
-        "title": "Content",
-        "body": "一阵骚动传来，人群外圈的保甲嘶哑地嚷着：",
-        "x": 4480,
-        "y": 2280,
+        "body": "程靖霖拉着程晓梅往里挤。人墙很硬，得用手肘一寸一寸地开。\n挤到前面，绳圈就在头顶上。麻绳上结着冰碴，绳股里嵌着干掉的东西。那具之前吊在上面摇晃的尸体已经不见了。\n程晓梅搂紧了他的胳膊，深深吸了一口气。",
+        "x": 5490,
+        "y": 2470,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n40",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "保甲: 让开，都让开！",
-        "x": 3860,
-        "y": 2280,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "保甲",
-            "line": "让开，都让开！"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n41",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖把目光转向西大道那边。伪警察们分开人群，中野警尉带着一个穿黄色大衣的关东军军官走到绞架旁边。他在绞架旁边打了个笔挺的立正，碰响靴跟，向军官敬礼。",
-        "x": 3240,
-        "y": 2280,
-        "width": 440,
-        "height": 202,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -995,61 +571,10 @@
       {
         "id": "n42",
         "type": "Content",
-        "title": "Content",
-        "body": "军官并没正视他，随便抬手还礼，鹰隼一样的目光扫视着广场上聚集的人群。",
-        "x": 2620,
-        "y": 2280,
+        "body": "他们没往里挤，站在人群最外头。前面全是后脑勺和毡帽。\n刺刀的尖在人缝里一起一落。看不见刑台，只听见警察的靴子。",
+        "x": 5490,
+        "y": 2820,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n43",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖身边有人捂着嘴说：",
-        "x": 2000,
-        "y": 2280,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n44",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "看客: 是宪兵队。",
-        "x": 1380,
-        "y": 2280,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "看客",
-            "line": "是宪兵队。"
-          }
-        ],
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1064,82 +589,12 @@
       {
         "id": "n45",
         "type": "Content",
-        "title": "Content",
-        "body": "另一个中国人通译走上前来，向军官行了一礼，展开手里的布告，念道：",
-        "x": 760,
-        "y": 2280,
+        "body": "他们站在小学校那堆孩子的后头。孩子们被督学赶着，排成两排。程靖霖看到王小也站在这群孩子里，他们局促不安地背着“诏书”，督学背着手，握着棍子，在他们背后晃来晃去。",
+        "height": 116,
+        "x": 5490,
+        "y": 3086,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n46",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "通译: 查共匪本名不详，匪中呼为‘王老鸹’。自康德八年以来，勾连红党，聚匪作乱，抗拒讨伐，抢夺出荷粮谷物资，罪无可恕。业经宪兵队捕获，依《暂行惩治叛徒法》及军法判处死刑，即日执行绞刑，悬尸示众，以儆效尤。",
-        "x": 140,
-        "y": 2280,
-        "width": 440,
-        "height": 211,
-        "turns": [
-          {
-            "speaker": "通译",
-            "line": "查共匪本名不详，匪中呼为‘王老鸹’。自康德八年以来，勾连红党，聚匪作乱，抗拒讨伐，抢夺出荷粮谷物资，罪无可恕。业经宪兵队捕获，依《暂行惩治叛徒法》及军法判处死刑，即日执行绞刑，悬尸示众，以儆效尤。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n47",
-        "type": "Content",
-        "title": "Content",
-        "body": "宪兵队军官向绞架歪了歪头。人群外面走进两个警察，中间拖着一个衣衫破碎，没穿鞋子的人。",
-        "x": 140,
-        "y": 2720,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n48",
-        "type": "Content",
-        "title": "Content",
-        "body": "他被拖到广场正中时，所有的声音都消失了。",
-        "x": 760,
-        "y": 2720,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -1153,14 +608,18 @@
       },
       {
         "id": "n49",
-        "type": "Content",
-        "title": "Content",
-        "body": "程晓梅在他旁边，搂紧了他的胳膊，牙齿叩得直响。",
-        "x": 1380,
-        "y": 2720,
+        "type": "Dialog",
+        "body": "保甲: 让开，都让开！",
+        "turns": [
+          {
+            "speaker": "保甲",
+            "line": "让开，都让开！"
+          }
+        ],
+        "height": 86,
+        "x": 4270,
+        "y": 2470,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1175,298 +634,75 @@
       {
         "id": "n50",
         "type": "Content",
-        "title": "Content",
-        "body": "中野警尉在绞架旁边站得像一支铅笔。",
-        "x": 2000,
-        "y": 2720,
+        "body": "程靖霖把目光转向西大道那边。伪警察们分开人群，中野警尉带着一个穿黄色大衣的关东军军官走到绞架旁边。他在绞架旁边打了个笔挺的立正，碰响靴跟，向军官敬礼。\n军官并没正视他，随便抬手还礼，鹰隼一样的目光扫视着广场上聚集的人群。\n中野退开半步，站到军官侧后方。\n程靖霖身边有人捂着嘴说：",
+        "x": 3680,
+        "y": 2470,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n51",
-        "type": "Content",
-        "title": "Content",
-        "body": "宪兵队军官回头望望他，中野便挥挥戴着白手套的右手。",
-        "x": 2620,
-        "y": 2720,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n52",
-        "type": "Content",
-        "title": "Content",
-        "body": "两名警察把那个男人拽到绞架下面，把他架到一个木凳上，又将用过很多次的绳圈套在他的脖子上。",
-        "x": 3240,
-        "y": 2720,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n53",
-        "type": "Content",
-        "title": "Content",
-        "body": "这个将死之人似乎恢复了一点清明，他茫然地转动着脑袋，看着周围黑压压的，无声的人们。",
-        "x": 3860,
-        "y": 2720,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
+        "type": "Dialog",
+        "body": "看客: 是宪兵队。",
+        "turns": [
+          {
+            "speaker": "看客",
+            "line": "是宪兵队。"
           }
-        }
+        ],
+        "height": 86,
+        "x": 3090,
+        "y": 2470,
+        "width": 440
       },
       {
         "id": "n54",
         "type": "Content",
-        "title": "Content",
-        "body": "他张了张嘴，想说点什么，又说不出来。",
-        "x": 4480,
-        "y": 2720,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "body": "另一个中国人通译走上前来，向军官行了一礼，展开手里的布告，念道：",
+        "height": 116,
+        "x": 2500,
+        "y": 2470,
+        "width": 440
       },
       {
         "id": "n55",
-        "type": "Content",
-        "title": "Content",
-        "body": "宪兵队军官掏出一支香烟，中野赶紧走过去，给他点上火。",
-        "x": 4480,
-        "y": 3160,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
+        "type": "Dialog",
+        "body": "通译: 查共匪本名不详，匪中呼为‘王老鸹’。自康德八年以来，勾连红党，聚匪作乱，抗拒讨伐，抢夺出荷粮谷物资，罪无可恕。业经宪兵队捕获，依《暂行惩治叛徒法》及军法判处死刑，即日执行绞刑，悬尸示众，以儆效尤。",
+        "turns": [
+          {
+            "speaker": "通译",
+            "line": "查共匪本名不详，匪中呼为‘王老鸹’。自康德八年以来，勾连红党，聚匪作乱，抗拒讨伐，抢夺出荷粮谷物资，罪无可恕。业经宪兵队捕获，依《暂行惩治叛徒法》及军法判处死刑，即日执行绞刑，悬尸示众，以儆效尤。"
           }
-        }
+        ],
+        "height": 86,
+        "x": 1910,
+        "y": 2470,
+        "width": 440
       },
       {
         "id": "n56",
         "type": "Content",
-        "title": "Content",
-        "body": "绞架上的男人喉咙里挤出一丝嘶哑的声音：",
-        "x": 3860,
-        "y": 3160,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n57",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "王老鸹: 老少爷们儿！我是王老鸹！",
-        "x": 3240,
-        "y": 3160,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "王老鸹",
-            "line": "老少爷们儿！我是王老鸹！"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n58",
-        "type": "Content",
-        "title": "Content",
-        "body": "他可能还想说点什么，但军官深深吸了一口烟，走到他旁边，一脚踢翻了木凳。",
-        "x": 2620,
-        "y": 3160,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "body": "宪兵队军官向绞架歪了歪头。人群外面走进两个警察，中间拖着一个衣衫破碎，没穿鞋子的人。\n他被拖到广场正中时，所有的声音都消失了。\n程靖霖没有见过这个人。\n不在药铺见过，不在街上见过，也不在……别处见过。\n程晓梅在他旁边，搂紧了他的胳膊，牙齿叩得直响。",
+        "x": 1320,
+        "y": 2470,
+        "width": 440
       },
       {
         "id": "n59",
         "type": "Content",
-        "title": "Content",
-        "body": "人群里有人吸气，有女人嗡嗡地啜泣，声音都很快消失了。",
-        "x": 2000,
-        "y": 3160,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n60",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖直勾勾地盯着那具绞架。",
-        "x": 1380,
-        "y": 3160,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n61",
-        "type": "Content",
-        "title": "Content",
-        "body": "他下意识地抬起手来想掩住程晓梅的眼睛，但被她拨开了。",
-        "x": 760,
-        "y": 3160,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "body": "中野警尉在绞架旁边站得像一支铅笔。\n宪兵队军官回头望望他，中野便挥挥戴着白手套的右手。\n两名警察把那个男人拽到绞架下面，把他架到一个木凳上，又将用过很多次的绳圈套在他的脖子上。",
+        "x": 730,
+        "y": 2470,
+        "width": 440
       },
       {
         "id": "n62",
         "type": "Content",
-        "title": "Content",
-        "body": "通译还在广场中间念着布告的下半部分：",
+        "body": "这个将死之人似乎恢复了一点清明，他茫然地转动着脑袋，看着周围黑压压的，无声的人们。\n他张了张嘴，想说点什么，又说不出来。",
         "x": 140,
-        "y": 3160,
+        "y": 2470,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n63",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "通译: ……凡窝藏接济者，一律以通匪论罪；若有检举同党……",
-        "x": 140,
-        "y": 3600,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "通译",
-            "line": "……凡窝藏接济者，一律以通匪论罪；若有检举同党……"
-          }
-        ],
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -1481,13 +717,10 @@
       {
         "id": "n64",
         "type": "Content",
-        "title": "Content",
-        "body": "中野手里握着煤油打火机，望向宪兵队军官。军官吸了口烟，又厌倦地挥挥手。",
-        "x": 760,
-        "y": 3600,
+        "body": "宪兵队军官掏出一支香烟，中野赶紧走过去，给他点上火。\n绞架上的男人低头看了看自己踩着的木凳子，又慢慢环顾了一下广场上的人群。\n他的喉咙里挤出一丝嘶哑的声音：",
+        "x": 1400,
+        "y": 3628,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1497,66 +730,28 @@
             "side": "right",
             "t": 0.5
           }
-        }
-      },
-      {
-        "id": "n65",
-        "type": "Content",
-        "title": "Content",
-        "body": "警察和保甲们仿佛还了魂一样，松了一口气。他们向围观的人群分散了开去，吆喝着：",
-        "x": 1380,
-        "y": 3600,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        },
+        "title": ""
       },
       {
         "id": "n66",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "警察和保甲: 完事了完事了！该干嘛干嘛去吧！",
-        "x": 2000,
-        "y": 3600,
-        "width": 440,
-        "height": 79,
+        "body": "王老鸹: 老少爷们儿！\n王老鸹: 我是王老鸹！",
         "turns": [
           {
-            "speaker": "警察和保甲",
-            "line": "完事了完事了！该干嘛干嘛去吧！"
+            "speaker": "王老鸹",
+            "line": "老少爷们儿！"
+          },
+          {
+            "speaker": "王老鸹",
+            "line": "我是王老鸹！"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n67",
-        "type": "Content",
-        "title": "Content",
-        "body": "人群便从死水变成了沸水。他们纷纷扭头向来路走去，一边走一边咕咕哝哝。",
-        "x": 2620,
-        "y": 3600,
+        "height": 86,
+        "x": 1990,
+        "y": 3628,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -1571,13 +766,11 @@
       {
         "id": "n68",
         "type": "Content",
-        "title": "Content",
-        "body": "有人咳嗽、有人擤鼻涕，有人低声咒骂着什么，但旁边立刻有人拽住他说",
-        "x": 3240,
-        "y": 3600,
+        "body": "他可能还想说点什么，但军官深深吸了一口烟，走到他旁边，一脚踢翻了木凳。",
+        "height": 116,
+        "x": 2580,
+        "y": 3628,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1591,137 +784,66 @@
       },
       {
         "id": "n69",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "看客: 不要命了",
-        "x": 3860,
-        "y": 3600,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "看客",
-            "line": "不要命了"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n70",
         "type": "Content",
-        "title": "Content",
-        "body": "程晓梅拽了一下程靖霖的胳膊：",
-        "x": 4480,
-        "y": 3600,
+        "body": "人群里有人吸气，有女人嗡嗡地啜泣，声音都很快消失了。\n程靖霖直勾勾地盯着那具绞架。身边的程晓梅没了声音。\n药房伙计机械地抬起手。",
+        "x": 3170,
+        "y": 3628,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n71",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程晓梅: 霖子，对面有一个……咦？",
-        "x": 4480,
-        "y": 4040,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程晓梅",
-            "line": "霖子，对面有一个……咦？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n72",
-        "type": "Content",
-        "title": "Content",
-        "body": "她的眼睛在纷乱的人群中失去了目标，程靖霖这才意识到她刚才并没有看受刑现场，而是在对面找着什么。",
-        "x": 3860,
-        "y": 4040,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+        "type": "Choice",
+        "body": "手怎么办",
+        "choices": [
+          "抬手掩住她的眼睛",
+          "抓住她的手腕安慰她",
+          "什么也不做"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "抬手掩住她的眼睛",
+            "requires": "",
+            "effects": []
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
+          {
+            "id": "opt_2",
+            "label": "抓住她的手腕安慰她",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "什么也不做",
+            "requires": "",
+            "effects": []
           }
-        }
+        ],
+        "height": 150,
+        "x": 3760,
+        "y": 3628,
+        "width": 260,
+        "title": ""
       },
       {
         "id": "n73",
         "type": "Content",
-        "title": "Content",
-        "body": "他说：",
-        "x": 3240,
-        "y": 4040,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "body": "程靖霖下意识地抬手，想掩住程晓梅的眼睛。她抬手把他的手拨开了。",
+        "height": 116,
+        "x": 4170,
+        "y": 3628,
+        "width": 440
       },
       {
         "id": "n74",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 姐，咱回家吧。你在看谁？",
-        "x": 2620,
-        "y": 4040,
+        "type": "Content",
+        "body": "程靖霖伸手抓住了她的手腕。她没有挣，也没有说话。",
+        "height": 116,
+        "x": 4170,
+        "y": 3846,
         "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "姐，咱回家吧。你在看谁？"
-          }
-        ],
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -1736,13 +858,13 @@
       {
         "id": "n75",
         "type": "Content",
-        "title": "Content",
-        "body": "程晓梅又张望了一会儿，打了个冷战说：",
-        "x": 2000,
-        "y": 4040,
+        "body": "程靖霖什么也没做。他看着姐姐的侧脸，又转回去看向绞架。",
+        "height": 93,
+        "x": 4170,
+        "y": 4064,
         "width": 440,
-        "height": 88,
         "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -1756,68 +878,27 @@
       },
       {
         "id": "n76",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程晓梅: 没有……兴许是我看错了。",
-        "x": 1380,
-        "y": 4040,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程晓梅",
-            "line": "没有……兴许是我看错了。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "type": "Content",
+        "body": "通译还在广场中间念着布告的下半部分：",
+        "height": 88,
+        "x": 4760,
+        "y": 3628,
+        "width": 440
       },
       {
         "id": "n77",
-        "type": "Content",
-        "title": "Content",
-        "body": "她沉默了一下，吸了吸鼻子说：",
-        "x": 760,
-        "y": 4040,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n78",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "程晓梅: 走。",
-        "x": 140,
-        "y": 4040,
-        "width": 440,
-        "height": 79,
+        "body": "通译: ……凡窝藏接济者，一律以通匪论罪；若有检举同党……",
         "turns": [
           {
-            "speaker": "程晓梅",
-            "line": "走。"
+            "speaker": "通译",
+            "line": "……凡窝藏接济者，一律以通匪论罪；若有检举同党……"
           }
         ],
-        "manualSize": true,
+        "height": 86,
+        "x": 5350,
+        "y": 3628,
+        "width": 440,
         "ports": {
           "input": {
             "side": "left",
@@ -1832,34 +913,10 @@
       {
         "id": "n79",
         "type": "Content",
-        "title": "Content",
-        "body": "两个人杂在乱哄哄的人群里，慢慢地在南大道上往回走。",
-        "x": 140,
-        "y": 4480,
+        "body": "中野手里握着煤油打火机，望向宪兵队军官。军官吸了口烟，又厌倦地挥挥手。\n警察和保甲们仿佛还了魂一样，松了一口气。他们向围观的人群分散了开去，吆喝着：",
+        "x": 5940,
+        "y": 3628,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n80",
-        "type": "Content",
-        "title": "Content",
-        "body": "天彻底亮了，是个干冷的好天。",
-        "x": 760,
-        "y": 4480,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1873,104 +930,72 @@
       },
       {
         "id": "n81",
-        "type": "Content",
-        "title": "Content",
-        "body": "街边有人开了铺板，有人开始打扫门前的街道。又是一天，日子还得过。",
-        "x": 1380,
-        "y": 4480,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
+        "type": "Dialog",
+        "body": "警察和保甲: 完事了完事了！该干嘛干嘛去吧！",
+        "turns": [
+          {
+            "speaker": "警察和保甲",
+            "line": "完事了完事了！该干嘛干嘛去吧！"
           }
-        }
+        ],
+        "height": 86,
+        "x": 6120,
+        "y": 4663,
+        "width": 440
       },
       {
         "id": "n82",
         "type": "Content",
-        "title": "Content",
-        "body": "药房的门帘依旧垂着，程晓梅推开门，一股暖意扑过来，炉子已经生好了。",
-        "x": 2000,
-        "y": 4480,
+        "body": "人群便从死水变成了沸水。他们纷纷扭头向来路走去，一边走一边咕咕哝哝。\n有人咳嗽、有人擤鼻涕，有人低声咒骂着什么，但旁边立刻有人拽住他说：",
+        "height": 146,
+        "x": 5530,
+        "y": 4663,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "title": ""
       },
       {
         "id": "n83",
-        "type": "Content",
-        "title": "Content",
-        "body": "程时一站在屋当间，回头看了看两个孩子，说：",
-        "x": 2620,
-        "y": 4480,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+        "type": "Dialog",
+        "body": "看客: 不要命了！\n看客: 撒楞的，赶紧走啊。",
+        "turns": [
+          {
+            "speaker": "看客",
+            "line": "不要命了！"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
+          {
+            "speaker": "看客",
+            "line": "撒楞的，赶紧走啊。"
           }
-        }
+        ],
+        "height": 86,
+        "x": 4940,
+        "y": 4663,
+        "width": 440,
+        "title": ""
       },
       {
         "id": "n84",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程时一: 熬了点小米粥。喝吧。",
-        "x": 3240,
-        "y": 4480,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程时一",
-            "line": "熬了点小米粥。喝吧。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
+        "type": "Content",
+        "body": "程晓梅拽了一下程靖霖的胳膊：",
+        "height": 88,
+        "x": 4350,
+        "y": 4663,
+        "width": 440
       },
       {
         "id": "n85",
-        "type": "Content",
-        "title": "Content",
-        "body": "【转场】0302 自由任务日——2/2 上午·时一堂大药房（自由行动日·出发地）",
-        "x": 3860,
-        "y": 4480,
+        "type": "Dialog",
+        "body": "程晓梅: 霖子，对面有一个……咦？",
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "霖子，对面有一个……咦？"
+          }
+        ],
+        "height": 86,
+        "x": 3760,
+        "y": 4663,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1983,12 +1008,184 @@
         }
       },
       {
-        "id": "n86",
-        "type": "End",
-        "title": "End",
-        "body": "",
-        "x": 4480,
-        "y": 4480,
+        "id": "n87",
+        "type": "Content",
+        "body": "她的眼睛在纷乱的人群中失去了目标，程靖霖这才意识到她刚才并没有看受刑现场，而是在对面找着什么。\n她看的不是绞架。绞架在她右前方，她的脸一直朝着对面。",
+        "height": 176,
+        "x": 3170,
+        "y": 4663,
+        "width": 440,
+        "title": "",
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n91",
+        "type": "Dialog",
+        "body": "程靖霖: 姐，你刚才在看谁？\n程晓梅: 没有……兴许是我看错了。\n程晓梅: 咱走吧。",
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "姐，你刚才在看谁？"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "没有……兴许是我看错了。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "咱走吧。"
+          }
+        ],
+        "x": 1320,
+        "y": 4663,
+        "width": 440,
+        "title": "",
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n96",
+        "type": "Content",
+        "body": "两个人杂在乱哄哄的人群里，慢慢地在南大道上往回走。\n天彻底亮了，是个干冷的好天。\n街边有人开了铺板，有人开始打扫门前的街道。又是一天，日子还得过。\n一路上谁都没提刚才的事。\n程晓梅走在他旁边，脚步很急，像要赶在什么前面回到家。",
+        "x": 730,
+        "y": 4663,
+        "width": 440
+      },
+      {
+        "id": "n98",
+        "type": "Content",
+        "body": "药房的门帘依旧垂着，程晓梅推开门，一股暖意扑过来，炉子已经生好了。\n炉子上的水壶刚响，还没来得及提下来。\n程时一站在屋当间，回头看了看两个孩子，说：",
+        "x": 140,
+        "y": 4663,
+        "width": 440
+      },
+      {
+        "id": "n100",
+        "type": "Dialog",
+        "body": "程时一: 外头出什么事了？",
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "外头出什么事了？"
+          }
+        ],
+        "height": 86,
+        "x": 140,
+        "y": 5851,
+        "width": 440
+      },
+      {
+        "id": "n101",
+        "type": "Choice",
+        "body": "怎么答",
+        "choices": [
+          "绞死了一个“共匪”",
+          "来了个宪兵队的",
+          "没什么，没事"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "绞死了一个“共匪”",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "来了个宪兵队的",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "没什么，没事",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "height": 150,
+        "x": 730,
+        "y": 5851,
+        "width": 260,
+        "title": ""
+      },
+      {
+        "id": "n102",
+        "type": "Dialog",
+        "body": "程靖霖: 日本人抓到了一个共匪。\n程靖霖: 叫王老鸹，刚才，在小广场，把他给吊死了。\n程靖霖: 姐有点害怕……\n程晓梅: 我没怕。",
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "日本人抓到了一个共匪。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "叫王老鸹，刚才，在小广场，把他给吊死了。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "姐有点害怕……"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "我没怕。"
+          }
+        ],
+        "height": 86,
+        "x": 1140,
+        "y": 5851,
+        "width": 440,
+        "title": "",
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n104",
+        "type": "Dialog",
+        "body": "程靖霖: 日本人吊死了一个共匪。\n程靖霖: 没咱的事。\n程靖霖: 全城的人，都看见了。",
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "日本人吊死了一个共匪。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "没咱的事。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "全城的人，都看见了。"
+          }
+        ],
+        "height": 86,
+        "x": 1140,
+        "y": 6185,
+        "width": 440,
         "ports": {
           "input": {
             "side": "left",
@@ -1999,49 +1196,872 @@
             "t": 0.5
           }
         },
+        "title": ""
+      },
+      {
+        "id": "n106",
+        "type": "Dialog",
+        "body": "程靖霖: 有个穿军装的日本人，看着官挺大。\n程靖霖: 中野都给他点烟。\n程靖霖: 他们抓到个“共匪”，在广场上把他给……吊死了。",
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "有个穿军装的日本人，看着官挺大。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "中野都给他点烟。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "他们抓到个“共匪”，在广场上把他给……吊死了。"
+          }
+        ],
+        "height": 86,
+        "x": 1140,
+        "y": 6447,
+        "width": 440,
+        "title": "",
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n110",
+        "type": "Dialog",
+        "body": "程时一: 熬了点小米粥。\n程时一: 喝吧。",
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "熬了点小米粥。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "喝吧。"
+          }
+        ],
+        "height": 86,
+        "x": 2360,
+        "y": 5851,
+        "width": 440,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "title": ""
+      },
+      {
+        "id": "n111",
+        "type": "Content",
+        "body": "【转场】0302 自由任务日——2/2 上午·时一堂大药房（自由行动日·出发地）",
+        "height": 116,
+        "x": 2950,
+        "y": 5851,
         "width": 440
+      },
+      {
+        "id": "n112",
+        "type": "End",
+        "body": "",
+        "height": 120,
+        "x": 3540,
+        "y": 5851,
+        "width": 440
+      },
+      {
+        "id": "n113",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 1028,
+        "choices": [
+          "听听人群在议论什么",
+          "直接看 广场正中",
+          "看看程晓梅（仅一次）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_4",
+            "label": "听听人群在议论什么",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "直接看 广场正中",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_6",
+            "label": "看看程晓梅（仅一次）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n114",
+        "type": "Content",
+        "title": "Content",
+        "body": "人们交头接耳地说着乱七八糟的话。有人打着哈欠，有人咳嗽着，乱纷纷地说着不着边际的事儿。",
+        "x": 770,
+        "y": 1028,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n115",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "市民甲: 这大早上的……都快过年了，是年也不让过了是吧！\n市民乙: 别闹，太君叫来肯定是大事。不是新法令，就是砍人头。\n市民甲: 哎，听说，前几天跟东边山里，又抓住红胡子了。\n市民丙: 归屯并户都几年了？还有红胡子？这红胡子可够经活的。\n市民乙: 可别乱说啊！当心一会有人过来说你通匪！\n市民甲: 我寻思最好是红胡子。他叫我起来再交一遍粮食，那可真要命了。",
+        "x": 1400,
+        "y": 1028,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "市民甲",
+            "line": "这大早上的……都快过年了，是年也不让过了是吧！"
+          },
+          {
+            "speaker": "市民乙",
+            "line": "别闹，太君叫来肯定是大事。不是新法令，就是砍人头。"
+          },
+          {
+            "speaker": "市民甲",
+            "line": "哎，听说，前几天跟东边山里，又抓住红胡子了。"
+          },
+          {
+            "speaker": "市民丙",
+            "line": "归屯并户都几年了？还有红胡子？这红胡子可够经活的。"
+          },
+          {
+            "speaker": "市民乙",
+            "line": "可别乱说啊！当心一会有人过来说你通匪！"
+          },
+          {
+            "speaker": "市民甲",
+            "line": "我寻思最好是红胡子。他叫我起来再交一遍粮食，那可真要命了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n117",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖无心去听周围的闲谈。他转头看看程晓梅，少女的脸色因为寒气惨白。她哆嗦着抖成一团，试图用同样冰凉的手去捂住耳朵。",
+        "x": 140,
+        "y": 1294,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n118",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 1560,
+        "choices": [
+          "摘下帽子给她",
+          "不管她",
+          "问她怎么没戴帽子"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_7",
+            "label": "摘下帽子给她",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_8",
+            "label": "不管她",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "问她怎么没戴帽子",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n119",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖摘下头上的狗皮帽子，扣在程晓梅头上，把帽子耳朵往下拉了拉，盖住她的脸颊。\n程晓梅的脸泛起一点红晕。她本想推掉帽子，想了想，还是垂下了双手，把手指揣进袖筒。",
+        "x": 140,
+        "y": 1826,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n120",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 姐，你怎么没戴帽子就跑出来了？耳朵不要啦？\n程晓梅: 你……",
+        "x": 140,
+        "y": 2092,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "姐，你怎么没戴帽子就跑出来了？耳朵不要啦？"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "你……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n121",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程晓梅: 挂着的人，去哪了……\n程靖霖: 姐，别怕。\n程晓梅: 该不会是……",
+        "x": 4860,
+        "y": 2470,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "挂着的人，去哪了……"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "姐，别怕。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "该不会是……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n122",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 姐，等完事，咱就赶紧回家。\n程晓梅: 嗯呐。\n程靖霖: 不管什么事，总不会无缘无故叫咱出来一趟的。\n程晓梅: 霖子，别多想。",
+        "x": 4860,
+        "y": 2784,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "姐，等完事，咱就赶紧回家。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "嗯呐。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "不管什么事，总不会无缘无故叫咱出来一趟的。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "霖子，别多想。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n123",
+        "type": "Content",
+        "title": "Content",
+        "body": "王小的脑袋左右乱晃。他看向程靖霖，眼睛里亮了一下，但很快又黯淡下来，嘴里背的诏书更加磕磕巴巴。\n日本督学走到他旁边，用棍子捅了孩子的脊背一下。王小一个趔趄，赶紧又站直了，再也不敢往程靖霖这边看了。",
+        "x": 4860,
+        "y": 3197,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n124",
+        "type": "Content",
+        "title": "Content",
+        "body": "（选择往前站）\n程靖霖看到那个男人光着的脚，那两只黑色的脚布满溃烂、伤疤。\n程靖霖仔细看去——男人的脚趾残缺不全，左脚只剩下一个大拇指。",
+        "x": 140,
+        "y": 3628,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n125",
+        "type": "Content",
+        "title": "Content",
+        "body": "（选择站在人群中）\n人群的声音消失了。程晓梅的手快要掐进他的棉袄袖子里，而程靖霖连打哆嗦都忘记了。\n有人垂下了眼睛，有人试图转身离开，却被人群后面的保甲和士兵挡住了去路。",
+        "x": 140,
+        "y": 3920,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n126",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "日本督学: 你们的，往前看！\n日本督学: 破坏日满友好，这个的，下场！\n日本督学: 要记住！",
+        "x": 140,
+        "y": 4212,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "日本督学",
+            "line": "你们的，往前看！"
+          },
+          {
+            "speaker": "日本督学",
+            "line": "破坏日满友好，这个的，下场！"
+          },
+          {
+            "speaker": "日本督学",
+            "line": "要记住！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n127",
+        "type": "Content",
+        "title": "Content",
+        "body": "孩子们背诵的声音停止了。他们呆呆地站在那里，看着眼前的一切。程靖霖咽了口唾沫，抓住程晓梅冰块似的手。",
+        "x": 770,
+        "y": 3628,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n128",
+        "type": "Content",
+        "title": "Content",
+        "body": "（之前选择往前站）\n顺着她的话音，程靖霖看了一眼。\n广场对面，警察署前面的那批人里，站着一个穿深色呢子大衣的人，他旁边有一个青年，厚厚的围巾包住了眼睛以下的所有部分，看起来在那里已经站了很久。\n程靖霖看到那个青年的眼睛，似乎非常熟悉……但对面的人已经转身准备离去。",
+        "x": 2540,
+        "y": 4663,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n129",
+        "type": "Content",
+        "title": "Content",
+        "body": "（之前选择站在人群中）\n广场外围的人哄嚷着逐渐散去，程靖霖逆着人们的方向往前挤。等到他站在广场旁边时，对面围观的人也都只留下了背影。\n程靖霖左顾右盼，并没有发现什么。他抬起头，看到挂在绞架上的王老鸹，正在轻轻地晃荡着。",
+        "x": 2540,
+        "y": 5041,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n130",
+        "type": "Content",
+        "title": "Content",
+        "body": "（之前选择站在孩子那边）\n程靖霖试图穿过挡在前面的孩子们，但小孩们刚经过刚才的场面，此刻乱哄哄的。\n他看到王小正咧着嘴嚎啕大哭，身后王吉来挤过来，过去抓住王小的手，试图带他回家。\n混乱与嘈杂之间，他已经来不及多想姐姐到底看到了什么。",
+        "x": 2540,
+        "y": 5391,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n131",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖试图去追，看到广场中间的日本兵，又停下了脚步。他再一抬头，对面的人已经消失无踪了。\n他只能回头问程晓梅：",
+        "x": 1910,
+        "y": 4663,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n132",
+        "type": "Content",
+        "title": "Content",
+        "body": "人群散去很快，程靖霖也就无法再做什么了。\n他只能回头问程晓梅：",
+        "x": 1910,
+        "y": 4929,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n133",
+        "type": "Content",
+        "title": "Content",
+        "body": "他只能回头问程晓梅：",
+        "x": 1910,
+        "y": 5195,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n134",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一看了看脸被冻得通红的两个人。他没有再说话，蹒跚着走到炉旁，掀开炉子上一只小锅的锅盖。\n热气扑出来，驱散了他们带进屋子里的寒意。",
+        "x": 1730,
+        "y": 5851,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
       }
     ],
     "links": [
       {
         "id": "l0",
         "from": "n_entry",
-        "to": "n0",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
+        "to": "n0"
       },
       {
         "id": "l1",
         "from": "n0",
-        "to": "n1",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
+        "to": "n1"
       },
       {
         "id": "l2",
         "from": "n1",
-        "to": "n2",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
+        "to": "n2"
       },
       {
         "id": "l3",
-        "from": "n2",
-        "to": "n3",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
+        "from": "n4",
+        "to": "n5"
       },
       {
         "id": "l4",
-        "from": "n3",
+        "from": "n5",
+        "to": "n6"
+      },
+      {
+        "id": "l5",
+        "from": "n6",
+        "to": "n8"
+      },
+      {
+        "id": "l6",
+        "from": "n8",
+        "to": "n9"
+      },
+      {
+        "id": "l7",
+        "from": "n9",
+        "to": "n10"
+      },
+      {
+        "id": "l8",
+        "from": "n10",
+        "to": "n11"
+      },
+      {
+        "id": "l9",
+        "from": "n11",
+        "to": "n12"
+      },
+      {
+        "id": "l10",
+        "from": "n12",
+        "to": "n13"
+      },
+      {
+        "id": "l11",
+        "from": "n13",
+        "to": "n14"
+      },
+      {
+        "id": "l12",
+        "from": "n14",
+        "to": "n15"
+      },
+      {
+        "id": "l13",
+        "from": "n15",
+        "to": "n16"
+      },
+      {
+        "id": "l14",
+        "from": "n16",
+        "to": "n18"
+      },
+      {
+        "id": "l15",
+        "from": "n23",
+        "to": "n24"
+      },
+      {
+        "id": "l16",
+        "from": "n24",
+        "to": "n25"
+      },
+      {
+        "id": "l17",
+        "from": "n25",
+        "to": "n26"
+      },
+      {
+        "id": "l18",
+        "from": "n28",
+        "to": "n29"
+      },
+      {
+        "id": "l19",
+        "from": "n29",
+        "to": "n31"
+      },
+      {
+        "id": "l20",
+        "from": "n31",
+        "to": "n32"
+      },
+      {
+        "id": "l21",
+        "from": "n32",
+        "to": "n33"
+      },
+      {
+        "id": "l22",
+        "from": "n33",
+        "to": "n34"
+      },
+      {
+        "id": "l23",
+        "from": "n34",
+        "to": "n35"
+      },
+      {
+        "id": "l24",
+        "from": "n35",
+        "to": "n36"
+      },
+      {
+        "id": "l25",
+        "from": "n38",
+        "to": "n39",
+        "label": "往前面挤"
+      },
+      {
+        "id": "l26",
+        "from": "n49",
+        "to": "n50"
+      },
+      {
+        "id": "l27",
+        "from": "n50",
+        "to": "n53"
+      },
+      {
+        "id": "l28",
+        "from": "n53",
+        "to": "n54"
+      },
+      {
+        "id": "l29",
+        "from": "n54",
+        "to": "n55"
+      },
+      {
+        "id": "l30",
+        "from": "n55",
+        "to": "n56"
+      },
+      {
+        "id": "l31",
+        "from": "n56",
+        "to": "n59"
+      },
+      {
+        "id": "l32",
+        "from": "n59",
+        "to": "n62"
+      },
+      {
+        "id": "l33",
+        "from": "n64",
+        "to": "n66"
+      },
+      {
+        "id": "l34",
+        "from": "n68",
+        "to": "n69"
+      },
+      {
+        "id": "l35",
+        "from": "n69",
+        "to": "n72"
+      },
+      {
+        "id": "l36",
+        "from": "n72",
+        "to": "n73",
+        "label": "抬手掩住她的眼睛"
+      },
+      {
+        "id": "l37",
+        "from": "n73",
+        "to": "n76"
+      },
+      {
+        "id": "l38",
+        "from": "n74",
+        "to": "n76"
+      },
+      {
+        "id": "l39",
+        "from": "n75",
+        "to": "n76"
+      },
+      {
+        "id": "l40",
+        "from": "n76",
+        "to": "n77"
+      },
+      {
+        "id": "l41",
+        "from": "n79",
+        "to": "n81"
+      },
+      {
+        "id": "l42",
+        "from": "n81",
+        "to": "n82"
+      },
+      {
+        "id": "l43",
+        "from": "n82",
+        "to": "n83"
+      },
+      {
+        "id": "l44",
+        "from": "n83",
+        "to": "n84"
+      },
+      {
+        "id": "l45",
+        "from": "n84",
+        "to": "n85"
+      },
+      {
+        "id": "l46",
+        "from": "n91",
+        "to": "n96"
+      },
+      {
+        "id": "l47",
+        "from": "n96",
+        "to": "n98"
+      },
+      {
+        "id": "l48",
+        "from": "n98",
+        "to": "n100"
+      },
+      {
+        "id": "l49",
+        "from": "n100",
+        "to": "n101"
+      },
+      {
+        "id": "l61",
+        "from": "n110",
+        "to": "n111"
+      },
+      {
+        "id": "l62",
+        "from": "n111",
+        "to": "n112"
+      },
+      {
+        "id": "l63",
+        "from": "n2",
         "to": "n4",
         "toPort": {
           "side": "left",
@@ -2049,143 +2069,8 @@
         }
       },
       {
-        "id": "l5",
-        "from": "n4",
-        "to": "n5",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l6",
-        "from": "n5",
-        "to": "n6",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l7",
-        "from": "n6",
-        "to": "n7",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l8",
-        "from": "n7",
-        "to": "n8",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l9",
-        "from": "n8",
-        "to": "n9",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l10",
-        "from": "n9",
-        "to": "n10",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l11",
-        "from": "n10",
-        "to": "n11",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l12",
-        "from": "n11",
-        "to": "n12",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l13",
-        "from": "n12",
-        "to": "n13",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l14",
-        "from": "n13",
-        "to": "n14",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l15",
-        "from": "n14",
-        "to": "n15",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l16",
-        "from": "n15",
-        "to": "n16",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l17",
-        "from": "n16",
-        "to": "n17",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l18",
-        "from": "n17",
-        "to": "n18",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l19",
+        "id": "l64",
         "from": "n18",
-        "to": "n19",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l20",
-        "from": "n19",
         "to": "n20",
         "toPort": {
           "side": "left",
@@ -2193,26 +2078,8 @@
         }
       },
       {
-        "id": "l21",
+        "id": "l65",
         "from": "n20",
-        "to": "n21",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l22",
-        "from": "n21",
-        "to": "n22",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l23",
-        "from": "n22",
         "to": "n23",
         "toPort": {
           "side": "left",
@@ -2220,387 +2087,9 @@
         }
       },
       {
-        "id": "l24",
-        "from": "n23",
-        "to": "n24",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l25",
-        "from": "n24",
-        "to": "n25",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l26",
-        "from": "n25",
-        "to": "n26",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l27",
-        "from": "n26",
-        "to": "n27",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l28",
-        "from": "n27",
-        "to": "n28",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l29",
-        "from": "n28",
-        "to": "n29",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l30",
-        "from": "n29",
-        "to": "n30",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l31",
-        "from": "n30",
-        "to": "n31",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l32",
-        "from": "n31",
-        "to": "n32",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l33",
-        "from": "n32",
-        "to": "n33",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l34",
-        "from": "n33",
-        "to": "n34",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l35",
-        "from": "n34",
-        "to": "n35",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l36",
-        "from": "n35",
-        "to": "n36",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l37",
-        "from": "n36",
-        "to": "n37",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l38",
-        "from": "n37",
-        "to": "n38",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l39",
-        "from": "n38",
-        "to": "n39",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l40",
-        "from": "n39",
-        "to": "n40",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l41",
-        "from": "n40",
-        "to": "n41",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l42",
-        "from": "n41",
-        "to": "n42",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l43",
-        "from": "n42",
-        "to": "n43",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l44",
-        "from": "n43",
-        "to": "n44",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l45",
-        "from": "n44",
-        "to": "n45",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l46",
-        "from": "n45",
-        "to": "n46",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l47",
-        "from": "n46",
-        "to": "n47",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l48",
-        "from": "n47",
-        "to": "n48",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l49",
-        "from": "n48",
-        "to": "n49",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l50",
-        "from": "n49",
-        "to": "n50",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l51",
-        "from": "n50",
-        "to": "n51",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l52",
-        "from": "n51",
-        "to": "n52",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l53",
-        "from": "n52",
-        "to": "n53",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l54",
-        "from": "n53",
-        "to": "n54",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l55",
-        "from": "n54",
-        "to": "n55",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l56",
-        "from": "n55",
-        "to": "n56",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l57",
-        "from": "n56",
-        "to": "n57",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l58",
-        "from": "n57",
-        "to": "n58",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l59",
-        "from": "n58",
-        "to": "n59",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l60",
-        "from": "n59",
-        "to": "n60",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l61",
-        "from": "n60",
-        "to": "n61",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l62",
-        "from": "n61",
-        "to": "n62",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l63",
-        "from": "n62",
-        "to": "n63",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l64",
-        "from": "n63",
-        "to": "n64",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l65",
-        "from": "n64",
-        "to": "n65",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
         "id": "l66",
-        "from": "n65",
-        "to": "n66",
+        "from": "n26",
+        "to": "n113",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2608,8 +2097,11 @@
       },
       {
         "id": "l67",
-        "from": "n66",
-        "to": "n67",
+        "from": "n113",
+        "to": "n114",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 0,
+        "label": "听听人群在议论什么",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2617,8 +2109,8 @@
       },
       {
         "id": "l68",
-        "from": "n67",
-        "to": "n68",
+        "from": "n114",
+        "to": "n115",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2626,8 +2118,11 @@
       },
       {
         "id": "l69",
-        "from": "n68",
-        "to": "n69",
+        "from": "n113",
+        "to": "n117",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 2,
+        "label": "看看程晓梅",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2635,8 +2130,8 @@
       },
       {
         "id": "l70",
-        "from": "n69",
-        "to": "n70",
+        "from": "n117",
+        "to": "n118",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2644,8 +2139,11 @@
       },
       {
         "id": "l71",
-        "from": "n70",
-        "to": "n71",
+        "from": "n118",
+        "to": "n119",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 0,
+        "label": "摘下帽子给她",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2653,8 +2151,11 @@
       },
       {
         "id": "l72",
-        "from": "n71",
-        "to": "n72",
+        "from": "n118",
+        "to": "n113",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 1,
+        "label": "不管她",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2662,8 +2163,11 @@
       },
       {
         "id": "l73",
-        "from": "n72",
-        "to": "n73",
+        "from": "n118",
+        "to": "n120",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 2,
+        "label": "问她怎么没戴帽子",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2671,8 +2175,8 @@
       },
       {
         "id": "l74",
-        "from": "n73",
-        "to": "n74",
+        "from": "n120",
+        "to": "n113",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2680,8 +2184,8 @@
       },
       {
         "id": "l75",
-        "from": "n74",
-        "to": "n75",
+        "from": "n119",
+        "to": "n113",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2689,8 +2193,11 @@
       },
       {
         "id": "l76",
-        "from": "n75",
-        "to": "n76",
+        "from": "n113",
+        "to": "n28",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 1,
+        "label": "直接看 广场正中",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2698,8 +2205,8 @@
       },
       {
         "id": "l77",
-        "from": "n76",
-        "to": "n77",
+        "from": "n115",
+        "to": "n28",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2707,8 +2214,8 @@
       },
       {
         "id": "l78",
-        "from": "n77",
-        "to": "n78",
+        "from": "n36",
+        "to": "n38",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2716,8 +2223,11 @@
       },
       {
         "id": "l79",
-        "from": "n78",
-        "to": "n79",
+        "from": "n38",
+        "to": "n42",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "就在这站着不动",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2725,8 +2235,11 @@
       },
       {
         "id": "l80",
-        "from": "n79",
-        "to": "n80",
+        "from": "n38",
+        "to": "n45",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "跟孩子们站在一处",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2734,8 +2247,8 @@
       },
       {
         "id": "l81",
-        "from": "n80",
-        "to": "n81",
+        "from": "n39",
+        "to": "n121",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2743,8 +2256,8 @@
       },
       {
         "id": "l82",
-        "from": "n81",
-        "to": "n82",
+        "from": "n42",
+        "to": "n122",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2752,8 +2265,8 @@
       },
       {
         "id": "l83",
-        "from": "n82",
-        "to": "n83",
+        "from": "n45",
+        "to": "n123",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2761,8 +2274,8 @@
       },
       {
         "id": "l84",
-        "from": "n83",
-        "to": "n84",
+        "from": "n121",
+        "to": "n49",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2770,8 +2283,8 @@
       },
       {
         "id": "l85",
-        "from": "n84",
-        "to": "n85",
+        "from": "n122",
+        "to": "n49",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2779,38 +2292,280 @@
       },
       {
         "id": "l86",
+        "from": "n123",
+        "to": "n49",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l87",
+        "from": "n62",
+        "to": "n124",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l88",
+        "from": "n62",
+        "to": "n125",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l89",
+        "from": "n62",
+        "to": "n126",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l90",
+        "from": "n126",
+        "to": "n127",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l91",
+        "from": "n124",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l92",
+        "from": "n125",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l93",
+        "from": "n127",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l94",
+        "from": "n66",
+        "to": "n68",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l95",
+        "from": "n72",
+        "to": "n74",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "抓住她的手腕安慰她",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l96",
+        "from": "n72",
+        "to": "n75",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "什么也不做",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l97",
+        "from": "n77",
+        "to": "n79",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l98",
         "from": "n85",
-        "to": "n86",
+        "to": "n87",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l99",
+        "from": "n87",
+        "to": "n128",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l100",
+        "from": "n87",
+        "to": "n129",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l101",
+        "from": "n87",
+        "to": "n130",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l102",
+        "from": "n128",
+        "to": "n131",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l103",
+        "from": "n129",
+        "to": "n133",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l104",
+        "from": "n130",
+        "to": "n132",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l105",
+        "from": "n131",
+        "to": "n91",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l106",
+        "from": "n133",
+        "to": "n91",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l107",
+        "from": "n132",
+        "to": "n91",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l108",
+        "from": "n101",
+        "to": "n102",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "绞死了一个“共匪”",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l109",
+        "from": "n101",
+        "to": "n106",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "来了个宪兵队的",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l110",
+        "from": "n101",
+        "to": "n104",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "没什么，没事",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l111",
+        "from": "n102",
+        "to": "n134",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l112",
+        "from": "n106",
+        "to": "n134",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l113",
+        "from": "n104",
+        "to": "n134",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l114",
+        "from": "n134",
+        "to": "n110",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       }
     ]
-  },
-  "ui": {
-    "selectedNodeId": null,
-    "selectedLinkId": null,
-    "panel": "project",
-    "activeFileId": "adventure",
-    "theme": "dark",
-    "exportImageScale": 1,
-    "view": {
-      "x": 66.12378865623975,
-      "y": 476.1043857614678,
-      "scale": 0.5846151300000018
-    },
-    "sidebar": {
-      "leftWidth": 280,
-      "rightWidth": 438,
-      "leftCollapsed": false,
-      "rightCollapsed": false
-    },
-    "search": "",
-    "characterSearch": "",
-    "eventSearch": "",
-    "playbookSearch": "",
-    "playbookJsonOpen": false,
-    "playbookTab": "variables"
   }
 }
