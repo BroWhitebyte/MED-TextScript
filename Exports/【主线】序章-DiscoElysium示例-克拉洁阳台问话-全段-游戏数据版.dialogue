@@ -1,0 +1,1378 @@
+~ start
+# Adventure Begins
+- “警官。”她点头向你示意。“今天是个问问题的好日子。”
+	Klaasje (Miss Oranje Disco Dancer): “警官。”她点头向你示意。“今天是个问问题的好日子。”
+	=> choice
+- “我只是在想——今天可真是个问问题的好日子。”她点燃一只香烟，“跟一起凶杀案调查有关的问题。”
+	Klaasje (Miss Oranje Disco Dancer): “我只是在想——今天可真是个问问题的好日子。”她点燃一只香烟，“跟一起凶杀案调查有关的问题。”
+	=> choice
+- “能看见你总是很高兴的。”她挤出一个疲惫的笑容，向后靠在了栏杆上。
+	Klaasje (Miss Oranje Disco Dancer): “能看见你总是很高兴的。”她挤出一个疲惫的笑容，向后靠在了栏杆上。
+	Empathy: 她的行为好像有些变化。她很疲惫，向自己的命运屈服了——跟你一起待在这里，还有接下来要发生的事情。
+	=> choice
+- “我刚刚还在想这是一个多么美丽的夜晚。”她看了看周围。“正好适合参加凶杀案调查。”
+	Klaasje (Miss Oranje Disco Dancer): “我刚刚还在想这是一个多么美丽的夜晚。”她看了看周围。“正好适合参加凶杀案调查。”
+	=> choice
+- “你好，警官。”她双腿交叉，向后倚靠在栏杆上。“是什么风又把你给吹来了？”
+	Klaasje (Miss Oranje Disco Dancer): “你好，警官。”她双腿交叉，向后倚靠在栏杆上。“是什么风又把你给吹来了？”
+	=> choice
+- “警官。你为什么冒雨来到这里呢？”她向后倚靠在栏杆上。
+	Klaasje (Miss Oranje Disco Dancer): “警官。你为什么冒雨来到这里呢？”她向后倚靠在栏杆上。
+	=> choice
+- “欢迎来到屋顶。”年轻女子一手夹着一支烟，另一只手端着咖啡。
+	Klaasje (Miss Oranje Disco Dancer): “欢迎来到屋顶。”年轻女子一手夹着一支烟，另一只手端着咖啡。
+	Perception (Sight): 她那头刚刚沐浴过的头发还有些湿滑。
+	Electrochemistry: 在她那银色的连体裤下面——是一副年轻又健美的身体。修长而纤瘦……
+	Physical Instrument: ……经过多年的防身术训练后有所改善。你能从她的手肘尖角上感觉出来。
+	Klaasje (Miss Oranje Disco Dancer): “抱歉，下面搞得那么乱。清洁女工已经好*几天*没有来过了。我在想她还会不会出现……”
+	=> choice_10
+- “又见面了，警官。”现在的她听上去有些疲惫。所有活力都已经消失不见。
+	Klaasje (Miss Oranje Disco Dancer): “又见面了，警官。”现在的她听上去有些疲惫。所有活力都已经消失不见。
+	=> choice
+- “你看。”她抽了一口烟，向你打了个招呼。“外面很黑，狗在叫，而我还在这里，喝我的咖啡——就像我保证过的。”她微微一笑。
+	Klaasje (Miss Oranje Disco Dancer): “你看。”她抽了一口烟，向你打了个招呼。“外面很黑，狗在叫，而我还在这里，喝我的咖啡——就像我保证过的。”她微微一笑。
+	Suggestion: 她确实保证过，如果你不逮捕她的话，她晚上就会出现在这里……好姑娘。
+	Drama: 啐……这肯定是在演戏。问问题吧。最好是很难回答的那种。
+	=> choice
+- “我是金·曷城。”警督上前一步。“我是57分局的一名警探。相信你一定已经见过我这位41分局的同事了吧。”
+	=> merge_44
+- “我是金·曷城。”警督上前一步。“我是57分局的一名警探。看来你已经见过我的同事了。”
+	=> merge_45
+~ merge_44
+Kim Kitsuragi: “我是金·曷城。”警督上前一步。“我是57分局的一名警探。相信你一定已经见过我这位41分局的同事了吧。”
+=> merge_09
+=> merge_10
+=> merge_11
+=> merge_12
+=> merge_13
+=> merge_14
+=> merge_15
+=> merge_16
+~ choice
+- “我找到了你说的浮标。里面是空的。只有海水。”
+	You: “我找到了你说的浮标。里面是空的。只有海水。”
+	Klaasje (Miss Oranje Disco Dancer): 她睁大眼睛。“哦……”
+	You: “证件是你拿走的吗？”
+	Klaasje (Miss Oranje Disco Dancer): “不，当然不是。我说过了，用那些证件对我来说太危险——是我的雇主把它们给我的。说真的，我应该把它们销毁掉。”
+	=> merge_68
+	Kim Kitsuragi: “证件是你拿走的吗？”
+	Reaction Speed: 他想用直言不讳的提问来迷惑她。
+	Klaasje (Miss Oranje Disco Dancer): “不，当然不是。我说过了，用那些证件对我来说太危险——是我的雇主把它们给我的。说真的，我应该把它们销毁掉。”
+	=> merge_68
+- “我好像找不到露比。你知道她可能去哪了吗？”
+	You: “我好像找不到露比。你知道她可能去哪了吗？”
+	Klaasje (Miss Oranje Disco Dancer): “我不知道，警官。她在海岸的某个地方有个临时住所……但她对此守口如瓶，甚至都不肯告诉我。”
+	You: “没错，我知道这个*临时住所*。甚至还跟女房东聊过了。但是露比已经不在那里了。”
+	=> merge_33
+	You: “我想我找到了，但是我没办法让女房东开口。”
+	Klaasje (Miss Oranje Disco Dancer): “露比有一种粗鲁的魅力，能够激起别人的忠诚……我衷心祝愿你的搜查工作顺顺利利，警官。”
+	=> choice
+	Kim Kitsuragi: “我们在海岸上找到了那个*临时住所*，小姐，甚至还跟女房东聊过了。她好像……对嫌疑人相当忠诚……”
+	Klaasje (Miss Oranje Disco Dancer): “是的，露比的粗鲁也有她自己的魅力。”
+	Kim Kitsuragi: “……无论如何，嫌疑人已经不在那里了。”
+	=> merge_33
+	Kim Kitsuragi: “谢谢你，小姐。”他转向你。“我们应该对渔村进行彻底地搜查。”
+	Klaasje (Miss Oranje Disco Dancer): “祝你们好运，警官。”
+	=> choice
+	You: “我想我应该去渔村里四处问问。”
+	Klaasje (Miss Oranje Disco Dancer): “祝你好运，警官。”
+	=> choice
+- “露比肯定已经不在她的老临时住所了。”
+	You: “露比肯定已经不在她的老临时住所了。”
+	Klaasje (Miss Oranje Disco Dancer): “我不觉得吃惊……她是个很小心的人。但是——在你问我之前——我真的不知道她可能去了哪里。”
+	=> merge_34
+	=> merge_35
+- “为什么我觉得这里是你*赢了*？”
+	You: “为什么我觉得这里是你*赢了*？”
+	Klaasje (Miss Oranje Disco Dancer): “我真的不知道，先生。”她抿了一口冷掉的咖啡。“我完全不*觉得*自己赢了。我感觉很糟糕，先生。一直都是这样。”
+	Empathy: 她笑了。一丝苦涩的微笑。她是认真的。
+	You: “但是这对你来说是件好事。你*躲过了*所有怀疑。”
+	Klaasje (Miss Oranje Disco Dancer): “显然并没有。我们现在就在谈话，不是吗？它能有*多好*呢。我的意思是说……”她看了看周围。
+	=> merge_51
+	=> merge_52
+	=> merge_53
+	You: “你说得对。”
+	Klaasje (Miss Oranje Disco Dancer): “我的意思是说……它对我来说能变得*多好*呢。”她看了看周围。
+	=> merge_51
+	=> merge_52
+	=> merge_53
+- 最后一分钟的怀疑……
+	You: 最后一分钟的怀疑……
+	=> merge_93
+- “我们说回你的那些谎言吧。”
+	You: “我们说回你的那些谎言吧。”
+	Klaasje (Miss Oranje Disco Dancer): “谎言，我……”她重复着——然后声音逐渐减弱。不清楚她到底打算说什么。
+	Drama: 是的！因为欺骗吾辈，她必须受到惩罚。吾辈要求她焦虑。吾辈要求她恐惧。
+	=> merge_93
+- 她被困在这里了。
+	You: 她被困在这里了。
+	=> merge_93
+- “你叫什么名字，小姐？我们要备案。”
+	You: “你叫什么名字，小姐？我们要备案。”
+	Klaasje (Miss Oranje Disco Dancer): “卡拉洁·阿曼多。”
+	Encyclopedia: 跟提图斯说的名字相同。就像她的口音，听起来就像奥兰治人。
+	=> choice_3
+	=> merge_78
+	Encyclopedia: 跟提图斯说的名字相同。听起来很像奥兰治人——她的口音也一样。
+	=> choice_3
+	=> merge_78
+	Klaasje (Miss Oranje Disco Dancer): “当然。”她抽了一口烟。
+	=> choice_3
+- “我需要再跟你说说你房间的事。”
+	You: “我需要再跟你说说你房间的事。”
+	Klaasje (Miss Oranje Disco Dancer): “是吗？”
+	=> choice_7
+- “你的房间挺不错的。”
+	You: “你的房间挺不错的。”
+	Klaasje (Miss Oranje Disco Dancer): “是啊，它是挺*豪华*的。”
+	=> choice_7
+	Suggestion: 没人喜欢谈论他们的脏衣服还有空瓶子。也许如果你的措辞再情绪化一些……
+	=> choice_7
+- “我们再说说这个所谓的袭击吧。”
+	You: “我们再说说这个所谓的袭击吧。”
+	=> merge_93
+- “他们说你被强暴了。”
+	You: “他们说你被强暴了。”
+	=> merge_93
+- 标准反威勒尔骰子。
+	You: 标准反威勒尔骰子。
+	=> merge_93
+- “我们已经完成了尸检，想问一些有关莱利的问题。”
+	You: “我们已经完成了尸检，想问一些有关莱利的问题。”
+	Kim Kitsuragi: 警督点点头，拿出了他的笔记本。“我来看看。我记下了一个叫‘莱利斯塔德’的昵称。”他的手指在页面上滑动……
+	Kim Kitsuragi: ……然后撕下一张，递给了你。“我们有些问题，也许能帮忙解决现场尸检的时候发现的一些空白。我做笔记的同时，相信我的同事会有一些自己的问题。”
+	=> merge_93
+	Kim Kitsuragi: “是的，小姐。希望你不要介意。”警督把他的笔记递给了你。
+	=> merge_93
+- “能跟我们多说说莱利，那个上吊的男人吗？我的搭档需要听听这个。”
+	You: “能跟我们多说说莱利，那个上吊的男人吗？我的搭档需要听听这个。”
+	=> merge_93
+- “能多跟我说说被害人吗？我的意思是说，基本信息。”
+	You: “能多跟我说说被害人吗？我的意思是说，基本信息。”
+	=> merge_93
+- “关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”
+	You: “关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”
+	=> merge_77
+- “关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”〔同文重复 2〕
+	You: “关于死者，我还有一些问题，不过在我询问之前，我得先把搭档找来……”
+	=> merge_77
+- “哈迪兄弟把事情的真相告诉我们了。”
+	You: “哈迪兄弟把事情的真相告诉我们了。”
+	=> merge_93
+- “这是什么野花？”（把花给她看。）
+	You: “这是什么野花？”（把花给她看。）
+	Klaasje (Miss Oranje Disco Dancer): 她看着你手中枯萎的花瓣，然后用手指甲轻轻碰触了其中一瓣。
+	Perception (Sight): 斑驳的白色指甲油覆盖在她的指甲上。它很长很尖利，就像一把迷你匕首。花瓣一碰到就碎了。
+	Klaasje (Miss Oranje Disco Dancer): “很漂亮。看起来像是一朵枯萎的*铃兰*——这就是你抓到的那朵吗？萨拳风？”
+	You: “萨拳是什么？”
+	Klaasje (Miss Oranje Disco Dancer): “一种武术，长官。”她扬起眉毛。“就这些吗？”
+	Encyclopedia: 萨马拉拳击，或者又称为萨拳。优雅的武术类的东西。“萨拳风”意味着潜行和镇静。
+	You: “是的。它为什么会在那里呢？”
+	=> merge_83
+	=> merge_80
+	You: “它为什么会在那里？”
+	=> merge_83
+	=> merge_80
+- “现在金不在——我们说说周日晚上的事吧。”
+	You: “现在金不在——我们说说周日晚上的事吧。”
+	=> merge_93
+- “我注意到你的房间离我的很近。我有个私人问题。”
+	You: “我注意到你的房间离我的很近。我有个私人问题。”
+	=> merge_93
+- “我们稍后再继续，小姐。”[离开。]
+	You: “我们稍后再继续，小姐。”[离开。]
+	Klaasje (Miss Oranje Disco Dancer): “为什么不呢？我会在这里待到23点，很可能是在喝咖啡……”
+	=> merge_93
+~ merge_45
+Kim Kitsuragi: “我是金·曷城。”警督上前一步。“我是57分局的一名警探。看来你已经见过我的同事了。”
+Empathy: 这对他来说也不是什么好消息。
+=> merge_09
+=> merge_10
+=> merge_11
+=> merge_12
+=> merge_13
+=> merge_14
+=> merge_15
+=> merge_16
+~ choice_10
+- “你这里的景色很好。”
+	You: “你这里的景色很好。”
+	Klaasje (Miss Oranje Disco Dancer): “现在好多了。”她看向北边，院子的方向。
+	Visual Calculus: 那个曾经挂着尸体的地方，从屋顶可以一览无余。但是现在已经不在。
+	Klaasje (Miss Oranje Disco Dancer): “谢谢你，警官。真心的。”
+	Empathy: 她的浅棕色眼睛里有些什么……一种悲伤。在她想到那个男人死去的时候。
+	=> choice_10
+	Empathy: 她的眼睛里有些什么……相同的悲伤？是的，还是她第一次在走廊里告诉你上吊男人的时候，没错，是在走廊里。
+	=> choice_10
+	Klaasje (Miss Oranje Disco Dancer): “很好？那我就不知道了，警官……”她看向北边，院子的方向。
+	The Hanged Man: 地面上还躺着一个男人成熟的尸体，上面布满绿色和紫色的斑点。
+	=> merge_60
+	The Hanged Man: 树上还挂着一具成熟的尸体，上面布满绿色和紫色的斑点。
+	=> merge_60
+- “有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）
+	You: “有清洁女工的吗？我觉得我*需要*一个。”（礼貌地继续。）
+	Klaasje (Miss Oranje Disco Dancer): “是的！1号房间的传说已经在这里传开了。他们说那里已经开启了通往地狱的大门。”
+	You: “没错。”
+	Klaasje (Miss Oranje Disco Dancer): “他们*还说*这就是清洁女工辞职的原因。”
+	=> merge_09
+	=> merge_10
+	=> merge_11
+	=> merge_12
+	=> merge_13
+	=> merge_44
+	=> merge_45
+	=> merge_14
+	=> merge_15
+	=> merge_16
+	You: “迪斯科地狱。”
+	Klaasje (Miss Oranje Disco Dancer): 她赞同地点点头。“他们还说这就是清洁女工辞职的原因。因为*地狱*。”
+	=> merge_09
+	=> merge_10
+	=> merge_11
+	=> merge_12
+	=> merge_13
+	=> merge_44
+	=> merge_45
+	=> merge_14
+	=> merge_15
+	=> merge_16
+	You: “地狱？你根本不知道自己在说什么！”
+	Klaasje (Miss Oranje Disco Dancer): “哦，我*当然*知道了——他们还说这就是清洁女工辞职的原因。”
+	Rhetoric: 她刚刚承认跟地狱之间的交情很好——生活不易啊，这是肯定的。
+	=> merge_09
+	=> merge_10
+	=> merge_11
+	=> merge_12
+	=> merge_13
+	=> merge_44
+	=> merge_45
+	=> merge_14
+	=> merge_15
+	=> merge_16
+	You: “这里确实存在黑暗能量漩涡，不过不是通往地狱——而是另一个地方。*第三个*地方，跟我们的世界很不一样。”
+	Klaasje (Miss Oranje Disco Dancer): “第三个地方？有意思。”她抿了一口咖啡。“这也许就是清洁女工辞职的原因吧。”
+	=> merge_09
+	=> merge_10
+	=> merge_11
+	=> merge_12
+	=> merge_13
+	=> merge_44
+	=> merge_45
+	=> merge_14
+	=> merge_15
+	=> merge_16
+	You: “不，我只是把这个地方搞得乱七八糟。”
+	Klaasje (Miss Oranje Disco Dancer): “我知道。”她的眉毛笑弯了腰。“这*可能*也是清洁女工辞职的原因。”
+	=> merge_09
+	=> merge_10
+	=> merge_11
+	=> merge_12
+	=> merge_13
+	=> merge_44
+	=> merge_45
+	=> merge_14
+	=> merge_15
+	=> merge_16
+- “没时间开玩笑了。我们有问题要问你。”（匆忙继续。）
+	You: “没时间开玩笑了。我们有问题要问你。”（匆忙继续。）
+	Klaasje (Miss Oranje Disco Dancer): “没错。”她转身迎着风，让风吹干她的头发。
+	=> merge_09
+	=> merge_10
+	=> merge_11
+	=> merge_12
+	=> merge_13
+	=> merge_44
+	=> merge_45
+	=> merge_14
+	=> merge_15
+	=> merge_16
+~ merge_09
+Klaasje (Miss Oranje Disco Dancer): “我有没有……这就是传说中的末日警察。”
+Klaasje (Miss Oranje Disco Dancer): “我不是警察方面的专家，不过在我听起来，好像是一个非常特殊的警官。”
+You: “是的，我这种类型罕见地难以置信。”
+Klaasje (Miss Oranje Disco Dancer): “哇哦，还有*警察类型*……”水蒸气从她手中的咖啡杯上升腾而起。
+Kim Kitsuragi: “我可以向你保证——真的，绝对*没有*。”
+=> merge_01
+=> merge_02
+You: “我已经不再是末日警探了。预言是错误的。那些兆头毫无意义。宿醉已经过去了。”
+=> merge_36
+Klaasje (Miss Oranje Disco Dancer): “他的到来是世界末日的标志。这一切，”她环顾四周，“将会在短短几天内崩溃。”
+=> merge_69
+=> merge_70
+=> merge_71
+=> merge_72
+Klaasje (Miss Oranje Disco Dancer): “出什么事了，老兄？末日不是已经近在咫尺了吗。我们为什么还留在这里？”
+=> merge_69
+=> merge_70
+=> merge_71
+=> merge_72
+Klaasje (Miss Oranje Disco Dancer): “不过——如果我记的没错——还有好几个世纪的时间呢。非常虎头蛇尾。”
+=> merge_69
+=> merge_70
+=> merge_71
+=> merge_72
+~ choice_3
+- “你是从哪里来的？”
+	You: “你是从哪里来的？”
+	Klaasje (Miss Oranje Disco Dancer): “奥兰治共和国，弗里德堡。”
+	Reaction Speed: 被害人的种族也*可能*是奥兰治……——也许之后再深究？
+	=> choice_3
+	=> choice_3
+	Reaction Speed: 那个上吊男人身上不是有*奥兰治*水路地图的纹身吗？一个想法慢慢在你脑海中形成，然后又消散了——这件事之后再说。
+	=> choice_3
+- “奥兰治是什么？”
+	You: “奥兰治是什么？”
+	Klaasje (Miss Oranje Disco Dancer): “一段糟糕的记忆，警官。”
+	Encyclopedia: 奥兰治共和国是蒙迪洲上的一个民主国家，就在这里的北部，跨过海洋，穿越灰域。它是六大奥西登国家之一，保持着对瑞瓦肖的占有权（联盟国）。大家都觉得它是一个*通情达理*的超级大国。
+	You: 通情达理？
+	Encyclopedia: 他们会让你变成一个财政殖民地，转移你的自然资源，持有专利和股份，但是不会像全盛时期的瑞瓦肖一样，威胁着*随时可以把你灭掉*。
+	=> merge_62
+	=> merge_63
+	=> merge_62
+	=> merge_63
+- “你多大？”
+	You: “你多大？”
+	Klaasje (Miss Oranje Disco Dancer): “28岁。”她抽了一口烟。
+	=> choice_3
+- “你是做什么的，小姐？你有什么*特长*？”
+	You: “你是做什么的，小姐？你有什么*特长*？”
+	Klaasje (Miss Oranje Disco Dancer): “一些蠢事。”
+	Esprit de Corps: 想听是什么蠢事？在布吉街某处的一间公寓里，一个年轻男人向巡警提尔布鲁克展示着自己的生殖器疣，询问它们是不是*癌症*。
+	=> merge_19
+	Esprit de Corps: 他的搭档埃米尔·莫林有事来不了了……他在另一间公寓里，另一个男人在给他看暖气片下面的一条死狗。“那玩意死了。”莫林说道。“不，”男人回应，“我摸过他了。他还有体温。”“他之所以是温热的，”莫林答道，“是因为他就在暖气片下面。”
+	Esprit de Corps: ‘它是热的，’莫林回复到，‘是因为它在散热器下面。’
+	You: “你是个警察？”
+	Klaasje (Miss Oranje Disco Dancer): “不是的。*更加*愚蠢一些——奥兰治文学。”
+	=> merge_65
+	=> merge_19
+- “奥兰治文学——你拿它*做什么*呢？”
+	You: “奥兰治文学——你拿它*做什么*呢？”
+	Klaasje (Miss Oranje Disco Dancer): “没什么。我什么也不做。”
+	- “那你怎么赚钱呢？钱很重要的。”（拿点钱给她看。）
+		You: “那你怎么赚钱呢？钱很重要的。”（拿点钱给她看。）
+		Klaasje (Miss Oranje Disco Dancer): “很酷。”她看着你手里的白色硬币。“做*我本人*都比奥兰治文学要赚的多。”
+		=> merge_20
+		=> merge_21
+		Klaasje (Miss Oranje Disco Dancer): “很酷。”她看着你手上的黑色纸币。“做*我本人*都比奥兰治文学要赚的多。”
+		=> merge_20
+		=> merge_21
+	- “挺酷的。”
+		=> merge_21
+	- “那你怎么赚钱呢？钱很重要的——大家都这么跟我说。”
+		You: “那你怎么赚钱呢？钱很重要的——大家都这么跟我说。”
+		Klaasje (Miss Oranje Disco Dancer): “奥兰治文学确实没帮多少忙。做*我本人*都比奥兰治文学要赚的多。”
+		=> merge_20
+		=> merge_21
+	- “挺酷的。”
+		=> merge_21
+- “请问能看看你的护照吗？”
+	You: “请问能看看你的护照吗？”
+	Klaasje (Miss Oranje Disco Dancer): “恐怕不行，警官。”
+	Kim Kitsuragi: “为什么不行？”
+	=> merge_55
+	- “为什么？”
+		You: “为什么？”
+		=> merge_55
+	- “好吧。”
+		You: “好吧。”
+		Klaasje (Miss Oranje Disco Dancer): “感谢你的理解。”她看起来有些吃惊。
+		=> choice_3
+- “谢谢你。就这些了——只是为了备案而已。”
+	You: “谢谢你。就这些了——只是为了备案而已。”
+	Klaasje (Miss Oranje Disco Dancer): “‘备案’——真的很官方！”
+	=> choice
+~ merge_10
+Klaasje (Miss Oranje Disco Dancer): “我曾经……这是世界上最不幸的警察。”
+Authority: *不要*赞同这一点。
+You: “很抱歉。我是抱歉警探。”
+Klaasje (Miss Oranje Disco Dancer): “没事的，这样完全没问题。”她同情地点点头。“有什么事吗，警官？”
+=> merge_01
+=> merge_02
+You: “不。那已经不再是我了。现在我是明星警探。”
+Klaasje (Miss Oranje Disco Dancer): “我错了。是什么把你带回到我身边的——超级巨星吗？”
+=> merge_01
+=> merge_02
+You: “不。那已经不再是我了。现在我是末日警探。”
+Klaasje (Miss Oranje Disco Dancer): “我错了。是什么把你带回到我身边的——即将降临的末日吗？”
+=> merge_01
+=> merge_02
+You: “那已经不再是我了。现在我是一个普通的警察。普通的执法人员。”
+Klaasje (Miss Oranje Disco Dancer): “如果问我的话，这是个不必要的发展。”她摇摇头。“那是什么把这个所谓的*普通*执法人员带回我身边的呢？”
+=> merge_01
+=> merge_02
+You: “那些日子已经离我远去。我来是为了问问题的。”
+Klaasje (Miss Oranje Disco Dancer): “问题？什么问题？”
+=> merge_01
+=> merge_02
+~ choice_7
+- “你在这里做什么——在褴褛飞旋？”
+	You: “你在这里做什么——在褴褛飞旋？”
+	Klaasje (Miss Oranje Disco Dancer): “我在过冬。”
+	Kim Kitsuragi: “你在这里待多久了？”
+	=> merge_48
+	You: “你在这里过冬多久了？”
+	=> merge_48
+- “什么是放克？”
+	You: “什么是放克？”
+	Klaasje (Miss Oranje Disco Dancer): “相信我，你不会想卷入这种破事的。”她弹了弹烟灰。
+	You: “我想。”
+	Klaasje (Miss Oranje Disco Dancer): “不不不。”她靠近了一些，查看你的鬓角。“你的情况已经很糟糕了。”
+	=> merge_06
+	You: “你说得对。”
+	Klaasje (Miss Oranje Disco Dancer): 她点点头，查看你的鬓角。“你的情况已经很糟糕了。”
+	=> merge_06
+- （环顾四周。）“我不想这么说，但是你的*悲伤*几乎无处不在。”
+	You: （环顾四周。）“我不想这么说，但是你的*悲伤*几乎无处不在。”
+	Klaasje (Miss Oranje Disco Dancer): “是啊……”她拖长了声音。“我把它污染地挺严重的。”
+	You: “这就是你来这里的原因？”
+	Klaasje (Miss Oranje Disco Dancer): 她点点头。“污染从一个房间扩散到另一个房间。一开始我往楼上逃。但是悲伤也追了上来。然后我发现盛夏之门的把手……”
+	Half Light: 天啊……
+	You: “如果你也把*这个*污染了呢？”（摊开你的双手。）
+	Klaasje (Miss Oranje Disco Dancer): “这个世界？”她看了看周围。
+	Shivers: 低垂的天空下，一群海鸥在嚎叫。远处的港口堆满机械。这里开阔又冰冷。
+	Klaasje (Miss Oranje Disco Dancer): “要污染这种广阔的空间是很难的——就算对于我来说也是这样。至少我希望如此。如果我真的污染了……”她露出颤抖的笑容。“我们还能去哪里？”
+	=> merge_85
+	=> merge_86
+	=> merge_85
+	=> merge_86
+- “你那里还真是收藏了不少处方药啊。”
+	You: “你那里还真是收藏了不少处方药啊。”
+	Klaasje (Miss Oranje Disco Dancer): “谢谢你——我在里面投入了大量的时间还有精力，”她的话里没有任何明显的讽刺意味。
+	Authority: 从严格的意义上讲，持有麻醉剂在瑞瓦肖是合法的。不过你还是应该训斥她。
+	=> merge_76
+	Suggestion: 不不，别听这些*死板的话*。要酷一点。
+	=> merge_76
+	Klaasje (Miss Oranje Disco Dancer): “嗯？”
+	=> merge_76
+- “这扇门是通向什么地方的？”（指着屋顶上的门。）
+	You: “这扇门是通向什么地方的？”（指着屋顶上的门。）
+	Klaasje (Miss Oranje Disco Dancer): “我不知道，警官。”她镇静地看着它。
+	=> choice_7
+	Klaasje (Miss Oranje Disco Dancer): “你把它踹下去的——你告诉我吧。”
+	=> choice_7
+- “那边那扇门……”（指向它。）“你知道它是通向楼下的*电梯*吗？”
+	You: “那边那扇门……”（指向它。）“你知道它是通向楼下的*电梯*吗？”
+	Klaasje (Miss Oranje Disco Dancer): “我没有。”她抽了一口烟。“你觉得这跟发生的事有什么关联吗？”
+	=> merge_23
+	=> merge_24
+	Klaasje (Miss Oranje Disco Dancer): “我不知道。”她抽了一口烟，笑了。“那谜题就解开了。我一直也很好奇它会通向哪里。”
+	Reaction Speed: 这个*秘密*的内容可能远不止这样——之后再说吧。她有所隐瞒。暂时先记在心里吧。
+	=> choice_9
+	Klaasje (Miss Oranje Disco Dancer): “嗯。”她抽了一口烟。“继续吧。”
+	=> choice_9
+	Klaasje (Miss Oranje Disco Dancer): 她看着那扇门。突然，她睁大了双眼。“哦……你觉得*露比*可能就是这样进来的吗？上到*屋顶*？她可以从那里上来的！”
+	=> merge_23
+	=> merge_24
+- “窗户是新的。”
+	You: “窗户是新的。”
+	Klaasje (Miss Oranje Disco Dancer): “是的。”她微微移到你的左边，查看里面自己的倒影。
+	Reaction Speed: 这是逃避策略。要求跟进！
+	- “什么时候换的？在你停留的期间内。”
+		You: “什么时候换的？在你停留的期间内。”
+		Klaasje (Miss Oranje Disco Dancer): “是啊……我不想骗你。别再给我增加难度了。”
+		You: “那就把真相告诉我。”
+		Klaasje (Miss Oranje Disco Dancer): “事实是我是一个可怕的女孩。我周围的窗户都会碎裂。这不是他们的错。”
+		=> merge_30
+		=> merge_31
+		You: “那就对我撒谎吧。”
+		Klaasje (Miss Oranje Disco Dancer): “我不想对执法人员说谎。这不是我的作风。”她笑了。这个笑容有些悲伤，感觉她就像是一只小小鸟或者是一只小田鼠。
+		Klaasje (Miss Oranje Disco Dancer): 然后她低语到：“我只是一个周围窗户会碎裂的女孩。”
+		=> merge_30
+		=> merge_31
+		You: “那好吧——我会放你一马。”
+		Klaasje (Miss Oranje Disco Dancer): “谢谢。”她笑了。这个笑容有些悲伤，感觉她就像是一只小小鸟或者是一只小田鼠。
+		Empathy: 在那背后是深深的，无尽的感激。
+		=> merge_30
+		=> merge_31
+	- 随她去吧。
+		You: 随她去吧。
+		Reaction Speed: 哈里，你变得软弱了。
+		=> choice_7
+	Kim Kitsuragi: 警督在笔记本里做了些笔记。
+	Empathy: 他对答案不是很满意。
+	=> choice_7
+	=> choice_7
+- “我还有其他问题要问你。”
+	You: “我还有其他问题要问你。”
+	Klaasje (Miss Oranje Disco Dancer): “好吧。”她深思着抽了一口烟。
+	Perception (Sight): 看着她自己在卧室窗户上的倒影——高挑，闪耀，被烟雾萦绕。
+	=> choice
+	Klaasje (Miss Oranje Disco Dancer): “好吧。”她沉思着，长长地抽了一口阿斯特拉薄荷烟。
+	=> choice
+~ merge_11
+Klaasje (Miss Oranje Disco Dancer): “我*本身*没有见过，不过在附近见过他，警探。嗖的一下就过去了。场面挺壮观的。”
+Kim Kitsuragi: “我肯定是这样的。在我们一起度过的时间里，我肯定已经走了30公里。他对警察工作有一套*田径*的方法。”
+Inland Empire: 难道不觉得奇怪吗？你怎么*能*跑这么久？
+Endurance: 为什么不可以呢？你就是一个精力充沛的人。
+=> merge_17
+=> merge_18
+Endurance: 事实上，是啊……怎么做到的？你的肺平平无奇。
+=> merge_17
+=> merge_61
+Endurance: 确实。你完全不觉得自己像个精力充沛的人。
+=> merge_17
+=> merge_61
+=> merge_18
+=> merge_18
+=> merge_18
+~ choice_9
+- “另一边有一个偷窥孔，可以看到你的卧室。”
+	You: “另一边有一个偷窥孔，可以看到你的卧室。”
+	Klaasje (Miss Oranje Disco Dancer): “一个偷窥孔？你是说类似墙上那种孔吗？”
+	Kim Kitsuragi: “是的。能看到你的卧室，小姐。”警督指着她的窗户。透过玻璃可以看到还没整理好的床铺。
+	=> merge_25
+	You: “能看到你的卧室，小姐。”
+	=> merge_25
+- “你肯定*有些*想法——谁可能会有兴趣挖出那个孔呢？”
+	You: “你肯定*有些*想法——谁可能会有兴趣挖出那个孔呢？”
+	Klaasje (Miss Oranje Disco Dancer): “说实话，我真的不知道。”
+	Logic: 暂时不行？也许她是打算留作下一步动作，等到她自己更确定一些的时候……
+	=> choice_9
+- “地板上留下了一些痕迹，是最近的。”
+	You: “地板上留下了一些痕迹，是最近的。”
+	Klaasje (Miss Oranje Disco Dancer): “嗯。这可不太妙啊。”
+	Composure: 突然之间，她站地像棍子一样笔直。
+	Half Light: 她感觉自己就像个猎物，被重重包围……她的眼睛瞥向那扇门。
+	=> choice_9
+- “那是一间破旧的弹球工作室，就是后面那个房间。这个地方曾经是一家弹球游戏室。”
+	You: “那是一间破旧的弹球工作室，就是后面那个房间。这个地方曾经是一家弹球游戏室。”
+	Klaasje (Miss Oranje Disco Dancer): “好吧。”她笑了。“很高兴至少*有人*玩的很开心。”
+	=> choice_9
+- “暂时先这样吧。”（总结。）
+	You: “暂时先这样吧。”（总结。）
+	Klaasje (Miss Oranje Disco Dancer): “嗯……”她心不在焉地弹了弹烟灰。
+	Empathy: 她陷入了沉思——眼睛眯起，前额挤出了沟痕……
+	=> choice_7
+~ merge_12
+Klaasje (Miss Oranje Disco Dancer): “我有没有……这就是独一无二的超级警探。他可是这里的大人物。”
+You: “听见了吗，金？我是这附近的*大*人物。”
+=> merge_84
+You: “金，我发誓不知道她在说什么。”
+=> merge_84
+You: “这是……呃……我告诉过你的*那些事*的一部分。”
+Kim Kitsuragi: “没错，我能理解，警官。”他转向那个年轻女子。
+=> merge_01
+=> merge_02
+You: “很遗憾，自从我们上次见面以来，我已经改变了*警察类型*。现在我是个不同的警察了。”
+Klaasje (Miss Oranje Disco Dancer): “哇哦……”水蒸气从她手中的咖啡杯上升腾而起。
+You: “是的。*哇哦*。”（靠近。）“现在我是行星屠宰场的传令官。即将降临的屠宰场。”
+Klaasje (Miss Oranje Disco Dancer): “确实让人惊叹……那是什么把这个传令官带回到我身边的呢？”
+=> merge_01
+=> merge_02
+You: “不是。不是哇。”（靠近。）“现在我是这个世界上最无聊的警察。*那种*事情永远也不会发生了。”
+Klaasje (Miss Oranje Disco Dancer): “我很怀疑。是什么把这个*所谓的*无聊警探带到我身边的呢？”
+=> merge_01
+=> merge_02
+You: “事情离*哇哦*还离得很远呢，小姐。”（靠近。）“我已经变了，一个重生的警察，为自己的缺点而*忏悔*——我是抱歉警探。”
+Klaasje (Miss Oranje Disco Dancer): “一个忏悔的僧侣警探……”她自言自语。“是什么把这个*改变的男人*带到我身边的呢？”
+=> merge_01
+=> merge_02
+You: “马丁内斯很幸运。*一千个*警察中间只会出现一个明星警探。”
+Klaasje (Miss Oranje Disco Dancer): “哇哦……”她转向警督。“是什么把*凤凰*带回我身边的？”
+=> merge_27
+~ merge_13
+Esprit de Corps: 在城市的另一边，警督停下来，打算抽根烟休息一下。他甩掉了这种冲动：还是今晚再说吧。你明显能感觉到他的缺席。现在已经太晚了。
+You: “小姐，我在调查，呃……”（朝院子下面比个手势。）“把他放在那里的人说，我们应该跟你聊聊。”
+=> merge_54
+You: “小姐，我在调查，呃……”（朝院子下面的尸体比个手势。）“把他放在那里的人说，我们应该跟你聊聊。”
+=> merge_54
+~ merge_14
+Klaasje (Miss Oranje Disco Dancer): “我曾经……”她转向你。“你已经习惯‘警察’的角色了吗？”
+Authority: 哦耶，感受力量吧。
+You: “我已经习惯于这种*力量*了，小姐。”
+Klaasje (Miss Oranje Disco Dancer): “我能看出来。”她抿了一口咖啡。“很适合你。”
+=> merge_26
+You: “曾经当过警察——永远都是警察。”
+Klaasje (Miss Oranje Disco Dancer): “就像骑在一辆‘警車’上。”她抿了一口咖啡。
+=> merge_26
+You: “我也*不知道*自己在做什么。”
+Klaasje (Miss Oranje Disco Dancer): “你做得挺好的——毕竟，你的道路指引你又回到了我这里。”
+=> merge_01
+=> merge_02
+You: “这对眼前这起案件不重要。”
+Klaasje (Miss Oranje Disco Dancer): “啊，我能看出来你有的，警官。”她点点头。
+=> merge_26
+~ merge_15
+Klaasje (Miss Oranje Disco Dancer): “当然见过！这是我*这辈子*遇见的招摇乐团最大的粉丝。而且我之前还见过不少……”
+Klaasje (Miss Oranje Disco Dancer): “‘当然，’”她说到。“‘生活很艰难——但是我们也要继续。’”
+Encyclopedia: 35年的合唱单曲“人类最强音”，向你灌输了一种*大爷我什么都不在乎*的招摇风范，让你在早起散步的时候可以毫无顾忌地在大妈群里横冲直撞。
+You: “与此同时，情况变得更加艰难了——不过我还会继续。”
+Klaasje (Miss Oranje Disco Dancer): “我能看出来。”她点点头。“很高兴这些*进行中的调查*把你带到了我的身边。”
+=> merge_01
+=> merge_02
+You: “你觉得，我们距离被困苦击垮还有多久呢？”
+Klaasje (Miss Oranje Disco Dancer): “哦，我的保证书还有好几年呢……”她看着银色连体裤下闪闪发光的身体。
+Endurance: 不。她在两个月之前就达到了忍耐的极限——从现在起，她的一举一动都会停留在某个地方。
+=> merge_01
+=> merge_02
+You: “事情对我来说变得简单多了。我是一个警察：嘀嘀嘀-嘟嘟嘟！”（模仿警笛的声音。）
+Kim Kitsuragi: “警笛的声音其实不是这样的。”警督转向年轻女子。
+=> merge_01
+=> merge_02
+You: “我为自己的下一次出场找到了更*悲惨*的东西。”（拿出“小教堂”的磁带）
+Klaasje (Miss Oranje Disco Dancer): “就是这个！小教堂悲歌！我很想念它，真的。”
+You: “是吗？为什么？”
+Klaasje (Miss Oranje Disco Dancer): “小教堂悲歌里就是这么唱的，警探——*悲伤*。”
+Conceptualization: 这不仅仅是一种措辞。这个年轻女子对*悲伤*的含义有着根深蒂固的理解。
+=> merge_01
+=> merge_02
+You: “你还什么都没看见呢。楼下有个*卡拉OK*舞台。”
+Klaasje (Miss Oranje Disco Dancer): “哇哦……”她怀疑地默默摇摇头，吸了一口咖啡的香气。
+You: “警察要开始花天酒地了。用悲伤的风格。”
+Kim Kitsuragi: “我向你保证，他不会以*任何*方式花天酒地的。事实上……”
+Conceptualization: 我们要让他看看。你要用所有方式花天酒地！
+=> merge_01
+=> merge_02
+You: “其实，警察不会花天酒地，这样太不专业了。”
+Kim Kitsuragi: “的确，不是吗？这样会很*奇怪*。你明白的……”
+Conceptualization: 不，不会的。它会成为主旋律。
+=> merge_01
+=> merge_02
+You: “无可奉告。”
+=> merge_01
+=> merge_02
+~ merge_16
+Klaasje (Miss Oranje Disco Dancer): “我曾经……这个男人的言语表达方式特别*难忘*。”
+You: “你一定是把我跟其他人弄混了。我只是个普通又现实的执法人员。”
+Klaasje (Miss Oranje Disco Dancer): “我表示怀疑。”她摇摇头。“那种火焰是隐藏不住的。是什么把你又带回了我身边，消防员？”
+=> merge_01
+=> merge_02
+You: “我永远也不会做出什么有趣的事情。我要努力变成世界上最普通的警察。”
+Klaasje (Miss Oranje Disco Dancer): “我怀疑你能不能成功。”她摇摇头。“所以，找我有什么事呢，警官？”
+=> merge_37
+You: “我坚持自己说过的话。”
+Klaasje (Miss Oranje Disco Dancer): 她把头歪向一旁，笑了。水蒸气从她手中的咖啡杯上升腾而起。
+=> merge_37
+You: “我想收回我之前说过的话。考虑到我们现在的处境，那些好像有些不合时宜。”
+Klaasje (Miss Oranje Disco Dancer): “这又是怎么个情况？”她看着警督。
+=> merge_01
+=> merge_02
+You: “什么也不说。”
+Klaasje (Miss Oranje Disco Dancer): “看见了吗？”她转向警督。“‘什么也不说’。真奇怪。谁说的？这里出什么事了？”
+=> merge_01
+=> merge_02
+~ merge_68
+Drama: 她不像是在撒谎——她是真心被它们的失踪吓坏了。
+- “我的工作假说是，这里面有着某种阴谋——而且它打算让我们所有人都陷入大麻烦。”
+	You: “我的工作假说是，这里面有着某种阴谋——而且它打算让我们所有人都陷入大麻烦。”
+	Klaasje (Miss Oranje Disco Dancer): 她突然对你微微一笑。“是的，肯定就是这样。谢谢你。我已经感觉好多了。”
+	=> merge_88
+- “恐怕你现在有危险了。”
+	You: “恐怕你现在有危险了。”
+	Klaasje (Miss Oranje Disco Dancer): 她想了一会儿，然后耸耸肩。“没错——不管到底是谁拿走了证件。”
+	Klaasje (Miss Oranje Disco Dancer): “这很可能只是个意外。我担心我对锁闩装置不太小心。那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+	=> merge_57
+- “也许是追踪你的人拿走的。”
+	You: “也许是追踪你的人拿走的。”
+	Klaasje (Miss Oranje Disco Dancer): 她想了一会儿，然后耸耸肩。“他们不可能知道我放在哪里了。我很肯定自己没有被跟踪。而且除了你，我没有告诉任何人……”
+	Klaasje (Miss Oranje Disco Dancer): “你提到了海水？我担心我对锁闩装置不太小心。那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+	=> merge_57
+- “我有种奇怪的感觉——是一种未被发现的*神秘动物*拿走了你的证件。”
+	You: “我有种奇怪的感觉——是一种未被发现的*神秘动物*拿走了你的证件。”
+	Klaasje (Miss Oranje Disco Dancer): “神秘动物？当然了。肯定就是这样。”她抽了一口烟，眼睛里流露出暖心的愉悦。“谢谢你。我已经感觉好多了。”
+	=> merge_88
+- “我要把这件事归档到*盗窃*的门类下。”
+	You: “我要把这件事归档到*盗窃*的门类下。”
+	Klaasje (Miss Oranje Disco Dancer): “谢谢你，不过老实说——我仔细想了一下——你提到了海水？我担心我对锁闩装置不太小心……那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+	=> merge_57
+~ merge_33
+Klaasje (Miss Oranje Disco Dancer): “我真的不知道还能跟你说什么……”
+=> merge_34
+=> merge_35
+~ merge_34
+Kim Kitsuragi: “她正处于极大的困境之中。她有没有可能藏在某个对她来说有情感依赖的地方呢？”
+=> merge_59
+~ merge_35
+Pain Threshold: 走投无路的动物可能会寻找某处有情感价值的藏身之所。
+You: “不管她在哪，现在的情况一定很糟糕。也许她会藏在某个对她来说很有意义的地方？”
+=> merge_59
+=> choice
+~ merge_51
+Shivers: 雪花飘落在她的肩头，然后融化在她浅金色的头发上……冰冷而柔软。
+=> merge_67
+~ merge_52
+Shivers: 雨滴拍打在她的剪头，把她的金发染上了一层浅棕色。闻起来有工业污染和海水的味道。
+=> merge_67
+~ merge_53
+Shivers: 潮湿的海风，夹杂着大量海水的咸味，还有附近堆栈散发的工业污染的味道，拨乱了她的头发。
+=> merge_67
+~ merge_93
+=> END
+~ merge_78
+Perception (Sight): 她的胎记也是奥兰治的标志。你不知道为什么，但是奥兰治女孩的身上往往会有斑点。
+=> choice_3
+~ merge_77
+Klaasje (Miss Oranje Disco Dancer): “当然可以。”她笑了笑，指尖的香烟上升腾起袅袅轻烟。“做你需要做的事吧。”
+=> choice
+~ merge_83
+Klaasje (Miss Oranje Disco Dancer): “为什么屋顶上有一朵花？我不知道，警探。因为风吹来的吗？”
+Suggestion: 或者有一个爱慕者？
+- “你有什么爱慕者吗，小姐？”
+	You: “你有什么爱慕者吗，小姐？”
+	Klaasje (Miss Oranje Disco Dancer): “露比？她不可能把它留下的。她可不是那种老派的人。老实说，我不知道那朵花为什么会在那里。”
+	=> choice
+	Klaasje (Miss Oranje Disco Dancer): “爱慕者？我年纪太大，做不了初涉社交界的名媛。”她越过栏杆，看向下面的广场。“而且这里也不是上流社会。”
+	Rhetoric: 回避问题。可以推断她有仰慕者。而且还不少。
+	=> choice
+- 什么也不说。
+	You: 什么也不说。
+	Klaasje (Miss Oranje Disco Dancer): 她看着你把花瓣装进口袋，然后闭上眼镜，吸入了一口香烟……
+	=> choice
+=> choice
+~ merge_80
+You: “突然转变话题！”
+Klaasje (Miss Oranje Disco Dancer): “好吧。”她点点头，抽了一口烟。“我喜欢突如其来的感觉。”
+=> choice
+~ merge_60
+Composure: 她想表现出漠不关心的样子，不过还是要抽上一口——才能让自己不畏惧。
+Empathy: 这一定就是她说的：香烟。直接看着尸体对她而言是个伤害，所以她又把目光转回到你身上。
+=> choice_10
+Empathy: 女人没有退缩，但是她的眼睛里有些什么……相同的悲伤？是的，还是她告诉你上吊男人的时候，没错，是在走廊里。
+=> choice_10
+Empathy: 女人没有退缩，但是她的浅棕色眼睛里有些什么……是一种悲伤。
+=> choice_10
+~ merge_01
+Kim Kitsuragi: “小姐，我们在调查一个男人被绞死的凶杀案。”他低头看着院子。“相关责任人让我们跟你聊聊。”
+=> merge_54
+~ merge_02
+Kim Kitsuragi: “小姐，我们正在调查下面那个死者的凶杀案。”他低头看着院子。“把他放在那里的人让我们跟你聊聊。”
+=> merge_54
+~ merge_36
+Klaasje (Miss Oranje Disco Dancer): “哦。”她停顿了一下。“呃，你知道吗……听到这个我很难过。”
+=> merge_01
+=> merge_02
+~ merge_69
+You: “拖了这么久，让我真的很失望。真是一场闹剧……”（看着周围。）
+Klaasje (Miss Oranje Disco Dancer): “我知道，”她带着极大的忧虑说到。“现在怎么样？”
+Half Light: 现在她被困在这里了，在笼子里——就跟你一样。
+=> merge_08
+~ merge_70
+You: （满脸写满了轻视。）“他妈的已经*结束*了。”
+Klaasje (Miss Oranje Disco Dancer): “是啊，老兄。”她的脸上露出摇滚式的笑容。
+=> merge_08
+~ merge_71
+You: “新的信息已经浮出水面——现在只是几个*星期*的问题了。一次伟大的阶级审判。瑞瓦肖会在义务警员的暴力行径中爆发。这是我的预言。”
+Klaasje (Miss Oranje Disco Dancer): “哇哦……”水蒸气从她手中的咖啡杯上升腾而起。“那能停止吗？如果不能，剩下来的时间我们能做些什么？”
+=> merge_01
+=> merge_02
+~ merge_72
+You: “要知道，我不再是末日警探了。预言是错误的。那些符号没有任何意义。宿醉已经过去了。”
+=> merge_36
+~ merge_62
+You: “什么糟糕的记忆？”
+Klaasje (Miss Oranje Disco Dancer): “丁香花和闪电。”她眯起眼睛，好像在远处看到了它们。“公园，玻璃，杜拉铝——弗里德堡是一个会议很多的城市。那里一直是秋天。还有夜晚。至少对于我来说是这样的。”
+You: “那有什么不好的？”
+=> merge_64
+Kim Kitsuragi: “那有什么不好的？”
+=> merge_64
+~ merge_63
+You: “明白，小姐。”
+=> merge_74
+~ merge_19
+You: “那是什么？”
+Klaasje (Miss Oranje Disco Dancer): “奥兰治文学。”
+=> merge_65
+~ merge_65
+You: “奥兰治文学？”
+Klaasje (Miss Oranje Disco Dancer): “奥兰治文学。我在*大学*研究的就是这个。”她扬起双眉。
+You: “奥兰治文学是讲什么的？”
+Klaasje (Miss Oranje Disco Dancer): “害怕失败，害怕死亡。做奥兰治人有多么*糟糕*。所有国家的文学作品都是这样——只是换了个国家名称。”
+Conceptualization: 瑞瓦肖文学呢？人们在讨论一些事情的时候，有时候会暴露出自己的一些东西……
+- “瑞瓦肖文学也是吗？”
+	You: “瑞瓦肖文学也是吗？”
+	Klaasje (Miss Oranje Disco Dancer): “不是！”她好像很高兴你能这么问。“瑞瓦肖文学说的都是瑞瓦肖有多么的*壮丽和庄重*。讲的都是你该如何拯救这个世界。”
+	You: “我没有那样做的打算。”
+	Klaasje (Miss Oranje Disco Dancer): “这只是瑞瓦肖英雄经历的一个阶段……”她吸了一口薄荷味的香烟，细细品味……
+	Klaasje (Miss Oranje Disco Dancer): ……然后吐了出来。“在他们全身心投入到拯救人类和拯救世界的使命之前。”
+	=> merge_46
+	=> choice_3
+	You: “我确实感觉到拯救世界的冲动，没错。我猜这就是我调查这起案件的原因。”
+	Klaasje (Miss Oranje Disco Dancer): “那是瑞瓦肖英雄的自然状态……”她吸了一口薄荷味的香烟，细细品味——然后吐了出来。
+	=> merge_46
+	=> choice_3
+	You: “这个世界不重要——我想听听你的事。”
+	Klaasje (Miss Oranje Disco Dancer): “奇怪，一般瑞瓦肖英雄不会拯救女人的……”她吸了一口薄荷味的香烟，细细品味……
+	Klaasje (Miss Oranje Disco Dancer): ……然后吐了出来。“这是一种轻佻的追求。他转而拯救了全人类。”
+	=> merge_46
+	=> choice_3
+- “说回你吧。”
+	=> merge_82
+Inland Empire: 如果说这是真的，那*瑞瓦肖文学*就像手套一样适合你。
+=> choice_3
+=> choice_3
+=> merge_82
+~ merge_20
+You: “那你本人是什么？”
+Klaasje (Miss Oranje Disco Dancer): “很多身份。轮滑教练，秘书，37年的奥兰治小姐。”她笑了。
+Empathy: 这是世界上最疲惫的笑容。
+Electrochemistry: 奥兰治小姐？这才是你应该*流连*的问题。
+=> choice_4
+Visual Calculus: 她当然会赢得选美比赛了。她很匀称。
+=> choice_3
+~ choice_4
+- 难道不觉得，呃……流连有些不合适吗？
+	You: 难道不觉得，呃……流连有些不合适吗？
+	Electrochemistry: 综合各方面考虑——非常不合适。现在开始流连吧。
+	=> choice_4
+- “37年的奥兰治小姐是什么？”
+	You: “37年的奥兰治小姐是什么？”
+	Klaasje (Miss Oranje Disco Dancer): “是一个选美比赛。本世纪37年举办的——在奥兰治。”
+	Logic: 那时候她14岁。
+	=> choice_4
+	=> choice_4
+- “选美比赛是什么？”
+	You: “选美比赛是什么？”
+	Klaasje (Miss Oranje Disco Dancer): “是一个比赛。”她抽了一口烟。“专门为蠢女孩准备的。男人看着她们，然后选出里面最漂亮的那一个。”
+	=> choice_4
+- “什么是漂亮？”
+	You: “什么是漂亮？”
+	Klaasje (Miss Oranje Disco Dancer): “当你跟标准之间的偏差最小的时候就是漂亮。别人告诉我说，这是我拥有的一种平庸之才。”
+	You: “所以你是最漂亮的那一个了？”
+	Klaasje (Miss Oranje Disco Dancer): “是的。因为这样，我得到了一顶王冠和一条饰带——还有一根权杖。还有学习奥兰治文学的奖学金。”
+	=> choice_4
+	You: “所以你很蠢，还很平庸？”
+	Klaasje (Miss Oranje Disco Dancer): “不。”她伸长脖子。“我是*最*蠢，最平庸的那个。我得到了一顶王冠和一条饰带——还有一根权杖。还有学习奥兰治文学的奖学金。”
+	=> choice_4
+- “那时你14岁？”
+	You: “那时你14岁？”
+	Klaasje (Miss Oranje Disco Dancer): “是的。”
+	Empathy: 她的声音对于数字漠不关心。
+	You: “厉害。”（竖起大拇指。）
+	Klaasje (Miss Oranje Disco Dancer): “超级酷的。”她举起咖啡杯，像是在祝酒。“大曝光——我是37年奥兰治的*妙龄*小姐。选美比赛最近中断了。”
+	Rhetoric: 又一个无辜的传统被道德*发展*前进的步伐给消除了！
+	=> choice_3
+	You: （放下拇指。）“我不赞成这种习俗。”
+	Klaasje (Miss Oranje Disco Dancer): “没事的。”她耸耸肩。“其实是叫37年奥兰治*妙龄*小姐。选美比赛已经中断了，听到这个消息你一定很高兴吧。”
+	Rhetoric: 道德发展前进的步伐还在继续。
+	=> choice_3
+	You: “我觉得14岁的我根本不存在。”
+	Klaasje (Miss Oranje Disco Dancer): “我也没有，”她平静地说到。“我觉得是*酒精*让你产生了这种感觉。肯定跟派对有所关联。”
+	=> choice_3
+	Kim Kitsuragi: “我觉得我没有听过任何跟调查无关的事。”
+	Klaasje (Miss Oranje Disco Dancer): “拜托，警探，放他一马吧。这可能是人类存在的最后时刻了。”
+	=> choice_3
+	Klaasje (Miss Oranje Disco Dancer): “拜托，警探，放他一马吧。这家伙经历了一些很沉重的感情负担。”
+	=> choice_3
+	Klaasje (Miss Oranje Disco Dancer): “拜托，警探，他是这片土地上最追悔莫及的执法人员了。我不介意的。”
+	=> choice_3
+	Klaasje (Miss Oranje Disco Dancer): “没事的，他只是在找方向。选美比赛的世界*的确*很让人困惑的。”
+	=> choice_3
+	Klaasje (Miss Oranje Disco Dancer): “没事的，我不介意。选美比赛的世界本身就很荒谬，很让人困惑。”
+	=> choice_3
+	Klaasje (Miss Oranje Disco Dancer): “没事的。这是明星执法人员会做的事。我已经习惯了。”
+	=> choice_3
+	Klaasje (Miss Oranje Disco Dancer): “没事的。毕竟他是个才气横溢的作家。我已经习惯了。”
+	=> choice_3
+- “明白了。”（总结。）
+	You: “明白了。”（总结。）
+	Klaasje (Miss Oranje Disco Dancer): “嗯。”她朝着桌子比了个手势。“我想给你冲杯咖啡，不过它实在是太垃圾——基本上尝起来就是毒药的味道。”她抿了一口。
+	=> choice_3
+~ merge_21
+You: “挺酷的。”
+Klaasje (Miss Oranje Disco Dancer): “没什么酷的，但是你又能做什么呢？”
+=> choice_3
+~ merge_55
+Klaasje (Miss Oranje Disco Dancer): “因为它被埋在一个密封的塑料袋里，就藏在海岸边一个隐蔽的地方。里面还有现金和机票。”
+You: “为什么？”
+=> merge_38
+Kim Kitsuragi: “感谢你能这么直率——为什么呢？”
+=> merge_38
+~ merge_48
+Klaasje (Miss Oranje Disco Dancer): 她计算着。“大概4个月。我是11月来的。”
+Logic: 跟楼下的账单一致。
+=> merge_75
+- “为什么要来这里？”
+	=> merge_75
+- “明白了。”
+	=> merge_79
+~ merge_06
+Encyclopedia: 放克是一种音乐形式，它是对瑞瓦肖三十年代产生的*新时代*审美的一种激进复兴，不过这一次是起源于格拉德的。它是随着伊尔玛大移民一起带来的。放克音乐比迪斯科更阳刚，更加以吉他为导向。甚至可以说更*危险*一些。
+=> choice_7
+~ merge_85
+You: “这个‘污染’的本质到底是什么？”
+Klaasje (Miss Oranje Disco Dancer): “对于我来说，这就是*我*和缺乏清洁服务的混合。你呢？”
+Klaasje (Miss Oranje Disco Dancer): “关于公司有些传闻，说那里发生了工业污染。”她用高跟鞋拍打着屋顶。
+=> merge_39
+=> merge_47
+Klaasje (Miss Oranje Disco Dancer): “别惊慌，不过加尔特先生暗示说那里有工业污染。”她用高跟鞋拍打着屋顶。
+=> merge_39
+=> merge_47
+~ merge_86
+You: “明白了。”
+Klaasje (Miss Oranje Disco Dancer): “主要还是缺少清洁服务。还有大量的*我*。”
+=> choice_7
+~ merge_76
+- “*麻醉剂上瘾*不是什么值得骄傲的事，小姐。”
+	You: “*麻醉剂上瘾*不是什么值得骄傲的事，小姐。”
+	Klaasje (Miss Oranje Disco Dancer): 她差点就把咖啡喷出来了：“你说什么？”
+	You: “你听见我说的了：麻醉剂上瘾是一个很严重的问题，没什么好嘲笑的，小姐。”
+	Klaasje (Miss Oranje Disco Dancer): “天啦，现在又变成麻醉剂上瘾了。如果是*两个词*的话，那就是来真的了。”
+	=> merge_89
+	Klaasje (Miss Oranje Disco Dancer): 她的脸被笑容点亮了。“很抱歉，”她恢复了镇定。
+	=> choice_8
+	=> choice_7
+	=> merge_90
+	You: “没什么。”
+	Klaasje (Miss Oranje Disco Dancer): “不！你说*麻醉剂上瘾*。这是什么词？”
+	You: “在我的脑子里，它指定的是那些滥用药物的人。”
+	=> merge_89
+	Klaasje (Miss Oranje Disco Dancer): “嗯，”她点点头，笑了。“比如说，*麻醉剂上瘾*。”
+	=> choice_8
+	=> choice_7
+	=> merge_90
+	You: “这只是一个词语。我们还是继续吧。”
+	Klaasje (Miss Oranje Disco Dancer): “当然，”她笑了。“继续什么？”
+	=> choice_8
+	=> choice_7
+	You: “这个话题可以结束了。”
+	Klaasje (Miss Oranje Disco Dancer): “当然，”她笑了。
+	=> choice_7
+- “挺让人印象深刻的。你是怎么积累这么一大堆的？”
+	You: “挺让人印象深刻的。你是怎么积累这么一大堆的？”
+	Klaasje (Miss Oranje Disco Dancer): “用钱，长官。”她抽了一口烟。“并不完全是我希望它某天能达到反明星的高度，但是正在朝那个方向发展。”
+	Encyclopedia: 反明星是（或者曾经是）一个很喜欢嗑药的维斯珀摇滚明星。由于实在是嗑的太狠，最后他突变了——变成了一具尸体。
+	=> choice_8
+	=> choice_7
+- “没有什么问题了。”
+	You: “没有什么问题了。”
+	Klaasje (Miss Oranje Disco Dancer): “我一直听说你们RCM的人挺酷的。”她用香烟朝你比划着。“你的确很酷。”
+	=> choice_7
+~ choice_8
+- “藏品里还包含纳克拉——一种阿片类拮抗剂。”
+	You: “藏品里还包含纳克拉——一种阿片类拮抗剂。”
+	Klaasje (Miss Oranje Disco Dancer): “当你吃了太多阿片类药物的时候，它就能派上用场了。”
+	You: “你经常会出现这种情况吗？”
+	=> merge_32
+	Kim Kitsuragi: “你经常会出现这种情况吗，小姐？”他的口气并不咄咄逼人，只是有些好奇。
+	=> merge_32
+- “除此之外，你好像还有，帕立太特。”
+	You: “除此之外，你好像还有，帕立太特。”
+	Klaasje (Miss Oranje Disco Dancer): “哦，是的。我的最爱之一。它能治愈很多疾病。”
+	You: “比如什么？”
+	Klaasje (Miss Oranje Disco Dancer): “比如没办法36小时不睡觉。”她想到。“不开心。它能治愈*那些*疾病。基本上它只是镜像版的思必得微粒。”
+	=> choice_8
+- “好吧。我拿了一些。个人用。”（把*帕立太特*拿给她看。）
+	You: “好吧。我拿了一些。个人用。”（把*帕立太特*拿给她看。）
+	Klaasje (Miss Oranje Disco Dancer): “嗯？”她看着手中的毒品。“混帐东西把我的帕立太特拿走了！看来你欠了我一个人情，警官。我说的可是严重的腐败行为。”
+	Kim Kitsuragi: “这并不相当于真正的腐败。我很容易就能地把它记录在没收的栏目下面。”
+	Klaasje (Miss Oranje Disco Dancer): “啧……啧啧……”她笑着自言自语到。“被一个普通的拦路强盗打劫了。”
+	=> merge_58
+	- “这叫没收。”
+		You: “这叫没收。”
+		Klaasje (Miss Oranje Disco Dancer): “啧……啧啧……”她自言自语。“就像个普通的拦路强盗。对于我来说，这个问题在一个恰当的时间点*还会*出现的，迪斯科警官。”
+		=> merge_58
+	- “只是要注意自己的健康，小姐。”
+		You: “只是要注意自己的健康，小姐。”
+		Klaasje (Miss Oranje Disco Dancer): “啧……啧啧……”她自言自语。“像个普通的拦路强盗把它拿走了。别以为这个问题不会再出现了——对于我来说——只要遇到一个恰当的时间点，迪斯科警官。”她笑了。
+		=> merge_58
+	- “当时我正在经历思必得带来的严重副作用。我需要支撑自己。”
+		You: “当时我正在经历思必得带来的严重副作用。我需要支撑自己。”
+		Klaasje (Miss Oranje Disco Dancer): “哇哦……一个老练又无情的拦路强盗。别以为这个问题不会再出现了——对于我来说——只要遇到一个恰当的时间点，迪斯科警官。”她笑了。
+		=> merge_58
+- “那么，就到此为止吧。”
+	You: “那么，就到此为止吧。”
+	Klaasje (Miss Oranje Disco Dancer): “非常放克风。”她抽了一口烟，直直地望向你的眼睛。
+	=> merge_92
+	=> choice_7
+~ merge_23
+Kim Kitsuragi: “有这个可能。”
+=> merge_66
+~ merge_24
+- “有这个可能。”
+	You: “有这个可能。”
+	=> merge_66
+- “不见得。”
+	You: “不见得。”
+	Klaasje (Miss Oranje Disco Dancer): “我不知道……”她皱起眉头，不是很确定。“还有别的吗？那后面？”
+	=> choice_9
+~ merge_30
+Authority: 感觉很成功。
+=> choice_7
+~ merge_31
+Kim Kitsuragi: 你听见警督的笔涂画的声音。
+=> merge_30
+~ merge_17
+Physical Instrument: 这跟奉献有关，孩子。你*可能*是一个体育老师。只有当过体育老师的人会产生这些想法，还能喝这么多酒。
+- 等什么？我是什么？
+	You: 等什么？我是什么？
+	=> merge_73
+- 体育老师？
+	You: 体育老师？
+	=> merge_73
+=> merge_18
+~ merge_18
+Klaasje (Miss Oranje Disco Dancer): “那是什么把田径之神一路带到这里的呢？”
+=> merge_01
+=> merge_02
+~ merge_61
+- 我是怎么做到的……
+	You: 我是怎么做到的……
+	=> merge_81
+- 没关系。
+	You: 没关系。
+	=> merge_81
+~ merge_25
+Klaasje (Miss Oranje Disco Dancer): “好吧……”为了消化这条信息，她稍微停顿了一下。
+Empathy: 她的身体因为恐惧和厌恶而颤抖着，从肩膀开始，一直延伸到臀部。现在连香烟的味道也变得很难闻。
+Klaasje (Miss Oranje Disco Dancer): “你觉得这跟我*有关系*吗？”
+=> merge_41
+=> merge_42
+=> merge_43
+Klaasje (Miss Oranje Disco Dancer): “你会不会觉得……露比经过那里……会不会跟这个有关？”
+=> merge_41
+=> merge_42
+=> merge_43
+~ merge_84
+Kim Kitsuragi: “小姐，我不知道他跟你说过什么，不过警察里面没有什么超级明星。”
+Klaasje (Miss Oranje Disco Dancer): “当然是了。你看看他……”她看着你，然后看着警督。“他是凤凰。是什么把凤凰带回我身边的？”
+=> merge_27
+~ merge_27
+Encyclopedia: 凤凰是纪尧姆·列米利翁众多昵称中的一个，他是瑞瓦肖第二伟大的（男性）迪斯科舞者。这是一种荣耀。
+=> merge_01
+=> merge_02
+~ merge_54
+Klaasje (Miss Oranje Disco Dancer): “啊，我明白了。”她沉思着抽了一口薄荷香烟。
+Suggestion: 要小心。先问点别的。当你问到*那件事*的时候，用一些类似‘我听说你经历了一些困难’的话语。
+Physical Instrument: 没必要磨磨蹭蹭的。她很坚强。
+- 我就单刀直入了。我可不想表现地像个多愁善感的人。
+	You: 我就单刀直入了。我可不想表现地像个多愁善感的人。
+	Physical Instrument: 干得好，小子。她能承受的。
+	=> choice
+- 谢了教练，不过我觉得这次我还是*磨蹭*一点的好。
+	You: 谢了教练，不过我觉得这次我还是*磨蹭*一点的好。
+	Physical Instrument: 你会显得很多愁善感的！
+	Authority: 强身健体教练表现的有点过火——就算按我的标准来看也是如此。先说点别的吧。
+	=> choice
+=> choice
+Composure: 她可能在想些什么呢？很难说——她的肩膀很放松，眼睛一直盯着香烟。
+Conceptualization: 就好像她有点……失望，因为这不是什么更加令人愉悦的事。
+=> choice
+~ merge_26
+Suggestion: 她的目光在你的肩膀上游移的方式——蕴含着一点点奉承的意味。
+=> merge_01
+=> merge_02
+~ merge_37
+Electrochemistry: 在寒风中几乎难以察觉，但是她脸颊和脖子上的血管扩张了。
+=> merge_01
+=> merge_02
+~ merge_88
+Klaasje (Miss Oranje Disco Dancer): “我仔细想了一下——你提到海水。我担心我对锁闩装置不太小心。那些证件可能，”她晃了晃手中的香烟，“被冲走了……”
+=> merge_57
+~ merge_57
+Inland Empire: *冲走*这个词听起来很遥远，突然间还有些奇怪。远处的某个地方传来一阵狗吠。
+=> choice
+~ merge_59
+Klaasje (Miss Oranje Disco Dancer): “露比确实充满热情，不过也很多愁善感——不，也算不上……不过有可能是收音机——各种各样的无线电技术。很抱歉，我也帮不上你多少忙……”
+=> choice
+~ merge_67
+Klaasje (Miss Oranje Disco Dancer): “我被困在了马丁内斯。就像所有人一样。我在这里已经待了……我也不知道多久？我喜欢把这个叫做是我的*屋顶封隔设施*。”
+=> choice_2
+~ choice_2
+- “那你为什么要留下来？”
+	You: “那你为什么要留下来？”
+	Klaasje (Miss Oranje Disco Dancer): “当然是因为我的*罪过*。一个邪恶又轻浮的人长久以来犯下的罪过。”
+	Klaasje (Miss Oranje Disco Dancer): “因为毁掉了我的初恋。因为帮坏人做事。这张清单还有很长很长。”
+	=> choice_2
+- “这一切对你来说已经够好了——你不知怎么的已经成功脱离了*嫌疑人*的范围。”
+	You: “这一切对你来说已经够好了——你不知怎么的已经成功脱离了*嫌疑人*的范围。”
+	Klaasje (Miss Oranje Disco Dancer): “我有吗？”她弯起眉毛，叹了口气。“为什么我还是觉得自己没有脱离*嫌疑*呢？我所做的就是把他害死了。我能理解这一点。”
+	=> choice_2
+	Kim Kitsuragi: 警督的目光越过栏杆，看向了其他地方。
+	Empathy: 他对这次谈话感觉不太舒服。他不知道该补充些什么。
+	=> choice_2
+- “我的理论好像……有些不太*对劲*的地方——关于露比的。”
+	You: “我的理论好像……有些不太*对劲*的地方——关于露比的。”
+	Klaasje (Miss Oranje Disco Dancer): “我不知道该说什么。”
+	You: “这一切好像都是偶然的——对于你来说。”
+	Klaasje (Miss Oranje Disco Dancer): “对我来说*没有什么*是偶然的。”
+	=> choice_2
+- “屋顶上那朵枯萎的花——可能是露比留下的吗？这些跟任何事都不符合。”
+	You: “屋顶上那朵枯萎的花——可能是露比留下的吗？这些跟任何事都不符合。”
+	Klaasje (Miss Oranje Disco Dancer): 她眯起眼睛。“你是说你抓到的那些小玩意吗——就是你第一次来这里的时候？在那边的屋顶上？”
+	You: “是的。”
+	Klaasje (Miss Oranje Disco Dancer): “我不知道，长官。我说过了，我不知道它们是怎么一回事。老实说，我觉得它们只是垃圾。”
+	=> merge_87
+	Klaasje (Miss Oranje Disco Dancer): “什么？”她眯起眼睛。“哦，那些啊！我不知道，长官。我说过了，我不知道它们是怎么一回事。老实说，我觉得它们只是垃圾。”
+	=> merge_87
+- “我猜，那就这样吧。”（总结。）
+	You: “我猜，那就这样吧。”（总结。）
+	Klaasje (Miss Oranje Disco Dancer): 她慢慢点点头——甚至可以说有些小心。
+	Volition: 她的眼睛里突然闪过一道奇怪的光芒。并不邪恶……但却很危险。
+	=> choice
+~ merge_08
+Conceptualization: 现在要做什么——困在这里？这个问题对她来说很私密。远不止幽默这么简单。
+=> merge_01
+=> merge_02
+~ merge_64
+Klaasje (Miss Oranje Disco Dancer): “没什么——如果你不在那里的话。”
+Empathy: 会议中心里面全是会因为你的*错误*而生气的人。
+- “你做了什么错事吗？”
+	You: “你做了什么错事吗？”
+	Klaasje (Miss Oranje Disco Dancer): “迟早，大家都会做错事。”
+	=> choice_3
+- 随它去吧。
+	You: 随它去吧。
+	=> merge_74
+=> choice_3
+~ merge_74
+Klaasje (Miss Oranje Disco Dancer): “那是过去。”她抿了一口咖啡。“谁都回不到过去。”
+Rhetoric: 谢天谢地——这是在暗示。
+=> choice_3
+~ merge_46
+Empathy: 作为一个袭击的被害人，她似乎挺放松的。不过当然了，*似乎*并不是你的优先级。
+=> choice_3
+~ merge_82
+You: “说回你吧。”
+Klaasje (Miss Oranje Disco Dancer): “说回我。”她吸了一口薄荷味的香烟，在肺里细细品味。
+=> choice_3
+~ merge_38
+Klaasje (Miss Oranje Disco Dancer): “你们的旅游手册上是这么说的——来到河流西边的时候，不要把旅游证件放在自己身边。”
+=> choice_5
+~ choice_5
+- “我很肯定我有权要求你出示护照，小姐。”
+	You: “我很肯定我有权要求你出示护照，小姐。”
+	Klaasje (Miss Oranje Disco Dancer): “警官，我喜欢这个地方，但我不想自己的旅游证件被洗劫一空之后，像个幽灵一样困在这个城市里*游荡*。”
+	Klaasje (Miss Oranje Disco Dancer): “我不想成为布吉街妓院里的契约奴仆——而且我也不希望我的亲戚来支付赎金。”
+	Logic: 在执法人员面前隐藏自己的证件还有很多别的原因。
+	=> choice_5
+- “不过这不是你把它藏起来的原因。”
+	You: “不过这不是你把它藏起来的原因。”
+	Klaasje (Miss Oranje Disco Dancer): “这*也是*我把它藏起来的原因。”
+	Kim Kitsuragi: “还有什么别的理由？”他突然变得专心起来。
+	=> merge_03
+	You: “还有什么别的理由？”
+	=> merge_03
+- “那些是什么*人*——那些不喜欢你的人？”
+	You: “那些是什么*人*——那些不喜欢你的人？”
+	Klaasje (Miss Oranje Disco Dancer): “我很*乐意*换个话题。这不重要。除非我有些……嫌疑？”她弯起眉毛。
+	Logic: 她不是说你可能需要*审问*她吗？之前说过？说她*没有做过*？这是怎么回事？
+	=> choice_6
+	=> choice_6
+- “我怎么知道你告诉我们的是不是真名？”
+	You: “我怎么知道你告诉我们的是不是真名？”
+	Klaasje (Miss Oranje Disco Dancer): “如果我要对你撒谎，我会想出一个比*卡拉洁·阿曼多*更*主流*一些的名字。这可是个……奇怪的名字。”
+	Drama: 她好像说的是实话，大人。
+	=> choice_5
+- “那好吧。”（总结。）
+	You: “那好吧。”（总结。）
+	Klaasje (Miss Oranje Disco Dancer): “好的好的。”她给自己又倒了一些咖啡。
+	Composure: 如果这些让她感到紧张，肯定没有在她的表情或者动作上表现出来。
+	=> choice_3
+~ merge_75
+You: “为什么要来这里？”
+Klaasje (Miss Oranje Disco Dancer): “是来飞旋旅社，马丁内斯，还是瑞瓦肖？”
+You: “来飞旋旅社。”
+Klaasje (Miss Oranje Disco Dancer): “因为这是马丁内斯最放克风的建筑。而且其他建筑都被炸成了地狱的模样。”
+=> choice_7
+You: “来马丁内斯。”
+Klaasje (Miss Oranje Disco Dancer): “我听说这里是过气迪斯科明星会来的地方。”
+You: “你来对地方了。”
+Klaasje (Miss Oranje Disco Dancer): 她看着你，点了点头。
+=> choice_7
+You: “你还太年轻，不能说自己是过气的迪斯科明星。”
+Klaasje (Miss Oranje Disco Dancer): 她笑了，“我真不是。”
+=> choice_7
+You: “不是的。这是个时髦的地方。这里就是未来的舞蹈所在。”
+Klaasje (Miss Oranje Disco Dancer): “如果你这么说的话，警官——如果你想这么说的话。”
+=> choice_7
+=> merge_79
+You: “来瑞瓦肖。”
+Klaasje (Miss Oranje Disco Dancer): “我一直想在一年中最糟糕的时节来看看这座‘世界上唯一的城市’。跟旅游有点关系。”
+Rhetoric: 照目前来看，这不是她来到这里唯一的理由——而且她也没有真正隐藏这一点。
+=> choice_7
+You: “来伊苏林迪洲。”
+Klaasje (Miss Oranje Disco Dancer): “来看看新新世界，”她耸耸肩。“跟旅游有点关系。”
+Rhetoric: 迄今为止，这不是她来到这里唯一的理由——而且她也没有公开隐瞒这一点。
+You: “那旧新世界怎么样了？”
+Klaasje (Miss Oranje Disco Dancer): “最后它成了个霉斑遍布的第三世界贫民窟。”
+Encyclopedia: 名字叫做伊尔玛。而且它不是的。甚至在梅斯克从周日开始进行七次殖民之后，它依然是一个工业发电厂。
+=> choice_7
+You: “那旧世界怎么样了？”
+Klaasje (Miss Oranje Disco Dancer): “变成了会议中心。很多都是。”
+=> choice_7
+=> merge_79
+~ choice_6
+- “之前你说我可能会*审问*你。只有嫌疑人才会被审问。”
+	You: “之前你说我可能会*审问*你。只有嫌疑人才会被审问。”
+	Klaasje (Miss Oranje Disco Dancer): “好吧。”她向后靠了靠。“看来我有些低估你了——或者说低估了你的宿醉，警官。”
+	Klaasje (Miss Oranje Disco Dancer): “如果我不知道的话，我会说你捏造了那些‘该死的’说辞来诱骗我说出一些蠢话。是不是这么回事呢？”
+	Kim Kitsuragi: 警督看了你一眼。
+	Esprit de Corps: 能跟她讨论你的历史其实挺好的，他想到。我可以配合。
+	=> merge_91
+	Esprit de Corps: 我们来之前应该就讨论过你的历史了，他想到。这家伙真是有太多让人不不愉快的惊喜……
+	=> merge_91
+	=> merge_91
+- “还没有。”
+	You: “还没有。”
+	Klaasje (Miss Oranje Disco Dancer): “呼……”她揉了揉眉毛。
+	=> merge_29
+- “不。我只是来聊聊的。”
+	You: “不。我只是来聊聊的。”
+	Klaasje (Miss Oranje Disco Dancer): “呼……”她揉了揉眉毛。
+	=> merge_29
+- “也许是吧。”
+	You: “也许是吧。”
+	Klaasje (Miss Oranje Disco Dancer): “不，我没有。”她挥手让你离开。
+	Empathy: 她不像是过度悲伤的样子。或者说一点也不悲伤，真的。
+	Kim Kitsuragi: “我的同事有一种*探索性*的幽默感。别跟他过不去。”
+	Esprit de Corps: 他在想：“我喜欢这种刺激，不管眼下是什么情况。可能会探出什么东西……”
+	=> choice_5
+	=> choice_5
+~ merge_79
+You: “明白了。”
+Klaasje (Miss Oranje Disco Dancer): “很放克的地方，”她一边说着，一边抿了一口咖啡。
+=> merge_92
+=> choice_7
+~ merge_39
+- “有些很不好的东西，”指着你的脑袋，“在我的脑子里。跟过去有关。”
+	You: “有些很不好的东西，”指着你的脑袋，“在我的脑子里。跟过去有关。”
+	Klaasje (Miss Oranje Disco Dancer): “它总是这么来的，不是吗？来自你的脑海——还有过去。”
+	You: “它是一种感觉。白色的，充满厄运。它是气态的。无形的。致命的。它无处不在。”
+	=> merge_22
+	You: “它是一种感觉。酸性的，充满厄运。它是气态的。无形的。致命的。它无处不在。”
+	=> merge_22
+	=> merge_40
+- “我恨物体。我是反物体特遣部队的一份子。”
+	You: “我恨物体。我是反物体特遣部队的一份子。”
+	Klaasje (Miss Oranje Disco Dancer): “那还挺硬核的，”她点点头。“我自己是反人类前特遣小队的一份子。”
+	=> merge_04
+	=> merge_05
+- “它是一个能嗅到背叛味道的恶魔。还有杏子。”
+	You: “它是一个能嗅到背叛味道的恶魔。还有杏子。”
+	Klaasje (Miss Oranje Disco Dancer): “我喜欢杏子味的口香糖！”
+	You: “我也是。”
+	=> merge_56
+	You: “我*痛恨*杏子味的口香糖。它背叛了我。”
+	=> merge_56
+- “对于我来说，它是酒精中毒，小姐。”
+	You: “对于我来说，它是酒精中毒，小姐。”
+	Klaasje (Miss Oranje Disco Dancer): “好吧。我想我也有那么一点点吧。以我对室内装饰的品味，它并没有带来多大的惊喜。”
+	=> choice_7
+- “我不知道那是什么。”
+	You: “我不知道那是什么。”
+	Klaasje (Miss Oranje Disco Dancer): “嗯，这是个*秘密*。”她抽了一口烟。“一个跟酒精有关的秘密。”
+	=> choice_7
+~ merge_47
+Inland Empire: 下面的某个地方，军事级别的悲伤从墙上滴落下来……你应该说首先要做的事。这样比较诚实。它能引导你反省自我。
+=> merge_39
+~ merge_89
+Klaasje (Miss Oranje Disco Dancer): 她笑了：“又来了——那个*只会说*的男人。我能领会。”
+=> choice_8
+=> choice_7
+~ merge_90
+Klaasje (Miss Oranje Disco Dancer): 她笑着转向警督。“又来了——那个*只会说*的男人。我能领会。”
+=> choice_8
+=> choice_7
+~ merge_32
+Klaasje (Miss Oranje Disco Dancer): “小心驶得万年船。”她抽了一口烟，笑了。
+=> choice_8
+~ merge_58
+Rhetoric: 很难说她是认真的，还是只当个玩笑。
+Electrochemistry: 她没有生气，不过是真的：现在她得去找更多帕立太特了。
+=> choice_7
+~ merge_92
+Conceptualization: 那是什么？放克城市？
+=> choice_7
+~ merge_66
+Klaasje (Miss Oranje Disco Dancer): 她忧虑地一直盯着那扇门看。风吹乱了她的头发。
+=> choice_9
+~ merge_73
+Physical Instrument: 没关系！这件事情已经过去了！女人说了些什么，现在男人在说什么……要专心一点，孩子！
+=> merge_01
+=> merge_02
+~ merge_81
+Physical Instrument: 没关系！这件事情已经过去了！女人说了些什么，现在男人在说什么……要专心一点，孩子！
+=> merge_01
+=> merge_02
+~ merge_41
+You: “可能只是个巧合。”
+=> merge_07
+~ merge_42
+You: “可能有联系。”
+=> merge_07
+~ merge_43
+You: “我们现在还不知道。”
+=> merge_07
+~ merge_87
+Klaasje (Miss Oranje Disco Dancer): “我的意思是说，我没有任何理由认为这些跟她有着某种关联。”
+=> choice_2
+~ merge_03
+Klaasje (Miss Oranje Disco Dancer): “我是个不受欢迎的姑娘。”她抽了一口烟。“我的家乡有些不喜欢我的人——如果他们出现，我就变得*很匆忙*。”
+Klaasje (Miss Oranje Disco Dancer): “那种你承受不起*找不到*证件的匆忙——但是别担心。这跟你的调查没有*任何关系*。”
+=> choice_5
+~ merge_91
+- “完全就是。”
+	You: “完全就是。”
+	Klaasje (Miss Oranje Disco Dancer): “好吧。周五晚上你给我们说了调查的事。就在楼下。在一张坐满本地小孩和码头工人的桌子前面。你基本上跟所有人都说过了。就在你把枪拿给他们看之后……”
+	=> merge_28
+- “结果它确实糟糕透顶——对于*你*来说。”
+	You: “结果它确实糟糕透顶——对于*你*来说。”
+	Klaasje (Miss Oranje Disco Dancer): “还不赖。周五晚上你给我们说了调查的事。就在楼下。在一张坐满本地小孩和码头工人的桌子前面。你基本上跟所有人都说过了。就在你把枪拿给他们看之后……”
+	=> merge_28
+- “不，那是*真诚的*。”
+	You: “不，那是*真诚的*。”
+	Klaasje (Miss Oranje Disco Dancer): “我受宠若惊。周五晚上你给我们说了调查的事。就在楼下。在一张坐满本地小孩和码头工人的桌子前面。你基本上跟所有人都说过了。就在你把枪拿给他们看之后……”
+	=> merge_28
+~ merge_29
+Empathy: 开玩笑。她不像是过度悲伤的样子。或者说一点也不悲伤，真的。
+=> choice_5
+~ merge_22
+Klaasje (Miss Oranje Disco Dancer): “听起来像是我拥有的一种先进的形式。上面还喷洒了一些旧爱的味道。”
+You: “根本感觉不到爱。”
+Klaasje (Miss Oranje Disco Dancer): “你确定吗？爱情是一种*恐惧*……”她吸入一大团薄荷味的烟雾，细细品味，然后慢慢吐了出来。
+=> merge_04
+=> merge_05
+You: “可能吧，是啊。”
+Klaasje (Miss Oranje Disco Dancer): “爱情是一种恐惧。”她吸入一大团薄荷味的烟雾，细细品味，然后慢慢吐了出来……
+=> merge_04
+=> merge_05
+=> merge_40
+~ merge_40
+You: （点点头。）“无所谓了。”
+Klaasje (Miss Oranje Disco Dancer): “是啊。”
+Empathy: 那句*是啊*能产生一些安慰，同时又能避而不谈的效果。
+=> choice_7
+~ merge_04
+Electrochemistry: 老兄，炸裂起来吧！按下快乐的按钮，让痛苦减退！
+=> choice_7
+~ merge_05
+Half Light: 纯粹的恐惧。让人惊慌，尖叫。
+=> choice_7
+~ merge_56
+Klaasje (Miss Oranje Disco Dancer): “被我们所爱的东西背叛——真是不公平的境遇……”她吸入一大团薄荷味的烟雾，细细品味，然后慢慢吐了出来……
+=> merge_04
+=> merge_05
+~ merge_07
+Klaasje (Miss Oranje Disco Dancer): “好吧……你能不能搞清楚它在那里已经*多久*了？”
+Kim Kitsuragi: “很遗憾，不能，不过按照我的猜测——很久了。偷窥孔在你房间墙壁的书架下面。用胶带封起来应该不难。”
+=> merge_49
+- “这个说不清楚。”
+	You: “这个说不清楚。”
+	=> merge_50
+- “要我猜的话，应该是最近的事。”
+	You: “要我猜的话，应该是最近的事。”
+	=> merge_50
+~ merge_28
+Klaasje (Miss Oranje Disco Dancer): “不管怎么说——我觉得如果说不是我做的，好像有点*好笑*。因为我知道你的调查……”她揶揄到。“那我是不是就成了嫌疑人？我真的不能再想这种愚蠢的事情了……”
+=> choice_6
+~ merge_49
+- “如果是最近的，你觉得是谁做的——露比吗？”
+	You: “如果是最近的，你觉得是谁做的——露比吗？”
+	Klaasje (Miss Oranje Disco Dancer): “很难相信——她居然会做出这种事。但是……不。我不知道。”她眯起眼睛。“我真的不知道这件事，警官。”
+	Klaasje (Miss Oranje Disco Dancer): “她*可以*的。也许就是她做的。或者它已经在那里很久了，也许本地的小孩会用，或者什么的。那后面还有什么别的吗？”
+	=> choice_9
+- “如果它是*最近*的——你觉得是谁做的？”
+	You: “如果它是*最近*的——你觉得是谁做的？”
+	Klaasje (Miss Oranje Disco Dancer): “该死……我不知道。也许已经很久了吧。也许本地的小孩会用，或者什么的。我不知道……”
+	Logic: 她知道。她肯定*有些*想法。
+	Klaasje (Miss Oranje Disco Dancer): “我要用*很多*胶带把它封起来——这是肯定的。后面还有什么别的吗？”
+	=> choice_9
+- “我们还是不要再讨论它了。”
+	You: “我们还是不要再讨论它了。”
+	Klaasje (Miss Oranje Disco Dancer): “不，没事的。还有别的吗？”
+	=> choice_9
+~ merge_50
+Klaasje (Miss Oranje Disco Dancer): “天啦……它在哪？我想我要把它封起来。”
+You: “偷窥孔应该在你卧室的书架下面。”
+Klaasje (Miss Oranje Disco Dancer): “谢谢你。”她看着窗户。海面吹来一阵冷风。
+=> merge_49
