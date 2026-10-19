@@ -11,7 +11,7 @@
         "id": "n_entry",
         "type": "Entry",
         "title": "Start",
-        "body": "Adventure Begins",
+        "body": "Adventure Begins 这里还没有改完，还差一个买东西选项",
         "x": 140,
         "y": 80,
         "ports": {
@@ -2748,9 +2748,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 247.60972694383457,
-      "y": 526.8646453893986,
-      "scale": 0.3300000000000013
+      "x": 540.8414661605616,
+      "y": 460.0265402920953,
+      "scale": 0.3000000000000016
     },
     "sidebar": {
       "leftWidth": 280,

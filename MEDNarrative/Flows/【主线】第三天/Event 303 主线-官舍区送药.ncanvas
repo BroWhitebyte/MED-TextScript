@@ -1,41 +1,44 @@
 {
   "version": 1,
-  "savedAt": "2026-09-29T03:36:35.133Z",
+  "savedAt": "2026-10-18T17:49:05.569Z",
+  "ui": {
+    "selectedNodeId": "n145",
+    "selectedLinkId": null,
+    "panel": "project",
+    "activeFileId": "adventure",
+    "theme": "dark",
+    "exportImageScale": 1,
+    "view": {
+      "x": 353.85893531201657,
+      "y": 255.8045400989572,
+      "scale": 0.15000000000000105
+    },
+    "sidebar": {
+      "leftWidth": 280,
+      "rightWidth": 438,
+      "leftCollapsed": false,
+      "rightCollapsed": false
+    },
+    "search": "",
+    "characterSearch": "",
+    "eventSearch": "",
+    "playbookSearch": "",
+    "playbookJsonOpen": false,
+    "playbookTab": "variables"
+  },
   "project": {
-    "title": "Event 303 主线-官舍区送药",
-    "notes": "转化自 MED_Demo Event 0303-主线-官舍区送药-（下午）（选一项）（无复用）｜（主线/白名单·固定送药任务）1942年2月2日 下午｜通兰县城 西北/官舍区边界（官舍区边界——送交翻译/门房·不进驻）｜人物：程靖霖 时一堂大药房伙计/程时一养子；（官舍区边界：门房/翻译——不点名日本人）——本件出场说话人：程靖霖、门房（无名·照 md 称呼）、程时一｜【状态】试写（2026-09-09——五环节范式）｜【用途注】2/2 下午·固定送药任务——靖霖送药官舍区边界（交翻译/门房·不进驻）＋西北住户——引线索（官舍区/传闻）——白天独立闭环｜结构：25 叙述节拍 + 16 台词节拍（Dialog 16 节点·turns 合计 16）+ 结算卡 2 + 转场卡 1 + 选择点 1 处（选项：多问一句／不问了）｜md 标记映射：「## 白描／## 陈述／## 选择／## 选择必有代价／## 结束转场」为五环节范式标题（结构由连线体现，不作叙事拍）；「（进入玩家选择——面对门房的闲话：）」为纯范式标注（未落节点）；选项标题「### 多问一句（结算：信息+1）」「### 不问了（结算：照常·快回）」的括号与结算字样不落节点（选项 label 只取选项名「多问一句」「不问了」），选项名的得失含义落在各支链末；分支末「（结算：官舍区信息碎片——\"半夜呢子大衣的来客\"——回看锚候选：与 2/1 出诊的关联/黑川线）」「（结算：无信息——任务干净完成——门房的闲话留在风里）」带得失含义→落【结算】卡；行内引语的引出句（「程靖霖把药包递过去，」「程靖霖说。」「程时一问。」「程靖霖问，」）单独落 Content，引语逐字落 Dialog；md 头部「- 时间／- 地点／- 人物」三行与「> **状态**／> **用途注**」blockquote→不落节点，全部写进 notes；尾部「（→ 转场：0304 聚春馆送药——2/2 黄昏·或先回店——分支安排视当日流程）」→落【转场】卡｜跨件说明：本件为 2/2 下午固定送药任务（白天独立闭环·无复用）——送药至官舍区边界（交翻译/门房·不进驻）＋西北两住户，引线索（官舍区/传闻）；下一件＝0304 聚春馆送药（2/2 黄昏·或先回店——分支安排视当日流程）；「门房那句话，他学着学着，学了一路：\"下来的不像是这县城的。\"」原为门房之言、由程靖霖复述，Dialog 取当下说话人程靖霖",
+    "title": "Event 303 主线-官舍区送药（扩写副本）",
+    "notes": "Event 303 扩写副本（2026-10-19）。原件未改动。\n承接：205 夜归「明天下午，还得去送一趟」＋「日本孩子，也是孩子。是孩子，都得救」；301 行刑（同日清晨）。\n五个选择点：C1 路过小广场（承 301）｜C2 门房的闲话（信息）｜C3 她塞过来一个布包（钱/关系/病情）｜C4 门口贴着白纸（人情/规矩）｜C5 回店怎么答（父子/伏笔）。\n作者未裁三项的处置：那户人家不确认是黑川家（保持不点名）；白纸保留但不解释（不确认与广场死者有关）；回店选择点收入（作为第 5 个）。\n纪律：不点名那户人家；门房「呢子大衣」一句原文不动；不写悬尸处置；不重复 205 的台词。",
     "variables": {},
     "characters": [],
     "nodes": [
       {
         "id": "n_entry",
         "type": "Entry",
-        "title": "Start",
         "body": "Adventure Begins",
         "x": 140,
         "y": 80,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 440
-      },
-      {
-        "id": "n0",
-        "type": "Content",
-        "title": "Content",
-        "body": "下午的太阳斜斜的，把影子拉得很长。",
-        "x": 760,
-        "y": 80,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -50,13 +53,12 @@
       {
         "id": "n1",
         "type": "Content",
-        "title": "Content",
-        "body": "程靖霖背着一包药，从药房出来，往西走。药是程时一亲手包的——三副：一副送官舍区门房转交，两副送西北的住户。程时一交代得很简单：",
-        "x": 1380,
+        "body": "程靖霖走过小广场，没有看仍然挂在绞架上的王老鸹。他加快脚步，从县公署气派的衙门前走过，走进了之前很少来的西北住区。",
+        "height": 116,
+        "x": 730,
         "y": 80,
         "width": 440,
-        "height": 174,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -70,531 +72,13 @@
       },
       {
         "id": "n2",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程时一: 送到就回，别多打听。官舍区那边，交给门房，别往里走。",
-        "x": 2000,
+        "type": "Content",
+        "body": "整个西北边的居民区结构和东边不太一样。地面是硬的，房子是砖的，院子都整齐，每一幢建筑放在农村，都算是高门大户。\n居民区里的道路很宽，能并肩走四五个人，偶尔一辆汽车开过，车轮碾过路面，声音比东边的马车驴车阔气多了。\n越往前走，路上的行人们说中国话的就越少。程靖霖意识到，他已经到了“当官的住的地方”了。\n",
+        "height": 116,
+        "x": 1320,
         "y": 80,
         "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "程时一",
-            "line": "送到就回，别多打听。官舍区那边，交给门房，别往里走。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n3",
-        "type": "Content",
-        "title": "Content",
-        "body": "越往西走，街面越规整。过了小广场，西大道的路面上，连冻土的裂缝都比南边少。程靖霖把药包往怀里按了按。",
-        "x": 2620,
-        "y": 80,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n4",
-        "type": "Content",
-        "title": "Content",
-        "body": "官舍区在县公署后身，一条街之隔，却是另一片天地。",
-        "x": 3240,
-        "y": 80,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n5",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖没来过这儿。他隔着半条街看了一眼——青砖的院墙，黑漆的大门，门楣上挂着日文的牌子。街上没有多少行人，偶尔一辆汽车开过，车轮碾过路面，声音比东边的马车阔气得多。",
-        "x": 3240,
-        "y": 520,
-        "width": 440,
-        "height": 202,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n6",
-        "type": "Content",
-        "title": "Content",
-        "body": "他走到官舍区边界的门房前。门房是个中国人，穿着灰棉袍，袖着手，见了他，上下打量：",
-        "x": 2620,
-        "y": 520,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n7",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "门房: 哪儿的？找谁？",
-        "x": 2000,
-        "y": 520,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "门房",
-            "line": "哪儿的？找谁？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n8",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 时一堂的。",
-        "x": 1380,
-        "y": 520,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "时一堂的。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n9",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖把药包递过去，",
-        "x": 760,
-        "y": 520,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n10",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 掌柜的让送来的——官舍区那户人家的孩子，还差两副药。说交给门房转送就行。",
-        "x": 140,
-        "y": 520,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "掌柜的让送来的——官舍区那户人家的孩子，还差两副药。说交给门房转送就行。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n11",
-        "type": "Content",
-        "title": "Content",
-        "body": "门房接了药包，掂了掂，又看了看他，忽然压低声音：",
-        "x": 140,
-        "y": 960,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n12",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "门房: 小兄弟，时一堂的？昨儿晚上，你们掌柜的来给那孩子瞧的病？",
-        "x": 760,
-        "y": 960,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "门房",
-            "line": "小兄弟，时一堂的？昨儿晚上，你们掌柜的来给那孩子瞧的病？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n13",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 是。",
-        "x": 1380,
-        "y": 960,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "是。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n14",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖说。",
-        "x": 2000,
-        "y": 960,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n15",
-        "type": "Content",
-        "title": "Content",
-        "body": "门房左右看了看，声音压得更低：",
-        "x": 2620,
-        "y": 960,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n16",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "门房: 我跟你说——昨儿夜里，我当班。那户人家，半夜来了几辆车。下来的人，不像是这县城的——穿的呢子大衣，说话……不像是当兵的，也不像是衙门里的。",
-        "x": 3240,
-        "y": 960,
-        "width": 440,
-        "height": 158,
-        "turns": [
-          {
-            "speaker": "门房",
-            "line": "我跟你说——昨儿夜里，我当班。那户人家，半夜来了几辆车。下来的人，不像是这县城的——穿的呢子大衣，说话……不像是当兵的，也不像是衙门里的。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n17",
-        "type": "Content",
-        "title": "Content",
-        "body": "他缩了缩脖子：",
-        "x": 3240,
-        "y": 1400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n18",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "门房: 我多嘴了。你回去吧，药我转交。",
-        "x": 2620,
-        "y": 1400,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "门房",
-            "line": "我多嘴了。你回去吧，药我转交。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n19",
-        "type": "Choice",
-        "title": "Choice",
-        "body": "",
-        "x": 2000,
-        "y": 1400,
-        "choices": [
-          "多问一句",
-          "不问了"
-        ],
-        "choiceOptions": [
-          {
-            "id": "opt_1",
-            "label": "多问一句",
-            "requires": "",
-            "effects": []
-          },
-          {
-            "id": "opt_2",
-            "label": "不问了",
-            "requires": "",
-            "effects": []
-          }
-        ],
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 440
-      },
-      {
-        "id": "n20",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 不像当兵的，也不像衙门里的……",
-        "x": 1380,
-        "y": 1400,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "不像当兵的，也不像衙门里的……"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n21",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖问，",
-        "x": 760,
-        "y": 1400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n22",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 那是哪儿的？",
-        "x": 140,
-        "y": 1400,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "那是哪儿的？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n23",
-        "type": "Content",
-        "title": "Content",
-        "body": "门房摆摆手，不肯再说：",
-        "x": 140,
-        "y": 2120,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -608,41 +92,13 @@
       },
       {
         "id": "n24",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "门房: 哎，我哪知道。我就是个看门的。你赶紧走吧——这话，你就当我没说过。",
-        "x": 760,
-        "y": 2120,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "门房",
-            "line": "哎，我哪知道。我就是个看门的。你赶紧走吧——这话，你就当我没说过。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n25",
         "type": "Content",
-        "title": "Content",
-        "body": "程靖霖只好走了。走出几步，他回头看了看官舍区的院墙，墙很高，挡住了里面的光景。",
-        "x": 1380,
-        "y": 2120,
+        "body": "程靖霖很快便走到官舍区边界的门房前。\n黄色的小房子上冒出缕缕青烟，门关着。他抬起手敲敲木门，里面传来一个不耐烦的声音。\n",
+        "height": 116,
+        "x": 6390,
+        "y": 887,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -656,35 +112,27 @@
       },
       {
         "id": "n26",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】官舍区信息碎片——\"半夜呢子大衣的来客\"——回看锚候选：与 2/1 出诊的关联/黑川线",
-        "x": 2000,
-        "y": 2120,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+        "type": "Dialog",
+        "body": "门房: 谁呀！\n程靖霖: 城东南，时一堂，药房的。\n程靖霖: 我家掌柜的吩咐，来给小野田先生家送药。",
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "谁呀！"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
+          {
+            "speaker": "程靖霖",
+            "line": "城东南，时一堂，药房的。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我家掌柜的吩咐，来给小野田先生家送药。"
           }
-        }
-      },
-      {
-        "id": "n27",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖没有追问。他把药包交出去，道了谢，转身就走。掌柜的说了，送到就回，别多打听。",
-        "x": 1380,
-        "y": 1680,
+        ],
+        "height": 86,
+        "x": 5800,
+        "y": 887,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -699,13 +147,12 @@
       {
         "id": "n28",
         "type": "Content",
-        "title": "Content",
-        "body": "官舍区的高墙在身后越来越远。他脚步不停，往西北的住户家去送剩下两副药。",
-        "x": 760,
-        "y": 1680,
+        "body": "门房在屋子里嘟嘟囔囔地抱怨着什么。过了一会儿，门吱呀一声开了。\n从门后露出一张中年人的脸，带着个红鼻子。中年人门房上上下下地打量着程靖霖：",
+        "height": 88,
+        "x": 5210,
+        "y": 887,
         "width": 440,
-        "height": 117,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -719,242 +166,31 @@
       },
       {
         "id": "n29",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】无信息——任务干净完成——门房的闲话留在风里",
-        "x": 140,
-        "y": 1680,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n30",
-        "type": "Content",
-        "title": "Content",
-        "body": "西北的两户收了药，都道了谢——一户塞了两个窝头，一户说改天送两棵白菜来。程靖霖都收了，拿衣襟兜着。",
-        "x": 140,
-        "y": 2400,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n31",
-        "type": "Content",
-        "title": "Content",
-        "body": "往回走的路上，天边的云烧成了橘红色。他站在南大道口，远远望了一眼官舍区的方向——青砖的院墙在暮色里黑乎乎的一片，横在路尽头。",
-        "x": 760,
-        "y": 2400,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n32",
-        "type": "Content",
-        "title": "Content",
-        "body": "门房那句话，他学着学着，学了一路：",
-        "x": 1380,
-        "y": 2400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n33",
         "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 下来的不像是这县城的。",
-        "x": 2000,
-        "y": 2400,
-        "width": 440,
-        "height": 79,
+        "body": "门房: 你刚才说，你是药房的？药呢？\n程靖霖: 对，昨天我家先生来这边出诊，汽车接来的。\n门房: 呵，知道了。\n门房: 药呢？",
         "turns": [
+          {
+            "speaker": "门房",
+            "line": "你刚才说，你是药房的？药呢？"
+          },
           {
             "speaker": "程靖霖",
-            "line": "下来的不像是这县城的。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "line": "对，昨天我家先生来这边出诊，汽车接来的。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n34",
-        "type": "Content",
-        "title": "Content",
-        "body": "——那是哪儿的呢？",
-        "x": 2620,
-        "y": 2120,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n35",
-        "type": "Content",
-        "title": "Content",
-        "body": "他没想明白，也不打算想了。衣襟里的窝头还温着，他加快脚步，往回走。",
-        "x": 3240,
-        "y": 2120,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n36",
-        "type": "Content",
-        "title": "Content",
-        "body": "回到药房，天已经擦黑了。程晓梅在灶间忙活，程时一坐在柜台后头——他今天没出诊，在家歇了一天，脸色比昨天好看了些。",
-        "x": 3240,
-        "y": 2840,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n37",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程时一: 送去了？",
-        "x": 2620,
-        "y": 2840,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
-            "speaker": "程时一",
-            "line": "送去了？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
+            "speaker": "门房",
+            "line": "呵，知道了。"
           },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n38",
-        "type": "Content",
-        "title": "Content",
-        "body": "程时一问。",
-        "x": 2000,
-        "y": 2840,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n39",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 送去了。",
-        "x": 1380,
-        "y": 2840,
-        "width": 440,
-        "height": 79,
-        "turns": [
           {
-            "speaker": "程靖霖",
-            "line": "送去了。"
+            "speaker": "门房",
+            "line": "药呢？"
           }
         ],
-        "manualSize": true,
+        "height": 86,
+        "x": 4620,
+        "y": 887,
+        "width": 440,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -967,15 +203,14 @@
         }
       },
       {
-        "id": "n40",
+        "id": "n67",
         "type": "Content",
-        "title": "Content",
-        "body": "程靖霖把窝头和白菜单独放着，",
-        "x": 760,
-        "y": 2840,
+        "body": "女人不语，只是一味地鞠躬。\n她抬起脸，眼睛有些发红，从怀里里摸出一个小布包，抓住药房伙计的手腕子，往他手里塞。程靖霖感觉几支光滑的手指扣住他的手腕，和姐姐粗糙的手完全不一样，又痒又麻，仿佛电流冲过全身。",
+        "height": 116,
+        "x": 3420,
+        "y": 3966,
         "width": 440,
-        "height": 88,
-        "manualSize": true,
+        "title": "",
         "ports": {
           "input": {
             "side": "left",
@@ -988,90 +223,13 @@
         }
       },
       {
-        "id": "n41",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 门房说转交。西北两家都收了药。",
-        "x": 140,
-        "y": 2840,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "门房说转交。西北两家都收了药。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n42",
+        "id": "n145",
         "type": "Content",
-        "title": "Content",
-        "body": "他没有提门房那句闲话。程时一也没问。父子两个沉默了一会儿，程时一说：",
-        "x": 140,
-        "y": 3280,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n43",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程时一: 洗洗手，吃饭吧。天黑了，今儿晚上早点关门。",
-        "x": 760,
-        "y": 3280,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程时一",
-            "line": "洗洗手，吃饭吧。天黑了，今儿晚上早点关门。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n44",
-        "type": "Content",
-        "title": "Content",
         "body": "【转场】0304 聚春馆送药——2/2 黄昏·或先回店——分支安排视当日流程",
-        "x": 1380,
-        "y": 3280,
+        "height": 116,
+        "x": 3384,
+        "y": 5344,
         "width": 440,
-        "height": 145,
-        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -1084,12 +242,46 @@
         }
       },
       {
-        "id": "n45",
+        "id": "n146",
         "type": "End",
-        "title": "End",
         "body": "",
-        "x": 2000,
-        "y": 3280,
+        "height": 120,
+        "x": 3976,
+        "y": 5344,
+        "width": 440
+      },
+      {
+        "id": "n147",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1910,
+        "y": 80,
+        "choices": [
+          "看看周围的情况",
+          "寻找通向目的地的道路",
+          "向路人打听要去的地方"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_16",
+            "label": "看看周围的情况",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_17",
+            "label": "寻找通向目的地的道路",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_18",
+            "label": "向路人打听要去的地方",
+            "requires": "",
+            "effects": []
+          }
+        ],
         "ports": {
           "input": {
             "side": "left",
@@ -1099,23 +291,1663 @@
             "side": "right",
             "t": 0.5
           }
-        },
-        "width": 440
+        }
+      },
+      {
+        "id": "n148",
+        "type": "Content",
+        "title": "Content",
+        "body": "太阳还好好地在天上挂着，但是已经有了点西沉的意思。\n路上行者寥寥。程靖霖观察着这些房子：建筑大多是青砖搭建，有些院子里还有锅炉房，黑漆漆的大烟囱上飘着白烟。\n“这帮人倒是不缺煤。”程靖霖想着，缩了缩脖子。",
+        "x": 2540,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n149",
+        "type": "Content",
+        "title": "Content",
+        "body": "这里的道路结构横平竖直，但是程靖霖之前没来过这边，只能按照掌柜的交代模糊地判断。",
+        "x": 2540,
+        "y": 430,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n150",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖瞟见远处走过来一个看起来像是中国人的身影。这个人穿着一身呢子大衣，带着耳包和礼帽，看起来刚刚从哪家出来。程靖霖忙走上前去：",
+        "x": 3170,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n151",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 这位先生！请问，官舍区的小野田家，怎么走？\n路人: 哦？你问这个干什么？",
+        "x": 3800,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "这位先生！请问，官舍区的小野田家，怎么走？"
+          },
+          {
+            "speaker": "路人",
+            "line": "哦？你问这个干什么？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n152",
+        "type": "Content",
+        "title": "Content",
+        "body": "被询问的人饶有兴趣地停下了脚步。他上下打量着程靖霖，仿佛在看一只意外闯进围猎圈的小野兽。\n程靖霖低着头，看向路人脚上那双稍微沾了些泥污的靴子。他稍微抬起头，便看到对面男人的面孔，一撮修得很精致的小胡子，上面是一副小圆金丝边眼镜。\n看起来，是个读书人。",
+        "x": 4150,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n153",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我是城东南的时一堂药房的伙计，今天老掌柜的差我来这边，给小野田先生家送药。\n程靖霖: 昨天我家先生出诊留了药，今天不知病人情况如何，也是让我来看看，若有变化，赶紧再出诊。",
+        "x": 4780,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我是城东南的时一堂药房的伙计，今天老掌柜的差我来这边，给小野田先生家送药。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "昨天我家先生出诊留了药，今天不知病人情况如何，也是让我来看看，若有变化，赶紧再出诊。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n154",
+        "type": "Content",
+        "title": "Content",
+        "body": "男人听完了药房伙计的话，微笑了一下。他紧了紧身上的呢子大衣，指向一个方向：",
+        "x": 5130,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n155",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "路人: 喏，往那边走，你说的小野田家，在那一片官员宅子里。\n路人: 到了那片，你看到一个外墙漆成黄色的门房，就到了。\n路人: 日本人住的地方，一般不让中国人进，你到了那里，先问门房。\n路人: 如果他让你进去，你再往里走，要不然，他叫警察，麻烦就大了。\n程靖霖: 明白了！太谢谢您了！",
+        "x": 5760,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "路人",
+            "line": "喏，往那边走，你说的小野田家，在那一片官员宅子里。"
+          },
+          {
+            "speaker": "路人",
+            "line": "到了那片，你看到一个外墙漆成黄色的门房，就到了。"
+          },
+          {
+            "speaker": "路人",
+            "line": "日本人住的地方，一般不让中国人进，你到了那里，先问门房。"
+          },
+          {
+            "speaker": "路人",
+            "line": "如果他让你进去，你再往里走，要不然，他叫警察，麻烦就大了。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "明白了！太谢谢您了！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n156",
+        "type": "Content",
+        "title": "Content",
+        "body": "路人又笑了起来。他微微凝视着程靖霖那张被冻得刷白的脸和通红的鼻子，若有所思。\n程靖霖给他鞠了一躬，再抬起头的时候，给他指路的人已经走了。\n药房伙计不敢耽搁，赶紧向那个方向走去。",
+        "x": 6110,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n157",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3990,
+        "y": 887,
+        "choices": [
+          "掏出药包交给门房",
+          "不给门房要求进入",
+          "问门房为什么要把药给他"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_19",
+            "label": "掏出药包交给门房",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_20",
+            "label": "不给门房要求进入",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_21",
+            "label": "问门房为什么要把药给他",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n158",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 行了，回去吧。",
+        "x": 3010,
+        "y": 887,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "行了，回去吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n159",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖从怀里掏出药包。门房并没有看他，只是把药包拿了过去，掂量了一下。",
+        "x": 3360,
+        "y": 887,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n160",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2380,
+        "y": 887,
+        "choices": [
+          "转身回去",
+          "这就把我打发了？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_22",
+            "label": "转身回去",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_23",
+            "label": "这就把我打发了？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n161",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖感觉有什么地方不对。眼看门房就要关门，他赶紧上前一步，用肩膀顶住门板。",
+        "x": 1750,
+        "y": 887,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n162",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖的手已经伸进怀里，摸到了药包，但这句话反而又让他把手抽出来了。",
+        "x": 3360,
+        "y": 1153,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n163",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 先生，我家掌柜的说的是让我把药给病人送过去。\n程靖霖: 您得让我见到病人啊。\n门房: 你进不去，跟谁说也没用。\n门房: 把药放在这儿，你就走。日本人定的规矩，我说了不算。",
+        "x": 1400,
+        "y": 887,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "先生，我家掌柜的说的是让我把药给病人送过去。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "您得让我见到病人啊。"
+          },
+          {
+            "speaker": "门房",
+            "line": "你进不去，跟谁说也没用。"
+          },
+          {
+            "speaker": "门房",
+            "line": "把药放在这儿，你就走。日本人定的规矩，我说了不算。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n164",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 770,
+        "y": 887,
+        "choices": [
+          "交出药来",
+          "继续坚持"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_24",
+            "label": "交出药来",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_25",
+            "label": "继续坚持",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n165",
+        "type": "Content",
+        "title": "Content",
+        "body": "听到“日本人的规矩”，程靖霖打了个哆嗦，慢慢把药包从怀里掏出来。门房接过去，掂量了一下。",
+        "x": 140,
+        "y": 887,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n166",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 行了，回去吧。",
+        "x": 1400,
+        "y": 1795,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "行了，回去吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n167",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖如蒙大赦，赶紧转身。他听到那扇木门砰的一声在身后合上，也顾不得思考许多，只想快点离开这个他从来不熟悉，也不想熟悉的地方。",
+        "x": 2030,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n168",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 先生，我家掌柜的说了……\n门房: 你这孩崽子，怎么这么倔！",
+        "x": 140,
+        "y": 1153,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "先生，我家掌柜的说了……"
+          },
+          {
+            "speaker": "门房",
+            "line": "你这孩崽子，怎么这么倔！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n169",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖的手已经伸进怀里，摸到了药包，但这句话反而又让他把手抽出来了。",
+        "x": 3360,
+        "y": 1419,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n170",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 先生，看这意思，这日本人住家这块的，都是您给通传？\n门房: 对呀。把药放这儿，你就走，我给送去。里面不让进中国人。",
+        "x": 3010,
+        "y": 1153,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "先生，看这意思，这日本人住家这块的，都是您给通传？"
+          },
+          {
+            "speaker": "门房",
+            "line": "对呀。把药放这儿，你就走，我给送去。里面不让进中国人。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n171",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 770,
+        "y": 1795,
+        "choices": [
+          "我家掌柜吩咐要看症状继续开药",
+          "要是路上药包洒了或者坏了谁负责？",
+          "您这边知道点病人家的情况么？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_26",
+            "label": "我家掌柜吩咐要看症状继续开药",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_27",
+            "label": "要是路上药包洒了或者坏了谁负责？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_30",
+            "label": "您这边知道点病人家的情况么？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n172",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 1795,
+        "choices": [
+          "不再坚持，交出药",
+          "想个理由？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_28",
+            "label": "不再坚持，交出药",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_29",
+            "label": "想个理由？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n173",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖感觉跟这个人再争下去也没有意义。他掏出药包，交给面前的中年人。门房接过来，在手里掂了掂。",
+        "x": 770,
+        "y": 2061,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n174",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖定了定神，脸上堆出笑容。",
+        "x": 1400,
+        "y": 2061,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n175",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖定了定神，脸上堆出笑容。",
+        "x": 1400,
+        "y": 2327,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n176",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 先生，我家掌柜腿脚不好，今天不能亲自来。\n程靖霖: 昨天日本人也是拿汽车给他接来的，你看，多有派头！\n程靖霖: 今天我来这边，老头还特别吩咐说，一定得看到病人。\n程靖霖: 要不然，耽误了后面救治，怪罪不起呀！\n程靖霖: 我要是回去说没看见病人，万一耽搁了……太君急眼了，怎么办？\n程靖霖: 难道我说，把药搁在您这儿就走了，我什么也不知道？",
+        "x": 2030,
+        "y": 2061,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "先生，我家掌柜腿脚不好，今天不能亲自来。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "昨天日本人也是拿汽车给他接来的，你看，多有派头！"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "今天我来这边，老头还特别吩咐说，一定得看到病人。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "要不然，耽误了后面救治，怪罪不起呀！"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我要是回去说没看见病人，万一耽搁了……太君急眼了，怎么办？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "难道我说，把药搁在您这儿就走了，我什么也不知道？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n177",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 先生，给您当然没问题。\n程靖霖: 只是这天冷，路也滑。您要是路上有个失手，药洒了或者坏了……\n程靖霖: 到时候我一问三不知，我家掌柜骂我打我事小，耽误了太君交办的事，那可大了。\n程靖霖: 到时候别说我这小命啊，咱们谁也担待不起。",
+        "x": 2030,
+        "y": 2884,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "先生，给您当然没问题。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "只是这天冷，路也滑。您要是路上有个失手，药洒了或者坏了……"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "到时候我一问三不知，我家掌柜骂我打我事小，耽误了太君交办的事，那可大了。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "到时候别说我这小命啊，咱们谁也担待不起。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n178",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖定了定神，脸上堆出笑容。",
+        "x": 1400,
+        "y": 2593,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n179",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 先生，我小孩，不懂事，连这片房子，都头一次来。\n程靖霖: 您搁这当差，给说说，昨天是啥样，这个小野田先生家，是干什么的？",
+        "x": 2030,
+        "y": 3456,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "先生，我小孩，不懂事，连这片房子，都头一次来。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "您搁这当差，给说说，昨天是啥样，这个小野田先生家，是干什么的？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n180",
+        "type": "Content",
+        "title": "Content",
+        "body": "门房的脸色稍微变了变。",
+        "x": 2660,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n181",
+        "type": "Content",
+        "title": "Content",
+        "body": "门房的脸色垮了下来。",
+        "x": 2660,
+        "y": 2061,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n182",
+        "type": "Content",
+        "title": "Content",
+        "body": "中年人的嘴角稍微绽开了一点，露出半颗黄牙。",
+        "x": 2660,
+        "y": 2327,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n183",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 你这小崽还挺会说话的。\n门房: 这小野田家是咱通兰县的那个什么……株式会社的……社长，经理！总之就是管事的吧。\n门房: 有钱！跟这一片，当官的，也都熟悉。\n门房: 他们日本人一般得病了，急的都找医务所，不急的，就上哈尔滨去治去了。\n门房: 可巧昨天，他家孩子发高烧，都烧抽抽了。日本人医务所里好像也没有药，正好警察署的中野在这边。\n门房: 他一听，说有办法，接着就上你家把你家老掌柜的薅来了。",
+        "x": 3290,
+        "y": 1795,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "你这小崽还挺会说话的。"
+          },
+          {
+            "speaker": "门房",
+            "line": "这小野田家是咱通兰县的那个什么……株式会社的……社长，经理！总之就是管事的吧。"
+          },
+          {
+            "speaker": "门房",
+            "line": "有钱！跟这一片，当官的，也都熟悉。"
+          },
+          {
+            "speaker": "门房",
+            "line": "他们日本人一般得病了，急的都找医务所，不急的，就上哈尔滨去治去了。"
+          },
+          {
+            "speaker": "门房",
+            "line": "可巧昨天，他家孩子发高烧，都烧抽抽了。日本人医务所里好像也没有药，正好警察署的中野在这边。"
+          },
+          {
+            "speaker": "门房",
+            "line": "他一听，说有办法，接着就上你家把你家老掌柜的薅来了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n184",
+        "type": "Content",
+        "title": "Content",
+        "body": "门房探出头来四下看看，往地上啐了口唾沫。",
+        "x": 3640,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n185",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 你这小崽子说话还挺横的。\n门房: 你呀，别琢磨那个。",
+        "x": 3290,
+        "y": 2723,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "你这小崽子说话还挺横的。"
+          },
+          {
+            "speaker": "门房",
+            "line": "你呀，别琢磨那个。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n186",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 你这小崽子说话还挺损的。\n门房: 什么叫谁也担待不起？还想给我也拽里头？",
+        "x": 3290,
+        "y": 2991,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "你这小崽子说话还挺损的。"
+          },
+          {
+            "speaker": "门房",
+            "line": "什么叫谁也担待不起？还想给我也拽里头？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n187",
+        "type": "Content",
+        "title": "Content",
+        "body": "中年人缩回了门板后面，程靖霖听见他窸窸窣窣穿鞋的声音。\n门房穿好黑棉鞋，走出门来，砰的一声把门关紧，用一把锁头锁严实。",
+        "x": 4270,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n188",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 搁这站着别动。\n门房: 我去给他家送个信。\n门房: 他家不远，崽子你要是受不了冷走了，可跟我没关系啊！",
+        "x": 4900,
+        "y": 1795,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "搁这站着别动。"
+          },
+          {
+            "speaker": "门房",
+            "line": "我去给他家送个信。"
+          },
+          {
+            "speaker": "门房",
+            "line": "他家不远，崽子你要是受不了冷走了，可跟我没关系啊！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n189",
+        "type": "Content",
+        "title": "Content",
+        "body": "门房说着，脚下不停。地上还有泥泞和积雪，但这中年人腿脚倒还利索，一转眼，便在房子的缝隙里消失了。\n一阵风掠过，从程靖霖的棉袄缝隙里钻进他的骨头。他想了想，跺了跺脚，在门房这里站定。",
+        "x": 5250,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n190",
+        "type": "Content",
+        "title": "Content",
+        "body": "好在门房并没有拖那么久。\n没多会儿，程靖霖就听见房屋之间又传来有些匆忙的脚步，这次是两个人的。\n药房伙计抬起头，看到远处有两个人快步走来。走在前面引路的是门房，后面的看不太清楚，似乎是个女人。",
+        "x": 5880,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n191",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖还在思考来者是谁，两个人已经走到了他面前。程靖霖看到对面的女子似乎三十岁光景，穿着一件西式的厚重大衣，头上挽着个发髻。\n女人看到他，便赶紧鞠躬，一叠声地说道：",
+        "x": 6510,
+        "y": 1795,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n192",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "女子: 子供を助けてくださって、ありがとうございます。\n女子: お薬を届けてくださり、ありがとうございます。\n女子: 谢谢！",
+        "x": 5970,
+        "y": 3966,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "女子",
+            "line": "子供を助けてくださって、ありがとうございます。"
+          },
+          {
+            "speaker": "女子",
+            "line": "お薬を届けてくださり、ありがとうございます。"
+          },
+          {
+            "speaker": "女子",
+            "line": "谢谢！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n193",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖愣在当场。旁边的门房赶紧给他介绍：",
+        "x": 5340,
+        "y": 3966,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n194",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门房: 这位，就是昨天发烧那家， 小野田家的太太。\n门房: 人家说啦，昨天看了病，孩子好了很多。\n门房: 听说今天药房差人送了药来，人家太太特别说要当面致谢！",
+        "x": 4990,
+        "y": 3966,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "门房",
+            "line": "这位，就是昨天发烧那家， 小野田家的太太。"
+          },
+          {
+            "speaker": "门房",
+            "line": "人家说啦，昨天看了病，孩子好了很多。"
+          },
+          {
+            "speaker": "门房",
+            "line": "听说今天药房差人送了药来，人家太太特别说要当面致谢！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n195",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖有些手足无措起来。他张口结舌，不知道该说什么。手摸到怀里的药包，便掏了出来。\n他把药包递给女人，想要告诉她如何煎药，但是又不知道如何开口，只能比划着结结巴巴地说：",
+        "x": 4360,
+        "y": 3966,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n196",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 啊……药方……煎药……在纸上！\n程靖霖: 需要用药，再派人到药房去就行。\n程靖霖: 有用……有用就好。",
+        "x": 4010,
+        "y": 3966,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "啊……药方……煎药……在纸上！"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "需要用药，再派人到药房去就行。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "有用……有用就好。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n197",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2790,
+        "y": 3966,
+        "choices": [
+          "接过来",
+          "不接",
+          "昨天给过钱了"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_31",
+            "label": "接过来",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_32",
+            "label": "不接",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_33",
+            "label": "昨天给过钱了",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n198",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看到女人硬把布包塞过来，恍惚之间还来不及推辞，已经拿在了手里。他捏了捏，有点硬，便也僵硬地鞠了个躬，然后转过身去，一句话也没说，就大步向外面走去。",
+        "x": 550,
+        "y": 3966,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n199",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖看到女人掏出东西，本能地便往后退了两步，甩脱了女人的手。他不知如何是好，只能一边点头，一边狼狈地倒退着，像逃命似的跑离了这片地方。",
+        "x": 550,
+        "y": 4232,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n200",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖试图向女人解释药钱已经给过了。但他不知道如何表达，只能继续结结巴巴地比划着：",
+        "x": 2160,
+        "y": 3966,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n201",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 啊……钱的……不用！昨天，警察，长官，已经给过了！\n女人: ぜひ受け取ってください！",
+        "x": 1810,
+        "y": 3966,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "啊……钱的……不用！昨天，警察，长官，已经给过了！"
+          },
+          {
+            "speaker": "女人",
+            "line": "ぜひ受け取ってください！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n202",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 1180,
+        "y": 3966,
+        "choices": [
+          "接过来",
+          "不接"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_34",
+            "label": "接过来",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_35",
+            "label": "不接",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n203",
+        "type": "Content",
+        "title": "Content",
+        "body": "门房似乎隐约之中说了一句“这孩子真有意思”，便被抛在身后。路上卷过寒风，掠过泥泞，程靖霖无暇多想，只是加快脚步。",
+        "x": 416,
+        "y": 4584,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n204",
+        "type": "Content",
+        "title": "Content",
+        "body": "很快，程靖霖就离开了西北这片他之前很少涉足的地界。走到小广场上，他又经过绞架，王老鸹还在上面吊着。\n他望着那具尸体，脑子里转着许多事情，深深地吸了一口气，又吐了出去。\n好冷啊。",
+        "x": 1168,
+        "y": 4600,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n205",
+        "type": "Content",
+        "title": "Content",
+        "body": "人在熟悉的地方总是走得特别快。程靖霖回到药房门口时，天色还刚刚见晚。他推开门，炉火的热气扑面而来，让他回了回魂。\n老掌柜程时一站在柜台后，看着年轻伙计的脸，点了点头。",
+        "x": 1864,
+        "y": 4688,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n206",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: 送到了？",
+        "x": 2960,
+        "y": 4534,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "送到了？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n207",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3561,
+        "y": 4597,
+        "choices": [
+          "送到了",
+          "如有回报拿出来",
+          "如有回报隐瞒"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_36",
+            "label": "送到了",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_37",
+            "label": "如有回报拿出来",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_38",
+            "label": "如有回报隐瞒",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n208",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 送到了，一切都好。\n程时一: 那就行。\n程时一: 暖和一下，还得跑一趟，今天最后一回。",
+        "x": 4079,
+        "y": 4669,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "送到了，一切都好。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "那就行。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "暖和一下，还得跑一趟，今天最后一回。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n209",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 人家给了我一个东西……\n程时一: 一会再说吧。\n程时一: 暖和一下，还得跑一趟，今天最后一回。",
+        "x": 4205,
+        "y": 4824,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "人家给了我一个东西……"
+          },
+          {
+            "speaker": "程时一",
+            "line": "一会再说吧。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "暖和一下，还得跑一趟，今天最后一回。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n210",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 送到了，一切都好。\n程时一: 那就行。\n程时一: 暖和一下，还得跑一趟，今天最后一回。",
+        "x": 3920,
+        "y": 4904,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "送到了，一切都好。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "那就行。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "暖和一下，还得跑一趟，今天最后一回。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
       }
     ],
     "links": [
       {
-        "id": "l0",
-        "from": "n_entry",
-        "to": "n0",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
+        "id": "l2",
+        "from": "n1",
+        "to": "n2"
       },
       {
-        "id": "l1",
-        "from": "n0",
+        "id": "l31",
+        "from": "n28",
+        "to": "n29"
+      },
+      {
+        "id": "l156",
+        "from": "n145",
+        "to": "n146"
+      },
+      {
+        "id": "l157",
+        "from": "n_entry",
         "to": "n1",
         "toPort": {
           "side": "left",
@@ -1123,221 +1955,125 @@
         }
       },
       {
-        "id": "l2",
-        "from": "n1",
-        "to": "n2",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l3",
+        "id": "l158",
         "from": "n2",
-        "to": "n3",
+        "to": "n147",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l4",
-        "from": "n3",
-        "to": "n4",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l5",
-        "from": "n4",
-        "to": "n5",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l6",
-        "from": "n5",
-        "to": "n6",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l7",
-        "from": "n6",
-        "to": "n7",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l8",
-        "from": "n7",
-        "to": "n8",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l9",
-        "from": "n8",
-        "to": "n9",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l10",
-        "from": "n9",
-        "to": "n10",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l11",
-        "from": "n10",
-        "to": "n11",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l12",
-        "from": "n11",
-        "to": "n12",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l13",
-        "from": "n12",
-        "to": "n13",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l14",
-        "from": "n13",
-        "to": "n14",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l15",
-        "from": "n14",
-        "to": "n15",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l16",
-        "from": "n15",
-        "to": "n16",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l17",
-        "from": "n16",
-        "to": "n17",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l18",
-        "from": "n17",
-        "to": "n18",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l19",
-        "from": "n18",
-        "to": "n19",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l20",
-        "from": "n19",
-        "to": "n20",
-        "choiceOptionId": "opt_1",
+        "id": "l159",
+        "from": "n147",
+        "to": "n148",
+        "choiceOptionId": "opt_16",
         "choiceIndex": 0,
-        "label": "多问一句",
+        "label": "看看周围的情况",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l21",
-        "from": "n19",
-        "to": "n27",
-        "choiceOptionId": "opt_2",
+        "id": "l160",
+        "from": "n147",
+        "to": "n149",
+        "choiceOptionId": "opt_17",
         "choiceIndex": 1,
-        "label": "不问了",
+        "label": "寻找通向目的地的道路",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l22",
-        "from": "n20",
-        "to": "n21",
+        "id": "l161",
+        "from": "n147",
+        "to": "n150",
+        "choiceOptionId": "opt_18",
+        "choiceIndex": 2,
+        "label": "向路人打听要去的地方",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l23",
-        "from": "n21",
-        "to": "n22",
+        "id": "l162",
+        "from": "n149",
+        "to": "n150",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l24",
-        "from": "n22",
-        "to": "n23",
+        "id": "l163",
+        "from": "n148",
+        "to": "n150",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l25",
-        "from": "n23",
+        "id": "l164",
+        "from": "n150",
+        "to": "n151",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l165",
+        "from": "n151",
+        "to": "n152",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l166",
+        "from": "n152",
+        "to": "n153",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l167",
+        "from": "n153",
+        "to": "n154",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l168",
+        "from": "n154",
+        "to": "n155",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l169",
+        "from": "n155",
+        "to": "n156",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l170",
+        "from": "n156",
         "to": "n24",
         "toPort": {
           "side": "left",
@@ -1345,17 +2081,8 @@
         }
       },
       {
-        "id": "l26",
+        "id": "l171",
         "from": "n24",
-        "to": "n25",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l27",
-        "from": "n25",
         "to": "n26",
         "toPort": {
           "side": "left",
@@ -1363,17 +2090,8 @@
         }
       },
       {
-        "id": "l28",
+        "id": "l172",
         "from": "n26",
-        "to": "n30",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l29",
-        "from": "n27",
         "to": "n28",
         "toPort": {
           "side": "left",
@@ -1381,183 +2099,677 @@
         }
       },
       {
-        "id": "l30",
-        "from": "n28",
-        "to": "n29",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l31",
+        "id": "l173",
         "from": "n29",
-        "to": "n30",
+        "to": "n157",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l32",
-        "from": "n30",
-        "to": "n31",
+        "id": "l174",
+        "from": "n157",
+        "to": "n159",
+        "choiceOptionId": "opt_19",
+        "choiceIndex": 0,
+        "label": "掏出药包交给门房",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l33",
-        "from": "n31",
-        "to": "n32",
+        "id": "l175",
+        "from": "n159",
+        "to": "n158",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l34",
-        "from": "n32",
-        "to": "n33",
+        "id": "l176",
+        "from": "n158",
+        "to": "n160",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l35",
-        "from": "n33",
-        "to": "n34",
+        "id": "l177",
+        "from": "n160",
+        "to": "n161",
+        "choiceOptionId": "opt_23",
+        "choiceIndex": 1,
+        "label": "这就把我打发了？",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l36",
-        "from": "n34",
-        "to": "n35",
+        "id": "l178",
+        "from": "n157",
+        "to": "n162",
+        "choiceOptionId": "opt_20",
+        "choiceIndex": 1,
+        "label": "不给门房要求进入",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l37",
-        "from": "n35",
-        "to": "n36",
+        "id": "l179",
+        "from": "n162",
+        "to": "n163",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l38",
-        "from": "n36",
-        "to": "n37",
+        "id": "l180",
+        "from": "n161",
+        "to": "n163",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l39",
-        "from": "n37",
-        "to": "n38",
+        "id": "l181",
+        "from": "n163",
+        "to": "n164",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l40",
-        "from": "n38",
-        "to": "n39",
+        "id": "l182",
+        "from": "n164",
+        "to": "n165",
+        "choiceOptionId": "opt_24",
+        "choiceIndex": 0,
+        "label": "交出药来",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l41",
-        "from": "n39",
-        "to": "n40",
+        "id": "l183",
+        "from": "n165",
+        "to": "n166",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l42",
-        "from": "n40",
-        "to": "n41",
+        "id": "l184",
+        "from": "n166",
+        "to": "n167",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l43",
-        "from": "n41",
-        "to": "n42",
+        "id": "l185",
+        "from": "n160",
+        "to": "n167",
+        "choiceOptionId": "opt_22",
+        "choiceIndex": 0,
+        "label": "转身回去",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l44",
-        "from": "n42",
-        "to": "n43",
+        "id": "l186",
+        "from": "n164",
+        "to": "n168",
+        "choiceOptionId": "opt_25",
+        "choiceIndex": 1,
+        "label": "继续坚持",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l45",
-        "from": "n43",
-        "to": "n44",
+        "id": "l187",
+        "from": "n157",
+        "to": "n169",
+        "choiceOptionId": "opt_21",
+        "choiceIndex": 2,
+        "label": "问门房为什么要把药给他",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l46",
-        "from": "n44",
-        "to": "n45",
+        "id": "l188",
+        "from": "n169",
+        "to": "n170",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l189",
+        "from": "n170",
+        "to": "n171",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l190",
+        "from": "n168",
+        "to": "n172",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l191",
+        "from": "n172",
+        "to": "n173",
+        "choiceOptionId": "opt_28",
+        "choiceIndex": 0,
+        "label": "不再坚持，交出药",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l192",
+        "from": "n173",
+        "to": "n166",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l193",
+        "from": "n172",
+        "to": "n171",
+        "choiceOptionId": "opt_29",
+        "choiceIndex": 1,
+        "label": "想个理由？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l194",
+        "from": "n171",
+        "to": "n174",
+        "choiceOptionId": "opt_26",
+        "choiceIndex": 0,
+        "label": "我家掌柜吩咐要看症状继续开药",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l195",
+        "from": "n171",
+        "to": "n175",
+        "choiceOptionId": "opt_27",
+        "choiceIndex": 1,
+        "label": "要是路上药包洒了或者坏了谁负责？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l196",
+        "from": "n174",
+        "to": "n176",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l197",
+        "from": "n175",
+        "to": "n177",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l198",
+        "from": "n171",
+        "to": "n178",
+        "choiceOptionId": "opt_30",
+        "choiceIndex": 2,
+        "label": "您这边知道点病人家的情况么？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l199",
+        "from": "n178",
+        "to": "n179",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l200",
+        "from": "n179",
+        "to": "n182",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l201",
+        "from": "n182",
+        "to": "n183",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l202",
+        "from": "n183",
+        "to": "n184",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l203",
+        "from": "n177",
+        "to": "n181",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l204",
+        "from": "n176",
+        "to": "n180",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l205",
+        "from": "n181",
+        "to": "n186",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l206",
+        "from": "n180",
+        "to": "n185",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l207",
+        "from": "n185",
+        "to": "n187",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l208",
+        "from": "n186",
+        "to": "n187",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l209",
+        "from": "n184",
+        "to": "n187",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l210",
+        "from": "n187",
+        "to": "n188",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l211",
+        "from": "n188",
+        "to": "n189",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l212",
+        "from": "n189",
+        "to": "n190",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l213",
+        "from": "n190",
+        "to": "n191",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l214",
+        "from": "n191",
+        "to": "n192",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l215",
+        "from": "n192",
+        "to": "n193",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l216",
+        "from": "n193",
+        "to": "n194",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l217",
+        "from": "n194",
+        "to": "n195",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l218",
+        "from": "n195",
+        "to": "n196",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l219",
+        "from": "n196",
+        "to": "n67",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l220",
+        "from": "n67",
+        "to": "n197",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l221",
+        "from": "n197",
+        "to": "n198",
+        "choiceOptionId": "opt_31",
+        "choiceIndex": 0,
+        "label": "接过来",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l222",
+        "from": "n197",
+        "to": "n199",
+        "choiceOptionId": "opt_32",
+        "choiceIndex": 1,
+        "label": "不接",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l223",
+        "from": "n197",
+        "to": "n200",
+        "choiceOptionId": "opt_33",
+        "choiceIndex": 2,
+        "label": "昨天给过钱了",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l224",
+        "from": "n200",
+        "to": "n201",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l225",
+        "from": "n201",
+        "to": "n202",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l226",
+        "from": "n202",
+        "to": "n198",
+        "choiceOptionId": "opt_34",
+        "choiceIndex": 0,
+        "label": "接过来",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l227",
+        "from": "n202",
+        "to": "n199",
+        "choiceOptionId": "opt_35",
+        "choiceIndex": 1,
+        "label": "不接",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l228",
+        "from": "n199",
+        "to": "n203",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l229",
+        "from": "n198",
+        "to": "n203",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l230",
+        "from": "n203",
+        "to": "n204",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l231",
+        "from": "n167",
+        "to": "n204",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l232",
+        "from": "n204",
+        "to": "n205",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l233",
+        "from": "n205",
+        "to": "n206",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l234",
+        "from": "n206",
+        "to": "n207",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l235",
+        "from": "n207",
+        "to": "n208",
+        "choiceOptionId": "opt_36",
+        "choiceIndex": 0,
+        "label": "送到了",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l236",
+        "from": "n207",
+        "to": "n209",
+        "choiceOptionId": "opt_37",
+        "choiceIndex": 1,
+        "label": "如有回报拿出来",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l237",
+        "from": "n207",
+        "to": "n210",
+        "choiceOptionId": "opt_38",
+        "choiceIndex": 2,
+        "label": "如有回报隐瞒",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l238",
+        "from": "n208",
+        "to": "n145",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l239",
+        "from": "n209",
+        "to": "n145",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l240",
+        "from": "n210",
+        "to": "n145",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       }
     ]
-  },
-  "ui": {
-    "selectedNodeId": null,
-    "selectedLinkId": null,
-    "panel": "project",
-    "activeFileId": "adventure",
-    "theme": "dark",
-    "exportImageScale": 1,
-    "view": {
-      "x": 251,
-      "y": 121,
-      "scale": 0.3
-    },
-    "sidebar": {
-      "leftWidth": 280,
-      "rightWidth": 438,
-      "leftCollapsed": false,
-      "rightCollapsed": false
-    },
-    "search": "",
-    "characterSearch": "",
-    "eventSearch": "",
-    "playbookSearch": "",
-    "playbookJsonOpen": false,
-    "playbookTab": "variables"
   }
 }
