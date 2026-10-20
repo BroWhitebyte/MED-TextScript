@@ -30,8 +30,8 @@
         "id": "n0",
         "type": "Content",
         "title": "Content",
-        "body": "聚春馆在县城西南的巷子深处，门脸比药房高，也比药房旧。",
-        "x": 760,
+        "body": "天色近晚。程靖霖揣好了老掌柜给他的药包，挎出药房的大门，几乎在瞬间寒风便夺走了他身上刚攒下的一点热气。\n他望了望县城的西南边，决定抄小道过去。他知道聚春馆的位置——却从来没去过。程时一出门前给他的嘱咐又响了起来：",
+        "x": 730,
         "y": 80,
         "width": 440,
         "height": 117,
@@ -51,747 +51,11 @@
         "id": "n1",
         "type": "Content",
         "title": "Content",
-        "body": "程靖霖到的时候，天还没全黑，馆子门口已经挂起了灯。两个穿花袄的女人靠在门边嗑瓜子，看见他一个半大小子背着药包走过来，都笑了：",
-        "x": 1380,
+        "body": "聚春馆在县城西南的巷子深处，门脸比药房高，也比药房旧。\n程靖霖到的时候，天还没全黑，馆子门口已经挂起了灯。门上的招牌褪了色，门口站着个哆哆嗦嗦的男人。\n他看见有人走过来，赶忙强打精神，往前迈了几步：",
+        "x": 1670,
         "y": 80,
         "width": 440,
         "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n2",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "嗑瓜子的女人: 哟，这么小的哥儿，也来玩儿？",
-        "x": 2000,
-        "y": 80,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "嗑瓜子的女人",
-            "line": "哟，这么小的哥儿，也来玩儿？"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n3",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 送药的。",
-        "x": 2620,
-        "y": 80,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "送药的。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n4",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖说，脸有点热，",
-        "x": 2620,
-        "y": 520,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n5",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 时一堂的——你们这儿有个人，昨儿托掌柜的抓了副药。",
-        "x": 2000,
-        "y": 520,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "时一堂的——你们这儿有个人，昨儿托掌柜的抓了副药。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n6",
-        "type": "Content",
-        "title": "Content",
-        "body": "嗑瓜子的女人收了笑，朝里面努了努嘴：",
-        "x": 1380,
-        "y": 520,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n7",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "嗑瓜子的女人: 找刘妈去。里头那位，病了好几天了，也没人管。",
-        "x": 760,
-        "y": 520,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "嗑瓜子的女人",
-            "line": "找刘妈去。里头那位，病了好几天了，也没人管。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n8",
-        "type": "Content",
-        "title": "Content",
-        "body": "刘妈是聚春馆的管事，四十多岁，脸上敷着厚厚的粉，说话却干脆。她接了药包，数出钱来，又加了一句：",
-        "x": 140,
-        "y": 520,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n9",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "刘妈: 小先生，劳你带句话给程先生——里头那位，要是还不好，怕是得请程先生亲自来瞧瞧。别的不怕，就怕……是那种不干净的病，传给别人就糟了。",
-        "x": 140,
-        "y": 960,
-        "width": 440,
-        "height": 158,
-        "turns": [
-          {
-            "speaker": "刘妈",
-            "line": "小先生，劳你带句话给程先生——里头那位，要是还不好，怕是得请程先生亲自来瞧瞧。别的不怕，就怕……是那种不干净的病，传给别人就糟了。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n10",
-        "type": "Content",
-        "title": "Content",
-        "body": "她说到后半句，声音低下去，眼睛朝楼上瞟了一眼。",
-        "x": 760,
-        "y": 960,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n11",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖顺着她的目光看了一眼。楼上的栏杆边，靠着个穿蓝褂子的女人，褂子空荡荡的，露着一截细手腕。她在望楼下。楼下街上空着，她还在望。",
-        "x": 1380,
-        "y": 960,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n12",
-        "type": "Content",
-        "title": "Content",
-        "body": "刘妈顺着他的目光看过去，叹了口气，声音更低了：",
-        "x": 2000,
-        "y": 960,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n13",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "刘妈: 那是从北边来的。去年冬天，她男人死了，她带着个小丫头进城讨饭……后来就进了这儿。小丫头，前些天让一个日本人领走了，说是领去当丫头。",
-        "x": 2620,
-        "y": 960,
-        "width": 440,
-        "height": 158,
-        "turns": [
-          {
-            "speaker": "刘妈",
-            "line": "那是从北边来的。去年冬天，她男人死了，她带着个小丫头进城讨饭……后来就进了这儿。小丫头，前些天让一个日本人领走了，说是领去当丫头。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n14",
-        "type": "Content",
-        "title": "Content",
-        "body": "她摆摆手：",
-        "x": 2620,
-        "y": 1400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n15",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "刘妈: 我多嘴了。小先生，你回去吧。药钱结了，替我给程先生带个好。",
-        "x": 2000,
-        "y": 1400,
-        "width": 440,
-        "height": 106,
-        "turns": [
-          {
-            "speaker": "刘妈",
-            "line": "我多嘴了。小先生，你回去吧。药钱结了，替我给程先生带个好。"
-          }
-        ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n16",
-        "type": "Choice",
-        "title": "Choice",
-        "body": "",
-        "x": 1380,
-        "y": 1400,
-        "choices": [
-          "多看一眼",
-          "不看了，走"
-        ],
-        "choiceOptions": [
-          {
-            "id": "opt_1",
-            "label": "多看一眼",
-            "requires": "",
-            "effects": []
-          },
-          {
-            "id": "opt_2",
-            "label": "不看了，走",
-            "requires": "",
-            "effects": []
-          }
-        ],
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        },
-        "width": 440
-      },
-      {
-        "id": "n17",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖又看了一眼楼上那个穿蓝褂子的女人。",
-        "x": 760,
-        "y": 1400,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n18",
-        "type": "Content",
-        "title": "Content",
-        "body": "她像是察觉了，低下头，慢慢地退回屋里去了。栏杆边空了，只剩一盏昏黄的灯，照着楼板上的灰。",
-        "x": 140,
-        "y": 1400,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n19",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖没再说什么，转身走了。可他记住了那句话——\"让一个日本人领走了，说是领去当丫头\"。",
-        "x": 140,
-        "y": 2120,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n20",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】信息+1·心里记下一笔",
-        "x": 760,
-        "y": 2120,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n21",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】聚春馆信息碎片——蓝褂女人/被领走的小丫头——回看锚候选：与官舍区/731 线的隐线关联——写作时定",
-        "x": 1380,
-        "y": 2120,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n22",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖没有再看。他接了药钱，道了谢，转身就走。出了巷口，他站住，把肩膀松了松，才接着走。",
-        "x": 760,
-        "y": 1680,
-        "width": 440,
-        "height": 145,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n23",
-        "type": "Content",
-        "title": "Content",
-        "body": "身后传来嗑瓜子的声音和低低的笑声，像是什么都没发生过。",
-        "x": 140,
-        "y": 1680,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n24",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】干净交差",
-        "x": 140,
-        "y": 2400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n25",
-        "type": "Content",
-        "title": "Content",
-        "body": "【结算】任务干净完成——无额外信息——聚春馆的门脸在身后合拢",
-        "x": 760,
-        "y": 2400,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n26",
-        "type": "Content",
-        "title": "Content",
-        "body": "往回走的路上，天彻底黑了。",
-        "x": 1380,
-        "y": 2400,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n27",
-        "type": "Content",
-        "title": "Content",
-        "body": "程靖霖把药钱在怀里按了按，脚步快了些。刘妈那句话，他一路没忘——可一直到药房门口，他也没想好，这话该不该学给掌柜的听。",
-        "x": 2000,
-        "y": 2120,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n28",
-        "type": "Content",
-        "title": "Content",
-        "body": "药钱在怀里，焐热了。",
-        "x": 2620,
-        "y": 2120,
-        "width": 440,
-        "height": 88,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n29",
-        "type": "Content",
-        "title": "Content",
-        "body": "回到药房门口，程靖霖正要推门，忽然觉得哪里不对。",
-        "x": 2620,
-        "y": 2840,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n30",
-        "type": "Content",
-        "title": "Content",
-        "body": "药房的门虚掩着，里面没有灯——往常这时候，掌柜的总会点着灯等他。他推开门，屋里黑着，只有炉膛里一点余火，映着两个坐着的人影。",
-        "x": 2000,
-        "y": 2840,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n31",
-        "type": "Content",
-        "title": "Content",
-        "body": "程时一坐在柜台后头，没有点灯。他对面，隔着柜台，坐着一个陌生人——看不清脸，只看见一件深色的长大衣，和一双搁在膝上、骨节分明的手。",
-        "x": 1380,
-        "y": 2840,
-        "width": 440,
-        "height": 174,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n32",
-        "type": "Content",
-        "title": "Content",
-        "body": "听见门响，那人没有回头，只慢慢地开口，声音不高，却清清楚楚：",
-        "x": 760,
-        "y": 2840,
-        "width": 440,
-        "height": 117,
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n33",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "陌生人: 程掌柜，你这药房的伙计，回来了？",
-        "x": 140,
-        "y": 2840,
-        "width": 440,
-        "height": 79,
-        "turns": [
-          {
-            "speaker": "陌生人",
-            "line": "程掌柜，你这药房的伙计，回来了？"
-          }
-        ],
         "manualSize": true,
         "ports": {
           "input": {
@@ -809,8 +73,8 @@
         "type": "Content",
         "title": "Content",
         "body": "【转场】0305 黑川夜访——2/2 夜晚·匿名来客",
-        "x": 140,
-        "y": 3280,
+        "x": 730,
+        "y": 4889,
         "width": 440,
         "height": 117,
         "manualSize": true,
@@ -830,8 +94,8 @@
         "type": "End",
         "title": "End",
         "body": "",
-        "x": 760,
-        "y": 3280,
+        "x": 140,
+        "y": 4889,
         "ports": {
           "input": {
             "side": "left",
@@ -843,6 +107,1488 @@
           }
         },
         "width": 440
+      },
+      {
+        "id": "n36",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: 以前不让你去那边，你也知道为啥。\n程时一: 眼下我腿脚不灵，只能你跑一趟了。\n程时一: 到了那，找一个叫张老虎的，把药给他，就行。\n程时一: 快去快回，东西送到了就得。",
+        "x": 1320,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "以前不让你去那边，你也知道为啥。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "眼下我腿脚不灵，只能你跑一趟了。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "到了那，找一个叫张老虎的，把药给他，就行。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "快去快回，东西送到了就得。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n37",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "看堂子的: 唉哟！这位爷，您……\n程靖霖: 我是时一堂的，来送药的。",
+        "x": 2260,
+        "y": 80,
+        "width": 347,
+        "turns": [
+          {
+            "speaker": "看堂子的",
+            "line": "唉哟！这位爷，您……"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我是时一堂的，来送药的。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 84,
+        "manualSize": true
+      },
+      {
+        "id": "n38",
+        "type": "Content",
+        "title": "Content",
+        "body": "看堂子的看清楚了来者是个半大小子，脸上堆的笑容立刻就退了下去。\n他往旁边地上啐了一口。",
+        "x": 2757,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "看堂子的: 给谁呀？\n程靖霖: 我家老掌柜的说，找张老虎。\n看堂子的: 嘿，真是太阳从西边出来了。\n看堂子的: 进去吧。看你这毛都没长齐的样儿，也不像个能在这花钱的主顾。",
+        "x": 3387,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "看堂子的",
+            "line": "给谁呀？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我家老掌柜的说，找张老虎。"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "嘿，真是太阳从西边出来了。"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "进去吧。看你这毛都没长齐的样儿，也不像个能在这花钱的主顾。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Content",
+        "title": "Content",
+        "body": "男人说着，往后努了努嘴，让开了半条路。他的眼睛骨碌碌地转着，在程靖霖擦身而过的档口，始终盯着他的步伐和手里的药包。",
+        "x": 3737,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖走进那只粉纱灯下的大门，脚步有点游移。\n这是一幢两进式的院落，两边厢房里零落地点着油灯和蜡烛，中间堂屋被掩在另一扇门后。\n一股子有点冲鼻的脂粉味道萦绕在院子里，药房伙计站在院中，无所适从。\n他正不知道找谁问事的时候，有一个年轻的女声从背后响起：",
+        "x": 1470,
+        "y": 683,
+        "width": 260,
+        "height": 260,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n42",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 4367,
+        "y": 80,
+        "choices": [
+          "不再多问，进院子",
+          "张老虎是谁？",
+          "你是张老虎吗？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_3",
+            "label": "不再多问，进院子",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_4",
+            "label": "张老虎是谁？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "你是张老虎吗？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 哥，我是个跑腿的，不认识道。\n程靖霖: 往里走就是吗？\n程靖霖: 还有，张老虎是谁？",
+        "x": 4400,
+        "y": 683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "哥，我是个跑腿的，不认识道。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "往里走就是吗？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "还有，张老虎是谁？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "Content",
+        "title": "Content",
+        "body": "看堂子的男人冷笑起来。他上上下下地打量着药房伙计，看得他心里发毛。",
+        "x": 3770,
+        "y": 683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 你笑什么？\n看堂子的: 哎呀，多久没见过你这样的雏儿了。\n看堂子的: 你连张老虎是谁都不知道……也难怪，看你这半大不大的样子，你家大人还要体面，肯定平时不让你往这些地方钻。\n看堂子的: 往里走就行。到了里面，你就知道谁是张老虎了。",
+        "x": 3140,
+        "y": 683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "你笑什么？"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "哎呀，多久没见过你这样的雏儿了。"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "你连张老虎是谁都不知道……也难怪，看你这半大不大的样子，你家大人还要体面，肯定平时不让你往这些地方钻。"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "往里走就行。到了里面，你就知道谁是张老虎了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n46",
+        "type": "Content",
+        "title": "Content",
+        "body": "他扒拉了一下程靖霖的肩膀，让他正对着聚春馆的大门口，便不再言语。",
+        "x": 2510,
+        "y": 683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n47",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 哥，我第一次到这边来，不认识道。\n程靖霖: 你是张老虎吗？你要是，我就按掌柜的吩咐，把药给你，我就回去了。\n程靖霖: 这地方……我不知道干啥的。",
+        "x": 3770,
+        "y": 949,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "哥，我第一次到这边来，不认识道。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "你是张老虎吗？你要是，我就按掌柜的吩咐，把药给你，我就回去了。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "这地方……我不知道干啥的。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖走了几步，回过头来看到男人还在那里站着，有些狐疑。他想了想，回身问道：",
+        "x": 4400,
+        "y": 1050,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Content",
+        "title": "Content",
+        "body": "看堂子的男人盯着程靖霖看了一会儿，咧开嘴笑了起来，笑得直咳嗽。程靖霖不知道他为什么会笑，也不知道该说什么，只能尴尬地站在那儿。\n男人笑了一会儿，才说：",
+        "x": 3140,
+        "y": 1281,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n50",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "看堂子的: 我是张老虎？我要是他就好了，还犯得着大晚上在外面受冻？\n看堂子的: 你这小子，还真是个雏儿……\n看堂子的: 往里走。你不知道来这干啥，进去就知道了。\n看堂子的: 到里面，再报名号，说找谁，就能找着了。",
+        "x": 2510,
+        "y": 949,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "看堂子的",
+            "line": "我是张老虎？我要是他就好了，还犯得着大晚上在外面受冻？"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "你这小子，还真是个雏儿……"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "往里走。你不知道来这干啥，进去就知道了。"
+          },
+          {
+            "speaker": "看堂子的",
+            "line": "到里面，再报名号，说找谁，就能找着了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Content",
+        "title": "Content",
+        "body": "说完，他不再搭理程靖霖，转过身去继续盯着空无一人的胡同。",
+        "x": 1880,
+        "y": 683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "年轻女子: 你是干什么的？找谁？",
+        "x": 1120,
+        "y": 683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "年轻女子",
+            "line": "你是干什么的？找谁？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖回过身来，看见一个穿着绸花袄的女人，正站在他身后。\n她大概十七八岁光景，头上挽着个发髻，用一根簪子斜插着，脸上倒是素净，身上却传来丝丝若有若无的香气。\n程靖霖心里打起了鼓。他结结巴巴地说道：",
+        "x": 490,
+        "y": 683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n54",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我……我是时一堂……药房的……伙计。\n程靖霖: 来……来这，送……送药。\n程靖霖: 我家……我家掌柜的说，到这，找一个叫……叫张老虎的。\n程靖霖: 这位姐姐，你知道……张老虎吗？",
+        "x": 140,
+        "y": 683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我……我是时一堂……药房的……伙计。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "来……来这，送……送药。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我家……我家掌柜的说，到这，找一个叫……叫张老虎的。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "这位姐姐，你知道……张老虎吗？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Content",
+        "title": "Content",
+        "body": "女子微微眯了一下眼睛，微笑了起来。",
+        "x": 140,
+        "y": 1683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n56",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "女子: 你跟我到这边房里等一下吧。\n女子: 看你也不大，不用叫什么姐姐，姐这个词搁这不好听。\n女子: 叫我小芬吧。\n程靖霖: 是，小芬姐。\n小芬: 说了别叫姐了！",
+        "x": 770,
+        "y": 1683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "女子",
+            "line": "你跟我到这边房里等一下吧。"
+          },
+          {
+            "speaker": "女子",
+            "line": "看你也不大，不用叫什么姐姐，姐这个词搁这不好听。"
+          },
+          {
+            "speaker": "女子",
+            "line": "叫我小芬吧。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "是，小芬姐。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "说了别叫姐了！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Content",
+        "title": "Content",
+        "body": "说话之间，小芬拉着程靖霖的袖子，把他拽到旁边一间刚点起油灯的厢房里。\n程靖霖腾云驾雾地走着，不知道该说些什么。恍惚之间，他被小芬带进屋里，坐在一张凳子上。\n小芬看了看他，忽然像成年人那样，叹了口气：",
+        "x": 1120,
+        "y": 1683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n58",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "小芬: 看你小孩子家家的，从来没来过这儿，对吧。\n小芬: 也难怪，有家教的，咋能来这种地方呢？\n小芬: 你等等，我去给你喊妈妈来。",
+        "x": 1750,
+        "y": 1683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "小芬",
+            "line": "看你小孩子家家的，从来没来过这儿，对吧。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "也难怪，有家教的，咋能来这种地方呢？"
+          },
+          {
+            "speaker": "小芬",
+            "line": "你等等，我去给你喊妈妈来。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n59",
+        "type": "Content",
+        "title": "Content",
+        "body": "小芬挑起门帘出去了。程靖霖把药包放在旁边的桌子上，心跳这才稍微平静了一点。\n他听到隔壁似乎有些响动，于是凝神静听——",
+        "x": 2100,
+        "y": 1683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n60",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粗野的女人: 你这个不识好歹的臭娘们。好赖不听，油盐不进，给脸不要脸是吧？\n粗野的女人: 我他妈明天就把你卖到鸡西矿上去，让你天天接煤黑子！\n粗野的女人: 有福不享，让你好好遭遭罪！\n哭泣的女人: 张妈妈，求求你别再打了！求求你放我一条生路吧！",
+        "x": 2730,
+        "y": 1683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "粗野的女人",
+            "line": "你这个不识好歹的臭娘们。好赖不听，油盐不进，给脸不要脸是吧？"
+          },
+          {
+            "speaker": "粗野的女人",
+            "line": "我他妈明天就把你卖到鸡西矿上去，让你天天接煤黑子！"
+          },
+          {
+            "speaker": "粗野的女人",
+            "line": "有福不享，让你好好遭遭罪！"
+          },
+          {
+            "speaker": "哭泣的女人",
+            "line": "张妈妈，求求你别再打了！求求你放我一条生路吧！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n61",
+        "type": "Content",
+        "title": "Content",
+        "body": "尖叫、哭喊和咒骂从薄薄的夹壁墙中穿过，落进程靖霖的耳朵里。隔壁的哭嚎声越来越大，年轻的药房伙计有些坐立不安。忽然之间，喝骂声停止了，似乎有人打断了这场施暴。\n程靖霖屏住了呼吸，隔壁传来推门声，很快自己这间厢房的门也被拉开了。一个穿着黑花袄的中年女子大步跨了进来，小芬跟在后面，垂手而立。\n程靖霖赶紧站起身来。",
+        "x": 3080,
+        "y": 1683,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n62",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我是……\n粗野的女人: 我知道，你是药房跑腿那个小的。\n粗野的女人: 我找老程要药居然还真有……这老东西果然藏着不少好玩意。\n程靖霖: 那个……掌柜的说，把药交给张老虎。\n粗野的女人: 我就是。",
+        "x": 3710,
+        "y": 1683,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我是……"
+          },
+          {
+            "speaker": "粗野的女人",
+            "line": "我知道，你是药房跑腿那个小的。"
+          },
+          {
+            "speaker": "粗野的女人",
+            "line": "我找老程要药居然还真有……这老东西果然藏着不少好玩意。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "那个……掌柜的说，把药交给张老虎。"
+          },
+          {
+            "speaker": "粗野的女人",
+            "line": "我就是。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n63",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 4060,
+        "y": 1683,
+        "choices": [
+          "交出药来",
+          "为什么你叫张老虎？",
+          "这药是用来治谁的？",
+          "这里是什么地方？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_6",
+            "label": "交出药来",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_7",
+            "label": "为什么你叫张老虎？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_8",
+            "label": "这药是用来治谁的？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "这里是什么地方？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n64",
+        "type": "Content",
+        "title": "Content",
+        "body": "女人的话有着不容置疑的份量。程靖霖再不敢多嘴，从旁边的桌子上把药包拿起来，交给张老虎。\n老鸨掂了掂药包的份量，斜着眼睛看了看程靖霖。",
+        "x": 3080,
+        "y": 2418,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n65",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老虎: 你这小崽，长得还怪周正。\n张老虎: 就是跟老程一点也不像呢。\n张老虎: 脾气、说话，都不像，一个窝里怎么没教出两只狼呢？\n张老虎: 以后有事还找你送药。",
+        "x": 2730,
+        "y": 2418,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "张老虎",
+            "line": "你这小崽，长得还怪周正。"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "就是跟老程一点也不像呢。"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "脾气、说话，都不像，一个窝里怎么没教出两只狼呢？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "以后有事还找你送药。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n66",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 那个……我还以为张老虎是个男的。\n张老虎: 老虎吃人，分公母吗？\n张老虎: 母老虎就不吃人了？\n张老虎: 干这个行当，骨头都得嚼烂了，嘬出渣子来，不吃人能行？\n张老虎: 药呢？",
+        "x": 4060,
+        "y": 2418,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "那个……我还以为张老虎是个男的。"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "老虎吃人，分公母吗？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "母老虎就不吃人了？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "干这个行当，骨头都得嚼烂了，嘬出渣子来，不吃人能行？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "药呢？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n67",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 这药……是用来治什么的？\n张老虎: 小孩子家家的，问那么多干什么？\n张老虎: 能治的病就能治，不能治的病，给药也没用。\n张老虎: 你小崽子，毛都没长齐，问什么问？",
+        "x": 4060,
+        "y": 2957,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "这药……是用来治什么的？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "小孩子家家的，问那么多干什么？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "能治的病就能治，不能治的病，给药也没用。"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "你小崽子，毛都没长齐，问什么问？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n68",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖几乎不假思索地问出“这里到底是什么地方”，对面的女人听到之后，脸上的表情稍微有些变化——不如说是扭曲更恰当。",
+        "x": 4060,
+        "y": 3450,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n69",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老虎: 说你这个小崽，是装呢还是真不懂呢？\n张老虎: 真是从来没进过堂子？\n张老虎: 你家老掌柜的，还是管的太宽，养的太好。\n张老虎: 药，拿来。",
+        "x": 3710,
+        "y": 2418,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "张老虎",
+            "line": "说你这个小崽，是装呢还是真不懂呢？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "真是从来没进过堂子？"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "你家老掌柜的，还是管的太宽，养的太好。"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "药，拿来。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n70",
+        "type": "Content",
+        "title": "Content",
+        "body": "张老虎从怀里掏出一个小包打开，里面是明晃晃的现洋。她数出几块，塞进程靖霖手里：",
+        "x": 2100,
+        "y": 2418,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n71",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "张老虎: 药钱。回去告诉老程先生，这几天少不得还得用药。\n张老虎: 小芬，带他出去。\n小芬: 是。",
+        "x": 1750,
+        "y": 2418,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "张老虎",
+            "line": "药钱。回去告诉老程先生，这几天少不得还得用药。"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "小芬，带他出去。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "是。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n72",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖没再多说话，稍微欠了欠身，跟着小芬踏出了厢房。他戴上帽子，拽紧了耳旁的带子，跟女孩走到院门处。\n小芬拉开院门，对他说：",
+        "x": 1120,
+        "y": 2418,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n73",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "小芬: 走吧。\n小芬: 没事儿别来了。\n小芬: 好人别往火坑里钻。",
+        "x": 770,
+        "y": 2418,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "小芬",
+            "line": "走吧。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "没事儿别来了。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "好人别往火坑里钻。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n74",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 140,
+        "y": 2418,
+        "choices": [
+          "这里到底是……",
+          "那个张老虎平时也这么凶吗？",
+          "我听见隔壁有人挨打"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_10",
+            "label": "这里到底是……",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "那个张老虎平时也这么凶吗？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_12",
+            "label": "我听见隔壁有人挨打",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n75",
+        "type": "Content",
+        "title": "Content",
+        "body": "小芬不耐烦地看了伙计一眼：",
+        "x": 140,
+        "y": 3826,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n76",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "小芬: 就算是雏儿，也装得太过了。\n小芬: 这就是窑子，我就是窑姐儿。\n小芬: 做的皮肉生意。\n小芬: 还不懂？慢慢懂去吧。\n小芬: 快走！",
+        "x": 770,
+        "y": 3826,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "小芬",
+            "line": "就算是雏儿，也装得太过了。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "这就是窑子，我就是窑姐儿。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "做的皮肉生意。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "还不懂？慢慢懂去吧。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "快走！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n77",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 这女人真凶。\n程靖霖: 比俺家借壁儿的马寡妇还厉害。\n小芬: 她说得对。这行当不凶怎么行。\n小芬: 快走吧。",
+        "x": 140,
+        "y": 4092,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "这女人真凶。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "比俺家借壁儿的马寡妇还厉害。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "她说得对。这行当不凶怎么行。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "快走吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n78",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖迟疑了一下，在院门口站住。",
+        "x": 140,
+        "y": 4505,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n79",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我刚才等的时候……\n程靖霖: 好像听到有人在挨打。\n程靖霖: 好像……是妈妈打女儿，但是听着又不像亲母女。\n程靖霖: 哪个妈妈会把女儿给……卖到煤窑去？",
+        "x": 770,
+        "y": 4286,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我刚才等的时候……"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "好像听到有人在挨打。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "好像……是妈妈打女儿，但是听着又不像亲母女。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "哪个妈妈会把女儿给……卖到煤窑去？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n80",
+        "type": "Content",
+        "title": "Content",
+        "body": "小芬的脚步也停住了。她转眼望向程靖霖，眼神里的复杂并不像一个少女能够表现出来的样子。",
+        "x": 1120,
+        "y": 3826,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n81",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "小芬: 卖儿卖女的，多得是了。\n小芬: 卖什么不是卖，卖给谁不是卖。\n小芬: 你还小。\n小芬: 快走吧。",
+        "x": 1750,
+        "y": 3826,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "小芬",
+            "line": "卖儿卖女的，多得是了。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "卖什么不是卖，卖给谁不是卖。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "你还小。"
+          },
+          {
+            "speaker": "小芬",
+            "line": "快走吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n82",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖被推出门去，院门在背后哐地关上。程靖霖回头望望，粉色的纱灯还在院门上高高挑着，在夜色里轻微地晃着。\n他低下头，顺着来路往前走。刚才拦住他的男人此刻正引着一个穿棉袍的人往这边走，看见了他，无声地龇牙一乐。\n天彻底黑下来了。",
+        "x": 2100,
+        "y": 3826,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n83",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖跨进药房大门的时候，已经彻底被冻透了。老掌柜还坐在柜台后面，听见门响，也没有抬头。\n年轻人走进屋子里，脱下大袄挂在墙上，赶紧靠近火炉。\n老掌柜慢慢开口：",
+        "x": 2730,
+        "y": 3826,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n84",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程时一: 送到了？\n程时一: 都看见什么了？\n程靖霖: 啊……没什么。只是之前没去过。\n程时一: 以后如果不是公事也不许去，知道吗？\n程靖霖: 我就是没想到，张老虎是个女人。\n程时一: 男人女人都是人，都有病，都有苦。\n程时一: 吃饭吧。",
+        "x": 3360,
+        "y": 3826,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程时一",
+            "line": "送到了？"
+          },
+          {
+            "speaker": "程时一",
+            "line": "都看见什么了？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "啊……没什么。只是之前没去过。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "以后如果不是公事也不许去，知道吗？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我就是没想到，张老虎是个女人。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "男人女人都是人，都有病，都有苦。"
+          },
+          {
+            "speaker": "程时一",
+            "line": "吃饭吧。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n85",
+        "type": "Content",
+        "title": "Content",
+        "body": "程时一指了指桌子，一碗高粱米饭、一碟子菜，正在冒着热气。程晓梅站在一旁用围裙擦着手。",
+        "x": 3710,
+        "y": 3826,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n86",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程晓梅: 霖子，快吃吧。\n程晓梅: 冻坏了吧。吃了身上就有热气了。\n程靖霖: 嗯呐。我吃了，姐。",
+        "x": 4340,
+        "y": 3826,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程晓梅",
+            "line": "霖子，快吃吧。"
+          },
+          {
+            "speaker": "程晓梅",
+            "line": "冻坏了吧。吃了身上就有热气了。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "嗯呐。我吃了，姐。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n87",
+        "type": "Content",
+        "title": "Content",
+        "body": "药房伙计坐到桌边，刚端起碗，药房本应紧闭的大门忽然没有预兆地被推开了。\n有一个人走了进来，他带进来的寒气一下充满了整个房间。",
+        "x": 1320,
+        "y": 4889,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
       }
     ],
     "links": [
@@ -856,8 +1602,26 @@
         }
       },
       {
-        "id": "l1",
+        "id": "l36",
+        "from": "n34",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
         "from": "n0",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n36",
         "to": "n1",
         "toPort": {
           "side": "left",
@@ -865,321 +1629,561 @@
         }
       },
       {
-        "id": "l2",
+        "id": "l39",
         "from": "n1",
-        "to": "n2",
+        "to": "n37",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l3",
-        "from": "n2",
-        "to": "n3",
+        "id": "l40",
+        "from": "n37",
+        "to": "n38",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l4",
-        "from": "n3",
-        "to": "n4",
+        "id": "l41",
+        "from": "n38",
+        "to": "n39",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l5",
-        "from": "n4",
-        "to": "n5",
+        "id": "l42",
+        "from": "n39",
+        "to": "n40",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l6",
-        "from": "n5",
-        "to": "n6",
+        "id": "l43",
+        "from": "n40",
+        "to": "n42",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l7",
-        "from": "n6",
-        "to": "n7",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l8",
-        "from": "n7",
-        "to": "n8",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l9",
-        "from": "n8",
-        "to": "n9",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l10",
-        "from": "n9",
-        "to": "n10",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l11",
-        "from": "n10",
-        "to": "n11",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l12",
-        "from": "n11",
-        "to": "n12",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l13",
-        "from": "n12",
-        "to": "n13",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l14",
-        "from": "n13",
-        "to": "n14",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l15",
-        "from": "n14",
-        "to": "n15",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l16",
-        "from": "n15",
-        "to": "n16",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l17",
-        "from": "n16",
-        "to": "n17",
-        "choiceOptionId": "opt_1",
+        "id": "l44",
+        "from": "n42",
+        "to": "n41",
+        "choiceOptionId": "opt_3",
         "choiceIndex": 0,
-        "label": "多看一眼",
+        "label": "不再多问，进院子",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l18",
-        "from": "n16",
-        "to": "n22",
-        "choiceOptionId": "opt_2",
+        "id": "l45",
+        "from": "n42",
+        "to": "n43",
+        "choiceOptionId": "opt_4",
         "choiceIndex": 1,
-        "label": "不看了，走",
+        "label": "张老虎是谁？",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l19",
-        "from": "n17",
-        "to": "n18",
+        "id": "l46",
+        "from": "n43",
+        "to": "n44",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l20",
-        "from": "n18",
-        "to": "n19",
+        "id": "l47",
+        "from": "n44",
+        "to": "n45",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l21",
-        "from": "n19",
-        "to": "n20",
+        "id": "l48",
+        "from": "n45",
+        "to": "n46",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l22",
-        "from": "n20",
-        "to": "n21",
+        "id": "l49",
+        "from": "n46",
+        "to": "n41",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l23",
-        "from": "n21",
-        "to": "n26",
+        "id": "l50",
+        "from": "n42",
+        "to": "n48",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 2,
+        "label": "你是张老虎吗？",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l24",
-        "from": "n22",
-        "to": "n23",
+        "id": "l51",
+        "from": "n48",
+        "to": "n47",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l25",
-        "from": "n23",
-        "to": "n24",
+        "id": "l52",
+        "from": "n47",
+        "to": "n49",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l26",
-        "from": "n24",
-        "to": "n25",
+        "id": "l53",
+        "from": "n49",
+        "to": "n50",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l27",
-        "from": "n25",
-        "to": "n26",
+        "id": "l54",
+        "from": "n50",
+        "to": "n51",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l28",
-        "from": "n26",
-        "to": "n27",
+        "id": "l55",
+        "from": "n51",
+        "to": "n41",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l29",
-        "from": "n27",
-        "to": "n28",
+        "id": "l56",
+        "from": "n41",
+        "to": "n52",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l30",
-        "from": "n28",
-        "to": "n29",
+        "id": "l57",
+        "from": "n52",
+        "to": "n53",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l31",
-        "from": "n29",
-        "to": "n30",
+        "id": "l58",
+        "from": "n53",
+        "to": "n54",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l32",
-        "from": "n30",
-        "to": "n31",
+        "id": "l59",
+        "from": "n54",
+        "to": "n55",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l33",
-        "from": "n31",
-        "to": "n32",
+        "id": "l60",
+        "from": "n55",
+        "to": "n56",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l34",
-        "from": "n32",
-        "to": "n33",
+        "id": "l61",
+        "from": "n56",
+        "to": "n57",
         "toPort": {
           "side": "left",
           "t": 0.5
         }
       },
       {
-        "id": "l35",
-        "from": "n33",
+        "id": "l62",
+        "from": "n57",
+        "to": "n58",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n58",
+        "to": "n59",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n59",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n60",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l66",
+        "from": "n61",
+        "to": "n62",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l67",
+        "from": "n62",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l68",
+        "from": "n64",
+        "to": "n65",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l69",
+        "from": "n63",
+        "to": "n64",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 0,
+        "label": "交出药来",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l70",
+        "from": "n63",
+        "to": "n66",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 1,
+        "label": "为什么你叫张老虎？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l71",
+        "from": "n63",
+        "to": "n67",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 2,
+        "label": "这药是用来治谁的？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l72",
+        "from": "n63",
+        "to": "n68",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 3,
+        "label": "这里是什么地方？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l73",
+        "from": "n68",
+        "to": "n69",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l74",
+        "from": "n66",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l75",
+        "from": "n67",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l76",
+        "from": "n69",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l77",
+        "from": "n65",
+        "to": "n70",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l78",
+        "from": "n70",
+        "to": "n71",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l79",
+        "from": "n71",
+        "to": "n72",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l80",
+        "from": "n72",
+        "to": "n73",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l81",
+        "from": "n73",
+        "to": "n74",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l82",
+        "from": "n74",
+        "to": "n75",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 0,
+        "label": "这里到底是……",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l83",
+        "from": "n75",
+        "to": "n76",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l84",
+        "from": "n74",
+        "to": "n77",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 1,
+        "label": "那个张老虎平时也这么凶吗？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l85",
+        "from": "n74",
+        "to": "n78",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 2,
+        "label": "我听见隔壁有人挨打",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l86",
+        "from": "n78",
+        "to": "n79",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l87",
+        "from": "n79",
+        "to": "n80",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l88",
+        "from": "n80",
+        "to": "n81",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l89",
+        "from": "n81",
+        "to": "n82",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l90",
+        "from": "n77",
+        "to": "n82",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l91",
+        "from": "n76",
+        "to": "n82",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l92",
+        "from": "n82",
+        "to": "n83",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l93",
+        "from": "n83",
+        "to": "n84",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l94",
+        "from": "n84",
+        "to": "n85",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l95",
+        "from": "n85",
+        "to": "n86",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l96",
+        "from": "n86",
+        "to": "n87",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l97",
+        "from": "n87",
         "to": "n34",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l36",
-        "from": "n34",
-        "to": "n35",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -1195,9 +2199,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": 321.6562701532795,
-      "y": -438.1248802037662,
-      "scale": 0.3993000000000004
+      "x": 445.8006771121692,
+      "y": 68.69554529767834,
+      "scale": 0.2196139224153841
     },
     "sidebar": {
       "leftWidth": 280,
