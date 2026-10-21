@@ -1025,8 +1025,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 4270,
-        "y": 1875,
+        "x": 4184,
+        "y": 1792,
         "choices": [
           "为什么？",
           "为什么？",
@@ -1533,8 +1533,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 140,
-        "y": 1829,
+        "x": -760,
+        "y": 1704,
         "choices": [
           "给张老大",
           "给佟立春",
@@ -2402,18 +2402,6 @@
         }
       },
       {
-        "id": "l42",
-        "from": "n54",
-        "to": "n58",
-        "choiceOptionId": "opt_4",
-        "choiceIndex": 3,
-        "label": "为什么？",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
         "id": "l43",
         "from": "n55",
         "to": "n59",
@@ -2954,18 +2942,6 @@
         }
       },
       {
-        "id": "l98",
-        "from": "n72",
-        "to": "n24",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        },
-        "choiceIndex": 2,
-        "choiceOptionId": "opt_3",
-        "label": "看着两人，等他们发话"
-      },
-      {
         "id": "l100",
         "from": "n78",
         "to": "n86",
@@ -2997,6 +2973,30 @@
           "side": "left",
           "t": 0.5
         }
+      },
+      {
+        "id": "l103",
+        "from": "n54",
+        "to": "n58",
+        "choiceOptionId": "opt_14",
+        "choiceIndex": 3,
+        "label": "为什么？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l104",
+        "from": "n72",
+        "to": "n24",
+        "choiceOptionId": "opt_26",
+        "choiceIndex": 2,
+        "label": "看着两人，等他们发话",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
       }
     ]
   },
@@ -3008,9 +3008,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -661.5845532911212,
-      "y": -341.88237952089037,
-      "scale": 0.7073843073000036
+      "x": 450.4837382135064,
+      "y": -2191.5854341992945,
+      "scale": 0.8559350118330062
     },
     "sidebar": {
       "leftWidth": 280,
