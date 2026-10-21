@@ -611,8 +611,7 @@
           "这事有点麻烦。",
           "掌柜的有什么办法吗？",
           "我去行不行？",
-          "警官，不止这些钱吧？（眼力）",
-          "警官，什么情况？（身手）"
+          "警官，不止这些钱吧？（眼力）"
         ],
         "choiceOptions": [
           {
@@ -642,12 +641,6 @@
           {
             "id": "opt_8",
             "label": "警官，不止这些钱吧？（眼力）",
-            "requires": "",
-            "effects": []
-          },
-          {
-            "id": "opt_9",
-            "label": "警官，什么情况？（身手）",
             "requires": "",
             "effects": []
           }
@@ -2169,7 +2162,7 @@
         "to": "n133",
         "choiceOptionId": "opt_7",
         "choiceIndex": 3,
-        "label": "掌柜的，我去行不行？",
+        "label": "我去行不行？",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2208,7 +2201,7 @@
         "to": "n137",
         "choiceOptionId": "opt_4",
         "choiceIndex": 0,
-        "label": "掌柜的，咱不去。",
+        "label": "咱不去。",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2334,7 +2327,7 @@
         "to": "n150",
         "choiceOptionId": "opt_5",
         "choiceIndex": 1,
-        "label": "掌柜的，这事有点麻烦。",
+        "label": "这事有点麻烦。",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2364,7 +2357,7 @@
         "to": "n151",
         "choiceOptionId": "opt_6",
         "choiceIndex": 2,
-        "label": "掌柜的，你有什么办法吗？",
+        "label": "掌柜的有什么办法吗？",
         "toPort": {
           "side": "left",
           "t": 0.5
@@ -2770,9 +2763,9 @@
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -544.0140418060637,
-      "y": -57.145232598662574,
-      "scale": 0.4285256696037999
+      "x": -1926.483188134177,
+      "y": -225.48773192491717,
+      "scale": 0.759159363768978
     },
     "sidebar": {
       "leftWidth": 280,
