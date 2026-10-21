@@ -483,8 +483,8 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜没有抬头，继续吸着他的烟杆。",
-        "x": 140,
-        "y": 706,
+        "x": -592,
+        "y": 1464,
         "width": 440,
         "height": 88,
         "manualSize": true,
@@ -504,8 +504,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "卢二柜: 《粮谷出荷》，什么都要军管，市面上根本什么都买不着，要么就黑市买……年还得过，饭还得做，客人还得捧着，日本人也得哄着……\n卢二柜: 人都得吃饭才能活着，可是要是连饭庄子都吃不上一顿好饭了，那怎么办呢？",
-        "x": 140,
-        "y": 1729,
+        "x": -368,
+        "y": 1888,
         "width": 440,
         "height": 257,
         "turns": [
@@ -518,27 +518,6 @@
             "line": "人都得吃饭才能活着，可是要是连饭庄子都吃不上一顿好饭了，那怎么办呢？"
           }
         ],
-        "manualSize": true,
-        "ports": {
-          "input": {
-            "side": "left",
-            "t": 0.5
-          },
-          "output": {
-            "side": "right",
-            "t": 0.5
-          }
-        }
-      },
-      {
-        "id": "n32",
-        "type": "Content",
-        "title": "Content",
-        "body": "卢二柜若有所思地自言自语着：",
-        "x": 140,
-        "y": 2102,
-        "width": 440,
-        "height": 88,
         "manualSize": true,
         "ports": {
           "input": {
@@ -880,7 +859,7 @@
         "x": 5450,
         "y": 1729,
         "width": 440,
-        "height": 88,
+        "height": 119,
         "manualSize": true,
         "ports": {
           "input": {
@@ -1731,8 +1710,8 @@
         "type": "Content",
         "title": "Content",
         "body": "程靖霖不知道自己该说些什么。他站在那里，一言不发，只是把药包从怀里掏了出来。",
-        "x": 4900,
-        "y": 287,
+        "x": 4768,
+        "y": 384,
         "ports": {
           "input": {
             "side": "left",
@@ -1749,8 +1728,8 @@
         "type": "Content",
         "title": "Content",
         "body": "卢二柜纳闷地看着他：",
-        "x": 5530,
-        "y": 330,
+        "x": 5848,
+        "y": 488,
         "ports": {
           "input": {
             "side": "left",
@@ -2781,24 +2760,6 @@
         }
       },
       {
-        "id": "l17",
-        "from": "n31",
-        "to": "n32",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
-        "id": "l18",
-        "from": "n32",
-        "to": "n31",
-        "toPort": {
-          "side": "left",
-          "t": 0.5
-        }
-      },
-      {
         "id": "l19",
         "from": "n31",
         "to": "n34",
@@ -3716,16 +3677,16 @@
     ]
   },
   "ui": {
-    "selectedNodeId": null,
+    "selectedNodeId": "n31",
     "selectedLinkId": null,
     "panel": "project",
     "activeFileId": "adventure",
     "theme": "dark",
     "exportImageScale": 1,
     "view": {
-      "x": -1363.9308921952638,
-      "y": -2689.992825036763,
-      "scale": 0.6892459479535867
+      "x": 513.705343034229,
+      "y": -490.54144543122675,
+      "scale": 0.6892459479535876
     },
     "sidebar": {
       "leftWidth": 280,
