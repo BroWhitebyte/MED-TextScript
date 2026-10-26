@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-26T12:23:21.999Z",
+  "ui": {
+    "view": {
+      "x": 396.8072068479014,
+      "y": 15.221620087671454,
+      "scale": 1.552303307647889
+    },
+    "selectedNodeId": "n3",
+    "selectedLinkId": null
+  },
+  "project": {
+    "title": "Event 000 新序章0",
+    "notes": "",
+    "variables": [],
+    "characters": [],
+    "nodes": [
+      {
+        "id": "n_entry",
+        "type": "Entry",
+        "x": -336,
+        "y": -40,
+        "width": 440,
+        "height": 88,
+        "body": "Adventure Begins",
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n1",
+        "type": "End",
+        "x": 952,
+        "y": 8,
+        "width": 440,
+        "height": 88,
+        "body": ""
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "Content",
+        "body": "6666\n\n啥地方\n\nZ都是反复",
+        "x": 224,
+        "y": -64,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "imagery": {
+            "visual": "黑屏",
+            "sound": [
+              "踩雪的脚步声\n"
+            ]
+          },
+          "imageryVersion": 2,
+          "_bodyBackup": {
+            "body": "6666\n\n啥地方",
+            "turns": null,
+            "at": "2026-10-26T13:24:46.813Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "mood",
+              "text": "是否到账啥地方是"
+            },
+            {
+              "t": "visual",
+              "text": "为服务呃"
+            },
+            {
+              "t": "sound",
+              "text": "三下敲门声"
+            },
+            {
+              "t": "sound",
+              "text": "啥地方"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "6666|6666|4"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "啥地方|啥地方|3"
+            },
+            {
+              "t": "sound",
+              "text": "回家结婚好久好久"
+            },
+            {
+              "t": "effect",
+              "text": "啥地方桑福德是非得"
+            },
+            {
+              "t": "visual",
+              "text": "啥地方23 34 5 桑福德"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "Z都是反复|Z都是反复|5"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 嗷嗷啊\n张老虎: 嗷嗷啊",
+        "x": 592,
+        "y": 24,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "嗷嗷啊"
+          },
+          {
+            "speaker": "张老虎",
+            "line": "嗷嗷啊"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "嗷嗷嗷"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "你啥地方hi哦啊几个"
+          }
+        ],
+        "height": 623,
+        "manualSize": true,
+        "customFields": {
+          "_bodyBackup": {
+            "body": "程靖霖: 嗷嗷啊\n张老虎: 嗷嗷啊",
+            "turns": [
+              {
+                "speaker": "程靖霖",
+                "line": "嗷嗷啊"
+              },
+              {
+                "speaker": "张老虎",
+                "line": "嗷嗷啊"
+              },
+              {
+                "speaker": "程靖霖",
+                "line": "嗷嗷嗷"
+              }
+            ],
+            "at": "2026-10-26T13:27:22.083Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "visual",
+              "text": "啥地方"
+            },
+            {
+              "t": "turn",
+              "i": 0,
+              "fp": "嗷嗷啊|嗷嗷啊|3"
+            },
+            {
+              "t": "turn",
+              "i": 1,
+              "fp": "嗷嗷啊|嗷嗷啊|3"
+            },
+            {
+              "t": "turn",
+              "i": 2,
+              "fp": "嗷嗷嗷|嗷嗷嗷|3"
+            },
+            {
+              "t": "sound",
+              "text": "啥地方   未发售我"
+            },
+            {
+              "t": "effect",
+              "text": "啥地方啥地方收到"
+            },
+            {
+              "t": "mood",
+              "text": "打发时光客户尽快"
+            },
+            {
+              "t": "turn",
+              "i": 3,
+              "fp": "你啥地方hi哦啊|地方hi哦啊几个|10"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "啥地方",
+        "x": 992,
+        "y": 208,
+        "choices": [
+          "",
+          ""
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "",
+            "requires": "",
+            "effects": [
+              {
+                "trigger": "onChoose",
+                "op": "set",
+                "key": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "id": "opt_2",
+            "label": "",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "customFields": {
+          "sequence": [
+            {
+              "t": "sound",
+              "text": "啥地方是"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "啥地方|啥地方|3"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "",
+            "turns": null,
+            "at": "2026-10-26T13:25:09.082Z",
+            "by": "imagery-hints"
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "n_entry",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  }
+}

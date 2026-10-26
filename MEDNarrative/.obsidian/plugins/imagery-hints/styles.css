@@ -1,0 +1,387 @@
+/* ════════════════════════════════════════════════════════════════
+   Imagery Hints —— 意象插件样式（合并版 v0.4.0）
+   
+   结构：
+     ① 调色板        每类一个 --ih-c，条/标签/正文同源
+     ② 块容器        意象块、折叠、插入缝
+     ③ 行与文字      行布局、标签、正文、序号
+     ④ 类型特化      四种意象 / 正文段 / 对话轮 / 数值
+     ⑤ 状态标记      漂移、未挂接、冲突红点
+     ⑥ 交互件        ＋ 按钮、就地编辑、状态栏、冲突清单
+     ⑦ 收尾覆盖      空值、未挂接、正文与对话不染色
+   ════════════════════════════════════════════════════════════════ */
+
+/* ─────────── ① 调色板 ───────────
+   左边条、类型标签、正文文字三者共用 --ih-c，不再各写一处颜色。 */
+
+.ih-row        { --ih-c: var(--background-modifier-border); }
+.ih-visual     { --ih-c: #4bb3a3; }   /* 画面：青 */
+.ih-sound      { --ih-c: #5b8fd6; }   /* 声音：蓝 */
+.ih-effect     { --ih-c: #9b7bd4; }   /* 效果：紫 */
+.ih-mood       { --ih-c: #c08b5c; }   /* 情绪：赭 */
+.ih-numeric    { --ih-c: #b9a13c; }   /* 数值：金 */
+.ih-para       { --ih-c: var(--text-faint); }
+.ih-turn       { --ih-c: var(--text-accent); }
+
+/* ─────────── ② 块容器 ─────────── */
+
+.ih-block {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--background-modifier-border);
+}
+
+.ih-block__head {
+  font-size: var(--font-ui-smaller);
+  color: var(--text-faint);
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
+}
+
+.ih-block__head:hover {
+  color: var(--text-muted);
+}
+
+.ih-block.ih-collapsed .ih-row {
+  display: none;
+}
+
+/* 块间插入缝：悬停块时显现 */
+.ih-gap {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.ih-block:hover .ih-gap {
+  opacity: 1;
+}
+
+.ih-gap__btn {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  line-height: 1;
+  font-size: 12px;
+  border: 1px dashed var(--background-modifier-border);
+  border-radius: 50%;
+  background: var(--background-primary);
+  color: var(--text-faint);
+  cursor: pointer;
+}
+
+.ih-gap__btn:hover {
+  border-color: var(--interactive-accent);
+  color: var(--interactive-accent);
+}
+
+/* ─────────── ③ 行与文字 ─────────── */
+
+.ih-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 3px 0 3px 8px;
+  border-left: 3px solid var(--ih-c);
+  font-size: var(--font-ui-smaller);
+  line-height: 1.5;
+}
+
+.ih-row:hover {
+  background: var(--background-modifier-hover);
+  border-radius: 3px;
+  cursor: text;
+}
+
+.ih-tag {
+  flex: 0 0 auto;
+  width: 2.4em;
+  font-family: var(--font-monospace);
+  letter-spacing: 0.08em;
+  color: var(--ih-c);
+}
+
+.ih-text {
+  flex: 1 1 auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  color: var(--text-normal);
+  color: color-mix(in srgb, var(--ih-c) 40%, var(--text-normal));
+}
+
+.ih-text.ih-empty {
+  color: var(--text-faint);
+  opacity: 0.6;
+  font-style: italic;
+}
+
+.ih-idx {
+  flex: 0 0 auto;
+  align-self: center;
+  margin-left: 4px;
+  font-size: 0.82em;
+  font-family: var(--font-monospace);
+  color: var(--ih-c);
+  opacity: 0.6;
+}
+
+.ih-sep {
+  color: var(--text-faint);
+  margin: 0 5px 0 2px;
+}
+
+/* ─────────── ④ 类型特化 ─────────── */
+
+/* 对话轮：说话人顶到标签位，宽度自适应 */
+.ih-turn-row .ih-tag {
+  width: auto;
+  min-width: 2.4em;
+  max-width: 7em;
+  margin-right: 4px;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ih-turn-row .ih-text {
+  opacity: 0.95;
+}
+
+.ih-turn-row .ih-tag:empty {
+  display: none;
+}
+
+/* 数值 chip */
+.ih-chip {
+  display: inline-block;
+  padding: 0 6px;
+  margin-right: 2px;
+  border-radius: 4px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-color: color-mix(in srgb, var(--ih-c) 45%, var(--background-modifier-border));
+  font-family: var(--font-monospace);
+  font-size: 0.92em;
+  color: var(--text-normal);
+  color: color-mix(in srgb, var(--ih-c) 35%, var(--text-normal));
+}
+
+.ih-chip--editing {
+  padding: 0;
+  border-color: var(--interactive-accent);
+  background: var(--background-primary);
+}
+
+.ih-chip-input {
+  width: 12em;
+  padding: 0 4px;
+  font-family: var(--font-monospace);
+  font-size: 0.92em;
+  border: none;
+  background: transparent;
+  color: var(--text-normal);
+  outline: none;
+}
+
+/* 选项级数值：挂在选项行下面 */
+.ih-optline {
+  margin-top: 3px;
+  padding-left: 8px;
+  border-left: 3px solid #b9a13c;
+  font-size: var(--font-ui-smaller);
+  font-family: var(--font-monospace);
+  color: var(--text-muted);
+  opacity: 0.9;
+  cursor: text;
+}
+
+.ih-optline:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+/* ─────────── ⑤ 状态标记 ─────────── */
+
+/* 引用漂移 */
+.ih-row--drift {
+  background: rgba(200, 60, 60, 0.08);
+  border-radius: 3px;
+}
+
+.ih-drift {
+  flex: 0 0 auto;
+  align-self: center;
+  margin-left: 6px;
+  padding: 0 5px;
+  border-radius: 3px;
+  font-size: 0.78em;
+  color: #fff;
+  background: #c0392b;
+  cursor: pointer;
+}
+
+/* 未挂接 */
+.ih-row--orphan {
+  opacity: 0.85;
+}
+
+.ih-orphan {
+  font-style: italic;
+}
+
+/* 卡片右上角冲突红点 */
+.ih-dot {
+  flex: 0 0 auto;
+  margin-left: 6px;
+  color: #c0392b;
+  font-size: 10px;
+  line-height: 1;
+}
+
+/* 状态栏 */
+.ih-status {
+  color: #c0392b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ─────────── ⑥ 交互件 ─────────── */
+
+/* 卡片右上角 ＋ */
+.ih-add {
+  flex: 0 0 auto;
+  margin-left: 6px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  line-height: 1;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-faint);
+  font-size: 14px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+
+.ng-node:hover .ih-add {
+  opacity: 1;
+}
+
+.ih-add:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+/* 就地编辑输入框 */
+.ih-inline-input {
+  width: 100%;
+  min-height: 1.6em;
+  padding: 2px 4px;
+  font-size: var(--font-ui-smaller);
+  font-family: inherit;
+  line-height: 1.5;
+  border: 1px solid var(--interactive-accent);
+  border-radius: 3px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+  resize: vertical;
+}
+
+/* 弹窗 */
+.ih-modal-input {
+  font-family: inherit;
+  font-size: var(--font-ui-small);
+  line-height: 1.6;
+  margin-top: 4px;
+  resize: vertical;
+}
+
+.ih-modal-field {
+  margin: 10px 0;
+  padding-left: 8px;
+  border-left: 3px solid var(--background-modifier-border);
+}
+
+.ih-modal-label {
+  display: block;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.ih-modal-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+/* 冲突清单 */
+.ih-conflict-group {
+  margin: 8px 0;
+  border-left: 2px solid var(--background-modifier-border);
+  padding-left: 8px;
+}
+
+.ih-conflict-group > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.ih-conflict {
+  margin: 8px 0 8px 4px;
+  padding: 6px 8px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+}
+
+.ih-conflict__head {
+  font-weight: 600;
+  font-family: var(--font-monospace);
+  font-size: 0.92em;
+}
+
+.ih-conflict__bar {
+  display: flex;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+/* ─────────── ⑦ 收尾覆盖 ───────────
+   放在最后，靠「同特指度、后出现者胜」压住上面的通用规则。 */
+
+/* 正文段与对话轮不是「意象」：只让标签带色，文字保持常规正文色 */
+.ih-para .ih-text,
+.ih-turn .ih-text {
+  color: var(--text-normal);
+  opacity: 0.95;
+}
+
+.ih-para .ih-text.ih-empty,
+.ih-turn .ih-text.ih-empty {
+  color: var(--text-faint);
+}
+
+/* 未挂接：红色斜体，压过一切正文色 */
+.ih-row--orphan .ih-text,
+.ih-row--orphan .ih-text.ih-empty {
+  color: #c0392b;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* 漂移标记始终白字红底 */
+.ih-row .ih-drift {
+  color: #fff;
+}

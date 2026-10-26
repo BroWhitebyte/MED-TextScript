@@ -1,0 +1,9 @@
+{
+  "id": "ncanvas-new",
+  "name": "NCanvas New",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "在任意文件夹里新建 .ncanvas：右键文件夹 / 命令面板 / 侧栏按钮；自动带 Entry·正文·End（或片段）骨架，并推算下一个事件编号。",
+  "author": "MED",
+  "isDesktopOnly": false
+}

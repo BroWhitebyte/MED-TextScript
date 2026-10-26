@@ -1,0 +1,9 @@
+{
+  "id": "imagery-hints",
+  "name": "Imagery Hints",
+  "version": "0.4.0",
+  "minAppVersion": "1.4.0",
+  "description": "在 .ncanvas 卡片内把意象与正文排成线性序列（含 Entry 开场意象）：意象块与正文段交替，引用 body 不重复正文；指纹检测引用漂移，状态栏提示、按文件分组清单、可重挂接/忽略。",
+  "author": "MED",
+  "isDesktopOnly": false
+}
