@@ -3,11 +3,11 @@
   "savedAt": "2026-10-26T12:23:21.999Z",
   "ui": {
     "view": {
-      "x": 396.8072068479014,
-      "y": 15.221620087671454,
-      "scale": 1.552303307647889
+      "x": -803.8451877483151,
+      "y": 388.61102032699637,
+      "scale": 0.7965770442758937
     },
-    "selectedNodeId": "n3",
+    "selectedNodeId": "n11",
     "selectedLinkId": null
   },
   "project": {
@@ -38,8 +38,8 @@
       {
         "id": "n1",
         "type": "End",
-        "x": 952,
-        "y": 8,
+        "x": 2080,
+        "y": -456,
         "width": 440,
         "height": 88,
         "body": ""
@@ -48,9 +48,214 @@
         "id": "n2",
         "type": "Content",
         "title": "Content",
-        "body": "6666\n\n啥地方\n\nZ都是反复",
-        "x": 224,
-        "y": -64,
+        "body": "",
+        "x": 240,
+        "y": -152,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "visual",
+              "text": "黑屏"
+            },
+            {
+              "t": "sound",
+              "text": "踩雪的脚步声"
+            },
+            {
+              "t": "effect",
+              "text": "字幕：1942年1月30日 通兰县城 黄昏"
+            },
+            {
+              "t": "sound",
+              "text": "脚步声停止。敲门声响起三下。"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "黑屏",
+            "turns": null,
+            "at": "2026-10-26T15:34:43.730Z",
+            "by": "imagery-hints"
+          }
+        },
+        "width": 362,
+        "height": 241,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "门里的人: 谁呀？\n程靖霖: 我是小程子，时一堂的伙计，来送药。\n门里的人: 药呢，带来了吗？\n程靖霖: 带了带了。",
+        "x": 752,
+        "y": -136,
+        "width": 316,
+        "turns": [
+          {
+            "speaker": "门里的人",
+            "line": "谁呀？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "小程子，时一堂的伙计，来送药。"
+          },
+          {
+            "speaker": "门里的人",
+            "line": "药呢，带来了吗？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "带了带了。"
+          }
+        ],
+        "customFields": {
+          "_bodyBackup": {
+            "body": "门里的人: 谁呀？\n程靖霖: 我是小程子，时一堂的伙计，来送药。\n门里的人: 药呢，带来了吗？\n程靖霖: 带了带了。",
+            "turns": [
+              {
+                "speaker": "门里的人",
+                "line": "谁呀？"
+              },
+              {
+                "speaker": "程靖霖",
+                "line": "我是小程子，时一堂的伙计，来送药。"
+              },
+              {
+                "speaker": "门里的人",
+                "line": "药呢，带来了吗？"
+              },
+              {
+                "speaker": "程靖霖",
+                "line": "带了带了。"
+              }
+            ],
+            "at": "2026-10-26T15:44:28.409Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "turn",
+              "i": 0,
+              "fp": "谁呀？|谁呀？|3"
+            },
+            {
+              "t": "turn",
+              "i": 1,
+              "fp": "小程子，时一堂的|的伙计，来送药。|15"
+            },
+            {
+              "t": "visual",
+              "text": "大成粮店正门。"
+            },
+            {
+              "t": "turn",
+              "i": 2,
+              "fp": "药呢，带来了吗？|药呢，带来了吗？|8"
+            },
+            {
+              "t": "turn",
+              "i": 3,
+              "fp": "带了带了。|带了带了。|5"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "height": 504,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "Content",
+        "body": "粮店伙计打开一条门缝，从里面探出头来。他左右望望没人，压低声音对程靖霖说：",
+        "x": 1224,
+        "y": -120,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "sound",
+              "text": "吱呀一声开门声。"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "粮店伙计打开一条|声音对程靖霖说：|37"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "粮店伙计打开一条门缝，从里面探出头来。他左右望望没人，便将程靖霖一把拽进门来。",
+            "turns": null,
+            "at": "2026-10-26T15:50:32.818Z",
+            "by": "imagery-hints"
+          }
+        },
+        "width": 260,
+        "height": 464,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n5",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粮店伙计: 等会儿啊，别吱声。\n粮店伙计: 出事了咱俩谁都跑不了。\n程靖霖: 我送个药怎么还出事呢？\n粮店伙计: 你没懂……",
+        "x": 1608,
+        "y": -144,
+        "width": 307,
+        "turns": [
+          {
+            "speaker": "粮店伙计",
+            "line": "等会儿啊，别吱声。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "出事了咱俩谁都跑不了。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我送个药怎么还出事呢？"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "你没懂……"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "要钱，你得等一会儿。"
+          }
+        ],
+        "height": 403,
+        "manualSize": true,
         "ports": {
           "input": {
             "side": "left",
@@ -62,206 +267,319 @@
           }
         },
         "customFields": {
-          "imagery": {
-            "visual": "黑屏",
-            "sound": [
-              "踩雪的脚步声\n"
-            ]
-          },
-          "imageryVersion": 2,
-          "_bodyBackup": {
-            "body": "6666\n\n啥地方",
-            "turns": null,
-            "at": "2026-10-26T13:24:46.813Z",
-            "by": "imagery-hints"
-          },
           "sequence": [
-            {
-              "t": "mood",
-              "text": "是否到账啥地方是"
-            },
-            {
-              "t": "visual",
-              "text": "为服务呃"
-            },
-            {
-              "t": "sound",
-              "text": "三下敲门声"
-            },
-            {
-              "t": "sound",
-              "text": "啥地方"
-            },
-            {
-              "t": "para",
-              "i": 0,
-              "fp": "6666|6666|4"
-            },
-            {
-              "t": "para",
-              "i": 1,
-              "fp": "啥地方|啥地方|3"
-            },
-            {
-              "t": "sound",
-              "text": "回家结婚好久好久"
-            },
-            {
-              "t": "effect",
-              "text": "啥地方桑福德是非得"
-            },
-            {
-              "t": "visual",
-              "text": "啥地方23 34 5 桑福德"
-            },
-            {
-              "t": "para",
-              "i": 2,
-              "fp": "Z都是反复|Z都是反复|5"
-            }
-          ],
-          "sequenceVersion": 1
-        }
-      },
-      {
-        "id": "n3",
-        "type": "Dialog",
-        "title": "Dialog",
-        "body": "程靖霖: 嗷嗷啊\n张老虎: 嗷嗷啊",
-        "x": 592,
-        "y": 24,
-        "width": 200,
-        "turns": [
-          {
-            "speaker": "程靖霖",
-            "line": "嗷嗷啊"
-          },
-          {
-            "speaker": "张老虎",
-            "line": "嗷嗷啊"
-          },
-          {
-            "speaker": "程靖霖",
-            "line": "嗷嗷嗷"
-          },
-          {
-            "speaker": "程靖霖",
-            "line": "你啥地方hi哦啊几个"
-          }
-        ],
-        "height": 623,
-        "manualSize": true,
-        "customFields": {
-          "_bodyBackup": {
-            "body": "程靖霖: 嗷嗷啊\n张老虎: 嗷嗷啊",
-            "turns": [
-              {
-                "speaker": "程靖霖",
-                "line": "嗷嗷啊"
-              },
-              {
-                "speaker": "张老虎",
-                "line": "嗷嗷啊"
-              },
-              {
-                "speaker": "程靖霖",
-                "line": "嗷嗷嗷"
-              }
-            ],
-            "at": "2026-10-26T13:27:22.083Z",
-            "by": "imagery-hints"
-          },
-          "sequence": [
-            {
-              "t": "visual",
-              "text": "啥地方"
-            },
             {
               "t": "turn",
               "i": 0,
-              "fp": "嗷嗷啊|嗷嗷啊|3"
+              "fp": "等会儿啊，别吱声|会儿啊，别吱声。|9"
             },
             {
               "t": "turn",
               "i": 1,
-              "fp": "嗷嗷啊|嗷嗷啊|3"
+              "fp": "出事了咱俩谁都跑|咱俩谁都跑不了。|11"
             },
             {
               "t": "turn",
               "i": 2,
-              "fp": "嗷嗷嗷|嗷嗷嗷|3"
-            },
-            {
-              "t": "sound",
-              "text": "啥地方   未发售我"
-            },
-            {
-              "t": "effect",
-              "text": "啥地方啥地方收到"
-            },
-            {
-              "t": "mood",
-              "text": "打发时光客户尽快"
+              "fp": "我送个药怎么还出|药怎么还出事呢？|11"
             },
             {
               "t": "turn",
               "i": 3,
-              "fp": "你啥地方hi哦啊|地方hi哦啊几个|10"
-            }
-          ],
-          "sequenceVersion": 1
-        }
-      },
-      {
-        "id": "n4",
-        "type": "Choice",
-        "title": "Choice",
-        "body": "啥地方",
-        "x": 992,
-        "y": 208,
-        "choices": [
-          "",
-          ""
-        ],
-        "choiceOptions": [
-          {
-            "id": "opt_1",
-            "label": "",
-            "requires": "",
-            "effects": [
-              {
-                "trigger": "onChoose",
-                "op": "set",
-                "key": "",
-                "value": ""
-              }
-            ]
-          },
-          {
-            "id": "opt_2",
-            "label": "",
-            "requires": "",
-            "effects": []
-          }
-        ],
-        "customFields": {
-          "sequence": [
-            {
-              "t": "sound",
-              "text": "啥地方是"
+              "fp": "你没懂……|你没懂……|5"
             },
             {
-              "t": "para",
-              "i": 0,
-              "fp": "啥地方|啥地方|3"
+              "t": "sound",
+              "text": "心跳加速"
+            },
+            {
+              "t": "turn",
+              "i": 4,
+              "fp": "要钱，你得等一会|，你得等一会儿。|10"
             }
           ],
           "sequenceVersion": 1,
           "_bodyBackup": {
-            "body": "",
-            "turns": null,
-            "at": "2026-10-26T13:25:09.082Z",
+            "body": "粮店伙计: 等会儿啊，别吱声。\n粮店伙计: 出事了咱俩谁都跑不了。\n程靖霖: 我送个药怎么还出事呢？\n粮店伙计: 你没懂……",
+            "turns": [
+              {
+                "speaker": "粮店伙计",
+                "line": "等会儿啊，别吱声。"
+              },
+              {
+                "speaker": "粮店伙计",
+                "line": "出事了咱俩谁都跑不了。"
+              },
+              {
+                "speaker": "程靖霖",
+                "line": "我送个药怎么还出事呢？"
+              },
+              {
+                "speaker": "粮店伙计",
+                "line": "你没懂……"
+              }
+            ],
+            "at": "2026-10-26T15:48:58.303Z",
             "by": "imagery-hints"
+          }
+        }
+      },
+      {
+        "id": "n6",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 2080,
+        "y": 0,
+        "choices": [
+          "那不行，就得要钱",
+          "你说等一会儿是什么意思？",
+          "没有钱你能给我什么？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_1",
+            "label": "那不行，就得要钱",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_2",
+            "label": "你说等一会儿是什么意思？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_3",
+            "label": "没有钱你能给我什么？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我就是个伙计，你难为我干嘛呢？没钱我不能给你东西。\n粮店伙计: 我现在没钱，你要不着急，就跟旁边等一会儿。",
+        "x": 2512,
+        "y": -240,
+        "width": 483,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我就是个伙计，你难为我干嘛呢？没钱我不能给你东西。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "我现在没钱，你要不着急，就跟旁边等一会儿。"
+          }
+        ],
+        "customFields": {
+          "_bodyBackup": {
+            "body": "",
+            "turns": [
+              {
+                "speaker": "",
+                "line": ""
+              }
+            ],
+            "at": "2026-10-26T15:52:16.935Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "turn",
+              "i": 0,
+              "fp": "我就是个伙计，你|我不能给你东西。|25"
+            },
+            {
+              "t": "turn",
+              "i": 1,
+              "fp": "我现在没钱，你要|跟旁边等一会儿。|21"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "height": 222,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3120,
+        "y": -200,
+        "choices": [
+          "等等看？",
+          "太冷了，我等你个鬼"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_4",
+            "label": "等等看？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_5",
+            "label": "太冷了，我等你个鬼",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "Content",
+        "body": "门关上了。\n\n年轻的药房伙计愣住了。\n他想了想，摸了摸怀里的药包，慢慢走到粮店门旁边。",
+        "x": 3704,
+        "y": -432,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "门关上了。|门关上了。|5"
+            },
+            {
+              "t": "sound",
+              "text": "关门声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "年轻的药房伙计愣|走到粮店门旁边。|36"
+            },
+            {
+              "t": "effect",
+              "text": "寒冷效果"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "门关上了。\n",
+            "turns": null,
+            "at": "2026-10-26T15:54:43.993Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 太冷了！药我都给你送来了，你不给钱，什么意思！\n药房伙计: 那你爱等不等！",
+        "x": 3568,
+        "y": -8,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "太冷了！药我都给你送来了，你不给钱，什么意思！"
+          },
+          {
+            "speaker": "药房伙计",
+            "line": "那你爱等不等！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Content",
+        "title": "Content",
+        "body": "门关上了。\n\n年轻的药房伙计愣住了。\n他想了想，摸了摸怀里的药包，转身向来路走去。",
+        "x": 3976,
+        "y": -24,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "门关上了。|门关上了。|5"
+            },
+            {
+              "t": "sound",
+              "text": "关门声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "年轻的药房伙计愣|转身向来路走去。|34"
+            },
+            {
+              "t": "effect",
+              "text": "寒冷效果"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "门关上了。\n",
+            "turns": null,
+            "at": "2026-10-26T15:54:43.993Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
           }
         }
       }
@@ -271,6 +589,96 @@
         "id": "l0",
         "from": "n_entry",
         "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n4",
+        "to": "n5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "n5",
+        "to": "n6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "n6",
+        "to": "n7",
+        "choiceOptionId": "opt_1",
+        "choiceIndex": 0,
+        "label": "那不行，就得要钱",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n8",
+        "to": "n9",
+        "choiceOptionId": "opt_4",
+        "choiceIndex": 0,
+        "label": "等等看？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n8",
+        "to": "n10",
+        "choiceOptionId": "opt_5",
+        "choiceIndex": 1,
+        "label": "太冷了，我等你个鬼",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n10",
+        "to": "n11",
         "toPort": {
           "side": "left",
           "t": 0.5

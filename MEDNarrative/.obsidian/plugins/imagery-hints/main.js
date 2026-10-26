@@ -71,6 +71,11 @@ function turnText(t) {
 /** 取第 i 轮的说话人 */
 function speakerOf(node, i) {
   if (!node || node.type !== 'Dialog') return '';
+  const lines = bodyLinesOf(node);
+  if (lines.length) {
+    const l = lines[i];
+    return l == null ? '' : String(parseLine(l).speaker || '').trim();
+  }
   const t = (Array.isArray(node.turns) ? node.turns : [])[i];
   return String((t && t.speaker) || '').trim();
 }
@@ -79,6 +84,13 @@ function speakerOf(node, i) {
 function displayUnit(node, i) {
   if (!Number.isInteger(i) || i < 0) return null;
   if (node && node.type === 'Dialog') {
+    const lines = bodyLinesOf(node);
+    if (lines.length) {
+      const l = lines[i];
+      if (l == null) return null;
+      const p = parseLine(l);
+      return p.speaker ? p.speaker + '：' + p.line : p.line;
+    }
     const arr = Array.isArray(node.turns) ? node.turns : [];
     const t = arr[i];
     if (!t) return null;
@@ -90,10 +102,39 @@ function displayUnit(node, i) {
   return paras[i] == null ? null : paras[i];
 }
 
+/** body → 原始行数组（去空行） */
+function bodyLinesOf(node) {
+  return String((node && node.body) || '')
+    .split('\n')
+    .map((s) => s.trim())
+    .filter((s) => s !== '');
+}
+
+/** 一行 "说话人: 台词" → {speaker, line}；无冒号则视为旁白 */
+function parseLine(l) {
+  const s = String(l == null ? '' : l);
+  const m = s.match(/^([^：:]{1,16})[：:]\s*(.*)$/);
+  return m ? { speaker: m[1].trim(), line: m[2] } : { speaker: '', line: s };
+}
+
+/** 写回 body 行数组，并同步 turns 缓存（插件以 body 为真值：turns = deriveTurns(body)） */
+function setBodyLines(node, lines) {
+  node.body = lines.join('\n');
+  node.turns = lines.map((l) => {
+    const p = parseLine(l);
+    return p.speaker ? { speaker: p.speaker, line: p.line } : { line: p.line };
+  });
+  return node.body;
+}
+
 /** 取当前段/轮的文本列表 */
 function unitsOf(node) {
   if (!node) return [];
-  if (node.type === 'Dialog') return (Array.isArray(node.turns) ? node.turns : []).map(turnText);
+  if (node.type === 'Dialog') {
+    const lines = bodyLinesOf(node);
+    if (lines.length) return lines.map((l) => parseLine(l).line);
+    return (Array.isArray(node.turns) ? node.turns : []).map(turnText);
+  }
   return splitParas(node.body);
 }
 
@@ -470,7 +511,7 @@ module.exports = class ImageryHintsPlugin extends Plugin {
         });
         row.appendChild(mark);
       }
-      row.title = '双击编辑这段正文';
+      row.title = text == null ? '未挂接 · 右键可挂接到指定' + (t === 'turn' ? '轮' : '段') : '双击编辑这段正文';
       row.addEventListener('dblclick', (ev) => {
         ev.preventDefault();
         ev.stopPropagation();
@@ -713,7 +754,13 @@ module.exports = class ImageryHintsPlugin extends Plugin {
       menu.addItem((i) => i.setTitle('下移').setIcon('arrow-down').onClick(() => this.moveBlock(node, idx, 1)));
       menu.addItem((i) => i.setTitle('删除这一块').setIcon('trash').onClick(() => this.deleteBlock(node, idx)));
     } else if (blk.t === 'para' || blk.t === 'turn') {
-      menu.addItem((i) => i.setTitle('编辑这段正文').setIcon('edit').onClick(() => this.editUnit(node, Number(blk.i))));
+      const isTurn = blk.t === 'turn';
+      if (Number(blk.i) >= 0) {
+        menu.addItem((i) => i.setTitle(isTurn ? '编辑这一轮' : '编辑这段正文').setIcon('edit').onClick(() => this.editUnit(node, Number(blk.i))));
+      } else {
+        menu.addItem((i) => i.setTitle('未挂接（找不到对应' + (isTurn ? '轮' : '段') + '）').setIcon('alert-triangle').setDisabled(true));
+      }
+      menu.addItem((i) => i.setTitle('挂接到指定' + (isTurn ? '轮' : '段') + '…').setIcon('link').onClick(() => this.pickReattach(node, idx)));
       menu.addItem((i) => i.setTitle('删除这条引用（不动正文）').setIcon('unlink').onClick(() => this.deleteBlock(node, idx)));
     }
     menu.addSeparator();
@@ -871,7 +918,6 @@ module.exports = class ImageryHintsPlugin extends Plugin {
         const view = getGraphViews(this.app).find((v) => findNode(v, node.id));
         this.pushUndo(node, '新建对话轮');
         this.backupBody(node, view);
-        if (!Array.isArray(node.turns)) node.turns = [];
         const seq = materializeSeq(node);
         let insertAt = 0;
         for (let k = seqAt - 1; k >= 0; k--) {
@@ -882,7 +928,10 @@ module.exports = class ImageryHintsPlugin extends Plugin {
           }
         }
         const sp = String(speaker || '').trim();
-        node.turns.splice(insertAt, 0, sp ? { speaker: sp, line: l } : { line: l });
+        const lines = bodyLinesOf(node);
+        insertAt = Math.max(0, Math.min(insertAt, lines.length));
+        lines.splice(insertAt, 0, sp ? sp + ': ' + l : l);
+        setBodyLines(node, lines);   /* body 是真值；setBodyLines 同步刷新 turns 缓存 */
         for (const b of seq) {
           if (b && b.t === 'turn' && Number(b.i) >= insertAt) b.i = Number(b.i) + 1;
         }
@@ -1018,24 +1067,33 @@ module.exports = class ImageryHintsPlugin extends Plugin {
     }
     if (!this.guardBodyWrite(node)) return;
     if (node.type === 'Dialog') {
-      const turns = Array.isArray(node.turns) ? node.turns : [];
-      const t = turns[i];
-      if (!t) return;
+      const rawLines = bodyLinesOf(node);
+      const rawLine = rawLines[i];
+      if (rawLine == null) {
+        new Notice('该轮已不存在');
+        return;
+      }
+      const parsed = parseLine(rawLine);
       new TurnModal(this, {
         title: '第 ' + (i + 1) + ' 轮对话',
-        speaker: String(t.speaker || ''),
-        line: String(t.line || ''),
+        speaker: String(parsed.speaker || ''),
+        line: String(parsed.line || ''),
         onSave: (speaker, line) => {
           const view = getGraphViews(this.app).find((v) => findNode(v, node.id));
           this.pushUndo(node, '编辑对话');
           this.backupBody(node, view);
           const sp = String(speaker || '').trim();
-          if (sp) t.speaker = sp;
-          else delete t.speaker;          /* 空说话人＝旁白 */
-          t.line = String(line);
+          const ln = String(line);
+          const lines = bodyLinesOf(node);
+          if (i < 0 || i >= lines.length) {
+            new Notice('该轮已不存在');
+            return;
+          }
+          lines[i] = sp ? sp + ': ' + ln : ln;
+          setBodyLines(node, lines);
           const seq = seqOf(node) || [];
           for (const b of seq) {
-            if (b && b.t === 'turn' && Number(b.i) === i) b.fp = fpOf(t.line);
+            if (b && b.t === 'turn' && Number(b.i) === i) b.fp = fpOf(ln);
           }
           commit(view);
           this.scan();
@@ -1162,34 +1220,135 @@ module.exports = class ImageryHintsPlugin extends Plugin {
     }
     const units = unitsOf(node);
     const fps = units.map(fpOf);
+    const targets = seq.filter((b) => b && (b.t === 'para' || b.t === 'turn'));
     const used = new Set();
-    let fixed = 0;
+    const done = new Set();
+    let exact = 0;
+    let adopted = 0;
     let orphan = 0;
 
-    for (const blk of seq) {
-      if (!blk || (blk.t !== 'para' && blk.t !== 'turn')) continue;
-      const want = blk.fp;
+    /* 第 1 遍：指纹精确匹配（文本没动，只是位置可能变了） */
+    for (const blk of targets) {
       let hit = -1;
       for (let k = 0; k < fps.length; k++) {
-        if (!used.has(k) && fps[k] === want) {
+        if (!used.has(k) && fps[k] === blk.fp) {
           hit = k;
           break;
         }
       }
       if (hit >= 0) {
-        if (Number(blk.i) !== hit) fixed++;
-        blk.i = hit;
         used.add(hit);
-      } else {
-        orphan++;
-        blk.i = -1;
+        blk.i = hit;
+        done.add(blk);
+        exact++;
       }
     }
+
+    /* 第 2 遍：原位采纳 —— 下标仍有效且该位未被占用，说明是「这一条被改过字」，
+       直接认下并把指纹更新为当前文本。文本改过的引用只有靠这一步才能挂回去，
+       否则会永久变成孤儿（i = -1 再也匹配不上）。 */
+    for (const blk of targets) {
+      if (done.has(blk)) continue;
+      const i = Number(blk.i);
+      if (Number.isInteger(i) && i >= 0 && i < units.length && !used.has(i)) {
+        used.add(i);
+        blk.i = i;
+        blk.fp = fps[i];
+        done.add(blk);
+        adopted++;
+      }
+    }
+
+    /* 第 2.5 遍：区间插值 —— 孤儿夹在前后两条已匹配的块之间，若中间只剩一个空位，
+       就认那个位置。典型情形：改了一条台词，其余没动；或上一轮重挂接已把它打成 -1，
+       靠这一步把它捞回来。 */
+    for (let round = 0; round < targets.length; round++) {
+      let progress = false;
+      for (let k = 0; k < targets.length; k++) {
+        const blk = targets[k];
+        if (done.has(blk)) continue;
+        let prevI = -1;
+        for (let m = k - 1; m >= 0; m--) {
+          const p = targets[m];
+          const pi = Number(p.i);
+          if (done.has(p) && Number.isInteger(pi) && pi >= 0) { prevI = pi; break; }
+        }
+        let nextI = units.length;
+        for (let m = k + 1; m < targets.length; m++) {
+          const q = targets[m];
+          const qi = Number(q.i);
+          if (done.has(q) && Number.isInteger(qi) && qi >= 0) { nextI = qi; break; }
+        }
+        const cand = [];
+        for (let x = prevI + 1; x < nextI; x++) if (!used.has(x)) cand.push(x);
+        if (cand.length === 1) {
+          const x = cand[0];
+          used.add(x);
+          blk.i = x;
+          blk.fp = fps[x];
+          done.add(blk);
+          adopted++;
+          progress = true;
+        }
+      }
+      if (!progress) break;
+    }
+
+    /* 第 3 遍：剩下的才是真孤儿（对应的段落/轮次确实没了） */
+    for (const blk of targets) {
+      if (done.has(blk)) continue;
+      blk.i = -1;
+      orphan++;
+    }
+
     this.pushUndo(node, '重新挂接引用');
     commit(view);
     this.scan();
     this.scheduleCheck();
-    new Notice('重挂接完成：修正 ' + fixed + ' 条，未挂接 ' + orphan + ' 条');
+    new Notice('重挂接：精确 ' + exact + ' 条、原位采纳 ' + adopted + ' 条、未挂接 ' + orphan + ' 条', 6000);
+  }
+
+  /** 列出本卡的段落/轮次，供手动挂接 */
+  pickReattach(node, blockIdx) {
+    const seq = seqOf(node);
+    const blk = seq && seq[blockIdx];
+    if (!blk) return;
+    const units = unitsOf(node);
+    const isTurn = node.type === 'Dialog';
+    const menu = new Menu();
+    menu.addItem((i) => i.setTitle('挂接到指定' + (isTurn ? '轮' : '段')).setDisabled(true));
+    if (!units.length) {
+      menu.addItem((i) => i.setTitle('（本卡没有可挂接的' + (isTurn ? '轮次' : '段落') + '）').setDisabled(true));
+    }
+    units.forEach((u, k) => {
+      const shown = displayUnit(node, k);
+      menu.addItem((i) =>
+        i
+          .setTitle((Number(blk.i) === k ? '✓ ' : '') + (k + 1) + '. ' + String(shown == null ? u : shown).slice(0, 26))
+          .onClick(() => this.reattachBlock(node, blockIdx, k))
+      );
+    });
+    menu.showAtPosition({ x: 260, y: 240 });
+  }
+
+  reattachBlock(node, blockIdx, unitIdx) {
+    const view = getGraphViews(this.app).find((v) => findNode(v, node.id));
+    const seq = seqOf(node);
+    const blk = seq && seq[blockIdx];
+    if (!blk) return;
+    const units = unitsOf(node);
+    if (units[unitIdx] == null) {
+      new Notice('目标位置不存在');
+      return;
+    }
+    this.pushUndo(node, '手动挂接');
+    blk.i = unitIdx;
+    blk.fp = fpOf(units[unitIdx]);
+    delete blk.conflict;
+    commit(view);
+    this.scan();
+    this.scheduleCheck();
+    new Notice('已挂接到第 ' + (unitIdx + 1) + (node.type === 'Dialog' ? ' 轮' : ' 段'));
   }
 
   toggleAllCollapsed() {
