@@ -3,11 +3,11 @@
   "savedAt": "2026-10-26T12:23:21.999Z",
   "ui": {
     "view": {
-      "x": -88.31789338885346,
-      "y": 439.40315684844944,
-      "scale": 1.7075336384126816
+      "x": 125.27589732113438,
+      "y": 402.6051677850087,
+      "scale": 0.3215383215000009
     },
-    "selectedNodeId": "n3",
+    "selectedNodeId": "n57",
     "selectedLinkId": null
   },
   "project": {
@@ -19,8 +19,8 @@
       {
         "id": "n_entry",
         "type": "Entry",
-        "x": -336,
-        "y": -40,
+        "x": 140,
+        "y": 80,
         "width": 440,
         "height": 88,
         "body": "Adventure Begins",
@@ -36,21 +36,12 @@
         }
       },
       {
-        "id": "n1",
-        "type": "End",
-        "x": 2080,
-        "y": -456,
-        "width": 440,
-        "height": 88,
-        "body": ""
-      },
-      {
         "id": "n2",
         "type": "Content",
         "title": "Content",
         "body": "",
-        "x": 240,
-        "y": -152,
+        "x": 730,
+        "y": 80,
         "customFields": {
           "sequence": [
             {
@@ -97,8 +88,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "门里的人: 谁呀？\n程靖霖: 我是小程子，时一堂的伙计，来送药。\n门里的人: 药呢，带来了吗？\n程靖霖: 带了带了。",
-        "x": 752,
-        "y": -136,
+        "x": 1242,
+        "y": 80,
         "width": 316,
         "turns": [
           {
@@ -107,7 +98,7 @@
           },
           {
             "speaker": "程靖霖",
-            "line": "小程子，时一堂的伙计，来送药。"
+            "line": "我是小程子，时一堂的伙计，来送药。"
           },
           {
             "speaker": "门里的人",
@@ -166,6 +157,10 @@
               "t": "turn",
               "i": 3,
               "fp": "带了带了。|带了带了。|5"
+            },
+            {
+              "t": "effect",
+              "text": "药包+1"
             }
           ],
           "sequenceVersion": 1
@@ -188,8 +183,8 @@
         "type": "Content",
         "title": "Content",
         "body": "粮店伙计打开一条门缝，从里面探出头来。他左右望望没人，压低声音对程靖霖说：",
-        "x": 1224,
-        "y": -120,
+        "x": 1708,
+        "y": 80,
         "customFields": {
           "sequence": [
             {
@@ -228,9 +223,9 @@
         "id": "n5",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "粮店伙计: 等会儿啊，别吱声。\n粮店伙计: 出事了咱俩谁都跑不了。\n程靖霖: 我送个药怎么还出事呢？\n粮店伙计: 你没懂……",
-        "x": 1608,
-        "y": -144,
+        "body": "粮店伙计: 等会儿啊，别吱声。\n粮店伙计: 出事了咱俩谁都跑不了。\n程靖霖: 我送个药怎么还出事呢？\n粮店伙计: 你没懂……\n粮店伙计: 要钱，你得等一会儿。",
+        "x": 2118,
+        "y": 80,
         "width": 307,
         "turns": [
           {
@@ -324,8 +319,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 2080,
-        "y": 0,
+        "x": 2575,
+        "y": 80,
         "choices": [
           "那不行，就得要钱",
           "你说等一会儿是什么意思？",
@@ -367,8 +362,8 @@
         "type": "Dialog",
         "title": "Dialog",
         "body": "程靖霖: 我就是个伙计，你难为我干嘛呢？没钱我不能给你东西。\n粮店伙计: 我现在没钱，你要不着急，就跟旁边等一会儿。",
-        "x": 2512,
-        "y": -240,
+        "x": 3205,
+        "y": 80,
         "width": 483,
         "turns": [
           {
@@ -424,8 +419,8 @@
         "type": "Choice",
         "title": "Choice",
         "body": "",
-        "x": 3120,
-        "y": -200,
+        "x": 6488,
+        "y": 80,
         "choices": [
           "等等看？",
           "太冷了，我等你个鬼"
@@ -460,8 +455,8 @@
         "type": "Content",
         "title": "Content",
         "body": "门关上了。\n\n年轻的药房伙计愣住了。\n他想了想，摸了摸怀里的药包，慢慢走到粮店门旁边。",
-        "x": 3704,
-        "y": -432,
+        "x": 7118,
+        "y": 80,
         "customFields": {
           "sequence": [
             {
@@ -506,9 +501,9 @@
         "id": "n10",
         "type": "Dialog",
         "title": "Dialog",
-        "body": "程靖霖: 太冷了！药我都给你送来了，你不给钱，什么意思！\n药房伙计: 那你爱等不等！",
-        "x": 3568,
-        "y": -8,
+        "body": "程靖霖: 太冷了！药我都给你送来了，你不给钱，什么意思！\n粮店伙计: 那你爱等不等！",
+        "x": 7118,
+        "y": 372,
         "width": 200,
         "turns": [
           {
@@ -516,7 +511,7 @@
             "line": "太冷了！药我都给你送来了，你不给钱，什么意思！"
           },
           {
-            "speaker": "药房伙计",
+            "speaker": "粮店伙计",
             "line": "那你爱等不等！"
           }
         ],
@@ -536,8 +531,8 @@
         "type": "Content",
         "title": "Content",
         "body": "门关上了。\n\n年轻的药房伙计愣住了。\n他想了想，摸了摸怀里的药包，转身向来路走去。",
-        "x": 3976,
-        "y": -24,
+        "x": 7748,
+        "y": 80,
         "customFields": {
           "sequence": [
             {
@@ -567,6 +562,2210 @@
             "by": "imagery-hints"
           }
         },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "End",
+        "title": "End",
+        "body": "进入下一幕",
+        "x": 9638,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n13",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 你说等一会儿是什么意思？一会儿你就能变出钱来？\n粮店伙计: 哎呀，也跟你解释不清楚。\n粮店伙计: 你要是能等就等会儿，不能等就回去吧。",
+        "x": 3205,
+        "y": 414,
+        "width": 424,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "你说等一会儿是什么意思？一会儿你就能变出钱来？"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "哎呀，也跟你解释不清楚。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "你要是能等就等会儿，不能等就回去吧。"
+          }
+        ],
+        "height": 146,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n14",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 哎哎？没有钱你能给我什么？\n粮店伙计: 我倒是有能换药的东西，你敢收吗？",
+        "x": 3205,
+        "y": 728,
+        "width": 341,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "哎哎？没有钱你能给我什么？"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "我倒是有能换药的东西，你敢收吗？"
+          }
+        ],
+        "height": 119,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 3838,
+        "y": 80,
+        "choices": [
+          "你敢给我就敢收",
+          "到底是什么玩意"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_6",
+            "label": "你敢给我就敢收",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_7",
+            "label": "到底是什么玩意",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "Content",
+        "body": "门里的人更加焦急了一点。他的话音变得急促起来。",
+        "x": 4468,
+        "y": 80,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "门里的人更加焦急|音变得急促起来。|23"
+            },
+            {
+              "t": "mood",
+              "text": "粮店伙计焦虑"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粮店伙计: 查出来掉脑袋！\n粮店伙计: 听明白了吗？\n粮店伙计: 你敢吗？\n粮店伙计: 敢就收，不敢就一边儿去！",
+        "x": 5098,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "粮店伙计",
+            "line": "查出来掉脑袋！"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "听明白了吗？"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "你敢吗？"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "敢就收，不敢就一边儿去！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 5448,
+        "y": 80,
+        "choices": [
+          "有什么不敢的？",
+          "掉脑袋的事儿？"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_8",
+            "label": "有什么不敢的？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_9",
+            "label": "掉脑袋的事儿？",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "width": 260,
+        "height": 100,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Content",
+        "title": "Content",
+        "body": "药房伙计比粮店伙计更急一点。他想早点回药房去，回到熟悉的炉子旁边。",
+        "x": 5858,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n20",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 敢收！你赶紧拿出来吧！太冷了，我要回去了！\n粮店伙计: 你要这么说，那等着！\n粮店伙计: 把药包准备好！",
+        "x": 6488,
+        "y": 346,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "敢收！你赶紧拿出来吧！太冷了，我要回去了！"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "你要这么说，那等着！"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "把药包准备好！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n21",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粮店伙计: 没跟你开玩笑。\n粮店伙计: 要不你就等等，一会儿就有钱了。",
+        "x": 5858,
+        "y": 346,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "粮店伙计",
+            "line": "没跟你开玩笑。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "要不你就等等，一会儿就有钱了。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "Content",
+        "body": "门缝开大了一点。\n\n粮店伙计探出半个身子，手里是一个布袋。\n他看看程靖霖，伸出手。",
+        "x": 7118,
+        "y": 693,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "sound",
+              "text": "吱呀开门声"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "门缝开大了一点。|门缝开大了一点。|8"
+            },
+            {
+              "t": "sound",
+              "text": "窸窣的麻袋声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "粮店伙计探出半个|程靖霖，伸出手。|31"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "门缝开大了一点。",
+            "turns": null,
+            "at": "2026-10-27T14:43:01.804Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粮店伙计: 快点！给我药。\n粮店伙计: 这个是……",
+        "x": 7748,
+        "y": 372,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "粮店伙计",
+            "line": "快点！给我药。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "这个是……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "Content",
+        "body": "他的话还没说完，突然之间，尖利的哨声响起。",
+        "x": 8378,
+        "y": 80,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "他的话还没说完，|尖利的哨声响起。|21"
+            },
+            {
+              "t": "sound",
+              "text": "吹哨"
+            },
+            {
+              "t": "effect",
+              "text": "屏幕振动"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 捕まえろ！\n伪警察甲: 站在那别动！\n伪警察乙: 袋子里是什么！",
+        "x": 9008,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "捕まえろ！"
+          },
+          {
+            "speaker": "伪警察甲",
+            "line": "站在那别动！"
+          },
+          {
+            "speaker": "伪警察乙",
+            "line": "袋子里是什么！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Content",
+        "title": "Content",
+        "body": "布袋磕在冻土上，袋口张开。程靖霖这才看清里面装的是什么。\n\n白花花的大米从袋子里漏出来，撒了一地。\n\n他刚才答应了收下。\n\n程靖霖转头看向身后，一名日本警尉正带着两个全身黑的警察跑向这里。",
+        "x": 9638,
+        "y": 346,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "布袋磕在冻土上，|里面装的是什么。|28"
+            },
+            {
+              "t": "sound",
+              "text": "米袋落地声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "白花花的大米从袋|出来，撒了一地。|19"
+            },
+            {
+              "t": "mood",
+              "text": "恐惧"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "他刚才答应了收下|刚才答应了收下。|9"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "程靖霖愣了一下，他不知道为何会这样。\n\n粮店伙计手里的布袋掉到地上，袋口散开。白花花的大米从袋子里漏出来，撒了一地。",
+            "turns": null,
+            "at": "2026-10-27T14:48:54.341Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 経済犯！捕まえろ！",
+        "x": 10268,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "経済犯！捕まえろ！"
+          }
+        ],
+        "customFields": {
+          "_bodyBackup": {
+            "body": "中野三郎: 経済犯！",
+            "turns": [
+              {
+                "speaker": "中野三郎",
+                "line": "経済犯！"
+              }
+            ],
+            "at": "2026-10-27T14:48:07.690Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n28",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 10618,
+        "y": 80,
+        "choices": [
+          "逃走（身手）",
+          "呆立",
+          "辩解（眼力）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_10",
+            "label": "转身就跑（身手）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_11",
+            "label": "站着不动",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_12",
+            "label": "掏出药包（眼力）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n29",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖的双腿战抖起来。他转身便跑，他知道，也见过“经济犯”的下场。\n\n他的眼前变得狭窄，只剩下跌跌撞撞的脚步与湿滑泥泞、被雪和土搅成泥浆的狭窄道路。\n在他身后，日本警尉拔出了手枪。",
+        "x": 15378,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "_bodyBackup": {
+            "body": "程靖霖的双腿战抖起来。他转身便跑，他知道，也见过“经济犯”的下场。",
+            "turns": null,
+            "at": "2026-10-27T14:51:56.215Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "程靖霖的双腿战抖|经济犯”的下场。|33"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "他的眼前变得狭窄|警尉拔出了手枪。|55"
+            },
+            {
+              "t": "sound",
+              "text": "枪响"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n30",
+        "type": "End",
+        "title": "End",
+        "body": "因“经济犯”嫌疑被枪杀",
+        "x": 16008,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖的双腿战抖起来。他想跑，但双腿如同生根般一动不动。\n直到两个警察按住他，将他倒剪双臂按住，他才意识到发生了什么。",
+        "x": 11248,
+        "y": 80,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "程靖霖的双腿战抖|识到发生了什么。|59"
+            },
+            {
+              "t": "sound",
+              "text": "急促心跳声"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 11878,
+        "y": 80,
+        "choices": [
+          "喊冤",
+          "沉默"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_13",
+            "label": "喊冤",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_14",
+            "label": "沉默",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 时一堂的。送药。\n程靖霖: 他没现钱，让我等着。\n伪警察甲: 你这包里是什么？\n程靖霖: 药。\n伪警察甲: 那地上这个呢？",
+        "x": 12776,
+        "y": -520,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "时一堂的。送药。"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "他没现钱，让我等着。"
+          },
+          {
+            "speaker": "伪警察甲",
+            "line": "你这包里是什么？"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "药。"
+          },
+          {
+            "speaker": "伪警察甲",
+            "line": "那地上这个呢？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖不知道该怎么给自己辩解。\n药房伙计张了张嘴，舌头冻住了。\n他说不出话来，只能任由警察摆布。",
+        "x": 18311,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n35",
+        "type": "Content",
+        "title": "Content",
+        "body": "没有人知道警察把他带去了哪里。\n几天之后，程靖霖的尸体从警署地牢里被拖了出来。\n一条十七岁的人命消失了。但这在冬天的通兰县城里，并不离奇。\n对于1942年的东北来说，再寻常不过。",
+        "x": 18941,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n36",
+        "type": "End",
+        "title": "End",
+        "body": "被捕后被羁押冻死",
+        "x": 19571,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n37",
+        "type": "Content",
+        "title": "Content",
+        "body": "日本警尉走过程靖霖面前，一脚踹开了粮店半掩着的木门。\n\n门后，粮店伙计已经瘫倒在地。\n\n日本警尉看了他一眼，解开腰间的手枪皮套，拔出手枪，对准了地上瘫软如泥的人。",
+        "x": 13376,
+        "y": -160,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "日本警尉走过程靖|店半掩着的木门。|26"
+            },
+            {
+              "t": "sound",
+              "text": "踹门声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "门后，粮店伙计已|计已经瘫倒在地。|14"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "日本警尉看了他一|上瘫软如泥的人。|37"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "日本警尉走过程靖霖面前，一脚踹开了粮店半掩着的木门。\n\n门后，粮店伙计已经瘫倒在地。",
+            "turns": null,
+            "at": "2026-10-27T15:02:04.685Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n38",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 你的，经济犯的干活。\n粮店伙计: ……",
+        "x": 13768,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "你的，经济犯的干活。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 340,
+        "manualSize": true
+      },
+      {
+        "id": "n39",
+        "type": "Content",
+        "title": "Content",
+        "body": "日本警尉面无表情地把手枪收回腰间，回过头来看看仍然被警察按住的程靖霖。",
+        "x": 18941,
+        "y": 401,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "sequence": [
+            {
+              "t": "sound",
+              "text": "枪声"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "日本警尉面无表情|察按住的程靖霖。|35"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 他的，不是。\n中野三郎: 放走。",
+        "x": 19571,
+        "y": 346,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "他的，不是。"
+          },
+          {
+            "speaker": "中野三郎",
+            "line": "放走。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n41",
+        "type": "Content",
+        "title": "Content",
+        "body": "警察依言放开了他。\n\n程靖霖的帽子掉在地上。他依然惊恐地看着眼前的一切，没有回过神来。\n\n一个警察在他屁股后面踹了一下。",
+        "x": 20201,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "_bodyBackup": {
+            "body": "警察依言放开了他。\n\n程靖霖的帽子掉在地上。他依然惊恐地看着眼前的一切，没有回过神来。",
+            "turns": null,
+            "at": "2026-10-27T15:06:45.431Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "警察依言放开了他|察依言放开了他。|9"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "程靖霖的帽子掉在|，没有回过神来。|32"
+            },
+            {
+              "t": "sound",
+              "text": "踢人的闷响"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "一个警察在他屁股|股后面踹了一下。|15"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n42",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "伪警察甲: 你小子命好！太君开恩了！\n伪警察甲: 快滚！",
+        "x": 20831,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "伪警察甲",
+            "line": "你小子命好！太君开恩了！"
+          },
+          {
+            "speaker": "伪警察甲",
+            "line": "快滚！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n43",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖无暇多想，捡起帽子，仓皇地向来路奔去。\n县城的北面多了一具尸体，但他还活着。",
+        "x": 21181,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n44",
+        "type": "Content",
+        "title": "Content",
+        "body": "进入下一幕",
+        "x": 21811,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n45",
+        "type": "End",
+        "title": "End",
+        "body": "进入下一幕",
+        "x": 22441,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n46",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 8378,
+        "y": 346,
+        "choices": [
+          "再等等看？",
+          "太冷了，我等你个鬼"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_15",
+            "label": "再等等看？",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_16",
+            "label": "太冷了，我等你个鬼",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "sequence": [
+            {
+              "t": "effect",
+              "text": "寒冷"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n47",
+        "type": "Content",
+        "title": "Content",
+        "body": "冷是一种时间长度。\n\n程靖霖在粮店附近跺了很多次脚，但并没有什么事情发生。",
+        "x": 7748,
+        "y": 640,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n48",
+        "type": "Content",
+        "title": "Content",
+        "body": "实在是太冷了。年轻的药房伙计搓了搓生疼的耳朵，又摸了摸怀里的药包，转身向来路走去。",
+        "x": 9008,
+        "y": 421,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "实在是太冷了。年|转身向来路走去。|41"
+            },
+            {
+              "t": "sound",
+              "text": "踩雪声"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "实在是太冷了。年轻的药房伙计不想再受冻了。",
+            "turns": null,
+            "at": "2026-10-27T15:11:37.205Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n49",
+        "type": "Content",
+        "title": "Content",
+        "body": "忽然间，有一个行色匆匆的人穿过北大道。\n\n他一边过路，一边左顾右盼。\n他看见了程靖霖，犹疑了一下，还是走到了粮店门前，敲响了门。",
+        "x": 9008,
+        "y": 687,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "忽然间，有一个行|的人穿过北大道。|19"
+            },
+            {
+              "t": "sound",
+              "text": "脚步声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "他一边过路，一边|门前，敲响了门。|43"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "忽然间，有一个行色匆匆的人穿过北大道。",
+            "turns": null,
+            "at": "2026-10-27T15:12:47.795Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n50",
+        "type": "Content",
+        "title": "Content",
+        "body": "来人的手在门板上敲着，眼睛却还是望着程靖霖这边。\n\n粮店里的人打开了门。",
+        "x": 9638,
+        "y": 696,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "sound",
+              "text": "敲门声"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "来人的手在门板上|望着程靖霖这边。|24"
+            },
+            {
+              "t": "sound",
+              "text": "吱呀开门声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "粮店里的人打开了|里的人打开了门。|10"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "来人的手在门板上敲着，眼睛却还是望着程靖霖这边。",
+            "turns": null,
+            "at": "2026-10-27T15:14:17.673Z",
+            "by": "imagery-hints"
+          }
+        },
+        "width": 396,
+        "height": 327,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n51",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粮店伙计: （低声）来啦？钱呢？\n买米的人: （低声）在这儿呢。米呢？\n粮店伙计: （低声）你看看旁边有没有一个伙计模样的小孩崽子，叫他过来！\n买米的人: 你嘟嘟囔囔说什么呢？",
+        "x": 10268,
+        "y": 346,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "粮店伙计",
+            "line": "（低声）来啦？钱呢？"
+          },
+          {
+            "speaker": "买米的人",
+            "line": "（低声）在这儿呢。米呢？"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "（低声）你看看旁边有没有一个伙计模样的小孩崽子，叫他过来！"
+          },
+          {
+            "speaker": "买米的人",
+            "line": "你嘟嘟囔囔说什么呢？"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n52",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 10618,
+        "y": 346,
+        "choices": [
+          "凑过去",
+          "原地不动（眼力）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_17",
+            "label": "凑过去",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_18",
+            "label": "原地不动（眼力）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n53",
+        "type": "Content",
+        "title": "Content",
+        "body": "他的话还没说完，突然之间，尖利的哨声响起。",
+        "x": 11248,
+        "y": 346,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "他的话还没说完，|尖利的哨声响起。|21"
+            },
+            {
+              "t": "sound",
+              "text": "吹哨"
+            },
+            {
+              "t": "effect",
+              "text": "屏幕振动"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n54",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖感觉这事儿跟自己有关系。\n\n他跺了跺有点麻木的脚，走向粮店门口。\n\n粮店伙计从门里探出半个身子，手里捏着一个布袋，对那个后来的人急促地说着什么。",
+        "x": 11248,
+        "y": 612,
+        "customFields": {
+          "_bodyBackup": {
+            "body": "程靖霖感觉这事儿跟自己有关系。\n\n他跺了跺有点麻木的脚，走向粮店门口。\n\n粮店伙计探出半个身子，手里捏着一个布袋，对那个后来的人急促地说着什么。",
+            "turns": null,
+            "at": "2026-10-27T15:17:40.874Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "程靖霖感觉这事儿|儿跟自己有关系。|15"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "他跺了跺有点麻木|，走向粮店门口。|18"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "粮店伙计从门里探|急促地说着什么。|38"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n55",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "粮店伙计: 快把钱给我。\n粮店伙计: 你赶紧走。\n买米的人: 我得看看啊！\n粮店伙计: 不要命了！\n粮店伙计: 你快点，我还要拿钱换药呢。",
+        "x": 11878,
+        "y": 346,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "粮店伙计",
+            "line": "快把钱给我。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "你赶紧走。"
+          },
+          {
+            "speaker": "买米的人",
+            "line": "我得看看啊！"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "不要命了！"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "你快点，我还要拿钱换药呢。"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n56",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 捕まえろ！\n伪警察甲: 站在那别动！\n伪警察乙: 袋子里是什么！",
+        "x": 11878,
+        "y": 858,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "捕まえろ！"
+          },
+          {
+            "speaker": "伪警察甲",
+            "line": "站在那别动！"
+          },
+          {
+            "speaker": "伪警察乙",
+            "line": "袋子里是什么！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n57",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖离得还远。他只看见那只布袋从谁手里滑下去，落在两个人脚边，袋口张开。\n\n白花花的大米从袋子里漏出来，撒了一地。\n\n程靖霖转头看向身旁，一名日本警尉正带着两个全身黑的警察跑向这里。",
+        "x": 12508,
+        "y": 467,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "程靖霖离得还远。|脚边，袋口张开。|37"
+            },
+            {
+              "t": "sound",
+              "text": "米袋落地声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "白花花的大米从袋|出来，撒了一地。|19"
+            },
+            {
+              "t": "mood",
+              "text": "恐惧"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "程靖霖转头看向身|的警察跑向这里。|32"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "程靖霖愣了一下，他不知道为何会这样。\n\n粮店伙计手里的布袋掉到地上，袋口散开。白花花的大米从袋子里漏出来，撒了一地。",
+            "turns": null,
+            "at": "2026-10-27T14:48:54.341Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n58",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 経済犯！捕まえろ！",
+        "x": 13138,
+        "y": 430,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "経済犯！捕まえろ！"
+          }
+        ],
+        "customFields": {
+          "_bodyBackup": {
+            "body": "中野三郎: 経済犯！",
+            "turns": [
+              {
+                "speaker": "中野三郎",
+                "line": "経済犯！"
+              }
+            ],
+            "at": "2026-10-27T14:48:07.690Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n59",
+        "type": "Content",
+        "title": "Content",
+        "body": "那个买米的人转身便跑。\n\n程靖霖看到，在他身后，日本警尉拔出了手枪。\n\n买米的人应声栽倒。\n\n日本警尉走过程靖霖面前，一脚踹开了粮店半掩着的木门。\n\n门后，粮店伙计已经瘫倒在地。\n\n日本警尉看了他一眼，手枪的枪口对准了地上瘫软如泥的人。",
+        "x": 13768,
+        "y": 544,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "_bodyBackup": {
+            "body": "那个买米的人转身便跑。\n\n程靖霖看到，在他身后，日本警尉拔出了手枪。\n\n买米的人应声栽倒。\n\n日本警尉走过程靖霖面前，一脚踹开了粮店半掩着的木门。\n\n门后，粮店伙计已经瘫倒在地。\n\n日本警尉看了他一眼，解开腰间的手枪皮套，拔出手枪，对准了地上瘫软如泥的人。",
+            "turns": null,
+            "at": "2026-10-27T15:22:26.617Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "那个买米的人转身|米的人转身便跑。|11"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "程靖霖看到，在他|警尉拔出了手枪。|21"
+            },
+            {
+              "t": "sound",
+              "text": "枪响"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "买米的人应声栽倒|米的人应声栽倒。|9"
+            },
+            {
+              "t": "para",
+              "i": 3,
+              "fp": "日本警尉走过程靖|店半掩着的木门。|26"
+            },
+            {
+              "t": "sound",
+              "text": "踹门声"
+            },
+            {
+              "t": "para",
+              "i": 4,
+              "fp": "门后，粮店伙计已|计已经瘫倒在地。|14"
+            },
+            {
+              "t": "para",
+              "i": 5,
+              "fp": "日本警尉看了他一|上瘫软如泥的人。|27"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "width": 260,
+        "height": 706,
+        "manualSize": true
+      },
+      {
+        "id": "n60",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 你的，经济犯的干活。\n粮店伙计: ……",
+        "x": 14398,
+        "y": 80,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "你的，经济犯的干活。"
+          },
+          {
+            "speaker": "粮店伙计",
+            "line": "……"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "height": 340,
+        "manualSize": true
+      },
+      {
+        "id": "n61",
+        "type": "Content",
+        "title": "Content",
+        "body": "日本警尉面无表情地把手枪收回腰间，回过头来看看站在路边，呆若木鸡的程靖霖。\n\n那日本人向两个警察招了招手。\n被招呼的人便上前收拾大米和尸体，日本警尉自顾自地从来路走了回去。",
+        "x": 14748,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "sequence": [
+            {
+              "t": "sound",
+              "text": "枪声"
+            },
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "日本警尉面无表情|若木鸡的程靖霖。|37"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "那日本人向两个警|从来路走了回去。|47"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "日本警尉面无表情地把手枪收回腰间，回过头来看看站在路边，呆若木鸡的程靖霖。",
+            "turns": null,
+            "at": "2026-10-27T15:24:12.973Z",
+            "by": "imagery-hints"
+          }
+        },
+        "width": 260,
+        "height": 449,
+        "manualSize": true
+      },
+      {
+        "id": "n62",
+        "type": "Content",
+        "title": "Content",
+        "body": "程靖霖在那里站了一会儿。\n枪声也惊动了附近的人，有人站住看了一眼，就像什么也没看见那样走开了。\n药房伙计想，虽然白跑了一趟，但是，似乎也该回家了。\n\n于是，他转回身，慢慢向来路走去。",
+        "x": 15378,
+        "y": 401,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "_bodyBackup": {
+            "body": "程靖霖在那里站了一会儿。\n枪声也惊动了附近的人，有人站住看了一眼，就像什么也没看见那样走开了。\n药房伙计想，虽然白跑了一趟，但是，似乎也该回家了。",
+            "turns": null,
+            "at": "2026-10-27T15:25:58.054Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "程靖霖在那里站了|似乎也该回家了。|73"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "于是，他转回身，|慢慢向来路走去。|16"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n63",
+        "type": "Content",
+        "title": "Content",
+        "body": "他的话还没说完，突然之间，尖利的哨声响起。",
+        "x": 12508,
+        "y": 817,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "他的话还没说完，|尖利的哨声响起。|21"
+            },
+            {
+              "t": "sound",
+              "text": "吹哨"
+            },
+            {
+              "t": "effect",
+              "text": "屏幕振动"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n64",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 捕まえろ！\n伪警察甲: 站在那别动！\n伪警察乙: 袋子里是什么！",
+        "x": 13138,
+        "y": 696,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "捕まえろ！"
+          },
+          {
+            "speaker": "伪警察甲",
+            "line": "站在那别动！"
+          },
+          {
+            "speaker": "伪警察乙",
+            "line": "袋子里是什么！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n65",
+        "type": "Content",
+        "title": "Content",
+        "body": "粮店伙计的手松了。布袋落地那一声，比刚才压低了的那些话都要响。\n\n白花花的大米从袋子里漏出来，撒了一地。\n\n他刚刚听完的那笔买卖，现在摊在冻土上。\n\n程靖霖转头看向身后，一名日本警尉正带着两个全身黑的警察跑向这里。",
+        "x": 13768,
+        "y": 1411,
+        "customFields": {
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "粮店伙计的手松了|的那些话都要响。|31"
+            },
+            {
+              "t": "sound",
+              "text": "米袋落地声"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "白花花的大米从袋|出来，撒了一地。|19"
+            },
+            {
+              "t": "mood",
+              "text": "恐惧"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "他刚刚听完的那笔|现在摊在冻土上。|19"
+            }
+          ],
+          "sequenceVersion": 1,
+          "_bodyBackup": {
+            "body": "程靖霖愣了一下，他不知道为何会这样。\n\n粮店伙计手里的布袋掉到地上，袋口散开。白花花的大米从袋子里漏出来，撒了一地。",
+            "turns": null,
+            "at": "2026-10-27T14:48:54.341Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n66",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 経済犯！捕まえろ！",
+        "x": 14398,
+        "y": 544,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "経済犯！捕まえろ！"
+          }
+        ],
+        "customFields": {
+          "_bodyBackup": {
+            "body": "中野三郎: 経済犯！",
+            "turns": [
+              {
+                "speaker": "中野三郎",
+                "line": "経済犯！"
+              }
+            ],
+            "at": "2026-10-27T14:48:07.690Z",
+            "by": "imagery-hints"
+          }
+        },
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n67",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 14748,
+        "y": 664,
+        "choices": [
+          "逃走（身手）",
+          "呆立",
+          "辩解（眼力）"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_19",
+            "label": "转身就跑（身手）",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_20",
+            "label": "站着不动",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_21",
+            "label": "说我是路过的（眼力）",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n70",
+        "type": "Content",
+        "title": "Content",
+        "body": "那个买米的人转身便跑。\n\n程靖霖看到，在他身后，日本警尉拔出了手枪。\n\n买米的人应声栽倒。\n\n日本警尉走过程靖霖面前，一脚踹开了粮店半掩着的木门。\n\n门后，粮店伙计已经瘫倒在地。\n\n日本警尉饶有兴致地看着两个人，仿佛在看蟋蟀盆里的两只蛐蛐。",
+        "x": 16008,
+        "y": 346,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "_bodyBackup": {
+            "body": "那个买米的人转身便跑。\n\n程靖霖看到，在他身后，日本警尉拔出了手枪。\n\n买米的人应声栽倒。\n\n日本警尉走过程靖霖面前，一脚踹开了粮店半掩着的木门。\n\n门后，粮店伙计已经瘫倒在地。\n\n日本警尉看了他一眼，解开腰间的手枪皮套，拔出手枪，对准了地上瘫软如泥的人。",
+            "turns": null,
+            "at": "2026-10-27T15:22:26.617Z",
+            "by": "imagery-hints"
+          },
+          "sequence": [
+            {
+              "t": "para",
+              "i": 0,
+              "fp": "那个买米的人转身|米的人转身便跑。|11"
+            },
+            {
+              "t": "para",
+              "i": 1,
+              "fp": "程靖霖看到，在他|警尉拔出了手枪。|21"
+            },
+            {
+              "t": "sound",
+              "text": "枪响"
+            },
+            {
+              "t": "para",
+              "i": 2,
+              "fp": "买米的人应声栽倒|米的人应声栽倒。|9"
+            },
+            {
+              "t": "para",
+              "i": 3,
+              "fp": "日本警尉走过程靖|店半掩着的木门。|26"
+            },
+            {
+              "t": "sound",
+              "text": "踹门声"
+            },
+            {
+              "t": "para",
+              "i": 4,
+              "fp": "门后，粮店伙计已|计已经瘫倒在地。|14"
+            },
+            {
+              "t": "para",
+              "i": 5,
+              "fp": "日本警尉饶有兴致|盆里的两只蛐蛐。|29"
+            }
+          ],
+          "sequenceVersion": 1
+        },
+        "width": 260,
+        "height": 706,
+        "manualSize": true
+      },
+      {
+        "id": "n71",
+        "type": "Choice",
+        "title": "Choice",
+        "body": "",
+        "x": 17681,
+        "y": 80,
+        "choices": [
+          "沉默",
+          "辩解"
+        ],
+        "choiceOptions": [
+          {
+            "id": "opt_22",
+            "label": "沉默",
+            "requires": "",
+            "effects": []
+          },
+          {
+            "id": "opt_23",
+            "label": "辩解",
+            "requires": "",
+            "effects": []
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n72",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "中野三郎: 你们的，什么的干活？",
+        "x": 16638,
+        "y": 80,
+        "width": 263,
+        "turns": [
+          {
+            "speaker": "中野三郎",
+            "line": "你们的，什么的干活？"
+          }
+        ],
+        "height": 157,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n73",
+        "type": "Content",
+        "title": "Content",
+        "body": "他的枪口指向药房伙计。两个警察按住他的肩膀，将他按住。",
+        "x": 17051,
+        "y": 80,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n74",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我是城南头，时一堂的伙计，我是来送药的！\n程靖霖: 为什么要抓我！",
+        "x": 18311,
+        "y": 346,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我是城南头，时一堂的伙计，我是来送药的！"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "为什么要抓我！"
+          }
+        ],
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        },
+        "customFields": {
+          "sequence": [
+            {
+              "t": "turn",
+              "i": 0,
+              "fp": "我是城南头，时一|，我是来送药的！|20"
+            },
+            {
+              "t": "turn",
+              "i": 1,
+              "fp": "为什么要抓我！|为什么要抓我！|7"
+            }
+          ],
+          "sequenceVersion": 1
+        }
+      },
+      {
+        "id": "n75",
+        "type": "Dialog",
+        "title": "Dialog",
+        "body": "程靖霖: 我是路过的！太君，我是路过的！\n程靖霖: 我什么也没干！",
+        "x": 15376,
+        "y": 1056,
+        "width": 200,
+        "turns": [
+          {
+            "speaker": "程靖霖",
+            "line": "我是路过的！太君，我是路过的！"
+          },
+          {
+            "speaker": "程靖霖",
+            "line": "我什么也没干！"
+          }
+        ],
         "ports": {
           "input": {
             "side": "left",
@@ -674,6 +2873,714 @@
         "id": "l9",
         "from": "n10",
         "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n6",
+        "to": "n13",
+        "choiceOptionId": "opt_2",
+        "choiceIndex": 1,
+        "label": "你说等一会儿是什么意思？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "n13",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "n6",
+        "to": "n14",
+        "choiceOptionId": "opt_3",
+        "choiceIndex": 2,
+        "label": "没有钱你能给我什么？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n15",
+        "to": "n16",
+        "choiceOptionId": "opt_7",
+        "choiceIndex": 1,
+        "label": "到底是什么玩意",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n16",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n18",
+        "to": "n19",
+        "choiceOptionId": "opt_8",
+        "choiceIndex": 0,
+        "label": "有什么不敢的？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "n15",
+        "to": "n19",
+        "choiceOptionId": "opt_6",
+        "choiceIndex": 0,
+        "label": "你敢给我就敢收",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "n18",
+        "to": "n21",
+        "choiceOptionId": "opt_9",
+        "choiceIndex": 1,
+        "label": "掉脑袋的事儿？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n21",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n19",
+        "to": "n20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n20",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n24",
+        "to": "n25",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n27",
+        "to": "n28",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n28",
+        "to": "n29",
+        "choiceOptionId": "opt_10",
+        "choiceIndex": 0,
+        "label": "逃走（身手）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n29",
+        "to": "n30",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n28",
+        "to": "n31",
+        "choiceOptionId": "opt_11",
+        "choiceIndex": 1,
+        "label": "呆立",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n31",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "n32",
+        "to": "n33",
+        "choiceOptionId": "opt_13",
+        "choiceIndex": 0,
+        "label": "喊冤",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "n32",
+        "to": "n34",
+        "choiceOptionId": "opt_14",
+        "choiceIndex": 1,
+        "label": "沉默",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n34",
+        "to": "n35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n35",
+        "to": "n36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n33",
+        "to": "n37",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n37",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l40",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l42",
+        "from": "n40",
+        "to": "n41",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l43",
+        "from": "n41",
+        "to": "n42",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l44",
+        "from": "n42",
+        "to": "n43",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l45",
+        "from": "n43",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l46",
+        "from": "n44",
+        "to": "n45",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l47",
+        "from": "n9",
+        "to": "n47",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l48",
+        "from": "n47",
+        "to": "n46",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l49",
+        "from": "n46",
+        "to": "n48",
+        "choiceOptionId": "opt_16",
+        "choiceIndex": 1,
+        "label": "太冷了，我等你个鬼",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l50",
+        "from": "n46",
+        "to": "n49",
+        "choiceOptionId": "opt_15",
+        "choiceIndex": 0,
+        "label": "再等等看？",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l51",
+        "from": "n49",
+        "to": "n50",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l52",
+        "from": "n50",
+        "to": "n51",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l53",
+        "from": "n51",
+        "to": "n52",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l54",
+        "from": "n52",
+        "to": "n54",
+        "choiceOptionId": "opt_17",
+        "choiceIndex": 0,
+        "label": "凑过去",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l55",
+        "from": "n54",
+        "to": "n55",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l56",
+        "from": "n52",
+        "to": "n53",
+        "choiceOptionId": "opt_18",
+        "choiceIndex": 1,
+        "label": "原地不动（眼力）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l57",
+        "from": "n53",
+        "to": "n56",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l58",
+        "from": "n56",
+        "to": "n57",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l59",
+        "from": "n57",
+        "to": "n58",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l60",
+        "from": "n58",
+        "to": "n59",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l61",
+        "from": "n60",
+        "to": "n61",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l62",
+        "from": "n59",
+        "to": "n60",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l63",
+        "from": "n61",
+        "to": "n62",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l64",
+        "from": "n62",
+        "to": "n44",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l65",
+        "from": "n55",
+        "to": "n63",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l66",
+        "from": "n63",
+        "to": "n64",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l67",
+        "from": "n64",
+        "to": "n65",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l68",
+        "from": "n65",
+        "to": "n66",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l69",
+        "from": "n66",
+        "to": "n67",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l72",
+        "from": "n67",
+        "to": "n70",
+        "choiceOptionId": "opt_20",
+        "choiceIndex": 1,
+        "label": "呆立",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l73",
+        "from": "n67",
+        "to": "n29",
+        "choiceOptionId": "opt_19",
+        "choiceIndex": 0,
+        "label": "逃走（身手）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l74",
+        "from": "n70",
+        "to": "n72",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l75",
+        "from": "n72",
+        "to": "n73",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l76",
+        "from": "n73",
+        "to": "n71",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l77",
+        "from": "n71",
+        "to": "n34",
+        "choiceOptionId": "opt_22",
+        "choiceIndex": 0,
+        "label": "沉默",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l78",
+        "from": "n71",
+        "to": "n74",
+        "choiceOptionId": "opt_23",
+        "choiceIndex": 1,
+        "label": "辩解",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l79",
+        "from": "n48",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l80",
+        "from": "n28",
+        "to": "n33",
+        "choiceOptionId": "opt_12",
+        "choiceIndex": 2,
+        "label": "辩解（眼力）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l81",
+        "from": "n67",
+        "to": "n75",
+        "choiceOptionId": "opt_21",
+        "choiceIndex": 2,
+        "label": "辩解（眼力）",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l82",
+        "from": "n75",
+        "to": "n70",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l83",
+        "from": "n74",
+        "to": "n39",
         "toPort": {
           "side": "left",
           "t": 0.5
