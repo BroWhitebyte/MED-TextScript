@@ -1,0 +1,1515 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-28T13:50:53.930Z",
+  "ui": {
+    "view": {
+      "x": -1598.217794776173,
+      "y": 161.70433444712296,
+      "scale": 1.2210412408025995
+    },
+    "selectedNodeId": null,
+    "selectedLinkId": null
+  },
+  "project": {
+    "title": "MED 总纲 · 游戏进程规划",
+    "notes": "线性总纲：六块连续，块间用一句过渡问题相连。不是事件件，不进 Flows 统计。",
+    "variables": [],
+    "characters": [],
+    "nodes": [
+      {
+        "id": "k1",
+        "type": "Content",
+        "title": "一 · 一句话",
+        "body": "先说清楚这是什么。别的都从这句话推出来。",
+        "x": 140,
+        "y": 80,
+        "customFields": {
+          "kind": "block",
+          "num": "一",
+          "order": 0
+        },
+        "width": 1500,
+        "height": 150,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n2",
+        "type": "Content",
+        "title": "1.1 作者定位",
+        "body": "这是一个关于日常的游戏。\n1942 年，伪满洲国一个县城的日常。\n\n对玩家来说这是另一个世界。\n不是因为那里有战争，\n而是因为在那里，摔死、被煤烟熏死、\n被当街一枪打死，都不算意外，\n是生活的一部分。",
+        "x": 1790,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "1.1",
+          "order": 1
+        },
+        "width": 1320,
+        "height": 414,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n3",
+        "type": "Content",
+        "title": "1.2 它不是三种东西",
+        "body": "不是求生游戏：目标不是活下去，是过日子。\n不是解谜：没有谜底，只有谁的米、\n　谁的药、谁没有回来。\n不是时代剧：没有人给你讲这个时代，\n　你只是活在里面，然后知道。",
+        "x": 3260,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "1.2",
+          "order": 2
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n4",
+        "type": "Content",
+        "title": "1.3 电梯稿",
+        "body": "1942 年初，哈尔滨旁一个小县城。\n一个药房伙计靠送药换粮、换煤、换人情，\n活过二十九天。",
+        "x": 4730,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "1.3",
+          "order": 3
+        },
+        "width": 1320,
+        "height": 184,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "t5",
+        "type": "Content",
+        "title": "↓",
+        "body": "这句话要求它长成什么样？",
+        "x": 6200,
+        "y": 80,
+        "customFields": {
+          "kind": "junction",
+          "num": "",
+          "order": 4
+        },
+        "width": 1080,
+        "height": 110,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "k6",
+        "type": "Content",
+        "title": "二 · 因此它必须是什么样子",
+        "body": "特征不是卖点，是这句话逼出来的写法。六条，四条是硬的。",
+        "x": 7430,
+        "y": 80,
+        "customFields": {
+          "kind": "block",
+          "num": "二",
+          "order": 5
+        },
+        "width": 1500,
+        "height": 150,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n7",
+        "type": "Content",
+        "title": "2.1 不解释",
+        "body": "肃杀不是把血写浓，\n是让人照常过日子，血在旁边干。\n\n全篇没有一处「因为……所以」，\n全是「于是」。\n它不是剧情，是天气。",
+        "x": 9080,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "2.1",
+          "order": 6
+        },
+        "width": 1320,
+        "height": 322,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n8",
+        "type": "Content",
+        "title": "2.2 情感由物件给出",
+        "body": "叙述者不宣布任何情绪。\n谁把参推回来、谁先动筷子、谁站在暗处——\n情绪由物件、账目、路程、时辰、病痛给出。\n\n零抒情，零内心独白。\n要说的都在桌面上。",
+        "x": 10550,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "2.2",
+          "order": 7
+        },
+        "width": 1320,
+        "height": 322,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n9",
+        "type": "Content",
+        "title": "2.3 制度背锅，坏人不背锅",
+        "body": "压力来自制度与物资，不来自某个恶人。\n\n粮谷奉纳、配给、勤劳奉仕、保甲连坐、\n鸦片专卖——\n每一桩冲突都要能追到一条可查的规矩。\n追不到规矩、只能追到一个人的，那就是没写透。",
+        "x": 12020,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "2.3",
+          "order": 8
+        },
+        "width": 1320,
+        "height": 322,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n10",
+        "type": "Content",
+        "title": "2.4 玩家在读人，不在读规则",
+        "body": "一千五百五十七次决策，按停留时间排队：\n\n有人提要求、需要权衡的——\n警察登门 7.30 秒，送药 5.83 秒，\n脚行 5.60 秒。\n规则、机制、连点的——\n叶子戏 2.48 秒，梦境 1.88 秒。\n\n玩家用停留时间投票：他们想听人说话。\n倒挂也在这里：序章吃掉 411 次选择、\n占全片四分之一，却几乎不给世界信息。",
+        "x": 13490,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "2.4",
+          "order": 9
+        },
+        "width": 1320,
+        "height": 552,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n11",
+        "type": "Content",
+        "title": "2.5 极乐迪斯科，只借三条",
+        "body": "对话即检定。无战斗。失败推进而非阻断。\n\n前两条已经成立。\n第三条现在是反的——\n五十三局里三十一局死于非命，\n三十三局快速重开。\n死亡在这里是退场，不是推进。",
+        "x": 14960,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "2.5",
+          "order": 10
+        },
+        "width": 1320,
+        "height": 368,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n12",
+        "type": "Content",
+        "title": "2.6 长度与结局",
+        "body": "长度：二十九天 × 六段 = 一百七十四个时段格。\n这是「过日子」的刻度，不是关卡数。\n\n结局：三十八处 End，只有五处带字。\n结构上现在还没有多结局，只有中断点。",
+        "x": 16430,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "2.6",
+          "order": 11
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "t13",
+        "type": "Content",
+        "title": "↓",
+        "body": "那么开头怎么开？",
+        "x": 17900,
+        "y": 80,
+        "customFields": {
+          "kind": "junction",
+          "num": "",
+          "order": 12
+        },
+        "width": 1080,
+        "height": 110,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "k14",
+        "type": "Content",
+        "title": "三 · 开头",
+        "body": "以新序章0 为准。七十三节点，一夜的事。",
+        "x": 19130,
+        "y": 80,
+        "customFields": {
+          "kind": "block",
+          "num": "三",
+          "order": 13
+        },
+        "width": 1500,
+        "height": 150,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n15",
+        "type": "Content",
+        "title": "3.1 第一屏",
+        "body": "黑屏。踩雪的脚步声。\n字幕：1942 年 1 月 30 日，通兰县城，黄昏。\n脚步声停。敲门三下。",
+        "x": 20780,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "3.1",
+          "order": 14
+        },
+        "width": 1320,
+        "height": 184,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n16",
+        "type": "Content",
+        "title": "3.2 米袋：一件事，三种知情",
+        "body": "米始终在粮店伙计手上，没有人换手。\n差别只在程靖霖知道多少：\n\nA 答应了抵账，不知是米。\nB 什么都没听说。\nC 听过一句「米呢」。\n\n同一件事，三种前因。",
+        "x": 22250,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "3.2",
+          "order": 15
+        },
+        "width": 1320,
+        "height": 414,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n17",
+        "type": "Content",
+        "title": "3.3 三种人，三种收场",
+        "body": "A 共犯——米袋落地是揭示加打脸，\n　他掏出药包，那是真物证；\n　放走，看着伙计死。\n\nB 路人——第一次看见，不用辩，\n　被无视，回家。\n\nC 目击者——印证加反噬，\n　他撒谎说「太君，我是路过的」，\n　被指认，交出蟋蟀盆，再选一次。",
+        "x": 23720,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "3.3",
+          "order": 16
+        },
+        "width": 1320,
+        "height": 506,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n18",
+        "type": "Content",
+        "title": "3.4 这是全作第一块中期代价层",
+        "body": "前因不同、文本不同、后果不同，\n但一个节点都没有新增。\n\n七十三节点全通，序列零漂移。\n项目里第一次让「知道多少」变成代价。",
+        "x": 25190,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "3.4",
+          "order": 17
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n19",
+        "type": "Content",
+        "title": "3.5 眼下的短板",
+        "body": "「太冷走人」只有四百一十四字。\n离场型选项被系统性冷落：\n四十二人里七个、四十一人里四个。\n\n要不要补，是另一个决定。",
+        "x": 26660,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "3.5",
+          "order": 18
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "t20",
+        "type": "Content",
+        "title": "↓",
+        "body": "从这一夜往后，二十九天怎么排？",
+        "x": 28130,
+        "y": 80,
+        "customFields": {
+          "kind": "junction",
+          "num": "",
+          "order": 19
+        },
+        "width": 1080,
+        "height": 110,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "k21",
+        "type": "Content",
+        "title": "四 · 二十九天怎么走",
+        "body": "过程不是二十九集任务，是同一天重复二十九次，每次都不一样。",
+        "x": 29360,
+        "y": 80,
+        "customFields": {
+          "kind": "block",
+          "num": "四",
+          "order": 0
+        },
+        "width": 1500,
+        "height": 150,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n22",
+        "type": "Content",
+        "title": "4.1 六段是一天的呼吸",
+        "body": "清晨结算、上午出门、下午回程、\n黄昏在街面、夜晚是主戏、午夜写死事件。\n\n不是六个关卡，\n是同一天被切成六口气。",
+        "x": 31010,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "4.1",
+          "order": 1
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n23",
+        "type": "Content",
+        "title": "4.2 每段出多少件",
+        "body": "清晨 1　上午 1–2　下午 1–2\n黄昏 1　夜晚 1　午夜 0–1\n\n合计一天 5.5–7 件。实测平均 6.3 件。",
+        "x": 32480,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "4.2",
+          "order": 2
+        },
+        "width": 1320,
+        "height": 230,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n24",
+        "type": "Content",
+        "title": "4.3 实测速率",
+        "body": "三个满日平均：\n每天 433 节点、两万一千字、6.3 件。\n\n现有 25 件：1,507 节点，七万九千字\n（含台词与选项；只算正文约六万九千）。",
+        "x": 33950,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "4.3",
+          "order": 3
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n25",
+        "type": "Content",
+        "title": "4.4 满量是多少",
+        "body": "二十九天排满：\n约一百八十件、一万二千五百节点、五十五到六十一万字。\n\n现在完成度：件一成四、节点一成二、字数一成二。\n这个数不是承诺，只是让「还差多少」有个数。",
+        "x": 35420,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "4.4",
+          "order": 4
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n26",
+        "type": "Content",
+        "title": "4.5 自由窗的位置",
+        "body": "203 下午自由窗、302 自由任务日，是填充件，\n不介入文学叙事。\n\n例外已被点名放回：脚行、聚春馆。",
+        "x": 36890,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "4.5",
+          "order": 5
+        },
+        "width": 1320,
+        "height": 230,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n27",
+        "type": "Content",
+        "title": "4.6 还没定的一个口径",
+        "body": "第三天算二月三日，还是并进二月二日？\n\n这个不定，\n六段乘二十九天那张矩阵的列数就定不下来。",
+        "x": 38360,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "4.6",
+          "order": 6
+        },
+        "width": 1320,
+        "height": 230,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "t28",
+        "type": "Content",
+        "title": "↓",
+        "body": "走完这二十九天，落在哪里？",
+        "x": 39830,
+        "y": 80,
+        "customFields": {
+          "kind": "junction",
+          "num": "",
+          "order": 7
+        },
+        "width": 1080,
+        "height": 110,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "k29",
+        "type": "Content",
+        "title": "五 · 拿什么做",
+        "body": "现有资产可以一句话说完：文字，加一个能把文字存住的插件。",
+        "x": 41060,
+        "y": 80,
+        "customFields": {
+          "kind": "block",
+          "num": "五",
+          "order": 8
+        },
+        "width": 1500,
+        "height": 150,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n30",
+        "type": "Content",
+        "title": "5.1 文本",
+        "body": "25 件，1,507 节点，七万九千字。\n正文直算约六万九千，差额在台词与选项。\n引用时必须说明用哪一条口径。",
+        "x": 42710,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "5.1",
+          "order": 9
+        },
+        "width": 1320,
+        "height": 184,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n31",
+        "type": "Content",
+        "title": "5.2 人",
+        "body": "角色卡四十六张。\n带「结局／去向」一栏的：零张。\n\n还缺两张：老高，三百零六的主要说话人；\n？？？，一百零六的梦境声音，等命名。",
+        "x": 44180,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "5.2",
+          "order": 10
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n32",
+        "type": "Content",
+        "title": "5.3 底账",
+        "body": "研究卷宗一百五十一份。\n抗联 OCR 全文库：两千一百三十二本、六十五万页，\n在 D 盘，不在仓库里。\n\n那个库的全文索引三字起才能全词匹配，\n两字词查不到，别拿它下结论。",
+        "x": 45650,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "5.3",
+          "order": 11
+        },
+        "width": 1320,
+        "height": 322,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n33",
+        "type": "Content",
+        "title": "5.4 美术、音乐、动画：零",
+        "body": "游戏美术零张、音频零件、视频零件。\n\n这不是缺口，是取舍。\n要画先画物件不画人：\n药包、米袋、蟋蟀盆、炉子、冰面。\n四张能盖住两个必死门的全部征兆。",
+        "x": 47120,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "5.4",
+          "order": 12
+        },
+        "width": 1320,
+        "height": 322,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n34",
+        "type": "Content",
+        "title": "5.5 承载",
+        "body": "五个插件在跑，能存文字、能画结构。\n放不了声音，也放不了图。\n\n所以「以文本为主」不是定位选择，\n是眼下唯一成立的形态。",
+        "x": 48590,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "5.5",
+          "order": 13
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "t35",
+        "type": "Content",
+        "title": "↓",
+        "body": "最后落在哪里？",
+        "x": 50060,
+        "y": 80,
+        "customFields": {
+          "kind": "junction",
+          "num": "",
+          "order": 14
+        },
+        "width": 1080,
+        "height": 110,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "k36",
+        "type": "Content",
+        "title": "六 · 落在哪里",
+        "body": "结局不是命运的裁决，是生活的中断。",
+        "x": 51290,
+        "y": 80,
+        "customFields": {
+          "kind": "block",
+          "num": "六",
+          "order": 15
+        },
+        "width": 1500,
+        "height": 150,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n37",
+        "type": "Content",
+        "title": "6.1 不问成了谁，问怎么没过完",
+        "body": "不问「你成了谁」，\n问「你怎么没能过完这个冬天」。\n\n所以结局不是判词，是一句没说完的话。",
+        "x": 52940,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "6.1",
+          "order": 16
+        },
+        "width": 1320,
+        "height": 230,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n38",
+        "type": "Content",
+        "title": "6.2 四层，只有两层能动",
+        "body": "时代背景：不可选。\n　1942 年冬、粮谷奉纳、配给、勤劳奉仕、\n　保甲连坐、宪兵。\n\n县域命运：可动。成、毁、换手、被遗忘——\n　现在是零个节点。\n\n人物去向：四十六个人，零个去向。\n玩家因果：零条件、零效果、变量表全空。",
+        "x": 54410,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "6.2",
+          "order": 17
+        },
+        "width": 1320,
+        "height": 460,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n39",
+        "type": "Content",
+        "title": "6.3 现在只有五个中断点",
+        "body": "106 三处：进入下一时段、煤气中毒、直接退出。\n204 一处：抵抗被枪杀。\n306 一处：DEMO END。\n\n常说的「六处结局」少一处——\n正好是空缺的那一处。",
+        "x": 55880,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "6.3",
+          "order": 18
+        },
+        "width": 1320,
+        "height": 322,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "n40",
+        "type": "Content",
+        "title": "6.4 因果要先有地方挂",
+        "body": "没有条件、没有效果、没有变量，\n选择就只能在文本里分叉。\n\n要多结局，先接线。\n不接线，这一块写什么都等于没写。",
+        "x": 57350,
+        "y": 80,
+        "customFields": {
+          "kind": "item",
+          "num": "6.4",
+          "order": 19
+        },
+        "width": 1320,
+        "height": 276,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "t41",
+        "type": "Content",
+        "title": "↓",
+        "body": "回到一：如果结局只是中断，\n「活过二十九天」这句话还成立吗？\n由第二十九天回答。",
+        "x": 58820,
+        "y": 80,
+        "customFields": {
+          "kind": "junction",
+          "num": "",
+          "order": 20
+        },
+        "width": 1080,
+        "height": 110,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "z_entry",
+        "type": "Entry",
+        "title": "MED 总纲",
+        "body": "1942 · 伪满洲国 · 通兰县城\n一句话 / 特征 / 开头 / 过程 / 资产 / 结局",
+        "x": 60050,
+        "y": 80,
+        "customFields": {
+          "kind": "entry"
+        },
+        "width": 900,
+        "height": 230,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      },
+      {
+        "id": "z_read",
+        "type": "Content",
+        "title": "怎么读这份东西",
+        "body": "按一条线读：一→二→三→四→五→六，最后回到一。\n左列是一二三，右列是四五六，翻页处有一根长线。\n\n每块末尾那句「↓」不是标题，是交给下一块的问题。\n块与块之间靠这一句连着，不是靠并列。",
+        "x": 61100,
+        "y": 80,
+        "customFields": {
+          "kind": "howto"
+        },
+        "width": 1320,
+        "height": 230,
+        "manualSize": true,
+        "ports": {
+          "input": {
+            "side": "left",
+            "t": 0.5
+          },
+          "output": {
+            "side": "right",
+            "t": 0.5
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "id": "l0",
+        "from": "k1",
+        "to": "n2",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l1",
+        "from": "n2",
+        "to": "n3",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l2",
+        "from": "n3",
+        "to": "n4",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l3",
+        "from": "n4",
+        "to": "t5",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l4",
+        "from": "t5",
+        "to": "k6",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l5",
+        "from": "k6",
+        "to": "n7",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l6",
+        "from": "n7",
+        "to": "n8",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l7",
+        "from": "n8",
+        "to": "n9",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l8",
+        "from": "n9",
+        "to": "n10",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l9",
+        "from": "n10",
+        "to": "n11",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l10",
+        "from": "n11",
+        "to": "n12",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l11",
+        "from": "n12",
+        "to": "t13",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l12",
+        "from": "t13",
+        "to": "k14",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l13",
+        "from": "k14",
+        "to": "n15",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l14",
+        "from": "n15",
+        "to": "n16",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l15",
+        "from": "n16",
+        "to": "n17",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l16",
+        "from": "n17",
+        "to": "n18",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l17",
+        "from": "n18",
+        "to": "n19",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l18",
+        "from": "n19",
+        "to": "t20",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l19",
+        "from": "t20",
+        "to": "k21",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l20",
+        "from": "k21",
+        "to": "n22",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l21",
+        "from": "n22",
+        "to": "n23",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l22",
+        "from": "n23",
+        "to": "n24",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l23",
+        "from": "n24",
+        "to": "n25",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l24",
+        "from": "n25",
+        "to": "n26",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l25",
+        "from": "n26",
+        "to": "n27",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l26",
+        "from": "n27",
+        "to": "t28",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l27",
+        "from": "t28",
+        "to": "k29",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l28",
+        "from": "k29",
+        "to": "n30",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l29",
+        "from": "n30",
+        "to": "n31",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l30",
+        "from": "n31",
+        "to": "n32",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l31",
+        "from": "n32",
+        "to": "n33",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l32",
+        "from": "n33",
+        "to": "n34",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l33",
+        "from": "n34",
+        "to": "t35",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l34",
+        "from": "t35",
+        "to": "k36",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l35",
+        "from": "k36",
+        "to": "n37",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l36",
+        "from": "n37",
+        "to": "n38",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l37",
+        "from": "n38",
+        "to": "n39",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l38",
+        "from": "n39",
+        "to": "n40",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l39",
+        "from": "n40",
+        "to": "t41",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l40",
+        "from": "z_entry",
+        "to": "z_read",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      },
+      {
+        "id": "l41",
+        "from": "z_read",
+        "to": "k1",
+        "toPort": {
+          "side": "left",
+          "t": 0.5
+        }
+      }
+    ]
+  }
+}
