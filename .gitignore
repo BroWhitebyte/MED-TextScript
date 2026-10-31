@@ -23,3 +23,6 @@ _handoff/
 #   - bookmap.json：本机 OCR 库的书名映射，换机器必然不同，由库在线时重新生成。
 tools/med-canvas-verify/.cache/
 tools/med-canvas-verify/bookmap.json
+
+# Office 临时锁文件（~$xxx.docx/pptx），每次打开文档都会生成，不入库
+~$*
