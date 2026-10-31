@@ -3,6 +3,9 @@ name: tonglan-narrative-style
 description: 伪满洲国 1942 年「通兰」世界的个人写作与叙事规范：冷硬白描 + 物证叙事 + 空间为纲 + 零度叙述。适用于历史小说与章节写作、MED 类游戏事件文本（动作指向·结算·条件·转场语法）、研究卷宗转叙事、人物对白与场景设计。当需要写「白描为基、去形容词、情感靠物证自证、时代用语精确」的中文文本，或需要按 MED 事件件规范产出可被解析的游戏文本时使用本技能；写机核系考据/评测/新闻体请改用 baiguangda-writing-style。
 ---
 
+> **只读镜像（2026-10-31）**：唯一维护源在 `S:\Downloads\MED Project\.dsh\skills\tonglan-narrative-style\`。
+> 禁止在本文件修改；同步与校验：`node tools/sync_skills.js [--fix]`。
+
 # 通兰叙事法
 
 > 一句话内核：**点子先行 · 白描为基 · 术语分层 · 物证叙事 · 空间为纲**

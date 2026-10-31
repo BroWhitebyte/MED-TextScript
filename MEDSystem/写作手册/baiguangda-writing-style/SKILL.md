@@ -4,6 +4,9 @@ description: 模仿机核网（GCORES）资深编辑白广大（人称“老白�
 whenToUse: 用户要求以“老白/白广大/机核风格”写作游戏文化考据、评测、新闻、悼念、访谈等中文长文，或要求“用白广大的文风/口吻”输出时使用；也用于在生成中文文章后检查是否沾染 AI 腔。
 ---
 
+> **只读镜像（2026-10-31）**：唯一维护源在 `S:\Downloads\MED Project\.dsh\skills\baiguangda-writing-style\`。
+> 禁止在本文件修改；同步与校验：`node tools/sync_skills.js [--fix]`。
+
 # 白广大写作风格指南
 
 ## 〇、风格总览
