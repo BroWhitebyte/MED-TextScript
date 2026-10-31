@@ -1,0 +1,17 @@
+id	kind	status	owner	next	updated	superseded_by	note
+D2-05B	design	superseded	—	—	2026-08-25	D2-06	问罪线作废（「父亲还是姐姐」）
+H72	hook	blocked	用户	自看原文件后定形态	2026-08-25		传话挂起
+H74	hook	active	—	金坠子线	2026-08-25		
+H75	hook	active	—	同和居挂账	2026-08-25		
+H76	hook	active	—	金粒子折算记账（比例待定）	2026-08-25		
+H77	hook	active	—	瓷瓶酒（催化道具）	2026-08-25		
+H78	hook	active	—	小年回信（D4–D6 回收）	2026-08-25		
+H79	hook	done	—	—	2026-10-31		老韩下屯子，2/2 脚行戏取消
+208	event	done	—	—	2026-08-25		深夜段定稿
+000	event	active	—	机械索引待跑（lint/index）	2026-10-31		手工 000-史料索引.md 已建
+000-index	index	pending	—	scan_events → lint → index	2026-10-31		Event 000 新序章0
+T3	design	blocked	策划	定 T3 阈值与收束日	2026-10-31		T3=25／收束 24 vs T3=22／收束 26
+FREE	design	blocked	策划	定每日自由交互日程	2026-10-31		3/4/5 阶升为口述值
+FEAR	design	blocked	策划	恐惧与饥饿/寒冷/贫穷是否合轴	2026-10-31		
+ENDING	design	blocked	策划	结局三族结构（势力／个人／生存）	2026-10-31		
+C7-C10	doc	pending	—	报告附录 C.7–C.10	2026-10-31		双读数／结局族／战役／第一周
