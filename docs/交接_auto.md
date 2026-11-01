@@ -1,6 +1,6 @@
 # 交接（自动生成部分）
 
-> 生成：2026-11-01 07:39｜HEAD `e9ccc63`｜本文件由 `med handoff` 覆盖，人工内容写 `docs/交接.md`。
+> 生成：2026-11-01 07:44｜HEAD `87fc8ba`｜本文件由 `med handoff` 覆盖，人工内容写 `docs/交接.md`。
 
 ## 阻塞
 
@@ -41,10 +41,10 @@
 ## 最近提交
 
 ```
+87fc8ba 工具：一次性手术脚本归档到 tools/archive（四个），日常只留六命令与体检脚本
+e66dddf 插件：med.js 六命令接线（check/brief/index/query/refs/handoff）
 e9ccc63 手册：拆为入口页与段模板；新增 med brief 简报命令
 e2e9576 工具：新增 med_check，画布与登记/索引对账（首跑：未登记7、未索引3）
 f9d2775 工具：新增 scan_canon，检查文档日期与农历是否偏离 canon（79 行扫描 0 冲突）
 e698f7f 定案：四份设计定案合并为索引，关键结论与待定项归位
-cec5bae 清单：九份问题清单合并为总表，开放/关闭分类
-b206d77 口径：规则入 canon/rules.tsv，裁定档案入库，_tools 原件改指针
 ```
