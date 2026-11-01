@@ -8,8 +8,8 @@ H77	hook	active	—	瓷瓶酒（催化道具）	2026-08-25
 H78	hook	active	—	小年回信（D4–D6 回收）	2026-08-25		
 H79	hook	done	—	—	2026-10-31		老韩下屯子，2/2 脚行戏取消
 208	event	done	—	—	2026-08-25		深夜段定稿
-000	event	active	—	机械索引待跑（lint/index）	2026-10-31		手工 000-史料索引.md 已建
-000-index	index	pending	—	scan_events → lint → index	2026-10-31		Event 000 新序章0
+000	event	done	—	—	2026-11-01		机械索引 000_索引.md 已生成（lint 0 error/7 warn）
+000-index	index	done	—	—	2026-11-01		Event 000 新序章0
 T3	design	blocked	策划	定 T3 阈值与收束日	2026-10-31		T3=25／收束 24 vs T3=22／收束 26
 FREE	design	blocked	策划	定每日自由交互日程	2026-10-31		3/4/5 阶升为口述值
 FEAR	design	blocked	策划	恐惧与饥饿/寒冷/贫穷是否合轴	2026-10-31		
